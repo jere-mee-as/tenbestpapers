@@ -310,8 +310,8 @@ function makeSent(cfg){
     if(anim && !reduced) paths.forEach((p, i) => { const L = p.getTotalLength(); p.style.strokeDasharray = L + ' ' + (L + 4); p.style.strokeDashoffset = L + 2; p.getBoundingClientRect();
       p.style.transition = `stroke-dashoffset ${Math.min(.5, .15 + L/1400)}s ease-out ${i ? .12 + i*.012 : 0}s`; p.style.strokeDashoffset = 0; }); }
   if(cfg.branch){ const ro = new ResizeObserver(() => { if(S.classList.contains('on')) stems(false); }); ro.observe(S); }
-  const _body = body; body = function(){ _body(); if(cfg.branch) requestAnimationFrame(() => stems(true)); };
-  return {start(){ path = []; head(false); body(); }, open(p){ path = p.slice(); head(false); body(); S.scrollTop = 0; }, filter, enter, shown(){ steps(); if(cfg.branch) requestAnimationFrame(() => stems(false)); }};
+  const _body = body; body = function(){ if(typeof HIST === 'function') HIST(); _body(); if(cfg.branch) requestAnimationFrame(() => stems(true)); };
+  return {depth(){ return path.length; }, up(){ if(path.length) back(path.length - 1); }, start(){ path = []; head(false); body(); }, open(p){ path = p.slice(); head(false); body(); S.scrollTop = 0; }, filter, enter, shown(){ steps(); if(cfg.branch) requestAnimationFrame(() => stems(false)); }};
 }
 const T = makeSent({sec: 'sent', h: 'sh', b: 'sb', st: 'steps'});
 
@@ -329,7 +329,9 @@ const OL = (() => {
     return [b, isOpen]; }
   const searching = () => !!(QRY && totalHits());
   /* searching culls what's showing but opens nothing; whatever you had open stays open if it still matches */
-  function render(){ head(); B.innerHTML = ''; const q = searching(); const list = el('div', 'otree');
+  /* open branches you can actually see (every parent open too), oldest first: these are the layers the back button walks */
+  const vis = () => [...open].filter(k => { const p = k.split('.'); for(let i = 1; i < p.length; i++) if(!open.has(p.slice(0, i).join('.'))) return false; return true; });
+  function render(){ if(typeof HIST === 'function') HIST(); head(); B.innerHTML = ''; const q = searching(); const list = el('div', 'otree');
     if(QRY && !q){ list.appendChild(el('div', 'lay', 'nothing mentions “' + $('find').value.trim() + '”')); B.appendChild(list); return; }
     P.forEach((s, si) => { const sh = q ? sHits(si) : null; if(q && !sh.length) return; const k0 = key(si);
       const [b0, o0] = row(s.n, q ? plural(sh.length, W[2]) : plural(s.u.length, W[1]), k0, 0, ico(0, si)); const w0 = el('div', 'onode'); w0.appendChild(b0);
@@ -353,7 +355,7 @@ const OL = (() => {
   function filter(q){ QRY = q; render(); if(!reduced && q) SND.tick(1.6); }
   function openPath(p){ open.add(key(p[0])); open.add(key(p[0], p[1])); open.add(key(p[0], p[1], p[2])); render();
     const b = B.querySelector(`[data-k="${key(p[0], p[1], p[2])}"]`); if(b) b.scrollIntoView({block: 'center', behavior: reduced ? 'auto' : 'smooth'}); }
-  return {start(){ render(); S.querySelector('.wrap').insertBefore(ctl(), B); }, open: openPath, filter, enter(){}, shown(){ ph('search…'); }};
+  return {depth(){ return vis().length; }, up(){ const v = vis(); if(v.length){ open.delete(v[v.length - 1]); render(); } }, start(){ render(); S.querySelector('.wrap').insertBefore(ctl(), B); }, open: openPath, filter, enter(){}, shown(){ ph('search…'); }};
 })();
 
 /* =================== STEMS: the old left-to-right tree, columns joined by smooth curves =================== */
@@ -367,7 +369,7 @@ const SM = (() => {
     if(d === 2) return sel[1] == null ? [] : P[sel[0]].u[sel[1]].t.map(ti => ({t: P[sel[0]].t[ti].t, i: ti})).filter(x => !q || tHit(sel[0], x.i));
     return sel[2] == null ? [] : shownFacts(P[sel[0]].t[sel[2]]).map((k, n) => ({k, i: n})); }
   const mark = txt => { const f = document.createDocumentFragment(), i = QRY ? nrm(txt).indexOf(QRY) : -1; if(i < 0){ f.append(txt); return f; } f.append(txt.slice(0, i), el('mark', null, txt.slice(i, i + QRY.length)), txt.slice(i + QRY.length)); return f; };
-  function render(){ const key = sel.join('/') + '|' + QRY, was = drawn.split('|')[0].split('/'), grewAt = was.findIndex((v, i) => v !== String(sel[i])); drawn = key;
+  function render(){ if(typeof HIST === 'function') HIST(); const key = sel.join('/') + '|' + QRY, was = drawn.split('|')[0].split('/'), grewAt = was.findIndex((v, i) => v !== String(sel[i])); drawn = key;
     box.querySelectorAll('.scol').forEach(c => c.remove());
     for(let d = 0; d < 4; d++){ const its = items(d); const c = el('div', 'scol c' + d); if(!its.length){ box.appendChild(c); continue; }
       its.forEach((x, n) => { if(d < 3){ const b = el('button', 'sit'); b.style.setProperty('--n', n); const ic = d < 2 ? ico(d, d === 0 ? x.i : sel[0], x.i) : null; if(ic) b.append(ic); const t = el('span', 'st'); t.append(mark(x.t)); b.append(t);
@@ -401,7 +403,7 @@ const SM = (() => {
     for(let i = 0; i < n; i++) setTimeout(() => SND.tick([.85, .95, 1.05, 1.15][d] + i*.035), 280 + i*30); }
   function filter(q){ QRY = q; for(let d = 0; d < 3; d++){ if(sel[d] != null && !items(d).some(x => x.i === sel[d])) for(let k = d; k < 3; k++) sel[k] = null; } drawn = ''; render(); }
   addEventListener('resize', () => { if(S.classList.contains('on')){ place(); wire(-1); } });
-  return {start(){ render(); }, open(p){ sel = [p[0], p[1], p[2]]; drawn = ''; render(); }, filter, enter(){}, shown(){ ph('search…'); place(); wire(-1); }};
+  return {depth(){ return sel.filter(x => x != null).length; }, up(){ for(let d = 2; d >= 0; d--) if(sel[d] != null){ sel[d] = null; ki = null; render(); return; } }, start(){ render(); }, open(p){ sel = [p[0], p[1], p[2]]; drawn = ''; render(); }, filter, enter(){}, shown(){ ph('search…'); place(); wire(-1); }};
 })();
 
 /* =================== switching between the three layouts =================== */
@@ -412,6 +414,18 @@ function show(m){ if(m) mode = m; fhint(''); try { localStorage.setItem('tb-layo
   ['sent','outl','stem'].forEach(k => $(k).classList.toggle('on', k === r)); MOD[r].shown(); if(typeof applyQ === 'function') applyQ();
   const sw = $('sw'); sw.innerHTML = ''; [['outl', 'outline'], ['sent', 'sentence'], ['stem', 'stems']].forEach(([k, n]) => { const b = el('button', null, n); b.setAttribute('aria-pressed', String(k === real())); b.onclick = () => show(k); sw.appendChild(b); }); }
 let lastSmall = small(); addEventListener('resize', () => { if(small() !== lastSmall){ lastSmall = small(); show(); } });
+/* =================== the browser's back button steps back one layer =================== */
+/* while you're below the top layer (or searching) there is one extra history entry; back pops it, we step up a layer, and put it back if there's still a layer above. At the top, back leaves the page as usual. */
+var HPOP = false;
+function HIST(){ if(HPOP) return; try { const M = MOD[real()]; if((QRY || M.depth() > 0) && !(history.state && history.state.jg)) history.pushState({jg: 1}, ''); } catch(e){} }
+addEventListener('popstate', e => { if(e.state && e.state.jg) return; let M;
+  try { M = MOD[real()]; HPOP = true;
+    if(QRY){ setQ(''); if(typeof home === 'function') home(); }
+    else if(M.depth() > 0) M.up();
+    else { HPOP = false; history.back(); return; }
+  } catch(err){} finally { HPOP = false; }
+  try { if(QRY || M.depth() > 0) history.pushState({jg: 1}, ''); } catch(err){} });
+{ const _show = show; show = function(m){ _show(m); HIST(); }; }
 T.start(); OL.start(); SM.start(); show();
 const IDX = []; P.forEach((s,si) => s.u.forEach((u,gi) => u.t.forEach(ti => IDX.push({p:[si,gi,ti], n:s.t[ti].t, low:nrm(s.t[ti].t), k:s.t[ti].k.map(k => nrm(k.f))}))));
 /* anywhere-search, used when the layer you're on has nothing by that name */

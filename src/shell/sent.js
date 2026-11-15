@@ -80,7 +80,7 @@ function makeSent(cfg){
     if(anim && !reduced) paths.forEach((p, i) => { const L = p.getTotalLength(); p.style.strokeDasharray = L + ' ' + (L + 4); p.style.strokeDashoffset = L + 2; p.getBoundingClientRect();
       p.style.transition = `stroke-dashoffset ${Math.min(.5, .15 + L/1400)}s ease-out ${i ? .12 + i*.012 : 0}s`; p.style.strokeDashoffset = 0; }); }
   if(cfg.branch){ const ro = new ResizeObserver(() => { if(S.classList.contains('on')) stems(false); }); ro.observe(S); }
-  const _body = body; body = function(){ _body(); if(cfg.branch) requestAnimationFrame(() => stems(true)); };
-  return {start(){ path = []; head(false); body(); }, open(p){ path = p.slice(); head(false); body(); S.scrollTop = 0; }, filter, enter, shown(){ steps(); if(cfg.branch) requestAnimationFrame(() => stems(false)); }};
+  const _body = body; body = function(){ if(typeof HIST === 'function') HIST(); _body(); if(cfg.branch) requestAnimationFrame(() => stems(true)); };
+  return {depth(){ return path.length; }, up(){ if(path.length) back(path.length - 1); }, start(){ path = []; head(false); body(); }, open(p){ path = p.slice(); head(false); body(); S.scrollTop = 0; }, filter, enter, shown(){ steps(); if(cfg.branch) requestAnimationFrame(() => stems(false)); }};
 }
 const T = makeSent({sec: 'sent', h: 'sh', b: 'sb', st: 'steps'});

@@ -12,7 +12,9 @@ const OL = (() => {
     return [b, isOpen]; }
   const searching = () => !!(QRY && totalHits());
   /* searching culls what's showing but opens nothing; whatever you had open stays open if it still matches */
-  function render(){ head(); B.innerHTML = ''; const q = searching(); const list = el('div', 'otree');
+  /* open branches you can actually see (every parent open too), oldest first: these are the layers the back button walks */
+  const vis = () => [...open].filter(k => { const p = k.split('.'); for(let i = 1; i < p.length; i++) if(!open.has(p.slice(0, i).join('.'))) return false; return true; });
+  function render(){ if(typeof HIST === 'function') HIST(); head(); B.innerHTML = ''; const q = searching(); const list = el('div', 'otree');
     if(QRY && !q){ list.appendChild(el('div', 'lay', 'nothing mentions “' + $('find').value.trim() + '”')); B.appendChild(list); return; }
     P.forEach((s, si) => { const sh = q ? sHits(si) : null; if(q && !sh.length) return; const k0 = key(si);
       const [b0, o0] = row(s.n, q ? plural(sh.length, W[2]) : plural(s.u.length, W[1]), k0, 0, ico(0, si)); const w0 = el('div', 'onode'); w0.appendChild(b0);
@@ -36,7 +38,7 @@ const OL = (() => {
   function filter(q){ QRY = q; render(); if(!reduced && q) SND.tick(1.6); }
   function openPath(p){ open.add(key(p[0])); open.add(key(p[0], p[1])); open.add(key(p[0], p[1], p[2])); render();
     const b = B.querySelector(`[data-k="${key(p[0], p[1], p[2])}"]`); if(b) b.scrollIntoView({block: 'center', behavior: reduced ? 'auto' : 'smooth'}); }
-  return {start(){ render(); S.querySelector('.wrap').insertBefore(ctl(), B); }, open: openPath, filter, enter(){}, shown(){ ph('search…'); }};
+  return {depth(){ return vis().length; }, up(){ const v = vis(); if(v.length){ open.delete(v[v.length - 1]); render(); } }, start(){ render(); S.querySelector('.wrap').insertBefore(ctl(), B); }, open: openPath, filter, enter(){}, shown(){ ph('search…'); }};
 })();
 
 /* =================== STEMS: the old left-to-right tree, columns joined by smooth curves =================== */
@@ -50,7 +52,7 @@ const SM = (() => {
     if(d === 2) return sel[1] == null ? [] : P[sel[0]].u[sel[1]].t.map(ti => ({t: P[sel[0]].t[ti].t, i: ti})).filter(x => !q || tHit(sel[0], x.i));
     return sel[2] == null ? [] : shownFacts(P[sel[0]].t[sel[2]]).map((k, n) => ({k, i: n})); }
   const mark = txt => { const f = document.createDocumentFragment(), i = QRY ? nrm(txt).indexOf(QRY) : -1; if(i < 0){ f.append(txt); return f; } f.append(txt.slice(0, i), el('mark', null, txt.slice(i, i + QRY.length)), txt.slice(i + QRY.length)); return f; };
-  function render(){ const key = sel.join('/') + '|' + QRY, was = drawn.split('|')[0].split('/'), grewAt = was.findIndex((v, i) => v !== String(sel[i])); drawn = key;
+  function render(){ if(typeof HIST === 'function') HIST(); const key = sel.join('/') + '|' + QRY, was = drawn.split('|')[0].split('/'), grewAt = was.findIndex((v, i) => v !== String(sel[i])); drawn = key;
     box.querySelectorAll('.scol').forEach(c => c.remove());
     for(let d = 0; d < 4; d++){ const its = items(d); const c = el('div', 'scol c' + d); if(!its.length){ box.appendChild(c); continue; }
       its.forEach((x, n) => { if(d < 3){ const b = el('button', 'sit'); b.style.setProperty('--n', n); const ic = d < 2 ? ico(d, d === 0 ? x.i : sel[0], x.i) : null; if(ic) b.append(ic); const t = el('span', 'st'); t.append(mark(x.t)); b.append(t);
@@ -84,5 +86,5 @@ const SM = (() => {
     for(let i = 0; i < n; i++) setTimeout(() => SND.tick([.85, .95, 1.05, 1.15][d] + i*.035), 280 + i*30); }
   function filter(q){ QRY = q; for(let d = 0; d < 3; d++){ if(sel[d] != null && !items(d).some(x => x.i === sel[d])) for(let k = d; k < 3; k++) sel[k] = null; } drawn = ''; render(); }
   addEventListener('resize', () => { if(S.classList.contains('on')){ place(); wire(-1); } });
-  return {start(){ render(); }, open(p){ sel = [p[0], p[1], p[2]]; drawn = ''; render(); }, filter, enter(){}, shown(){ ph('search…'); place(); wire(-1); }};
+  return {depth(){ return sel.filter(x => x != null).length; }, up(){ for(let d = 2; d >= 0; d--) if(sel[d] != null){ sel[d] = null; ki = null; render(); return; } }, start(){ render(); }, open(p){ sel = [p[0], p[1], p[2]]; drawn = ''; render(); }, filter, enter(){}, shown(){ ph('search…'); place(); wire(-1); }};
 })();

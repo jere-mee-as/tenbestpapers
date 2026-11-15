@@ -225,6 +225,18 @@ function show(m){ if(m) mode = m; fhint(''); try { localStorage.setItem('@@KEY@@
   ['sent','outl','stem'].forEach(k => $(k).classList.toggle('on', k === r)); MOD[r].shown(); if(typeof applyQ === 'function') applyQ();
   const sw = $('sw'); sw.innerHTML = ''; [['outl', 'outline'], ['sent', 'sentence'], ['stem', 'stems']].forEach(([k, n]) => { const b = el('button', null, n); b.setAttribute('aria-pressed', String(k === real())); b.onclick = () => show(k); sw.appendChild(b); }); }
 let lastSmall = small(); addEventListener('resize', () => { if(small() !== lastSmall){ lastSmall = small(); show(); } });
+/* =================== the browser's back button steps back one layer =================== */
+/* while you're below the top layer (or searching) there is one extra history entry; back pops it, we step up a layer, and put it back if there's still a layer above. At the top, back leaves the page as usual. */
+var HPOP = false;
+function HIST(){ if(HPOP) return; try { const M = MOD[real()]; if((QRY || M.depth() > 0) && !(history.state && history.state.jg)) history.pushState({jg: 1}, ''); } catch(e){} }
+addEventListener('popstate', e => { if(e.state && e.state.jg) return; let M;
+  try { M = MOD[real()]; HPOP = true;
+    if(QRY){ setQ(''); if(typeof home === 'function') home(); }
+    else if(M.depth() > 0) M.up();
+    else { HPOP = false; history.back(); return; }
+  } catch(err){} finally { HPOP = false; }
+  try { if(QRY || M.depth() > 0) history.pushState({jg: 1}, ''); } catch(err){} });
+{ const _show = show; show = function(m){ _show(m); HIST(); }; }
 T.start(); OL.start(); SM.start(); show();
 const IDX = []; P.forEach((s,si) => s.u.forEach((u,gi) => u.t.forEach(ti => IDX.push({p:[si,gi,ti], n:s.t[ti].t, low:nrm(s.t[ti].t), k:s.t[ti].k.map(k => nrm(k.f))}))));
 /* anywhere-search, used when the layer you're on has nothing by that name */
