@@ -83,6 +83,7 @@ mark{background:none;color:inherit;border-bottom:2px solid var(--ink)}
 #stem .scol{display:flex;flex-direction:column;flex:none;position:relative;z-index:1} #stem .scol.c3{width:min(27em,80vw)}
 #stem .sit{display:block;white-space:nowrap;padding:6px 0;font-size:17px;transition:opacity .35s} #stem .sit.off{opacity:.3} #stem .sit.off:hover{opacity:.7}
 #stem .scol.grow>*{animation:up .45s ease-out both;animation-delay:calc(var(--n,0)*.03s + .22s)} #stem .scol.c3 .fact{margin-bottom:22px}
+#stem .fact{transform:none}  /* stems draw their curves to where each item is when it appears, so items there fade in place instead of rising into it */
 @media (max-width:760px){#stem .ssay{max-width:none;font-size:16px}#scols{gap:56px}}
 
 
@@ -139,7 +140,7 @@ const MORE = new Set();   /* topics whose second tier is showing */
 const cnt = t => t.n || t.k.length;
 function needMore(f){ const id = f.dataset.x; if(QRY || MORE.has(id) || (f.previousElementSibling && f.previousElementSibling.classList.contains('needmore'))) return;
   const b = el('button', 'needmore'); b.append(el('span', 'nm1', '@@MORE@@'), el('span', 'nm2', '@@MORENOTE@@'));
-  b.onclick = e => { e.stopPropagation(); MORE.add(id); b.remove(); document.querySelectorAll('.fact.xtra[data-x="' + id + '"]').forEach((x, n) => { x.classList.remove('xtra'); x.style.setProperty('--n', n); x.classList.add('popin'); }); SND.tick(1.2); };
+  b.onclick = e => { e.stopPropagation(); MORE.add(id); b.remove(); document.querySelectorAll('.fact.xtra[data-x="' + id + '"]').forEach((x, n) => { x.classList.remove('xtra'); x.style.setProperty('--n', n); x.classList.add('popin'); }); SND.tick(1.2); dispatchEvent(new Event('resize')); };   /* stems redraws its curves on resize */
   f.parentNode.insertBefore(b, f); }
 new MutationObserver(() => document.querySelectorAll('.fact.xtra[data-x1]').forEach(needMore)).observe(document.documentElement, {childList: true, subtree: true});
 function factEl(k, i){ const b = el('button', 'fact' + (k.m ? '' : ' nofold') + (k.x && !QRY && !MORE.has(k.x) ? ' xtra' : '')); if(k.x){ b.dataset.x = k.x; if(k.x1) b.dataset.x1 = '1'; } b.style.setProperty('--n', i);

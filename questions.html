@@ -96,6 +96,7 @@ mark{background:none;color:inherit;border-bottom:2px solid var(--ink)}
 #stem .scol{display:flex;flex-direction:column;flex:none;position:relative;z-index:1} #stem .scol.c3{width:min(27em,80vw)}
 #stem .sit{display:block;white-space:nowrap;padding:6px 0;font-size:17px;transition:opacity .35s} #stem .sit.off{opacity:.3} #stem .sit.off:hover{opacity:.7}
 #stem .scol.grow>*{animation:up .45s ease-out both;animation-delay:calc(var(--n,0)*.03s + .22s)} #stem .scol.c3 .fact{margin-bottom:22px}
+#stem .fact{transform:none}  /* stems draw their curves to where each item is when it appears, so items there fade in place instead of rising into it */
 @media (max-width:760px){#stem .ssay{max-width:none;font-size:16px}#scols{gap:56px}}
 
 
@@ -152,7 +153,7 @@ const MORE = new Set();   /* topics whose second tier is showing */
 const cnt = t => t.n || t.k.length;
 function needMore(f){ const id = f.dataset.x; if(QRY || MORE.has(id) || (f.previousElementSibling && f.previousElementSibling.classList.contains('needmore'))) return;
   const b = el('button', 'needmore'); b.append(el('span', 'nm1', 'Need more?'), el('span', 'nm2', ''));
-  b.onclick = e => { e.stopPropagation(); MORE.add(id); b.remove(); document.querySelectorAll('.fact.xtra[data-x="' + id + '"]').forEach((x, n) => { x.classList.remove('xtra'); x.style.setProperty('--n', n); x.classList.add('popin'); }); SND.tick(1.2); };
+  b.onclick = e => { e.stopPropagation(); MORE.add(id); b.remove(); document.querySelectorAll('.fact.xtra[data-x="' + id + '"]').forEach((x, n) => { x.classList.remove('xtra'); x.style.setProperty('--n', n); x.classList.add('popin'); }); SND.tick(1.2); dispatchEvent(new Event('resize')); };   /* stems redraws its curves on resize */
   f.parentNode.insertBefore(b, f); }
 new MutationObserver(() => document.querySelectorAll('.fact.xtra[data-x1]').forEach(needMore)).observe(document.documentElement, {childList: true, subtree: true});
 function factEl(k, i){ const b = el('button', 'fact' + (k.m ? '' : ' nofold') + (k.x && !QRY && !MORE.has(k.x) ? ' xtra' : '')); if(k.x){ b.dataset.x = k.x; if(k.x1) b.dataset.x1 = '1'; } b.style.setProperty('--n', i);
@@ -382,7 +383,7 @@ const SM = (() => {
       cs[d].style.marginTop = Math.max(0, r.top - top + r.height/2 - cs[d].offsetHeight/2) + 'px'; } }
   function wire(grewAt){ svg.innerHTML = ''; const B = box.getBoundingClientRect(), cs = cols(); svg.style.width = box.scrollWidth + 'px'; svg.style.height = box.scrollHeight + 'px';
     for(let d = 1; d < cs.length; d++){ const src = cs[d - 1].querySelector('.on'); if(!src) break; const st = src.querySelector('.st') || src, rs = st.getBoundingClientRect();
-      const x0 = Math.max(rs.right, cs[d - 1].getBoundingClientRect().right) - B.left + 10, y0 = rs.top - B.top + rs.height/2; const kids = [...cs[d].children].filter(k => !k.classList.contains('lead')); const selKid = cs[d].querySelector('.on');
+      const x0 = Math.max(rs.right, cs[d - 1].getBoundingClientRect().right) - B.left + 10, y0 = rs.top - B.top + rs.height/2; const kids = [...cs[d].children].filter(k => !k.classList.contains('lead') && !k.classList.contains('needmore') && k.offsetParent);   /* hidden second-tier items get no stem */ const selKid = cs[d].querySelector('.on');
       kids.forEach((k, n) => { const r = (k.querySelector('.say') || k).getBoundingClientRect(), x1 = r.left - B.left - 10, y1 = (d === 3 ? r.top + 11 : r.top + r.height/2) - B.top, mx = (x0 + x1)/2;
         const p = document.createElementNS(NSs, 'path'); p.setAttribute('d', `M${x0.toFixed(1)} ${y0.toFixed(1)} C${mx.toFixed(1)} ${y0.toFixed(1)} ${mx.toFixed(1)} ${y1.toFixed(1)} ${x1.toFixed(1)} ${y1.toFixed(1)}`);
         if(selKid && k !== selKid) p.classList.add('off'); svg.appendChild(p);

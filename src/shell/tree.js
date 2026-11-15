@@ -66,7 +66,7 @@ const SM = (() => {
       cs[d].style.marginTop = Math.max(0, r.top - top + r.height/2 - cs[d].offsetHeight/2) + 'px'; } }
   function wire(grewAt){ svg.innerHTML = ''; const B = box.getBoundingClientRect(), cs = cols(); svg.style.width = box.scrollWidth + 'px'; svg.style.height = box.scrollHeight + 'px';
     for(let d = 1; d < cs.length; d++){ const src = cs[d - 1].querySelector('.on'); if(!src) break; const st = src.querySelector('.st') || src, rs = st.getBoundingClientRect();
-      const x0 = Math.max(rs.right, cs[d - 1].getBoundingClientRect().right) - B.left + 10, y0 = rs.top - B.top + rs.height/2; const kids = [...cs[d].children].filter(k => !k.classList.contains('lead')); const selKid = cs[d].querySelector('.on');
+      const x0 = Math.max(rs.right, cs[d - 1].getBoundingClientRect().right) - B.left + 10, y0 = rs.top - B.top + rs.height/2; const kids = [...cs[d].children].filter(k => !k.classList.contains('lead') && !k.classList.contains('needmore') && k.offsetParent);   /* hidden second-tier items get no stem */ const selKid = cs[d].querySelector('.on');
       kids.forEach((k, n) => { const r = (k.querySelector('.say') || k).getBoundingClientRect(), x1 = r.left - B.left - 10, y1 = (d === 3 ? r.top + 11 : r.top + r.height/2) - B.top, mx = (x0 + x1)/2;
         const p = document.createElementNS(NSs, 'path'); p.setAttribute('d', `M${x0.toFixed(1)} ${y0.toFixed(1)} C${mx.toFixed(1)} ${y0.toFixed(1)} ${mx.toFixed(1)} ${y1.toFixed(1)} ${x1.toFixed(1)} ${y1.toFixed(1)}`);
         if(selKid && k !== selKid) p.classList.add('off'); svg.appendChild(p);
