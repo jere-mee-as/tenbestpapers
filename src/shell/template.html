@@ -226,16 +226,23 @@ function show(m){ if(m) mode = m; fhint(''); try { localStorage.setItem('@@KEY@@
   const sw = $('sw'); sw.innerHTML = ''; [['outl', 'outline'], ['sent', 'sentence'], ['stem', 'stems']].forEach(([k, n]) => { const b = el('button', null, n); b.setAttribute('aria-pressed', String(k === real())); b.onclick = () => show(k); sw.appendChild(b); }); }
 let lastSmall = small(); addEventListener('resize', () => { if(small() !== lastSmall){ lastSmall = small(); show(); } });
 /* =================== the browser's back button steps back one layer =================== */
-/* while you're below the top layer (or searching) there is one extra history entry; back pops it, we step up a layer, and put it back if there's still a layer above. At the top, back leaves the page as usual. */
-var HPOP = false;
-function HIST(){ if(HPOP) return; try { const M = MOD[real()]; if((QRY || M.depth() > 0) && !(history.state && history.state.jg)) history.pushState({jg: 1}, ''); } catch(e){} }
-addEventListener('popstate', e => { if(e.state && e.state.jg) return; let M;
-  try { M = MOD[real()]; HPOP = true;
-    if(QRY){ setQ(''); if(typeof home === 'function') home(); }
-    else if(M.depth() > 0) M.up();
-    else { HPOP = false; history.back(); return; }
-  } catch(err){} finally { HPOP = false; }
-  try { if(QRY || M.depth() > 0) history.pushState({jg: 1}, ''); } catch(err){} });
+/* one history entry per layer, all on the same URL, each pushed while you're clicking or typing (Chrome skips entries pushed without a tap or key, so nothing is ever pushed from the back handler). state = {jd: how many layers deep, i: its place in the history}. Back pops one; we step up until we're no deeper than it. At the top, back leaves the page as usual. */
+var HPOP = false, HAT = 0;
+const LVL = () => { try { return (QRY ? 1 : 0) + MOD[real()].depth(); } catch(e){ return 0; } };
+const HS = () => { try { return history.state || {}; } catch(e){ return {}; } };
+function HIST(){ if(HPOP) return; try { const want = LVL(), st = HS(); let cur = st.jd || 0, i = st.i || 0;
+  if(want > cur){ while(cur < want) history.pushState({jd: ++cur, i: ++i}, ''); }
+  else if(want < cur) history.replaceState({jd: want, i}, '');
+  HAT = i; } catch(e){} }
+addEventListener('popstate', () => { const st = HS(), want = st.jd || 0, i = st.i || 0, backward = i < HAT; HAT = i; let moved = false;
+  HPOP = true;
+  try { for(let n = 0; n < 8 && LVL() > want; n++){ const before = LVL();
+      if(QRY){ setQ(''); if(typeof home === 'function') home(); } else MOD[real()].up();
+      if(LVL() >= before) break; moved = true; } }
+  catch(err){} finally { HPOP = false; }
+  /* an entry left over from going up with the page's own buttons: nothing changed, so keep going back */
+  if(backward && !moved){ try { history.back(); } catch(err){} return; }
+  try { if(LVL() !== want) history.replaceState({jd: LVL(), i}, ''); } catch(err){} });
 { const _show = show; show = function(m){ _show(m); HIST(); }; }
 T.start(); OL.start(); SM.start(); show();
 const IDX = []; P.forEach((s,si) => s.u.forEach((u,gi) => u.t.forEach(ti => IDX.push({p:[si,gi,ti], n:s.t[ti].t, low:nrm(s.t[ti].t), k:s.t[ti].k.map(k => nrm(k.f))}))));
