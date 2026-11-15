@@ -1,0 +1,233 @@
+{
+ "discipline": "Environment",
+ "fields": [
+  {
+   "field": "Conservation biology",
+   "lead": "Conservation biology is measuring how fast and why biodiversity is changing, and testing which interventions, protected areas and land-use strategies actually bend the curve toward recovery.",
+   "papers": [
+    {
+     "authors": "MacArthur & Wilson",
+     "year": 1967,
+     "title": "The Theory of Island Biogeography",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "MacArthur and Wilson explained species numbers as a balance of colonisation and extinction set by area and isolation. Species-area logic still drives extinction forecasts, reserve sizing and the study of fragments as habitat islands.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Soulé",
+     "year": 1985,
+     "title": "What Is Conservation Biology?",
+     "venue": "BioScience",
+     "type": "paper",
+     "why": "Soulé defined conservation biology as a crisis discipline that openly mixes science with the value that biodiversity should persist. That founding stance is still argued over in disputes about the field's goals and its advocacy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Margules & Pressey",
+     "year": 2000,
+     "title": "Systematic Conservation Planning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "The paper set out a stepwise, quantitative method for choosing protected areas that represent biodiversity efficiently and keep it over time. It is the basis of the planning software and methods used to design protected-area networks and meet the 30x30 target.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Myers et al.",
+     "year": 2000,
+     "title": "Biodiversity Hotspots for Conservation Priorities",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Myers and colleagues identified 25 regions holding a huge share of endemic species in a small, heavily cleared area. Hotspots shaped where major funders spend money and set off the long debate over how to set global priorities.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fahrig",
+     "year": 2003,
+     "title": "Effects of Habitat Fragmentation on Biodiversity",
+     "venue": "Annual Review of Ecology, Evolution, and Systematics",
+     "type": "paper",
+     "why": "Fahrig separated habitat loss from fragmentation as such and found that loss does most of the damage. The argument over whether fragmentation per se matters is one of the field's most active controversies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Estes et al.",
+     "year": 2011,
+     "title": "Trophic Downgrading of Planet Earth",
+     "venue": "Science",
+     "type": "paper",
+     "why": "The authors showed that losing large predators and herbivores sets off cascades affecting vegetation, disease, fire and carbon. It underpins rewilding and the case for restoring top consumers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pimm et al.",
+     "year": 2014,
+     "title": "The Biodiversity of Species and Their Rates of Extinction, Distribution, and Protection",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Pimm and colleagues estimated that extinction rates are roughly a thousand times background and mapped where threatened species concentrate. It is the standard reference for current extinction rates and range-based priorities.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Newbold et al.",
+     "year": 2015,
+     "title": "Global Effects of Land Use on Local Terrestrial Biodiversity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Using the PREDICTS database, the authors quantified how land use cuts local species richness and abundance worldwide. It anchors biodiversity-footprint metrics and land-use scenario modelling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ceballos, Ehrlich & Dirzo",
+     "year": 2017,
+     "title": "Biological Annihilation via the Ongoing Sixth Mass Extinction Signaled by Vertebrate Population Losses and Declines",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "The authors showed that vertebrate populations and ranges are collapsing far more widely than species counts suggest. It shifted attention from extinctions to population declines and sharpened the debate over how to measure loss.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Díaz et al.",
+     "year": 2019,
+     "title": "Pervasive Human-Driven Decline of Life on Earth Points to the Need for Transformative Change",
+     "venue": "Science",
+     "type": "paper",
+     "why": "This summary of the IPBES global assessment found nature declining at unprecedented rates, driven chiefly by land and sea use, and concluded that incremental fixes will not suffice. It frames the Kunming-Montreal targets and current conservation policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Tilman et al.",
+     "year": 1994,
+     "title": "Habitat Destruction and the Extinction Debt",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Tilman and colleagues showed that species can be doomed by habitat loss decades before they disappear. Extinction debt is now central to forecasting and to the case that restoration can still save committed species.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ferraro & Pattanayak",
+     "year": 2006,
+     "title": "Money for Nothing? A Call for Empirical Evaluation of Biodiversity Conservation Investments",
+     "venue": "PLoS Biology",
+     "type": "paper",
+     "why": "The authors argued that conservation rarely tests whether its interventions work and called for counterfactual impact evaluation. The resulting evidence movement now shapes how protected areas and payments for ecosystem services are judged.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kareiva & Marvier",
+     "year": 2012,
+     "title": "What Is Conservation Science?",
+     "venue": "BioScience",
+     "type": "paper",
+     "why": "Kareiva and Marvier argued that conservation should focus on human wellbeing and working landscapes rather than wilderness. It set off the 'new conservation' debate, which still divides the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dornelas et al.",
+     "year": 2014,
+     "title": "Assemblage Time Series Reveal Biodiversity Change but Not Systematic Loss",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Pooling long-term monitoring data, the authors found high turnover in local communities but no systematic decline in local species richness. It forced the field to separate local, regional and global change, a debate that is still running.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dirzo et al.",
+     "year": 2014,
+     "title": "Defaunation in the Anthropocene",
+     "venue": "Science",
+     "type": "paper",
+     "why": "The authors documented widespread declines in animal abundance and their effects on ecosystem function and human wellbeing. 'Defaunation' became a standard term and research focus.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Watson et al.",
+     "year": 2014,
+     "title": "The Performance and Potential of Protected Areas",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "The review found that many protected areas are underfunded, poorly placed or ineffective, even as their coverage grows. It shapes current debates on quality versus quantity in meeting area targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haddad et al.",
+     "year": 2015,
+     "title": "Habitat Fragmentation and Its Lasting Impact on Earth's Ecosystems",
+     "venue": "Science Advances",
+     "type": "paper",
+     "why": "Synthesising fragmentation experiments, the authors found that fragmentation cuts biodiversity by 13 to 75 percent and that the effects grow over time. It is the main counterweight to Fahrig in the fragmentation debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hallmann et al.",
+     "year": 2017,
+     "title": "More than 75 Percent Decline over 27 Years in Total Flying Insect Biomass in Protected Areas",
+     "venue": "PLoS ONE",
+     "type": "paper",
+     "why": "The study recorded a collapse of flying-insect biomass in German nature reserves. It set off the global insect-decline research effort and debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Garnett et al.",
+     "year": 2018,
+     "title": "A Spatial Overview of the Global Importance of Indigenous Lands for Conservation",
+     "venue": "Nature Sustainability",
+     "type": "paper",
+     "why": "The authors mapped Indigenous-managed land across at least a quarter of the world's land surface, overlapping much intact habitat. It underpins the current push to recognise Indigenous stewardship in global targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Leclère et al.",
+     "year": 2020,
+     "title": "Bending the Curve of Terrestrial Biodiversity Needs an Integrated Strategy",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Using several linked models, the authors showed that reversing biodiversity loss by mid-century requires both expanded conservation and changes to food production and consumption. It frames the 'bending the curve' goal in current policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

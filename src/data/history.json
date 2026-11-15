@@ -1,0 +1,1601 @@
+{
+ "discipline": "History",
+ "fields": [
+  {
+   "field": "Ancient (Greece & Rome)",
+   "lead": "Ancient historians are mainly working on how far the Greek and Roman economies grew and integrated, using archaeology, quantification and science (climate, ancient DNA) to explain the rise and failure of empire.",
+   "papers": [
+    {
+     "authors": "Finley",
+     "year": 1973,
+     "title": "The Ancient Economy",
+     "venue": "Chatto & Windus",
+     "type": "book",
+     "why": "Finley argued that ancient economic life was embedded in status and politics, not run by markets. Every current argument for ancient growth, market integration or 'new institutional' readings of antiquity is still framed as an answer to him.",
+     "verified": false,
+     "conf": "high",
+     "note": "US edition: University of California Press, 1973."
+    },
+    {
+     "authors": "Brown",
+     "year": 1971,
+     "title": "The World of Late Antiquity: From Marcus Aurelius to Muhammad",
+     "venue": "Thames & Hudson",
+     "type": "book",
+     "why": "Brown swapped 'decline and fall' for a story of religious and cultural transformation and in effect created late antiquity as a field. Today's fight between transformation and catastrophe accounts of Rome's end is still about his framing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Millar",
+     "year": 1977,
+     "title": "The Emperor in the Roman World (31 BC-AD 337)",
+     "venue": "Duckworth",
+     "type": "book",
+     "why": "Millar showed the emperor as a figure who mostly answered petitions and embassies rather than steering a bureaucracy. Work on Roman governance, communication and provincial voices still starts from his 'petition and response' model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hopkins",
+     "year": 1980,
+     "title": "Taxes and Trade in the Roman Empire (200 B.C.-A.D. 400)",
+     "venue": "Journal of Roman Studies",
+     "type": "paper",
+     "why": "Hopkins modelled how Roman taxation in money forced provinces to trade to pay it, tying the fiscal system to commercial growth. His explicit, testable model is the template for today's quantitative Roman economic history.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 70, pp. 101-125."
+    },
+    {
+     "authors": "Woolf",
+     "year": 1998,
+     "title": "Becoming Roman: The Origins of Provincial Civilization in Gaul",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Woolf recast Romanization as local elites adopting and reshaping a new cultural repertoire rather than as one-way imposition. Current debates on identity, provincial agency and whether 'Romanization' is still a usable term run through it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Horden & Purcell",
+     "year": 2000,
+     "title": "The Corrupting Sea: A Study of Mediterranean History",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "It treats the Mediterranean as a mesh of micro-regions bound by risk, mobility and connectivity. That ecological and network framing now underlies most research on ancient trade, migration and environment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scheidel, Morris & Saller (eds.)",
+     "year": 2007,
+     "title": "The Cambridge Economic History of the Greco-Roman World",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "This collective volume reframed the ancient economy around demography, institutions and measurable performance instead of Finley's primitivism. It is the reference statement of the post-Finley consensus that current growth debates work from.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ober",
+     "year": 2008,
+     "title": "Democracy and Knowledge: Innovation and Learning in Classical Athens",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Ober explains Athenian success through how democratic institutions pooled dispersed knowledge. It anchors the turn to institutional and economic accounts of the Greek polis that dominate classical Greek history now.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harper",
+     "year": 2017,
+     "title": "The Fate of Rome: Climate, Disease, and the End of an Empire",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Harper combines paleoclimate data, ancient DNA and epidemiology to argue that climate shifts and pandemics drove Rome's fortunes. It made natural-science evidence central to explaining imperial crisis and is still hotly contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scheidel",
+     "year": 2019,
+     "title": "Escape from Rome: The Failure of Empire and the Road to Prosperity",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Scheidel argues that Rome's unity was never rebuilt in Europe, and that this lasting fragmentation enabled later economic growth. It ties Roman history directly to the comparative questions of long-run development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Hopkins",
+     "year": 1978,
+     "title": "Conquerors and Slaves: Sociological Studies in Roman History, Vol. 1",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Hopkins treated Italian slavery and land as a system driven by conquest, using models and demographic reasoning. Work on Roman slavery and population still borrows his methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harris",
+     "year": 1979,
+     "title": "War and Imperialism in Republican Rome, 327-70 B.C.",
+     "venue": "Clarendon Press",
+     "type": "book",
+     "why": "Harris argued that Roman expansion came from an aggressive society that profited from war, not from defensive reactions. Debates over the causes of Roman imperialism still line up for or against him.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ward-Perkins",
+     "year": 2005,
+     "title": "The Fall of Rome and the End of Civilization",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Using archaeology of pottery, buildings and living standards, Ward-Perkins argued that the end of the western empire was a real collapse. It is the main counterweight to the 'transformation' school and keeps the catastrophe question open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hansen",
+     "year": 2006,
+     "title": "Polis: An Introduction to the Ancient Greek City-State",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Distilling the Copenhagen Polis Centre's inventory of over a thousand city-states, Hansen defined what a polis was in practice. That data now underpins quantitative and comparative work on the Greek world.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bang",
+     "year": 2008,
+     "title": "The Roman Bazaar: A Comparative Study of Trade and Markets in a Tributary Empire",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Bang compared Rome with Mughal India to argue that Roman markets were fragmented and uncertain, like a bazaar. It is the leading sceptical answer to claims of an integrated Roman market.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bowman & Wilson (eds.)",
+     "year": 2009,
+     "title": "Quantifying the Roman Economy: Methods and Problems",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "This volume launched the Oxford Roman Economy Project's push to measure Roman output with archaeological data. It set the agenda and methods for the field's current quantitative work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scheidel (ed.)",
+     "year": 2009,
+     "title": "Rome and China: Comparative Perspectives on Ancient World Empires",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "It put Rome and Han China side by side on state power, elites and money. Comparative imperial history, now a major growth area, took its shape from this project.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mattingly",
+     "year": 2011,
+     "title": "Imperialism, Power, and Identity: Experiencing the Roman Empire",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Mattingly brought postcolonial critique to Roman archaeology, stressing exploitation and discrepant experiences of empire. It sharpened the argument over whether Roman rule should be studied as a colonial system.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McCormick et al.",
+     "year": 2012,
+     "title": "Climate Change during and after the Roman Empire: Reconstructing the Past from Scientific and Historical Evidence",
+     "venue": "Journal of Interdisciplinary History",
+     "type": "paper",
+     "why": "Historians and climate scientists jointly mapped proxy data against the Roman and post-Roman record. It set the method and the cautions for the climate-history work that Harper and others now build on.",
+     "verified": true,
+     "conf": "high",
+     "note": "Vol. 43, no. 2, pp. 169-220."
+    },
+    {
+     "authors": "Ober",
+     "year": 2015,
+     "title": "The Rise and Fall of Classical Greece",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Ober argues that classical Greece saw real per-capita economic growth driven by citizen-centred institutions. It is the most prominent case for ancient efflorescence and is widely debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Medieval",
+   "lead": "Medievalists are mainly working on the early medieval economy and state, persecution, race and minorities, global connections beyond Latin Europe, and the science-driven environmental and disease history of plague and climate.",
+   "papers": [
+    {
+     "authors": "Moore",
+     "year": 1987,
+     "title": "The Formation of a Persecuting Society: Power and Deviance in Western Europe, 950-1250",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Moore tied the persecution of heretics, Jews and lepers to the growth of clerical and royal power rather than popular hatred. Work on medieval violence and minorities still positions itself for or against his thesis.",
+     "verified": false,
+     "conf": "high",
+     "note": "Second edition 2007."
+    },
+    {
+     "authors": "Bynum",
+     "year": 1987,
+     "title": "Holy Feast and Holy Fast: The Religious Significance of Food to Medieval Women",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Bynum read women's fasting and eucharistic devotion as a powerful religious language rather than pathology. The study of bodies, gender and material religion in the Middle Ages still follows her template.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Reynolds",
+     "year": 1994,
+     "title": "Fiefs and Vassals: The Medieval Evidence Reinterpreted",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Reynolds argued that the classic feudal system was a construction of later lawyers, not something found in the sources. Whether 'feudalism' is a usable category is still argued with her book as the baseline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McCormick",
+     "year": 2001,
+     "title": "Origins of the European Economy: Communications and Commerce, AD 300-900",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "McCormick used travel records, relics and coins to date the revival of European exchange to the late eighth century and tie it to the slave trade with the Islamic world. When and why Europe's economy recovered is still argued on his evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Geary",
+     "year": 2002,
+     "title": "The Myth of Nations: The Medieval Origins of Europe",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Geary shows early medieval peoples as shifting political groupings, not ancient ethnic nations. Ethnogenesis debates, migration studies and critiques of nationalist uses of the Middle Ages all engage it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wickham",
+     "year": 2005,
+     "title": "Framing the Early Middle Ages: Europe and the Mediterranean, 400-800",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Wickham compared taxation, land and aristocracies region by region across the post-Roman West and East. It is the standard structural account of how the Roman world became the medieval one.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bisson",
+     "year": 2009,
+     "title": "The Crisis of the Twelfth Century: Power, Lordship, and the Origins of European Government",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Bisson argues that violent, unaccountable lordship gave way to systematic government in the twelfth century. It keeps alive the 'feudal revolution' debate over how medieval power worked and when states emerged.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Campbell",
+     "year": 2016,
+     "title": "The Great Transition: Climate, Disease and Society in the Late-Medieval World",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Campbell joins climate proxies, plague genetics and economic data to argue that environmental shocks ended high-medieval growth. It is the flagship of the science-informed medieval economic history now dominating the period.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Heng",
+     "year": 2018,
+     "title": "The Invention of Race in the European Middle Ages",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Heng argues that racial thinking, through religion as well as colour, was already at work before modernity. Her claim has forced medievalists to debate the vocabulary and politics of race in both their sources and their field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Green",
+     "year": 2020,
+     "title": "The Four Black Deaths",
+     "venue": "American Historical Review",
+     "type": "paper",
+     "why": "Green uses pathogen genomics with textual evidence to show plague spreading in waves from the thirteenth century, well before 1347 and far beyond Europe. It is the model for how genetics and philology are now rewriting pandemic history.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 125, no. 5, pp. 1601-1631."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Clanchy",
+     "year": 1979,
+     "title": "From Memory to Written Record: England 1066-1307",
+     "venue": "Edward Arnold",
+     "type": "book",
+     "why": "Clanchy traced how England shifted from oral memory to reliance on documents. Pragmatic literacy and record-keeping remain central research themes because of it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abu-Lughod",
+     "year": 1989,
+     "title": "Before European Hegemony: The World System A.D. 1250-1350",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Abu-Lughod mapped an Afro-Eurasian trading system in which Europe was a minor player. It is the starting point for the 'global Middle Ages' that the field is now building.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bartlett",
+     "year": 1993,
+     "title": "The Making of Europe: Conquest, Colonization and Cultural Change, 950-1350",
+     "venue": "Allen Lane",
+     "type": "book",
+     "why": "Bartlett showed Latin Christendom expanding by conquest and colonisation of its own peripheries. Work on frontiers, medieval colonialism and European identity still uses his frame.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nirenberg",
+     "year": 1996,
+     "title": "Communities of Violence: Persecution of Minorities in the Middle Ages",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Studying Crown of Aragon violence, Nirenberg argued that local, ritualised conflict could hold mixed societies together. It is the main alternative to Moore's top-down persecution model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rosenwein",
+     "year": 2006,
+     "title": "Emotional Communities in the Early Middle Ages",
+     "venue": "Cornell University Press",
+     "type": "book",
+     "why": "Rosenwein introduced 'emotional communities' as groups sharing norms of feeling. The history of emotions, now a large field across periods, took a key concept from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Little (ed.)",
+     "year": 2007,
+     "title": "Plague and the End of Antiquity: The Pandemic of 541-750",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "This volume put the Justinianic plague at the centre of the late antique and early medieval transition. Ongoing genomic and demographic arguments about that pandemic's scale start here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Halsall",
+     "year": 2007,
+     "title": "Barbarian Migrations and the Roman West, 376-568",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Halsall argues that the barbarian 'invasions' were driven by the internal politics of the Roman empire. It is a central text in the current argument over migration, identity and the end of Rome, now sharpened by ancient DNA.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bos et al.",
+     "year": 2011,
+     "title": "A draft genome of Yersinia pestis from victims of the Black Death",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Sequencing plague DNA from a London cemetery confirmed Yersinia pestis as the cause of the Black Death. It opened the genomic era of plague history that Green and Campbell draw on.",
+     "verified": true,
+     "conf": "high",
+     "note": "Vol. 478, pp. 506-510."
+    },
+    {
+     "authors": "Kaldellis",
+     "year": 2015,
+     "title": "The Byzantine Republic: People and Power in New Rome",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Kaldellis argues that Byzantium was a Roman republic of citizens whose consent emperors needed. It is reshaping how Byzantium is placed within medieval and Roman political history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wickham",
+     "year": 2023,
+     "title": "The Donkey and the Boat: Reinterpreting the Mediterranean Economy, 950-1180",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Wickham argues that Mediterranean economic growth was driven mainly by regional internal demand, not long-distance trade. It is the newest major statement on the medieval commercial expansion.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Early modern",
+   "lead": "Early modernists are mainly working on connected and global histories, empire, law and the Atlantic world, the environmental crisis of the seventeenth century, and the cultural history of belief, print and ordinary people.",
+   "papers": [
+    {
+     "authors": "Habermas",
+     "year": 1962,
+     "title": "Strukturwandel der Öffentlichkeit (The Structural Transformation of the Public Sphere)",
+     "venue": "Luchterhand",
+     "type": "book",
+     "why": "Habermas located the rise of a critical public sphere in eighteenth-century coffeehouses, print and clubs. Historians of print, politics and Enlightenment sociability still test, extend or reject his model.",
+     "verified": false,
+     "conf": "high",
+     "note": "English translation: MIT Press, 1989."
+    },
+    {
+     "authors": "Thomas",
+     "year": 1971,
+     "title": "Religion and the Decline of Magic",
+     "venue": "Weidenfeld & Nicolson",
+     "type": "book",
+     "why": "Thomas used anthropology to write the history of English popular belief in magic, astrology and witchcraft. Studies of witchcraft, providence and everyday religion still argue with its 'decline' narrative.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ginzburg",
+     "year": 1976,
+     "title": "Il formaggio e i vermi (The Cheese and the Worms)",
+     "venue": "Einaudi",
+     "type": "book",
+     "why": "By rebuilding one Friulian miller's cosmos from inquisition records, Ginzburg founded microhistory. The method is now being reworked as 'global microhistory'.",
+     "verified": false,
+     "conf": "high",
+     "note": "English translation: Johns Hopkins University Press, 1980."
+    },
+    {
+     "authors": "Skinner",
+     "year": 1978,
+     "title": "The Foundations of Modern Political Thought",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Skinner read Renaissance and Reformation political ideas in their linguistic and political contexts. The contextualist method it modelled remains the dominant way of doing intellectual history.",
+     "verified": false,
+     "conf": "high",
+     "note": "Two volumes."
+    },
+    {
+     "authors": "Eisenstein",
+     "year": 1979,
+     "title": "The Printing Press as an Agent of Change",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Eisenstein argued that print transformed how knowledge was stored and compared, feeding the Reformation and the Scientific Revolution. Book historians are still testing and qualifying her claim.",
+     "verified": false,
+     "conf": "high",
+     "note": "Two volumes."
+    },
+    {
+     "authors": "Subrahmanyam",
+     "year": 1997,
+     "title": "Connected Histories: Notes towards a Reconfiguration of Early Modern Eurasia",
+     "venue": "Modern Asian Studies",
+     "type": "paper",
+     "why": "Subrahmanyam argued that early modern Eurasia should be studied through linked elites, ideas and trade rather than separate civilisations. It is a founding statement of connected and global early modern history.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 31, no. 3, pp. 735-762."
+    },
+    {
+     "authors": "Linebaugh & Rediker",
+     "year": 2000,
+     "title": "The Many-Headed Hydra: Sailors, Slaves, Commoners, and the Hidden History of the Revolutionary Atlantic",
+     "venue": "Beacon Press",
+     "type": "book",
+     "why": "It follows the labour and resistance of sailors, slaves and commoners across the Atlantic. It helped make Atlantic history a history from below and of circulating radicalism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Israel",
+     "year": 2001,
+     "title": "Radical Enlightenment: Philosophy and the Making of Modernity, 1650-1750",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Israel puts Spinozist radicalism, not moderate reform, at the centre of the Enlightenment. His thesis structures the current argument over what the Enlightenment was and who made it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Benton",
+     "year": 2010,
+     "title": "A Search for Sovereignty: Law and Geography in European Empires, 1400-1900",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Benton shows empires as uneven patchworks of legal authority along rivers, islands and corridors. It drives the field's current work on law, jurisdiction and imperial space.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Parker",
+     "year": 2013,
+     "title": "Global Crisis: War, Climate Change and Catastrophe in the Seventeenth Century",
+     "venue": "Yale University Press",
+     "type": "book",
+     "why": "Parker ties the worldwide wars and revolts of the mid-seventeenth century to the Little Ice Age. It is the central text of the environmental and global turn in early modern history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Davis",
+     "year": 1975,
+     "title": "Society and Culture in Early Modern France",
+     "venue": "Stanford University Press",
+     "type": "book",
+     "why": "Davis's essays on ritual violence, charivari and women on top made popular culture readable through anthropology. Cultural history of ordinary people still draws on them.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pocock",
+     "year": 1975,
+     "title": "The Machiavellian Moment: Florentine Political Thought and the Atlantic Republican Tradition",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Pocock traced a civic republican language from Florence to the American Revolution. Debates on republicanism and the origins of Atlantic political thought still engage it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Burke",
+     "year": 1978,
+     "title": "Popular Culture in Early Modern Europe",
+     "venue": "Temple Smith",
+     "type": "book",
+     "why": "Burke mapped popular culture across Europe and the elite 'reform' that tried to suppress it. The relation between elite and popular culture remains a core question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roper",
+     "year": 1994,
+     "title": "Oedipus and the Devil: Witchcraft, Sexuality and Religion in Early Modern Europe",
+     "venue": "Routledge",
+     "type": "book",
+     "why": "Roper brought psychoanalysis and gender to witchcraft and Reformation history. Work on the body, emotion and the psychic life of the past builds on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clark",
+     "year": 1997,
+     "title": "Thinking with Demons: The Idea of Witchcraft in Early Modern Europe",
+     "venue": "Clarendon Press",
+     "type": "book",
+     "why": "Clark showed demonology as a coherent intellectual system tied to science, politics and religion. It changed witchcraft studies from a story of irrationality to one of learned belief.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Johns",
+     "year": 1998,
+     "title": "The Nature of the Book: Print and Knowledge in the Making",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Johns argued that print's reliability was not built in but had to be manufactured socially, against Eisenstein. Book history and the history of knowledge now work from this tension.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bailyn",
+     "year": 2005,
+     "title": "Atlantic History: Concept and Contours",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Bailyn traced how Atlantic history emerged and defined its scope. It remains the standard short account of a framework now being extended and criticised.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Elliott",
+     "year": 2006,
+     "title": "Empires of the Atlantic World: Britain and Spain in America, 1492-1830",
+     "venue": "Yale University Press",
+     "type": "book",
+     "why": "Elliott systematically compared British and Spanish colonial America. It set the standard for comparative imperial history in the Atlantic world.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pincus",
+     "year": 2009,
+     "title": "1688: The First Modern Revolution",
+     "venue": "Yale University Press",
+     "type": "book",
+     "why": "Pincus recast the Glorious Revolution as a violent, popular contest over rival models of modern state and economy. It revived debate on early modern revolutions and political economy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ghobrial",
+     "year": 2019,
+     "title": "Introduction: Seeing the World like a Microhistorian",
+     "venue": "Past & Present",
+     "type": "paper",
+     "why": "Ghobrial set out how microhistory and global history can be combined around individual lives and mobile objects. It frames one of the most active methodological programmes in early modern history now.",
+     "verified": true,
+     "conf": "high",
+     "note": "Past & Present vol. 242, Supplement 14 (Global History and Microhistory)."
+    }
+   ]
+  },
+  {
+   "field": "Modern & global",
+   "lead": "Modern historians are mainly working on empire, decolonisation and the global South, the international history of rights and the Cold War, the archive's silences, and the Anthropocene's challenge to human-centred history.",
+   "papers": [
+    {
+     "authors": "Said",
+     "year": 1978,
+     "title": "Orientalism",
+     "venue": "Pantheon Books",
+     "type": "book",
+     "why": "Said argued that Western knowledge about the East was bound up with imperial power. Postcolonial history, and every current argument about knowledge and empire, still responds to it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anderson",
+     "year": 1983,
+     "title": "Imagined Communities: Reflections on the Origin and Spread of Nationalism",
+     "venue": "Verso",
+     "type": "book",
+     "why": "Anderson explained nations as communities made imaginable by print capitalism and shared time. It remains the default reference in research on nationalism worldwide, including its Creole and colonial origins.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hobsbawm & Ranger (eds.)",
+     "year": 1983,
+     "title": "The Invention of Tradition",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "The volume showed how supposedly ancient traditions were recent inventions that legitimised power. Work on national, colonial and ceremonial culture still uses its concept.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scott",
+     "year": 1986,
+     "title": "Gender: A Useful Category of Historical Analysis",
+     "venue": "American Historical Review",
+     "type": "paper",
+     "why": "Scott defined gender as a primary way of signifying power, not merely a topic about women. It moved gender into the analytical mainstream, and arguments over its legacy are still live.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 91, no. 5, pp. 1053-1075."
+    },
+    {
+     "authors": "Chakrabarty",
+     "year": 2000,
+     "title": "Provincializing Europe: Postcolonial Thought and Historical Difference",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Chakrabarty questioned treating European history as the universal template. It set the terms for how historians handle non-European pasts and the limits of their categories.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bayly",
+     "year": 2004,
+     "title": "The Birth of the Modern World, 1780-1914: Global Connections and Comparisons",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Bayly explained modernity as linked, uneven change worldwide rather than a European export. It is the key text of the global turn for the long nineteenth century.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Westad",
+     "year": 2005,
+     "title": "The Global Cold War: Third World Interventions and the Making of Our Times",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Westad moved the Cold War from Washington and Moscow to the decolonising world where it was fought. Current work on superpower intervention and the global South follows this reframing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Osterhammel",
+     "year": 2009,
+     "title": "Die Verwandlung der Welt: Eine Geschichte des 19. Jahrhunderts (The Transformation of the World)",
+     "venue": "C.H. Beck",
+     "type": "book",
+     "why": "Osterhammel organised the nineteenth century by themes such as mobility, cities, empire and labour across every continent. It is the benchmark for what a full global history looks like.",
+     "verified": false,
+     "conf": "high",
+     "note": "English translation: Princeton University Press, 2014."
+    },
+    {
+     "authors": "Chakrabarty",
+     "year": 2009,
+     "title": "The Climate of History: Four Theses",
+     "venue": "Critical Inquiry",
+     "type": "paper",
+     "why": "Chakrabarty argued that humans as a geological force collapse the old divide between natural and human history. Anthropocene and climate history debates run through this essay.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 35, no. 2, pp. 197-222."
+    },
+    {
+     "authors": "Moyn",
+     "year": 2010,
+     "title": "The Last Utopia: Human Rights in History",
+     "venue": "Belknap Press of Harvard University Press",
+     "type": "book",
+     "why": "Moyn argued that human rights became a mass movement only in the 1970s. It opened the contested modern history of rights, humanitarianism and internationalism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Guha",
+     "year": 1983,
+     "title": "Elementary Aspects of Peasant Insurgency in Colonial India",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Guha read colonial records against the grain to recover peasant rebels' own consciousness. It launched Subaltern Studies, which still shapes South Asian and postcolonial history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spivak",
+     "year": 1988,
+     "title": "Can the Subaltern Speak?",
+     "venue": "in Nelson & Grossberg (eds.), Marxism and the Interpretation of Culture, University of Illinois Press",
+     "type": "paper",
+     "why": "Spivak questioned whether historians can recover subaltern voices from archives made by power. The problem of silence and representation remains central to archival method.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cooper & Stoler (eds.)",
+     "year": 1997,
+     "title": "Tensions of Empire: Colonial Cultures in a Bourgeois World",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "The editors insisted that metropole and colony be studied in one analytic field. That move underlies the new imperial history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mazower",
+     "year": 1998,
+     "title": "Dark Continent: Europe's Twentieth Century",
+     "venue": "Allen Lane",
+     "type": "book",
+     "why": "Mazower argued that democracy's victory in Europe was contingent and that fascism and communism were serious rival orders. It reset how twentieth-century Europe is narrated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McNeill",
+     "year": 2000,
+     "title": "Something New Under the Sun: An Environmental History of the Twentieth-Century World",
+     "venue": "W. W. Norton",
+     "type": "book",
+     "why": "McNeill showed the twentieth century as an unprecedented environmental transformation. It is a core text for the Anthropocene history now spreading through the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stoler",
+     "year": 2002,
+     "title": "Carnal Knowledge and Imperial Power: Race and the Intimate in Colonial Rule",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Stoler showed colonial rule operating through sex, family and domestic life. The study of intimacy, race and empire builds on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Manela",
+     "year": 2007,
+     "title": "The Wilsonian Moment: Self-Determination and the International Origins of Anticolonial Nationalism",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Manela showed how 1919 rhetoric of self-determination galvanised anticolonial movements in Egypt, India, China and Korea. It anchors the international history of decolonisation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hartman",
+     "year": 2008,
+     "title": "Venus in Two Acts",
+     "venue": "Small Axe",
+     "type": "paper",
+     "why": "Hartman proposed 'critical fabulation' to write about enslaved people the archive barely records. It is among the most influential and debated method essays in history today.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 12, no. 2, pp. 1-14."
+    },
+    {
+     "authors": "Burbank & Cooper",
+     "year": 2010,
+     "title": "Empires in World History: Power and the Politics of Difference",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Burbank and Cooper argue that empires, not nation-states, were the normal political form for most of history. It shapes the current comparative history of empire.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Getachew",
+     "year": 2019,
+     "title": "Worldmaking after Empire: The Rise and Fall of Self-Determination",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Getachew recovers anticolonial thinkers' projects to remake the international order, not just win statehood. It is central to the new history of decolonisation and the global South.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Latin American",
+   "lead": "Latin Americanists are mainly working on indigenous-language and non-elite sources, race and the African diaspora, the Haitian and other Age-of-Revolution upheavals, state formation from below, and the region's Cold War.",
+   "papers": [
+    {
+     "authors": "Cardoso & Faletto",
+     "year": 1969,
+     "title": "Dependencia y desarrollo en América Latina (Dependency and Development in Latin America)",
+     "venue": "Siglo XXI",
+     "type": "book",
+     "why": "It argued that Latin American development was shaped by how local classes were tied into the world economy. Debates on dependency, development and global capitalism in the region still draw on it.",
+     "verified": false,
+     "conf": "high",
+     "note": "English translation: University of California Press, 1979."
+    },
+    {
+     "authors": "Stern",
+     "year": 1982,
+     "title": "Peru's Indian Peoples and the Challenge of Spanish Conquest: Huamanga to 1640",
+     "venue": "University of Wisconsin Press",
+     "type": "book",
+     "why": "Stern showed Andean peoples using colonial courts and institutions to resist and adapt. It founded the study of indigenous agency in the colonial Andes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Knight",
+     "year": 1986,
+     "title": "The Mexican Revolution",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Knight treats the revolution as a set of regional popular movements and a genuine social upheaval. It is still the reference point for arguments about Mexico after 1910.",
+     "verified": false,
+     "conf": "high",
+     "note": "Two volumes."
+    },
+    {
+     "authors": "Lockhart",
+     "year": 1992,
+     "title": "The Nahuas after the Conquest: A Social and Cultural History of the Indians of Central Mexico, Sixteenth through Eighteenth Centuries",
+     "venue": "Stanford University Press",
+     "type": "book",
+     "why": "Lockhart used Nahuatl documents to show how Nahuas understood and adapted Spanish rule. It launched the New Philology, now the dominant way to study colonial indigenous societies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Joseph & Nugent (eds.)",
+     "year": 1994,
+     "title": "Everyday Forms of State Formation: Revolution and the Negotiation of Rule in Modern Mexico",
+     "venue": "Duke University Press",
+     "type": "book",
+     "why": "The volume treats the state as continually negotiated between rulers and ordinary people. It shaped how historians study popular politics and state-building across the region.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mallon",
+     "year": 1995,
+     "title": "Peasant and Nation: The Making of Postcolonial Mexico and Peru",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Mallon shows peasants shaping rival visions of the nation in nineteenth-century Mexico and Peru. It brought subaltern approaches into Latin American history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Trouillot",
+     "year": 1995,
+     "title": "Silencing the Past: Power and the Production of History",
+     "venue": "Beacon Press",
+     "type": "book",
+     "why": "Using the Haitian Revolution, Trouillot shows how archives and narratives silence some pasts. It is a basic reference for Haiti's place in world history and for questions of archival power.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Restall",
+     "year": 2003,
+     "title": "Seven Myths of the Spanish Conquest",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Restall dismantles the story of a handful of Spaniards toppling empires, stressing indigenous and African allies. It captures the new consensus on the conquest.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Grandin",
+     "year": 2004,
+     "title": "The Last Colonial Massacre: Latin America in the Cold War",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Through Guatemala, Grandin argues that the Cold War in Latin America was a fight against local democratic and social movements. It anchors the booming new Latin American Cold War history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ferrer",
+     "year": 2014,
+     "title": "Freedom's Mirror: Cuba and Haiti in the Age of Revolution",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Ferrer shows Cuba's sugar boom and slavery expanding in the shadow of the Haitian Revolution. It is a leading example of placing the Caribbean at the centre of the Age of Revolution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Gibson",
+     "year": 1964,
+     "title": "The Aztecs under Spanish Rule: A History of the Indians of the Valley of Mexico, 1519-1810",
+     "venue": "Stanford University Press",
+     "type": "book",
+     "why": "Gibson made indigenous communities the main actors of colonial history using local archives. The New Philology built directly on and against it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Farriss",
+     "year": 1984,
+     "title": "Maya Society under Colonial Rule: The Collective Enterprise of Survival",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Farriss showed Yucatec Maya communities surviving colonialism through collective strategies. It remains a model for long-run indigenous social history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rama",
+     "year": 1984,
+     "title": "La ciudad letrada (The Lettered City)",
+     "venue": "Ediciones del Norte",
+     "type": "book",
+     "why": "Rama argued that a lettered urban elite used writing to wield power in Latin America. Work on literacy, the state and indigenous writing still argues with his model.",
+     "verified": false,
+     "conf": "low",
+     "note": "Publisher of the first edition (Hanover, NH) from memory. English translation: Duke University Press, 1996."
+    },
+    {
+     "authors": "Schwartz",
+     "year": 1985,
+     "title": "Sugar Plantations in the Formation of Brazilian Society: Bahia, 1550-1835",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Schwartz showed how sugar and slavery shaped Brazilian society. It is the base for current research on Brazilian slavery and the Atlantic plantation complex.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wade",
+     "year": 1997,
+     "title": "Race and Ethnicity in Latin America",
+     "venue": "Pluto Press",
+     "type": "book",
+     "why": "Wade set out how race and indigeneity work in the region's mestizaje ideologies. Research on race and blackness in Latin America still uses its framework.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "de la Fuente",
+     "year": 2001,
+     "title": "A Nation for All: Race, Inequality, and Politics in Twentieth-Century Cuba",
+     "venue": "University of North Carolina Press",
+     "type": "book",
+     "why": "De la Fuente tested Cuba's ideology of racial democracy against evidence of inequality. It is central to the comparative history of race in twentieth-century Latin America.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Townsend",
+     "year": 2003,
+     "title": "Burying the White Gods: New Perspectives on the Conquest of Mexico",
+     "venue": "American Historical Review",
+     "type": "paper",
+     "why": "Townsend showed the story that the Mexica took the Spaniards for gods to be a later colonial invention. It exemplifies the source-critical revision of the conquest.",
+     "verified": true,
+     "conf": "high",
+     "note": "Vol. 108, no. 3, pp. 659-687."
+    },
+    {
+     "authors": "Adelman",
+     "year": 2006,
+     "title": "Sovereignty and Revolution in the Iberian Atlantic",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Adelman argues that Latin American independence came from imperial crisis rather than a long-brewing nationalism. It reframed the Age of Revolution in Iberian America.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yannakakis",
+     "year": 2008,
+     "title": "The Art of Being In-Between: Native Intermediaries, Indian Identity, and Local Rule in Colonial Oaxaca",
+     "venue": "Duke University Press",
+     "type": "book",
+     "why": "Yannakakis studied indigenous intermediaries who brokered colonial rule. Research on go-betweens and local power in the colonial Americas builds on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rappaport & Cummins",
+     "year": 2012,
+     "title": "Beyond the Lettered City: Indigenous Literacies in the Andes",
+     "venue": "Duke University Press",
+     "type": "book",
+     "why": "They show Andean peoples using alphabetic and visual literacies in colonial life. It extends Rama and the New Philology into the Andes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Economic history",
+   "lead": "Economic historians are mainly working on why some regions got rich (institutions, colonial legacies, energy and labour costs, culture), slavery's role in capitalism, and the long run of inequality, using new quantitative data and natural experiments.",
+   "papers": [
+    {
+     "authors": "Williams",
+     "year": 1944,
+     "title": "Capitalism and Slavery",
+     "venue": "University of North Carolina Press",
+     "type": "book",
+     "why": "Williams argued that Atlantic slavery financed British industrialisation and that abolition followed economic decline. Whether and how slavery drove capitalism is still among the field's most disputed questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "North",
+     "year": 1990,
+     "title": "Institutions, Institutional Change and Economic Performance",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "North put institutions, the rules shaping incentives, at the centre of long-run growth. Most institutional and political-economy history is built on or against his framework.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Engerman & Sokoloff",
+     "year": 2000,
+     "title": "History Lessons: Institutions, Factor Endowments, and Paths of Development in the New World",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "They argued that factor endowments in the Americas created inequality that shaped institutions and growth for centuries. It is a core text in the persistence and colonial-origins literature.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 14, no. 3, pp. 217-232. Author order Engerman & Sokoloff."
+    },
+    {
+     "authors": "Pomeranz",
+     "year": 2000,
+     "title": "The Great Divergence: China, Europe, and the Making of the Modern World Economy",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Pomeranz argued that the Yangzi delta matched England until about 1800, and that coal and colonies made the difference. It defined the 'Great Divergence' debate still running today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Acemoglu, Johnson & Robinson",
+     "year": 2001,
+     "title": "The Colonial Origins of Comparative Development: An Empirical Investigation",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Using settler mortality as an instrument, they argued that colonial institutions explain today's income gaps. It launched the empirical persistence literature and still draws methodological fire.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 91, no. 5, pp. 1369-1401."
+    },
+    {
+     "authors": "Clark",
+     "year": 2007,
+     "title": "A Farewell to Alms: A Brief Economic History of the World",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Clark argued that the world was Malthusian until 1800 and that cultural and demographic change in England broke the trap. It is a provocative pole in the debate on the Industrial Revolution's causes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nunn",
+     "year": 2008,
+     "title": "The Long-Term Effects of Africa's Slave Trades",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Nunn showed that African regions hit hardest by the slave trades are poorer today. It is a model of the quantitative persistence studies now central to the field.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 123, no. 1, pp. 139-176."
+    },
+    {
+     "authors": "Allen",
+     "year": 2009,
+     "title": "The British Industrial Revolution in Global Perspective",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Allen argued that high wages and cheap coal made labour-saving invention profitable in Britain. The high-wage thesis is one of the field's main live debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beckert",
+     "year": 2014,
+     "title": "Empire of Cotton: A Global History",
+     "venue": "Alfred A. Knopf",
+     "type": "book",
+     "why": "Beckert traces global capitalism through cotton and 'war capitalism' built on slavery and coercion. It is central to the new history of capitalism and its clashes with cliometrics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Piketty",
+     "year": 2014,
+     "title": "Capital in the Twenty-First Century",
+     "venue": "Belknap Press of Harvard University Press",
+     "type": "book",
+     "why": "Piketty used long series of tax data to argue that returns on capital tend to outpace growth, concentrating wealth. It made the long-run history of inequality a central research programme.",
+     "verified": false,
+     "conf": "high",
+     "note": "French original: Le Capital au XXIe siècle, Seuil, 2013."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Eichengreen",
+     "year": 1992,
+     "title": "Golden Fetters: The Gold Standard and the Great Depression, 1919-1939",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Eichengreen showed the interwar gold standard spreading and deepening the Depression. It shapes how historians and policymakers read financial crises.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "de Vries",
+     "year": 1994,
+     "title": "The Industrial Revolution and the Industrious Revolution",
+     "venue": "Journal of Economic History",
+     "type": "paper",
+     "why": "De Vries argued that households worked harder and bought more before industrialisation, driving demand. The 'industrious revolution' remains a live explanation for early modern growth.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 54, no. 2, pp. 249-270."
+    },
+    {
+     "authors": "Acemoglu, Johnson & Robinson",
+     "year": 2005,
+     "title": "The Rise of Europe: Atlantic Trade, Institutional Change, and Economic Growth",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "They argued that Atlantic trade enriched merchants who then pushed for institutions that protected property. It links the divergence debate to political economy.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 95, no. 3, pp. 546-579."
+    },
+    {
+     "authors": "Greif",
+     "year": 2006,
+     "title": "Institutions and the Path to the Modern Economy: Lessons from Medieval Trade",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Greif used game theory to analyse medieval traders' institutions such as the Maghribi coalition. It set the agenda for historical institutional analysis and the arguments over its evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Olmstead & Rhode",
+     "year": 2008,
+     "title": "Biological Innovation and Productivity Growth in the Antebellum Cotton Economy",
+     "venue": "Journal of Economic History",
+     "type": "paper",
+     "why": "They showed that improved cotton varieties, not intensified violence, drove most productivity growth in picking. It is the key cliometric challenge to the new history of capitalism's claims about slavery.",
+     "verified": true,
+     "conf": "high",
+     "note": "Vol. 68, no. 4, pp. 1123-1171."
+    },
+    {
+     "authors": "Dell",
+     "year": 2010,
+     "title": "The Persistent Effects of Peru's Mining Mita",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Dell used a regression discontinuity at the colonial mita boundary to show long-run harm from forced labour. It is the exemplar of the natural-experiment method in economic history.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 78, no. 6, pp. 1863-1903."
+    },
+    {
+     "authors": "Wrigley",
+     "year": 2010,
+     "title": "Energy and the English Industrial Revolution",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Wrigley argued that the shift from an organic to a mineral energy economy made sustained growth possible. Energy history, now urgent for climate questions, builds on him.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baptist",
+     "year": 2014,
+     "title": "The Half Has Never Been Told: Slavery and the Making of American Capitalism",
+     "venue": "Basic Books",
+     "type": "book",
+     "why": "Baptist argued that rising violence against the enslaved drove cotton productivity and US growth. Its clash with cliometricians defines the current slavery-and-capitalism debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Broadberry et al.",
+     "year": 2015,
+     "title": "British Economic Growth, 1270-1870",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "It built new national accounts for England and Britain over six centuries. These series are now the standard data for debates on pre-industrial growth.",
+     "verified": false,
+     "conf": "high",
+     "note": "Broadberry, Campbell, Klein, Overton & van Leeuwen."
+    },
+    {
+     "authors": "Mokyr",
+     "year": 2016,
+     "title": "A Culture of Growth: The Origins of the Modern Economy",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Mokyr argues that a European 'market for ideas' and Enlightenment culture produced sustained innovation. It is the main cultural explanation in the current divergence debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "History of science",
+   "lead": "Historians of science are mainly working on knowledge as made and moved across empires and global networks, the practices and virtues of objectivity and measurement, and the history of climate and environmental science.",
+   "papers": [
+    {
+     "authors": "Kuhn",
+     "year": 1962,
+     "title": "The Structure of Scientific Revolutions",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Kuhn argued that science moves through paradigms and revolutions rather than steady accumulation. Historians still define their practice partly against his model, and it frames how science is talked about.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shapin & Schaffer",
+     "year": 1985,
+     "title": "Leviathan and the Air-Pump: Hobbes, Boyle, and the Experimental Life",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "They showed experimental fact-making as a social and political achievement in Restoration England. It is the founding text of the practice- and context-centred history of science that dominates now.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Latour",
+     "year": 1987,
+     "title": "Science in Action: How to Follow Scientists and Engineers through Society",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Latour followed science 'in the making' through networks of people, instruments and texts. Actor-network ideas still shape work on how knowledge travels and gains authority.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haraway",
+     "year": 1988,
+     "title": "Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective",
+     "venue": "Feminist Studies",
+     "type": "paper",
+     "why": "Haraway argued that objectivity comes from accountable, located perspectives rather than a view from nowhere. Feminist and postcolonial histories of science still use it.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 14, no. 3, pp. 575-599."
+    },
+    {
+     "authors": "Galison",
+     "year": 1997,
+     "title": "Image and Logic: A Material Culture of Microphysics",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Galison showed physics as image and logic traditions coordinated in 'trading zones'. The trading-zone idea is widely used to study collaboration across disciplines.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Daston & Park",
+     "year": 1998,
+     "title": "Wonders and the Order of Nature, 1150-1750",
+     "venue": "Zone Books",
+     "type": "book",
+     "why": "They traced how wonders moved from the centre to the margins of natural inquiry. It modelled the history of epistemic emotions and categories that the field now pursues.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Secord",
+     "year": 2004,
+     "title": "Knowledge in Transit",
+     "venue": "Isis",
+     "type": "paper",
+     "why": "Secord proposed treating science as communication and circulation. 'Knowledge in transit' is now a core programme for the history of knowledge.",
+     "verified": false,
+     "conf": "high",
+     "note": "Vol. 95, no. 4, pp. 654-672."
+    },
+    {
+     "authors": "Schiebinger",
+     "year": 2004,
+     "title": "Plants and Empire: Colonial Bioprospecting in the Atlantic World",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Schiebinger showed colonial botany selecting and suppressing knowledge, such as abortifacients. It helped launch the study of agnotology, gender and empire in science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Daston & Galison",
+     "year": 2007,
+     "title": "Objectivity",
+     "venue": "Zone Books",
+     "type": "book",
+     "why": "They show objectivity as a historically specific epistemic virtue with its own practices. Histories of scientific virtues, images and data follow its model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raj",
+     "year": 2007,
+     "title": "Relocating Modern Science: Circulation and the Construction of Knowledge in South Asia and Europe, 1650-1900",
+     "venue": "Palgrave Macmillan",
+     "type": "book",
+     "why": "Raj showed modern science co-constructed through encounters in South Asia, not diffused from Europe. It is a key text for the global history of science now dominant.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Hacking",
+     "year": 1990,
+     "title": "The Taming of Chance",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Hacking traced how statistical thinking and 'normalcy' took hold in the nineteenth century. Histories of data, quantification and classification build on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Biagioli",
+     "year": 1993,
+     "title": "Galileo, Courtier: The Practice of Science in the Culture of Absolutism",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Biagioli showed Galileo's career shaped by court patronage. Patronage and credit remain core themes in histories of early modern science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shapin",
+     "year": 1994,
+     "title": "A Social History of Truth: Civility and Science in Seventeenth-Century England",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Shapin argued that trust in testimony rested on gentlemanly codes. The history of trust and credibility in science starts here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Porter",
+     "year": 1995,
+     "title": "Trust in Numbers: The Pursuit of Objectivity in Science and Public Life",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Porter showed quantification as a strategy of weak experts seeking public trust. It drives current work on numbers, accounting and governance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rheinberger",
+     "year": 1997,
+     "title": "Toward a History of Epistemic Things: Synthesizing Proteins in the Test Tube",
+     "venue": "Stanford University Press",
+     "type": "book",
+     "why": "Rheinberger analysed experimental systems and their 'epistemic things'. It shapes histories of laboratory life and biology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smith",
+     "year": 2004,
+     "title": "The Body of the Artisan: Art and Experience in the Scientific Revolution",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Smith argued that artisans' embodied knowledge fed the new science. It opened today's research on craft and the history of knowledge beyond scholars.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Edgerton",
+     "year": 2006,
+     "title": "The Shock of the Old: Technology and Global History since 1900",
+     "venue": "Profile Books",
+     "type": "book",
+     "why": "Edgerton argued for histories of technology in use, not innovation. It reoriented how historians treat technology and maintenance worldwide.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schaffer, Roberts, Raj & Delbourgo (eds.)",
+     "year": 2009,
+     "title": "The Brokered World: Go-Betweens and Global Intelligence, 1770-1820",
+     "venue": "Watson Publishing International",
+     "type": "book",
+     "why": "The volume made go-betweens central to how knowledge moved across empires. It is a cornerstone of the global history of science.",
+     "verified": true,
+     "conf": "high",
+     "note": "Uppsala Studies in History of Science 35; Sagamore Beach, MA."
+    },
+    {
+     "authors": "Oreskes & Conway",
+     "year": 2010,
+     "title": "Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming",
+     "venue": "Bloomsbury Press",
+     "type": "book",
+     "why": "They traced how a small network manufactured doubt about tobacco and climate science. It shapes current research on science, industry and denial.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Edwards",
+     "year": 2010,
+     "title": "A Vast Machine: Computer Models, Climate Data, and the Politics of Global Warming",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Edwards showed how global climate knowledge was built from infrastructures of data and models. It is the leading history of climate science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

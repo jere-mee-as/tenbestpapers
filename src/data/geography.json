@@ -1,0 +1,233 @@
+{
+ "discipline": "Geography",
+ "fields": [
+  {
+   "field": "Human & economic geography",
+   "lead": "The field is mainly working on quantitative spatial models, why places diverge in opportunity and growth, and how trade, housing and transport costs shape where people and firms locate.",
+   "papers": [
+    {
+     "authors": "Roback",
+     "year": 1982,
+     "title": "Wages, Rents, and the Quality of Life",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed that wages and rents together reveal how much people value local amenities. The spatial-equilibrium logic underlies nearly all modern work on cities and regions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Krugman",
+     "year": 1991,
+     "title": "Increasing Returns and Economic Geography",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed how scale economies and transport costs can make activity cluster in a core-periphery pattern. It founded new economic geography, the basis of today's quantitative spatial models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Glaeser, Kallal, Scheinkman & Shleifer",
+     "year": 1992,
+     "title": "Growth in Cities",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Found that city industries grow faster with diversity and competition than with specialization. The debate over which knowledge spillovers drive urban growth is still open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Henderson, Storeygard & Weil",
+     "year": 2012,
+     "title": "Measuring Economic Growth from Outer Space",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed night-lights from satellites can measure growth where official data are poor. Remote sensing is now a standard tool in spatial and development research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Autor, Dorn & Hanson",
+     "year": 2013,
+     "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Found that Chinese import competition caused lasting job and wage losses in exposed US local labor markets. It changed how economists see the regional costs of trade.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty, Hendren, Kline & Saez",
+     "year": 2014,
+     "title": "Where Is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Mapped large differences in upward mobility across US commuting zones. It made place central to the study of opportunity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Redding & Rossi-Hansberg",
+     "year": 2017,
+     "title": "Quantitative Spatial Economics",
+     "venue": "Annual Review of Economics",
+     "type": "paper",
+     "why": "Synthesized models that can be calibrated to real geographies to evaluate policies and shocks. It is the guide to the field's main modeling toolkit.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rodríguez-Pose",
+     "year": 2018,
+     "title": "The Revenge of the Places That Don't Matter (and What to Do About It)",
+     "venue": "Cambridge Journal of Regions, Economy and Society",
+     "type": "paper",
+     "why": "Linked populist votes to long-term decline in left-behind regions and argued for place-sensitive policy. It is central to the current debate on regional inequality and politics.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Donaldson",
+     "year": 2018,
+     "title": "Railroads of the Raj: Estimating the Impact of Transportation Infrastructure",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that Indian railroads cut trade costs and raised real incomes, using a trade model to measure the effect. It set the template for evaluating infrastructure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hsieh & Moretti",
+     "year": 2019,
+     "title": "Housing Constraints and Spatial Misallocation",
+     "venue": "American Economic Journal: Macroeconomics",
+     "type": "paper",
+     "why": "Argued that housing limits in productive cities like New York and San Francisco have substantially lowered US growth. It is central to the housing-supply debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Harvey",
+     "year": 1989,
+     "title": "From Managerialism to Entrepreneurialism: The Transformation in Urban Governance in Late Capitalism",
+     "venue": "Geografiska Annaler: Series B, Human Geography",
+     "type": "paper",
+     "why": "Described cities' turn to competing for capital through place-marketing and public-private deals. It remains the key critical-geography account of urban governance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Storper & Venables",
+     "year": 2004,
+     "title": "Buzz: Face-to-Face Contact and the Urban Economy",
+     "venue": "Journal of Economic Geography",
+     "type": "paper",
+     "why": "Argued that face-to-face contact is why high-skill activity stays concentrated in cities. The argument is now being tested by remote work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duranton & Puga",
+     "year": 2004,
+     "title": "Micro-Foundations of Urban Agglomeration Economies",
+     "venue": "Handbook of Regional and Urban Economics, Vol. 4 (Elsevier)",
+     "type": "paper",
+     "why": "Organized agglomeration benefits into sharing, matching and learning. The framework structures empirical work on why cities are productive.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Michalopoulos & Papaioannou",
+     "year": 2013,
+     "title": "Pre-colonial Ethnic Institutions and Contemporary African Development",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Using night-lights and ethnic homeland maps, found pre-colonial political centralization predicts current development. It is a key piece of the institutions-and-geography debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Allen & Arkolakis",
+     "year": 2014,
+     "title": "Trade and the Topography of the Spatial Economy",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Built a general-equilibrium model of trade over a continuous geography. It is a core building block of quantitative spatial models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kline & Moretti",
+     "year": 2014,
+     "title": "Local Economic Development, Agglomeration Economies, and the Big Push: 100 Years of Evidence from the Tennessee Valley Authority",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Found the TVA's manufacturing gains persisted but national welfare gains were small. It is a central reference in the place-based policy debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ahlfeldt, Redding, Sturm & Wolf",
+     "year": 2015,
+     "title": "The Economics of Density: Evidence from the Berlin Wall",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Used Berlin's division and reunification to estimate agglomeration forces in a quantitative city model. It set the standard for within-city spatial models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Diamond",
+     "year": 2016,
+     "title": "The Determinants and Welfare Implications of US Workers' Diverging Location Choices by Skill: 1980–2000",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that college workers sorted into high-wage, high-amenity cities, widening welfare inequality beyond wage gaps. It shapes work on spatial sorting.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty & Hendren",
+     "year": 2018,
+     "title": "The Impacts of Neighborhoods on Intergenerational Mobility I: Childhood Exposure Effects",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Using movers, showed that each year in a better neighborhood raises children's adult outcomes. It made neighborhood effects causal and policy-relevant.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Iammarino, Rodríguez-Pose & Storper",
+     "year": 2019,
+     "title": "Regional Inequality in Europe: Evidence, Theory and Policy Implications",
+     "venue": "Journal of Economic Geography",
+     "type": "paper",
+     "why": "Documented diverging European regions and proposed policy by development type. It is the main reference for EU regional-policy debates.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

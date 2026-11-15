@@ -1,0 +1,233 @@
+{
+  "discipline": "Education",
+  "fields": [
+    {
+      "field": "Learning & education research",
+      "lead": "The field is mainly working out which well-established learning findings and promising interventions, such as tutoring, phonics, pre-K and mindset, still produce gains when tested at scale in rigorous trials, and why effects so often shrink or fade.",
+      "papers": [
+        {
+          "authors": "Dunlosky, Rawson, Marsh, Nathan & Willingham",
+          "year": 2013,
+          "title": "Improving Students' Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology",
+          "venue": "Psychological Science in the Public Interest",
+          "type": "paper",
+          "why": "Rated ten common study techniques and found practice testing and distributed practice had high utility while highlighting and rereading did not. It is the reference point for bringing retrieval and spacing into classrooms, and the gap between this evidence and common practice is still the problem.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kirschner, Sweller & Clark",
+          "year": 2006,
+          "title": "Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching",
+          "venue": "Educational Psychologist",
+          "type": "paper",
+          "why": "Used cognitive load theory and working-memory limits to argue that novices learn better from explicit instruction than from discovery. It remains at the centre of the explicit-instruction versus inquiry debate that still shapes curricula and teacher training.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Castles, Rastle & Nation",
+          "year": 2018,
+          "title": "Ending the Reading Wars: Reading Acquisition From Novice to Expert",
+          "venue": "Psychological Science in the Public Interest",
+          "type": "paper",
+          "why": "Reviewed the evidence that systematic phonics is necessary early on, and described how skilled reading then depends on vocabulary and comprehension. It is the scholarly backbone of the science-of-reading movement now changing state laws and curricula.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Krueger",
+          "year": 1999,
+          "title": "Experimental Estimates of Education Production Functions",
+          "venue": "Quarterly Journal of Economics",
+          "type": "paper",
+          "why": "Reanalysed Tennessee's STAR experiment, which randomly assigned students to small or regular classes, and found gains from smaller classes, especially for disadvantaged children. It is still the main experimental evidence on class size, and arguments over cost-effectiveness and scaling run through it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Chetty, Friedman & Rockoff",
+          "year": 2014,
+          "title": "Measuring the Impacts of Teachers II: Teacher Value-Added and Student Outcomes in Adulthood",
+          "venue": "American Economic Review",
+          "type": "paper",
+          "why": "Linked school records to tax data and found that students assigned to high value-added teachers earn more and are likelier to attend college. It made teacher quality an economic question and remains central, and contested, in policy on evaluation and pay.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Heckman, Moon, Pinto, Savelyev & Yavitz",
+          "year": 2010,
+          "title": "The rate of return to the HighScope Perry Preschool Program",
+          "venue": "Journal of Public Economics",
+          "type": "paper",
+          "why": "Re-estimated Perry Preschool's long-run returns while dealing with its small sample and compromised randomisation, finding returns of roughly 7 to 10 percent a year. It anchors the case for early-childhood investment, and its reliance on one small 1960s trial is also why the case remains disputed.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Durkin, Lipsey, Farran & Wiesen",
+          "year": 2022,
+          "title": "Effects of a statewide pre-kindergarten program on children's achievement and behavior through sixth grade",
+          "venue": "Developmental Psychology",
+          "type": "paper",
+          "why": "A randomised evaluation of Tennessee's state pre-K program found that by sixth grade participants scored lower and had more disciplinary problems than controls. It is the most uncomfortable result in the scaled-up pre-K literature and forces the field to explain why model programs and public programs diverge.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Nickow, Oreopoulos & Quan",
+          "year": 2020,
+          "title": "The Impressive Effects of Tutoring on PreK-12 Learning: A Systematic Review and Meta-Analysis of the Experimental Evidence",
+          "venue": "NBER Working Paper 27476",
+          "type": "paper",
+          "why": "Pooled nearly a hundred RCTs and found large average gains from tutoring, strongest when delivered often, in school and by teachers or paraprofessionals. It supplied the evidence base for the post-pandemic push for high-dosage tutoring.",
+          "verified": true,
+          "conf": "high",
+          "note": "Later published in a revised version as 'The Promise of Tutoring for PreK-12 Learning' (AERJ, 2024)."
+        },
+        {
+          "authors": "Yeager et al.",
+          "year": 2019,
+          "title": "A national experiment reveals where a growth mindset improves achievement",
+          "venue": "Nature",
+          "type": "paper",
+          "why": "A preregistered national trial found a short online growth-mindset lesson raised grades modestly, mainly among lower-achieving students in supportive schools. It is the strongest evidence for mindset interventions and the main counterpoint to meta-analyses that find effects near zero.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Betthäuser, Bach-Mortensen & Engzell",
+          "year": 2023,
+          "title": "A systematic review and meta-analysis of the evidence on learning during the COVID-19 pandemic",
+          "venue": "Nature Human Behaviour",
+          "type": "paper",
+          "why": "Pooled studies from many countries and found children lost about a third of a school year's learning, with larger losses for disadvantaged students and little recovery. It frames the current recovery agenda and the debate over whether learning losses are persisting.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        }
+      ],
+      "more": [
+        {
+          "authors": "Roediger & Karpicke",
+          "year": 2006,
+          "title": "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention",
+          "venue": "Psychological Science",
+          "type": "paper",
+          "why": "Showed that taking a test on studied material produced better long-term retention than restudying it, even without feedback. It revived the testing effect and launched the retrieval-practice research that classroom studies are still trying to scale.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Cepeda, Pashler, Vul, Wixted & Rohrer",
+          "year": 2006,
+          "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis",
+          "venue": "Psychological Bulletin",
+          "type": "paper",
+          "why": "A meta-analysis of hundreds of spacing experiments showing that spreading study over time improves retention and that the best gap depends on how long material must be retained. It remains the quantitative foundation for spacing in curricula and learning software.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Sweller",
+          "year": 1988,
+          "title": "Cognitive Load During Problem Solving: Effects on Learning",
+          "venue": "Cognitive Science",
+          "type": "paper",
+          "why": "Argued that means-ends problem solving overloads working memory and gets in the way of schema learning, the founding claim of cognitive load theory. The worked-example effect and current arguments for explicit instruction still build on it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Chetty, Friedman, Hilger, Saez, Schanzenbach & Yagan",
+          "year": 2011,
+          "title": "How Does Your Kindergarten Classroom Affect Your Earnings? Evidence from Project STAR",
+          "venue": "Quarterly Journal of Economics",
+          "type": "paper",
+          "why": "Linked STAR participants to adult tax records and found that classroom quality affected earnings despite test-score fadeout. Its 'fadeout and re-emergence' pattern is now central to how the field interprets early interventions.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Campbell et al.",
+          "year": 2014,
+          "title": "Early Childhood Investments Substantially Boost Adult Health",
+          "venue": "Science",
+          "type": "paper",
+          "why": "Followed Abecedarian participants into their mid-30s and found lower rates of cardiovascular and metabolic risk factors among treated participants. Along with Perry it is the evidence for long-run early-childhood effects, and its small sample keeps it under scrutiny.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Rothstein",
+          "year": 2010,
+          "title": "Teacher Quality in Educational Production: Tracking, Decay, and Student Achievement",
+          "venue": "Quarterly Journal of Economics",
+          "type": "paper",
+          "why": "Showed that standard value-added models can 'predict' past achievement from future teachers, a sign that students are sorted to teachers non-randomly. It is the main methodological challenge to value-added, and the debate over bias in teacher ratings is not settled.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Guryan et al.",
+          "year": 2023,
+          "title": "Not Too Late: Improving Academic Outcomes among Adolescents",
+          "venue": "American Economic Review",
+          "type": "paper",
+          "why": "Two RCTs in Chicago found that intensive daily math tutoring for high schoolers produced large gains in math achievement and grades. It showed that high-dosage tutoring works even for adolescents far behind and is the model behind many post-pandemic tutoring programs.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Macnamara & Burgoyne",
+          "year": 2023,
+          "title": "Do growth mindset interventions impact students' academic achievement? A systematic review and meta-analysis with recommendations for best practices",
+          "venue": "Psychological Bulletin",
+          "type": "paper",
+          "why": "Found that growth-mindset effects shrink toward zero once study quality and researcher financial incentives are accounted for. Together with competing meta-analyses it is the current front of the mindset dispute.",
+          "verified": false,
+          "conf": "high",
+          "note": "Title recalled; search confirmed the paper exists but did not show the full title."
+        },
+        {
+          "authors": "Lortie-Forgues & Inglis",
+          "year": 2019,
+          "title": "Rigorous Large-Scale Educational RCTs Are Often Uninformative: Should We Be Concerned?",
+          "venue": "Educational Researcher",
+          "type": "paper",
+          "why": "Reviewed 141 large-scale RCTs commissioned by EEF and NCEE and found average effects were small with wide confidence intervals. It forced the field to face how small effects look under rigorous evaluation and how weak many trials are.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kraft",
+          "year": 2020,
+          "title": "Interpreting Effect Sizes of Education Interventions",
+          "venue": "Educational Researcher",
+          "type": "paper",
+          "why": "Used benchmarks from causal studies to argue that effects around 0.05 to 0.2 SD are meaningful in education, and that cost and scalability should shape interpretation. It changed how researchers and funders read results from tutoring, mindset and curriculum trials.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

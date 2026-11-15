@@ -1,0 +1,233 @@
+{
+ "discipline": "Religious studies",
+ "fields": [
+  {
+   "field": "Study of religion",
+   "lead": "The field is arguing over whether 'religion' and 'the secular' are usable categories at all, while survey researchers chart generational religious decline and cognitive and evolutionary scholars test whether moralising gods helped large-scale societies cooperate.",
+   "papers": [
+    {
+     "authors": "Smith",
+     "year": 1998,
+     "title": "Religion, Religions, Religious",
+     "venue": "Critical Terms for Religious Studies, ed. M. C. Taylor (University of Chicago Press)",
+     "type": "paper",
+     "why": "Argued that 'religion' is a scholar's second-order category, not a native thing found in the world. Almost every argument about what the field's object is still starts by quoting or answering this essay.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Asad",
+     "year": 1993,
+     "title": "Genealogies of Religion: Discipline and Reasons of Power in Christianity and Islam",
+     "venue": "Johns Hopkins University Press",
+     "type": "book",
+     "why": "Showed that the idea of religion as private belief and inner meaning is a product of post-Reformation Christianity and colonial power, and took Geertz's universal definition apart. It set the genealogical method that critical religious studies still uses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Masuzawa",
+     "year": 2005,
+     "title": "The Invention of World Religions: Or, How European Universalism Was Preserved in the Language of Pluralism",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Traced how the 'world religions' scheme was built in nineteenth-century European scholarship and still quietly ranks traditions. It is why textbooks and survey courses organised by world religions are now treated as a problem rather than a neutral map.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Casanova",
+     "year": 1994,
+     "title": "Public Religions in the Modern World",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Split secularisation into three separate claims: differentiation of spheres, decline of belief, and privatisation, and showed the last two need not follow from the first. That decomposition is still the standard way to state what secularisation theory does and does not claim.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Asad",
+     "year": 2003,
+     "title": "Formations of the Secular: Christianity, Islam, Modernity",
+     "venue": "Stanford University Press",
+     "type": "book",
+     "why": "Turned the question around from religion to the secular itself, treating secularism as a political project with its own sensibilities and coercions. It launched the 'critical secular studies' literature on law, liberalism and minorities that is still very active.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Taylor",
+     "year": 2007,
+     "title": "A Secular Age",
+     "venue": "Belknap Press of Harvard University Press",
+     "type": "book",
+     "why": "Replaced 'subtraction' stories of religion fading with an account of how belief became one option among many within an 'immanent frame'. It remains the main philosophical reference point for anyone theorising secularity, whether they accept it or not.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Norris & Inglehart",
+     "year": 2004,
+     "title": "Sacred and Secular: Religion and Politics Worldwide",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Revived secularisation theory on survey data by tying religiosity to existential security, which also explained why poor, high-fertility societies stay religious. Its security thesis is the main empirical claim later work on religious decline tests and extends.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Boyer",
+     "year": 2001,
+     "title": "Religion Explained: The Evolutionary Origins of Religious Thought",
+     "venue": "Basic Books",
+     "type": "book",
+     "why": "Explained religious concepts as by-products of ordinary cognitive systems, with minimally counterintuitive agents that are easy to remember and pass on. It founded the cognitive science of religion's by-product programme, which still frames experiments on belief and transmission.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Norenzayan, Shariff, Gervais, Willard, McNamara, Slingerland & Henrich",
+     "year": 2016,
+     "title": "The cultural evolution of prosocial religions",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Set out the 'big gods' thesis: belief in watchful, moralising gods spread through cultural group selection because it sustained cooperation in large societies. With dozens of commentaries attached, it is the hub of current debate on religion and social scale.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Purzycki, Apicella, Atkinson, Cohen, McNamara, Willard, Xygalatas, Norenzayan & Henrich",
+     "year": 2016,
+     "title": "Moralistic gods, supernatural punishment and the expansion of human sociality",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used economic games in eight societies to show that people who saw their gods as knowing and punishing were fairer to distant co-religionists. It moved the big-gods argument from history and theory into cross-cultural field experiments, and its design is still copied and disputed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Smith",
+     "year": 1962,
+     "title": "The Meaning and End of Religion",
+     "venue": "Macmillan",
+     "type": "book",
+     "why": "Wilfred Cantwell Smith argued that 'religion' as a reified system is a recent Western invention and proposed 'faith' and 'cumulative tradition' instead. It is the older root of the category critique that later scholars sharpened, and is still cited as such.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nongbri",
+     "year": 2013,
+     "title": "Before Religion: A History of a Modern Concept",
+     "venue": "Yale University Press",
+     "type": "book",
+     "why": "Showed in accessible detail that ancient languages had no word matching modern 'religion' and that applying it to antiquity distorts the evidence. It brought the category critique into ancient history and biblical studies, where it is now routinely debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stark",
+     "year": 1999,
+     "title": "Secularization, R.I.P.",
+     "venue": "Sociology of Religion",
+     "type": "paper",
+     "why": "A blunt attack on secularisation theory from the religious-economies school, arguing that past piety was overstated and religion is not declining. It is the classic statement of the anti-secularisation side that later survey work answers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bruce",
+     "year": 2011,
+     "title": "Secularization: In Defence of an Unfashionable Theory",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Restated the secularisation paradigm against its critics, explaining apparent counterexamples as cultural defence or transition. It is the main current defence of the theory and the usual sparring partner for revisionists.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Voas & Chaves",
+     "year": 2016,
+     "title": "Is the United States a Counterexample to the Secularization Thesis?",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed that American religiosity has been falling for decades by cohort replacement, just later and slower than in Europe. It removed the strongest standard counterexample and sharpened the current consensus that decline is generational.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bellah",
+     "year": 2011,
+     "title": "Religion in Human Evolution: From the Paleolithic to the Axial Age",
+     "venue": "Belknap Press of Harvard University Press",
+     "type": "book",
+     "why": "A large comparative synthesis linking ritual, play and narrative to the Axial Age transformations in Israel, Greece, China and India. It revived big-picture comparative history of religion and fed the current Axial Age debates with evolutionary scholars.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Atran & Norenzayan",
+     "year": 2004,
+     "title": "Religion's evolutionary landscape: Counterintuition, commitment, compassion, communion",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Combined the by-product view of religious cognition with an account of costly commitment and emotional coping. It bridged the cognitive and the cooperation strands of the evolutionary study of religion that are still argued over.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Watts, Greenhill, Atkinson, Currie, Bulbulia & Gray",
+     "year": 2015,
+     "title": "Broad supernatural punishment but not moralizing high gods precede the evolution of political complexity in Austronesia",
+     "venue": "Proceedings of the Royal Society B",
+     "type": "paper",
+     "why": "Applied phylogenetic methods to Austronesian cultures and found that general supernatural punishment, not moralising high gods, came before political complexity. It complicated the big-gods story and showed what comparative phylogenetics can do for religious history.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beheim et al.",
+     "year": 2021,
+     "title": "Treatment of missing data determined conclusions regarding moralizing gods",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that a high-profile 2019 Seshat study claiming complex societies preceded moralising gods depended on coding missing data as absence; the original paper was later retracted. It is now the field's cautionary case about large historical databases and is central to the ongoing big-gods dispute.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mahmood",
+     "year": 2005,
+     "title": "Politics of Piety: The Islamic Revival and the Feminist Subject",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "An ethnography of the Egyptian women's mosque movement that challenged liberal assumptions about agency and freedom in religious practice. It remains a key text in the anthropology of religion and in debates over secularism, gender and Islam.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

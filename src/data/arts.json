@@ -1,0 +1,917 @@
+{
+ "discipline": "Arts & music",
+ "fields": [
+  {
+   "field": "Art history",
+   "lead": "Art history is now mainly rethinking whose art counts and how images act, through global and decolonial histories, restitution, image theory, and the effects of photography and digital circulation.",
+   "papers": [
+    {
+     "authors": "Panofsky",
+     "year": 1927,
+     "title": "Perspective as Symbolic Form",
+     "venue": "Vorträge der Bibliothek Warburg (German original 1927); English translation, Zone Books, 1991",
+     "type": "book",
+     "why": "Argued that linear perspective is one culture's way of organizing space, not a neutral record of sight. Every current argument that images carry a worldview, including about camera and screen images, still starts from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Benjamin",
+     "year": 1936,
+     "title": "The Work of Art in the Age of Mechanical Reproduction",
+     "venue": "Zeitschrift für Sozialforschung (first published in French translation, 1936)",
+     "type": "paper",
+     "why": "Claimed that reproduction strips art of its 'aura' and shifts it from ritual toward politics. It is still the first text people reach for when asking what photography, film and now endless digital copies do to art.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greenberg",
+     "year": 1939,
+     "title": "Avant-Garde and Kitsch",
+     "venue": "Partisan Review",
+     "type": "paper",
+     "why": "Set serious modernist art against mass-produced kitsch and made formal purity the measure of quality. The field keeps returning to it because debates about popular culture, taste and the market are still framed as arguments with Greenberg.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baxandall",
+     "year": 1972,
+     "title": "Painting and Experience in Fifteenth-Century Italy",
+     "venue": "Clarendon Press (Oxford)",
+     "type": "book",
+     "why": "Introduced the 'period eye': the skills and habits from trade, church and daily life that shaped how a culture made and saw pictures. It remains the model for social histories of style and is assigned constantly because the method still works.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nochlin",
+     "year": 1971,
+     "title": "Why Have There Been No Great Women Artists?",
+     "venue": "ARTnews",
+     "type": "paper",
+     "why": "Changed the question from missing female genius to the academies, patronage and training that decided who could become an artist. Current museum rehangs and canon revisions still borrow its institutional argument.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Krauss",
+     "year": 1979,
+     "title": "Sculpture in the Expanded Field",
+     "venue": "October",
+     "type": "paper",
+     "why": "Showed how land art, installation and site works broke the old category of sculpture, and mapped the new positions logically. It is still the usual starting point for talking about medium in contemporary art.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Alpers",
+     "year": 1983,
+     "title": "The Art of Describing: Dutch Art in the Seventeenth Century",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Argued that Dutch painting is about describing and knowing the visible world, not telling stories in the Italian way. It opened the ongoing work linking art to science, optics and the history of knowledge.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Belting",
+     "year": 1990,
+     "title": "Likeness and Presence: A History of the Image before the Era of Art",
+     "venue": "C. H. Beck (German original, Bild und Kult, 1990); English translation, University of Chicago Press, 1994",
+     "type": "book",
+     "why": "Studied religious images as objects people treated as present and powerful, before 'art' existed as a category. It drove the shift to image anthropology (Bildwissenschaft) that still competes with art history's older frame.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Crary",
+     "year": 1990,
+     "title": "Techniques of the Observer: On Vision and Modernity in the Nineteenth Century",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Argued that modern vision was produced by optical devices and new knowledge of the body, before modernist painting arrived. It feeds today's histories of attention, media and screens.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nagel & Wood",
+     "year": 2010,
+     "title": "Anachronic Renaissance",
+     "venue": "Zone Books",
+     "type": "book",
+     "why": "Showed that Renaissance artworks hold several times at once through copies, replicas and relics, rather than sitting at one date. It is at the center of current debates about time and about writing art history beyond a single Western timeline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Fried",
+     "year": 1967,
+     "title": "Art and Objecthood",
+     "venue": "Artforum",
+     "type": "paper",
+     "why": "Attacked minimalism as 'theatrical' because it depends on the viewer's presence. Its terms (theatricality, absorption, presentness) are still used to argue about installation, performance and photography.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clark",
+     "year": 1984,
+     "title": "The Painting of Modern Life: Paris in the Art of Manet and His Followers",
+     "venue": "Alfred A. Knopf",
+     "type": "book",
+     "why": "Read Manet and the Impressionists against Haussmann's Paris, class and spectacle. It is the standard model of a social history of modernism and still the book that formalist and global critics argue against.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Freedberg",
+     "year": 1989,
+     "title": "The Power of Images: Studies in the History and Theory of Response",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Collected how people kiss, attack and pray to images and asked art history to take these responses seriously. It underlies current work on iconoclasm, image violence and the emotions images provoke.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bal & Bryson",
+     "year": 1991,
+     "title": "Semiotics and Art History",
+     "venue": "The Art Bulletin",
+     "type": "paper",
+     "why": "Argued that meaning depends on viewers and contexts rather than being fixed by an artist's intent or a period. It is still the clearest case for reading images as signs and a common point of reference in method debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gell",
+     "year": 1998,
+     "title": "Art and Agency: An Anthropological Theory",
+     "venue": "Clarendon Press (Oxford)",
+     "type": "book",
+     "why": "Treated artworks as things that act on people within social networks, rather than as objects to be judged beautiful. It is the theory most used today in global and non-Western art history and in museum anthropology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bishop",
+     "year": 2004,
+     "title": "Antagonism and Relational Aesthetics",
+     "venue": "October",
+     "type": "paper",
+     "why": "Challenged the idea that participatory, social art is good simply because it is friendly and convivial, arguing for friction and disagreement. Debates over socially engaged art still run through this essay.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaufmann",
+     "year": 2004,
+     "title": "Toward a Geography of Art",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Examined how art history has mapped styles onto nations and regions, and how to study art across places without that baggage. It is a core reference for the global turn in the discipline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Steyerl",
+     "year": 2009,
+     "title": "In Defense of the Poor Image",
+     "venue": "e-flux journal",
+     "type": "paper",
+     "why": "Argued that compressed, copied, low-resolution images are a new form of circulation and value, not just degraded originals. It is the standard starting point for thinking about images online.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sarr & Savoy",
+     "year": 2018,
+     "title": "The Restitution of African Cultural Heritage: Toward a New Relational Ethics",
+     "venue": "Report to the President of the French Republic (French edition, Philippe Rey / Seuil)",
+     "type": "paper",
+     "why": "Recommended the permanent return of African objects taken during the colonial period from French museums. It set the terms of the restitution debate that now reshapes museums, collections and provenance research.",
+     "verified": true,
+     "conf": "low",
+     "note": "Title confirmed by search; publisher of the French edition is from memory."
+    },
+    {
+     "authors": "Azoulay",
+     "year": 2019,
+     "title": "Potential History: Unlearning Imperialism",
+     "venue": "Verso",
+     "type": "book",
+     "why": "Argued that museums, archives and photography are instruments of imperial violence and that scholars must unlearn their categories. It is among the most debated recent books on images, archives and restitution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Musicology",
+   "lead": "Musicology is now mainly working on music as performance and social practice, on race and the canon, and on music cognition and computational analysis.",
+   "papers": [
+    {
+     "authors": "Lerdahl & Jackendoff",
+     "year": 1983,
+     "title": "A Generative Theory of Tonal Music",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Gave a rule-based, linguistics-style account of how listeners group and organize rhythm and pitch. It is still the main bridge between music theory and cognitive science and the model that computational work tests.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kerman",
+     "year": 1985,
+     "title": "Contemplating Music: Challenges to Musicology",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Attacked fact-gathering musicology and formalist analysis and called for interpretive criticism. Arguments about what musicology is for still use the terms Kerman set.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewin",
+     "year": 1987,
+     "title": "Generalized Musical Intervals and Transformations",
+     "venue": "Yale University Press",
+     "type": "book",
+     "why": "Recast theory as the study of transformations between musical objects, using group theory. Transformational and neo-Riemannian analysis, still very active, rest on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McClary",
+     "year": 1991,
+     "title": "Feminine Endings: Music, Gender, and Sexuality",
+     "venue": "University of Minnesota Press",
+     "type": "book",
+     "why": "Argued that supposedly neutral musical structures carry ideas about gender and sexuality. It made cultural and critical reading of the canon normal, and its methods are still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abbate",
+     "year": 2004,
+     "title": "Music—Drastic or Gnostic?",
+     "venue": "Critical Inquiry",
+     "type": "paper",
+     "why": "Asked whether music should be studied as a decoded text or as a live event that happens to people in real time. It is the central essay of the performance turn and still sets the terms of that debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Huron",
+     "year": 2006,
+     "title": "Sweet Anticipation: Music and the Psychology of Expectation",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Explained musical emotion through prediction, surprise and learned statistics. It anchors current empirical and computational work on expectation and pleasure in music.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hepokoski & Darcy",
+     "year": 2006,
+     "title": "Elements of Sonata Theory: Norms, Types, and Deformations in the Late-Eighteenth-Century Sonata",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Replaced the textbook sonata form with a set of norms that pieces follow or deliberately bend. It is now the dominant framework for analyzing Classical-era instrumental music.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tymoczko",
+     "year": 2011,
+     "title": "A Geometry of Music: Harmony and Counterpoint in the Extended Common Practice",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Modeled chords and voice leading as points and paths in geometric spaces, with principles shared across styles from Renaissance to jazz. It links theory to mathematics and is widely used in computational analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cook",
+     "year": 2013,
+     "title": "Beyond the Score: Music as Performance",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that music is something done in performance, not a text fixed in a score, and drew on recordings as evidence. It is the fullest statement of the performance-centered musicology that now dominates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ewell",
+     "year": 2020,
+     "title": "Music Theory and the White Racial Frame",
+     "venue": "Music Theory Online",
+     "type": "paper",
+     "why": "Argued that music theory's core canon and methods reflect a white racial frame, starting with the status of Schenker. It set off the field's biggest current controversy over race, curriculum and what theory should teach.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Goehr",
+     "year": 1992,
+     "title": "The Imaginary Museum of Musical Works: An Essay in the Philosophy of Music",
+     "venue": "Clarendon Press (Oxford)",
+     "type": "book",
+     "why": "Argued that the idea of a fixed musical 'work' only took hold around 1800. It underlies current questioning of the work concept in performance, improvisation and non-Western music.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewis",
+     "year": 1996,
+     "title": "Improvised Music after 1950: Afrological and Eurological Perspectives",
+     "venue": "Black Music Research Journal",
+     "type": "paper",
+     "why": "Contrasted African American and European American ideas of improvisation and showed how race shaped who counted as experimental. It is central to current work on improvisation and race in music history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Small",
+     "year": 1998,
+     "title": "Musicking: The Meanings of Performing and Listening",
+     "venue": "Wesleyan University Press",
+     "type": "book",
+     "why": "Turned music into a verb: an activity that includes everyone in the event, from performers to ticket sellers. The term and the stance are now basic to performance and social approaches.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caplin",
+     "year": 1998,
+     "title": "Classical Form: A Theory of Formal Functions for the Instrumental Music of Haydn, Mozart, and Beethoven",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defined form through the functions phrases perform, such as beginning, middle and ending. With sonata theory it is one of the two frameworks used in form analysis and teaching today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Born",
+     "year": 2005,
+     "title": "On Musical Mediation: Ontology, Technology and Creativity",
+     "venue": "Twentieth-Century Music",
+     "type": "paper",
+     "why": "Argued that music exists through networks of people, technologies and institutions rather than as an isolated object. It is a key text for the current relational and sociological turn in musicology.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gjerdingen",
+     "year": 2007,
+     "title": "Music in the Galant Style",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Showed that eighteenth-century composers built music from a shared stock of learned patterns (schemata). Schema theory is now widely used in analysis, historical improvisation and pedagogy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cohn",
+     "year": 2012,
+     "title": "Audacious Euphony: Chromatic Harmony and the Triad's Second Nature",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Explained nineteenth-century chromatic harmony through smooth voice leading between triads rather than tonal function. It is the major statement of neo-Riemannian theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Margulis",
+     "year": 2014,
+     "title": "On Repeat: How Music Plays the Mind",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Used experiments and theory to explain why repetition is so central to music and to listening. It is a reference point in current music-cognition research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pearce",
+     "year": 2018,
+     "title": "Statistical learning and probabilistic prediction in music cognition: mechanisms of stylistic enculturation",
+     "venue": "Annals of the New York Academy of Sciences",
+     "type": "paper",
+     "why": "Summarized evidence that listeners learn musical styles statistically and predict what comes next, using the IDyOM model. It is the main computational account of expectation now being tested.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eidsheim",
+     "year": 2019,
+     "title": "The Race of Sound: Listening, Timbre, and Vocality in African American Music",
+     "venue": "Duke University Press",
+     "type": "book",
+     "why": "Argued that hearing race in a voice comes from listeners' assumptions rather than from the voice itself. It is a key text in current work on voice, timbre and race.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Ethnomusicology",
+   "lead": "Ethnomusicology is now mainly combining ethnographic and decolonial study of listening and sound with cross-cultural experiments and data on what is universal in music.",
+   "papers": [
+    {
+     "authors": "Merriam",
+     "year": 1964,
+     "title": "The Anthropology of Music",
+     "venue": "Northwestern University Press",
+     "type": "book",
+     "why": "Defined the field as the study of music in culture, treating music as human behavior rather than sound alone. Its framework is still the one people refine or push back against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blacking",
+     "year": 1973,
+     "title": "How Musical Is Man?",
+     "venue": "University of Washington Press",
+     "type": "book",
+     "why": "Argued that musicality is a general human capacity and that music is 'humanly organized sound' inseparable from society. It is still cited in debates about universals and about who is considered musical.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Feld",
+     "year": 1982,
+     "title": "Sound and Sentiment: Birds, Weeping, Poetics, and Song in Kaluli Expression",
+     "venue": "University of Pennsylvania Press",
+     "type": "book",
+     "why": "Showed how Kaluli song, weeping and birdsong connect sound, feeling and environment. It started the study of sound as a way of knowing that runs through today's sound studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Seeger",
+     "year": 1987,
+     "title": "Why Suyá Sing: A Musical Anthropology of an Amazonian People",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Treated song as social action that creates Suyá society and cosmology rather than reflecting it. It remains a model for writing a musical anthropology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rice",
+     "year": 2003,
+     "title": "Time, Place, and Metaphor in Musical Experience and Ethnography",
+     "venue": "Ethnomusicology",
+     "type": "paper",
+     "why": "Offered a model for how people experience music across scales of place, time and metaphor. It is widely used to design fieldwork and theory in a globalized setting.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Turino",
+     "year": 2008,
+     "title": "Music as Social Life: The Politics of Participation",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Distinguished participatory music-making from presentational performance and tied each to social values. The distinction is used constantly in work on community music and cultural politics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ochoa Gautier",
+     "year": 2014,
+     "title": "Aurality: Listening and Knowledge in Nineteenth-Century Colombia",
+     "venue": "Duke University Press",
+     "type": "book",
+     "why": "Showed how listening and voice were shaped by colonial and national knowledge projects. It anchors the decolonial and historical turn in the study of listening.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nettl",
+     "year": 2015,
+     "title": "The Study of Ethnomusicology: Thirty-Three Discussions",
+     "venue": "University of Illinois Press (3rd edition; first edition 1983)",
+     "type": "book",
+     "why": "Surveys the field's standing problems, from fieldwork ethics to universals and change. The updated edition remains the standard map of what the field argues about.",
+     "verified": true,
+     "conf": "high",
+     "note": "Updated from the 1983 first edition (Twenty-nine Issues and Concepts) to the current 3rd edition."
+    },
+    {
+     "authors": "Savage et al.",
+     "year": 2015,
+     "title": "Statistical universals reveal the structures and functions of human music",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Used a global sample of recordings to find features that recur across cultures. It reopened the universals question with quantitative methods that the field is still debating.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mehr et al.",
+     "year": 2019,
+     "title": "Universality and diversity in human song",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed with ethnographic and audio data from many societies that song form tracks function in consistent ways. It is the most cited recent data-driven claim about music's universality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Waterman",
+     "year": 1990,
+     "title": "Jùjú: A Social History and Ethnography of an African Popular Music",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Studied Nigerian popular music as a product of urban history and social identity. It helped make popular music a central subject for the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stokes (ed.)",
+     "year": 1994,
+     "title": "Ethnicity, Identity and Music: The Musical Construction of Place",
+     "venue": "Berg",
+     "type": "book",
+     "why": "Argued that music actively builds ethnic identity and place rather than merely expressing them. It shaped the field's approach to identity, nation and diaspora.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Feld",
+     "year": 1996,
+     "title": "Waterfalls of Song: An Acoustemology of Place Resounding in Bosavi, Papua New Guinea",
+     "venue": "Senses of Place, ed. Feld & Basso (School of American Research Press)",
+     "type": "paper",
+     "why": "Coined 'acoustemology', sound as a way of knowing place. The idea is now used widely across ethnomusicology, anthropology and sound studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Born & Hesmondhalgh (eds.)",
+     "year": 2000,
+     "title": "Western Music and Its Others: Difference, Representation, and Appropriation in Music",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Examined how Western music represents and borrows from other cultures. It is still the main reference on appropriation and exoticism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Agawu",
+     "year": 2003,
+     "title": "Representing African Music: Postcolonial Notes, Queries, Positions",
+     "venue": "Routledge",
+     "type": "book",
+     "why": "Criticized how scholars have constructed 'African music', especially the claim of rhythmic difference. It is a key postcolonial critique of the field's own methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sterne",
+     "year": 2003,
+     "title": "The Audible Past: Cultural Origins of Sound Reproduction",
+     "venue": "Duke University Press",
+     "type": "book",
+     "why": "Traced how modern listening techniques emerged with telephones, phonographs and medicine. It helped found sound studies, which is now closely tied to ethnomusicology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McDermott, Schultz, Undurraga & Godoy",
+     "year": 2016,
+     "title": "Indifference to dissonance in native Amazonians reveals cultural variation in music perception",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found that the Tsimane' of Bolivia do not prefer consonance over dissonance. It became central evidence that some apparently basic preferences are learned.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jacoby & McDermott",
+     "year": 2017,
+     "title": "Integer Ratio Priors on Musical Rhythm Revealed Cross-culturally by Iterated Reproduction",
+     "venue": "Current Biology",
+     "type": "paper",
+     "why": "Used repeated tapping experiments across cultures to show shared biases toward simple rhythm ratios along with cultural differences. Its method is now standard for cross-cultural music experiments.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Robinson",
+     "year": 2020,
+     "title": "Hungry Listening: Resonant Theory for Indigenous Sound Studies",
+     "venue": "University of Minnesota Press",
+     "type": "book",
+     "why": "Critiqued settler-colonial ways of listening and proposed Indigenous alternatives. It is one of the most discussed recent books in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Savage et al.",
+     "year": 2021,
+     "title": "Music as a coevolved system for social bonding",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Argued that music evolved biologically and culturally to strengthen social bonds, with many published responses. It is the current focal point of the debate on music's origins.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Film studies",
+   "lead": "Film studies is now mainly asking what cinema is after digitization and streaming, while developing embodied, historical, global and cognitive accounts of watching films.",
+   "papers": [
+    {
+     "authors": "Bazin",
+     "year": 1945,
+     "title": "The Ontology of the Photographic Image",
+     "venue": "Problèmes de la peinture, ed. G. Diehl (Confluences); reprinted in What Is Cinema? (English translation 1967)",
+     "type": "paper",
+     "why": "Argued that film's power comes from its mechanical, physical link to the world it records. Debates about realism, indexicality and digital or AI images still start from here.",
+     "verified": false,
+     "conf": "high",
+     "note": "Original 1945 venue corrected from memory (the draft said La Revue du cinéma); not web-confirmed."
+    },
+    {
+     "authors": "Mulvey",
+     "year": 1975,
+     "title": "Visual Pleasure and Narrative Cinema",
+     "venue": "Screen",
+     "type": "paper",
+     "why": "Used psychoanalysis to show how classical Hollywood builds a male gaze into its images. It founded feminist film theory and gave the field the vocabulary of gaze and spectatorship.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Deleuze",
+     "year": 1983,
+     "title": "Cinema 1: The Movement-Image",
+     "venue": "Éditions de Minuit (French original 1983); English translation, University of Minnesota Press, 1986",
+     "type": "book",
+     "why": "Treated cinema as a way of thinking and classified images by how they handle movement and time. It remains the main philosophical framework in film theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bordwell",
+     "year": 1985,
+     "title": "Narration in the Fiction Film",
+     "venue": "University of Wisconsin Press",
+     "type": "book",
+     "why": "Described narration as the viewer's mental work of building a story from cues. It founded cognitive and historical-poetics approaches that are still active.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gunning",
+     "year": 1986,
+     "title": "The Cinema of Attraction: Early Film, Its Spectator and the Avant-Garde",
+     "venue": "Wide Angle",
+     "type": "paper",
+     "why": "Showed that early film was built on display and shock rather than story. It reshaped film history and is now used to think about spectacle in digital and online media.",
+     "verified": false,
+     "conf": "high",
+     "note": "Later reprints title it 'The Cinema of Attractions'."
+    },
+    {
+     "authors": "Williams",
+     "year": 1991,
+     "title": "Film Bodies: Gender, Genre, and Excess",
+     "venue": "Film Quarterly",
+     "type": "paper",
+     "why": "Defined horror, melodrama and pornography as 'body genres' that aim at physical reactions. It put the body and low genres at the center of film studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sobchack",
+     "year": 1992,
+     "title": "The Address of the Eye: A Phenomenology of Film Experience",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Described film viewing as embodied perception and the film itself as a kind of perceiving body. It anchors current work on affect and the senses in film.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hansen",
+     "year": 1999,
+     "title": "The Mass Production of the Senses: Classical Cinema as Vernacular Modernism",
+     "venue": "Modernism/modernity",
+     "type": "paper",
+     "why": "Argued that Hollywood cinema was a global modernism through which audiences everywhere processed modern life. It shaped today's global and historical approaches to film.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Manovich",
+     "year": 2001,
+     "title": "The Language of New Media",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Set out what makes digital media distinct and how they inherit cinema's conventions. It is a basic text for the field's turn to digital media.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rodowick",
+     "year": 2007,
+     "title": "The Virtual Life of Film",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Asked what film is once digital capture removes its photographic basis. It is a central contribution to the ongoing debate about medium and the end of film.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kracauer",
+     "year": 1960,
+     "title": "Theory of Film: The Redemption of Physical Reality",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that film's purpose is to record and reveal physical reality. Renewed interest in realism and in Kracauer's work keeps it current.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bordwell, Staiger & Thompson",
+     "year": 1985,
+     "title": "The Classical Hollywood Cinema: Film Style and Mode of Production to 1960",
+     "venue": "Columbia University Press",
+     "type": "book",
+     "why": "Linked Hollywood's visual style to its industrial production system. It remains the basic account of classical style that historians and theorists test and revise.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "hooks",
+     "year": 1992,
+     "title": "The Oppositional Gaze: Black Female Spectators",
+     "venue": "Black Looks: Race and Representation (South End Press)",
+     "type": "paper",
+     "why": "Argued that Black women look critically and resistantly at films that exclude them. It reshaped spectatorship theory around race.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shohat & Stam",
+     "year": 1994,
+     "title": "Unthinking Eurocentrism: Multiculturalism and the Media",
+     "venue": "Routledge",
+     "type": "book",
+     "why": "Analyzed how film and media carry colonial and Eurocentric assumptions. It is a basic text for postcolonial and global film studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marks",
+     "year": 2000,
+     "title": "The Skin of the Film: Intercultural Cinema, Embodiment, and the Senses",
+     "venue": "Duke University Press",
+     "type": "book",
+     "why": "Developed the idea of 'haptic visuality', looking that works like touch, in intercultural cinema. It is widely used in work on the senses and diaspora film.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Doane",
+     "year": 2007,
+     "title": "The Indexical and the Concept of Medium Specificity",
+     "venue": "differences: A Journal of Feminist Cultural Studies",
+     "type": "paper",
+     "why": "Reexamined indexicality and medium specificity as film turns digital. It is a key text in the debate over what defines cinema now.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cutting, DeLong & Nothelfer",
+     "year": 2010,
+     "title": "Attention and the Evolution of Hollywood Film",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Measured shot lengths over seventy years of films and found they increasingly match patterns of human attention. It is a landmark for quantitative and cognitive film research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shaviro",
+     "year": 2010,
+     "title": "Post-Cinematic Affect",
+     "venue": "Zero Books",
+     "type": "book",
+     "why": "Argued that digital media produce new forms of feeling and experience beyond classic cinema. It named the 'post-cinema' field of inquiry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Casetti",
+     "year": 2015,
+     "title": "The Lumière Galaxy: Seven Key Words for the Cinema to Come",
+     "venue": "Columbia University Press",
+     "type": "book",
+     "why": "Argued that cinema survives by relocating to new screens and spaces. It is a key current account of film after the theater.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lobato",
+     "year": 2019,
+     "title": "Netflix Nations: The Geography of Digital Distribution",
+     "venue": "NYU Press",
+     "type": "book",
+     "why": "Studied how Netflix works country by country and how streaming reshapes film distribution. It is central to current research on platforms and global film.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

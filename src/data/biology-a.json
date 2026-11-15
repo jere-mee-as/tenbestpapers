@@ -1,0 +1,1829 @@
+{
+ "discipline": "Biology",
+ "fields": [
+  {
+   "field": "Molecular biology",
+   "lead": "Molecular biology is now mostly about editing genomes precisely and working out how RNA, chromatin modifications and 3D folding control which genes switch on.",
+   "papers": [
+    {
+     "authors": "Fire, Xu, Montgomery et al.",
+     "year": 1998,
+     "title": "Potent and specific genetic interference by double-stranded RNA in Caenorhabditis elegans",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that double-stranded RNA silences matching genes, opening the whole small-RNA field. RNAi is still a standard lab tool, and several approved siRNA drugs are built on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Strahl & Allis",
+     "year": 2000,
+     "title": "The language of covalent histone modifications",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed that chemical marks on histones form a 'code' read by other proteins. Researchers still argue over how far that code really controls genes or just follows activity, and the debate shapes epigenetics work today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rinn, Kertesz, Wang et al.",
+     "year": 2007,
+     "title": "Functional demarcation of active and silent chromatin domains in human HOX loci by noncoding RNAs",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Identified HOTAIR, a long noncoding RNA said to silence genes far away by recruiting chromatin repressors. It set off the long-running fight over how many of the thousands of lncRNAs actually do anything.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bartel",
+     "year": 2009,
+     "title": "MicroRNAs: target recognition and regulatory functions",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Laid out the seed-pairing rules for how microRNAs find their targets. Those rules still drive target prediction, and most later work on miRNA function either uses them or tests them.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dominissini, Moshitch-Moshkovitz, Schwartz et al.",
+     "year": 2012,
+     "title": "Topology of the human and mouse m6A RNA methylomes revealed by m6A-seq",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Mapped a chemical mark (m6A) across thousands of messenger RNAs, which launched epitranscriptomics. How much these RNA marks regulate gene expression is still an open and contested question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jinek, Chylinski, Fonfara et al.",
+     "year": 2012,
+     "title": "A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that Cas9 can be pointed at any DNA sequence with a short guide RNA. Almost all genome editing done since then, in labs and clinics, starts from this result.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sanborn, Rao, Huang et al.",
+     "year": 2015,
+     "title": "Chromatin extrusion explains key features of loop and domain formation in wild-type and engineered genomes",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Proposed that motor proteins pull DNA into loops until they hit CTCF barriers, and showed that editing those sites rewires the loops. Loop extrusion is now the main working model of how genomes fold, and its role in gene control is under active test.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Komor, Kim, Packer, Zuris & Liu",
+     "year": 2016,
+     "title": "Programmable editing of a target base in genomic DNA without double-stranded DNA cleavage",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Introduced base editors, which change single DNA letters without cutting both strands. They are already in clinical trials and moved editing past the error-prone cut-and-repair approach.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hnisz, Shrinivas, Young, Chakraborty & Sharp",
+     "year": 2017,
+     "title": "A phase separation model for transcriptional control",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Argued that transcription machinery forms liquid-like droplets at key genes. The idea is popular and heavily disputed, and testing it is one of the main live questions about how enhancers work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anzalone, Randolph, Davis et al.",
+     "year": 2019,
+     "title": "Search-and-replace genome editing without double-strand breaks or donor DNA",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Introduced prime editing, which can write small insertions, deletions and all base swaps from a single guide. Making it more efficient and delivering it into patients is a major current effort.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Ponting, Oliver & Reik",
+     "year": 2009,
+     "title": "Evolution and functions of long noncoding RNAs",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "A careful framework for judging whether a long noncoding RNA has a function. It is still the reference point for the skeptical side of the lncRNA debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jia, Fu, Zhao et al.",
+     "year": 2011,
+     "title": "N6-methyladenosine in nuclear RNA is a major substrate of the obesity-associated FTO",
+     "venue": "Nature Chemical Biology",
+     "type": "paper",
+     "why": "Found the first enzyme that removes m6A from RNA, showing the mark is reversible. That made RNA modification look like a regulatory system and drew in much of today's epitranscriptomics work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cong, Ran, Cox et al.",
+     "year": 2013,
+     "title": "Multiplex genome engineering using CRISPR/Cas systems",
+     "venue": "Science",
+     "type": "paper",
+     "why": "First showed Cas9 editing in human and mouse cells, including several sites at once. It turned CRISPR from a test-tube result into the everyday tool used today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Graur, Zheng, Price et al.",
+     "year": 2013,
+     "title": "On the immortality of television sets: \"function\" in the human genome according to the evolution-free gospel of ENCODE",
+     "venue": "Genome Biology and Evolution",
+     "type": "paper",
+     "why": "A sharp attack on ENCODE's claim that 80% of the genome is functional. The argument over what counts as 'function' in DNA is still unresolved and colors how genomics data are read.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rao, Huntley, Durand et al.",
+     "year": 2014,
+     "title": "A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Produced high-resolution contact maps showing loops anchored at CTCF sites pointing toward each other. These maps are the data that loop-extrusion models were built to explain and are still widely reused.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fudenberg, Imakaev, Lu et al.",
+     "year": 2016,
+     "title": "Formation of chromosomal domains by loop extrusion",
+     "venue": "Cell Reports",
+     "type": "paper",
+     "why": "Simulated loop extrusion and showed it reproduces the domain patterns seen in Hi-C data. Together with Sanborn et al., it is the basis of the current model of genome folding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cox, Gootenberg, Abudayyeh et al.",
+     "year": 2017,
+     "title": "RNA editing with CRISPR-Cas13",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used Cas13 to edit RNA rather than DNA, allowing temporary and reversible changes. RNA editing is now a separate therapeutic track alongside DNA editing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gaudelli, Komor, Rees et al.",
+     "year": 2017,
+     "title": "Programmable base editing of A•T to G•C in genomic DNA without DNA cleavage",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Built an adenine base editor by evolving a new enzyme, covering the class of mutations behind many genetic diseases. Adenine editors are in clinical use for blood and liver conditions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ganji, Shaltiel, Bisht et al.",
+     "year": 2018,
+     "title": "Real-time imaging of DNA loop extrusion by condensin",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Filmed a single condensin complex pulling DNA into a loop, giving direct evidence that loop extrusion happens. It moved the model from inference to observed mechanism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frangoul, Altshuler, Cappellini et al.",
+     "year": 2021,
+     "title": "CRISPR-Cas9 gene editing for sickle cell disease and β-thalassemia",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Reported the first patients treated with CRISPR-edited cells, who stopped needing transfusions. The therapy was approved in 2023 and is now the benchmark for clinical gene editing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Biochemistry",
+   "lead": "Biochemistry is focused on designing proteins and drugs from scratch, using cells' own machinery to destroy disease proteins, and understanding how proteins move, condense and rewire metabolism.",
+   "papers": [
+    {
+     "authors": "Prusiner",
+     "year": 1982,
+     "title": "Novel proteinaceous infectious particles cause scrapie",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that a misfolded protein alone could be infectious. The same seeded-misfolding idea is now central to Alzheimer's, Parkinson's and ALS research, where toxic protein shapes spread between cells.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen & Arnold",
+     "year": 1993,
+     "title": "Tuning the activity of an enzyme for unusual environments: sequential random mutagenesis of subtilisin E for catalysis in dimethylformamide",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Showed that rounds of random mutation and selection can improve an enzyme without knowing how it works. Directed evolution is now a standard way to make industrial and therapeutic enzymes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sakamoto, Kim, Kumagai et al.",
+     "year": 2001,
+     "title": "Protacs: chimeric molecules that target proteins to the Skp1-Cullin-F box complex for ubiquitination and degradation",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced PROTACs, molecules that tag a chosen protein for the cell's disposal system. Targeted protein degradation is now one of the most active areas in drug discovery, with several candidates in late trials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kuhlman, Dantas, Ireton et al.",
+     "year": 2003,
+     "title": "Design of a novel globular protein fold with atomic-level accuracy",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Designed a protein with a fold not seen in nature (Top7) and solved its structure to confirm it. It showed computational design could work, which the current wave of AI protein design builds on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Henzler-Wildman & Kern",
+     "year": 2007,
+     "title": "Dynamic personalities of proteins",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued that proteins are constantly moving between shapes, and that this motion is part of how they work. That view shapes current work on enzyme catalysis, allostery and drugs that trap particular shapes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vander Heiden, Cantley & Thompson",
+     "year": 2009,
+     "title": "Understanding the Warburg effect: the metabolic requirements of cell proliferation",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reframed why tumors burn glucose wastefully: growing cells need building blocks, not just energy. It revived cancer metabolism as a field and is still the starting point for drugs aimed at tumor metabolism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ito, Ando, Suzuki et al.",
+     "year": 2010,
+     "title": "Identification of a primary target of thalidomide teratogenicity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that thalidomide binds cereblon, part of a protein-disposal enzyme. That explained 'molecular glue' drugs and supplied the cereblon handle that most PROTACs now use.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Li, Banjade, Cheng et al.",
+     "year": 2012,
+     "title": "Phase transitions in the assembly of multivalent signalling proteins",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that proteins with many weak binding sites separate into liquid droplets at sharp thresholds. It gave a chemical basis for biomolecular condensates, now a major and contested topic in how cells organize reactions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ostrem, Peters, Sos, Wells & Shokat",
+     "year": 2013,
+     "title": "K-Ras(G12C) inhibitors allosterically control GTP affinity and effector interactions",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found a hidden pocket in a mutant form of KRAS, a cancer protein long called undruggable. It led directly to approved KRAS drugs and to the current push against other 'undruggable' targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Watson, Juergens, Bennett et al.",
+     "year": 2023,
+     "title": "De novo design of protein structure and function with RFdiffusion",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used a diffusion model to generate new proteins, binders and enzymes to order, with high lab success rates. Generative protein design is now one of the fastest-moving parts of biochemistry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Dang, White, Gross et al.",
+     "year": 2009,
+     "title": "Cancer-associated IDH1 mutations produce 2-hydroxyglutarate",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed a mutant enzyme in cancer makes a new metabolite that drives tumor growth. It created the idea of 'oncometabolites' and led to approved IDH inhibitors.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tokuriki & Tawfik",
+     "year": 2009,
+     "title": "Protein dynamism and evolvability",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that floppy, multi-shape proteins are what let new functions evolve. It links protein dynamics to directed evolution and enzyme design work today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fowler & Fields",
+     "year": 2014,
+     "title": "Deep mutational scanning: a new style of protein science",
+     "venue": "Nature Methods",
+     "type": "paper",
+     "why": "Described testing every possible mutation in a protein at once by sequencing. These large mutation maps now feed variant interpretation and train machine-learning models of protein function.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Krönke, Udeshi, Narla et al.",
+     "year": 2014,
+     "title": "Lenalidomide causes selective degradation of IKZF1 and IKZF3 in multiple myeloma cells",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed a widely used cancer drug works by making cereblon destroy two specific proteins. It proved molecular glue degradation happens in patients and drives today's glue-discovery programs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Patel, Lee, Jawerth et al.",
+     "year": 2015,
+     "title": "A liquid-to-solid phase transition of the ALS protein FUS accelerated by disease mutation",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Showed that liquid protein droplets can harden into fibers, faster with disease mutations. It ties condensate biology to neurodegeneration, a main reason the field matters clinically.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Winter, Buckley, Paulk et al.",
+     "year": 2015,
+     "title": "Phthalimide conjugation as a strategy for in vivo target protein degradation",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Built a drug-like degrader using a thalidomide-type handle and showed it works in animals. This design pattern is what most degrader drugs in trials now follow.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Huang, Boyken & Baker",
+     "year": 2016,
+     "title": "The coming of age of de novo protein design",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reviewed how physics-based design moved from single proteins to binders, cages and switches. It maps the design goals that AI methods are now chasing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kan, Lewis, Chen & Arnold",
+     "year": 2016,
+     "title": "Directed evolution of cytochrome c for carbon–silicon bond formation: bringing silicon to life",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Evolved an enzyme to make a chemical bond no known enzyme makes. It showed directed evolution can reach new-to-nature chemistry, now a major direction in biocatalysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Banani, Lee, Hyman & Rosen",
+     "year": 2017,
+     "title": "Biomolecular condensates: organizers of cellular biochemistry",
+     "venue": "Nature Reviews Molecular Cell Biology",
+     "type": "paper",
+     "why": "Set out the shared vocabulary and principles for condensates across many systems. It is the standard framing that both supporters and critics of the condensate model now argue against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dauparas, Anishchenko, Bennett et al.",
+     "year": 2022,
+     "title": "Robust deep learning–based protein sequence design using ProteinMPNN",
+     "venue": "Science",
+     "type": "paper",
+     "why": "A neural network that picks sequences to fold into a given backbone, with far higher success than older methods. Paired with backbone generators, it is part of the standard AI design pipeline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Structural biology",
+   "lead": "Structural biology now combines cryo-EM, imaging inside cells, and AI prediction to see molecules, complexes and their motions in near-native settings.",
+   "papers": [
+    {
+     "authors": "Berman, Westbrook, Feng et al.",
+     "year": 2000,
+     "title": "The Protein Data Bank",
+     "venue": "Nucleic Acids Research",
+     "type": "paper",
+     "why": "Describes the shared archive holding every published structure. It is still cited constantly, and it is the training data behind AlphaFold and every structure predictor since.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Luger, Mäder, Richmond et al.",
+     "year": 1997,
+     "title": "Crystal structure of the nucleosome core particle at 2.8 Å resolution",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed in atomic detail how DNA wraps around histones. Nearly all structural work on chromatin, readers of histone marks and remodelers still builds on this model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rasmussen, DeVree, Zou et al.",
+     "year": 2011,
+     "title": "Crystal structure of the β2 adrenergic receptor–Gs protein complex",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Captured a receptor in the act of switching on its G protein. GPCRs are the largest class of drug targets, and this kind of active-state structure is what structure-based drug design now relies on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scheres",
+     "year": 2012,
+     "title": "RELION: implementation of a Bayesian approach to cryo-EM structure determination",
+     "venue": "Journal of Structural Biology",
+     "type": "paper",
+     "why": "Introduced a statistical method for building 3D maps from noisy electron images. RELION is still one of the main programs used for cryo-EM, and its approach to sorting mixed shapes shaped the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bai, Fernandez, McMullan & Scheres",
+     "year": 2013,
+     "title": "Ribosome structures to near-atomic resolution from thirty thousand cryo-EM particles",
+     "venue": "eLife",
+     "type": "paper",
+     "why": "Showed that new direct electron detectors plus motion correction give near-atomic cryo-EM maps from little data. It marked the start of the 'resolution revolution' that made cryo-EM the dominant method.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liao, Cao, Julius & Cheng",
+     "year": 2013,
+     "title": "Structure of the TRPV1 ion channel determined by electron cryo-microscopy",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Solved a membrane protein that had resisted crystallization, at near-atomic detail, by cryo-EM alone. It convinced the field that cryo-EM could handle hard drug targets, which is now routine.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kühlbrandt",
+     "year": 2014,
+     "title": "The resolution revolution",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Named and explained the jump in cryo-EM resolution and why it happened. It is the standard short account of why most new structures now come from cryo-EM rather than crystals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jumper, Evans, Pritzel et al.",
+     "year": 2021,
+     "title": "Highly accurate protein structure prediction with AlphaFold",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Predicted protein structures from sequence at close to experimental accuracy. It changed how almost every structural project starts, and the open question now is what prediction still misses: motion, complexes and effects of mutations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baek, DiMaio, Anishchenko et al.",
+     "year": 2021,
+     "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+     "venue": "Science",
+     "type": "paper",
+     "why": "An open structure predictor (RoseTTAFold) that also handled protein complexes. Its openness made it the base for much of today's academic prediction and design software.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abramson, Adler, Dunger et al.",
+     "year": 2024,
+     "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Extended prediction to complexes with DNA, RNA, small molecules and modified residues. It moves AI prediction toward drug design, and testing its limits on ligands and new interfaces is ongoing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Henderson",
+     "year": 1995,
+     "title": "The potential and limitations of neutrons, electrons and X-rays for atomic resolution microscopy of unlabeled biological molecules",
+     "venue": "Quarterly Reviews of Biophysics",
+     "type": "paper",
+     "why": "Worked out from first principles how much damage each kind of beam does per useful signal, and predicted single-particle cryo-EM could reach atomic resolution. Its limits are still the benchmarks the field measures itself against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chapman, Fromme, Barty et al.",
+     "year": 2011,
+     "title": "Femtosecond X-ray protein nanocrystallography",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used ultra-short X-ray laser pulses to get data from tiny crystals before they are destroyed. It opened time-resolved serial crystallography, now used to film enzymes and light-driven proteins in action.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mahamid, Pfeffer, Schaffer et al.",
+     "year": 2016,
+     "title": "Visualizing the molecular sociology at the HeLa cell nuclear periphery",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used thin slices cut by ion beam and cryo-electron tomography to see molecules inside intact cells. Imaging structures in their native cellular setting is now one of the field's main frontiers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Punjani, Rubinstein, Fleet & Brubaker",
+     "year": 2017,
+     "title": "cryoSPARC: algorithms for rapid unsupervised cryo-EM structure determination",
+     "venue": "Nature Methods",
+     "type": "paper",
+     "why": "Made cryo-EM processing far faster with new optimization methods. It is now one of the two most-used cryo-EM packages.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nakane, Kotecha, Sente et al.",
+     "year": 2020,
+     "title": "Single-particle cryo-EM at atomic resolution",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reached about 1.2 Å resolution, enough to see individual atoms, with cryo-EM. It shows cryo-EM can match the best crystallography, and pushing that to harder samples is ongoing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Evans, O'Neill, Pritzel et al.",
+     "year": 2021,
+     "title": "Protein complex prediction with AlphaFold-Multimer",
+     "venue": "bioRxiv",
+     "type": "paper",
+     "why": "Retrained AlphaFold to predict how proteins pair up. Large screens of possible interactions across whole proteomes now rely on this approach.",
+     "verified": false,
+     "conf": "low",
+     "note": "Preprint; venue is bioRxiv and was never formally published in a journal as far as known."
+    },
+    {
+     "authors": "Tunyasuvunakool, Adler, Wu et al.",
+     "year": 2021,
+     "title": "Highly accurate protein structure prediction for the human proteome",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Predicted structures for nearly every human protein and estimated which parts are reliable. It made predicted models a default resource and showed how much of the proteome is disordered.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zhong, Bepler, Berger & Davis",
+     "year": 2021,
+     "title": "CryoDRGN: reconstruction of heterogeneous cryo-EM structures using neural networks",
+     "venue": "Nature Methods",
+     "type": "paper",
+     "why": "Used neural networks to recover a continuum of shapes from one cryo-EM dataset rather than a single average. Capturing motion and conformational spread is a central current goal.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mosalaganti, Obarska-Kosinska, Siggel et al.",
+     "year": 2022,
+     "title": "AI-based structure prediction empowers integrative structural analysis of human nuclear pores",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Combined AlphaFold models with cryo-electron tomography to build most of the huge nuclear pore. It is a model for how prediction and experiment now work together on giant assemblies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Krishna, Wang, Ahern et al.",
+     "year": 2024,
+     "title": "Generalized biomolecular modeling and design with RoseTTAFold All-Atom",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Extended RoseTTAFold to model proteins with small molecules, metals, nucleic acids and modifications, and to design binders to them. It is the open counterpart to AlphaFold 3 used widely in design work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Cell biology",
+   "lead": "Cell biology is mapping how organelles, condensates and contact sites organize the cell, and how cells sense nutrients, force and damage to decide whether to grow, recycle or die.",
+   "papers": [
+    {
+     "authors": "Takeshige, Baba, Tsuboi, Noda & Ohsumi",
+     "year": 1992,
+     "title": "Autophagy in yeast demonstrated with proteinase-deficient mutants and conditions for its induction",
+     "venue": "Journal of Cell Biology",
+     "type": "paper",
+     "why": "Made autophagy, the cell eating its own parts, visible and controllable in yeast. That opened the genetic screens behind today's autophagy research in aging, infection and neurodegeneration.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Engler, Sen, Sweeney & Discher",
+     "year": 2006,
+     "title": "Matrix elasticity directs stem cell lineage specification",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Showed stem cells choose different fates depending on how stiff their surroundings are. Mechanobiology, in development, fibrosis and tissue engineering, grew from this result.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Betzig, Patterson, Sougrat et al.",
+     "year": 2006,
+     "title": "Imaging intracellular fluorescent proteins at nanometer resolution",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Introduced PALM, which beats the light diffraction limit by locating single molecules one at a time. Super-resolution imaging is now a standard way to see protein organization in cells.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Narendra, Tanaka, Suen & Youle",
+     "year": 2008,
+     "title": "Parkin is recruited selectively to impaired mitochondria and promotes their autophagy",
+     "venue": "Journal of Cell Biology",
+     "type": "paper",
+     "why": "Showed a Parkinson's disease gene marks damaged mitochondria for disposal. Mitochondrial quality control (mitophagy) is now a major research and drug target area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sancak, Peterson, Shaul et al.",
+     "year": 2008,
+     "title": "The Rag GTPases bind raptor and mediate amino acid signaling to mTORC1",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found how amino acids switch on mTORC1, the cell's master growth regulator, at the lysosome. Nutrient sensing at the lysosome is now a core topic in metabolism, aging and cancer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brangwynne, Eckmann, Courson et al.",
+     "year": 2009,
+     "title": "Germline P granules are liquid droplets that localize by controlled dissolution/condensation",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that some compartments without membranes behave like liquid droplets. It launched the condensate field, which now reaches into gene regulation, stress and disease.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dupont, Morsut, Aragona et al.",
+     "year": 2011,
+     "title": "Role of YAP/TAZ in mechanotransduction",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Identified YAP and TAZ as the proteins that carry signals about stiffness and shape into the nucleus. They are now central to how mechanics controls growth, regeneration and cancer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Friedman, Lackner, West et al.",
+     "year": 2011,
+     "title": "ER tubules mark sites of mitochondrial division",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that the ER wraps around mitochondria where they divide. It helped start the study of organelle contact sites, now a major way of thinking about how organelles cooperate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dixon, Lemberg, Lamprecht et al.",
+     "year": 2012,
+     "title": "Ferroptosis: an iron-dependent form of nonapoptotic cell death",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Defined ferroptosis, cell death driven by iron and damaged lipids. It is now intensely studied in cancer therapy, neurodegeneration and organ injury.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thul, Åkesson, Wiking et al.",
+     "year": 2017,
+     "title": "A subcellular map of the human proteome",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Located over 12,000 human proteins in cells by imaging and found about half sit in more than one place. It is a key resource and showed how much protein location still needs explaining.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Hara, Nakamura, Matsui et al.",
+     "year": 2006,
+     "title": "Suppression of basal autophagy in neural cells causes neurodegenerative disease in mice",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed neurons need constant background autophagy to avoid degenerating. It is a main reason autophagy is pursued as a target in neurodegenerative disease.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baker, Wijshake, Tchkonia et al.",
+     "year": 2011,
+     "title": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Removing senescent cells in mice delayed age-related decline. It launched the senolytic drug field, which is now in human trials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rowland & Voeltz",
+     "year": 2012,
+     "title": "Endoplasmic reticulum–mitochondria contacts: function of the junction",
+     "venue": "Nature Reviews Molecular Cell Biology",
+     "type": "paper",
+     "why": "Brought together what was known about contacts between the ER and mitochondria and what passes through them. It frames the contact-site field still being worked out.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen, Legant, Wang et al.",
+     "year": 2014,
+     "title": "Lattice light-sheet microscopy: imaging molecules to embryos at high spatiotemporal resolution",
+     "venue": "Science",
+     "type": "paper",
+     "why": "A light-sheet microscope fast and gentle enough to film living cells in 3D for long periods. It is widely used to watch cellular processes in real time.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen, Tillberg & Boyden",
+     "year": 2015,
+     "title": "Expansion microscopy",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Physically swells a sample in a gel so ordinary microscopes see finer detail. It made super-resolution cheap and is now used widely across cell and neuro biology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wolfson, Chantranupong, Saxton et al.",
+     "year": 2016,
+     "title": "Sestrin2 is a leucine sensor for the mTORC1 pathway",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Identified the actual sensor that detects leucine for the growth pathway. It filled in how cells read specific nutrients, an active line of research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saxton & Sabatini",
+     "year": 2017,
+     "title": "mTOR signaling in growth, metabolism, and disease",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "The standard review of how mTOR integrates nutrients, growth factors and stress. It is the usual entry point to one of the most-studied pathways in cell biology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shin & Brangwynne",
+     "year": 2017,
+     "title": "Liquid phase condensation in cell physiology and disease",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reviewed the physics and biology of condensates and their links to disease. It is a common entry point to the field and to its open questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Valm, Cohen, Legant et al.",
+     "year": 2017,
+     "title": "Applying systems-level spectral imaging and analysis to reveal the organelle interactome",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Imaged six organelles at once in living cells and mapped how they touch. It pushed the field toward seeing organelles as an interacting network.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Galluzzi, Vitale, Aaronson et al.",
+     "year": 2018,
+     "title": "Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018",
+     "venue": "Cell Death & Differentiation",
+     "type": "paper",
+     "why": "Defines the many types of regulated cell death by their molecular mechanisms. It is the reference that current cell death papers use to classify what they see.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Genetics & genomics",
+   "lead": "Genetics is moving from a single reference genome to complete, diverse and population-scale data, and trying to turn the thousands of trait-linked variants into mechanisms and predictions.",
+   "papers": [
+    {
+     "authors": "Lieberman-Aiden, van Berkum, Williams et al.",
+     "year": 2009,
+     "title": "Comprehensive mapping of long-range interactions reveals folding principles of the human genome",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Introduced Hi-C, which maps which parts of the genome touch in 3D. It made genome folding measurable and is still the base method for linking distant enhancers to genes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Green, Krause, Briggs et al.",
+     "year": 2010,
+     "title": "A draft sequence of the Neandertal genome",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that most non-African people carry some Neanderthal DNA. Ancient DNA has since become a major source of evidence on human history and on how archaic genes affect traits today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "ENCODE Project Consortium",
+     "year": 2012,
+     "title": "An integrated encyclopedia of DNA elements in the human genome",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Mapped regulatory activity across the genome and claimed most of it is 'functional'. The data are widely used, and the claim started a still-running argument about what function means.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "1000 Genomes Project Consortium",
+     "year": 2015,
+     "title": "A global reference for human genetic variation",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Catalogued common genetic variation across 26 populations. It is the reference panel behind most genotype imputation and variant filtering.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Boyle, Li & Pritchard",
+     "year": 2017,
+     "title": "An expanded view of complex traits: from polygenic to omnigenic",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Proposed that nearly every gene active in a relevant tissue affects a complex trait through networks. The 'omnigenic' model is still a central debate about what GWAS results mean.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Visscher, Wray, Zhang et al.",
+     "year": 2017,
+     "title": "10 years of GWAS discovery: biology, function, and translation",
+     "venue": "American Journal of Human Genetics",
+     "type": "paper",
+     "why": "Took stock of what genome-wide association studies had and had not delivered. It remains a standard summary for the field's current questions about heritability and translation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bycroft, Freeman, Petkova et al.",
+     "year": 2018,
+     "title": "The UK Biobank resource with deep phenotyping and genomic data",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Described genotypes linked to health records for 500,000 people. UK Biobank now drives a large share of human genetics papers each year.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Karczewski, Francioli, Tiao et al.",
+     "year": 2020,
+     "title": "The mutational constraint spectrum quantified from variation in 141,456 humans",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used gnomAD to measure which genes tolerate losing a copy. Those constraint scores are now used daily in diagnosing rare disease and ranking candidate genes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "GTEx Consortium",
+     "year": 2020,
+     "title": "The GTEx Consortium atlas of genetic regulatory effects across human tissues",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Mapped how genetic variants change gene expression across about 50 tissues. It is the main resource for linking trait-associated variants to genes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nurk, Koren, Rhie et al.",
+     "year": 2022,
+     "title": "The complete sequence of a human genome",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Filled the last gaps in a human genome, including centromeres and repeats. It replaced the old reference for many uses and opened previously unreadable regions to study.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Manolio, Collins, Cox et al.",
+     "year": 2009,
+     "title": "Finding the missing heritability of complex diseases",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Asked why GWAS hits explained so little of known heritability. The 'missing heritability' question still frames much of complex-trait genetics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yang, Benyamin, McEvoy et al.",
+     "year": 2010,
+     "title": "Common SNPs explain a large proportion of the heritability for human height",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Showed most missing heritability is spread across many small-effect common variants. The method (GCTA) and its conclusion underlie current polygenic analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dixon, Selvaraj, Yue et al.",
+     "year": 2012,
+     "title": "Topological domains in mammalian genomes identified by analysis of chromatin interactions",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Identified TADs, stable self-interacting genome neighborhoods. Their role in confining enhancer action is still studied and debated, including for disease mutations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bulik-Sullivan, Loh, Finucane et al.",
+     "year": 2015,
+     "title": "LD Score regression distinguishes confounding from polygenicity in genome-wide association studies",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Gave a way to separate real polygenic signal from population confounding using summary statistics. It is now a standard tool for heritability and genetic correlation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Findlay, Daza, Martin et al.",
+     "year": 2018,
+     "title": "Accurate classification of BRCA1 variants with saturation genome editing",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Tested nearly every possible single-letter change in key BRCA1 regions in cells. It showed experiments can classify variants of uncertain significance at scale, now a major clinical goal.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Martin, Kanai, Kamatani et al.",
+     "year": 2019,
+     "title": "Clinical use of current polygenic risk scores may exacerbate health disparities",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Showed polygenic scores work much worse in non-European populations. It drove the current push for diverse cohorts and fair use of genetic prediction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sohail, Maier, Ganna et al.",
+     "year": 2019,
+     "title": "Polygenic adaptation on height is overestimated due to uncorrected stratification in genome-wide association studies",
+     "venue": "eLife",
+     "type": "paper",
+     "why": "Showed claimed signals of natural selection on height came from hidden population structure. It made subtle confounding a central worry for any polygenic score analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Backman, Li, Marcketta et al.",
+     "year": 2021,
+     "title": "Exome sequencing and analysis of 454,787 UK Biobank participants",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Sequenced protein-coding genes in nearly half a million people and linked rare variants to traits. Rare-variant studies at this scale are now how many new drug targets are found.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yengo, Vedantam, Marouli et al.",
+     "year": 2022,
+     "title": "A saturated map of common genetic variants associated with human height",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found that common variants explaining most SNP heritability of height cluster in a fifth of the genome. It shows what a 'finished' GWAS looks like and what it still cannot explain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liao, Asri, Ebler et al.",
+     "year": 2023,
+     "title": "A draft human pangenome reference",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Built a reference from 47 diverse genomes as a graph rather than a single sequence. Moving genomics to pangenome references is a main current infrastructure effort.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Developmental biology",
+   "lead": "Developmental biology is studying how cells read positional signals and keep time, and is rebuilding embryos and organs from stem cells and tracking them cell by cell.",
+   "papers": [
+    {
+     "authors": "Turing",
+     "year": 1952,
+     "title": "The chemical basis of morphogenesis",
+     "venue": "Philosophical Transactions of the Royal Society of London B",
+     "type": "paper",
+     "why": "Showed two interacting chemicals can spontaneously form spots and stripes. Reaction-diffusion models are now backed by real molecules in digits, skin and hair, and are still debated against gradient-based models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wolpert",
+     "year": 1969,
+     "title": "Positional information and the spatial pattern of cellular differentiation",
+     "venue": "Journal of Theoretical Biology",
+     "type": "paper",
+     "why": "Proposed that cells learn where they are from signals and then interpret that position. Researchers still test how precise positional information is and how cells read it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Palmeirim, Henrique, Ish-Horowicz & Pourquié",
+     "year": 1997,
+     "title": "Avian hairy gene expression identifies a molecular clock linked to vertebrate segmentation and somitogenesis",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Found a gene that switches on and off in a rhythm as the spine's segments form. The segmentation clock is now the main model for how embryos keep time.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Takahashi & Yamanaka",
+     "year": 2006,
+     "title": "Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Reprogrammed adult cells into embryo-like stem cells with four genes. iPS cells are now the raw material for organoids, embryo models and cell therapies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gregor, Tank, Wieschaus & Bialek",
+     "year": 2007,
+     "title": "Probing the limits to positional information",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Measured how precisely the Bicoid gradient can tell nuclei where they are, and found it is close to physical limits. It brought quantitative physics into patterning, which now drives much of the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sato, Vries, Snippert et al.",
+     "year": 2009,
+     "title": "Single Lgr5 stem cells build crypt-villus structures in vitro without a mesenchymal niche",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Grew mini-intestines from single stem cells. It began the organoid field, now used for modeling development, disease and drug responses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lancaster, Renner, Martin et al.",
+     "year": 2013,
+     "title": "Cerebral organoids model human brain development and microcephaly",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Grew brain-like tissue from stem cells and used it to model a human disorder. Brain organoids are now a main way to study human-specific brain development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raspopovic, Marcon, Russo & Sharpe",
+     "year": 2014,
+     "title": "Digit patterning is controlled by a Bmp-Sox9-Wnt Turing network modulated by morphogen gradients",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Identified a real Turing network that spaces the digits, working alongside gradients. It made the case that self-organization and positional cues combine, now a common view.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McKenna, Findlay, Gagnon et al.",
+     "year": 2016,
+     "title": "Whole-organism lineage tracing by combinatorial and cumulative genome editing",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used CRISPR scars as a recorder to trace which cells came from which in a whole zebrafish. Recording lineage with editing is now a growing set of tools.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wagner, Weinreb, Shin et al.",
+     "year": 2018,
+     "title": "Single-cell mapping of gene expression landscapes and lineage in the zebrafish embryo",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Followed how cell states branch through early development using single-cell sequencing. Single-cell atlases of this kind are now the standard way to describe development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Dessaud, Yang, Hill et al.",
+     "year": 2007,
+     "title": "Interpretation of the sonic hedgehog morphogen gradient by a temporal adaptation mechanism",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed cells read a morphogen by how long they are exposed, not just how much. Time-based interpretation of signals is now a key idea in patterning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Warmflash, Sorre, Etoc, Siggia & Brivanlou",
+     "year": 2014,
+     "title": "A method to recapitulate early embryonic spatial patterning in human embryonic stem cells",
+     "venue": "Nature Methods",
+     "type": "paper",
+     "why": "Confined human stem cells in small discs and got gastrulation-like rings of cell types. It opened the use of stem cells to study early human patterning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Deglincerti, Croft, Pietila et al.",
+     "year": 2016,
+     "title": "Self-organization of the in vitro attached human embryo",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Grew human embryos in a dish to about day 13 and showed they self-organize without the mother. It opened a window on early human development and reopened the 14-day rule debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harrison, Sozen, Christodoulou, Kyprianou & Zernicka-Goetz",
+     "year": 2017,
+     "title": "Assembly of embryonic and extraembryonic stem cells to mimic embryogenesis in vitro",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Combined two stem cell types to build structures resembling early mouse embryos. It started stem cell-based embryo models, now a fast-moving and ethically debated area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beccari, Moris, Girgin et al.",
+     "year": 2018,
+     "title": "Multi-axial self-organization properties of mouse embryonic stem cells into gastruloids",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed small clumps of stem cells set up the three body axes on their own. Gastruloids are now widely used to study body-plan formation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kanton, Boyle, He et al.",
+     "year": 2019,
+     "title": "Organoid single-cell genomic atlas uncovers human-specific features of brain development",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Compared human and chimpanzee brain organoids cell by cell over time. It shows how organoids are now used to ask what makes human development distinct.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pijuan-Sala, Griffiths, Guibentif et al.",
+     "year": 2019,
+     "title": "A single-cell molecular map of mouse gastrulation and early organogenesis",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Profiled over 100,000 cells across mouse gastrulation. It is a key reference atlas for comparing embryo models and mutants.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Matsuda, Hayashi, Yoshioka et al.",
+     "year": 2020,
+     "title": "Species-specific segmentation clock periods are due to differential biochemical reaction speeds",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that the human segmentation clock is slower than the mouse's because its reactions run slower. Why species develop at different speeds is now an active question.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rayon, Stamataki, Perez-Carrasco et al.",
+     "year": 2020,
+     "title": "Species-specific pace of development is associated with differences in protein stability",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that slower human development tracks with slower protein turnover. With Matsuda et al., it opened the study of developmental tempo.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tarazi, Aguilera-Castrejon, Joubran et al.",
+     "year": 2022,
+     "title": "Post-gastrulation synthetic embryos generated ex utero from mouse naive ESCs",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Grew mouse embryo models from stem cells alone past gastrulation to early organ formation. It shows how far embryo models now go and why their regulation is debated.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Evolutionary biology",
+   "lead": "Evolutionary biology is working out how much drift versus selection shapes genomes, how predictable adaptation is, and how eukaryotes and social behavior arose.",
+   "papers": [
+    {
+     "authors": "Hamilton",
+     "year": 1964,
+     "title": "The genetical evolution of social behaviour. I",
+     "venue": "Journal of Theoretical Biology",
+     "type": "paper",
+     "why": "Introduced inclusive fitness: genes can spread by helping relatives. It is still the main framework for social evolution and is still being fought over.",
+     "verified": false,
+     "conf": "low",
+     "note": "Published as two papers (I and II) in the same issue; this entry cites part I."
+    },
+    {
+     "authors": "Kimura",
+     "year": 1968,
+     "title": "Evolutionary rate at the molecular level",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued most DNA changes are neutral and spread by chance. The neutral theory is still the null model in molecular evolution, and how far selection departs from it is a live question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ohta",
+     "year": 1973,
+     "title": "Slightly deleterious mutant substitutions in evolution",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed that mildly harmful mutations behave neutrally in small populations. The nearly neutral theory underlies current work on how population size shapes genomes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gould & Lewontin",
+     "year": 1979,
+     "title": "The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme",
+     "venue": "Proceedings of the Royal Society of London B",
+     "type": "paper",
+     "why": "Attacked the habit of explaining every trait as an adaptation. It is still invoked whenever adaptive stories outrun evidence, including in genomics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lynch & Conery",
+     "year": 2003,
+     "title": "The origins of genome complexity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that complex genomes grew through drift in small populations, not selection. It remains a central and contested explanation for why eukaryote genomes look the way they do.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blount, Borland & Lenski",
+     "year": 2008,
+     "title": "Historical contingency and the evolution of a key innovation in an experimental population of Escherichia coli",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Showed a new trait arose only after earlier chance mutations made it possible. It is direct evidence on how history shapes evolution, a key question in predictability.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chan, Marks, Jones et al.",
+     "year": 2010,
+     "title": "Adaptive evolution of pelvic reduction in sticklebacks by recurrent deletion of a Pitx1 enhancer",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed the same trait evolved repeatedly by losing the same regulatory switch. It is a central example in the debate over whether adaptation mostly works through gene regulation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nowak, Tarnita & Wilson",
+     "year": 2010,
+     "title": "The evolution of eusociality",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued inclusive fitness theory is unnecessary for explaining social insects. The paper drew a reply signed by over 130 researchers and the dispute it reignited still runs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Williams, Foster, Cox & Embley",
+     "year": 2013,
+     "title": "An archaeal origin of eukaryotes supports only two primary domains of life",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued eukaryotes arose from within the archaea, so there are two primary domains, not three. This is now the leading view and frames research on eukaryote origins.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hug, Baker, Anantharaman et al.",
+     "year": 2016,
+     "title": "A new view of the tree of life",
+     "venue": "Nature Microbiology",
+     "type": "paper",
+     "why": "Built a tree from genomes recovered directly from the environment, showing huge unseen bacterial diversity. It changed the picture of life's diversity and still guides discovery of new lineages.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Hoekstra & Coyne",
+     "year": 2007,
+     "title": "The locus of evolution: evo devo and the genetics of adaptation",
+     "venue": "Evolution",
+     "type": "paper",
+     "why": "Challenged the claim that adaptation mainly works through regulatory changes. The cis-regulatory versus coding debate it sharpened continues.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barrett & Schluter",
+     "year": 2008,
+     "title": "Adaptation from standing genetic variation",
+     "venue": "Trends in Ecology & Evolution",
+     "type": "paper",
+     "why": "Argued much adaptation uses variation already present, not new mutations. It reshaped how rapid adaptation and selection signatures are studied.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stern & Orgogozo",
+     "year": 2008,
+     "title": "The loci of evolution: how predictable is genetic evolution?",
+     "venue": "Evolution",
+     "type": "paper",
+     "why": "Compiled cases where the same genes caused similar traits and asked how predictable evolution is. Predictability remains a main question in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pritchard, Pickrell & Coop",
+     "year": 2010,
+     "title": "The genetics of human adaptation: hard sweeps, soft sweeps, and polygenic adaptation",
+     "venue": "Current Biology",
+     "type": "paper",
+     "why": "Argued that human adaptation often works through small shifts at many genes, not single sweeps. It set the agenda for current work on polygenic selection.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abbott, Albach, Ansell et al.",
+     "year": 2013,
+     "title": "Hybridization and speciation",
+     "venue": "Journal of Evolutionary Biology",
+     "type": "paper",
+     "why": "Reviewed how interbreeding can create new species rather than just blur them. Genomics has since found hybridization widespread, and its role is an active topic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Laland, Uller, Feldman et al.",
+     "year": 2014,
+     "title": "Does evolutionary theory need a rethink? Yes, urgently",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Called for an 'extended evolutionary synthesis' including plasticity, niche construction and non-genetic inheritance. Published with an opposing reply, the debate is still unresolved.",
+     "verified": true,
+     "conf": "low",
+     "note": "Published as a paired comment; the 'Yes, urgently' half is by Laland et al., the 'No' half by Wray, Hoekstra et al. Exact subtitle formatting unconfirmed."
+    },
+    {
+     "authors": "Good, McDonald, Barrick, Lenski & Desai",
+     "year": 2017,
+     "title": "The dynamics of molecular evolution over 60,000 generations",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Sequenced the long-term E. coli experiment through time and found constant competition between lineages. It gives the most detailed view of adaptation in action.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lässig, Mustonen & Walczak",
+     "year": 2017,
+     "title": "Predicting evolution",
+     "venue": "Nature Ecology & Evolution",
+     "type": "paper",
+     "why": "Set out when and how evolution can be forecast, as already done for flu strains. Prediction is now an explicit goal in pathogen and cancer evolution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kern & Hahn",
+     "year": 2018,
+     "title": "The neutral theory in light of natural selection",
+     "venue": "Molecular Biology and Evolution",
+     "type": "paper",
+     "why": "Argued genomic data show selection is far more widespread than neutral theory allows. It reopened the neutralist-selectionist debate with responses still coming.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Imachi, Nobu, Nakahara et al.",
+     "year": 2020,
+     "title": "Isolation of an archaeon at the prokaryote–eukaryote interface",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Grew an Asgard archaeon in culture after 12 years and showed it forms tentacles and lives with bacteria. It gave a concrete picture of how the first eukaryotes may have formed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Ecology",
+   "lead": "Ecology is working out what keeps many species coexisting, how biodiversity change affects ecosystems, and how communities shift under climate change and human pressure.",
+   "papers": [
+    {
+     "authors": "Hutchinson",
+     "year": 1957,
+     "title": "Concluding remarks",
+     "venue": "Cold Spring Harbor Symposia on Quantitative Biology",
+     "type": "paper",
+     "why": "Defined the niche as the set of conditions a species can live in. That definition still underlies species distribution models and coexistence theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "MacArthur & Wilson",
+     "year": 1963,
+     "title": "An equilibrium theory of insular zoogeography",
+     "venue": "Evolution",
+     "type": "paper",
+     "why": "Explained species counts on islands as a balance of colonization and extinction. It still shapes reserve design and how habitat fragments are studied.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Paine",
+     "year": 1966,
+     "title": "Food web complexity and species diversity",
+     "venue": "The American Naturalist",
+     "type": "paper",
+     "why": "Showed removing one predator collapsed diversity in a rocky community. Keystone species and top-down control are now central to conservation and rewilding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Janzen",
+     "year": 1970,
+     "title": "Herbivores and the number of tree species in tropical forests",
+     "venue": "The American Naturalist",
+     "type": "paper",
+     "why": "Proposed that pests near parent trees keep any one species from dominating. Janzen-Connell effects are among the most tested explanations of tropical diversity today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Holling",
+     "year": 1973,
+     "title": "Resilience and stability of ecological systems",
+     "venue": "Annual Review of Ecology and Systematics",
+     "type": "paper",
+     "why": "Distinguished resilience, the ability to absorb shocks, from stability. It is the root of modern resilience thinking in ecology and environmental management.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chesson",
+     "year": 2000,
+     "title": "Mechanisms of maintenance of species diversity",
+     "venue": "Annual Review of Ecology and Systematics",
+     "type": "paper",
+     "why": "Split coexistence into stabilizing differences and fitness differences. This framework is how most current coexistence studies are set up.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hubbell",
+     "year": 2001,
+     "title": "The Unified Neutral Theory of Biodiversity and Biogeography",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Claimed many diversity patterns arise without species differences, by chance alone. Arguments about neutral versus niche processes still drive community ecology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scheffer, Carpenter, Foley, Folke & Walker",
+     "year": 2001,
+     "title": "Catastrophic shifts in ecosystems",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed ecosystems can flip suddenly between states, like clear to murky lakes. Tipping points are now central to how ecologists think about climate change and collapse.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Parmesan & Yohe",
+     "year": 2003,
+     "title": "A globally coherent fingerprint of climate change impacts across natural systems",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found consistent shifts in species ranges and timing in line with warming. It set the template for detecting climate impacts, now a major part of the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cardinale, Duffy, Gonzalez et al.",
+     "year": 2012,
+     "title": "Biodiversity loss and its impact on humanity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Summarized two decades of experiments showing diversity loss reduces ecosystem function. It is the main reference for why biodiversity matters to ecosystem services.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Brown, Gillooly, Allen, Savage & West",
+     "year": 2004,
+     "title": "Toward a metabolic theory of ecology",
+     "venue": "Ecology",
+     "type": "paper",
+     "why": "Argued body size and temperature set metabolic rates that scale up to ecosystems. It is widely used, especially for warming effects, and still disputed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Leibold, Holyoak, Mouquet et al.",
+     "year": 2004,
+     "title": "The metacommunity concept: a framework for multi-scale community ecology",
+     "venue": "Ecology Letters",
+     "type": "paper",
+     "why": "Linked local communities through dispersal into one framework. Metacommunity thinking now structures much of community and landscape ecology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levine & HilleRisLambers",
+     "year": 2009,
+     "title": "The importance of niches for the maintenance of species diversity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Experimentally removed niche differences in a plant community and saw diversity collapse. It is key evidence in the niche versus neutral debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scheffer, Bascompte, Brock et al.",
+     "year": 2009,
+     "title": "Early-warning signals for critical transitions",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed that slowing recovery and rising variance warn of an approaching tipping point. Whether these signals work in practice is an active research question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Comita, Muller-Landau, Aguilar & Hubbell",
+     "year": 2010,
+     "title": "Asymmetric density dependence shapes species abundances in a tropical tree community",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found rare species suffer more from neighbors of their own kind. It links Janzen-Connell effects to why some species are rare, still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Estes, Terborgh, Brashares et al.",
+     "year": 2011,
+     "title": "Trophic downgrading of planet Earth",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that losing large predators has cascading effects across ecosystems worldwide. It underpins current rewilding and predator conservation debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vellend, Baeten, Myers-Smith et al.",
+     "year": 2013,
+     "title": "Global meta-analysis reveals no net change in local-scale plant biodiversity over time",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Found local plant diversity often is not declining, despite global losses. It started a still-running argument about how to measure biodiversity change.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dornelas, Gotelli, McGill et al.",
+     "year": 2014,
+     "title": "Assemblage time series reveal biodiversity change but not systematic loss",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found local species counts are stable while composition turns over rapidly. It shifted attention from species counts to turnover.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hallmann, Sorg, Jongejans et al.",
+     "year": 2017,
+     "title": "More than 75 percent decline over 27 years in total flying insect biomass in protected areas",
+     "venue": "PLoS ONE",
+     "type": "paper",
+     "why": "Reported a huge drop in insect biomass in German reserves. It sparked the 'insect decline' research agenda and debates over data quality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Díaz, Settele, Brondízio et al.",
+     "year": 2019,
+     "title": "Pervasive human-driven decline of life on Earth points to the need for transformative change",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Summarized the IPBES global assessment of nature's decline and its drivers. It sets the policy-facing picture that much applied ecology now responds to.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

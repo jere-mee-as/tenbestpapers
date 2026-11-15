@@ -1,0 +1,2057 @@
+{
+ "discipline": "Mathematics",
+ "fields": [
+  {
+   "field": "Algebra",
+   "lead": "Algebra is now mostly geometric and categorical: geometric representation theory and the Langlands program, categorification, modular representation theory, and derived and higher-categorical algebra.",
+   "papers": [
+    {
+     "authors": "Quillen",
+     "year": 1973,
+     "title": "Higher algebraic K-theory: I",
+     "venue": "Algebraic K-Theory I, Lecture Notes in Mathematics 341 (Springer)",
+     "type": "paper",
+     "why": "Defined higher K-groups of rings and schemes using homotopy theory. K-theory is still an active meeting point of arithmetic, topology and categorical algebra, with trace methods and motivic work building directly on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Deligne & Lusztig",
+     "year": 1976,
+     "title": "Representations of reductive groups over finite fields",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Built characters of finite groups of Lie type from the cohomology of certain varieties. This geometric construction is still the starting point for the representation theory of these groups and for modular versions now being worked out.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kazhdan & Lusztig",
+     "year": 1979,
+     "title": "Representations of Coxeter groups and Hecke algebras",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Introduced Kazhdan-Lusztig polynomials and their conjectures about Lie algebra representations. Their positivity, their modular failures and their categorification are still central research questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beilinson & Bernstein",
+     "year": 1981,
+     "title": "Localisation de g-modules",
+     "venue": "Comptes Rendus de l'Académie des Sciences, Série I",
+     "type": "paper",
+     "why": "Showed that Lie algebra representations are the same as D-modules on the flag variety. Translating representation theory into geometry this way is the basic move of the geometric Langlands program.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beilinson, Bernstein & Deligne",
+     "year": 1982,
+     "title": "Faisceaux pervers",
+     "venue": "Astérisque 100",
+     "type": "paper",
+     "why": "Created perverse sheaves and the decomposition theorem. These are the working tools of geometric representation theory, and almost every positivity result in the area goes through them.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lusztig",
+     "year": 1991,
+     "title": "Quivers, perverse sheaves, and quantized enveloping algebras",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Built canonical bases of quantum groups from perverse sheaves on spaces of quiver representations. It is the direct ancestor of today's categorified quantum groups and KLR algebras.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fomin & Zelevinsky",
+     "year": 2002,
+     "title": "Cluster algebras I: Foundations",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Defined cluster algebras, rings built by repeated mutation. They have since appeared in Teichmüller theory, Poisson geometry, scattering amplitudes and representation theory, and remain a fast-growing area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kontsevich",
+     "year": 2003,
+     "title": "Deformation quantization of Poisson manifolds",
+     "venue": "Letters in Mathematical Physics",
+     "type": "paper",
+     "why": "Proved that every Poisson manifold can be quantized via a formality theorem. It brought operads and homotopy algebra into the mainstream, and derived and higher algebra still use its methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mirković & Vilonen",
+     "year": 2007,
+     "title": "Geometric Langlands duality and representations of algebraic groups over commutative rings",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved geometric Satake: representations of the Langlands dual group are perverse sheaves on the affine Grassmannian. Nearly all current work in geometric and local Langlands uses this equivalence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Elias & Williamson",
+     "year": 2014,
+     "title": "The Hodge theory of Soergel bimodules",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved Kazhdan-Lusztig positivity for all Coxeter groups by algebraic Hodge theory, with no geometry available. It showed categorification can replace geometry and opened the current program on modular representation theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Soergel",
+     "year": 1990,
+     "title": "Kategorie O, perverse Garben und Moduln über den Koinvarianten zur Weylgruppe",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Described category O by modules over the coinvariant algebra, the start of Soergel bimodules. This algebraic route is what made the Elias-Williamson and later modular results possible.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nakajima",
+     "year": 1998,
+     "title": "Quiver varieties and Kac-Moody algebras",
+     "venue": "Duke Mathematical Journal",
+     "type": "paper",
+     "why": "Built representations of Kac-Moody algebras on the cohomology of quiver varieties. Quiver varieties are now standard objects in representation theory, enumerative geometry and mathematical physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arkhipov, Bezrukavnikov & Ginzburg",
+     "year": 2004,
+     "title": "Quantum groups, the loop Grassmannian and the Springer resolution",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Linked quantum group representations at roots of unity to coherent sheaves on the Springer resolution. It set the template for the derived equivalences that drive local geometric Langlands.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Buan, Marsh, Reineke, Reiten & Todorov",
+     "year": 2006,
+     "title": "Tilting theory and cluster combinatorics",
+     "venue": "Advances in Mathematics",
+     "type": "paper",
+     "why": "Introduced cluster categories, giving cluster algebras a home in representation theory. Additive categorification of cluster algebras grew out of this paper.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Keller",
+     "year": 2006,
+     "title": "On differential graded categories",
+     "venue": "Proceedings of the International Congress of Mathematicians, Madrid 2006, Vol. II (EMS)",
+     "type": "paper",
+     "why": "Surveyed and organized DG categories as the setting for derived algebra and noncommutative geometry. It remains the standard entry point to dg-enhancements used throughout current algebra.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Toën & Vezzosi",
+     "year": 2008,
+     "title": "Homotopical algebraic geometry II: Geometric stacks and applications",
+     "venue": "Memoirs of the American Mathematical Society",
+     "type": "paper",
+     "why": "Founded derived algebraic geometry in a usable form. Derived stacks are now routine in enumerative geometry, geometric Langlands and shifted symplectic structures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chuang & Rouquier",
+     "year": 2008,
+     "title": "Derived equivalences for symmetric groups and sl2-categorification",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved Broué's conjecture for symmetric groups by inventing sl2-categorification. It showed categorical actions could prove hard theorems and launched higher representation theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Khovanov & Lauda",
+     "year": 2009,
+     "title": "A diagrammatic approach to categorification of quantum groups I",
+     "venue": "Representation Theory",
+     "type": "paper",
+     "why": "Introduced KLR algebras, which categorify quantum groups. They are now a basic tool connecting quantum groups, knot homology and modular representation theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Williamson",
+     "year": 2017,
+     "title": "Schubert calculus and torsion explosion",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Showed torsion in the cohomology of Schubert varieties grows very fast, disproving Lusztig's modular conjecture in the expected range. It forced the field to rebuild modular representation theory around p-canonical bases.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gaitsgory & Raskin",
+     "year": 2024,
+     "title": "Proof of the geometric Langlands conjecture I: construction of the functor",
+     "venue": "arXiv preprint 2405.03599",
+     "type": "paper",
+     "why": "First of the papers proving the unramified de Rham geometric Langlands conjecture. The method and its consequences are where geometric representation theory is now heading.",
+     "verified": true,
+     "conf": "low",
+     "note": "Title and arXiv number confirmed; author list for part I (Gaitsgory & Raskin) from memory, the full series has more authors."
+    }
+   ]
+  },
+  {
+   "field": "Number theory",
+   "lead": "The field is organized around the Langlands program and arithmetic geometry, now reshaped by p-adic geometry, together with analytic and combinatorial progress on primes and ranks of elliptic curves.",
+   "papers": [
+    {
+     "authors": "Riemann",
+     "year": 1859,
+     "title": "Über die Anzahl der Primzahlen unter einer gegebenen Grösse",
+     "venue": "Monatsberichte der Königlichen Preußischen Akademie der Wissenschaften zu Berlin",
+     "type": "paper",
+     "why": "Linked the distribution of primes to the zeros of the zeta function. The Riemann Hypothesis it states is still the central open problem, and the explicit formula it introduced is still how prime counting is done.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Langlands",
+     "year": 1970,
+     "title": "Problems in the theory of automorphic forms",
+     "venue": "Lectures in Modern Analysis and Applications III, Lecture Notes in Mathematics 170 (Springer)",
+     "type": "paper",
+     "why": "Proposed the conjectures linking Galois representations and automorphic forms. Most of modern number theory is an attempt to prove parts of this program.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Deligne",
+     "year": 1974,
+     "title": "La conjecture de Weil. I",
+     "venue": "Publications Mathématiques de l'IHÉS",
+     "type": "paper",
+     "why": "Proved the Riemann hypothesis for varieties over finite fields. The weight and purity arguments it introduced are used constantly, from exponential sums to the trace formula.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Faltings",
+     "year": 1983,
+     "title": "Endlichkeitssätze für abelsche Varietäten über Zahlkörpern",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Proved the Mordell conjecture and the Tate conjecture for abelian varieties. It is the model for controlling rational points by Galois representations, and making it effective is still open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gross & Zagier",
+     "year": 1986,
+     "title": "Heegner points and derivatives of L-series",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Related heights of Heegner points to derivatives of L-functions. With Kolyvagin it gave the best known cases of the Birch and Swinnerton-Dyer conjecture, and its higher generalizations are an active area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wiles",
+     "year": 1995,
+     "title": "Modular elliptic curves and Fermat's Last Theorem",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved modularity of semistable elliptic curves and so Fermat's Last Theorem. Its modularity lifting method is still the main engine for proving cases of Langlands reciprocity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Green & Tao",
+     "year": 2008,
+     "title": "The primes contain arbitrarily long arithmetic progressions",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Found long progressions in the primes by transferring Szemerédi's theorem to a sparse pseudorandom setting. The transference method and higher-order Fourier analysis it pushed are now standard.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ngô",
+     "year": 2010,
+     "title": "Le lemme fondamental pour les algèbres de Lie",
+     "venue": "Publications Mathématiques de l'IHÉS",
+     "type": "paper",
+     "why": "Proved the Fundamental Lemma using the Hitchin fibration, unblocking the trace formula approach to Langlands functoriality. It is a leading example of geometry solving an arithmetic problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scholze",
+     "year": 2012,
+     "title": "Perfectoid spaces",
+     "venue": "Publications Mathématiques de l'IHÉS",
+     "type": "paper",
+     "why": "Introduced perfectoid spaces and tilting between characteristic 0 and p. This rebuilt p-adic Hodge theory and underlies much current Langlands and cohomology work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zhang",
+     "year": 2014,
+     "title": "Bounded gaps between primes",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved that infinitely many pairs of primes differ by less than 70 million. It reopened sieve theory and led directly to Maynard's method and the Polymath improvements.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Taylor & Wiles",
+     "year": 1995,
+     "title": "Ring-theoretic properties of certain Hecke algebras",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Supplied the patching argument that completed Wiles's proof. Taylor-Wiles patching, in many refined forms, is used in essentially every modern modularity theorem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Breuil, Conrad, Diamond & Taylor",
+     "year": 2001,
+     "title": "On the modularity of elliptic curves over Q: wild 3-adic exercises",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Proved every elliptic curve over the rationals is modular. Extending this to other number fields is a main current goal.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harris & Taylor",
+     "year": 2001,
+     "title": "The geometry and cohomology of some simple Shimura varieties",
+     "venue": "Annals of Mathematics Studies 151 (Princeton University Press)",
+     "type": "book",
+     "why": "Proved the local Langlands correspondence for GL(n) using Shimura varieties. The geometric approach to local Langlands it began is now being completed by Fargues-Scholze.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maynard",
+     "year": 2015,
+     "title": "Small gaps between primes",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Gave a simpler multidimensional sieve that bounds prime gaps by 600 and finds clusters of primes. The Maynard sieve is now a standard tool in analytic number theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bhargava & Shankar",
+     "year": 2015,
+     "title": "Binary quartic forms having bounded invariants, and the boundedness of the average rank of elliptic curves",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Showed the average rank of elliptic curves is bounded by counting orbits geometrically. Arithmetic statistics grew into a major field from this line of work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yun & Zhang",
+     "year": 2017,
+     "title": "Shtukas and the Taylor expansion of L-functions",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved a higher-derivative Gross-Zagier formula over function fields. It points toward how higher derivatives of L-functions should be understood in general.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lafforgue, V.",
+     "year": 2018,
+     "title": "Chtoucas pour les groupes réductifs et paramétrisation de Langlands globale",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Constructed the automorphic-to-Galois direction of Langlands for all reductive groups over function fields. Its excursion operators are now used throughout local and global Langlands.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Newton & Thorne",
+     "year": 2021,
+     "title": "Symmetric power functoriality for holomorphic modular forms",
+     "venue": "Publications Mathématiques de l'IHÉS",
+     "type": "paper",
+     "why": "Proved all symmetric power liftings of modular forms are automorphic. It shows how far current modularity methods reach and settles cases of functoriality open for decades.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fargues & Scholze",
+     "year": 2021,
+     "title": "Geometrization of the local Langlands correspondence",
+     "venue": "arXiv preprint 2102.13459",
+     "type": "paper",
+     "why": "Recast local Langlands as geometric Langlands on the Fargues-Fontaine curve. It is now the main framework for local Langlands research.",
+     "verified": false,
+     "conf": "high",
+     "note": "Unpublished arXiv preprint; journal version, if any, not checked."
+    },
+    {
+     "authors": "Bhatt & Scholze",
+     "year": 2022,
+     "title": "Prisms and prismatic cohomology",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Introduced prismatic cohomology, which unifies the p-adic cohomology theories. It is now the base of new work in p-adic Hodge theory and arithmetic geometry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Analysis",
+   "lead": "The field works on regularity and blow-up for nonlinear PDE (especially fluids), dispersive equations, and Fourier restriction, Kakeya and decoupling, which increasingly feed number theory.",
+   "papers": [
+    {
+     "authors": "Leray",
+     "year": 1934,
+     "title": "Sur le mouvement d'un liquide visqueux emplissant l'espace",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Defined weak solutions of the Navier-Stokes equations and proved they exist for all time. Whether they stay smooth and unique is still a Millennium Problem, and recent non-uniqueness results attack exactly Leray's framework.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Calderón & Zygmund",
+     "year": 1952,
+     "title": "On the existence of certain singular integrals",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Built the theory of singular integral operators on L^p spaces. Calderón-Zygmund theory is still the daily toolkit of harmonic analysis and elliptic PDE, and its multilinear and sparse versions are active.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nash",
+     "year": 1958,
+     "title": "Continuity of solutions of parabolic and elliptic equations",
+     "venue": "American Journal of Mathematics",
+     "type": "paper",
+     "why": "Proved Hölder continuity for equations with rough coefficients, alongside De Giorgi. These ideas are what current regularity theory for nonlinear and nonlocal equations extends.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carleson",
+     "year": 1966,
+     "title": "On convergence and growth of partial sums of Fourier series",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Proved Fourier series of L^2 functions converge almost everywhere. Its time-frequency analysis still drives work on multilinear and maximal operators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hörmander",
+     "year": 1971,
+     "title": "Fourier integral operators. I",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Created the calculus of Fourier integral operators, describing how singularities propagate. Microlocal analysis built on it is central to current work in spectral theory, scattering and general relativity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caffarelli, Kohn & Nirenberg",
+     "year": 1982,
+     "title": "Partial regularity of suitable weak solutions of the Navier-Stokes equations",
+     "venue": "Communications on Pure and Applied Mathematics",
+     "type": "paper",
+     "why": "Showed the possible singular set of Navier-Stokes solutions is very small. It is still the best general regularity result for 3D Navier-Stokes and the model for partial regularity arguments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brenier",
+     "year": 1991,
+     "title": "Polar factorization and monotone rearrangement of vector-valued functions",
+     "venue": "Communications on Pure and Applied Mathematics",
+     "type": "paper",
+     "why": "Showed optimal transport maps are gradients of convex functions. This made optimal transport a working tool in PDE, geometry, probability and machine learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bourgain",
+     "year": 1993,
+     "title": "Fourier transform restriction phenomena for certain lattice subsets and applications to nonlinear evolution equations. I. Schrödinger equations",
+     "venue": "Geometric and Functional Analysis",
+     "type": "paper",
+     "why": "Introduced X^{s,b} spaces and solved periodic dispersive equations at low regularity. These spaces are still the standard framework for dispersive PDE.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kenig & Merle",
+     "year": 2006,
+     "title": "Global well-posedness, scattering and blow-up for the energy-critical, focusing, non-linear Schrödinger equation in the radial case",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Introduced the concentration-compactness and rigidity method for critical dispersive equations. It became the standard road map for proving global existence and scattering.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bourgain, Demeter & Guth",
+     "year": 2016,
+     "title": "Proof of the main conjecture in Vinogradov's mean value theorem for degrees higher than three",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Used decoupling to prove a central conjecture in analytic number theory. It showed Fourier restriction methods can settle number-theoretic problems, which is now a busy research direction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "De Giorgi",
+     "year": 1957,
+     "title": "Sulla differenziabilità e l'analiticità delle estremali degli integrali multipli regolari",
+     "venue": "Memorie della Accademia delle Scienze di Torino",
+     "type": "paper",
+     "why": "Solved Hilbert's 19th problem by proving regularity for equations with merely bounded coefficients. The De Giorgi iteration is still reused in fluids, nonlocal equations and free boundaries.",
+     "verified": false,
+     "conf": "low",
+     "note": "Venue series name from memory (Mem. Accad. Sci. Torino, Cl. Sci. Fis. Mat. Nat., ser. 3)."
+    },
+    {
+     "authors": "Bennett, Carbery & Tao",
+     "year": 2006,
+     "title": "On the multilinear restriction and Kakeya conjectures",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Proved multilinear restriction and Kakeya estimates. These are the inputs to decoupling and polynomial partitioning arguments used across current harmonic analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caffarelli & Silvestre",
+     "year": 2007,
+     "title": "An extension problem related to the fractional Laplacian",
+     "venue": "Communications in Partial Differential Equations",
+     "type": "paper",
+     "why": "Showed the fractional Laplacian can be studied as a local equation in one more dimension. This trick opened up the regularity theory of nonlocal equations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lott & Villani",
+     "year": 2009,
+     "title": "Ricci curvature for metric-measure spaces via optimal transport",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Defined lower Ricci bounds for non-smooth spaces using optimal transport. Synthetic curvature (CD and RCD spaces) is now a major area bridging analysis and geometry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "De Lellis & Székelyhidi",
+     "year": 2009,
+     "title": "The Euler equations as a differential inclusion",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Brought convex integration into fluid dynamics, producing wild weak solutions. It started the program that led to Onsager's conjecture and Navier-Stokes non-uniqueness.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bourgain & Demeter",
+     "year": 2015,
+     "title": "The proof of the l^2 decoupling conjecture",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved sharp decoupling for curved surfaces. Decoupling is now applied across PDE, number theory and restriction problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Guth",
+     "year": 2016,
+     "title": "A restriction estimate using polynomial partitioning",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Brought polynomial partitioning from combinatorics into Fourier restriction. It gives the best current bounds in low dimensions and is a standard technique.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Isett",
+     "year": 2018,
+     "title": "A proof of Onsager's conjecture",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Built energy-dissipating Euler solutions at the critical Hölder exponent 1/3. It confirmed a prediction of turbulence theory and showed the power of convex integration.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Buckmaster & Vicol",
+     "year": 2019,
+     "title": "Nonuniqueness of weak solutions to the Navier-Stokes equation",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Showed weak solutions of 3D Navier-Stokes need not be unique. It sharpened what the Millennium Problem can and cannot rely on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang & Zahl",
+     "year": 2025,
+     "title": "Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions",
+     "venue": "arXiv preprint 2502.17655",
+     "type": "paper",
+     "why": "Proved that Kakeya sets in three dimensions have full dimension. It settles a central conjecture behind restriction theory and raises the question of higher dimensions.",
+     "verified": false,
+     "conf": "high",
+     "note": "arXiv number confirmed by search; exact title from memory."
+    }
+   ]
+  },
+  {
+   "field": "Geometry",
+   "lead": "Current work centers on geometric flows and canonical metrics (including K-stability), symplectic geometry and mirror symmetry, minimal surfaces, and the birational classification of algebraic varieties.",
+   "papers": [
+    {
+     "authors": "Atiyah & Singer",
+     "year": 1968,
+     "title": "The index of elliptic operators: I",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Computed the analytic index of elliptic operators from topology. Index theory is still used everywhere from gauge theory to positive scalar curvature and noncommutative geometry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yau",
+     "year": 1978,
+     "title": "On the Ricci curvature of a compact Kähler manifold and the complex Monge-Ampère equation, I",
+     "venue": "Communications on Pure and Applied Mathematics",
+     "type": "paper",
+     "why": "Proved the Calabi conjecture, giving Ricci-flat metrics on Calabi-Yau manifolds. Canonical Kähler metrics, which this started, are still a main topic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mori",
+     "year": 1982,
+     "title": "Threefolds whose canonical bundles are not numerically effective",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Introduced extremal rays and the cone theorem, starting the minimal model program. The MMP is still the framework for classifying algebraic varieties.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hamilton",
+     "year": 1982,
+     "title": "Three-manifolds with positive Ricci curvature",
+     "venue": "Journal of Differential Geometry",
+     "type": "paper",
+     "why": "Introduced Ricci flow. Geometric flows are now a core method, with current work on singularities and flows through them.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gromov",
+     "year": 1985,
+     "title": "Pseudo holomorphic curves in symplectic manifolds",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Introduced pseudoholomorphic curves and proved nonsqueezing. Gromov-Witten theory and Floer theory both grew from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Floer",
+     "year": 1988,
+     "title": "Morse theory for Lagrangian intersections",
+     "venue": "Journal of Differential Geometry",
+     "type": "paper",
+     "why": "Created Floer homology for Lagrangian intersections. It is the starting point for Fukaya categories and homological mirror symmetry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kontsevich",
+     "year": 1995,
+     "title": "Homological algebra of mirror symmetry",
+     "venue": "Proceedings of the International Congress of Mathematicians, Zürich 1994 (Birkhäuser)",
+     "type": "paper",
+     "why": "Proposed that mirror symmetry is an equivalence between Fukaya categories and derived categories of coherent sheaves. Proving and using this conjecture is a main program in geometry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Perelman",
+     "year": 2002,
+     "title": "The entropy formula for the Ricci flow and its geometric applications",
+     "venue": "arXiv preprint math/0211159",
+     "type": "paper",
+     "why": "Introduced entropy and no-local-collapsing for Ricci flow, leading to the Poincaré and geometrization theorems. Its tools are standard in current singularity analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": "Never published in a journal."
+    },
+    {
+     "authors": "Birkar, Cascini, Hacon & McKernan",
+     "year": 2010,
+     "title": "Existence of minimal models for varieties of log general type",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Proved existence of minimal models for varieties of general type in all dimensions. It underlies current work on moduli and boundedness of varieties.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen, Donaldson & Sun",
+     "year": 2015,
+     "title": "Kähler-Einstein metrics on Fano manifolds. I: Approximation of metrics with cone singularities",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "First of three papers proving that Fano manifolds have Kähler-Einstein metrics exactly when K-stable. K-stability is now a central link between differential and algebraic geometry.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Candelas, de la Ossa, Green & Parkes",
+     "year": 1991,
+     "title": "A pair of Calabi-Yau manifolds as an exactly soluble superconformal theory",
+     "venue": "Nuclear Physics B",
+     "type": "paper",
+     "why": "Used mirror symmetry to predict counts of rational curves on the quintic. Explaining such predictions created modern enumerative geometry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Strominger, Yau & Zaslow",
+     "year": 1996,
+     "title": "Mirror symmetry is T-duality",
+     "venue": "Nuclear Physics B",
+     "type": "paper",
+     "why": "Proposed that mirror Calabi-Yau manifolds carry dual torus fibrations. The SYZ picture still guides constructions of mirrors.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cheeger & Colding",
+     "year": 1997,
+     "title": "On the structure of spaces with Ricci curvature bounded below. I",
+     "venue": "Journal of Differential Geometry",
+     "type": "paper",
+     "why": "Described limits of manifolds with Ricci curvature bounded below. This structure theory is used across geometric analysis, including Kähler-Einstein problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tian",
+     "year": 1997,
+     "title": "Kähler-Einstein metrics with positive scalar curvature",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Introduced K-stability and showed it is needed for Kähler-Einstein metrics. It started the stability program that dominates canonical metrics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Donaldson",
+     "year": 2002,
+     "title": "Scalar curvature and stability of toric varieties",
+     "venue": "Journal of Differential Geometry",
+     "type": "paper",
+     "why": "Gave the algebraic definition of K-stability now in use. The Yau-Tian-Donaldson conjecture for constant scalar curvature metrics remains open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bridgeland",
+     "year": 2007,
+     "title": "Stability conditions on triangulated categories",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Defined stability conditions on triangulated categories. Their spaces are now studied in mirror symmetry, birational geometry and representation theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Colding & Minicozzi",
+     "year": 2012,
+     "title": "Generic mean curvature flow I; generic singularities",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Showed only spheres and cylinders are stable singularities of mean curvature flow. It reshaped the singularity theory of geometric flows.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marques & Neves",
+     "year": 2014,
+     "title": "Min-max theory and the Willmore conjecture",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved the Willmore conjecture with Almgren-Pitts min-max theory. It revived min-max methods, now the center of minimal surface theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Birkar",
+     "year": 2021,
+     "title": "Singularities of linear systems and boundedness of Fano varieties",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved Fano varieties with mild singularities form bounded families. It is a key input in constructing moduli of Fano varieties via K-stability.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Song",
+     "year": 2023,
+     "title": "Existence of infinitely many minimal hypersurfaces in closed manifolds",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved Yau's conjecture that every closed 3-manifold has infinitely many minimal surfaces. It shows how far the revived min-max theory now reaches.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Topology",
+   "lead": "The field works on low-dimensional topology through gauge theory, Floer homology and knot homologies, the structure of 3-manifold groups, and stable homotopy theory computed by chromatic, equivariant and motivic methods.",
+   "papers": [
+    {
+     "authors": "Kervaire & Milnor",
+     "year": 1963,
+     "title": "Groups of homotopy spheres: I",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Reduced counting exotic spheres to stable homotopy theory. Recent computations of exotic spheres still feed directly into this framework.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thurston",
+     "year": 1982,
+     "title": "Three-dimensional manifolds, Kleinian groups and hyperbolic geometry",
+     "venue": "Bulletin of the American Mathematical Society",
+     "type": "paper",
+     "why": "Laid out the geometrization conjecture and a list of questions about hyperbolic 3-manifolds. Those questions shaped the field through Perelman, Agol and Wise, and some remain open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Freedman",
+     "year": 1982,
+     "title": "The topology of four-dimensional manifolds",
+     "venue": "Journal of Differential Geometry",
+     "type": "paper",
+     "why": "Classified simply connected topological 4-manifolds. The gap between topological and smooth four-dimensional topology is still the field's main mystery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Donaldson",
+     "year": 1983,
+     "title": "An application of gauge theory to four-dimensional topology",
+     "venue": "Journal of Differential Geometry",
+     "type": "paper",
+     "why": "Used Yang-Mills moduli spaces to show many topological 4-manifolds have no smooth structure. Gauge-theoretic invariants remain the main tool for smooth 4-manifolds.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jones",
+     "year": 1985,
+     "title": "A polynomial invariant for knots via von Neumann algebras",
+     "venue": "Bulletin of the American Mathematical Society",
+     "type": "paper",
+     "why": "Discovered the Jones polynomial, starting quantum topology. Understanding what it detects is still open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Witten",
+     "year": 1989,
+     "title": "Quantum field theory and the Jones polynomial",
+     "venue": "Communications in Mathematical Physics",
+     "type": "paper",
+     "why": "Explained the Jones polynomial with Chern-Simons theory, giving 3-manifold invariants. It made quantum field theory a permanent source of topological invariants.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Khovanov",
+     "year": 2000,
+     "title": "A categorification of the Jones polynomial",
+     "venue": "Duke Mathematical Journal",
+     "type": "paper",
+     "why": "Built a homology theory whose Euler characteristic is the Jones polynomial. Khovanov homology and its relatives are active tools for knots and surfaces in 4-manifolds.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ozsváth & Szabó",
+     "year": 2004,
+     "title": "Holomorphic disks and topological invariants for closed three-manifolds",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Introduced Heegaard Floer homology. It is a main computable tool for knots, surgery and homology cobordism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Agol",
+     "year": 2013,
+     "title": "The virtual Haken conjecture",
+     "venue": "Documenta Mathematica",
+     "type": "paper",
+     "why": "Proved hyperbolic 3-manifolds are virtually Haken and fibered, using Wise's cube complexes. Cubulation is now a main method in geometric group theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hill, Hopkins & Ravenel",
+     "year": 2016,
+     "title": "On the nonexistence of elements of Kervaire invariant one",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Settled the Kervaire invariant problem except in dimension 126. Its equivariant methods are now central to stable homotopy theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Gromov",
+     "year": 1987,
+     "title": "Hyperbolic groups",
+     "venue": "Essays in Group Theory, MSRI Publications 8 (Springer)",
+     "type": "paper",
+     "why": "Defined hyperbolic groups by coarse geometry. Geometric group theory is built on this idea.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Devinatz, Hopkins & Smith",
+     "year": 1988,
+     "title": "Nilpotence and stable homotopy theory I",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved the nilpotence theorem, the base of chromatic homotopy theory. The chromatic picture still organizes stable homotopy research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Witten",
+     "year": 1994,
+     "title": "Monopoles and four-manifolds",
+     "venue": "Mathematical Research Letters",
+     "type": "paper",
+     "why": "Introduced the Seiberg-Witten equations to topology. They made gauge theory far easier and remain central to 4-manifold and 3-manifold work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lurie",
+     "year": 2009,
+     "title": "Higher Topos Theory",
+     "venue": "Annals of Mathematics Studies 170 (Princeton University Press)",
+     "type": "book",
+     "why": "Developed infinity-category theory in full. It is now the standard language of homotopy theory and derived geometry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lurie",
+     "year": 2009,
+     "title": "On the classification of topological field theories",
+     "venue": "Current Developments in Mathematics 2008 (International Press)",
+     "type": "paper",
+     "why": "Sketched a proof of the cobordism hypothesis. Fully extended field theories are an active area in topology and physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kahn & Markovic",
+     "year": 2012,
+     "title": "Immersing almost geodesic surfaces in a closed hyperbolic three manifold",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved hyperbolic 3-manifolds contain many immersed surfaces. It is a key input to Agol's theorem and its methods are still reused.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Manolescu",
+     "year": 2016,
+     "title": "Pin(2)-equivariant Seiberg-Witten Floer homology and the triangulation conjecture",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Showed some high-dimensional manifolds cannot be triangulated. It added equivariant Floer methods to the toolkit for homology cobordism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nikolaus & Scholze",
+     "year": 2018,
+     "title": "On topological cyclic homology",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Simplified topological cyclic homology using infinity-categories. It underlies current trace methods in K-theory and links to prismatic cohomology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Piccirillo",
+     "year": 2020,
+     "title": "The Conway knot is not slice",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Solved a long-standing sliceness problem by a clever trace construction and Rasmussen's invariant. It shows how knot homology answers 4-dimensional questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Isaksen, Wang & Xu",
+     "year": 2023,
+     "title": "Stable homotopy groups of spheres: from dimension 0 to 90",
+     "venue": "Publications Mathématiques de l'IHÉS",
+     "type": "paper",
+     "why": "Computed stable stems up to dimension 90 using motivic and machine methods. It resolved exotic sphere questions and shows the current computational frontier.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Probability",
+   "lead": "Probability centers on random geometry and statistical-mechanics scaling limits (SLE, Liouville quantum gravity, percolation), KPZ universality and random matrices, and singular stochastic PDE.",
+   "papers": [
+    {
+     "authors": "Erdős & Rényi",
+     "year": 1960,
+     "title": "On the evolution of random graphs",
+     "venue": "Publications of the Mathematical Institute of the Hungarian Academy of Sciences",
+     "type": "paper",
+     "why": "Found sharp phase transitions in random graphs, including the giant component. Random graphs and threshold phenomena remain an active area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kardar, Parisi & Zhang",
+     "year": 1986,
+     "title": "Dynamic scaling of growing interfaces",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Proposed the KPZ equation for random growth. Proving its predicted universality is one of probability's main current programs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aldous",
+     "year": 1991,
+     "title": "The continuum random tree. I",
+     "venue": "Annals of Probability",
+     "type": "paper",
+     "why": "Built the Brownian continuum random tree as the limit of large random trees. It started the study of scaling limits of random discrete structures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tracy & Widom",
+     "year": 1994,
+     "title": "Level-spacing distributions and the Airy kernel",
+     "venue": "Communications in Mathematical Physics",
+     "type": "paper",
+     "why": "Found the distribution of the largest eigenvalue of random matrices. The Tracy-Widom law keeps appearing in growth models, queues and random permutations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baik, Deift & Johansson",
+     "year": 1999,
+     "title": "On the distribution of the length of the longest increasing subsequence of random permutations",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Showed longest increasing subsequences follow Tracy-Widom. It started integrable probability and the rigorous study of KPZ universality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schramm",
+     "year": 2000,
+     "title": "Scaling limits of loop-erased random walks and uniform spanning trees",
+     "venue": "Israel Journal of Mathematics",
+     "type": "paper",
+     "why": "Introduced Schramm-Loewner evolution (SLE). SLE is the basic object for conformally invariant random curves.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smirnov",
+     "year": 2001,
+     "title": "Critical percolation in the plane: conformal invariance, Cardy's formula, scaling limits",
+     "venue": "Comptes Rendus de l'Académie des Sciences, Série I",
+     "type": "paper",
+     "why": "Proved conformal invariance of critical percolation on the triangular lattice. Extending this to other lattices is still open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Le Gall",
+     "year": 2013,
+     "title": "Uniqueness and universality of the Brownian map",
+     "venue": "Annals of Probability",
+     "type": "paper",
+     "why": "Proved random planar maps converge to the Brownian map. It is the foundation for random planar geometry and its link to Liouville quantum gravity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hairer",
+     "year": 2014,
+     "title": "A theory of regularity structures",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Gave a way to solve singular stochastic PDEs. Regularity structures are now used for many equations from physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duminil-Copin & Tassion",
+     "year": 2016,
+     "title": "A new proof of the sharpness of the phase transition for Bernoulli percolation and the Ising model",
+     "venue": "Communications in Mathematical Physics",
+     "type": "paper",
+     "why": "Gave a short proof of sharp thresholds. Its method is now used throughout statistical mechanics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Talagrand",
+     "year": 1995,
+     "title": "Concentration of measure and isoperimetric inequalities in product spaces",
+     "venue": "Publications Mathématiques de l'IHÉS",
+     "type": "paper",
+     "why": "Developed concentration inequalities for product measures. They are standard tools in probability, combinatorics and statistics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Johansson",
+     "year": 2000,
+     "title": "Shape fluctuations and random matrices",
+     "venue": "Communications in Mathematical Physics",
+     "type": "paper",
+     "why": "Showed last-passage percolation fluctuations follow Tracy-Widom. It linked growth models to random matrices.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lawler, Schramm & Werner",
+     "year": 2004,
+     "title": "Conformal invariance of planar loop-erased random walks and uniform spanning trees",
+     "venue": "Annals of Probability",
+     "type": "paper",
+     "why": "Proved loop-erased random walk converges to SLE(2). It set the pattern for proving scaling limits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smirnov",
+     "year": 2010,
+     "title": "Conformal invariance in random cluster models. I. Holomorphic fermions in the Ising model",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved conformal invariance of the critical Ising model. Discrete holomorphicity remains a key method.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duplantier & Sheffield",
+     "year": 2011,
+     "title": "Liouville quantum gravity and KPZ",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Defined Liouville quantum gravity measures rigorously. LQG is now a central object in random geometry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Erdős, Schlein & Yau",
+     "year": 2011,
+     "title": "Universality of random matrices and local relaxation flow",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Proved local eigenvalue statistics are universal through dynamics. Its methods drive random matrix theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gubinelli, Imkeller & Perkowski",
+     "year": 2015,
+     "title": "Paracontrolled distributions and singular PDEs",
+     "venue": "Forum of Mathematics, Pi",
+     "type": "paper",
+     "why": "Gave a second approach to singular stochastic PDEs. It is widely used alongside regularity structures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Miller & Sheffield",
+     "year": 2020,
+     "title": "Liouville quantum gravity and the Brownian map I: the QLE(8/3,0) metric",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Started proving the Brownian map equals LQG with a metric. It unified two pictures of random surfaces.",
+     "verified": false,
+     "conf": "low",
+     "note": "Subtitle from memory."
+    },
+    {
+     "authors": "Matetski, Quastel & Remenik",
+     "year": 2021,
+     "title": "The KPZ fixed point",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Constructed the universal limit of KPZ growth models. Showing models converge to it is now a central problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dauvergne, Ortmann & Virág",
+     "year": 2022,
+     "title": "The directed landscape",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Built the full scaling limit of last-passage percolation. It is the main object in current KPZ research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Combinatorics",
+   "lead": "The field is converging with analysis and probability: additive combinatorics and Ramsey theory with sharp quantitative bounds, polynomial and spectral methods, and existence results through randomness and absorption.",
+   "papers": [
+    {
+     "authors": "Erdős",
+     "year": 1947,
+     "title": "Some remarks on the theory of graphs",
+     "venue": "Bulletin of the American Mathematical Society",
+     "type": "paper",
+     "why": "Used random graphs to give an exponential lower bound for Ramsey numbers. It started the probabilistic method, and the lower bound is still essentially the best known.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Szemerédi",
+     "year": 1975,
+     "title": "On sets of integers containing no k elements in arithmetic progression",
+     "venue": "Acta Arithmetica",
+     "type": "paper",
+     "why": "Proved dense sets of integers contain long arithmetic progressions. Its regularity ideas and the search for good bounds still drive additive combinatorics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lovász",
+     "year": 1979,
+     "title": "On the Shannon capacity of a graph",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Introduced the theta function, an early semidefinite relaxation. It is still central in combinatorial optimization and information theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gowers",
+     "year": 2001,
+     "title": "A new proof of Szemerédi's theorem",
+     "venue": "Geometric and Functional Analysis",
+     "type": "paper",
+     "why": "Introduced Gowers norms and higher-order Fourier analysis. These are the main tools for counting patterns.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Robertson & Seymour",
+     "year": 2004,
+     "title": "Graph minors. XX. Wagner's conjecture",
+     "venue": "Journal of Combinatorial Theory, Series B",
+     "type": "paper",
+     "why": "Proved graphs are well-quasi-ordered by minors. The structure theory behind it powers structural graph theory and algorithms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Keevash",
+     "year": 2014,
+     "title": "The existence of designs",
+     "venue": "arXiv preprint 1401.3665",
+     "type": "paper",
+     "why": "Proved combinatorial designs exist for all admissible parameters. Randomized algebraic construction and absorption are now standard.",
+     "verified": false,
+     "conf": "high",
+     "note": "Unpublished arXiv preprint as far as known."
+    },
+    {
+     "authors": "Marcus, Spielman & Srivastava",
+     "year": 2015,
+     "title": "Interlacing families I: Bipartite Ramanujan graphs of all degrees",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Introduced interlacing families to build Ramanujan graphs. The same method solved Kadison-Singer and is used in spectral graph theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ellenberg & Gijswijt",
+     "year": 2017,
+     "title": "On large subsets of F_q^n with no three-term arithmetic progression",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Solved the cap set problem with the polynomial method. The slice rank method is now a general tool.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kelley & Meka",
+     "year": 2023,
+     "title": "Strong bounds for 3-progressions",
+     "venue": "Proceedings of the 64th IEEE Symposium on Foundations of Computer Science (FOCS)",
+     "type": "paper",
+     "why": "Gave quasi-polynomial bounds for sets without three-term progressions. It shows new density-increment techniques.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Campos, Griffiths, Morris & Sahasrabudhe",
+     "year": 2026,
+     "title": "An exponential improvement for diagonal Ramsey",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Gave the first exponential improvement on Erdős-Szekeres for diagonal Ramsey. It revived Ramsey theory.",
+     "verified": true,
+     "conf": "high",
+     "note": "arXiv 2303.09521 (2023); journal publication Annals 2026."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Furstenberg",
+     "year": 1977,
+     "title": "Ergodic behavior of diagonal measures and a theorem of Szemerédi on arithmetic progressions",
+     "venue": "Journal d'Analyse Mathématique",
+     "type": "paper",
+     "why": "Reproved Szemerédi's theorem with ergodic theory. Ergodic methods still give the strongest qualitative results in additive combinatorics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Szemerédi",
+     "year": 1978,
+     "title": "Regular partitions of graphs",
+     "venue": "Problèmes Combinatoires et Théorie des Graphes, Colloques Internationaux du CNRS 260",
+     "type": "paper",
+     "why": "Stated the graph regularity lemma. It is a basic tool in graph theory and property testing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Alon",
+     "year": 1999,
+     "title": "Combinatorial Nullstellensatz",
+     "venue": "Combinatorics, Probability and Computing",
+     "type": "paper",
+     "why": "Gave a polynomial method for combinatorial problems. Polynomial methods have since solved many problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gowers",
+     "year": 2007,
+     "title": "Hypergraph regularity and the multidimensional Szemerédi theorem",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Developed hypergraph regularity. It is the combinatorial basis for multidimensional density theorems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Balogh, Morris & Samotij",
+     "year": 2015,
+     "title": "Independent sets in hypergraphs",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Introduced the container method. It is now a standard tool for counting and random sparse problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Croot, Lev & Pach",
+     "year": 2017,
+     "title": "Progression-free sets in Z_4^n are exponentially small",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Introduced the polynomial trick behind the cap set solution. It started the slice rank method.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Adiprasito, Huh & Katz",
+     "year": 2018,
+     "title": "Hodge theory for combinatorial geometries",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved log-concavity for matroids using Hodge theory. Combinatorial Hodge theory is now an active area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Huang",
+     "year": 2019,
+     "title": "Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved the sensitivity conjecture with a short spectral argument. It shows the power of spectral methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Park & Pham",
+     "year": 2024,
+     "title": "A proof of the Kahn-Kalai conjecture",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Proved thresholds are close to expectation thresholds. It reshaped the study of random structures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gowers, Green, Manners & Tao",
+     "year": 2025,
+     "title": "On a conjecture of Marton",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved the polynomial Freiman-Ruzsa conjecture in characteristic 2. It was quickly formalized in Lean and changes additive combinatorics.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Logic & foundations",
+   "lead": "The field studies the limits of provability (independence, large cardinals and forcing axioms), model theory applied to geometry and number theory, computability and complexity, and type-theoretic foundations with machine-checked proof.",
+   "papers": [
+    {
+     "authors": "Gödel",
+     "year": 1931,
+     "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+     "venue": "Monatshefte für Mathematik und Physik",
+     "type": "paper",
+     "why": "Proved the incompleteness theorems. Every question about what axioms can prove still starts from these limits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gentzen",
+     "year": 1936,
+     "title": "Die Widerspruchsfreiheit der reinen Zahlentheorie",
+     "venue": "Mathematische Annalen",
+     "type": "paper",
+     "why": "Proved consistency of arithmetic by transfinite induction. Ordinal analysis grew from this and remains active in proof theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Turing",
+     "year": 1936,
+     "title": "On computable numbers, with an application to the Entscheidungsproblem",
+     "venue": "Proceedings of the London Mathematical Society",
+     "type": "paper",
+     "why": "Defined computability with Turing machines. It is the basis of computability theory and of computer science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cohen",
+     "year": 1963,
+     "title": "The independence of the continuum hypothesis",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced forcing and showed CH is independent. Forcing remains the main tool of set theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cook",
+     "year": 1971,
+     "title": "The complexity of theorem-proving procedures",
+     "venue": "Proceedings of the 3rd Annual ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Introduced NP-completeness. The P vs NP problem it posed is still open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Martin-Löf",
+     "year": 1975,
+     "title": "An intuitionistic theory of types: predicative part",
+     "venue": "Logic Colloquium '73, Studies in Logic 80 (North-Holland)",
+     "type": "paper",
+     "why": "Gave dependent type theory. It underlies proof assistants and homotopy type theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Martin & Steel",
+     "year": 1989,
+     "title": "A proof of projective determinacy",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Derived projective determinacy from large cardinals. It is central to the case for large cardinals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hrushovski",
+     "year": 1996,
+     "title": "The Mordell-Lang conjecture for function fields",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Used model theory to prove a Diophantine geometry conjecture. Model theory has since become a tool in arithmetic geometry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pila & Wilkie",
+     "year": 2006,
+     "title": "The rational points of a definable set",
+     "venue": "Duke Mathematical Journal",
+     "type": "paper",
+     "why": "Counted rational points on o-minimal sets. It now drives proofs of André-Oort and other unlikely-intersection results.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kapulkin & Lumsdaine",
+     "year": 2021,
+     "title": "The simplicial model of univalent foundations (after Voevodsky)",
+     "venue": "Journal of the European Mathematical Society",
+     "type": "paper",
+     "why": "Built Voevodsky's simplicial model of univalent type theory. It gives homotopy type theory a semantics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Shelah",
+     "year": 1982,
+     "title": "Proper Forcing",
+     "venue": "Lecture Notes in Mathematics 940 (Springer)",
+     "type": "book",
+     "why": "Introduced proper forcing and iteration. It is the standard framework for consistency proofs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Foreman, Magidor & Shelah",
+     "year": 1988,
+     "title": "Martin's Maximum, saturated ideals, and non-regular ultrafilters. Part I",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Introduced Martin's Maximum. Forcing axioms are a main candidate for new axioms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Coquand & Huet",
+     "year": 1988,
+     "title": "The calculus of constructions",
+     "venue": "Information and Computation",
+     "type": "paper",
+     "why": "Introduced the type theory behind Coq and Lean. These proof assistants are now formalizing research mathematics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilkie",
+     "year": 1996,
+     "title": "Model completeness results for expansions of the ordered field of real numbers by restricted Pfaffian functions and the exponential function",
+     "venue": "Journal of the American Mathematical Society",
+     "type": "paper",
+     "why": "Proved the real exponential field is o-minimal. It made o-minimality strong enough for number-theoretic applications.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Simpson",
+     "year": 1999,
+     "title": "Subsystems of Second Order Arithmetic",
+     "venue": "Springer (Perspectives in Mathematical Logic)",
+     "type": "book",
+     "why": "Systematized reverse mathematics. The program of matching theorems to axioms is still active.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Woodin",
+     "year": 1999,
+     "title": "The Axiom of Determinacy, Forcing Axioms, and the Nonstationary Ideal",
+     "venue": "Walter de Gruyter",
+     "type": "book",
+     "why": "Introduced the P_max method and axiom (*). It frames the debate over the continuum.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kechris, Pestov & Todorcevic",
+     "year": 2005,
+     "title": "Fraïssé limits, Ramsey theory, and topological dynamics of automorphism groups",
+     "venue": "Geometric and Functional Analysis",
+     "type": "paper",
+     "why": "Linked structural Ramsey theory and topological dynamics. It created an active area of logic and dynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Univalent Foundations Program",
+     "year": 2013,
+     "title": "Homotopy Type Theory: Univalent Foundations of Mathematics",
+     "venue": "Institute for Advanced Study",
+     "type": "book",
+     "why": "Set out homotopy type theory. It is the reference text for univalent foundations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "The mathlib Community",
+     "year": 2020,
+     "title": "The Lean mathematical library",
+     "venue": "Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP 2020)",
+     "type": "paper",
+     "why": "Described mathlib, the main library of formalized mathematics. Formalization is changing how mathematics is checked.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Asperó & Schindler",
+     "year": 2021,
+     "title": "Martin's Maximum++ implies Woodin's axiom (*)",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Showed two leading new axioms agree. It strengthens the case for a settled answer to the continuum hypothesis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Dynamical systems",
+   "lead": "Current work covers hyperbolic and partially hyperbolic dynamics, rigidity and homogeneous dynamics with number-theoretic applications, Teichmüller dynamics, and holomorphic dynamics and renormalization.",
+   "papers": [
+    {
+     "authors": "Kolmogorov",
+     "year": 1954,
+     "title": "On the conservation of conditionally periodic motions for a small change in Hamilton's function",
+     "venue": "Doklady Akademii Nauk SSSR",
+     "type": "paper",
+     "why": "Announced that most invariant tori of an integrable Hamiltonian system survive small perturbations, the start of KAM theory. KAM methods are still being extended to PDE, celestial mechanics and the question of instability (Arnold diffusion).",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lorenz",
+     "year": 1963,
+     "title": "Deterministic nonperiodic flow",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Showed a three-variable weather model has sensitive dependence on initial conditions and a strange attractor. It made chaos a working concept, and the rigorous theory of such singular attractors (Tucker's proof, Lorenz-like flows) is still being developed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smale",
+     "year": 1967,
+     "title": "Differentiable dynamical systems",
+     "venue": "Bulletin of the American Mathematical Society",
+     "type": "paper",
+     "why": "Set out the program of hyperbolic dynamics: horseshoes, Axiom A and structural stability. Its questions about which behaviour is typical still frame current work on partially hyperbolic and nonuniformly hyperbolic systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bowen & Ruelle",
+     "year": 1975,
+     "title": "The ergodic theory of Axiom A flows",
+     "venue": "Inventiones Mathematicae",
+     "type": "paper",
+     "why": "Built SRB measures for hyperbolic flows. These are the basis of statistical properties of chaotic systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Feigenbaum",
+     "year": 1978,
+     "title": "Quantitative universality for a class of nonlinear transformations",
+     "venue": "Journal of Statistical Physics",
+     "type": "paper",
+     "why": "Found universal constants governing period-doubling cascades and explained them by renormalization. Renormalization is still one of the main tools in one-dimensional and holomorphic dynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sullivan",
+     "year": 1985,
+     "title": "Quasiconformal homeomorphisms and dynamics I: Solution of the Fatou-Julia problem on wandering domains",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved no wandering domains for rational maps. It joined holomorphic dynamics with Kleinian groups.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ratner",
+     "year": 1991,
+     "title": "On Raghunathan's measure conjecture",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Classified invariant measures for unipotent flows. Homogeneous dynamics applications to number theory build on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Einsiedler, Katok & Lindenstrauss",
+     "year": 2006,
+     "title": "Invariant measures and the set of exceptions to Littlewood's conjecture",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Used measure rigidity to make progress on Littlewood's conjecture. Higher-rank rigidity is active.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Avila",
+     "year": 2015,
+     "title": "Global theory of one-frequency Schrödinger operators",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Gave a global classification of quasiperiodic Schrödinger operators by the behaviour of Lyapunov exponents under complexification. It is now the framework for spectral problems in quasiperiodic dynamics and mathematical physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eskin & Mirzakhani",
+     "year": 2018,
+     "title": "Invariant and stationary measures for the SL(2,R) action on moduli space",
+     "venue": "Publications Mathématiques de l'IHÉS",
+     "type": "paper",
+     "why": "Proved Ratner-type rigidity on moduli space. It transformed Teichmüller dynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Furstenberg",
+     "year": 1967,
+     "title": "Disjointness in ergodic theory, minimal sets, and a problem in Diophantine approximation",
+     "venue": "Mathematical Systems Theory",
+     "type": "paper",
+     "why": "Introduced joinings and the ×2×3 problem. That problem is still open and drives rigidity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pesin",
+     "year": 1977,
+     "title": "Characteristic Lyapunov exponents and smooth ergodic theory",
+     "venue": "Russian Mathematical Surveys",
+     "type": "paper",
+     "why": "Built nonuniform hyperbolicity theory. It is standard for systems beyond uniform hyperbolicity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Benedicks & Carleson",
+     "year": 1991,
+     "title": "The dynamics of the Hénon map",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved strange attractors exist for Hénon maps. Its parameter exclusion methods are still used.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lyubich",
+     "year": 1997,
+     "title": "Dynamics of quadratic polynomials, I-II",
+     "venue": "Acta Mathematica",
+     "type": "paper",
+     "why": "Proved local connectivity cases and density of hyperbolicity in the real quadratic family. It shapes current renormalization work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pugh & Shub",
+     "year": 2000,
+     "title": "Stable ergodicity and julienne quasi-conformality",
+     "venue": "Journal of the European Mathematical Society",
+     "type": "paper",
+     "why": "Gave criteria for stable ergodicity of partially hyperbolic systems. Partial hyperbolicity is a main current area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Host & Kra",
+     "year": 2005,
+     "title": "Nonconventional ergodic averages and nilmanifolds",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved convergence of multiple ergodic averages via nilsystems. Nilsystems now link ergodic theory and additive combinatorics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lindenstrauss",
+     "year": 2006,
+     "title": "Invariant measures and arithmetic quantum unique ergodicity",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved arithmetic quantum unique ergodicity. It is a central link between dynamics and number theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Benoist & Quint",
+     "year": 2011,
+     "title": "Mesures stationnaires et fermés invariants des espaces homogènes",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Classified stationary measures for random walks on homogeneous spaces. It is the base for Eskin-Mirzakhani.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eskin, Mirzakhani & Mohammadi",
+     "year": 2015,
+     "title": "Isolation, equidistribution, and orbit closures for the SL(2,R) action on moduli space",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Showed orbit closures in moduli space are manifolds. It is used in billiards and translation surfaces.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brown, Fisher & Hurtado",
+     "year": 2022,
+     "title": "Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T)",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Proved cases of Zimmer's conjecture on actions of lattices. It is a major current rigidity result.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

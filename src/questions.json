@@ -1,0 +1,3019 @@
+{
+ "themes": [
+  {
+   "n": "Mind & brain",
+   "i": "◉",
+   "qs": [
+    {
+     "q": "What is consciousness, and can experiments tell the rival theories apart?",
+     "p": "Global-workspace, integrated-information and higher-order theories are now tested against each other in pre-registered studies; early results embarrassed every side, and whether any experiment can reach felt experience itself is still disputed.",
+     "answers": [
+      {
+       "field": "Philosophy / Philosophy of mind",
+       "angle": "Defines the target, explains why felt experience seems to resist functional explanation, and offers responses ranging from treating it as fundamental to calling it an illusion.",
+       "refs": [
+        "99761f",
+        "3af581",
+        "818e6d",
+        "644898",
+        "872446"
+       ]
+      },
+      {
+       "field": "Neuroscience / Cognitive",
+       "angle": "Looks for the brain signatures that separate seen from unseen stimuli and now runs adversarial contests between theories.",
+       "refs": [
+        "39a5c9",
+        "bd910b"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Is the brain fundamentally a prediction machine?",
+     "p": "Prediction-error signals are well documented in perception, reward and language; whether prediction is the brain's single organising principle or one tool among several remains open.",
+     "answers": [
+      {
+       "field": "Neuroscience / Computational",
+       "angle": "Supplies the formal models, predictive coding and free-energy minimisation, and asks whether cortical circuits implement them.",
+       "refs": [
+        "a54930",
+        "1b2f83",
+        "d5014d",
+        "55e0ce"
+       ]
+      },
+      {
+       "field": "Psychology / Cognitive",
+       "angle": "Asks whether perception and thought behave like inference over learned expectations, and where top-down influence stops.",
+       "refs": [
+        "b30757",
+        "e27d1c",
+        "ce38e4"
+       ]
+      },
+      {
+       "field": "Linguistics / Psycholinguistics",
+       "angle": "Shows that reading and listening costs track how surprising each word is, a precise everyday test of prediction.",
+       "refs": [
+        "782839",
+        "f935e5",
+        "a69c72",
+        "7442b0"
+       ]
+      },
+      {
+       "field": "Arts & music / Musicology",
+       "angle": "Treats musical tension and pleasure as the play of expectation and its violation.",
+       "refs": [
+        "50c6db",
+        "ecbacd",
+        "01b9b6"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How does the brain store a memory and bring it back?",
+     "p": "Particular groups of cells (engrams) can now be tagged and reactivated in animals, and replay during sleep is known to matter; how memories are reorganised over years, and why recall distorts them, is less clear.",
+     "answers": [
+      {
+       "field": "Neuroscience / Cellular & molecular",
+       "angle": "Tracks the synaptic changes and tagged cell populations that physically hold a memory.",
+       "refs": [
+        "610234",
+        "b1cdc4",
+        "d5398f",
+        "ec1f93"
+       ]
+      },
+      {
+       "field": "Neuroscience / Systems",
+       "angle": "Records hippocampal cells replaying past routes and sketching future ones during rest and sleep.",
+       "refs": [
+        "c9ba66",
+        "e1e1a4",
+        "eaf8cf",
+        "a06dc6"
+       ]
+      },
+      {
+       "field": "Neuroscience / Computational",
+       "angle": "Models memory as stable network states and as predictive maps that generalise across space and concepts.",
+       "refs": [
+        "f3f785",
+        "073605",
+        "da14d8"
+       ]
+      },
+      {
+       "field": "Psychology / Cognitive",
+       "angle": "Shows that recalling a memory changes it, and that working memory has tight but flexible limits.",
+       "refs": [
+        "d136b3",
+        "332484",
+        "3ba3b7"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Do artificial neural networks learn and represent the world the way brains do?",
+     "p": "Task-trained networks predict responses in visual and language cortex surprisingly well, yet they learn in very different ways; whether the match reflects shared principles or coincidence is unsettled.",
+     "answers": [
+      {
+       "field": "Neuroscience / Computational",
+       "angle": "Compares trained networks with neural recordings and asks whether the brain could run anything like backpropagation.",
+       "refs": [
+        "715fc7",
+        "3e0582",
+        "29bf23",
+        "b8d90f"
+       ]
+      },
+      {
+       "field": "Neuroscience / Cognitive",
+       "angle": "Maps the internal features of vision and language models onto human brain responses.",
+       "refs": [
+        "f99669",
+        "6f900b",
+        "1b77c7"
+       ]
+      },
+      {
+       "field": "Computer science / Machine learning",
+       "angle": "Builds the systems being compared and has begun opening them up to see what they compute.",
+       "refs": [
+        "a96da3",
+        "789f70",
+        "5ba380",
+        "543bf3"
+       ]
+      },
+      {
+       "field": "Statistics / Statistical learning",
+       "angle": "Explains why huge networks that fit their training data perfectly still generalise, overturning the textbook bias–variance picture.",
+       "refs": [
+        "74fcff",
+        "bea19f",
+        "bbb949",
+        "f32e9c"
+       ]
+      },
+      {
+       "field": "Systems & information / Information theory",
+       "angle": "Frames learning as compression and asks how much information a model must keep or throw away.",
+       "refs": [
+        "3084ac",
+        "9dea1f",
+        "de0815",
+        "cf50d0"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Do large language models understand what they say?",
+     "p": "They now pass many tests of knowledge and reasoning; whether meaning can be learned from text alone, and what their internal representations amount to, is argued across several fields.",
+     "answers": [
+      {
+       "field": "Computer science / Natural language processing",
+       "angle": "Built the models and benchmarks, and also produced the main argument that learning form alone cannot yield meaning.",
+       "refs": [
+        "de6247",
+        "c488ea",
+        "e49fe8",
+        "083522"
+       ]
+      },
+      {
+       "field": "Philosophy / Philosophy of language",
+       "angle": "Asks what fixes what words refer to, use, world or community, and so what it would take for a model's words to mean anything.",
+       "refs": [
+        "fabb5b",
+        "f47bf1",
+        "13abaa"
+       ]
+      },
+      {
+       "field": "Linguistics / Syntax",
+       "angle": "Tests whether networks pick up hierarchical grammar from raw text, and what that implies about innate structure.",
+       "refs": [
+        "7d90ff",
+        "8f788b",
+        "df77d0"
+       ]
+      },
+      {
+       "field": "Psychology / Cognitive",
+       "angle": "Runs classic reasoning experiments on models to compare how they think with how people do.",
+       "refs": [
+        "d29226",
+        "9b4bd7"
+       ]
+      },
+      {
+       "field": "Computer science / AI alignment & interpretability",
+       "angle": "Opens models up to trace the internal features and circuits they actually use, testing claims about understanding from the inside.",
+       "refs": [
+        "0c095d",
+        "1ff47a",
+        "2bc061",
+        "07f211"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How rational are people, and what should rational mean for a mind with limited time and attention?",
+     "p": "The catalogue of biases is large, though some famous effects shrank on replication; newer work treats many apparent errors as sensible use of scarce attention and computation.",
+     "answers": [
+      {
+       "field": "Economics / Behavioral",
+       "angle": "Documents systematic departures from expected-utility choice and models them with reference points, salience and limited attention.",
+       "refs": [
+        "ad4ae2",
+        "56d89f",
+        "c08a2a",
+        "6a118f",
+        "e60bd0"
+       ]
+      },
+      {
+       "field": "Psychology / Cognitive",
+       "angle": "Recasts heuristics as close to optimal once the cost of thinking is counted.",
+       "refs": [
+        "599005",
+        "add4b5",
+        "33a7c0"
+       ]
+      },
+      {
+       "field": "Philosophy / Epistemology",
+       "angle": "Asks what standards beliefs should meet, coherence or accuracy, before asking whether people meet them.",
+       "refs": [
+        "801275",
+        "fcb23b"
+       ]
+      },
+      {
+       "field": "Systems & information / Game & decision theory",
+       "angle": "Models players who reason only a few steps ahead or err noisily, which fits real play better than full equilibrium.",
+       "refs": [
+        "97d02f",
+        "fbef5e",
+        "991def"
+       ]
+      },
+      {
+       "field": "Neuroscience / Systems",
+       "angle": "Finds the reward-prediction and evidence-accumulation signals from which choices are built.",
+       "refs": [
+        "1ae549",
+        "d24598",
+        "576974"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What actually helps people learn?",
+     "p": "Practice testing and spaced study reliably beat rereading, explicit instruction beats unguided discovery for novices, and tutoring has large effects; popular fixes such as growth-mindset lessons do far less than claimed.",
+     "answers": [
+      {
+       "field": "Education / Learning & education research",
+       "angle": "Rates study techniques, tests explicit teaching and tutoring at scale, and warns how small most rigorous education effects are.",
+       "refs": [
+        "11950a",
+        "d74cb6",
+        "cc78bc",
+        "d23dc6",
+        "407eb2"
+       ]
+      },
+      {
+       "field": "Psychology / Cognitive",
+       "angle": "Explains why retrieval strengthens memory and why tight working-memory limits shape what a novice can take in.",
+       "refs": [
+        "d136b3",
+        "332484"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Life",
+   "i": "❦",
+   "qs": [
+    {
+     "q": "Now that protein shapes can be predicted, can we design proteins to order?",
+     "p": "Predicting a single protein's structure from its sequence is largely solved; designing new binders and enzymes works but with low hit rates, and predicting motion and function remains hard.",
+     "answers": [
+      {
+       "field": "Biology / Structural biology",
+       "angle": "Produced the prediction tools and the cryo-EM structures they are trained on and checked against.",
+       "refs": [
+        "3c7c4c",
+        "79bde9",
+        "2e551b",
+        "02ef8b"
+       ]
+      },
+      {
+       "field": "Biology / Biochemistry",
+       "angle": "Designs new folds and functions, while stressing that proteins move rather than hold one shape.",
+       "refs": [
+        "bdc470",
+        "8083c8",
+        "39796d",
+        "ed377c"
+       ]
+      },
+      {
+       "field": "Biology / Bioinformatics",
+       "angle": "Applies language-model methods to sequences to predict structure and the effects of mutations.",
+       "refs": [
+        "037de5",
+        "31a5f2"
+       ]
+      },
+      {
+       "field": "Chemistry / Physical",
+       "angle": "Explains folding as a walk down an energy landscape, the physics that predictions implicitly encode.",
+       "refs": [
+        "edf02c",
+        "cf933e"
+       ]
+      },
+      {
+       "field": "Chemistry / Catalysis",
+       "angle": "Shows that directed evolution, the older route to new enzymes, still outperforms rational design for many jobs.",
+       "refs": [
+        "3535f6",
+        "9c3aa8"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How does a growing embryo know what to become, and where?",
+     "p": "Chemical gradients and self-organising reaction–diffusion patterns are both confirmed; stem-cell embryo models and lineage tracing now test these rules in human-like systems and raise new ethical questions.",
+     "answers": [
+      {
+       "field": "Biology / Developmental biology",
+       "angle": "Established positional information and Turing patterning, and now builds embryo-like structures from stem cells.",
+       "refs": [
+        "01a2b9",
+        "42214e",
+        "dc65a3",
+        "44f939",
+        "14b425"
+       ]
+      },
+      {
+       "field": "Biology / Cell biology",
+       "angle": "Shows that mechanical cues such as tissue stiffness steer cell fate alongside chemical signals.",
+       "refs": [
+        "fbee11",
+        "d433fd"
+       ]
+      },
+      {
+       "field": "Biology / Plant biology",
+       "angle": "Studies patterning in organisms whose cells cannot move, using mechanical stress and mobile signals.",
+       "refs": [
+        "1cd569",
+        "c092c8"
+       ]
+      },
+      {
+       "field": "Engineering / Biomedical",
+       "angle": "Tests the rules by trying to rebuild tissues and organ functions outside the body.",
+       "refs": [
+        "272caf",
+        "19932b",
+        "c7a644"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How much of the genome is doing something, and how does a cell choose which parts to read?",
+     "p": "Only a few per cent codes for protein; how much of the rest has a function is contested, while 3D folding of DNA and protein droplets have emerged as major ways genes are switched on and off.",
+     "answers": [
+      {
+       "field": "Biology / Genetics & genomics",
+       "angle": "Mapped the full sequence, its regulatory elements and its folding in the nucleus.",
+       "refs": [
+        "43ab22",
+        "42ee2f",
+        "96410f",
+        "67bdde"
+       ]
+      },
+      {
+       "field": "Biology / Molecular biology",
+       "angle": "Studies the marks, loops and condensates that control gene activity, and disputes broad claims of function.",
+       "refs": [
+        "e59076",
+        "7a1247",
+        "f4e1ba",
+        "48bc2c"
+       ]
+      },
+      {
+       "field": "Biology / Cell biology",
+       "angle": "Found that many cell compartments are liquid-like droplets without membranes.",
+       "refs": [
+        "fcb032",
+        "74abba"
+       ]
+      },
+      {
+       "field": "Biology / Evolutionary biology",
+       "angle": "Argues that much genomic complexity arose through drift in small populations rather than because it is useful.",
+       "refs": [
+        "0927c5",
+        "8de810"
+       ]
+      },
+      {
+       "field": "Systems & information / Complexity science",
+       "angle": "Treats gene regulation as a network whose stable states correspond to cell types.",
+       "refs": [
+        "fdb12c",
+        "e68187"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What does the full tree of life look like, now that most of it has never been grown in a lab?",
+     "p": "Sequencing DNA straight from the environment has revealed vast unseen branches and supports an origin of complex cells within the archaea; where viruses fit, and how the first complex cells actually formed, is still debated.",
+     "answers": [
+      {
+       "field": "Biology / Microbiology",
+       "angle": "Discovered the uncultured majority of microbes and the archaea closest to complex cells.",
+       "refs": [
+        "c43fc5",
+        "4aa065",
+        "4588ea",
+        "bfff05",
+        "71bd18"
+       ]
+      },
+      {
+       "field": "Biology / Evolutionary biology",
+       "angle": "Redraws the tree with two primary domains and isolates organisms at the boundary.",
+       "refs": [
+        "168428",
+        "43abdc",
+        "dbeba5"
+       ]
+      },
+      {
+       "field": "Biology / Virology",
+       "angle": "Finds an enormous virosphere and traces virus origins as modular, recurring inventions.",
+       "refs": [
+        "a75067",
+        "77574f",
+        "7aacbb",
+        "20da8e"
+       ]
+      },
+      {
+       "field": "Biology / Plant biology",
+       "angle": "Uses early land plants and plant-associated microbes to trace how complex life colonised land.",
+       "refs": [
+        "81c978",
+        "058e0d"
+       ]
+      },
+      {
+       "field": "Earth sciences / Paleontology",
+       "angle": "Dates when complex animals appear and tests molecular clocks against the rock record.",
+       "refs": [
+        "f350cd",
+        "c4fd22",
+        "c9a1b5"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How predictable is evolution?",
+     "p": "Long-running experiments and repeated adaptations show that evolution often repeats itself at the gene level, yet rare innovations depend on history; whether short-term forecasting, as for flu, can generalise is open.",
+     "answers": [
+      {
+       "field": "Biology / Evolutionary biology",
+       "angle": "Replays evolution in the lab and catalogues where the same genes are hit again and again.",
+       "refs": [
+        "2589f2",
+        "f55f69",
+        "4f9bf2",
+        "3b210d",
+        "fb5e0e"
+       ]
+      },
+      {
+       "field": "Earth sciences / Paleontology",
+       "angle": "Asks from the fossil record whether lineages change steadily, drift or mostly stand still.",
+       "refs": [
+        "20f20c",
+        "5c944f",
+        "ad9d5c"
+       ]
+      },
+      {
+       "field": "Linguistics / Historical linguistics",
+       "angle": "Applies evolutionary models to languages and finds both law-like regularities and lineage-specific histories.",
+       "refs": [
+        "d1e386",
+        "eff670"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Can living cells be engineered as reliably as machines?",
+     "p": "Gene circuits, synthetic minimal genomes and precise editing tools all work, and the first CRISPR therapy is approved; but cells are noisy and evolve, so designs often fail outside controlled settings.",
+     "answers": [
+      {
+       "field": "Biology / Systems & synthetic biology",
+       "angle": "Builds switches, oscillators and minimal genomes, and models whole cells to predict behaviour from parts.",
+       "refs": [
+        "097886",
+        "1d8696",
+        "bca344",
+        "9d5922",
+        "749f2f"
+       ]
+      },
+      {
+       "field": "Biology / Molecular biology",
+       "angle": "Supplies the editing tools, from CRISPR cutting to base and prime editing, and their first cures.",
+       "refs": [
+        "ff4603",
+        "f7e248",
+        "ff31fc",
+        "a90219"
+       ]
+      },
+      {
+       "field": "Chemistry / Organic",
+       "angle": "Brings new reactions into living systems, through bioorthogonal chemistry and enzymes doing unnatural reactions.",
+       "refs": [
+        "4bf784",
+        "26dc20"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How do cooperation and group decisions arise without anyone in charge?",
+     "p": "Kin selection and reciprocity explain much animal cooperation, though their reach is still argued; collective motion and choice in flocks and colonies follow simple local rules that physics now models well.",
+     "answers": [
+      {
+       "field": "Biology / Evolutionary biology",
+       "angle": "Explains altruism through shared genes and debates how far that logic extends to insect societies.",
+       "refs": [
+        "af001a",
+        "8a75b6"
+       ]
+      },
+      {
+       "field": "Biology / Animal behavior",
+       "angle": "Shows how animals reciprocate, follow informed leaders and reach group decisions in the wild.",
+       "refs": [
+        "602bff",
+        "5e6efd",
+        "4bfe74",
+        "925854",
+        "a9a2e7"
+       ]
+      },
+      {
+       "field": "Systems & information / Game & decision theory",
+       "angle": "Provides equilibrium tools for when fighting, sharing or signalling pays.",
+       "refs": [
+        "d16271",
+        "bfd9d8"
+       ]
+      },
+      {
+       "field": "Physics / Statistical mechanics",
+       "angle": "Treats flocks and swarms as active matter with their own phases and transitions.",
+       "refs": [
+        "f60dff",
+        "8596a3",
+        "7d878a"
+       ]
+      },
+      {
+       "field": "Systems & information / Control theory",
+       "angle": "Proves when agents following neighbours reach consensus, a template for robot swarms.",
+       "refs": [
+        "718d5d",
+        "c4c448"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Health",
+   "i": "✚",
+   "qs": [
+    {
+     "q": "Why do we age, and can age-related diseases such as Alzheimer's be slowed?",
+     "p": "Several cellular drivers of ageing are known and some can be targeted in mice; in Alzheimer's, antibodies that clear amyloid give modest benefit, which keeps the argument about its cause alive.",
+     "answers": [
+      {
+       "field": "Biology / Cell biology",
+       "angle": "Identifies cellular processes, such as clearing damaged parts and senescent cells, that set the pace of ageing.",
+       "refs": [
+        "39df4f",
+        "e5cfa9",
+        "521c38",
+        "2d24db"
+       ]
+      },
+      {
+       "field": "Neuroscience / Cellular & molecular",
+       "angle": "Tests the amyloid hypothesis, protein spread, immune cells and brain waste clearance in dementia.",
+       "refs": [
+        "fba70d",
+        "510d7a",
+        "ae26a0",
+        "e184b6",
+        "3051a1"
+       ]
+      },
+      {
+       "field": "Biology / Biochemistry",
+       "angle": "Shows how misfolded proteins can template their own spread and harden from liquid to solid.",
+       "refs": [
+        "c03911",
+        "5e374e"
+       ]
+      },
+      {
+       "field": "Sociology / Demography",
+       "angle": "Shows record life expectancy rising steadily for 160 years, and warns that population averages hide differences in frailty.",
+       "refs": [
+        "3eb9bd",
+        "246bcd",
+        "2b90c1"
+       ]
+      },
+      {
+       "field": "Medicine & health / Neurology",
+       "angle": "Redefines Alzheimer's by its biology, detects it with blood tests, and shows the first antibodies that modestly slow decline.",
+       "refs": [
+        "c06d04",
+        "0ac067",
+        "3051a1",
+        "de73f3",
+        "1170c6"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Can cancer be outmanoeuvred, given that tumours evolve?",
+     "p": "Targeted drugs and immune checkpoint therapy now cure some cancers, but resistance is common; cancer is understood as evolution within the body, and normal tissues turn out to carry many cancer mutations already.",
+     "answers": [
+      {
+       "field": "Medicine & health / Oncology",
+       "angle": "Tracks branching tumour evolution, mutation sources and why responses to treatment fail.",
+       "refs": [
+        "11bb53",
+        "060318",
+        "a4af98",
+        "111b5d",
+        "18ffb9"
+       ]
+      },
+      {
+       "field": "Biology / Immunology",
+       "angle": "Discovered the brakes on T cells whose release underlies checkpoint therapy, and the exhaustion that limits it.",
+       "refs": [
+        "e3faef",
+        "1900d4",
+        "341f9e",
+        "81d0bf"
+       ]
+      },
+      {
+       "field": "Biology / Biochemistry",
+       "angle": "Studies tumour metabolism and finds ways to drug proteins long thought untouchable.",
+       "refs": [
+        "3884f3",
+        "e69f86",
+        "910836"
+       ]
+      },
+      {
+       "field": "Engineering / Biomedical",
+       "angle": "Designs nanoparticles to deliver drugs to tumours and measures how few actually arrive.",
+       "refs": [
+        "6eecf9",
+        "cf7b50",
+        "24a617"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Are we losing ground to microbes, from new viruses to drug-resistant bacteria?",
+     "p": "Spillover risk is rising with land use and climate change, and resistant infections already cause over a million deaths a year; surveillance, vaccines and new antibiotics have improved, but unevenly.",
+     "answers": [
+      {
+       "field": "Biology / Virology",
+       "angle": "Maps animal reservoirs and the conditions under which viruses jump to people.",
+       "refs": [
+        "8d7f6f",
+        "116dfd",
+        "b45d2e",
+        "e57484"
+       ]
+      },
+      {
+       "field": "Medicine & health / Infectious disease",
+       "angle": "Measures the global burden of emerging and resistant infections and tests new drugs.",
+       "refs": [
+        "fed0d7",
+        "bdf1f5",
+        "680bc6",
+        "4eb7fa",
+        "fef19b"
+       ]
+      },
+      {
+       "field": "Biology / Microbiology",
+       "angle": "Explains how dormant persister cells survive antibiotics and how bacteria defend against their own viruses.",
+       "refs": [
+        "4fbd6f",
+        "9ed5f2",
+        "0d0408"
+       ]
+      },
+      {
+       "field": "Medicine & health / Epidemiology",
+       "angle": "Estimates how fast an outbreak spreads and how much interventions slow it.",
+       "refs": [
+        "852556",
+        "f96f9a",
+        "aee020"
+       ]
+      },
+      {
+       "field": "Systems & information / Network science",
+       "angle": "Shows how the structure and timing of contacts change epidemic thresholds.",
+       "refs": [
+        "94e6a5",
+        "276ce5"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How do we know a treatment really works for the patient in front of us?",
+     "p": "Randomised trials remain the reference standard, and large pragmatic and platform trials proved their worth during COVID-19; how well trial results transfer to real patients, and how far observational data can stand in, is contested.",
+     "answers": [
+      {
+       "field": "Medicine & health / Clinical trials & evidence-based medicine",
+       "angle": "Documents how often accepted practices are reversed and builds faster, more realistic trial designs.",
+       "refs": [
+        "b8978c",
+        "c85600",
+        "c94602",
+        "02e639",
+        "e585ab"
+       ]
+      },
+      {
+       "field": "Medicine & health / Pharmacology",
+       "angle": "Shows how rarely drugs succeed in trials and how a patient's genes alter drug response.",
+       "refs": [
+        "88286e",
+        "5fd843"
+       ]
+      },
+      {
+       "field": "Economics / Development",
+       "angle": "Debates what randomised evaluations can and cannot tell decision-makers about other places.",
+       "refs": [
+        "363f8d",
+        "99dc45"
+       ]
+      },
+      {
+       "field": "Statistics / Bayesian statistics",
+       "angle": "Offers tools for pooling uneven evidence and checking whether a model fits.",
+       "refs": [
+        "9d9b0b",
+        "37f971"
+       ]
+      },
+      {
+       "field": "Medicine & health / Nutrition",
+       "angle": "Finds people's glucose responses to the same food differ widely, yet diets matched to genotype or insulin did no better in a large trial.",
+       "refs": [
+        "337f06",
+        "df5499"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What is driving the rise of obesity and heart-metabolic disease, and how far can new drugs reverse it?",
+     "p": "LDL cholesterol is established as a cause of heart disease, and GLP-1 drugs now produce large weight loss and fewer heart attacks; the upstream causes, from food environments to inflammation and gut microbes, are less settled.",
+     "answers": [
+      {
+       "field": "Medicine & health / Cardiology",
+       "angle": "Established LDL as causal, tested inflammation as a separate target and showed heart benefits of weight-loss drugs.",
+       "refs": [
+        "448dd5",
+        "16abd1",
+        "b82a23",
+        "50c23b",
+        "718ee2"
+       ]
+      },
+      {
+       "field": "Medicine & health / Public & global health",
+       "angle": "Ranks dietary and metabolic risks worldwide and studies how industries shape them.",
+       "refs": [
+        "98be06",
+        "20e765",
+        "6cc1c7"
+       ]
+      },
+      {
+       "field": "Anthropology / Biological anthropology & human evolution",
+       "angle": "Shows humans evolved unusually high energy budgets, which reframes how bodies handle surplus food.",
+       "refs": [
+        "6ff5c2",
+        "97379e"
+       ]
+      },
+      {
+       "field": "Medicine & health / Nutrition",
+       "angle": "Tests in controlled feeding trials whether ultra-processed food, carbohydrates or fat drive overeating.",
+       "refs": [
+        "768ef4",
+        "deaa64",
+        "1d7c16",
+        "c6831b",
+        "df5499"
+       ]
+      },
+      {
+       "field": "Medicine & health / Endocrinology & metabolism",
+       "angle": "Explains how fat tissue and gut hormones regulate weight, redefines obesity as a disease state, and finds the weight returns when the drugs stop.",
+       "refs": [
+        "8236fa",
+        "d4394a",
+        "8563e4",
+        "405a65",
+        "5287d9"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What is mental illness made of: genes, brain circuits, life events, or all at once?",
+     "p": "Genetic studies find hundreds of small-effect variants shared across diagnoses, and simple chemical-imbalance stories have weakened; current diagnostic categories are widely questioned, but no replacement is agreed.",
+     "answers": [
+      {
+       "field": "Medicine & health / Psychiatry",
+       "angle": "Finds broad genetic architecture for schizophrenia and tests treatments, from sequential antidepressants to ketamine and new receptor targets.",
+       "refs": [
+        "d80039",
+        "eaaf95",
+        "e25003",
+        "647393",
+        "0fdbc0"
+       ]
+      },
+      {
+       "field": "Neuroscience / Cellular & molecular",
+       "angle": "Links risk genes to synaptic pruning and early brain development.",
+       "refs": [
+        "5ec5a1",
+        "d9b43d",
+        "a121e0"
+       ]
+      },
+      {
+       "field": "Psychology / Developmental",
+       "angle": "Shows the lasting effects of early deprivation and weighs claims about screens and teenage mental health.",
+       "refs": [
+        "c19b97",
+        "a2c120",
+        "dc8c11"
+       ]
+      },
+      {
+       "field": "Psychology / Personality & individual differences",
+       "angle": "Shows that nearly all behavioural traits are partly heritable, without fixing any single cause.",
+       "refs": [
+        "29e538",
+        "bb729d"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Can drug discovery be made faster and cheaper?",
+     "p": "The cost of each approved drug rose for decades; genetically supported targets, very large virtual screens, protein degraders and AI design are promising, but most candidates still fail late.",
+     "answers": [
+      {
+       "field": "Medicine & health / Pharmacology",
+       "angle": "Diagnosed the slowdown and showed that targets backed by human genetics succeed more often.",
+       "refs": [
+        "bcca0d",
+        "b171b4",
+        "061ca7",
+        "2fba25"
+       ]
+      },
+      {
+       "field": "Biology / Biochemistry",
+       "angle": "Invented new ways to hit hard targets, including molecules that make the cell destroy a protein.",
+       "refs": [
+        "a1392c",
+        "0d3638",
+        "910836"
+       ]
+      },
+      {
+       "field": "Chemistry / Organic",
+       "angle": "Develops late-stage chemistry and machine-learned reaction prediction to make candidate molecules faster.",
+       "refs": [
+        "51f1dc",
+        "653b4e",
+        "1aa115"
+       ]
+      },
+      {
+       "field": "Chemistry / Theoretical & computational",
+       "angle": "Generates and plans molecules with learned models rather than by hand.",
+       "refs": [
+        "b46ff7",
+        "199010"
+       ]
+      },
+      {
+       "field": "Chemistry / Analytical",
+       "angle": "Measures proteins and drug binding directly by mass spectrometry, the readout behind many target studies.",
+       "refs": [
+        "938467",
+        "4cd59b",
+        "5d6fad"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What should we actually eat?",
+     "p": "Trials back lower salt and Mediterranean-style diets and show ultra-processed food drives overeating; much else in nutrition rests on observational associations that often fail to replicate.",
+     "answers": [
+      {
+       "field": "Medicine & health / Nutrition",
+       "angle": "Runs the diet trials on salt, olive oil and processed food, and audits the weak observational studies behind much advice.",
+       "refs": [
+        "c07e60",
+        "7b5ccd",
+        "ed0010",
+        "768ef4",
+        "fdb4a5"
+       ]
+      },
+      {
+       "field": "Medicine & health / Public & global health",
+       "angle": "Ranks diet among the leading global risk factors and argues small shifts across a whole population beat targeting the few at high risk.",
+       "refs": [
+        "20e765",
+        "62c98e",
+        "98be06"
+       ]
+      },
+      {
+       "field": "Medicine & health / Endocrinology & metabolism",
+       "angle": "Shows diet and weight loss can prevent or even reverse type 2 diabetes.",
+       "refs": [
+        "dcb67a",
+        "93c9d9"
+       ]
+      },
+      {
+       "field": "Statistics / Inference",
+       "angle": "Explains why flexible analyses of noisy observational data yield so many diet findings that later fail to hold up.",
+       "refs": [
+        "6ee28b",
+        "f4b80f"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Cosmos & planet",
+   "i": "✶",
+   "qs": [
+    {
+     "q": "Is the standard model of cosmology starting to crack?",
+     "p": "Lambda-CDM still fits the cosmic microwave background superbly, but local and early-universe measurements of the expansion rate disagree, DESI hints that dark energy may change over time, and JWST finds galaxies that formed surprisingly early.",
+     "answers": [
+      {
+       "field": "Astronomy / Cosmology",
+       "angle": "Measures expansion with supernovae and baryon acoustic oscillations and confronts the resulting tensions.",
+       "refs": [
+        "643aaf",
+        "0280e6",
+        "0adb58",
+        "4604a2",
+        "25efea"
+       ]
+      },
+      {
+       "field": "Astronomy / Stars & galaxies",
+       "angle": "Tests dark-matter predictions on small scales and finds massive galaxies very early.",
+       "refs": [
+        "6a8bb8",
+        "abd691",
+        "23ab91",
+        "bf75d2"
+       ]
+      },
+      {
+       "field": "Physics / Particle physics",
+       "angle": "Proposes what dark matter could be, from weakly interacting particles to axions, and how to detect it.",
+       "refs": [
+        "d102b9",
+        "173725",
+        "513b7e"
+       ]
+      },
+      {
+       "field": "Statistics / Bayesian statistics",
+       "angle": "Provides the sampling and simulation-based inference on which parameter fits and claimed tensions rest.",
+       "refs": [
+        "160e95",
+        "bc5e39"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Where will known physics break first?",
+     "p": "The Standard Model and general relativity pass every direct test so far; neutrino masses, the excess of matter over antimatter, and precision tests (such as the muon's magnetism, whose apparent anomaly lattice calculations largely dissolved) are where cracks are sought.",
+     "answers": [
+      {
+       "field": "Physics / Particle physics",
+       "angle": "Sets out the conditions for a matter excess, found neutrino oscillations, and settles precision anomalies.",
+       "refs": [
+        "befd16",
+        "ab1167",
+        "526825",
+        "eb58d3",
+        "7eef01"
+       ]
+      },
+      {
+       "field": "Physics / Atomic, molecular & optical",
+       "angle": "Uses atomic clocks and molecules as tabletop probes for new forces and particles.",
+       "refs": [
+        "d0a580",
+        "cc0fa9",
+        "4ca934",
+        "01bb44"
+       ]
+      },
+      {
+       "field": "Astronomy / Black holes & gravitational waves",
+       "angle": "Tests gravity at its strongest, near the Galactic Centre black hole and in merging stars.",
+       "refs": [
+        "052d26",
+        "33c013",
+        "e18f3c",
+        "0dc883"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How common are planets like Earth, and could we tell if one were inhabited?",
+     "p": "Small rocky planets in temperate orbits are common and JWST can now read some atmospheres, but no Earth twin's atmosphere has been measured and possible signs of life remain ambiguous.",
+     "answers": [
+      {
+       "field": "Astronomy / Planetary science & exoplanets",
+       "angle": "Counts Earth-size planets, defines habitable zones and starts measuring their atmospheres.",
+       "refs": [
+        "475139",
+        "c578de",
+        "2fc439",
+        "f5bce4",
+        "a632d1"
+       ]
+      },
+      {
+       "field": "Earth sciences / Geology & plate tectonics",
+       "angle": "Reconstructs when Earth gained continents and plate tectonics, conditions that may matter for life elsewhere.",
+       "refs": [
+        "056e40",
+        "c11a6a",
+        "1162c4"
+       ]
+      },
+      {
+       "field": "Biology / Microbiology",
+       "angle": "Maps the depth and variety of Earth's own biosphere, the only known case.",
+       "refs": [
+        "4759c2",
+        "330afc"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How much will the planet warm for a given amount of carbon?",
+     "p": "Warming rises roughly in proportion to cumulative CO2, and the likely climate sensitivity range has narrowed to about 2.5–4 °C per doubling; clouds and aerosols remain the largest uncertainty.",
+     "answers": [
+      {
+       "field": "Earth sciences / Climate science",
+       "angle": "Combines models, observations and past climates to pin down sensitivity and the carbon budget.",
+       "refs": [
+        "361a6a",
+        "3df7e5",
+        "d8bef2",
+        "feebf9",
+        "1cf1b4"
+       ]
+      },
+      {
+       "field": "Earth sciences / Atmospheric science",
+       "angle": "Works on the cloud and aerosol effects that dominate the remaining uncertainty.",
+       "refs": [
+        "e3d928",
+        "4ce2b8",
+        "0491f2",
+        "5447f5"
+       ]
+      },
+      {
+       "field": "Earth sciences / Oceanography",
+       "angle": "Measures how much heat and carbon the ocean absorbs, which sets the pace of surface warming.",
+       "refs": [
+        "c72f6f",
+        "2301d7",
+        "38313f"
+       ]
+      },
+      {
+       "field": "History / History of science",
+       "angle": "Shows how global climate knowledge was assembled from models and data, and how doubt about it was manufactured.",
+       "refs": [
+        "ad1a21",
+        "44cedb"
+       ]
+      },
+      {
+       "field": "Economics / Environmental & energy economics",
+       "angle": "Translates each degree of warming into damages and a social cost of carbon, and weighs the fat-tailed risk of high climate sensitivity.",
+       "refs": [
+        "58caa8",
+        "bf6041",
+        "db8928",
+        "acb7c4",
+        "ac45c7"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Could parts of the Earth system tip abruptly: ice sheets, ocean currents, forests?",
+     "p": "Several components show thresholds in models and in past climates; the Atlantic overturning circulation shows signs of weakening, but whether and when it could collapse is disputed.",
+     "answers": [
+      {
+       "field": "Earth sciences / Climate science",
+       "angle": "Identifies candidate tipping elements and their warming thresholds, using ice cores and ice-sheet models.",
+       "refs": [
+        "150b1e",
+        "4488bc",
+        "5daa31",
+        "e54697"
+       ]
+      },
+      {
+       "field": "Earth sciences / Oceanography",
+       "angle": "Studies the Atlantic overturning: its two stable states, past shifts and present observations.",
+       "refs": [
+        "26417a",
+        "9b1f8f",
+        "8015c2",
+        "5365a5",
+        "59cf62"
+       ]
+      },
+      {
+       "field": "Biology / Ecology",
+       "angle": "Shows how lakes, reefs and grasslands can flip between states and resist flipping back.",
+       "refs": [
+        "5947f3",
+        "d92a70"
+       ]
+      },
+      {
+       "field": "Systems & information / Complexity science",
+       "angle": "Seeks generic early-warning signs, such as slowing recovery, before a system tips.",
+       "refs": [
+        "f84526",
+        "58a2c6"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Are we living through a mass extinction, and how would we know?",
+     "p": "Extinction rates are well above the background level and many wild populations are shrinking, but local species counts often show turnover rather than net loss, so the picture depends on what is measured.",
+     "answers": [
+      {
+       "field": "Environment / Conservation biology",
+       "angle": "Estimates extinction rates, population declines and the effect of land use and protected areas.",
+       "refs": [
+        "f1b0c9",
+        "7b51e3",
+        "0aac50",
+        "33bd21",
+        "a03f84"
+       ]
+      },
+      {
+       "field": "Biology / Ecology",
+       "angle": "Uses long time series that find turnover rather than steady local loss, and links diversity to ecosystem function.",
+       "refs": [
+        "b44baf",
+        "431d65",
+        "fba6fe",
+        "f64ac9"
+       ]
+      },
+      {
+       "field": "Earth sciences / Paleontology",
+       "angle": "Compares today with the five great extinctions and their causes, from asteroid impact to ocean oxygen loss.",
+       "refs": [
+        "325adc",
+        "c15541",
+        "0bee52",
+        "d5e009",
+        "f8c59f"
+       ]
+      },
+      {
+       "field": "Anthropology / Archaeology",
+       "angle": "Shows that humans have reshaped land and species for thousands of years, which changes the baseline.",
+       "refs": [
+        "c10aab",
+        "5f0b03"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Matter, maths & machines",
+   "i": "∿",
+   "qs": [
+    {
+     "q": "What does quantum mechanics say about what is real?",
+     "p": "Loophole-free Bell tests have ruled out local hidden variables, and theorems constrain how the wavefunction can be read; which interpretation (many worlds, collapse, pilot waves or something informational) is right remains open.",
+     "answers": [
+      {
+       "field": "Physics / Quantum foundations & information",
+       "angle": "Sharpens the puzzle with no-go theorems, decoherence and experiments that rule out whole classes of views.",
+       "refs": [
+        "f815a3",
+        "04e93a",
+        "5b075f",
+        "c57194",
+        "c25abb"
+       ]
+      },
+      {
+       "field": "Philosophy / Metaphysics",
+       "angle": "Asks whether physics favours a world of objects at all, or one of structure and local facts.",
+       "refs": [
+        "060924",
+        "e5907b"
+       ]
+      },
+      {
+       "field": "Philosophy / Philosophy of science",
+       "angle": "Asks what we are entitled to believe about unobservable entities when theories change.",
+       "refs": [
+        "224234",
+        "616483"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How do new laws and states of matter emerge when many particles act together?",
+     "p": "Emergent phases such as topological insulators and fractional charges are well established, and twisted layered materials now produce them on demand; high-temperature superconductivity still lacks an agreed mechanism.",
+     "answers": [
+      {
+       "field": "Physics / Condensed matter",
+       "angle": "Discovered the topological and correlated states that make 'more is different' concrete.",
+       "refs": [
+        "60da76",
+        "887578",
+        "2bd29d",
+        "9dccac",
+        "b75aaf"
+       ]
+      },
+      {
+       "field": "Physics / Statistical mechanics",
+       "angle": "Explains why microscopic details wash out near phase transitions, and when isolated systems fail to settle.",
+       "refs": [
+        "b230c8",
+        "b4479d",
+        "278958"
+       ]
+      },
+      {
+       "field": "Physics / Atomic, molecular & optical",
+       "angle": "Builds atom-by-atom quantum simulators to realise models that are too hard to solve.",
+       "refs": [
+        "a957ea",
+        "bf522e",
+        "d5c673"
+       ]
+      },
+      {
+       "field": "Chemistry / Inorganic",
+       "angle": "Synthesises new superconductors and magnets where these effects appear.",
+       "refs": [
+        "bf5913",
+        "ee09f0"
+       ]
+      },
+      {
+       "field": "Chemistry / Materials & polymers",
+       "angle": "Makes the atomically thin materials in which new electronic states show up.",
+       "refs": [
+        "db4a96",
+        "9b2ef3"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Is there a hidden unity linking numbers, shapes and physics?",
+     "p": "The Langlands programme ties number theory to symmetry and geometry; large parts are proved, including a geometric version completed in 2024, while mirror symmetry and knot invariants show physics repeatedly predicting deep mathematics.",
+     "answers": [
+      {
+       "field": "Mathematics / Number theory",
+       "angle": "Supplies the conjectures and landmark proofs, from Fermat's Last Theorem to the geometrisation of local Langlands.",
+       "refs": [
+        "6923ff",
+        "6545f7",
+        "4c9ce1",
+        "2eac84",
+        "890346"
+       ]
+      },
+      {
+       "field": "Mathematics / Algebra",
+       "angle": "Turns the correspondence into statements about representations and sheaves.",
+       "refs": [
+        "7e5fea",
+        "bb4d86",
+        "cfde70"
+       ]
+      },
+      {
+       "field": "Mathematics / Geometry",
+       "angle": "Finds that pairs of very different spaces encode the same physics, and settles old shape questions with geometric flows.",
+       "refs": [
+        "18aea2",
+        "fba3fb",
+        "9a8599"
+       ]
+      },
+      {
+       "field": "Mathematics / Topology",
+       "angle": "Uses quantum field theory to produce new invariants of knots and three-dimensional spaces.",
+       "refs": [
+        "f71add",
+        "2f3135",
+        "245db4",
+        "00d024"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Why does randomness produce such sharp, universal patterns, and must large structures always contain order?",
+     "p": "The same random-matrix and growth laws keep appearing across unrelated systems and are now proved in many cases; combinatorics has made striking recent progress on how large a set can be while avoiding a given pattern.",
+     "answers": [
+      {
+       "field": "Mathematics / Probability",
+       "angle": "Proves universality for random growth, matrices and planar models.",
+       "refs": [
+        "b640ed",
+        "cd3f3e",
+        "ca2326",
+        "2d3cf8",
+        "d1dc18"
+       ]
+      },
+      {
+       "field": "Physics / Statistical mechanics",
+       "angle": "Found many of these laws first, in growing interfaces and disordered systems.",
+       "refs": [
+        "8462b2",
+        "40893e"
+       ]
+      },
+      {
+       "field": "Mathematics / Combinatorics",
+       "angle": "Shows that order is unavoidable in large sets and graphs, with sharply improved bounds since 2016.",
+       "refs": [
+        "f21258",
+        "bb0586",
+        "f60f74",
+        "e1303e"
+       ]
+      },
+      {
+       "field": "Mathematics / Number theory",
+       "angle": "Finds the same theme in the primes: long progressions and bounded gaps.",
+       "refs": [
+        "d3b929",
+        "f3a7f6"
+       ]
+      },
+      {
+       "field": "Mathematics / Analysis",
+       "angle": "Uses related tools to resolve long-standing questions about overlapping shapes and oscillating sums.",
+       "refs": [
+        "d14345",
+        "8368e7"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Can energy and heavy industry run without fossil carbon at an affordable cost?",
+     "p": "Solar, wind and batteries have become cheap far faster than forecast; firm low-carbon power, grid stability, cement, ammonia and aviation remain the hard parts.",
+     "answers": [
+      {
+       "field": "Engineering / Energy systems",
+       "angle": "Models whole systems and learning curves, and finds firm low-carbon power and storage are the binding constraints.",
+       "refs": [
+        "4d1bc7",
+        "70107c",
+        "d5bba6",
+        "9c04f1",
+        "bc9cca"
+       ]
+      },
+      {
+       "field": "Engineering / Chemical",
+       "angle": "Assesses carbon capture and electrified chemical processes at industrial scale.",
+       "refs": [
+        "984f49",
+        "35ddd6",
+        "33fc39",
+        "4f16f2"
+       ]
+      },
+      {
+       "field": "Engineering / Civil & structural",
+       "angle": "Tackles cement and steel, among the hardest emissions to cut, and timber as a substitute.",
+       "refs": [
+        "f68dd8",
+        "d8756a",
+        "550dee"
+       ]
+      },
+      {
+       "field": "Physics / Plasma physics & fusion",
+       "angle": "Shows high-field magnets and laser ignition have carried fusion past key milestones, though a working power plant is still undemonstrated.",
+       "refs": [
+        "5f4236",
+        "6dbc71",
+        "f77f89",
+        "0d44e9"
+       ]
+      },
+      {
+       "field": "Economics / Environmental & energy economics",
+       "angle": "Shows wind and solar lose market value as they spread, and how carbon prices and directed innovation change the cost of cutting emissions.",
+       "refs": [
+        "075466",
+        "58177f",
+        "926333",
+        "46e4f1",
+        "6e219d"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What are the limits of what computers can solve, and of what they can prove?",
+     "p": "P versus NP is unresolved and known proof techniques provably fall short; meanwhile practical algorithms keep beating worst-case pessimism, and machine-checked proofs of real mathematics and software are becoming routine.",
+     "answers": [
+      {
+       "field": "Computer science / Theory & complexity",
+       "angle": "Defines the hardest problems and proves why current methods cannot separate P from NP.",
+       "refs": [
+        "cc19fc",
+        "2f6bd3",
+        "175104",
+        "9d5742",
+        "80cbb8"
+       ]
+      },
+      {
+       "field": "Computer science / Algorithms",
+       "angle": "Explains why worst-case hardness is often misleading and keeps finding faster algorithms for core problems.",
+       "refs": [
+        "cd6ed7",
+        "5810d1",
+        "b94204",
+        "cce4af"
+       ]
+      },
+      {
+       "field": "Mathematics / Logic & foundations",
+       "angle": "Set the original limits on proof and computation, and now builds foundations designed for computer checking.",
+       "refs": [
+        "7a4809",
+        "8eda95",
+        "5374c2",
+        "9a1e4c"
+       ]
+      },
+      {
+       "field": "Computer science / Programming languages",
+       "angle": "Proves real compilers and language guarantees correct, and builds the provers mathematicians now use.",
+       "refs": [
+        "5d43a2",
+        "d69c52",
+        "478f7b",
+        "7ebe5d"
+       ]
+      },
+      {
+       "field": "Systems & information / Optimization & operations research",
+       "angle": "Marks the practical line between tractable and intractable: convex problems admit polynomial-time methods with provably optimal rates, and solvers keep pushing into hard combinatorial ones.",
+       "refs": [
+        "d2071b",
+        "c8099b",
+        "64b7f6",
+        "cdcbf4"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Where will the next large gains in computing power come from?",
+     "p": "Shrinking transistors no longer brings free speed-ups, so gains now come from specialised chips and better software; quantum computers have crossed the error-correction threshold but have yet to do useful work beyond classical reach.",
+     "answers": [
+      {
+       "field": "Computer science / Computer architecture",
+       "angle": "Documents the end of easy scaling and the turn to accelerators and memory-centred design.",
+       "refs": [
+        "774658",
+        "42045e",
+        "c879de",
+        "7f283c",
+        "556269"
+       ]
+      },
+      {
+       "field": "Engineering / Electrical & electronic",
+       "angle": "Explains the device physics behind the slowdown and explores computing inside memory.",
+       "refs": [
+        "09f999",
+        "b261e2",
+        "ce8d10"
+       ]
+      },
+      {
+       "field": "Physics / Quantum foundations & information",
+       "angle": "Builds quantum processors and error correction, and says what they might eventually do better.",
+       "refs": [
+        "6245db",
+        "e0b5fd",
+        "48162a",
+        "005818"
+       ]
+      },
+      {
+       "field": "Chemistry / Theoretical & computational",
+       "angle": "Identifies simulating molecules as a plausible first useful task for quantum machines.",
+       "refs": [
+        "42a6f5",
+        "bb1dfd"
+       ]
+      },
+      {
+       "field": "Systems & information / Optimization & operations research",
+       "angle": "Documents that better algorithms and solvers have delivered speedups rivalling hardware, and redesigns methods to run at scale on GPUs.",
+       "refs": [
+        "9ac2f7",
+        "7d9a66",
+        "274a85"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Can we trust systems that no single party controls, and keep data private while using it?",
+     "p": "Consensus protocols and cryptography give strong guarantees on paper, and differential privacy and encrypted computation now run at scale; yet attacks on hardware and on trained models keep finding gaps.",
+     "answers": [
+      {
+       "field": "Computer science / Distributed systems",
+       "angle": "Proves what agreement is possible when machines fail or lie, and builds protocols that achieve it.",
+       "refs": [
+        "2e52b5",
+        "1581b8",
+        "776f3f",
+        "f8a383",
+        "ec84cd"
+       ]
+      },
+      {
+       "field": "Computer science / Cryptography & security",
+       "angle": "Provides privacy and encryption guarantees, and shows how chips and models leak secrets anyway.",
+       "refs": [
+        "b77f2e",
+        "271f80",
+        "703498",
+        "1600f4",
+        "16a51f"
+       ]
+      },
+      {
+       "field": "Computer science / Databases",
+       "angle": "Works out when consistency across many machines can be cheap and when it must be paid for.",
+       "refs": [
+        "041dca",
+        "094a79",
+        "37526c"
+       ]
+      },
+      {
+       "field": "Computer science / Networking",
+       "angle": "Argues for placing guarantees at the endpoints of an open, unreliable network.",
+       "refs": [
+        "fbc2f1",
+        "26b0ff"
+       ]
+      },
+      {
+       "field": "Systems & information / Information theory",
+       "angle": "Shows secrecy can be guaranteed by physics of the channel, not only by computational hardness.",
+       "refs": [
+        "1b9936",
+        "717670"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Can AI systems that act in the world be made reliable and controllable?",
+     "p": "Training on human feedback makes models more helpful, and robot policies learned in simulation now transfer to real machines; guarantees of safe behaviour, resistance to manipulation and well-calibrated human trust are far from solved.",
+     "answers": [
+      {
+       "field": "Computer science / Machine learning",
+       "angle": "Shapes model behaviour with human preferences and reinforcement learning.",
+       "refs": [
+        "08b7eb",
+        "af785c",
+        "9372fc"
+       ]
+      },
+      {
+       "field": "Engineering / Robotics",
+       "angle": "Trains robots in simulation and on shared datasets, and connects them to vision-language models.",
+       "refs": [
+        "f2b2ac",
+        "728829",
+        "3a8d78",
+        "dbbc9e",
+        "83b4ce"
+       ]
+      },
+      {
+       "field": "Systems & information / Control theory",
+       "angle": "Brings formal safety guarantees, such as barrier functions, to learning controllers.",
+       "refs": [
+        "a72442",
+        "91c3c6",
+        "9787e4",
+        "4db7d1"
+       ]
+      },
+      {
+       "field": "Computer science / Human-computer interaction",
+       "angle": "Studies when people over- or under-trust automation and how AI assistance shifts their views.",
+       "refs": [
+        "ee123d",
+        "67bced",
+        "7ca74d",
+        "3fbe19"
+       ]
+      },
+      {
+       "field": "Computer science / AI alignment & interpretability",
+       "angle": "Shows models can learn hidden or deceptive goals that survive safety training, and builds oversight and control schemes meant to hold even so.",
+       "refs": [
+        "e03f11",
+        "48ee67",
+        "a2f08c",
+        "0b7f8c",
+        "3354c7"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Can we make AI that does what we mean?",
+     "p": "Training on human feedback makes models far more helpful, but optimising any measurable proxy invites reward hacking, and models can pursue goals that look right in training and go wrong elsewhere.",
+     "answers": [
+      {
+       "field": "Computer science / AI alignment & interpretability",
+       "angle": "Turns human preferences into training signals and catalogues how optimising them goes wrong, from reward hacking to misgeneralised goals.",
+       "refs": [
+        "c5e9aa",
+        "9890aa",
+        "bb8263",
+        "a51ab4",
+        "6cf651"
+       ]
+      },
+      {
+       "field": "Computer science / Machine learning",
+       "angle": "Supplies the reinforcement-learning and preference-fitting methods that alignment training is built on.",
+       "refs": [
+        "1b6e26",
+        "af785c"
+       ]
+      },
+      {
+       "field": "Economics / Microeconomic theory",
+       "angle": "Shows that rewarding only what can be measured distorts effort, and which simple contracts stay robust when the principal knows little.",
+       "refs": [
+        "b51a9a",
+        "a97861"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "The human past",
+   "i": "⧗",
+   "qs": [
+    {
+     "q": "Where, when and how did our species arise?",
+     "p": "Homo sapiens is now traced to at least 300,000 years ago across Africa, probably from loosely connected populations, and living people carry Neanderthal and Denisovan DNA; the deeper structure is still being resolved.",
+     "answers": [
+      {
+       "field": "Anthropology / Biological anthropology & human evolution",
+       "angle": "Pushes back the fossil record and models a pan-African, weakly structured origin with later archaic mixing.",
+       "refs": [
+        "bc26f4",
+        "49760b",
+        "06eaeb",
+        "ae4964",
+        "6151ca"
+       ]
+      },
+      {
+       "field": "Biology / Genetics & genomics",
+       "angle": "Sequenced archaic genomes and the diversity of living humans.",
+       "refs": [
+        "dbcf57",
+        "e53de2"
+       ]
+      },
+      {
+       "field": "Anthropology / Archaeology",
+       "angle": "Finds symbolic behaviour long before 50,000 years ago and humans in the Americas earlier than thought.",
+       "refs": [
+        "888576",
+        "d4384a",
+        "4868b1"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What made humans so unusual: big brains, long childhoods, culture?",
+     "p": "Energy budgets, cooking, grandmothering and cumulative culture all have support; other animals have culture too, so the difference looks like one of degree and accumulation rather than a single trait.",
+     "answers": [
+      {
+       "field": "Anthropology / Biological anthropology & human evolution",
+       "angle": "Links big brains to diet, cooking, shared childcare and a high-energy metabolism.",
+       "refs": [
+        "6ff5c2",
+        "b49552",
+        "aaad17",
+        "a7485e",
+        "97379e"
+       ]
+      },
+      {
+       "field": "Biology / Animal behavior",
+       "angle": "Documents traditions in chimpanzees, whales and birds that spread by social learning.",
+       "refs": [
+        "99219f",
+        "02fd7f",
+        "0a4561"
+       ]
+      },
+      {
+       "field": "Psychology / Developmental",
+       "angle": "Finds that infants share intentions and judge helpers early, which may be the root of cumulative culture.",
+       "refs": [
+        "722219",
+        "a1d25b",
+        "d2858c"
+       ]
+      },
+      {
+       "field": "Arts & music / Ethnomusicology",
+       "angle": "Asks whether music evolved as a technology for bonding groups.",
+       "refs": [
+        "727bad",
+        "50ba33"
+       ]
+      },
+      {
+       "field": "Psychology / Evolutionary",
+       "angle": "Argues that cumulative cultural learning, not raw intelligence, is the human edge, and that culture and genes evolved together.",
+       "refs": [
+        "cb6867",
+        "991960",
+        "8a79f3"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Why did people settle into farms and cities, and did it make life better?",
+     "p": "Farming arose independently in several regions over millennia, sometimes after monuments and settled life; it raised populations and, over time, inequality, but the story of a single revolution leading straight to the state has been challenged.",
+     "answers": [
+      {
+       "field": "Anthropology / Archaeology",
+       "angle": "Reconstructs the slow domestication of plants and animals, early ritual sites and the rise of wealth gaps.",
+       "refs": [
+        "38ce92",
+        "b55042",
+        "258ae0",
+        "c95eea",
+        "96b1e7"
+       ]
+      },
+      {
+       "field": "History / Ancient (Greece & Rome)",
+       "angle": "Shows how small self-governing city-states sustained growth and innovation without a single central ruler.",
+       "refs": [
+        "898a60",
+        "c526f9",
+        "a860e8"
+       ]
+      },
+      {
+       "field": "History / Economic history",
+       "angle": "Argues that farming societies stayed near subsistence for millennia until the modern era.",
+       "refs": [
+        "bcbe37",
+        "587f61"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What do ancient genomes reveal about migrations and the spread of languages?",
+     "p": "Ancient DNA shows repeated large population turnovers, including a steppe migration into Europe about 5,000 years ago; whether Indo-European languages spread with it or earlier with farmers is converging on a mixed answer.",
+     "answers": [
+      {
+       "field": "Anthropology / Archaeology",
+       "angle": "Uses ancient DNA to trace farmers' origins and later migrations from the steppe.",
+       "refs": [
+        "62f928",
+        "6a00ac",
+        "e7d5da"
+       ]
+      },
+      {
+       "field": "Linguistics / Historical linguistics",
+       "angle": "Dates language families with phylogenetic methods and tests them against genetic histories.",
+       "refs": [
+        "b2c065",
+        "e419a5",
+        "f30cf0",
+        "6fe1c5"
+       ]
+      },
+      {
+       "field": "History / Medieval",
+       "angle": "Questions the ethnic labels in written sources that genetic results are often mapped onto.",
+       "refs": [
+        "5fc649",
+        "d36c09"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How much did climate and disease bring down ancient and medieval societies?",
+     "p": "Ice cores, tree rings and pathogen genomes now date plagues and cold spells precisely; their weight relative to politics and economics in any particular collapse is argued case by case.",
+     "answers": [
+      {
+       "field": "History / Ancient (Greece & Rome)",
+       "angle": "Weighs climate shifts and pandemics against political failure in the fall of Rome.",
+       "refs": [
+        "894712",
+        "d8b848",
+        "450928",
+        "485eee"
+       ]
+      },
+      {
+       "field": "History / Medieval",
+       "angle": "Uses plague genomes and climate records to rewrite the Black Death and the late-medieval crisis.",
+       "refs": [
+        "82267d",
+        "45f9b7",
+        "50b459",
+        "128a84"
+       ]
+      },
+      {
+       "field": "Earth sciences / Climate science",
+       "angle": "Supplies the temperature records of the past 11,000 years against which these events are read.",
+       "refs": [
+        "c41642",
+        "4bf77b"
+       ]
+      },
+      {
+       "field": "Anthropology / Archaeology",
+       "angle": "Maps Maya cities by laser scanning, revealing scale and fragility that texts never recorded.",
+       "refs": [
+        "8b7d82",
+        "c2272c"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Why did sustained economic growth begin in north-western Europe, and not elsewhere?",
+     "p": "Explanations range from cheap coal and high wages to institutions, culture and colonial resources; recent data suggest Europe and China were closer than once thought until quite late.",
+     "answers": [
+      {
+       "field": "History / Economic history",
+       "angle": "Compares wages, energy and output across regions to explain the divergence.",
+       "refs": [
+        "ae4b1a",
+        "f875b6",
+        "63c948",
+        "e9fc61",
+        "76ce28"
+       ]
+      },
+      {
+       "field": "History / Early modern",
+       "angle": "Traces the roles of print, radical ideas and political revolution.",
+       "refs": [
+        "ea21e6",
+        "4726a6",
+        "d457cd"
+       ]
+      },
+      {
+       "field": "History / History of science",
+       "angle": "Places the scientific revolution in artisans' workshops and global exchange, not just in elite theory.",
+       "refs": [
+        "3df3e3",
+        "1bd77f"
+       ]
+      },
+      {
+       "field": "History / Modern & global",
+       "angle": "Treats industrialisation as a connected global process rather than a European story.",
+       "refs": [
+        "fead85",
+        "8aa671"
+       ]
+      },
+      {
+       "field": "Economics / Macroeconomics & growth",
+       "angle": "Models growth as driven by ideas and creative destruction.",
+       "refs": [
+        "93fcc7",
+        "09a07d"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Societies & economies",
+   "i": "⚖",
+   "qs": [
+    {
+     "q": "Is democracy in retreat, and what makes it break down?",
+     "p": "More countries have been becoming less democratic than more since about 2010, mostly through elected leaders eroding checks rather than coups; how readily voters trade democratic norms for partisan wins is a live finding.",
+     "answers": [
+      {
+       "field": "Political science / Comparative politics",
+       "angle": "Measures backsliding and shows how voters tolerate it when their side benefits.",
+       "refs": [
+        "692357",
+        "aa94d6",
+        "aa8c1e",
+        "01f1b1",
+        "28bc7b"
+       ]
+      },
+      {
+       "field": "Political science / Voting & public opinion",
+       "angle": "Questions how responsive elections make governments to ordinary citizens.",
+       "refs": [
+        "fdaa40",
+        "ddecf6"
+       ]
+      },
+      {
+       "field": "Political science / Political economy",
+       "angle": "Links financial crises and economic shocks to swings toward populism and the far right.",
+       "refs": [
+        "c83b8d",
+        "ebb40f",
+        "2e1ff2"
+       ]
+      },
+      {
+       "field": "Philosophy / Political philosophy",
+       "angle": "Asks what justifies democratic authority in the first place, and whether crowds decide well.",
+       "refs": [
+        "338651",
+        "92d56a",
+        "75f63c"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Why are some countries rich and others poor?",
+     "p": "Institutions, geography, culture and colonial history all show measurable long-run effects; their relative weight, and whether institutions can be changed deliberately, remain contested.",
+     "answers": [
+      {
+       "field": "History / Economic history",
+       "angle": "Argues for institutions and factor endowments, and for slavery and cotton as foundations of industrial wealth.",
+       "refs": [
+        "2f37f1",
+        "55c693",
+        "107c87",
+        "2b6114"
+       ]
+      },
+      {
+       "field": "Political science / Political economy",
+       "angle": "Tests whether colonial institutions, state capacity and democracy cause growth.",
+       "refs": [
+        "1757f5",
+        "6e0f07",
+        "3e2993",
+        "a0a815"
+       ]
+      },
+      {
+       "field": "Economics / Development",
+       "angle": "Traces persistent harm from the slave trades and forced labour, and productivity gaps between farm and city.",
+       "refs": [
+        "86f455",
+        "3be4de",
+        "6c8118"
+       ]
+      },
+      {
+       "field": "History / Latin American",
+       "angle": "Offers dependency and plantation histories as an older answer from the region itself.",
+       "refs": [
+        "69540c",
+        "0d957b"
+       ]
+      },
+      {
+       "field": "Geography / Human & economic geography",
+       "angle": "Measures growth from space and shows pre-colonial institutions still shape regional development.",
+       "refs": [
+        "548f41",
+        "809898"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Why are politics so polarised, and how much are facts, feeds and identities to blame?",
+     "p": "Partisan dislike has grown faster than policy disagreement; large experiments find social-media feeds have smaller effects on polarisation than feared, and factual corrections mostly work but rarely change loyalties.",
+     "answers": [
+      {
+       "field": "Political science / Voting & public opinion",
+       "angle": "Shows that polarisation is mainly identity and affect, and that corrections rarely backfire.",
+       "refs": [
+        "c66412",
+        "565fe4",
+        "8af2fb",
+        "4f83b8",
+        "8b9a35"
+       ]
+      },
+      {
+       "field": "Psychology / Social",
+       "angle": "Runs field experiments on feeds, opposing views and nudges toward accuracy.",
+       "refs": [
+        "f62562",
+        "655e78",
+        "25f7a0",
+        "b67613"
+       ]
+      },
+      {
+       "field": "Sociology / Social networks",
+       "angle": "Studies who sees what online and why false news spreads faster than true news.",
+       "refs": [
+        "60fb43",
+        "c7f545",
+        "ee88b6"
+       ]
+      },
+      {
+       "field": "Philosophy / Epistemology",
+       "angle": "Separates echo chambers from mere bubbles, and asks how to respond rationally to disagreement.",
+       "refs": [
+        "917e1c",
+        "125c5f"
+       ]
+      },
+      {
+       "field": "Communication / Media & communication",
+       "angle": "Runs platform-scale experiments finding feeds shift attitudes less than feared, while partisan cable news and out-group animosity do move people.",
+       "refs": [
+        "a38c9a",
+        "aabfda",
+        "32d922",
+        "57146e",
+        "f3e473"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Why do wars start, and what keeps the peace?",
+     "p": "Bargaining theory, now widely accepted, explains war as a failure of information or of commitment; whether institutions, trade or democracy cause peace or merely accompany it is disputed.",
+     "answers": [
+      {
+       "field": "Political science / International relations",
+       "angle": "Explains war through the security dilemma, private information and commitment problems, and argues over institutions.",
+       "refs": [
+        "5a020b",
+        "c7926e",
+        "95bffa",
+        "db7a3e",
+        "83b8be"
+       ]
+      },
+      {
+       "field": "Political science / Comparative politics",
+       "angle": "Finds that weak states and ethnic exclusion, more than diversity itself, predict civil war.",
+       "refs": [
+        "6335c3",
+        "6d9173"
+       ]
+      },
+      {
+       "field": "History / Modern & global",
+       "angle": "Shows how the Cold War was fought through interventions in the global South.",
+       "refs": [
+        "2fe415",
+        "0a5ad0"
+       ]
+      },
+      {
+       "field": "Systems & information / Game & decision theory",
+       "angle": "Supplies the equilibrium ideas that bargaining models of war rest on.",
+       "refs": [
+        "bfd9d8",
+        "066a68"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How unequal have rich societies become, and how far should taxes push back?",
+     "p": "Top income shares rose sharply in the US after 1980, though estimates differ with method; optimal-tax theory gives clear formulas, but how strongly the rich respond to taxes, and the moral case for redistribution, are still disputed.",
+     "answers": [
+      {
+       "field": "Economics / Public",
+       "angle": "Builds the inequality series, the optimal-tax formulas and a common yardstick for policy value.",
+       "refs": [
+        "9f0bc7",
+        "61196d",
+        "e959fd",
+        "79e82c",
+        "268a00"
+       ]
+      },
+      {
+       "field": "Economics / Labor",
+       "angle": "Links rising inequality to differences between firms and the rise of superstar companies.",
+       "refs": [
+        "4d32af",
+        "52ea95"
+       ]
+      },
+      {
+       "field": "Sociology / Stratification & inequality",
+       "angle": "Tracks the long-run income and wealth record and how wealth is passed on.",
+       "refs": [
+        "46bc5d",
+        "f167ff"
+       ]
+      },
+      {
+       "field": "Philosophy / Political philosophy",
+       "angle": "Asks what equality requires: fair institutions, sufficiency, or equal standing among citizens.",
+       "refs": [
+        "08ddc0",
+        "bbd14c",
+        "2eece5",
+        "1358cc"
+       ]
+      },
+      {
+       "field": "Political science / Political economy",
+       "angle": "Explains why democracies redistribute as much, or as little, as they do.",
+       "refs": [
+        "1e801d",
+        "6be5a6"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How much do where and to whom you are born shape where you end up?",
+     "p": "Mobility varies sharply by neighbourhood and region, and moving children to better areas raises their adult earnings; which features of places matter most, from schools to networks to segregation, is still being worked out.",
+     "answers": [
+      {
+       "field": "Economics / Public",
+       "angle": "Maps mobility across the US and shows that moving young children to better neighbourhoods pays off.",
+       "refs": [
+        "28710a",
+        "724db6"
+       ]
+      },
+      {
+       "field": "Geography / Human & economic geography",
+       "angle": "Measures the causal effect of each county and asks what happens to places left behind.",
+       "refs": [
+        "d254f3",
+        "a24bc5"
+       ]
+      },
+      {
+       "field": "Sociology / Stratification & inequality",
+       "angle": "Compares class mobility across countries and shows how class and race shape childhood and adult outcomes.",
+       "refs": [
+        "477238",
+        "352c9c",
+        "8d50b7",
+        "481e2b"
+       ]
+      },
+      {
+       "field": "Sociology / Social networks",
+       "angle": "Finds that friendships across class lines strongly predict upward mobility.",
+       "refs": [
+        "0886d8",
+        "da56a9"
+       ]
+      },
+      {
+       "field": "Architecture & planning / Urban planning",
+       "angle": "Shows how zoning and housing policy built segregation and now limit access to high-opportunity cities.",
+       "refs": [
+        "eea73b",
+        "a9ea4b",
+        "174096"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Why has productivity growth slowed even as new technology keeps arriving?",
+     "p": "Research effort keeps rising while output per researcher falls, and gaps between leading and lagging firms have widened; whether generative AI will reverse the slowdown is only beginning to be measured.",
+     "answers": [
+      {
+       "field": "Business / Innovation & entrepreneurship",
+       "angle": "Finds ideas getting harder to find, science becoming less disruptive and incumbents buying up rivals.",
+       "refs": [
+        "803aa6",
+        "c92688",
+        "afb2e8",
+        "134872"
+       ]
+      },
+      {
+       "field": "Economics / Macroeconomics & growth",
+       "angle": "Links aggregate growth to research inputs, misallocation and a few giant firms.",
+       "refs": [
+        "7c79c0",
+        "c59209",
+        "584969"
+       ]
+      },
+      {
+       "field": "Business / Strategy",
+       "angle": "Shows large measurable differences in management and capabilities across firms.",
+       "refs": [
+        "8cafa6",
+        "0f4408",
+        "4ef289"
+       ]
+      },
+      {
+       "field": "Business / Organizational behavior",
+       "angle": "Tests how remote work and AI assistants change worker output in the field.",
+       "refs": [
+        "0be636",
+        "92fc4b"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What are automation, trade and migration doing to ordinary workers?",
+     "p": "Import surges and robots have hurt particular places and occupations for years, while the effect of immigration on native wages appears small on average; how generative AI will sort winners and losers is open.",
+     "answers": [
+      {
+       "field": "Economics / Labor",
+       "angle": "Measures task automation, robots, import competition and immigration in local labour markets.",
+       "refs": [
+        "bd225a",
+        "b70463",
+        "a52cd9",
+        "9aa018",
+        "c499f4"
+       ]
+      },
+      {
+       "field": "Economics / International trade",
+       "angle": "Quantifies aggregate gains from trade and the uneven costs of trade shocks and tariffs.",
+       "refs": [
+        "82f31d",
+        "feec59",
+        "d61f8b",
+        "426d12"
+       ]
+      },
+      {
+       "field": "Sociology / Demography",
+       "angle": "Explains why people migrate and how migration relates to development at home.",
+       "refs": [
+        "688853",
+        "a154e2"
+       ]
+      },
+      {
+       "field": "Sociology / Organizations & economic sociology",
+       "angle": "Studies precarious work, platforms and algorithmic management.",
+       "refs": [
+        "0e7545",
+        "8b1de4",
+        "0d17a5"
+       ]
+      },
+      {
+       "field": "Political science / Political economy",
+       "angle": "Traces how trade shocks feed nationalist and polarised voting.",
+       "refs": [
+        "26a9e9",
+        "6edac9"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Why do financial systems keep crashing, and can crises be foreseen?",
+     "p": "Leverage, bank runs and household debt are well-understood amplifiers, and models now include banks and unequal households; the timing of crises remains hard to predict.",
+     "answers": [
+      {
+       "field": "Economics / Financial economics",
+       "angle": "Explains runs, limits to arbitrage, liquidity spirals and volatile prices.",
+       "refs": [
+        "ce617e",
+        "74a12e",
+        "5c1618",
+        "ad182e",
+        "ea7dee"
+       ]
+      },
+      {
+       "field": "Economics / Macroeconomics & growth",
+       "angle": "Shows how collateral and household debt turn shocks into slumps.",
+       "refs": [
+        "f0254c",
+        "b00c6e",
+        "6246ad"
+       ]
+      },
+      {
+       "field": "Economics / Behavioral",
+       "angle": "Traces credit cycles to over-extrapolated beliefs and myopic loss aversion.",
+       "refs": [
+        "0a5cad",
+        "8f7682"
+       ]
+      },
+      {
+       "field": "Sociology / Organizations & economic sociology",
+       "angle": "Shows how financial models reshape the markets they describe and how finance grew in the economy.",
+       "refs": [
+        "6fc9b4",
+        "96a84a"
+       ]
+      },
+      {
+       "field": "Systems & information / Network science",
+       "angle": "Shows how failures cascade through interconnected systems.",
+       "refs": [
+        "8eab20",
+        "f0a39f"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "What reduces crime, and what does punishment actually achieve?",
+     "p": "Certainty of being caught deters more than severity; mass incarceration had modest effects on crime at large social cost, and focused policing and local community groups show measurable gains.",
+     "answers": [
+      {
+       "field": "Sociology / Criminology",
+       "angle": "Weighs deterrence, policing hot spots and community organisations as causes of the crime decline.",
+       "refs": [
+        "6820f5",
+        "cf43b4",
+        "57b7f9",
+        "b64cc4",
+        "a24b82"
+       ]
+      },
+      {
+       "field": "Law / Law & economics",
+       "angle": "Models offenders' choices and optimal enforcement.",
+       "refs": [
+        "f5ca6f",
+        "d39c3e"
+       ]
+      },
+      {
+       "field": "Sociology / Stratification & inequality",
+       "angle": "Shows how concentrated poverty and a criminal record reproduce disadvantage.",
+       "refs": [
+        "7977f2",
+        "0b296a"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How much do genes, character and schooling each shape how lives turn out?",
+     "p": "Twin and DNA studies agree most traits are partly heritable, but within-family studies show that population-level genetic predictions of education are inflated by family and social effects, and schooling itself raises measured intelligence.",
+     "answers": [
+      {
+       "field": "Psychology / Personality & individual differences",
+       "angle": "Estimates heritability, tests polygenic prediction within families and shows that personality and education predict life outcomes.",
+       "refs": [
+        "bb729d",
+        "1258a3",
+        "a50a93",
+        "8d94c3",
+        "14f376"
+       ]
+      },
+      {
+       "field": "Biology / Genetics & genomics",
+       "angle": "Explains why so many variants contribute, and warns that polygenic scores travel poorly across populations.",
+       "refs": [
+        "858677",
+        "b55509",
+        "1db3da"
+       ]
+      },
+      {
+       "field": "Psychology / Developmental",
+       "angle": "Follows self-control from childhood, tests the marshmallow result and finds parents' untransmitted genes matter too.",
+       "refs": [
+        "75be17",
+        "617356",
+        "4bb061",
+        "4263ac"
+       ]
+      },
+      {
+       "field": "Economics / Development",
+       "angle": "Uses school-building and health programmes as natural experiments in human capital.",
+       "refs": [
+        "206775",
+        "d7f2dc"
+       ]
+      },
+      {
+       "field": "Education / Learning & education research",
+       "angle": "Uses class-size, teacher and preschool experiments to show school effects that fade on tests yet reappear in adult earnings, and sometimes turn negative.",
+       "refs": [
+        "b93202",
+        "0f6626",
+        "2d1121",
+        "9f0d2e"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Knowledge, meaning & culture",
+   "i": "❡",
+   "qs": [
+    {
+     "q": "How far can we trust what science tells us?",
+     "p": "Large replication projects found that many published findings in psychology and other fields do not hold up; reforms such as preregistration and larger samples are spreading, and philosophers debate how values legitimately enter science.",
+     "answers": [
+      {
+       "field": "Psychology / Social",
+       "angle": "Ran the large replication projects and showed how flexible analysis manufactures false positives.",
+       "refs": [
+        "f4b80f",
+        "1f484b",
+        "c8241b",
+        "80a5c8"
+       ]
+      },
+      {
+       "field": "Statistics / Inference",
+       "angle": "Diagnoses misuse of p-values and offers stricter or more flexible alternatives.",
+       "refs": [
+        "6ee28b",
+        "5fd8fa",
+        "43d6ed",
+        "3bcaae"
+       ]
+      },
+      {
+       "field": "Neuroscience / Cognitive",
+       "angle": "Shows that small brain-imaging studies are underpowered and inflate effects.",
+       "refs": [
+        "20a7fe",
+        "f02e69",
+        "e1f5fb"
+       ]
+      },
+      {
+       "field": "Philosophy / Philosophy of science",
+       "angle": "Asks whether successful theories are true, and how values properly enter judgements of evidence.",
+       "refs": [
+        "daa084",
+        "098291",
+        "895767",
+        "f13d02"
+       ]
+      },
+      {
+       "field": "History / History of science",
+       "angle": "Shows how objectivity, trust and quantification were historically built.",
+       "refs": [
+        "8b4864",
+        "fc5a3f",
+        "c20b63",
+        "5d71a8"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How can we tell causes from correlations when experiments are impossible?",
+     "p": "Formal accounts of causation now underpin methods such as instrumental variables, Mendelian randomisation and difference-in-differences; recent work showed several standard methods mislead when effects vary across people or time.",
+     "answers": [
+      {
+       "field": "Philosophy / Philosophy of science",
+       "angle": "Defines causation in terms of interventions, giving the methods a target.",
+       "refs": [
+        "e66686",
+        "3a804c"
+       ]
+      },
+      {
+       "field": "Economics / Econometrics",
+       "angle": "Develops natural-experiment methods and exposes their failure modes.",
+       "refs": [
+        "9ce2d6",
+        "c7ab6e",
+        "4ae33b",
+        "43a093",
+        "69e098"
+       ]
+      },
+      {
+       "field": "Medicine & health / Epidemiology",
+       "angle": "Uses genes as natural experiments and combines different designs to cross-check results.",
+       "refs": [
+        "d13e67",
+        "dca07d",
+        "b90c73",
+        "c824f6",
+        "af6116"
+       ]
+      },
+      {
+       "field": "Sociology / Social networks",
+       "angle": "Shows that peer influence and similarity are hard to separate in observational network data.",
+       "refs": [
+        "44046f",
+        "33b806"
+       ]
+      },
+      {
+       "field": "Medicine & health / Nutrition",
+       "angle": "A cautionary case: decades of food-and-disease associations from cohorts that rarely survived randomised trials.",
+       "refs": [
+        "225699",
+        "fdb4a5",
+        "163cf0"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Can AI make scientific discoveries, not just speed up calculations?",
+     "p": "Learned models now rival physics-based simulation for weather forecasts, molecules and crystals; whether they discover new principles or mostly interpolate within their training data is debated.",
+     "answers": [
+      {
+       "field": "Earth sciences / Atmospheric science",
+       "angle": "Has seen machine-learned forecasts match or beat leading numerical weather models.",
+       "refs": [
+        "65058f",
+        "1ac0dd",
+        "f3db05"
+       ]
+      },
+      {
+       "field": "Engineering / Mechanical",
+       "angle": "Learns governing equations and solution operators directly from data.",
+       "refs": [
+        "be6dcf",
+        "10f9f7",
+        "fb8440",
+        "d6c575"
+       ]
+      },
+      {
+       "field": "Chemistry / Theoretical & computational",
+       "angle": "Replaces expensive quantum calculations with learned potentials and functionals.",
+       "refs": [
+        "7baef8",
+        "b80653",
+        "418b94"
+       ]
+      },
+      {
+       "field": "Engineering / Materials science",
+       "angle": "Screens millions of candidate materials computationally and asks how many are real.",
+       "refs": [
+        "94c56b",
+        "9e6aaf",
+        "e43239"
+       ]
+      },
+      {
+       "field": "Mathematics / Dynamical systems",
+       "angle": "Sets the hard limit: chaotic systems can only be forecast so far ahead, however good the model.",
+       "refs": [
+        "0f15f7",
+        "37b0de"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Is morality objective, or something humans construct?",
+     "p": "Moral realism, constructivism and anti-realism all have able defenders; findings about the evolutionary and psychological sources of moral intuitions are agreed to matter, but not on what they imply.",
+     "answers": [
+      {
+       "field": "Philosophy / Ethics",
+       "angle": "Sets out the main positions and the evolutionary challenge to realism.",
+       "refs": [
+        "9670ae",
+        "3d4268",
+        "c4d305",
+        "b8dda6",
+        "296fc8"
+       ]
+      },
+      {
+       "field": "Psychology / Social",
+       "angle": "Argues that moral judgement is driven by fast intuition, and that standard samples are culturally narrow.",
+       "refs": [
+        "f62562",
+        "1d1fd9"
+       ]
+      },
+      {
+       "field": "Anthropology / Cultural anthropology",
+       "angle": "Studies how people in different societies pursue the good, rather than only their suffering.",
+       "refs": [
+        "b8ec09",
+        "37c95d"
+       ]
+      },
+      {
+       "field": "Religious studies / Study of religion",
+       "angle": "Tests whether belief in moralising, punishing gods helped strangers cooperate, and how much the historical evidence can bear.",
+       "refs": [
+        "cbf5b0",
+        "372039",
+        "d18c76"
+       ]
+      },
+      {
+       "field": "Psychology / Evolutionary",
+       "angle": "Explains generosity and kin loyalty as evolved adaptations, the kind of debunking story moral realists must answer.",
+       "refs": [
+        "a4e575",
+        "25e024",
+        "6b2aff"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Are there universals in language and music, or mostly diversity?",
+     "p": "Large cross-cultural samples find statistical tendencies in word order, song forms and rhythm alongside wide variation; whether these reflect an innate faculty or shared pressures of learning and use is the central dispute.",
+     "answers": [
+      {
+       "field": "Linguistics / Syntax",
+       "angle": "Argues for a core faculty of language, while critics catalogue diversity that seems to defy it.",
+       "refs": [
+        "27fe12",
+        "8f788b",
+        "f50ecd",
+        "afb208"
+       ]
+      },
+      {
+       "field": "Linguistics / Historical linguistics",
+       "angle": "Tests universals on family trees and finds many tendencies are lineage-specific.",
+       "refs": [
+        "2fc20e",
+        "740a60"
+       ]
+      },
+      {
+       "field": "Linguistics / Phonology",
+       "angle": "Asks whether common sound patterns come from learning biases or from how sounds change over time.",
+       "refs": [
+        "0157e7",
+        "1c5ce2",
+        "649c22"
+       ]
+      },
+      {
+       "field": "Arts & music / Ethnomusicology",
+       "angle": "Finds statistical universals in song and rhythm, alongside cultural differences in what sounds pleasant.",
+       "refs": [
+        "d8f359",
+        "d98377",
+        "fec5e7",
+        "c96b19"
+       ]
+      },
+      {
+       "field": "Arts & music / Musicology",
+       "angle": "Proposes a grammar of tonal music, while critics argue music theory has taken one tradition as the norm.",
+       "refs": [
+        "e5e3a8",
+        "00b132"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "How do people manage to mean more than they say?",
+     "p": "Formal pragmatics models implication and context precisely, and probabilistic models predict listeners' inferences well; how much meaning is fixed by grammar versus inferred, and how speech signals social identity, are active questions.",
+     "answers": [
+      {
+       "field": "Linguistics / Semantics & pragmatics",
+       "angle": "Models implicature, focus and context as reasoning about what a speaker could have said.",
+       "refs": [
+        "17dca9",
+        "2a7639",
+        "cd04eb",
+        "9cea52",
+        "361a2f"
+       ]
+      },
+      {
+       "field": "Philosophy / Philosophy of language",
+       "angle": "Studies context-dependence, the conversational scoreboard and how speech can do harm or spread propaganda.",
+       "refs": [
+        "38d938",
+        "67335a",
+        "0ab1d7",
+        "b91d94"
+       ]
+      },
+      {
+       "field": "Linguistics / Psycholinguistics",
+       "angle": "Shows listeners often settle for 'good enough' interpretations and align with their partners.",
+       "refs": [
+        "7ba218",
+        "b420b6"
+       ]
+      },
+      {
+       "field": "Linguistics / Sociolinguistics",
+       "angle": "Shows that the way something is said carries social meaning about who the speaker is.",
+       "refs": [
+        "7718b7",
+        "747442",
+        "1c3903",
+        "5b566e"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Where does an artwork's meaning come from, and what changes when machines can make images?",
+     "p": "Critics have moved from the author's intention to readers, contexts and institutions, and lately away from purely suspicious reading; image generators reopen old debates about reproduction, authorship and photographs as evidence.",
+     "answers": [
+      {
+       "field": "Literature / Literary theory",
+       "angle": "Moves meaning from author to reader, and argues over critique, description and reading at scale.",
+       "refs": [
+        "e33623",
+        "f8aede",
+        "c2954e",
+        "7eb466",
+        "0123fa"
+       ]
+      },
+      {
+       "field": "Arts & music / Film studies",
+       "angle": "Asks what film shows of reality, who it is made for, and what changes when the image is digital.",
+       "refs": [
+        "fbc8a5",
+        "654ec8",
+        "141c48",
+        "72f649"
+       ]
+      },
+      {
+       "field": "Arts & music / Art history",
+       "angle": "Reads works through the viewing habits of their time, their social agency and their circulation as copies.",
+       "refs": [
+        "ceb414",
+        "3ac8d5",
+        "c1baee",
+        "423546"
+       ]
+      },
+      {
+       "field": "Architecture & planning / Architectural theory",
+       "angle": "Treats buildings as made by networks of people, tools and code, not lone authors.",
+       "refs": [
+        "d65ab0",
+        "5ad9f7",
+        "9e73f9"
+       ]
+      },
+      {
+       "field": "Computer science / Computer vision",
+       "angle": "Built the image generators and the text-image models that now challenge these ideas.",
+       "refs": [
+        "c51c66",
+        "a2f752"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Who gets to write history, and whose voices does the record leave out?",
+     "p": "Historians and anthropologists broadly agree the archive reflects the power of those who kept it; how to recover silenced voices, and whether scholars can avoid speaking for others, is still argued.",
+     "answers": [
+      {
+       "field": "History / Modern & global",
+       "angle": "Questions European categories and asks whether the subaltern can be heard through colonial archives.",
+       "refs": [
+        "5f5fbe",
+        "62e4e3",
+        "bff7e5",
+        "fb1f0e"
+       ]
+      },
+      {
+       "field": "History / Latin American",
+       "angle": "Rewrites the conquest from indigenous sources and shows how archives silence events.",
+       "refs": [
+        "d57af0",
+        "55de0e",
+        "9aca3f",
+        "d1fcdf"
+       ]
+      },
+      {
+       "field": "Anthropology / Cultural anthropology",
+       "angle": "Examines the authority of the ethnographer and the idea of bounded 'cultures'.",
+       "refs": [
+        "74de69",
+        "ff438d",
+        "4ce867",
+        "cfa89b"
+       ]
+      },
+      {
+       "field": "Architecture & planning / Architectural history",
+       "angle": "Reads buildings and city plans as records of colonial and racial power.",
+       "refs": [
+        "0bd02a",
+        "9c5876",
+        "83e4d6"
+       ]
+      },
+      {
+       "field": "Arts & music / Art history",
+       "angle": "Debates restitution of looted objects and how museums frame history.",
+       "refs": [
+        "86045c",
+        "ed26c6"
+       ]
+      }
+     ]
+    },
+    {
+     "q": "Where did religion come from, and why does it persist?",
+     "p": "Cognitive and evolutionary accounts explain why gods come naturally and how moralising religions may have helped large societies cohere; secularisation is real in rich, secure countries but far from universal.",
+     "answers": [
+      {
+       "field": "Religious studies / Study of religion",
+       "angle": "Tests evolutionary accounts of belief and big gods, and debates whether secularisation follows from security and modernity.",
+       "refs": [
+        "fe964b",
+        "cbf5b0",
+        "d18c76",
+        "6f05de",
+        "ca6e94"
+       ]
+      },
+      {
+       "field": "Psychology / Evolutionary",
+       "angle": "Debates whether religion is an adaptation for cooperation or a by-product of minds built for other jobs.",
+       "refs": [
+        "cb6867",
+        "991960",
+        "15a23d"
+       ]
+      },
+      {
+       "field": "Anthropology / Cultural anthropology",
+       "angle": "Studies what religious practice means to those who live it, rather than explaining it away.",
+       "refs": [
+        "74de69",
+        "bde600"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

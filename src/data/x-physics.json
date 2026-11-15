@@ -1,0 +1,233 @@
+{
+ "discipline": "Physics",
+ "fields": [
+  {
+   "field": "Plasma physics & fusion",
+   "lead": "Turning recent milestones (NIF gain, optimized stellarators, high-field HTS magnets, ML control) into reactor-relevant performance while still explaining turbulence, edge physics and reconnection across lab and space plasmas.",
+   "papers": [
+    {
+     "authors": "Lawson",
+     "year": 1957,
+     "title": "Some Criteria for a Power Producing Thermonuclear Reactor",
+     "venue": "Proceedings of the Physical Society, Section B",
+     "type": "paper",
+     "why": "Set out the condition that density times confinement time (later the triple product with temperature) must exceed for net fusion energy. Every fusion programme, magnetic or inertial, still measures its progress against this criterion.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wagner et al.",
+     "year": 1982,
+     "title": "Regime of Improved Confinement and High Beta in Neutral-Beam-Heated Divertor Discharges of the ASDEX Tokamak",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Discovered the H-mode, a spontaneous transition to roughly doubled energy confinement with a steep edge pedestal. ITER and most reactor designs assume H-mode operation, yet the transition's physics and its edge instabilities are still not fully understood.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Diamond, Itoh, Itoh & Hahm",
+     "year": 2005,
+     "title": "Zonal Flows in Plasma—A Review",
+     "venue": "Plasma Physics and Controlled Fusion",
+     "type": "paper",
+     "why": "Synthesized how turbulence generates zonal flows that in turn shear apart and regulate the turbulence. This predator-prey picture is the core of how the field now thinks about turbulent transport, confinement transitions and transport barriers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yamada, Kulsrud & Ji",
+     "year": 2010,
+     "title": "Magnetic Reconnection",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Reviewed theory, laboratory experiments and observations of reconnection, including the role of Hall physics in fast reconnection. It is the standard entry point into a problem that still links lab, space and astrophysical plasma research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sorbom et al.",
+     "year": 2015,
+     "title": "ARC: A Compact, High-Field, Fusion Nuclear Science Facility and Demonstration Power Plant with Demountable Magnets",
+     "venue": "Fusion Engineering and Design",
+     "type": "paper",
+     "why": "Showed that REBCO high-temperature superconducting magnets at about 9 T on axis allow a much smaller, cheaper tokamak power plant. It launched the high-field path now pursued by Commonwealth Fusion Systems and others and reshaped the private fusion sector.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beidler et al.",
+     "year": 2021,
+     "title": "Demonstration of Reduced Neoclassical Energy Transport in Wendelstein 7-X",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Confirmed that W7-X's optimized magnetic geometry cuts neoclassical losses, the main historical weakness of stellarators. It validated computational stellarator optimization, which is behind the current surge of stellarator design and startups.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abu-Shawareb et al. (Indirect Drive ICF Collaboration)",
+     "year": 2024,
+     "title": "Achievement of Target Gain Larger than Unity in an Inertial Fusion Experiment",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Reported the December 2022 NIF shot that released more fusion energy than the laser energy delivered to the target. It is the first controlled fusion target gain above one, and the field now works on repeatability, higher gain and the gap to wall-plug efficiency.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Burch et al.",
+     "year": 2016,
+     "title": "Electron-Scale Measurements of Magnetic Reconnection in Space",
+     "venue": "Science",
+     "type": "paper",
+     "why": "NASA's MMS spacecraft directly resolved an electron diffusion region in Earth's magnetopause. It turned electron-scale reconnection physics into an observational science and drives current kinetic reconnection modeling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schekochihin et al.",
+     "year": 2009,
+     "title": "Astrophysical Gyrokinetics: Kinetic and Fluid Turbulent Cascades in Magnetized Weakly Collisional Plasmas",
+     "venue": "Astrophysical Journal Supplement Series",
+     "type": "paper",
+     "why": "Built a unified framework for turbulence in weakly collisional astrophysical plasmas from MHD down to electron scales. It is the basis for much current work on solar wind and accretion-flow turbulence and ties it to fusion gyrokinetics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Degrave et al.",
+     "year": 2022,
+     "title": "Magnetic Control of Tokamak Plasmas through Deep Reinforcement Learning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Trained a reinforcement-learning controller in simulation that shaped and held varied plasma configurations on the TCV tokamak. It opened the machine-learning plasma control line now being extended to instability avoidance and reactor operation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Snyder et al.",
+     "year": 2002,
+     "title": "Edge Localized Modes and the Pedestal: A Model Based on Coupled Peeling–Ballooning Modes",
+     "venue": "Physics of Plasmas",
+     "type": "paper",
+     "why": "Explained ELMs and the H-mode pedestal limit as coupled peeling-ballooning instabilities. It led to EPED-type pedestal prediction, which is used to project ITER and reactor performance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dimits et al.",
+     "year": 2000,
+     "title": "Comparisons and Physics Basis of Tokamak Transport Models and Turbulence Simulations",
+     "venue": "Physics of Plasmas",
+     "type": "paper",
+     "why": "Benchmarked gyrokinetic and fluid turbulence simulations and found the nonlinear upshift of the critical gradient (the Dimits shift). It remains the standard benchmark case and an open theoretical problem in turbulence saturation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brizard & Hahm",
+     "year": 2007,
+     "title": "Foundations of Nonlinear Gyrokinetic Theory",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Set out the modern Lie-transform derivation of nonlinear gyrokinetics. Gyrokinetic codes, the field's main tool for predicting turbulent transport, rest on this formulation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Helander",
+     "year": 2014,
+     "title": "Theory of Plasma Confinement in Non-Axisymmetric Magnetic Fields",
+     "venue": "Reports on Progress in Physics",
+     "type": "paper",
+     "why": "Gave a unified treatment of stellarator confinement theory, including quasi-symmetry and omnigeneity. It is the reference for the optimization concepts behind W7-X and new stellarator designs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Loureiro, Schekochihin & Cowley",
+     "year": 2007,
+     "title": "Instability of Current Sheets and Formation of Plasmoid Chains",
+     "venue": "Physics of Plasmas",
+     "type": "paper",
+     "why": "Showed that long current sheets are violently unstable to plasmoid formation. The plasmoid instability changed thinking on fast reconnection, which no longer seems to require collisionless effects in large systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bale et al.",
+     "year": 2019,
+     "title": "Highly Structured Slow Solar Wind Emerging from an Equatorial Coronal Hole",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Early Parker Solar Probe results revealed switchbacks and highly structured fields close to the Sun. These observations now drive work on coronal heating and solar wind acceleration.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zylstra et al.",
+     "year": 2022,
+     "title": "Burning Plasma Achieved in Inertial Fusion",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed NIF implosions where alpha heating from the fusion reactions dominated the heating of the fuel. This burning-plasma regime was the step before ignition and gain, and it is a regime magnetic fusion has yet to reach.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Creely et al.",
+     "year": 2020,
+     "title": "Overview of the SPARC Tokamak",
+     "venue": "Journal of Plasma Physics",
+     "type": "paper",
+     "why": "Described SPARC's high-field HTS design and its predicted Q > 1 performance from standard physics models. SPARC is the leading near-term test of whether high-field tokamaks deliver net plasma gain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kates-Harbeck, Svyatkovskiy & Tang",
+     "year": 2019,
+     "title": "Predicting Disruptive Instabilities in Controlled Fusion Plasmas through Deep Learning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed deep networks could predict disruptions and transfer between machines. Disruption prediction and mitigation are a make-or-break issue for ITER and reactors, and this work started the ML approach to it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Seo et al.",
+     "year": 2024,
+     "title": "Avoiding Fusion Plasma Tearing Instability with Deep Reinforcement Learning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used an RL controller on DIII-D to steer the plasma away from tearing instabilities in real time while keeping high performance. It extends ML control from shaping to active instability avoidance, a key need for steady reactor operation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

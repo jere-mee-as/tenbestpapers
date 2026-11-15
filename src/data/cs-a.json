@@ -1,0 +1,1373 @@
+{
+ "discipline": "Computer science",
+ "fields": [
+  {
+   "field": "Theory & complexity",
+   "lead": "Complexity theory is still stuck on proving lower bounds such as P versus NP, so most of its energy goes into barrier results, fine-grained conditional hardness, hardness of approximation and the power of quantum and interactive proofs.",
+   "papers": [
+    {
+     "authors": "Cook",
+     "year": 1971,
+     "title": "The Complexity of Theorem-Proving Procedures",
+     "venue": "Proceedings of the 3rd ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Showed that satisfiability captures every problem in NP, which made P versus NP the central question of the field. That question is still open and still organizes nearly everything else on this list.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baker, Gill & Solovay",
+     "year": 1975,
+     "title": "Relativizations of the P =? NP Question",
+     "venue": "SIAM Journal on Computing",
+     "type": "paper",
+     "why": "Showed that any proof technique that works equally well with an oracle cannot settle P versus NP. It is the first of three barriers every would-be lower-bound proof must now explain how it avoids.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldwasser, Micali & Rackoff",
+     "year": 1989,
+     "title": "The Knowledge Complexity of Interactive Proof Systems",
+     "venue": "SIAM Journal on Computing",
+     "type": "paper",
+     "why": "Introduced interactive proofs and zero knowledge, turning proof into a conversation between a prover and a randomized verifier. That idea runs through PCPs, MIP* = RE and the succinct proofs now deployed in cryptography.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Razborov & Rudich",
+     "year": 1997,
+     "title": "Natural Proofs",
+     "venue": "Journal of Computer and System Sciences",
+     "type": "paper",
+     "why": "Showed that most known circuit lower-bound techniques would, if they worked for P versus NP, also break cryptography. It explains why lower bounds stalled and shapes how researchers look for new methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Impagliazzo & Wigderson",
+     "year": 1997,
+     "title": "P = BPP if E Requires Exponential Circuits: Derandomizing the XOR Lemma",
+     "venue": "Proceedings of the 29th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Tied the question of whether randomness helps computation to circuit lower bounds: hardness implies randomness can be removed. The hardness-versus-randomness link is still the main way the field thinks about derandomization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shor",
+     "year": 1997,
+     "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+     "venue": "SIAM Journal on Computing",
+     "type": "paper",
+     "why": "Gave quantum computers an exponential speedup on a problem that matters, factoring. It created quantum complexity as a field and is the reason the world is migrating to post-quantum cryptography.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arora, Lund, Motwani, Sudan & Szegedy",
+     "year": 1998,
+     "title": "Proof Verification and the Hardness of Approximation Problems",
+     "venue": "Journal of the ACM",
+     "type": "paper",
+     "why": "Proved the PCP theorem, that any proof can be checked by reading a few random bits, and used it to show many problems cannot even be approximated. Hardness of approximation remains one of the most active parts of the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Impagliazzo & Paturi",
+     "year": 2001,
+     "title": "On the Complexity of k-SAT",
+     "venue": "Journal of Computer and System Sciences",
+     "type": "paper",
+     "why": "Stated the Exponential Time Hypothesis, that 3-SAT needs exponential time. Its strong form now underpins fine-grained complexity, which explains why many everyday polynomial-time problems resist faster algorithms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Khot",
+     "year": 2002,
+     "title": "On the Power of Unique 2-Prover 1-Round Games",
+     "venue": "Proceedings of the 34th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Proposed the Unique Games Conjecture, which if true pins down the exact best approximation ratio for many problems. Whether it holds is still one of the main open questions, and recent progress on the 2-to-2 games conjecture has made it more plausible.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Williams",
+     "year": 2014,
+     "title": "Nonuniform ACC Circuit Lower Bounds",
+     "venue": "Journal of the ACM",
+     "type": "paper",
+     "why": "Proved a new circuit lower bound by turning slightly faster satisfiability algorithms into impossibility results. It is the clearest sign that the barriers can be routed around, and the algorithms-to-lower-bounds approach is still being pushed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Valiant",
+     "year": 1979,
+     "title": "The Complexity of Computing the Permanent",
+     "venue": "Theoretical Computer Science",
+     "type": "paper",
+     "why": "Showed that counting perfect matchings is #P-complete, separating counting from deciding. The permanent versus determinant question is the algebraic analogue of P versus NP and the basis of quantum advantage proposals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Impagliazzo",
+     "year": 1995,
+     "title": "A Personal View of Average-Case Complexity",
+     "venue": "Proceedings of the 10th Annual Structure in Complexity Theory Conference",
+     "type": "paper",
+     "why": "Laid out five possible worlds, from Algorithmica to Cryptomania, depending on which hardness assumptions hold. Researchers still use these worlds to frame what a new result says about cryptography and average-case hardness.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mulmuley & Sohoni",
+     "year": 2001,
+     "title": "Geometric Complexity Theory I: An Approach to the P vs. NP and Related Problems",
+     "venue": "SIAM Journal on Computing",
+     "type": "paper",
+     "why": "Proposed attacking lower bounds through algebraic geometry and representation theory. Parts of the program have hit obstacles, but it remains the most ambitious attempt to get past the known barriers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dinur",
+     "year": 2007,
+     "title": "The PCP Theorem by Gap Amplification",
+     "venue": "Journal of the ACM",
+     "type": "paper",
+     "why": "Gave a far simpler, combinatorial proof of the PCP theorem. It made PCPs teachable and is the starting point for current work on high-dimensional expanders and locally testable codes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raghavendra",
+     "year": 2008,
+     "title": "Optimal Algorithms and Inapproximability Results for Every CSP?",
+     "venue": "Proceedings of the 40th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Showed that under the Unique Games Conjecture a single semidefinite program is the best possible algorithm for every constraint satisfaction problem. It ties hardness of approximation to one algorithmic template.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aaronson & Wigderson",
+     "year": 2009,
+     "title": "Algebrization: A New Barrier in Complexity Theory",
+     "venue": "ACM Transactions on Computation Theory",
+     "type": "paper",
+     "why": "Identified a third barrier, beyond relativization and natural proofs, that blocks the techniques behind IP = PSPACE. A new lower-bound method now has to say how it gets past all three.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aaronson & Arkhipov",
+     "year": 2011,
+     "title": "The Computational Complexity of Linear Optics",
+     "venue": "Proceedings of the 43rd ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Argued that sampling from simple photonic systems is hard for classical computers. It gave the theoretical basis for the quantum advantage experiments of the last few years and the debates over whether they hold up.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Backurs & Indyk",
+     "year": 2015,
+     "title": "Edit Distance Cannot Be Computed in Strongly Subquadratic Time (unless SETH is false)",
+     "venue": "Proceedings of the 47th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Showed that a basic string problem's quadratic algorithm is likely optimal, conditional on the Strong Exponential Time Hypothesis. It is a model for how fine-grained complexity explains practical algorithmic limits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Babai",
+     "year": 2016,
+     "title": "Graph Isomorphism in Quasipolynomial Time",
+     "venue": "Proceedings of the 48th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Brought graph isomorphism down to quasipolynomial time, close to resolving one of the few natural problems not known to be in P or NP-complete. Making the result polynomial, or extending it to group isomorphism, is open work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ji, Natarajan, Vidick, Wright & Yuen",
+     "year": 2020,
+     "title": "MIP* = RE",
+     "venue": "arXiv preprint",
+     "type": "paper",
+     "why": "Showed that provers sharing quantum entanglement can convince a verifier of any recursively enumerable statement. It also resolved Connes' embedding problem in operator algebras, and the field is still absorbing the consequences.",
+     "verified": false,
+     "conf": "low",
+     "note": "Journal version not confirmed; arXiv 2001.04383."
+    }
+   ]
+  },
+  {
+   "field": "Algorithms",
+   "lead": "Algorithms research is rewriting classic problems like flows, shortest paths and linear programming with continuous optimization and new data structures, while also asking how algorithms behave on real inputs, on massive data and with machine-learned advice.",
+   "papers": [
+    {
+     "authors": "Goemans & Williamson",
+     "year": 1995,
+     "title": "Improved Approximation Algorithms for Maximum Cut and Satisfiability Problems Using Semidefinite Programming",
+     "venue": "Journal of the ACM",
+     "type": "paper",
+     "why": "Introduced rounding semidefinite programs, beating the trivial approximation for max cut. Under the Unique Games Conjecture its ratio is optimal, and the technique is still the standard tool for approximation algorithms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Indyk & Motwani",
+     "year": 1998,
+     "title": "Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality",
+     "venue": "Proceedings of the 30th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Introduced locality-sensitive hashing, giving sublinear nearest-neighbor search in high dimensions. Approximate nearest-neighbor search is now the core of vector databases and retrieval for language models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Alon, Matias & Szegedy",
+     "year": 1999,
+     "title": "The Space Complexity of Approximating the Frequency Moments",
+     "venue": "Journal of Computer and System Sciences",
+     "type": "paper",
+     "why": "Founded streaming algorithms, showing which statistics can be computed in tiny memory over one pass, and which cannot. Sketching for massive data and its lower bounds both still build on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spielman & Teng",
+     "year": 2004,
+     "title": "Smoothed Analysis of Algorithms: Why the Simplex Algorithm Usually Takes Polynomial Time",
+     "venue": "Journal of the ACM",
+     "type": "paper",
+     "why": "Explained why the simplex method is fast in practice despite exponential worst cases, by perturbing inputs slightly. It started the beyond-worst-case analysis movement that still drives how theorists study practical algorithms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spielman & Teng",
+     "year": 2004,
+     "title": "Nearly-Linear Time Algorithms for Graph Partitioning, Graph Sparsification, and Solving Linear Systems",
+     "venue": "Proceedings of the 36th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Showed that graph Laplacian systems can be solved in nearly linear time. This launched the Laplacian paradigm, which led directly to the recent breakthroughs in max flow and other graph problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arora, Hazan & Kale",
+     "year": 2012,
+     "title": "The Multiplicative Weights Update Method: A Meta-Algorithm and Applications",
+     "venue": "Theory of Computing",
+     "type": "paper",
+     "why": "Showed that one simple reweighting rule underlies algorithms in optimization, learning, game theory and approximation. It is the common language linking online learning and fast algorithm design today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lykouris & Vassilvitskii",
+     "year": 2018,
+     "title": "Competitive Caching with Machine Learned Advice",
+     "venue": "Proceedings of the 35th International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "Showed how to use learned predictions in an online algorithm while staying robust when the predictions are wrong. It started the 'algorithms with predictions' area, now a large and active line of work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cohen, Lee & Song",
+     "year": 2021,
+     "title": "Solving Linear Programs in the Current Matrix Multiplication Time",
+     "venue": "Journal of the ACM",
+     "type": "paper",
+     "why": "Solved linear programs as fast as multiplying matrices, using interior-point methods with clever data structures. It is the template for the modern speedups in convex optimization and graph algorithms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen, Kyng, Liu, Peng, Probst Gutenberg & Sachdeva",
+     "year": 2022,
+     "title": "Maximum Flow and Minimum-Cost Flow in Almost-Linear Time",
+     "venue": "Proceedings of the 63rd IEEE Symposium on Foundations of Computer Science (FOCS)",
+     "type": "paper",
+     "why": "Solved max flow, one of the oldest problems in the field, in almost-linear time. Making such methods practical and deterministic, and applying them to other graph problems, is ongoing work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duan, Mao, Mao, Shu & Yin",
+     "year": 2025,
+     "title": "Breaking the Sorting Barrier for Directed Single-Source Shortest Paths",
+     "venue": "Proceedings of the 57th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Beat Dijkstra's algorithm on sparse directed graphs, which had long seemed tied to the cost of sorting. It reopened the most familiar problem in algorithms and shows how much is still unsettled.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Charikar",
+     "year": 2002,
+     "title": "Similarity Estimation Techniques from Rounding Algorithms",
+     "venue": "Proceedings of the 34th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Introduced SimHash, a sketch that preserves angle similarity by random hyperplane rounding. It is still used for near-duplicate detection and is a building block in modern embedding search.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cormode & Muthukrishnan",
+     "year": 2005,
+     "title": "An Improved Data Stream Summary: The Count-Min Sketch and Its Applications",
+     "venue": "Journal of Algorithms",
+     "type": "paper",
+     "why": "Gave a simple sketch for frequency estimation in data streams. It is deployed widely in networking and databases and is the usual baseline for learned and adaptive sketches.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thorup & Zwick",
+     "year": 2005,
+     "title": "Approximate Distance Oracles",
+     "venue": "Journal of the ACM",
+     "type": "paper",
+     "why": "Showed that a compact structure can answer distance queries in a graph with bounded stretch. The trade-off it set between space and accuracy is still the target for work on spanners and oracles.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Donoho",
+     "year": 2006,
+     "title": "Compressed Sensing",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Showed that sparse signals can be recovered from far fewer measurements than classical sampling requires. Sparse recovery shaped medical imaging and still informs algorithm design for high-dimensional data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Flajolet, Fusy, Gandouet & Meunier",
+     "year": 2007,
+     "title": "HyperLogLog: The Analysis of a Near-Optimal Cardinality Estimation Algorithm",
+     "venue": "Proceedings of the Conference on Analysis of Algorithms (AofA), DMTCS",
+     "type": "paper",
+     "why": "Counts distinct items in a huge stream using a few kilobytes. It runs inside major databases and analytics systems and remains the reference point for cardinality estimation.",
+     "verified": false,
+     "conf": "low",
+     "note": "Venue is the AofA 2007 proceedings published in Discrete Mathematics and Theoretical Computer Science; exact series name not confirmed."
+    },
+    {
+     "authors": "Batson, Spielman & Srivastava",
+     "year": 2012,
+     "title": "Twice-Ramanujan Sparsifiers",
+     "venue": "SIAM Journal on Computing",
+     "type": "paper",
+     "why": "Showed every graph has a spectral sparsifier with only linearly many edges. Sparsification is central to fast graph algorithms, and the proof technique influenced the later solution of the Kadison-Singer problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Malkov & Yashunin",
+     "year": 2020,
+     "title": "Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs",
+     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+     "type": "paper",
+     "why": "Introduced HNSW, the graph-based index that most vector databases now use. Explaining why graph indexes work so well in practice is an open theoretical question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roughgarden (ed.)",
+     "year": 2021,
+     "title": "Beyond the Worst-Case Analysis of Algorithms",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Collects the main approaches for analyzing algorithms on realistic inputs: smoothed analysis, stability, random-order models and learned advice. It is the best map of where algorithm analysis is heading.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Alman & Vassilevska Williams",
+     "year": 2021,
+     "title": "A Refined Laser Method and Faster Matrix Multiplication",
+     "venue": "Proceedings of the 2021 ACM-SIAM Symposium on Discrete Algorithms (SODA)",
+     "type": "paper",
+     "why": "Lowered the exponent of matrix multiplication and clarified the limits of the laser method. Since many algorithms run in matrix multiplication time, every improvement here propagates widely.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bernstein, Nanongkai & Wulff-Nilsen",
+     "year": 2022,
+     "title": "Negative-Weight Single-Source Shortest Paths in Near-linear Time",
+     "venue": "Proceedings of the 63rd IEEE Symposium on Foundations of Computer Science (FOCS)",
+     "type": "paper",
+     "why": "Gave a simple combinatorial near-linear algorithm for shortest paths with negative weights. It showed that recent graph breakthroughs need not rely on heavy continuous optimization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Machine learning",
+   "lead": "Machine learning is mainly working on scaling and post-training large neural models, getting them to reason through reinforcement learning, and understanding why they generalize and what they compute internally.",
+   "papers": [
+    {
+     "authors": "Krizhevsky, Sutskever & Hinton",
+     "year": 2012,
+     "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Showed that a large network trained on GPUs could beat hand-engineered vision systems by a wide margin. The recipe of big data, big compute and end-to-end training is still the field's default.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kingma & Ba",
+     "year": 2015,
+     "title": "Adam: A Method for Stochastic Optimization",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Gave an adaptive optimizer that works with little tuning. Adam and its variant AdamW still train most large models, and new optimizers are measured against it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zhang, Bengio, Hardt, Recht & Vinyals",
+     "year": 2017,
+     "title": "Understanding Deep Learning Requires Rethinking Generalization",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Showed that networks can memorize random labels yet still generalize on real ones, which classical theory cannot explain. The question it posed is still not settled.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Silver et al.",
+     "year": 2017,
+     "title": "Mastering the Game of Go without Human Knowledge",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "AlphaGo Zero learned Go from self-play alone and surpassed versions trained on human games. Learning from self-generated experience with search is the model current reasoning systems are trying to reproduce.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vaswani et al.",
+     "year": 2017,
+     "title": "Attention Is All You Need",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Introduced the transformer, built entirely on attention. It is the architecture behind nearly every large model in language, vision and biology today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Belkin, Hsu, Ma & Mandal",
+     "year": 2019,
+     "title": "Reconciling Modern Machine-Learning Practice and the Classical Bias-Variance Trade-off",
+     "venue": "Proceedings of the National Academy of Sciences (PNAS)",
+     "type": "paper",
+     "why": "Described double descent: past the point of fitting the data, bigger models get better again. It reframed the theory of overparameterized models and why scaling works.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ho, Jain & Abbeel",
+     "year": 2020,
+     "title": "Denoising Diffusion Probabilistic Models",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Made diffusion models work for high-quality image generation. Diffusion and its flow-matching variants now dominate generation of images, video, audio and molecules.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaplan et al.",
+     "year": 2020,
+     "title": "Scaling Laws for Neural Language Models",
+     "venue": "arXiv preprint",
+     "type": "paper",
+     "why": "Showed that loss falls as a smooth power law in model size, data and compute. This turned model building into planned investment, and the shape of scaling laws is still argued over.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brown et al.",
+     "year": 2020,
+     "title": "Language Models Are Few-Shot Learners",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "GPT-3 showed that a large enough language model can do new tasks from a few examples in its prompt. In-context learning is still poorly understood and is central to how models are used.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ouyang et al.",
+     "year": 2022,
+     "title": "Training Language Models to Follow Instructions with Human Feedback",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Showed that fine-tuning with human preference feedback makes smaller models more useful than much larger raw ones. Post-training of this kind is now where much of a model's behavior is set.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kingma & Welling",
+     "year": 2014,
+     "title": "Auto-Encoding Variational Bayes",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Introduced the variational autoencoder and the reparameterization trick. The learned latent spaces it introduced sit inside today's latent diffusion and video models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goodfellow et al.",
+     "year": 2014,
+     "title": "Generative Adversarial Nets",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Trained a generator against a discriminator. GANs have been displaced for most generation, but adversarial losses remain in tokenizers and fast distilled samplers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mnih et al.",
+     "year": 2015,
+     "title": "Human-Level Control through Deep Reinforcement Learning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "DQN learned Atari games from pixels with one network. It started deep reinforcement learning, whose methods are now being applied to train language models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schulman, Wolski, Dhariwal, Radford & Klimov",
+     "year": 2017,
+     "title": "Proximal Policy Optimization Algorithms",
+     "venue": "arXiv preprint",
+     "type": "paper",
+     "why": "Gave a simple, stable policy-gradient method. PPO and its descendants are the standard algorithms for reinforcement learning on language models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jacot, Gabriel & Hongler",
+     "year": 2018,
+     "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Showed that very wide networks train like kernel methods. It gave theory a foothold, and the gap between this regime and real feature learning is still a central research question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Song et al.",
+     "year": 2021,
+     "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Unified diffusion models as continuous-time stochastic processes. This framing underlies fast samplers, flow matching and most current theory of diffusion.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hoffmann et al.",
+     "year": 2022,
+     "title": "Training Compute-Optimal Large Language Models",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "The Chinchilla paper showed that models were undertrained and that data should scale with parameters. It changed how labs size models and sharpened the question of data limits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Elhage et al.",
+     "year": 2022,
+     "title": "Toy Models of Superposition",
+     "venue": "Transformer Circuits Thread",
+     "type": "paper",
+     "why": "Showed that networks pack more features than they have neurons by storing them in overlapping directions. It motivates the sparse-autoencoder work now central to interpretability.",
+     "verified": false,
+     "conf": "low",
+     "note": "Published online by Anthropic, not in a peer-reviewed venue."
+    },
+    {
+     "authors": "Rafailov et al.",
+     "year": 2023,
+     "title": "Direct Preference Optimization: Your Language Model Is Secretly a Reward Model",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Showed that preference fine-tuning can skip a separate reward model and reinforcement learning loop. DPO and its variants are now widely used alternatives to RLHF.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Guo et al.",
+     "year": 2025,
+     "title": "DeepSeek-R1 Incentivizes Reasoning in LLMs through Reinforcement Learning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that reinforcement learning on verifiable rewards alone can produce long chain-of-thought reasoning. It made reasoning-by-RL an open, reproducible research area.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Natural language processing",
+   "lead": "NLP now centers on large pretrained language models: how to adapt, ground and evaluate them, connect them to tools and retrieval, and work out what they actually understand.",
+   "papers": [
+    {
+     "authors": "Mikolov, Sutskever, Chen, Corrado & Dean",
+     "year": 2013,
+     "title": "Distributed Representations of Words and Phrases and their Compositionality",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Showed that cheap training produces word vectors with meaningful geometry. Dense embeddings remain the basic unit of meaning in NLP, from retrieval to interpretability.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bahdanau, Cho & Bengio",
+     "year": 2015,
+     "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Introduced attention, letting a model look back at the relevant input words. Attention became the core of the transformer and of every current language model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sennrich, Haddow & Birch",
+     "year": 2016,
+     "title": "Neural Machine Translation of Rare Words with Subword Units",
+     "venue": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)",
+     "type": "paper",
+     "why": "Introduced byte-pair encoding for neural models, solving the rare-word problem. Nearly every language model tokenizes this way, and tokenization's side effects are an active topic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Devlin, Chang, Lee & Toutanova",
+     "year": 2019,
+     "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+     "venue": "Proceedings of NAACL-HLT",
+     "type": "paper",
+     "why": "Showed that one pretrained model fine-tuned per task beats specialized systems everywhere. The pretrain-then-adapt pattern is still how NLP works, and BERT-style encoders still power search and classification.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Radford, Wu, Child, Luan, Amodei & Sutskever",
+     "year": 2019,
+     "title": "Language Models Are Unsupervised Multitask Learners",
+     "venue": "OpenAI technical report",
+     "type": "paper",
+     "why": "GPT-2 showed that a plain next-word predictor picks up tasks like translation and summarization without being trained for them. That observation set the course toward the large generative models the field studies now.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raffel et al.",
+     "year": 2020,
+     "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+     "venue": "Journal of Machine Learning Research",
+     "type": "paper",
+     "why": "Cast every task as text in, text out and systematically compared pretraining choices. The text-to-text framing is now universal, and its C4 corpus and ablations are still used.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewis et al.",
+     "year": 2020,
+     "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Combined a language model with a document retriever so answers can draw on external text. Retrieval augmentation is now standard practice for grounding models and reducing made-up facts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bender & Koller",
+     "year": 2020,
+     "title": "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data",
+     "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)",
+     "type": "paper",
+     "why": "Argued that a system trained only on text form cannot learn meaning. Whether language models understand anything remains one of the field's sharpest arguments, and this paper is its reference point.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wei et al.",
+     "year": 2022,
+     "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Showed that prompting models to write out intermediate steps sharply improves multi-step reasoning. Explicit reasoning traces are now trained directly into models and are a main research focus.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yao et al.",
+     "year": 2023,
+     "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Had models interleave reasoning with actions such as search or API calls. It is the basic pattern behind current language-model agents.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Peters et al.",
+     "year": 2018,
+     "title": "Deep Contextualized Word Representations",
+     "venue": "Proceedings of NAACL-HLT",
+     "type": "paper",
+     "why": "ELMo showed that word representations should depend on context, taken from a pretrained language model. It marked the shift to pretraining that BERT and GPT then completed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gururangan, Swayamdipta, Levy, Schwartz, Bowman & Smith",
+     "year": 2018,
+     "title": "Annotation Artifacts in Natural Language Inference Data",
+     "venue": "Proceedings of NAACL-HLT",
+     "type": "paper",
+     "why": "Showed that models could score well on inference benchmarks by exploiting surface cues in the hypotheses alone. Worry about shortcut learning and benchmark validity still shapes how NLP evaluates models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang, Singh, Michael, Hill, Levy & Bowman",
+     "year": 2019,
+     "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Created a shared multi-task benchmark for language understanding. Its fast saturation set the pattern of benchmarks being outrun that the field still struggles with.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hendrycks et al.",
+     "year": 2021,
+     "title": "Measuring Massive Multitask Language Understanding",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "MMLU tested models on exam questions across 57 subjects. It became the headline knowledge benchmark and a focus of debate over contamination and what scores mean.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bender, Gebru, McMillan-Major & Shmitchell",
+     "year": 2021,
+     "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+     "venue": "Proceedings of the ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+     "type": "paper",
+     "why": "Argued that scaling language models carries environmental, social and data-documentation costs. It frames much of the ongoing debate over the risks of large models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hu et al.",
+     "year": 2022,
+     "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Showed that fine-tuning can update a tiny low-rank addition instead of all weights. It made adapting large models cheap and is used almost everywhere.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang et al.",
+     "year": 2023,
+     "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Sampled many reasoning paths and took a majority vote over answers. It was an early demonstration that spending more compute at inference buys accuracy, now a major theme.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schick et al.",
+     "year": 2023,
+     "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Showed a model can learn when and how to call external tools from self-generated examples. Tool use is now a standard capability models are trained for.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Touvron et al.",
+     "year": 2023,
+     "title": "LLaMA: Open and Efficient Foundation Language Models",
+     "venue": "arXiv preprint",
+     "type": "paper",
+     "why": "Released strong open-weight models trained on public data. It made frontier-style models available for academic research, and most open-model work descends from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ji et al.",
+     "year": 2023,
+     "title": "Survey of Hallucination in Natural Language Generation",
+     "venue": "ACM Computing Surveys",
+     "type": "paper",
+     "why": "Organized the problem of models generating fluent but false content. Hallucination remains one of the main unsolved obstacles to relying on language models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Computer vision",
+   "lead": "Computer vision is converging on large pretrained models that link images and language, generate images and video, and reconstruct 3D scenes directly from photos.",
+   "papers": [
+    {
+     "authors": "Deng et al.",
+     "year": 2009,
+     "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+     "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+     "type": "paper",
+     "why": "Built the dataset that made deep learning in vision possible. Its role as the standard benchmark, and the debates about its labels and biases, still shape how vision progress is measured.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ronneberger, Fischer & Brox",
+     "year": 2015,
+     "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+     "venue": "Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
+     "type": "paper",
+     "why": "Introduced an encoder-decoder network with skip connections for precise segmentation. The U-Net shape is still the default in medical imaging and is the backbone of most diffusion image generators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "He, Zhang, Ren & Sun",
+     "year": 2016,
+     "title": "Deep Residual Learning for Image Recognition",
+     "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+     "type": "paper",
+     "why": "Residual connections made very deep networks trainable. They are now in essentially every deep architecture, including transformers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schönberger & Frahm",
+     "year": 2016,
+     "title": "Structure-from-Motion Revisited",
+     "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+     "type": "paper",
+     "why": "Introduced COLMAP, a robust pipeline for recovering camera poses and 3D structure from photo collections. It is still the standard preprocessing step for NeRF and Gaussian splatting, and the baseline learned 3D methods try to replace.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carion et al.",
+     "year": 2020,
+     "title": "End-to-End Object Detection with Transformers",
+     "venue": "European Conference on Computer Vision (ECCV)",
+     "type": "paper",
+     "why": "DETR treated detection as predicting a set of objects directly, removing hand-designed anchors and post-processing. Its query-based design underlies current detection and segmentation models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mildenhall et al.",
+     "year": 2020,
+     "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+     "venue": "European Conference on Computer Vision (ECCV)",
+     "type": "paper",
+     "why": "Represented a 3D scene as a neural network queried by rendering. It started the current wave of neural 3D reconstruction and view synthesis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dosovitskiy et al.",
+     "year": 2021,
+     "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Showed that a plain transformer on image patches matches convolutional networks given enough data. Vision transformers are now the standard backbone for large vision and multimodal models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Radford et al.",
+     "year": 2021,
+     "title": "Learning Transferable Visual Models From Natural Language Supervision",
+     "venue": "International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "CLIP learned visual concepts from image-caption pairs on the web and could classify new categories by name. Its joint image-text space underlies text-to-image generation and vision-language models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rombach, Blattmann, Lorenz, Esser & Ommer",
+     "year": 2022,
+     "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+     "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+     "type": "paper",
+     "why": "Ran diffusion in a compressed latent space, making high-resolution generation cheap. It became Stable Diffusion, and latent generation is how current image and video models work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kirillov et al.",
+     "year": 2023,
+     "title": "Segment Anything",
+     "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+     "type": "paper",
+     "why": "Trained a promptable segmentation model on a billion masks that works on objects it was never trained on. It brought the foundation-model approach to dense prediction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Redmon, Divvala, Girshick & Farhadi",
+     "year": 2016,
+     "title": "You Only Look Once: Unified, Real-Time Object Detection",
+     "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+     "type": "paper",
+     "why": "Framed detection as a single fast regression pass. The YOLO family is still what most real-world detection systems deploy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "He, Gkioxari, Dollár & Girshick",
+     "year": 2017,
+     "title": "Mask R-CNN",
+     "venue": "IEEE International Conference on Computer Vision (ICCV)",
+     "type": "paper",
+     "why": "Extended detection to per-object masks in one simple framework. It remains a standard baseline for instance segmentation and pose estimation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Recht, Roelofs, Schmidt & Shankar",
+     "year": 2019,
+     "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+     "venue": "Proceedings of the 36th International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "Rebuilt the ImageNet test set and found every model lost accuracy on it. It focused the field on distribution shift and on how much benchmark progress transfers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen, Kornblith, Norouzi & Hinton",
+     "year": 2020,
+     "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+     "venue": "Proceedings of the 37th International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "SimCLR showed that contrasting augmented views of images learns strong features without labels. Self-supervised pretraining is now how vision backbones are built.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caron et al.",
+     "year": 2021,
+     "title": "Emerging Properties in Self-Supervised Vision Transformers",
+     "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+     "type": "paper",
+     "why": "DINO showed that self-supervised vision transformers learn object segmentation on their own. Its successor DINOv2 is a standard general-purpose visual feature extractor.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "He et al.",
+     "year": 2022,
+     "title": "Masked Autoencoders Are Scalable Vision Learners",
+     "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+     "type": "paper",
+     "why": "Pretrained vision transformers by reconstructing heavily masked images, as BERT does for text. Masked modeling is one of the two main self-supervised approaches in vision.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kerbl, Kopanas, Leimkühler & Drettakis",
+     "year": 2023,
+     "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+     "venue": "ACM Transactions on Graphics",
+     "type": "paper",
+     "why": "Replaced neural fields with millions of explicit Gaussians, giving NeRF-quality views in real time. It has largely displaced NeRF in practice and is the basis of much current 3D work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Peebles & Xie",
+     "year": 2023,
+     "title": "Scalable Diffusion Models with Transformers",
+     "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+     "type": "paper",
+     "why": "Replaced the U-Net in diffusion models with a transformer that scales predictably. Diffusion transformers now power the leading image and video generators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liu, Li, Wu & Lee",
+     "year": 2023,
+     "title": "Visual Instruction Tuning",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "LLaVA connected a vision encoder to a language model and tuned it on instruction data. It set the open recipe for vision-language assistants.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang, Leroy, Cabon, Chidlovskii & Revaud",
+     "year": 2024,
+     "title": "DUSt3R: Geometric 3D Vision Made Easy",
+     "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+     "type": "paper",
+     "why": "Predicted 3D point maps directly from image pairs with no camera calibration. It started a shift from classical geometry pipelines to learned feed-forward 3D reconstruction.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Cryptography & security",
+   "lead": "Cryptography is migrating to post-quantum lattice schemes and building practical zero-knowledge proofs and computation on encrypted data, while security research contends with hardware side channels, memory-unsafe code and attacks on machine-learning systems.",
+   "papers": [
+    {
+     "authors": "Diffie & Hellman",
+     "year": 1976,
+     "title": "New Directions in Cryptography",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Introduced public-key cryptography and key exchange between strangers. Diffie-Hellman key exchange still secures most web traffic, and replacing it with quantum-safe versions is the field's biggest deployment task.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldwasser & Micali",
+     "year": 1984,
+     "title": "Probabilistic Encryption",
+     "venue": "Journal of Computer and System Sciences",
+     "type": "paper",
+     "why": "Defined what it means for encryption to be secure, semantic security, and showed encryption must be randomized. Every modern security proof uses this style of definition.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldreich, Micali & Wigderson",
+     "year": 1987,
+     "title": "How to Play Any Mental Game, or A Completeness Theorem for Protocols with Honest Majority",
+     "venue": "Proceedings of the 19th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Showed that any function can be computed jointly by parties who keep their inputs private. Secure multiparty computation is now moving into real deployments, from private statistics to key management.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bellare & Rogaway",
+     "year": 1993,
+     "title": "Random Oracles Are Practical: A Paradigm for Designing Efficient Protocols",
+     "venue": "Proceedings of the 1st ACM Conference on Computer and Communications Security (CCS)",
+     "type": "paper",
+     "why": "Proposed proving security by treating hash functions as ideal random functions. Most deployed schemes, including post-quantum signatures and zero-knowledge systems, still rely on it, and its soundness is still argued over.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Regev",
+     "year": 2005,
+     "title": "On Lattices, Learning with Errors, Random Linear Codes, and Cryptography",
+     "venue": "Proceedings of the 37th ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Introduced the learning with errors problem and based encryption on worst-case lattice hardness. LWE underlies the new post-quantum standards and fully homomorphic encryption.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dwork, McSherry, Nissim & Smith",
+     "year": 2006,
+     "title": "Calibrating Noise to Sensitivity in Private Data Analysis",
+     "venue": "Theory of Cryptography Conference (TCC)",
+     "type": "paper",
+     "why": "Defined differential privacy and showed how to achieve it by adding calibrated noise. It is used by the US Census and large tech firms, and how to apply it well is still contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gentry",
+     "year": 2009,
+     "title": "Fully Homomorphic Encryption Using Ideal Lattices",
+     "venue": "Proceedings of the 41st ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Gave the first scheme for computing arbitrary functions on encrypted data. Making homomorphic encryption fast enough for practice, including hardware accelerators, is active work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Szekeres, Payer, Wei & Song",
+     "year": 2013,
+     "title": "SoK: Eternal War in Memory",
+     "venue": "IEEE Symposium on Security and Privacy",
+     "type": "paper",
+     "why": "Mapped how memory-corruption attacks work and why each defense falls short. Memory unsafety is still the leading source of serious vulnerabilities and drives the push to memory-safe languages.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kocher et al.",
+     "year": 2019,
+     "title": "Spectre Attacks: Exploiting Speculative Execution",
+     "venue": "IEEE Symposium on Security and Privacy",
+     "type": "paper",
+     "why": "Showed that performance optimizations in processors leak secrets across security boundaries. Hardware side channels remain an open problem for processor design and cloud isolation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carlini et al.",
+     "year": 2021,
+     "title": "Extracting Training Data from Large Language Models",
+     "venue": "30th USENIX Security Symposium",
+     "type": "paper",
+     "why": "Showed that language models memorize and can be made to reveal training data, including personal information. Privacy and security of machine-learning models is now a major research area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Canetti",
+     "year": 2001,
+     "title": "Universally Composable Security: A New Paradigm for Cryptographic Protocols",
+     "venue": "Proceedings of the 42nd IEEE Symposium on Foundations of Computer Science (FOCS)",
+     "type": "paper",
+     "why": "Defined protocol security so that it holds when composed with arbitrary other protocols. It is the standard framework for proving complex protocols secure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nakamoto",
+     "year": 2008,
+     "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+     "venue": "Self-published white paper",
+     "type": "paper",
+     "why": "Combined proof of work and a public ledger to reach consensus among strangers without a trusted party. It created blockchain research, which drives much current work on consensus and zero-knowledge proofs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Garg, Gentry, Halevi, Raykova, Sahai & Waters",
+     "year": 2013,
+     "title": "Candidate Indistinguishability Obfuscation and Functional Encryption for All Circuits",
+     "venue": "Proceedings of the 54th IEEE Symposium on Foundations of Computer Science (FOCS)",
+     "type": "paper",
+     "why": "Proposed the first candidate for obfuscating programs, a tool that implies nearly all other cryptography. It opened a decade of work on what obfuscation can be built from.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ben-Sasson, Chiesa, Tromer & Virza",
+     "year": 2014,
+     "title": "Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture",
+     "venue": "23rd USENIX Security Symposium",
+     "type": "paper",
+     "why": "Made succinct zero-knowledge proofs for general programs practical. This line of work became zk-SNARK systems now used in blockchains and verifiable computation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Groth",
+     "year": 2016,
+     "title": "On the Size of Pairing-Based Non-interactive Arguments",
+     "venue": "Advances in Cryptology - EUROCRYPT 2016",
+     "type": "paper",
+     "why": "Gave a zero-knowledge proof of just three group elements. Groth16 is still among the most widely deployed SNARKs and the size benchmark for new ones.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abadi et al.",
+     "year": 2016,
+     "title": "Deep Learning with Differential Privacy",
+     "venue": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+     "type": "paper",
+     "why": "Introduced DP-SGD, training neural networks with differential privacy guarantees. It is the standard method for private model training.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shokri, Stronati, Song & Shmatikov",
+     "year": 2017,
+     "title": "Membership Inference Attacks Against Machine Learning Models",
+     "venue": "IEEE Symposium on Security and Privacy",
+     "type": "paper",
+     "why": "Showed that an attacker can tell whether a record was in a model's training set from its outputs. Membership inference is the main way privacy leakage in models is measured.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bos et al.",
+     "year": 2018,
+     "title": "CRYSTALS - Kyber: A CCA-Secure Module-Lattice-Based KEM",
+     "venue": "IEEE European Symposium on Security and Privacy (EuroS&P)",
+     "type": "paper",
+     "why": "Designed the lattice key-encapsulation scheme later standardized by NIST as ML-KEM. It is what browsers and messaging apps are deploying for post-quantum key exchange.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jain, Lin & Sahai",
+     "year": 2021,
+     "title": "Indistinguishability Obfuscation from Well-Founded Assumptions",
+     "venue": "Proceedings of the 53rd ACM Symposium on Theory of Computing (STOC)",
+     "type": "paper",
+     "why": "Built obfuscation from standard, well-studied hardness assumptions for the first time. It settled the main feasibility question, and making obfuscation post-quantum and practical is open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greshake, Abdelnabi, Mishra, Endres, Holz & Fritz",
+     "year": 2023,
+     "title": "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+     "venue": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security (AISec)",
+     "type": "paper",
+     "why": "Showed that instructions hidden in web pages or documents can hijack language-model applications that read them. Prompt injection is the central unsolved security problem for AI agents.",
+     "verified": true,
+     "conf": "low",
+     "note": "Title confirmed by search; AISec 2023 venue from memory."
+    }
+   ]
+  }
+ ]
+}

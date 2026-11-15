@@ -1,0 +1,1145 @@
+{
+ "discipline": "Sociology",
+ "fields": [
+  {
+   "field": "Stratification & inequality",
+   "lead": "The field is tracing how inequality is produced and passed on, combining huge administrative datasets on mobility and wealth with field experiments and close ethnography of class, race and gender.",
+   "papers": [
+    {
+     "authors": "Bourdieu",
+     "year": 1986,
+     "title": "The Forms of Capital",
+     "venue": "Handbook of Theory and Research for the Sociology of Education (Greenwood)",
+     "type": "paper",
+     "why": "Split advantage into economic, cultural and social capital that can be converted into one another. It is still the default vocabulary for explaining why money alone does not account for who gets ahead, and it frames most work on education and taste.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilson",
+     "year": 1987,
+     "title": "The Truly Disadvantaged: The Inner City, the Underclass, and Public Policy",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Argued that deindustrialization and the concentration of poverty, not just individual choices or overt racism, drove inner-city disadvantage. The 'neighborhood effects' research program that now runs on big data grew directly out of it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Crenshaw",
+     "year": 1991,
+     "title": "Mapping the Margins: Intersectionality, Identity Politics, and Violence against Women of Color",
+     "venue": "Stanford Law Review",
+     "type": "paper",
+     "why": "Showed that race and gender combine to produce harms neither category captures alone. Intersectionality is now a standard design principle in inequality research and a live point of political and methodological argument.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Erikson & Goldthorpe",
+     "year": 1992,
+     "title": "The Constant Flux: A Study of Class Mobility in Industrial Societies",
+     "venue": "Clarendon Press",
+     "type": "book",
+     "why": "Found that relative class mobility is strikingly similar and stable across industrial nations. Comparative mobility research still tests itself against this 'constant flux' claim and the class scheme it used.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Massey & Denton",
+     "year": 1993,
+     "title": "American Apartheid: Segregation and the Making of the Underclass",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Made residential segregation the central mechanism behind Black poverty in the US. Current work on neighborhoods, wealth and mobility gaps still starts from its account of how segregation concentrates disadvantage.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Piketty & Saez",
+     "year": 2003,
+     "title": "Income Inequality in the United States, 1913-1998",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used tax records to show the collapse and then the steep rise of top income shares across the twentieth century. It launched the top-incomes research program and the public debate about the 1 percent.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lareau",
+     "year": 2003,
+     "title": "Unequal Childhoods: Class, Race, and Family Life",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Contrasted middle-class 'concerted cultivation' with working-class 'natural growth' in child-rearing. It is the go-to account of how class advantage is passed on through everyday family life and institutions like schools.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pager",
+     "year": 2003,
+     "title": "The Mark of a Criminal Record",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "An audit experiment showing a criminal record, and being Black, sharply cut callbacks for jobs. It made field experiments a core tool for measuring discrimination and tied incarceration to labor-market inequality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Desmond",
+     "year": 2012,
+     "title": "Eviction and the Reproduction of Urban Poverty",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed that eviction is a common, gendered cause of poverty, not merely a result of it. It opened a large research and policy agenda on housing insecurity that is still expanding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty, Hendren, Kline & Saez",
+     "year": 2014,
+     "title": "Where Is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used tax records for millions of children to map how upward mobility varies by place. It reset the field around administrative data and local causes of mobility, and it now drives policy experiments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Bonilla-Silva",
+     "year": 1997,
+     "title": "Rethinking Racism: Toward a Structural Interpretation",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Recast racism as a structure of racialized social systems rather than individual prejudice. It underpins current 'structural' and 'color-blind racism' approaches in sociology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tilly",
+     "year": 1998,
+     "title": "Durable Inequality",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Explained lasting inequality through paired categories (Black/white, male/female) built into organizations via exploitation and opportunity hoarding. Its relational approach is being revived in work on firms and inequality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bertrand & Mullainathan",
+     "year": 2004,
+     "title": "Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Sent fictitious resumes with racially distinctive names and found large callback gaps. It is the template for the large resume-audit literature and its recent meta-analyses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Torche",
+     "year": 2011,
+     "title": "Is a College Degree Still the Great Equalizer? Intergenerational Mobility across Levels of Schooling in the United States",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Found that origin-destination associations weaken among BA holders but reappear among those with advanced degrees. It complicates the idea that more college access alone equalizes opportunity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ridgeway",
+     "year": 2011,
+     "title": "Framed by Gender: How Gender Inequality Persists in the Modern World",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that cultural beliefs about gender act as a background frame in every interaction, letting inequality reappear in new settings. It is central to explaining the stalled gender revolution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Autor",
+     "year": 2014,
+     "title": "Skills, Education, and the Rise of Earnings Inequality among the 'Other 99 Percent'",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Laid out how rising returns to skill and technological change drove inequality below the top 1 percent. It frames current debates on automation, AI and wage polarization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldin",
+     "year": 2014,
+     "title": "A Grand Gender Convergence: Its Last Chapter",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Argued the remaining gender pay gap comes mainly from jobs that pay disproportionately for long, inflexible hours. It redirected research toward job structure and parenthood penalties.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Killewald, Pfeffer & Schachner",
+     "year": 2017,
+     "title": "Wealth Inequality and Accumulation",
+     "venue": "Annual Review of Sociology",
+     "type": "paper",
+     "why": "Made the case that wealth, not income, is where inequality is largest and most inherited. It anchors the fast-growing sociology of wealth and the racial wealth gap.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ray",
+     "year": 2019,
+     "title": "A Theory of Racialized Organizations",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Argued that organizations themselves are racial structures that distribute resources and agency. It is a widely used framework connecting race scholarship to organizational sociology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty, Hendren, Jones & Porter",
+     "year": 2020,
+     "title": "Race and Economic Opportunity in the United States: An Intergenerational Perspective",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Showed that Black-white income gaps persist across generations largely because Black men experience much lower upward mobility. It sets the empirical agenda on race, gender and place in mobility.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Social networks",
+   "lead": "Network researchers are trying to separate real social influence from homophily and confounding, using large-scale platform data, field experiments and models of network change.",
+   "papers": [
+    {
+     "authors": "Granovetter",
+     "year": 1973,
+     "title": "The Strength of Weak Ties",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed that acquaintances, not close friends, carry novel information such as job leads. It remains among the most tested ideas in the social sciences and was recently confirmed in a large LinkedIn experiment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Coleman",
+     "year": 1988,
+     "title": "Social Capital in the Creation of Human Capital",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Defined social capital as resources embedded in relationships, especially dense, closed networks that enforce norms. The closure-versus-brokerage debate it set up is still active.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Watts & Strogatz",
+     "year": 1998,
+     "title": "Collective Dynamics of 'Small-World' Networks",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that a few random shortcuts make a clustered network 'small,' explaining six degrees of separation. It helped found modern network science and is still the reference model for clustered yet connected networks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barabasi & Albert",
+     "year": 1999,
+     "title": "Emergence of Scaling in Random Networks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Proposed preferential attachment as a mechanism producing hubs and heavy-tailed degree distributions. Its claims are still debated, especially how common 'scale-free' networks really are.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McPherson, Smith-Lovin & Cook",
+     "year": 2001,
+     "title": "Birds of a Feather: Homophily in Social Networks",
+     "venue": "Annual Review of Sociology",
+     "type": "paper",
+     "why": "Documented that similarity structures ties across nearly every social dimension. Homophily is now the main confounder researchers must deal with when claiming network influence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Burt",
+     "year": 2004,
+     "title": "Structural Holes and Good Ideas",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed that managers who bridge disconnected groups have better ideas and are rewarded for them. It is the key empirical case for brokerage and still drives work on innovation and careers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Christakis & Fowler",
+     "year": 2007,
+     "title": "The Spread of Obesity in a Large Social Network over 32 Years",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Claimed obesity spreads through social ties up to three degrees away. Its methods drew strong criticism about confounding, and that fight reshaped how the field tests for contagion.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Centola",
+     "year": 2010,
+     "title": "The Spread of Behavior in an Online Social Network Experiment",
+     "venue": "Science",
+     "type": "paper",
+     "why": "An experiment showing that behavior spreads further in clustered networks where people get reinforcement from several contacts. It is the main evidence for 'complex contagion.'",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bakshy, Messing & Adamic",
+     "year": 2015,
+     "title": "Exposure to Ideologically Diverse News and Opinion on Facebook",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used Facebook data to separate the effects of friends, algorithmic ranking and individual choice on exposure to cross-cutting news. It is central to the still-unsettled filter-bubble debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty et al.",
+     "year": 2022,
+     "title": "Social Capital I: Measurement and Associations with Economic Mobility",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Measured friendship networks of 72 million people and found cross-class friendship strongly predicts upward mobility. It brought network measures into mainstream inequality research and policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Granovetter",
+     "year": 1978,
+     "title": "Threshold Models of Collective Behavior",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Modeled collective action as people joining once enough others have, showing small differences in thresholds can tip outcomes. It underlies modern models of cascades and diffusion.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Salganik, Dodds & Watts",
+     "year": 2006,
+     "title": "Experimental Study of Inequality and Unpredictability in an Artificial Cultural Market",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that social influence makes cultural success both more unequal and less predictable. It is a landmark for online experiments and for thinking about popularity and platforms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Centola & Macy",
+     "year": 2007,
+     "title": "Complex Contagions and the Weakness of Long Ties",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Argued that behaviors needing reinforcement do not travel well across weak, long-range ties. It qualified Granovetter and gave the theory behind Centola's later experiments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aral, Muchnik & Sundararajan",
+     "year": 2009,
+     "title": "Distinguishing Influence-Based Contagion from Homophily-Driven Diffusion in Dynamic Networks",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Showed that much apparent contagion in product adoption is homophily. It made matching-based correction a standard check in observational network studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kossinets & Watts",
+     "year": 2009,
+     "title": "Origins of Homophily in an Evolving Social Network",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Used university email data to show homophily emerges from both choice and structural opportunity, amplified over time. It is a key study for how networks and segregation co-evolve.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Snijders, van de Bunt & Steglich",
+     "year": 2010,
+     "title": "Introduction to Stochastic Actor-Based Models for Network Dynamics",
+     "venue": "Social Networks",
+     "type": "paper",
+     "why": "Introduced the SAOM framework for modeling how networks and behavior change together. It is the main statistical toolkit for separating selection from influence in panel data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shalizi & Thomas",
+     "year": 2011,
+     "title": "Homophily and Contagion Are Generically Confounded in Observational Social Network Studies",
+     "venue": "Sociological Methods & Research",
+     "type": "paper",
+     "why": "Proved that, without strong assumptions, influence and homophily cannot be distinguished in observational data. It pushed the field toward experiments and sensitivity analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bond et al.",
+     "year": 2012,
+     "title": "A 61-Million-Person Experiment in Social Influence and Political Mobilization",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "A Facebook experiment showing that messages mentioning friends who voted raised turnout, with effects spreading through close ties. It set the model, and raised the ethical questions, for platform-scale experiments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vosoughi, Roy & Aral",
+     "year": 2018,
+     "title": "The Spread of True and False News Online",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that false news spread farther, faster and deeper on Twitter than true news, driven by people rather than bots. It anchors current misinformation research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rajkumar et al.",
+     "year": 2022,
+     "title": "A Causal Test of the Strength of Weak Ties",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used randomized variation in LinkedIn's recommendations to show moderately weak ties produce the most job mobility. It is the strongest causal test yet of Granovetter's idea.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Demography",
+   "lead": "Demographers are dealing with very low fertility, population ageing, widening mortality gaps by class and place, migration, and the limits of long-range population forecasts.",
+   "papers": [
+    {
+     "authors": "Preston",
+     "year": 1975,
+     "title": "The Changing Relation between Mortality and Level of Economic Development",
+     "venue": "Population Studies",
+     "type": "paper",
+     "why": "Showed that life expectancy rises with income but the whole curve shifts upward over time, so health gains are not just about wealth. The 'Preston curve' is still the frame for debates on income and health.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lee & Carter",
+     "year": 1992,
+     "title": "Modeling and Forecasting U.S. Mortality",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Introduced a simple statistical model for forecasting age-specific mortality. Its variants remain the workhorse for official mortality and pension projections.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Massey et al.",
+     "year": 1993,
+     "title": "Theories of International Migration: A Review and Appraisal",
+     "venue": "Population and Development Review",
+     "type": "paper",
+     "why": "Laid out and compared the main theories of why people migrate. It is still the standard theoretical map that migration studies cite and extend.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kohler, Billari & Ortega",
+     "year": 2002,
+     "title": "The Emergence of Lowest-Low Fertility in Europe During the 1990s",
+     "venue": "Population and Development Review",
+     "type": "paper",
+     "why": "Identified and explained fertility below 1.3 children per woman through delayed childbearing and social feedback. With East Asia and much of Europe now there, it is the reference point for the current fertility debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Oeppen & Vaupel",
+     "year": 2002,
+     "title": "Broken Limits to Life Expectancy",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed record life expectancy has risen almost linearly for 160 years, breaking every proposed ceiling. It is one side of the ongoing argument over whether human lifespan has a limit.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McLanahan",
+     "year": 2004,
+     "title": "Diverging Destinies: How Children Are Faring under the Second Demographic Transition",
+     "venue": "Demography",
+     "type": "paper",
+     "why": "Showed that family changes are splitting children's resources by mothers' education. It connects family demography to inequality and still guides research on family structure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lesthaeghe",
+     "year": 2010,
+     "title": "The Unfolding Story of the Second Demographic Transition",
+     "venue": "Population and Development Review",
+     "type": "paper",
+     "why": "Restated the theory that values of individual autonomy drive later marriage, cohabitation and low fertility. It is the main theory critics like the gender-revolution framework argue against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Case & Deaton",
+     "year": 2015,
+     "title": "Rising Morbidity and Mortality in Midlife among White Non-Hispanic Americans in the 21st Century",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Revealed rising midlife deaths among less-educated white Americans from drugs, alcohol and suicide. It launched the 'deaths of despair' research program and the study of US mortality stagnation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty et al.",
+     "year": 2016,
+     "title": "The Association between Income and Life Expectancy in the United States, 2001-2014",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "Linked tax and death records to show a 10-to-15-year life-expectancy gap between the richest and poorest, varying by place. It made local and economic mortality gaps a central topic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vollset et al.",
+     "year": 2020,
+     "title": "Fertility, Mortality, Migration, and Population Scenarios for 195 Countries and Territories from 2017 to 2100: A Forecasting Analysis for the Global Burden of Disease Study",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Projected world population peaking around 2064 and then falling, well below UN forecasts. Its disagreement with the UN is a live debate about fertility assumptions and forecasting.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Vaupel, Manton & Stallard",
+     "year": 1979,
+     "title": "The Impact of Heterogeneity in Individual Frailty on the Dynamics of Mortality",
+     "venue": "Demography",
+     "type": "paper",
+     "why": "Showed that unobserved differences in frailty distort observed mortality patterns as the frail die first. Frailty models are still essential for reading mortality crossovers and late-life trends.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bongaarts & Feeney",
+     "year": 1998,
+     "title": "On the Quantum and Tempo of Fertility",
+     "venue": "Population and Development Review",
+     "type": "paper",
+     "why": "Showed that delayed childbearing depresses period fertility rates and proposed an adjustment. It is central to judging how much of today's low fertility is postponement versus fewer births.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McDonald",
+     "year": 2000,
+     "title": "Gender Equity in Theories of Fertility Transition",
+     "venue": "Population and Development Review",
+     "type": "paper",
+     "why": "Argued very low fertility arises when women gain equity in education and work but not in the family. It is one of the most used explanations for ultra-low fertility in East Asia and southern Europe.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lee",
+     "year": 2003,
+     "title": "The Demographic Transition: Three Centuries of Fundamental Change",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "A concise account of the shift from high to low mortality and fertility and its economic consequences. It is the clearest entry to the ageing and dependency issues now facing most countries.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Olshansky et al.",
+     "year": 2005,
+     "title": "A Potential Decline in Life Expectancy in the United States in the 21st Century",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Warned that obesity could halt or reverse US life-expectancy gains. Recent US stagnation has made it a key reference in the debate with optimists like Oeppen and Vaupel.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Myrskylä, Kohler & Billari",
+     "year": 2009,
+     "title": "Advances in Development Reverse Fertility Declines",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found fertility rising again at very high development levels. Later data cast doubt on the pattern, so it remains a live test case for theories of rich-country fertility.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "de Haas",
+     "year": 2010,
+     "title": "Migration and Development: A Theoretical Perspective",
+     "venue": "International Migration Review",
+     "type": "paper",
+     "why": "Argued that development tends to increase emigration at first rather than reduce it. It shapes current thinking about migration policy and aid.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raftery et al.",
+     "year": 2012,
+     "title": "Bayesian Probabilistic Population Projections for All Countries",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced probabilistic projections that the UN adopted for its official forecasts. It made uncertainty ranges standard in population forecasting.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gerland et al.",
+     "year": 2014,
+     "title": "World Population Stabilization Unlikely This Century",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used the UN's probabilistic method to argue world population will likely keep growing through 2100. It is the main counterpoint to forecasts of an earlier peak.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldscheider, Bernhardt & Lappegård",
+     "year": 2015,
+     "title": "The Gender Revolution: A Framework for Understanding Changing Family and Demographic Behavior",
+     "venue": "Population and Development Review",
+     "type": "paper",
+     "why": "Argued family change proceeds in two halves: women entering paid work, then men entering the home, with fertility recovering as the second half advances. It is the leading rival to second-demographic-transition theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Criminology",
+   "lead": "Criminology is centered on crime's concentration in places and networks, life-course pathways, what actually deters, legitimacy of policing, and the consequences of mass incarceration.",
+   "papers": [
+    {
+     "authors": "Cohen & Felson",
+     "year": 1979,
+     "title": "Social Change and Crime Rate Trends: A Routine Activity Approach",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Argued crime happens when motivated offenders meet suitable targets without capable guardians, so daily routines shape crime rates. It is the basis of place-based policing and situational crime prevention.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gottfredson & Hirschi",
+     "year": 1990,
+     "title": "A General Theory of Crime",
+     "venue": "Stanford University Press",
+     "type": "book",
+     "why": "Claimed low self-control, set early in life, explains crime across types and ages. It is still one of the most tested and contested theories, especially by life-course researchers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Agnew",
+     "year": 1992,
+     "title": "Foundation for a General Strain Theory of Crime and Delinquency",
+     "venue": "Criminology",
+     "type": "paper",
+     "why": "Reworked strain theory around negative experiences and emotions such as anger. General strain theory remains one of the most widely tested individual-level theories.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moffitt",
+     "year": 1993,
+     "title": "Adolescence-Limited and Life-Course-Persistent Antisocial Behavior: A Developmental Taxonomy",
+     "venue": "Psychological Review",
+     "type": "paper",
+     "why": "Distinguished a small group of lifelong offenders from many teenagers who offend briefly. Developmental criminology still tests and refines this taxonomy with long-run cohort data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sampson & Laub",
+     "year": 1993,
+     "title": "Crime in the Making: Pathways and Turning Points through Life",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Showed that adult turning points like marriage and stable work help people desist from crime. It established the age-graded informal social control theory that leads life-course criminology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sampson, Raudenbush & Earls",
+     "year": 1997,
+     "title": "Neighborhoods and Violent Crime: A Multilevel Study of Collective Efficacy",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that neighbors' willingness to act for the common good explains much of the link between disadvantage and violence. Collective efficacy is still the central concept in neighborhood crime research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pettit & Western",
+     "year": 2004,
+     "title": "Mass Imprisonment and the Life Course: Race and Class Inequality in U.S. Incarceration",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Showed prison had become a common life event for young Black men without high school degrees. It started the large literature on incarceration as a source of inequality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levitt",
+     "year": 2004,
+     "title": "Understanding Why Crime Fell in the 1990s: Four Factors That Explain the Decline and Six That Do Not",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "Assessed explanations for the 1990s crime drop, from policing and prisons to abortion legalization. The crime-decline question it framed is still argued over, especially after recent spikes in violence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nagin",
+     "year": 2013,
+     "title": "Deterrence in the Twenty-First Century",
+     "venue": "Crime and Justice",
+     "type": "paper",
+     "why": "Reviewed the evidence and concluded that certainty of being caught deters far more than severity of punishment. It underpins current arguments for policing over long sentences.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Weisburd",
+     "year": 2015,
+     "title": "The Law of Crime Concentration and the Criminology of Place",
+     "venue": "Criminology",
+     "type": "paper",
+     "why": "Showed that about half of crime occurs on roughly 4 percent of street segments across many cities. It consolidated the case for place-based prevention and hot-spots policing.",
+     "verified": true,
+     "conf": "high",
+     "note": "Title corrected from draft."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Sherman, Gartin & Buerger",
+     "year": 1989,
+     "title": "Hot Spots of Predatory Crime: Routine Activities and the Criminology of Place",
+     "venue": "Criminology",
+     "type": "paper",
+     "why": "Found that a small share of Minneapolis addresses produced most police calls. It started the criminology of place and hot-spots policing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tyler",
+     "year": 1990,
+     "title": "Why People Obey the Law",
+     "venue": "Yale University Press",
+     "type": "book",
+     "why": "Showed people comply with law mainly when they see authorities as legitimate and fair, not because they fear sanctions. Procedural justice is now central to policing reform.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sampson & Raudenbush",
+     "year": 1999,
+     "title": "Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Used videotaped observation to show disorder and crime share roots in disadvantage and low collective efficacy. It is the main empirical challenge to 'broken windows.'",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Laub & Sampson",
+     "year": 2003,
+     "title": "Shared Beginnings, Divergent Lives: Delinquent Boys to Age 70",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Followed the Glueck delinquents to age 70 to show most desist and that turning points matter. It is the key long-run evidence for desistance research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Western",
+     "year": 2006,
+     "title": "Punishment and Inequality in America",
+     "venue": "Russell Sage Foundation",
+     "type": "book",
+     "why": "Showed incarceration widened racial and class gaps in wages, employment and family life. It is the core reference for the consequences of mass imprisonment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kirk",
+     "year": 2009,
+     "title": "A Natural Experiment on Residential Change and Recidivism: Lessons from Hurricane Katrina",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Used Katrina-driven relocation to show that moving away from old neighborhoods cuts reoffending. It is a model for causal designs in reentry research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Papachristos",
+     "year": 2009,
+     "title": "Murder by Structure: Dominance Relations and the Social Structure of Gang Homicide",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed gang homicides follow network patterns of retaliation and dominance. It launched network approaches to gun violence now used in prevention programs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Braga, Papachristos & Hureau",
+     "year": 2014,
+     "title": "The Effects of Hot Spots Policing on Crime: An Updated Systematic Review and Meta-Analysis",
+     "venue": "Justice Quarterly",
+     "type": "paper",
+     "why": "Pooled experiments to find that focusing police on hot spots reduces crime without simply displacing it. It is the evidence base behind place-based policing today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chalfin & McCrary",
+     "year": 2017,
+     "title": "Criminal Deterrence: A Review of the Literature",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Reviewed deterrence evidence from economics and found police numbers reduce crime while harsher sentences do less. It informs the current debate on police funding and incarceration.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sharkey, Torrats-Espinosa & Takyar",
+     "year": 2017,
+     "title": "Community and the Crime Decline: The Causal Effect of Local Nonprofits on Violent Crime",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Found that growth in community nonprofits contributed meaningfully to the US crime drop. It anchors the push for non-police approaches to public safety.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Organizations & economic sociology",
+   "lead": "The field studies how markets, firms and algorithms are socially constructed and how they sort people, with focus on hiring and discrimination, status, financialization, scoring and platform work.",
+   "papers": [
+    {
+     "authors": "Meyer & Rowan",
+     "year": 1977,
+     "title": "Institutionalized Organizations: Formal Structure as Myth and Ceremony",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Argued organizations adopt formal structures to look legitimate, often decoupled from what they actually do. Decoupling is still a core concept in work on compliance, diversity programs and ESG.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "DiMaggio & Powell",
+     "year": 1983,
+     "title": "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Explained why organizations come to look alike through coercive, mimetic and normative pressures. It is among the most cited papers in sociology and the foundation of institutional theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Granovetter",
+     "year": 1985,
+     "title": "Economic Action and Social Structure: The Problem of Embeddedness",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Argued economic action is embedded in ongoing social relations, not atomized markets. It is the founding statement of the new economic sociology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Podolny",
+     "year": 1993,
+     "title": "A Status-Based Model of Market Competition",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed that a producer's status signals quality and lowers its costs, so status shapes market outcomes. It started the large literature on status in markets and organizations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fligstein",
+     "year": 1996,
+     "title": "Markets as Politics: A Political-Cultural Approach to Market Institutions",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Treated markets as fields built and stabilized by firms and states through property rights and governance rules. It is the basis of field theory approaches to markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Uzzi",
+     "year": 1997,
+     "title": "Social Structure and Competition in Interfirm Networks: The Paradox of Embeddedness",
+     "venue": "Administrative Science Quarterly",
+     "type": "paper",
+     "why": "Showed that embedded ties help firms up to a point and then hurt them by isolating them. It is the key empirical test of embeddedness.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "MacKenzie & Millo",
+     "year": 2003,
+     "title": "Constructing a Market, Performing Theory: The Historical Sociology of a Financial Derivatives Exchange",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed that options prices came to fit the Black-Scholes model partly because traders used it. It is the anchor case for performativity, the idea that economic models shape markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kalev, Dobbin & Kelly",
+     "year": 2006,
+     "title": "Best Practices or Best Guesses? Assessing the Efficacy of Corporate Affirmative Action and Diversity Policies",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Found diversity training does little, while programs assigning responsibility, like task forces and mentoring, increase diversity. It still shapes current corporate DEI debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rivera",
+     "year": 2012,
+     "title": "Hiring as Cultural Matching: The Case of Elite Professional Service Firms",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Showed elite firms hire candidates who share evaluators' tastes and leisure pursuits. It made cultural similarity a key mechanism in hiring inequality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kellogg, Valentine & Christin",
+     "year": 2020,
+     "title": "Algorithms at Work: The New Contested Terrain of Control",
+     "venue": "Academy of Management Annals",
+     "type": "paper",
+     "why": "Reviewed how algorithms direct, evaluate and discipline workers and how workers resist. It sets the agenda for the sociology of algorithmic management.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "White",
+     "year": 1981,
+     "title": "Where Do Markets Come From?",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Modeled production markets as producers watching one another and forming role structures. It is the root of network-based approaches to markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zelizer",
+     "year": 1994,
+     "title": "The Social Meaning of Money",
+     "venue": "Basic Books",
+     "type": "book",
+     "why": "Showed people mark money for different purposes and relationships, rather than treating it as fungible. It is central to the sociology of money, care and intimate economies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thornton & Ocasio",
+     "year": 1999,
+     "title": "Institutional Logics and the Historical Contingency of Power in Organizations: Executive Succession in the Higher Education Publishing Industry, 1958-1990",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed a shift from editorial to market logic changed how executives were chosen. The institutional logics perspective is now a dominant strand of organization theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fernandez, Castilla & Moore",
+     "year": 2000,
+     "title": "Social Capital at Work: Networks and Employment at a Phone Center",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed that referral hiring pays off for firms through richer pools and better fit. It is a key study of how networks operate inside hiring.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Krippner",
+     "year": 2005,
+     "title": "The Financialization of the American Economy",
+     "venue": "Socio-Economic Review",
+     "type": "paper",
+     "why": "Showed that a growing share of US profits came from financial channels rather than production. It is the standard reference for financialization research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Espeland & Sauder",
+     "year": 2007,
+     "title": "Rankings and Reactivity: How Public Measures Recreate Social Worlds",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed law school rankings changed the behavior of the schools they measured. It drives current work on metrics, quantification and algorithmic scoring.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Castilla",
+     "year": 2008,
+     "title": "Gender, Race, and Meritocracy in Organizational Careers",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Found women and minorities got smaller raises than white men with the same performance scores. It is a core study of bias in performance-based pay.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kalleberg",
+     "year": 2009,
+     "title": "Precarious Work, Insecure Workers: Employment Relations in Transition",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Documented the spread of insecure, uncertain employment in the US. It frames current research on gig work and job quality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fourcade & Healy",
+     "year": 2013,
+     "title": "Classification Situations: Life-Chances in the Neoliberal Era",
+     "venue": "Accounting, Organizations and Society",
+     "type": "paper",
+     "why": "Argued credit scores and similar classifications now sort people's life chances like class once did. It underlies the sociology of scoring and data-driven markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vallas & Schor",
+     "year": 2020,
+     "title": "What Do Platforms Do? Understanding the Gig Economy",
+     "venue": "Annual Review of Sociology",
+     "type": "paper",
+     "why": "Argued platforms are a new governance form that shifts control and risk onto workers. It is the go-to synthesis for platform labor research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

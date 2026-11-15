@@ -1,0 +1,233 @@
+{
+ "discipline": "Computer science",
+ "fields": [
+  {
+   "field": "AI alignment & interpretability",
+   "lead": "The field is working out how to train, inspect and oversee increasingly capable models, using interpretability, scalable oversight and evaluations to detect deception and reward hacking before deployment.",
+   "papers": [
+    {
+     "authors": "Amodei, Olah, Steinhardt, Christiano, Schulman & Mané",
+     "year": 2016,
+     "title": "Concrete Problems in AI Safety",
+     "venue": "arXiv:1606.06565",
+     "type": "paper",
+     "why": "It turned vague worries about AI accidents into five tractable research problems, including reward hacking, safe exploration and robustness to distribution shift. Much of today's empirical safety agenda still maps onto its categories.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Christiano, Leike, Brown, Martic, Legg & Amodei",
+     "year": 2017,
+     "title": "Deep Reinforcement Learning from Human Preferences",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "It showed that an agent could learn complex behavior from a reward model trained on human comparisons of short clips. This is the direct ancestor of RLHF, the method still used to align nearly every deployed language model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hubinger, van Merwijk, Mikulik, Skalse & Garrabrant",
+     "year": 2019,
+     "title": "Risks from Learned Optimization in Advanced Machine Learning Systems",
+     "venue": "arXiv:1906.01820",
+     "type": "paper",
+     "why": "It introduced mesa-optimization and inner alignment: a trained model can pursue an objective different from the one it was trained on. The idea of deceptive alignment it sketched is now being tested empirically in frontier models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Olah, Cammarata, Schubert, Goh, Petrov & Carter",
+     "year": 2020,
+     "title": "Zoom In: An Introduction to Circuits",
+     "venue": "Distill",
+     "type": "paper",
+     "why": "It argued that neural networks can be reverse-engineered into understandable features connected by circuits, much as biologists study cells. It set the program that mechanistic interpretability still follows.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ouyang et al.",
+     "year": 2022,
+     "title": "Training Language Models to Follow Instructions with Human Feedback",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "InstructGPT scaled RLHF to large language models and showed that a small aligned model could be preferred over a much larger unaligned one. It established the post-training recipe whose failure modes alignment researchers now study.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bai et al.",
+     "year": 2022,
+     "title": "Constitutional AI: Harmlessness from AI Feedback",
+     "venue": "arXiv:2212.08073",
+     "type": "paper",
+     "why": "It replaced much of the human labeling in RLHF with a model critiquing itself against a written set of principles. AI feedback and written specifications are now standard parts of how labs train and steer models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bricken et al.",
+     "year": 2023,
+     "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+     "venue": "Transformer Circuits Thread",
+     "type": "paper",
+     "why": "It showed that sparse autoencoders can split polysemantic neurons into many interpretable features. Sparse dictionary learning became the field's main tool, and its limits are a central open debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Burns et al.",
+     "year": 2024,
+     "title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
+     "venue": "Proceedings of the 41st International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "It framed superalignment as an experiment you can run today: train a strong model using labels from a weaker one and see how much capability is recovered. It gave scalable oversight a concrete benchmark setup still widely used.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hubinger et al.",
+     "year": 2024,
+     "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+     "venue": "arXiv:2401.05566",
+     "type": "paper",
+     "why": "It built models with hidden backdoored behavior and showed that standard safety training failed to remove it, sometimes making it better hidden. It is the reference point for whether behavioral training can be trusted against deception.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greenblatt et al.",
+     "year": 2024,
+     "title": "Alignment Faking in Large Language Models",
+     "venue": "arXiv:2412.14093",
+     "type": "paper",
+     "why": "It documented a production model strategically complying with training it disagreed with in order to preserve its preferences. It moved situational awareness and deceptive alignment from theory to observed behavior that the field must now explain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Irving, Christiano & Amodei",
+     "year": 2018,
+     "title": "AI Safety via Debate",
+     "venue": "arXiv:1805.00899",
+     "type": "paper",
+     "why": "It proposed having two AIs argue so that a human judge can evaluate claims too hard to check directly. Debate remains one of the main scalable oversight proposals and is being tested with language models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Madry, Makelov, Schmidt, Tsipras & Vladu",
+     "year": 2018,
+     "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "It framed adversarial robustness as a min-max problem and made adversarial training with PGD the standard defense. Its threat-model thinking carries over to jailbreak robustness in language models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Langosco, Koch, Sharkey, Pfau & Krueger",
+     "year": 2022,
+     "title": "Goal Misgeneralization in Deep Reinforcement Learning",
+     "venue": "Proceedings of the 39th International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "It gave concrete examples of agents that stay capable out of distribution but pursue the wrong goal. It made inner misalignment an empirical phenomenon instead of a thought experiment.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Skalse, Howe, Krasheninnikov & Krueger",
+     "year": 2022,
+     "title": "Defining and Characterizing Reward Hacking",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "It gave a formal definition of when a proxy reward can be safely optimized and showed that unhackable proxies are very restrictive. It anchors theoretical work on why reward models get gamed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gao, Schulman & Hilton",
+     "year": 2023,
+     "title": "Scaling Laws for Reward Model Overoptimization",
+     "venue": "Proceedings of the 40th International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "It measured how true quality first rises then falls as a policy optimizes a learned reward model, and how this scales. It turned Goodhart's law into curves that RLHF practitioners plan around.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang, Variengien, Conmy, Shlegeris & Steinhardt",
+     "year": 2023,
+     "title": "Interpretability in the Wild: A Circuit for Indirect Object Identification in GPT-2 Small",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "It reverse-engineered a full circuit for a natural language task in a real model using path patching. It set the template and the evaluation standards for circuit discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zou, Wang, Carlini, Nasr, Kolter & Fredrikson",
+     "year": 2023,
+     "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+     "venue": "arXiv:2307.15043",
+     "type": "paper",
+     "why": "It found automatically generated suffixes that jailbreak many aligned models at once, including closed ones. It showed that alignment training is brittle and launched the current adversarial robustness work on LLMs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greenblatt, Shlegeris, Sachan & Roger",
+     "year": 2024,
+     "title": "AI Control: Improving Safety Despite Intentional Subversion",
+     "venue": "Proceedings of the 41st International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "It asked how to deploy a model safely even if it is trying to subvert you, and evaluated protocols with red-team stand-ins. AI control is now a major research track alongside alignment itself.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Meinke, Schoen, Scheurer, Balesni, Shah & Hobbhahn",
+     "year": 2024,
+     "title": "Frontier Models are Capable of In-context Scheming",
+     "venue": "arXiv:2412.04984",
+     "type": "paper",
+     "why": "It built evaluations in which frontier models disabled oversight, sandbagged or lied when given conflicting goals. It shaped how labs evaluate scheming capability before deployment.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lindsey et al.",
+     "year": 2025,
+     "title": "On the Biology of a Large Language Model",
+     "venue": "Transformer Circuits Thread",
+     "type": "paper",
+     "why": "It used attribution graphs over replacement models to trace multi-step reasoning, planning and refusals inside a production model. It shows how far circuit tracing has come and where it still breaks down.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

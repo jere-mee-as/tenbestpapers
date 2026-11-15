@@ -1,0 +1,1373 @@
+{
+ "discipline": "Linguistics",
+ "fields": [
+  {
+   "field": "Syntax",
+   "lead": "Syntax is working out how far a minimal set of operations can explain word order and agreement, testing that against construction-based and usage-based rivals, better experimental judgment data and the grammatical abilities of neural language models.",
+   "papers": [
+    {
+     "authors": "Chomsky",
+     "year": 1995,
+     "title": "The Minimalist Program",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Recast generative grammar around the question of how little machinery the language faculty needs, reducing syntax to structure-building and economy conditions. Most current formal syntax is written in this framework, and its critics still define themselves against it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pollock",
+     "year": 1989,
+     "title": "Verb Movement, Universal Grammar, and the Structure of IP",
+     "venue": "Linguistic Inquiry",
+     "type": "paper",
+     "why": "Used French and English verb and adverb placement to argue that the clause contains several separate functional heads. Reading hidden clause structure off word-order contrasts is still the basic method of comparative syntax.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rizzi",
+     "year": 1990,
+     "title": "Relativized Minimality",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Proposed that a dependency is blocked only by an intervener of the same type, unifying a range of locality effects. Intervention-based locality is still the standard account and is now tested directly in acquisition and processing studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kayne",
+     "year": 1994,
+     "title": "The Antisymmetry of Syntax",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Argued that linear order is fully determined by hierarchical structure, so that all languages are underlyingly specifier-head-complement. Its claims about word order and linearization remain a live point of disagreement in work on typology and the syntax-phonology interface.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rizzi",
+     "year": 1997,
+     "title": "The fine structure of the left periphery",
+     "venue": "Elements of Grammar (ed. Haegeman), Kluwer",
+     "type": "paper",
+     "why": "Split the clause's left edge into distinct positions for force, topic, focus and finiteness. It launched the cartographic program, which is still mapping fine-grained functional structure across languages and debating how it fits minimalism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chomsky",
+     "year": 2001,
+     "title": "Derivation by Phase",
+     "venue": "Ken Hale: A Life in Language (ed. Kenstowicz), MIT Press",
+     "type": "paper",
+     "why": "Introduced phases and Agree, so that structure is built and sent to interpretation in chunks. Phase theory and probe-goal agreement are the working toolkit of current minimalist analyses of locality and agreement.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldberg",
+     "year": 1995,
+     "title": "Constructions: A Construction Grammar Approach to Argument Structure",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Argued that form-meaning pairings above the word, such as the ditransitive, carry meaning of their own, so verbs need not determine their syntax. It is the main reference for construction grammar and usage-based syntax, the leading alternative to generative approaches.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hauser, Chomsky & Fitch",
+     "year": 2002,
+     "title": "The Faculty of Language: What Is It, Who Has It, and How Did It Evolve?",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Proposed that recursion may be the only uniquely human, language-specific component of the language faculty. The paper set the terms of a still-running fight over recursion, animal cognition and language evolution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Everett",
+     "year": 2005,
+     "title": "Cultural Constraints on Grammar and Cognition in Pirahã",
+     "venue": "Current Anthropology",
+     "type": "paper",
+     "why": "Claimed that Pirahã lacks embedding and other supposed universals, attributing this to cultural constraints. The claim and the rebuttals it drew keep the debate over universals and recursion going and pushed the field to examine its fieldwork evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sprouse, Schütze & Almeida",
+     "year": 2013,
+     "title": "A comparison of informal and formal acceptability judgments using a random sample from Linguistic Inquiry 2001-2010",
+     "venue": "Lingua",
+     "type": "paper",
+     "why": "Retested a random sample of journal judgments with formal experiments and found that the large majority replicate. It largely settled the dispute over whether armchair judgments are reliable, and made experimental syntax a normal part of the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Ross",
+     "year": 1967,
+     "title": "Constraints on Variables in Syntax",
+     "venue": "PhD dissertation, MIT",
+     "type": "book",
+     "why": "Identified and named island constraints, the environments out of which nothing can be moved. Whether islands are grammatical or come from processing limits is still one of the most actively tested questions in syntax.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Larson",
+     "year": 1988,
+     "title": "On the double object construction",
+     "venue": "Linguistic Inquiry",
+     "type": "paper",
+     "why": "Proposed the layered VP shell, with the verb raising through more than one verbal projection. VP shells and the split verb phrase they led to are standard in current analyses of argument structure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kratzer",
+     "year": 1996,
+     "title": "Severing the external argument from its verb",
+     "venue": "Phrase Structure and the Lexicon (eds. Rooryck & Zaring), Kluwer",
+     "type": "paper",
+     "why": "Argued that the agent is introduced by a separate functional head (Voice) rather than by the verb itself. Voice and the split verb phrase are central to current work on argument structure, causatives and passives.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cinque",
+     "year": 1999,
+     "title": "Adverbs and Functional Heads: A Cross-Linguistic Perspective",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Used the cross-linguistically fixed order of adverbs to propose a rich universal hierarchy of clausal functional heads. It is the cartographic program's main empirical case and is still argued over by scope-based and semantic alternatives.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Culicover & Jackendoff",
+     "year": 2005,
+     "title": "Simpler Syntax",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that syntax should posit as little hidden structure as possible, with more work done by semantics and constructions. It is a key statement of the non-derivational alternative to minimalism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Evans & Levinson",
+     "year": 2009,
+     "title": "The myth of language universals: Language diversity and its importance for cognitive science",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Argued from typological diversity that there are few if any absolute universals of grammar. With its many published replies, it remains the reference point for the debate over what Universal Grammar can still mean.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sprouse, Wagers & Phillips",
+     "year": 2012,
+     "title": "A test of the relation between working-memory capacity and syntactic island effects",
+     "venue": "Language",
+     "type": "paper",
+     "why": "Measured island effects experimentally and found they do not track individual working-memory capacity, as processing accounts predict. It is the core study in the ongoing grammar-versus-processing debate about islands.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chomsky",
+     "year": 2013,
+     "title": "Problems of projection",
+     "venue": "Lingua",
+     "type": "paper",
+     "why": "Dropped the stipulation that every phrase has a head, proposing that labels are found by a labeling algorithm. Labeling theory is a main focus of current minimalist work on movement and phrase structure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Preminger",
+     "year": 2014,
+     "title": "Agreement and Its Failures",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Showed that agreement can fail without the derivation crashing, arguing that it is an operation that is attempted, not a requirement. It shifted current theories of agreement and case.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Linzen, Dupoux & Goldberg",
+     "year": 2016,
+     "title": "Assessing the ability of LSTMs to learn syntax-sensitive dependencies",
+     "venue": "Transactions of the Association for Computational Linguistics",
+     "type": "paper",
+     "why": "Used subject-verb agreement to test whether neural networks learn hierarchical structure from raw text. It began the now large line of work using syntax to probe language models, and the models to test claims about learnability.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Phonology",
+   "lead": "Phonology is mainly asking how much of sound structure is learned statistically, how much comes from phonetics and history, and how much is shaped by learning biases, using weighted-constraint models, artificial-language experiments and formal learnability.",
+   "papers": [
+    {
+     "authors": "Chomsky & Halle",
+     "year": 1968,
+     "title": "The Sound Pattern of English",
+     "venue": "Harper & Row",
+     "type": "book",
+     "why": "Set out rule-based generative phonology with a universal feature system and ordered rules. Its features are still the default vocabulary, and the question of whether phonology needs ordered rules or constraints is still argued, often in its terms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ohala",
+     "year": 1981,
+     "title": "The listener as a source of sound change",
+     "venue": "Papers from the Parasession on Language and Behavior (eds. Masek, Hendrick & Miller), Chicago Linguistic Society",
+     "type": "paper",
+     "why": "Argued that many sound changes arise when listeners misparse phonetic detail. It underpins the current view that many typological patterns come from phonetics and history rather than grammar.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beckman & Pierrehumbert",
+     "year": 1986,
+     "title": "Intonational structure in Japanese and English",
+     "venue": "Phonology Yearbook",
+     "type": "paper",
+     "why": "Developed the autosegmental-metrical model of intonation, with tones linked to a prosodic hierarchy. This model and the ToBI annotation it led to remain the standard way intonation is analyzed and transcribed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Browman & Goldstein",
+     "year": 1992,
+     "title": "Articulatory phonology: an overview",
+     "venue": "Phonetica",
+     "type": "paper",
+     "why": "Proposed that the units of phonology are coordinated articulatory gestures, not abstract segments. It is the main framework for work on gestural timing and is central to current models linking phonological representation to speech motor control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Prince & Smolensky",
+     "year": 1993,
+     "title": "Optimality Theory: Constraint Interaction in Generative Grammar",
+     "venue": "Rutgers University Center for Cognitive Science technical report (published by Blackwell, 2004)",
+     "type": "book",
+     "why": "Replaced ordered rules with ranked, violable universal constraints that select the best output. OT and its weighted descendants are still the dominant framework for analysis, typology and learning in phonology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McCarthy & Prince",
+     "year": 1995,
+     "title": "Faithfulness and reduplicative identity",
+     "venue": "Papers in Optimality Theory (University of Massachusetts Occasional Papers in Linguistics 18)",
+     "type": "paper",
+     "why": "Introduced correspondence theory, so faithfulness constraints compare corresponding segments in input and output, base and reduplicant. Correspondence is the standard machinery for faithfulness in constraint-based phonology today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pierrehumbert",
+     "year": 2001,
+     "title": "Exemplar dynamics: word frequency, lenition and contrast",
+     "venue": "Frequency and the Emergence of Linguistic Structure (eds. Bybee & Hopper), John Benjamins",
+     "type": "paper",
+     "why": "Modeled categories as clouds of remembered tokens, explaining why frequent words lenite faster. It is a main reference for hybrid models that combine abstract categories with detailed, frequency-sensitive memory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blevins",
+     "year": 2004,
+     "title": "Evolutionary Phonology: The Emergence of Sound Patterns",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Argued that recurrent sound patterns come from shared pathways of sound change rather than from innate grammatical constraints. It forces every proposed universal constraint to show it does work that history cannot.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moreton",
+     "year": 2008,
+     "title": "Analytic bias and phonological typology",
+     "venue": "Phonology",
+     "type": "paper",
+     "why": "Used artificial-language experiments to separate learning biases from biases in phonetic transmission. It set the agenda for the experimental study of which typological patterns learners actually find easier.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hayes & Wilson",
+     "year": 2008,
+     "title": "A maximum entropy model of phonotactics and phonotactic learning",
+     "venue": "Linguistic Inquiry",
+     "type": "paper",
+     "why": "Built a learner that induces weighted constraints from a lexicon and predicts gradient well-formedness judgments. Maximum-entropy grammars are now the default tool for modeling gradience and learning in phonology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Goldsmith",
+     "year": 1976,
+     "title": "Autosegmental Phonology",
+     "venue": "PhD dissertation, MIT",
+     "type": "book",
+     "why": "Put tones and other features on separate tiers linked by association lines. Multi-tier representations are still the basis of work on tone, harmony and templatic morphology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liberman & Prince",
+     "year": 1977,
+     "title": "On stress and linguistic rhythm",
+     "venue": "Linguistic Inquiry",
+     "type": "paper",
+     "why": "Treated stress as relative prominence in metrical trees and grids. Metrical structure remains the basis of current stress and rhythm theory and of the prosodic hierarchy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kiparsky",
+     "year": 1982,
+     "title": "Lexical morphology and phonology",
+     "venue": "Linguistics in the Morning Calm (ed. Linguistic Society of Korea), Hanshin",
+     "type": "paper",
+     "why": "Interleaved phonology with word formation in ordered strata. Its stratal descendant, Stratal OT, is one of the main current answers to opacity and cyclicity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Boersma & Hayes",
+     "year": 2001,
+     "title": "Empirical tests of the Gradual Learning Algorithm",
+     "venue": "Linguistic Inquiry",
+     "type": "paper",
+     "why": "Gave a stochastic constraint ranking that can model free variation and learn from frequencies. It moved phonology toward probabilistic grammars and testable learning algorithms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilson",
+     "year": 2006,
+     "title": "Learning phonology with substantive bias: an experimental and computational study of velar palatalization",
+     "venue": "Cognitive Science",
+     "type": "paper",
+     "why": "Showed that learners generalize phonetically natural patterns more readily, and modeled this as a prior in a learner. It is a model study for the current debate over substantive bias in learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hale & Reiss",
+     "year": 2008,
+     "title": "The Phonological Enterprise",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued for a substance-free phonology in which phonetics plays no role in the grammar itself. It is the main statement of the position that rivals phonetically grounded constraint theories.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mielke",
+     "year": 2008,
+     "title": "The Emergence of Distinctive Features",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Surveyed hundreds of languages and found many sound classes that innate features cannot express. It is the main empirical argument for learned, emergent features.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pater",
+     "year": 2009,
+     "title": "Weighted constraints in generative linguistics",
+     "venue": "Cognitive Science",
+     "type": "paper",
+     "why": "Argued for weighted rather than ranked constraints, linking OT to Harmonic Grammar and to learning theory. It drove the current shift toward weighted and probabilistic constraint grammars.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Steriade",
+     "year": 2009,
+     "title": "The phonology of perceptibility effects: the P-map and its consequences for constraint organization",
+     "venue": "The Nature of the Word: Studies in Honor of Paul Kiparsky (eds. Hanson & Inkelas), MIT Press",
+     "type": "paper",
+     "why": "Proposed that speakers know which contrasts are perceptually similar and that this knowledge orders faithfulness. The P-map is the standard reference for perceptually grounded phonology.",
+     "verified": false,
+     "conf": "low",
+     "note": "Widely circulated from 2001; book publication year 2008 or 2009 not confirmed."
+    },
+    {
+     "authors": "Heinz",
+     "year": 2010,
+     "title": "Learning long-distance phonotactics",
+     "venue": "Linguistic Inquiry",
+     "type": "paper",
+     "why": "Showed that long-distance phonotactic patterns belong to a restricted formal language class that is easy to learn. It started the subregular program, which uses formal language theory to explain why phonological patterns look the way they do.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Semantics & pragmatics",
+   "lead": "Semantics and pragmatics is centred on how meaning depends on context: questions under discussion, implicature as grammar or reasoning, and probabilistic models of speakers and listeners tested experimentally.",
+   "papers": [
+    {
+     "authors": "Montague",
+     "year": 1973,
+     "title": "The Proper Treatment of Quantification in Ordinary English",
+     "venue": "Approaches to Natural Language (eds. Hintikka, Moravcsik & Suppes), Reidel",
+     "type": "paper",
+     "why": "Showed that English can be given a fully compositional model-theoretic semantics, including quantifiers. Type-driven compositional semantics in this style remains the backbone of the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Grice",
+     "year": 1975,
+     "title": "Logic and Conversation",
+     "venue": "Syntax and Semantics 3: Speech Acts (eds. Cole & Morgan), Academic Press",
+     "type": "paper",
+     "why": "Separated what is said from what is implicated and derived implicatures from cooperative maxims. Every current theory of implicature, grammatical or probabilistic, starts here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stalnaker",
+     "year": 1978,
+     "title": "Assertion",
+     "venue": "Syntax and Semantics 9: Pragmatics (ed. Cole), Academic Press",
+     "type": "paper",
+     "why": "Modeled conversation as updating a common ground of shared assumptions. The common ground is still the standard model of context for presupposition, assertion and discourse.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kratzer",
+     "year": 1981,
+     "title": "The notional category of modality",
+     "venue": "Words, Worlds, and Contexts (eds. Eikmeyer & Rieser), de Gruyter",
+     "type": "paper",
+     "why": "Analyzed modals as quantifiers over possible worlds restricted by a modal base and an ordering source. It is still the standard theory of modality and the starting point for work on conditionals, attitudes and evidentials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Heim",
+     "year": 1982,
+     "title": "The Semantics of Definite and Indefinite Noun Phrases",
+     "venue": "PhD dissertation, University of Massachusetts Amherst",
+     "type": "book",
+     "why": "Treated indefinites as introducing discourse referents and meanings as context-change potentials. It founded dynamic semantics, which remains central to work on anaphora and presupposition.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rooth",
+     "year": 1992,
+     "title": "A theory of focus interpretation",
+     "venue": "Natural Language Semantics",
+     "type": "paper",
+     "why": "Gave focus a semantics of alternatives that other operators and discourse constraints can use. Alternative semantics now underlies work on focus, questions, implicature and polarity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Heim & Kratzer",
+     "year": 1998,
+     "title": "Semantics in Generative Grammar",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Combined compositional semantics with generative syntax in a single type-driven system. It is still how most of the field is trained and the shared baseline research papers assume.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chierchia",
+     "year": 2004,
+     "title": "Scalar implicatures, polarity phenomena, and the syntax/pragmatics interface",
+     "venue": "Structures and Beyond (ed. Belletti), Oxford University Press",
+     "type": "paper",
+     "why": "Argued that scalar implicatures are computed locally inside the grammar, not globally by reasoning about speakers. It opened the grammatical-versus-pragmatic implicature debate that experimental and formal work is still running.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roberts",
+     "year": 2012,
+     "title": "Information structure in discourse: Towards an integrated formal theory of pragmatics",
+     "venue": "Semantics and Pragmatics",
+     "type": "paper",
+     "why": "Organized discourse around a stack of questions under discussion that utterances address. The QUD model is now the default tool for explaining focus, relevance and context-sensitivity. Circulated since 1996; this is the published version.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frank & Goodman",
+     "year": 2012,
+     "title": "Predicting pragmatic reasoning in language games",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Modeled listeners as Bayesian reasoners about cooperative speakers and fit the model to experimental choices. It launched the Rational Speech Act framework, now the main quantitative approach to pragmatics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Lewis",
+     "year": 1979,
+     "title": "Scorekeeping in a language game",
+     "venue": "Journal of Philosophical Logic",
+     "type": "paper",
+     "why": "Treated conversation as a game whose score, including presuppositions and standards, shifts by accommodation. Accommodation and contextual standards remain central to work on presupposition and vagueness.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kamp",
+     "year": 1981,
+     "title": "A theory of truth and semantic representation",
+     "venue": "Formal Methods in the Study of Language (eds. Groenendijk, Janssen & Stokhof), Mathematisch Centrum",
+     "type": "paper",
+     "why": "Introduced Discourse Representation Theory, in which sentences build up structured discourse representations. DRT is still widely used for anaphora, tense and computational semantics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Link",
+     "year": 1983,
+     "title": "The logical analysis of plurals and mass terms: a lattice-theoretical approach",
+     "venue": "Meaning, Use and Interpretation of Language (eds. Bäuerle, Schwarze & von Stechow), de Gruyter",
+     "type": "paper",
+     "why": "Modeled plurals and mass terms with lattice structures of individuals. It is the basis of current semantics of plurality, distributivity and event mereology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sperber & Wilson",
+     "year": 1986,
+     "title": "Relevance: Communication and Cognition",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Replaced Grice's maxims with a single cognitive principle of relevance. Relevance Theory remains the main cognitive-pragmatic alternative to neo-Gricean and formal approaches.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levinson",
+     "year": 2000,
+     "title": "Presumptive Meanings: The Theory of Generalized Conversational Implicature",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Argued that some implicatures arise by default, forming a layer between coded meaning and nonce inference. Default versus context-driven implicature is still tested in processing experiments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Potts",
+     "year": 2005,
+     "title": "The Logic of Conventional Implicatures",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Gave a multidimensional semantics for appositives and expressives that contribute side meanings. It underlies current work on not-at-issue content, expressives and slurs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fox",
+     "year": 2007,
+     "title": "Free choice and the theory of scalar implicatures",
+     "venue": "Presupposition and Implicature in Compositional Semantics (eds. Sauerland & Stateva), Palgrave Macmillan",
+     "type": "paper",
+     "why": "Derived free-choice readings with a grammatical exhaustification operator applied recursively. Exhaustification is the core of the current grammatical theory of implicature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kennedy",
+     "year": 2007,
+     "title": "Vagueness and grammar: the semantics of relative and absolute gradable adjectives",
+     "venue": "Linguistics and Philosophy",
+     "type": "paper",
+     "why": "Linked vagueness to the scale structure of gradable adjectives. Degree semantics built on it is still the standard account of adjectives and comparison.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goodman & Frank",
+     "year": 2016,
+     "title": "Pragmatic language interpretation as probabilistic inference",
+     "venue": "Trends in Cognitive Sciences",
+     "type": "paper",
+     "why": "Reviewed and generalized the Rational Speech Act framework across implicature, vagueness and metaphor. It is the standard entry point to probabilistic pragmatics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ciardelli, Groenendijk & Roelofsen",
+     "year": 2018,
+     "title": "Inquisitive Semantics",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Gave a semantics in which sentences raise issues as well as provide information, treating questions and statements in one system. It is the main current framework for the semantics of questions and disjunction.",
+     "verified": false,
+     "conf": "low",
+     "note": "Publication year 2018 vs 2019 not confirmed."
+    }
+   ]
+  },
+  {
+   "field": "Historical linguistics",
+   "lead": "Historical linguistics is combining the comparative method with Bayesian phylogenetics, large databases and ancient DNA to date language families and measure rates of change, while still asking how grammar change is actuated and spreads.",
+   "papers": [
+    {
+     "authors": "Weinreich, Labov & Herzog",
+     "year": 1968,
+     "title": "Empirical foundations for a theory of language change",
+     "venue": "Directions for Historical Linguistics (eds. Lehmann & Malkiel), University of Texas Press",
+     "type": "paper",
+     "why": "Argued that change can be studied in progress through structured variation in a community, and set out the constraints, transition, embedding, evaluation and actuation problems. The actuation problem in particular is still open and drives current modeling of change.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kroch",
+     "year": 1989,
+     "title": "Reflexes of grammar in patterns of language change",
+     "venue": "Language Variation and Change",
+     "type": "paper",
+     "why": "Showed that a syntactic change proceeds at the same rate in all contexts, the Constant Rate Effect, implying competition between grammars. Grammar competition is still the main quantitative model of syntactic change in parsed historical corpora.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nichols",
+     "year": 1992,
+     "title": "Linguistic Diversity in Space and Time",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Studied the geographic and genealogical distribution of structural features to read deep population history. Its population-typology approach underlies today's large-scale areal and phylogenetic typology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hopper & Traugott",
+     "year": 1993,
+     "title": "Grammaticalization",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Synthesized how lexical items become grammatical markers along recurrent pathways. Grammaticalization and its unidirectionality remain central to explaining where grammar comes from.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ringe, Warnow & Taylor",
+     "year": 2002,
+     "title": "Indo-European and computational cladistics",
+     "venue": "Transactions of the Philological Society",
+     "type": "paper",
+     "why": "Used carefully coded linguistic characters and computational methods to infer the Indo-European family tree. It showed that computational phylogenetics can respect the comparative method, a standard current studies still have to meet.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pagel, Atkinson & Meade",
+     "year": 2007,
+     "title": "Frequency of word-use predicts rates of lexical evolution throughout Indo-European history",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found that frequently used words are replaced more slowly. Rate variation across the lexicon is now built into phylogenetic dating and work on deep relationships.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dunn, Greenhill, Levinson & Gray",
+     "year": 2011,
+     "title": "Evolved structure of language shows lineage-specific trends in word-order universals",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used phylogenetic methods to argue that word-order correlations differ by lineage rather than being universal. It brought phylogenetic comparative methods into typology and sparked a continuing argument about universals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bouckaert et al.",
+     "year": 2012,
+     "title": "Mapping the origins and expansion of the Indo-European language family",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used Bayesian phylogeography on lexical data to support an Anatolian origin for Indo-European. It made spatial phylogenetic inference standard and sharpened the dispute with the steppe hypothesis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chang, Cathcart, Hall & Garrett",
+     "year": 2015,
+     "title": "Ancestry-constrained phylogenetic analysis supports the Indo-European steppe hypothesis",
+     "venue": "Language",
+     "type": "paper",
+     "why": "Showed that constraining ancient languages to be ancestors of attested ones shifts the date of Proto-Indo-European toward the steppe hypothesis. It exposed how modeling choices drive dates and is the main methodological counterweight to earlier Bayesian results.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Heggarty et al.",
+     "year": 2023,
+     "title": "Language trees with sampled ancestors support a hybrid model for the origin of Indo-European languages",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used a large curated dataset and sampled-ancestor models to propose an origin south of the Caucasus with a later steppe branch. It is the current reference point in the debate that links language phylogenies with ancient DNA.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Thomason & Kaufman",
+     "year": 1988,
+     "title": "Language Contact, Creolization, and Genetic Linguistics",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Argued that intensity of contact, not linguistic structure, limits what can be borrowed. It is still the standard framework for contact-induced change.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Labov",
+     "year": 1994,
+     "title": "Principles of Linguistic Change, Volume 1: Internal Factors",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Used apparent-time and real-time data to find general principles of chain shifts and mergers. It is the main reference for how sound changes unfold within a community.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lightfoot",
+     "year": 1999,
+     "title": "The Development of Language: Acquisition, Change, and Evolution",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Located syntactic change in children acquiring different grammars from shifted input. Acquisition-driven change remains a main hypothesis tested in diachronic syntax.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Croft",
+     "year": 2000,
+     "title": "Explaining Language Change: An Evolutionary Approach",
+     "venue": "Longman",
+     "type": "book",
+     "why": "Recast change as replication and selection of linguistic variants in utterances. Its evolutionary framework underlies much current usage-based and population-level modeling of change.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roberts & Roussou",
+     "year": 2003,
+     "title": "Syntactic Change: A Minimalist Approach to Grammaticalization",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Treated grammaticalization as reanalysis upward along the clausal functional hierarchy. It is the main formal account linking grammaticalization to syntactic theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gray & Atkinson",
+     "year": 2003,
+     "title": "Language-tree divergence times support the Anatolian theory of Indo-European origin",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Applied Bayesian phylogenetic dating to Indo-European cognate data. It started the computational dating debate that later work has refined and contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lieberman, Michel, Jackson, Tang & Nowak",
+     "year": 2007,
+     "title": "Quantifying the evolutionary dynamics of language",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that irregular English verbs regularize at a rate tied to their frequency. It made quantitative laws of change a target for corpus-based modeling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gray, Drummond & Greenhill",
+     "year": 2009,
+     "title": "Language phylogenies reveal expansion pulses and pauses in Pacific settlement",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used Austronesian language phylogenies to reconstruct the timing and pauses of Pacific settlement. It is a key model for using language trees as evidence for human population history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ringe & Eska",
+     "year": 2013,
+     "title": "Historical Linguistics: Toward a Twenty-First Century Reintegration",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Integrated the comparative method with modern phonology, syntax and acquisition. It argues that change must be explained with current linguistic theory, a goal the field is still pursuing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greenhill et al.",
+     "year": 2017,
+     "title": "Evolutionary dynamics of language systems",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Compared rates of change in vocabulary and grammatical structure across Austronesian languages, finding grammar often changes faster. It challenged the assumption that grammar is a stable signal of deep history.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Sociolinguistics",
+   "lead": "Sociolinguistics is studying how variation carries social meaning and builds identity, how language ideologies, race and multilingualism shape institutions, and increasingly how variation and change play out in large digital data.",
+   "papers": [
+    {
+     "authors": "Labov",
+     "year": 1963,
+     "title": "The social motivation of a sound change",
+     "venue": "Word",
+     "type": "paper",
+     "why": "Showed that Martha's Vineyard islanders used a vowel variant to express local identity, linking a sound change to social meaning. It is still the founding example for studies of how variation carries identity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Labov",
+     "year": 1966,
+     "title": "The Social Stratification of English in New York City",
+     "venue": "Center for Applied Linguistics",
+     "type": "book",
+     "why": "Showed that variation is systematically structured by class and style and can be measured. Its methods, the sociolinguistic interview and quantitative variable analysis, remain the field's core toolkit.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Milroy",
+     "year": 1980,
+     "title": "Language and Social Networks",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Showed that dense, multiplex social networks maintain local vernacular norms. Network analysis remains central to explaining how innovations spread, now including online networks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gumperz",
+     "year": 1982,
+     "title": "Discourse Strategies",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Introduced contextualization cues and interactional sociolinguistics, showing how small differences cause miscommunication across groups. Its methods remain basic to studying language in workplaces, courts and other institutions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Silverstein",
+     "year": 2003,
+     "title": "Indexical order and the dialectics of sociolinguistic life",
+     "venue": "Language & Communication",
+     "type": "paper",
+     "why": "Explained how linguistic forms gain layered social meanings through orders of indexicality. It is the theoretical base for current research on social meaning and enregisterment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bucholtz & Hall",
+     "year": 2005,
+     "title": "Identity and interaction: a sociocultural linguistic approach",
+     "venue": "Discourse Studies",
+     "type": "paper",
+     "why": "Argued that identity is produced in interaction rather than being a fixed attribute expressed by speech. Its principles frame most current work on language and identity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eckert",
+     "year": 2008,
+     "title": "Variation and the indexical field",
+     "venue": "Journal of Sociolinguistics",
+     "type": "paper",
+     "why": "Argued that a variable carries a field of related, shifting meanings that speakers use in styling themselves. It is the standard reference for third-wave studies of stylistic meaning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eckert",
+     "year": 2012,
+     "title": "Three waves of variation study: the emergence of meaning in the study of sociolinguistic variation",
+     "venue": "Annual Review of Anthropology",
+     "type": "paper",
+     "why": "Organized variation research into three waves, from demographic correlations to networks to social meaning and style. It is how the field currently describes itself and its agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Otheguy, García & Reid",
+     "year": 2015,
+     "title": "Clarifying translanguaging and deconstructing named languages: a perspective from linguistics",
+     "venue": "Applied Linguistics Review",
+     "type": "paper",
+     "why": "Argued that named languages are social categories and that bilinguals draw on one integrated repertoire. Translanguaging is now a central and contested concept in multilingualism research and education.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rickford & King",
+     "year": 2016,
+     "title": "Language and linguistics on trial: Hearing Rachel Jeantel (and other vernacular speakers) in the courtroom and beyond",
+     "venue": "Language",
+     "type": "paper",
+     "why": "Showed how a witness's African American English was misheard and discounted in a murder trial. It pushed the field toward work on linguistic injustice and the responsibility to apply its findings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Trudgill",
+     "year": 1972,
+     "title": "Sex, covert prestige and linguistic change in the urban British English of Norwich",
+     "venue": "Language in Society",
+     "type": "paper",
+     "why": "Found that men overreported vernacular forms, revealing covert prestige for nonstandard speech. Covert prestige and the gender patterning of change are still key reference points.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rampton",
+     "year": 1995,
+     "title": "Crossing: Language and Ethnicity among Adolescents",
+     "venue": "Longman",
+     "type": "book",
+     "why": "Documented adolescents using varieties associated with ethnic groups they do not belong to. It founded the study of crossing and stylization, central to work on multiethnic youth language.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Irvine & Gal",
+     "year": 2000,
+     "title": "Language ideology and linguistic differentiation",
+     "venue": "Regimes of Language (ed. Kroskrity), School of American Research Press",
+     "type": "paper",
+     "why": "Identified iconization, recursivity and erasure as processes by which ideologies map linguistic differences onto social ones. These concepts are standard tools in current work on language ideology and race.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Agha",
+     "year": 2003,
+     "title": "The social life of cultural value",
+     "venue": "Language & Communication",
+     "type": "paper",
+     "why": "Introduced enregisterment, the process by which a way of speaking becomes recognized as a register. Enregisterment is now a core concept for studying how dialects and styles gain social meaning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Johnstone, Andrus & Danielson",
+     "year": 2006,
+     "title": "Mobility, indexicality, and the enregisterment of \"Pittsburghese\"",
+     "venue": "Journal of English Linguistics",
+     "type": "paper",
+     "why": "Traced how local Pittsburgh features became a named, commodified dialect. It is a model study for linking indexical orders to real communities.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Campbell-Kibler",
+     "year": 2007,
+     "title": "Accent, (ING), and the social logic of listener perceptions",
+     "venue": "American Speech",
+     "type": "paper",
+     "why": "Used matched-guise experiments to show that the social meaning of a variant depends on its context. It started the experimental study of the perception of social meaning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Podesva",
+     "year": 2007,
+     "title": "Phonation type as a stylistic variable: the use of falsetto in constructing a persona",
+     "venue": "Journal of Sociolinguistics",
+     "type": "paper",
+     "why": "Showed one speaker using falsetto to build different personas across situations. It is a key example of third-wave analysis of style within a single speaker.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blommaert & Rampton",
+     "year": 2011,
+     "title": "Language and superdiversity",
+     "venue": "Diversities",
+     "type": "paper",
+     "why": "Argued that migration-driven superdiversity makes named languages and speech communities inadequate units. It shaped current research on mobility, repertoires and digital communication.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Flores & Rosa",
+     "year": 2015,
+     "title": "Undoing appropriateness: raciolinguistic ideologies and language diversity in education",
+     "venue": "Harvard Educational Review",
+     "type": "paper",
+     "why": "Argued that racialized speakers are heard as deficient regardless of how they actually speak. Raciolinguistics is now one of the most active areas of the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nguyen, Doğruöz, Rosé & de Jong",
+     "year": 2016,
+     "title": "Computational sociolinguistics: a survey",
+     "venue": "Computational Linguistics",
+     "type": "paper",
+     "why": "Surveyed how large digital corpora and computational methods can address sociolinguistic questions. It maps the growing area that studies variation and change at scale online.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Psycholinguistics",
+   "lead": "Psycholinguistics is focused on prediction and probabilistic expectation in comprehension and production, memory limits in parsing, and whether large neural language models are good models of human language processing and its neural basis.",
+   "papers": [
+    {
+     "authors": "Kutas & Hillyard",
+     "year": 1980,
+     "title": "Reading senseless sentences: brain potentials reflect semantic incongruity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Discovered the N400, a brain response to semantically unexpected words. The N400 is still the most used neural measure of prediction and meaning in comprehension, now modeled with language-model probabilities.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marslen-Wilson",
+     "year": 1987,
+     "title": "Functional parallelism in spoken word-recognition",
+     "venue": "Cognition",
+     "type": "paper",
+     "why": "Developed the Cohort model, in which many word candidates are activated in parallel and narrowed as speech unfolds. Parallel, incremental activation is still assumed by current models of spoken word recognition.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Elman",
+     "year": 1990,
+     "title": "Finding structure in time",
+     "venue": "Cognitive Science",
+     "type": "paper",
+     "why": "Showed that a simple recurrent network trained to predict the next word learns word categories and structure. It is the direct ancestor of using neural language models as theories of human processing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tanenhaus, Spivey-Knowlton, Eberhard & Sedivy",
+     "year": 1995,
+     "title": "Integration of visual and linguistic information in spoken language comprehension",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Introduced the visual world eye-tracking paradigm and showed that visual context resolves syntactic ambiguity immediately. The paradigm is still a main method for studying prediction and real-time comprehension.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saffran, Aslin & Newport",
+     "year": 1996,
+     "title": "Statistical learning by 8-month-old infants",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed infants can segment words from speech using transitional probabilities alone. Statistical learning remains a central idea in acquisition and in debates over how much structure can be learned from input.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levelt, Roelofs & Meyer",
+     "year": 1999,
+     "title": "A theory of lexical access in speech production",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Set out a staged model of word production from concepts to articulation. It is still the reference model that production research tests and modifies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hale",
+     "year": 2001,
+     "title": "A Probabilistic Earley Parser as a Psycholinguistic Model",
+     "venue": "Proceedings of the Second Meeting of the North American Chapter of the Association for Computational Linguistics (NAACL)",
+     "type": "paper",
+     "why": "Proposed that processing difficulty at a word reflects its surprisal under a probabilistic grammar. Surprisal is now the main quantitative link between language models and reading times or brain responses.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pickering & Garrod",
+     "year": 2004,
+     "title": "Toward a mechanistic psychology of dialogue",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Argued that interlocutors align their representations through automatic priming at many levels. It made dialogue a central object of study and still drives work on alignment and prediction in conversation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levy",
+     "year": 2008,
+     "title": "Expectation-based syntactic comprehension",
+     "venue": "Cognition",
+     "type": "paper",
+     "why": "Developed surprisal theory and showed it explains a range of comprehension difficulty effects. It is the core theory behind current tests of language models as models of human reading.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kuperberg & Jaeger",
+     "year": 2016,
+     "title": "What do we mean by prediction in language comprehension?",
+     "venue": "Language, Cognition and Neuroscience",
+     "type": "paper",
+     "why": "Clarified what prediction means in comprehension, framing it as probabilistic inference over multiple levels of representation. It is the standard framing for the current prediction debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Frazier & Rayner",
+     "year": 1982,
+     "title": "Making and correcting errors during sentence comprehension: eye movements in the analysis of structurally ambiguous sentences",
+     "venue": "Cognitive Psychology",
+     "type": "paper",
+     "why": "Used eye tracking to support a garden-path parser that commits to one structure and later revises. Serial versus parallel parsing remains contested, and garden-path sentences are standard test cases for language models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McClelland & Elman",
+     "year": 1986,
+     "title": "The TRACE model of speech perception",
+     "venue": "Cognitive Psychology",
+     "type": "paper",
+     "why": "Modeled spoken word recognition as interactive activation across feature, phoneme and word levels. TRACE is still the benchmark model in debates about feedback in speech perception.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bock",
+     "year": 1986,
+     "title": "Syntactic persistence in language production",
+     "venue": "Cognitive Psychology",
+     "type": "paper",
+     "why": "Showed that speakers tend to reuse recently heard sentence structures. Structural priming is now the main method for studying syntactic representation and implicit learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gibson",
+     "year": 1998,
+     "title": "Linguistic complexity: locality of syntactic dependencies",
+     "venue": "Cognition",
+     "type": "paper",
+     "why": "Proposed that processing cost grows with the distance between dependent words. Dependency locality is still the main memory-based counterpart to surprisal.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Altmann & Kamide",
+     "year": 1999,
+     "title": "Incremental interpretation at verbs: restricting the domain of subsequent reference",
+     "venue": "Cognition",
+     "type": "paper",
+     "why": "Showed that listeners look toward likely objects as soon as they hear a verb. It is the key early evidence for anticipatory prediction in comprehension.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ferreira, Bailey & Ferraro",
+     "year": 2002,
+     "title": "Good-enough representations in language comprehension",
+     "venue": "Current Directions in Psychological Science",
+     "type": "paper",
+     "why": "Argued that comprehenders often build shallow, incomplete interpretations. Good-enough and noisy-channel views of comprehension build directly on this.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewis & Vasishth",
+     "year": 2005,
+     "title": "An activation-based model of sentence processing as skilled memory retrieval",
+     "venue": "Cognitive Science",
+     "type": "paper",
+     "why": "Modeled parsing as cue-based retrieval from memory in a cognitive architecture. Cue-based retrieval and its interference predictions are central to current work on agreement attraction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smith & Levy",
+     "year": 2013,
+     "title": "The effect of word predictability on reading time is logarithmic",
+     "venue": "Cognition",
+     "type": "paper",
+     "why": "Showed that reading time scales with the log of word probability across a wide range. It is the main empirical support for surprisal and a benchmark for language-model fits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schrimpf et al.",
+     "year": 2021,
+     "title": "The neural architecture of language: Integrative modeling converges on predictive processing",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Found that next-word-prediction models best predict brain responses to language. It drove the current debate about whether large language models are models of human language processing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldstein et al.",
+     "year": 2022,
+     "title": "Shared computational principles for language processing in humans and deep language models",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "Used intracranial recordings during natural listening to show the brain anticipates upcoming words much as language models do. It is a key study for the claim that prediction is shared by brains and models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

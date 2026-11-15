@@ -1,0 +1,917 @@
+{
+ "discipline": "Astronomy",
+ "fields": [
+  {
+   "field": "Cosmology",
+   "lead": "Testing whether the Lambda-CDM model is complete, as the Hubble tension and DESI's hints of evolving dark energy put its parameters under strain.",
+   "papers": [
+    {
+     "authors": "Guth",
+     "year": 1981,
+     "title": "Inflationary universe: a possible solution to the horizon and flatness problems",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Proposed a brief burst of exponential expansion to explain why the universe is so flat and uniform. Inflation is now the default account of where structure came from, and CMB experiments are still hunting for its predicted gravitational-wave signature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blumenthal, Faber, Primack & Rees",
+     "year": 1984,
+     "title": "Formation of galaxies and large-scale structure with cold dark matter",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Set out how slow-moving, cold dark matter would let small structures form first and merge into galaxies and clusters. This 'cold dark matter' picture is the backbone of every modern simulation, and the search for what that matter is remains open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Weinberg",
+     "year": 1989,
+     "title": "The cosmological constant problem",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Laid out why the vacuum energy predicted by quantum field theory is absurdly larger than anything observed. Once the universe turned out to be accelerating, this mismatch became the central puzzle about dark energy, and it is still unsolved.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Riess et al.",
+     "year": 1998,
+     "title": "Observational evidence from supernovae for an accelerating universe and a cosmological constant",
+     "venue": "The Astronomical Journal",
+     "type": "paper",
+     "why": "Used distant supernovae to show the expansion of the universe is speeding up. Dark energy entered the standard model as a result, and supernova distances remain one of its main tests.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Perlmutter et al.",
+     "year": 1999,
+     "title": "Measurements of Omega and Lambda from 42 high-redshift supernovae",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "The independent team's confirmation of cosmic acceleration, with a careful treatment of systematic errors. Its methods carry through to today's supernova samples, which are now hinting that dark energy may change over time.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eisenstein et al.",
+     "year": 2005,
+     "title": "Detection of the baryon acoustic peak in the large-scale correlation function of SDSS luminous red galaxies",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Found the imprint of early-universe sound waves in how galaxies cluster, giving a 'standard ruler' for measuring expansion. Baryon acoustic oscillations now drive the biggest galaxy surveys, including DESI.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clowe et al.",
+     "year": 2006,
+     "title": "A direct empirical proof of the existence of dark matter",
+     "venue": "The Astrophysical Journal Letters",
+     "type": "paper",
+     "why": "Mapped the Bullet Cluster and showed its mass sits apart from its hot gas after a collision, which is hard to explain by modifying gravity alone. It is still the go-to evidence in the dark matter versus modified gravity argument.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Planck Collaboration",
+     "year": 2020,
+     "title": "Planck 2018 results. VI. Cosmological parameters",
+     "venue": "Astronomy & Astrophysics",
+     "type": "paper",
+     "why": "Gives the most precise values of the six-parameter standard model from the cosmic microwave background. Its Hubble constant is the 'early universe' side of the field's sharpest disagreement.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Riess et al.",
+     "year": 2022,
+     "title": "A comprehensive measurement of the local value of the Hubble constant with 1 km/s/Mpc uncertainty from the Hubble Space Telescope and the SH0ES Team",
+     "venue": "The Astrophysical Journal Letters",
+     "type": "paper",
+     "why": "Pinned the local expansion rate with a distance ladder of Cepheids and supernovae, at odds with Planck by about five standard deviations. Whether that gap is an error or new physics is the field's biggest open question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "DESI Collaboration",
+     "year": 2025,
+     "title": "DESI 2024 VI: cosmological constraints from the measurements of baryon acoustic oscillations",
+     "venue": "Journal of Cosmology and Astroparticle Physics",
+     "type": "paper",
+     "why": "Released the largest map of the universe's expansion history and found hints that dark energy weakens over time. If later data hold that up, the cosmological constant would be replaced.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Mukhanov & Chibisov",
+     "year": 1981,
+     "title": "Quantum fluctuations and a nonsingular universe",
+     "venue": "JETP Letters",
+     "type": "paper",
+     "why": "Showed that quantum fluctuations stretched during rapid early expansion could seed galaxies with a nearly scale-invariant spectrum. That prediction, later matched by the CMB, is the strongest observational support inflation has.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Linde",
+     "year": 1982,
+     "title": "A new inflationary universe scenario: a possible solution of the horizon, flatness, homogeneity, isotropy and primordial monopole problems",
+     "venue": "Physics Letters B",
+     "type": "paper",
+     "why": "Fixed the 'graceful exit' problem in Guth's original model with a slowly rolling field. Slow-roll inflation is the framework behind today's model-testing with CMB polarization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Milgrom",
+     "year": 1983,
+     "title": "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Proposed MOND, a change to gravity at tiny accelerations, as an alternative to dark matter. It still fits galaxy rotation curves well, and the debate with dark matter models is ongoing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Davis, Efstathiou, Frenk & White",
+     "year": 1985,
+     "title": "The evolution of large-scale structure in a universe dominated by cold dark matter",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Ran the first N-body simulations showing cold dark matter could reproduce the clustering of galaxies. It started the simulation-driven cosmology that dominates the field today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spergel et al.",
+     "year": 2003,
+     "title": "First-year Wilkinson Microwave Anisotropy Probe (WMAP) observations: determination of cosmological parameters",
+     "venue": "The Astrophysical Journal Supplement Series",
+     "type": "paper",
+     "why": "Turned cosmology into a precision science by fitting the CMB with a handful of parameters. It established the 'concordance' model that Planck refined and that current tensions now challenge.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Verde, Treu & Riess",
+     "year": 2019,
+     "title": "Tensions between the early and the late Universe",
+     "venue": "Nature Astronomy",
+     "type": "paper",
+     "why": "Summarized a workshop that framed the Hubble tension as a clash between early-universe and late-universe measurements. That framing shapes how proposed solutions are judged.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Freedman et al.",
+     "year": 2019,
+     "title": "The Carnegie-Chicago Hubble Program. VIII. An independent determination of the Hubble constant based on the tip of the red giant branch",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Built a distance ladder without Cepheids and got a Hubble constant between the Planck and SH0ES values. It is the main reason some argue the tension may be a measurement problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Di Valentino et al.",
+     "year": 2021,
+     "title": "In the realm of the Hubble tension: a review of solutions",
+     "venue": "Classical and Quantum Gravity",
+     "type": "paper",
+     "why": "Catalogued the many proposed physical fixes for the Hubble tension and how each fares against data. It is the standard map of the theory side of the problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "BICEP/Keck Collaboration (Ade et al.)",
+     "year": 2021,
+     "title": "Improved constraints on primordial gravitational waves using Planck, WMAP, and BICEP/Keck observations through the 2018 observing season",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Set the tightest limit on gravitational waves from inflation, ruling out many of the simplest inflation models. Upcoming CMB experiments are designed around pushing this bound further.",
+     "verified": false,
+     "conf": "low",
+     "note": "Exact title wording and author attribution not checked this pass."
+    },
+    {
+     "authors": "DES Collaboration (Abbott et al.)",
+     "year": 2022,
+     "title": "Dark Energy Survey Year 3 results: cosmological constraints from galaxy clustering and weak lensing",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Measured the clumpiness of matter from weak lensing and found it slightly lower than Planck predicts. This 'S8 tension' is the second open crack in the standard model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Stars & galaxies",
+   "lead": "Working out how gas turns into stars and galaxies across cosmic time, how black holes regulate that growth, and why JWST finds so many bright galaxies so early.",
+   "papers": [
+    {
+     "authors": "Salpeter",
+     "year": 1955,
+     "title": "The luminosity function and stellar evolution",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "First measured how many stars form at each mass, the initial mass function. Nearly every estimate of a galaxy's mass or star-formation rate still assumes a version of it, and whether it varies, especially in the early universe, is debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Navarro, Frenk & White",
+     "year": 1997,
+     "title": "A universal density profile from hierarchical clustering",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Found that simulated dark matter halos share one density profile regardless of size. The NFW profile is the standard description of halos, and its steep centers are at the heart of small-scale disputes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kennicutt",
+     "year": 1998,
+     "title": "Star formation in galaxies along the Hubble sequence",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Tied star-formation rates to gas density in the Kennicutt-Schmidt relation and standardized how to measure them. Simulations and observations of star formation still calibrate against it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Springel et al.",
+     "year": 2005,
+     "title": "Simulations of the formation, evolution and clustering of galaxies and quasars",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "The Millennium Simulation tracked ten billion particles and populated them with galaxies. It made large simulations the main way to compare galaxy-formation theory with surveys.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Croton et al.",
+     "year": 2006,
+     "title": "The many lives of active galactic nuclei: cooling flows, black holes and the luminosities and colours of galaxies",
+     "venue": "Monthly Notices of the Royal Astronomical Society",
+     "type": "paper",
+     "why": "Showed that energy from central black holes is needed to stop massive galaxies from forming too many stars. Black hole feedback is now in every galaxy-formation model, but how it works physically is still unclear.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kormendy & Ho",
+     "year": 2013,
+     "title": "Coevolution (or not) of supermassive black holes and host galaxies",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Reviewed the tight relations between black hole masses and their host galaxies and which kinds of galaxies follow them. JWST's overmassive early black holes are now testing those relations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Madau & Dickinson",
+     "year": 2014,
+     "title": "Cosmic star-formation history",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Pulled together the star-formation rate of the universe over time, showing a peak about ten billion years ago. It is the reference curve every model and new survey is compared to.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bullock & Boylan-Kolchin",
+     "year": 2017,
+     "title": "Small-scale challenges to the Lambda-CDM paradigm",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Laid out where cold dark matter struggles on small scales, such as cusps and missing satellites, and how galaxy physics might fix it. It frames the ongoing test of dark matter at the scale of dwarf galaxies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Helmi et al.",
+     "year": 2018,
+     "title": "The merger that led to the formation of the Milky Way's inner stellar halo and thick disk",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used Gaia data to find the remains of a large galaxy, Gaia-Enceladus, that merged with the Milky Way about ten billion years ago. It opened up Galactic archaeology, reconstructing our galaxy's history from star motions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Labbé et al.",
+     "year": 2023,
+     "title": "A population of red candidate massive galaxies ~600 Myr after the Big Bang",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported JWST galaxies that appear too massive for their early age. Whether they are truly massive or the masses are overestimated is still being sorted out, and the answer bears on galaxy formation and cosmology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Chabrier",
+     "year": 2003,
+     "title": "Galactic stellar and substellar initial mass function",
+     "venue": "Publications of the Astronomical Society of the Pacific",
+     "type": "paper",
+     "why": "Gave the form of the initial mass function most used today, down to brown dwarfs. Most modern galaxy mass and star-formation estimates assume it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McKee & Ostriker",
+     "year": 2007,
+     "title": "Theory of star formation",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Reviewed how turbulence, magnetic fields and gravity control star formation in molecular clouds. It sets out the questions star-formation theory is still working through.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dekel et al.",
+     "year": 2009,
+     "title": "Cold streams in early massive hot haloes as the main mode of galaxy formation",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued that early galaxies were fed by narrow streams of cold gas rather than by gas cooling from hot halos. Cold-stream accretion is now a key ingredient in explaining fast early galaxy growth.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Asplund, Grevesse, Sauval & Scott",
+     "year": 2009,
+     "title": "The chemical composition of the Sun",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Revised the Sun's abundance of heavy elements downward using 3D models. This broke agreement with helioseismology, the 'solar abundance problem' that is still not fully resolved.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fabian",
+     "year": 2012,
+     "title": "Observational evidence of active galactic nuclei feedback",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Reviewed the observational case that black holes heat or expel gas in their host galaxies. It is the standard reference for how feedback is seen, not just modeled.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sana et al.",
+     "year": 2012,
+     "title": "Binary interaction dominates the evolution of massive stars",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that most massive stars will interact with a companion during their lives. This changed models of massive-star evolution, supernovae and gravitational-wave sources.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chaplin & Miglio",
+     "year": 2013,
+     "title": "Asteroseismology of solar-type and red-giant stars",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Showed how star oscillations from Kepler give precise stellar masses, radii and ages. Asteroseismic ages are now used to date stars across the Milky Way.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vogelsberger et al.",
+     "year": 2014,
+     "title": "Properties of galaxies reproduced by a hydrodynamic simulation",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "The Illustris simulation produced a realistic mix of galaxy types from first principles plus feedback recipes. It set the template for current large galaxy simulations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Somerville & Davé",
+     "year": 2015,
+     "title": "Physical models of galaxy formation in a cosmological framework",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Reviewed what semi-analytic models and simulations get right and wrong about galaxy formation. It is the standard overview of the field's theoretical toolkit.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Curtis-Lake et al.",
+     "year": 2023,
+     "title": "Spectroscopic confirmation of four metal-poor galaxies at z = 10.3-13.2",
+     "venue": "Nature Astronomy",
+     "type": "paper",
+     "why": "Confirmed with JWST spectra that galaxies existed within about 400 million years of the Big Bang. It anchors the debate over how quickly the first galaxies formed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Planetary science & exoplanets",
+   "lead": "Measuring how common different kinds of planets are and reading their atmospheres with JWST, while rebuilding how our own Solar System formed and moved.",
+   "papers": [
+    {
+     "authors": "Kasting, Whitmire & Reynolds",
+     "year": 1993,
+     "title": "Habitable zones around main sequence stars",
+     "venue": "Icarus",
+     "type": "paper",
+     "why": "Defined the range of orbits where a rocky planet could keep liquid water, using climate models. The habitable zone still decides which planets get scarce telescope time.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mayor & Queloz",
+     "year": 1995,
+     "title": "A Jupiter-mass companion to a solar-type star",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found the first planet around a Sun-like star, a giant on a four-day orbit. Hot Jupiters showed planets can migrate, and that idea still runs through planet-formation theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tsiganis, Gomes, Morbidelli & Levison",
+     "year": 2005,
+     "title": "Origin of the orbital architecture of the giant planets of the Solar System",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed the Nice model, in which the giant planets went through an unstable rearrangement. It is still the main framework for the Solar System's history, though its timing is debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Borucki et al.",
+     "year": 2010,
+     "title": "Kepler planet-detection mission: introduction and first results",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Introduced Kepler, which watched one patch of sky to catch planets crossing their stars. Its catalogue is still the basis for statistics on how common planets are.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Walsh, Morbidelli, Raymond, O'Brien & Mandell",
+     "year": 2011,
+     "title": "A low mass for Mars from Jupiter's early gas-driven migration",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed the Grand Tack, in which Jupiter moved in and back out, explaining Mars's small size and the asteroid belt. It is one of the main competing models for the inner Solar System.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lambrechts & Johansen",
+     "year": 2012,
+     "title": "Rapid growth of gas-giant cores by pebble accretion",
+     "venue": "Astronomy & Astrophysics",
+     "type": "paper",
+     "why": "Showed planet cores can grow fast by sweeping up small pebbles drifting through the disk. Pebble accretion is now central to how planet formation is modeled.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Petigura, Howard & Marcy",
+     "year": 2013,
+     "title": "Prevalence of Earth-size planets orbiting Sun-like stars",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Estimated that about a fifth of Sun-like stars have an Earth-size planet in the habitable zone. Numbers like this set the goals for future missions that will look for life.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gillon et al.",
+     "year": 2017,
+     "title": "Seven temperate terrestrial planets around the nearby ultracool dwarf star TRAPPIST-1",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found seven Earth-size planets around a small, cool star nearby. It is now the main test of whether rocky planets around such stars can keep atmospheres.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fulton et al.",
+     "year": 2017,
+     "title": "The California-Kepler Survey. III. A gap in the radius distribution of small planets",
+     "venue": "The Astronomical Journal",
+     "type": "paper",
+     "why": "Found that small planets split into two size groups with few in between. Explaining this 'radius valley' is a main problem in how small planets form and lose their atmospheres.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "JWST Transiting Exoplanet Community Early Release Science Team",
+     "year": 2023,
+     "title": "Identification of carbon dioxide in an exoplanet atmosphere",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Gave JWST's first clear detection of carbon dioxide in a giant planet's atmosphere. It showed the telescope can measure atmospheric chemistry, which is now how planet formation is being tested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Lin, Bodenheimer & Richardson",
+     "year": 1996,
+     "title": "Orbital migration of the planetary companion of 51 Pegasi to its present location",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Explained hot Jupiters as planets that formed far out and moved inward through the gas disk. Migration is now a standard part of planet formation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Charbonneau, Brown, Noyes & Gilliland",
+     "year": 2002,
+     "title": "Detection of an extrasolar planet atmosphere",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "First detected an exoplanet's atmosphere, by seeing sodium absorb starlight during a transit. Transmission spectroscopy is the main technique JWST now uses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Youdin & Goodman",
+     "year": 2005,
+     "title": "Streaming instabilities in protoplanetary disks",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Found an instability that clumps dust in a gas disk into dense filaments. It is the leading explanation for how planetesimals form at all.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kopparapu et al.",
+     "year": 2013,
+     "title": "Habitable zones around main-sequence stars: new estimates",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Updated the habitable-zone limits with new climate and absorption data. These are the boundaries now used in planet catalogues.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "ALMA Partnership et al.",
+     "year": 2015,
+     "title": "The 2014 ALMA Long Baseline Campaign: first results from high angular resolution observations toward the HL Tau region",
+     "venue": "The Astrophysical Journal Letters",
+     "type": "paper",
+     "why": "Imaged rings and gaps in a young star's disk in sharp detail. Disk substructure is now a main line of evidence for where and when planets form.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Winn & Fabrycky",
+     "year": 2015,
+     "title": "The occurrence and architecture of exoplanetary systems",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Reviewed how common planets are and how their orbits are arranged. It is the standard summary of exoplanet demographics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kruijer, Burkhardt, Budde & Kleine",
+     "year": 2017,
+     "title": "Age of Jupiter inferred from the distinct genetics and formation times of meteorites",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Used isotopes in meteorites to show Jupiter formed within a few million years and split the early Solar System into two reservoirs. This dating anchors current Solar System formation models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Owen & Wu",
+     "year": 2017,
+     "title": "The evaporation valley in the Kepler planets",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Explained the radius valley as rocky cores losing their atmospheres to stellar X-rays. It is one of two main competing explanations for the gap.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Madhusudhan",
+     "year": 2019,
+     "title": "Exoplanetary atmospheres: key insights, challenges, and prospects",
+     "venue": "Annual Review of Astronomy and Astrophysics",
+     "type": "paper",
+     "why": "Reviewed what atmospheres reveal about planet composition and formation. It sets out the questions JWST is now answering.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greene et al.",
+     "year": 2023,
+     "title": "Thermal emission from the Earth-sized exoplanet TRAPPIST-1 b using JWST",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Measured heat from a rocky planet and found it likely has no thick atmosphere. Whether planets around small stars keep atmospheres is now a central question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Black holes & gravitational waves",
+   "lead": "Using gravitational waves and horizon-scale imaging to test gravity where it is strongest, while theorists work out how information escapes black holes.",
+   "papers": [
+    {
+     "authors": "Penrose",
+     "year": 1965,
+     "title": "Gravitational collapse and space-time singularities",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Proved that collapse to a singularity is unavoidable once a trapped surface forms, not just in idealized cases. It underpins the claim that black holes are real, and the breakdown it points to is what quantum gravity must fix.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bekenstein",
+     "year": 1973,
+     "title": "Black holes and entropy",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Argued that a black hole has entropy proportional to its horizon area. This is the starting point for holography and the black hole information problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hawking",
+     "year": 1975,
+     "title": "Particle creation by black holes",
+     "venue": "Communications in Mathematical Physics",
+     "type": "paper",
+     "why": "Showed black holes radiate and slowly evaporate. It created the information paradox that theorists are still trying to settle.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blandford & Znajek",
+     "year": 1977,
+     "title": "Electromagnetic extraction of energy from Kerr black holes",
+     "venue": "Monthly Notices of the Royal Astronomical Society",
+     "type": "paper",
+     "why": "Showed how magnetic fields can draw energy from a spinning black hole to power jets. It is the main model for the jets that EHT and simulations now probe.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ghez et al.",
+     "year": 2008,
+     "title": "Measuring distance and properties of the Milky Way's central supermassive black hole with stellar orbits",
+     "venue": "The Astrophysical Journal",
+     "type": "paper",
+     "why": "Tracked stars orbiting the center of the Milky Way to weigh its black hole precisely. The same star orbits are now used to test general relativity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "LIGO Scientific Collaboration and Virgo Collaboration (Abbott et al.)",
+     "year": 2016,
+     "title": "Observation of gravitational waves from a binary black hole merger",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Made the first direct detection of gravitational waves, from two merging black holes. It opened a new way of observing the universe and of testing gravity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "LIGO Scientific Collaboration and Virgo Collaboration (Abbott et al.)",
+     "year": 2017,
+     "title": "GW170817: observation of gravitational waves from a binary neutron star inspiral",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Detected merging neutron stars that were also seen in light. It tied mergers to heavy-element production and gave an independent way to measure the Hubble constant.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Event Horizon Telescope Collaboration",
+     "year": 2019,
+     "title": "First M87 Event Horizon Telescope results. I. The shadow of the supermassive black hole",
+     "venue": "The Astrophysical Journal Letters",
+     "type": "paper",
+     "why": "Produced the first image of the shadow of a black hole. Horizon-scale imaging is now a direct test of gravity and of how jets are launched.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Almheiri, Engelhardt, Marolf & Maxfield",
+     "year": 2019,
+     "title": "The entropy of bulk quantum fields and the entanglement wedge of an evaporating black hole",
+     "venue": "Journal of High Energy Physics",
+     "type": "paper",
+     "why": "Showed how to get the expected rise and fall of entropy from an evaporating black hole using 'islands'. It is a leading route to resolving the information paradox.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "NANOGrav Collaboration (Agazie et al.)",
+     "year": 2023,
+     "title": "The NANOGrav 15 yr data set: evidence for a gravitational-wave background",
+     "venue": "The Astrophysical Journal Letters",
+     "type": "paper",
+     "why": "Found evidence for a background of very low-frequency gravitational waves using pulsar timing. Whether it comes from supermassive black hole pairs or something more exotic is open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Shakura & Sunyaev",
+     "year": 1973,
+     "title": "Black holes in binary systems. Observational appearance",
+     "venue": "Astronomy & Astrophysics",
+     "type": "paper",
+     "why": "Gave the standard model of a thin disk of gas spiraling into a black hole. It is still how black hole light is interpreted.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maldacena",
+     "year": 1998,
+     "title": "The large N limit of superconformal field theories and supergravity",
+     "venue": "Advances in Theoretical and Mathematical Physics",
+     "type": "paper",
+     "why": "Proposed that gravity in a certain space is equivalent to a quantum theory on its boundary. This holographic duality is the main tool used to study black hole information.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pretorius",
+     "year": 2005,
+     "title": "Evolution of binary black-hole spacetimes",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "First simulated two black holes orbiting and merging in full general relativity. Such simulations produce the waveforms that LIGO searches against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ryu & Takayanagi",
+     "year": 2006,
+     "title": "Holographic derivation of entanglement entropy from the AdS/CFT correspondence",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Linked entanglement in a quantum system to the area of a surface in the dual gravity. It is the basis of the 'island' calculations that recover information from black holes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Almheiri, Marolf, Polchinski & Sully",
+     "year": 2013,
+     "title": "Black holes: complementarity or firewalls?",
+     "venue": "Journal of High Energy Physics",
+     "type": "paper",
+     "why": "Argued that standard assumptions imply a 'firewall' at the horizon. It forced a rethinking of the information paradox that led to current approaches.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "LIGO Scientific Collaboration, Virgo Collaboration et al. (Abbott et al.)",
+     "year": 2017,
+     "title": "Multi-messenger observations of a binary neutron star merger",
+     "venue": "The Astrophysical Journal Letters",
+     "type": "paper",
+     "why": "Pulled together gravitational-wave, gamma-ray, optical and radio observations of one merger. It is the model for multi-messenger astronomy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "GRAVITY Collaboration",
+     "year": 2018,
+     "title": "Detection of the gravitational redshift in the orbit of the star S2 near the Galactic centre massive black hole",
+     "venue": "Astronomy & Astrophysics",
+     "type": "paper",
+     "why": "Measured general relativity's redshift on a star passing close to the Milky Way's black hole. It shows how stellar orbits can test gravity near a black hole.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Penington",
+     "year": 2020,
+     "title": "Entanglement wedge reconstruction and the information paradox",
+     "venue": "Journal of High Energy Physics",
+     "type": "paper",
+     "why": "Independently showed how information escapes an evaporating black hole using entanglement wedges. Along with the islands paper, it reshaped the information debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Event Horizon Telescope Collaboration",
+     "year": 2022,
+     "title": "First Sagittarius A* Event Horizon Telescope results. I. The shadow of the supermassive black hole in the center of the Milky Way",
+     "venue": "The Astrophysical Journal Letters",
+     "type": "paper",
+     "why": "Imaged the shadow of the Milky Way's own black hole. Comparing it with M87 tests how black hole images scale with mass.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "LIGO Scientific Collaboration, Virgo Collaboration & KAGRA Collaboration (Abbott et al.)",
+     "year": 2023,
+     "title": "GWTC-3: compact binary coalescences observed by LIGO and Virgo during the second part of the third observing run",
+     "venue": "Physical Review X",
+     "type": "paper",
+     "why": "Catalogued about ninety mergers. These populations are now used to work out how black hole binaries form.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

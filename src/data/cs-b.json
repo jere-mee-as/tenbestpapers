@@ -1,0 +1,1373 @@
+{
+  "discipline": "Computer science",
+  "fields": [
+    {
+      "field": "Distributed systems",
+      "lead": "Making replicated, geo-distributed systems correct and fast under failure: practical consensus and Byzantine agreement, weaker-but-safe consistency models, and formally verified implementations.",
+      "papers": [
+        {
+          "authors": "Lamport",
+          "year": 1978,
+          "title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "venue": "Communications of the ACM",
+          "type": "paper",
+          "why": "Swapped physical time for the happened-before relation and introduced logical clocks and the replicated state machine. Vector clocks, causal consistency and every replication protocol still reason in its terms.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Lamport, Shostak & Pease",
+          "year": 1982,
+          "title": "The Byzantine Generals Problem",
+          "venue": "ACM Transactions on Programming Languages and Systems",
+          "type": "paper",
+          "why": "Posed agreement when some nodes behave arbitrarily or maliciously and proved you need more than two-thirds honest participants. That bound sets the design space for today's BFT protocols and blockchains.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Fischer, Lynch & Paterson",
+          "year": 1985,
+          "title": "Impossibility of Distributed Consensus with One Faulty Process",
+          "venue": "Journal of the ACM",
+          "type": "paper",
+          "why": "Proved that no deterministic protocol can guarantee consensus in a fully asynchronous system with even one crash. Every practical protocol is defined by how it sidesteps this result, through timeouts, randomness or partial synchrony.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Herlihy & Wing",
+          "year": 1990,
+          "title": "Linearizability: A Correctness Condition for Concurrent Objects",
+          "venue": "ACM Transactions on Programming Languages and Systems",
+          "type": "paper",
+          "why": "Gave the precise meaning of 'behaves like a single copy' for concurrent and replicated objects. It is the standard that consistency testing tools like Jepsen check and that weaker models are measured against.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Lamport",
+          "year": 1998,
+          "title": "The Part-Time Parliament",
+          "venue": "ACM Transactions on Computer Systems",
+          "type": "paper",
+          "why": "Introduced Paxos, the crash-tolerant consensus protocol behind Chubby, Spanner and most coordination services. Research on quorums, leaderless variants and reconfiguration is still mostly variations on Paxos.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Castro & Liskov",
+          "year": 1999,
+          "title": "Practical Byzantine Fault Tolerance",
+          "venue": "Proceedings of OSDI (USENIX Symposium on Operating Systems Design and Implementation)",
+          "type": "paper",
+          "why": "Showed Byzantine agreement could run fast enough for real services, turning a theoretical result into an engineering option. Permissioned blockchains and modern BFT protocols like HotStuff are its direct descendants.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Gilbert & Lynch",
+          "year": 2002,
+          "title": "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "venue": "ACM SIGACT News",
+          "type": "paper",
+          "why": "Formalized the CAP theorem: during a network partition you must give up consistency or availability. Still the frame (and the target of refinements like PACELC) for how system designers argue about trade-offs.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "DeCandia et al.",
+          "year": 2007,
+          "title": "Dynamo: Amazon's Highly Available Key-value Store",
+          "venue": "Proceedings of SOSP (ACM Symposium on Operating Systems Principles)",
+          "type": "paper",
+          "why": "Built an always-writable store from consistent hashing, sloppy quorums, vector clocks and anti-entropy, accepting eventual consistency. Cassandra, Riak and DynamoDB-style systems follow its template, and the debate over eventual consistency starts here.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Corbett et al.",
+          "year": 2013,
+          "title": "Spanner: Google's Globally Distributed Database",
+          "venue": "ACM Transactions on Computer Systems",
+          "type": "paper",
+          "why": "Delivered externally consistent transactions across continents by using GPS and atomic clocks to bound clock uncertainty. It proved strong consistency at global scale is practical and inspired CockroachDB, YugabyteDB and cloud SQL services.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Ongaro & Ousterhout",
+          "year": 2014,
+          "title": "In Search of an Understandable Consensus Algorithm",
+          "venue": "Proceedings of USENIX Annual Technical Conference",
+          "type": "paper",
+          "why": "Presented Raft, a consensus protocol designed to be understood and implemented correctly. It now runs inside etcd, Consul, CockroachDB and Kafka, and is the default starting point for new replicated systems.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ],
+      "more": [
+        {
+          "authors": "Chandy & Lamport",
+          "year": 1985,
+          "title": "Distributed Snapshots: Determining Global States of Distributed Systems",
+          "venue": "ACM Transactions on Computer Systems",
+          "type": "paper",
+          "why": "Showed how to record a consistent global state without stopping the system. Checkpointing in stream processors such as Apache Flink is a direct application.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Dwork, Lynch & Stockmeyer",
+          "year": 1988,
+          "title": "Consensus in the Presence of Partial Synchrony",
+          "venue": "Journal of the ACM",
+          "type": "paper",
+          "why": "Defined the partial-synchrony model: the network may be arbitrarily slow for a while but eventually behaves. Almost every modern consensus and BFT protocol states its guarantees in this model.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Chandra & Toueg",
+          "year": 1996,
+          "title": "Unreliable Failure Detectors for Reliable Distributed Systems",
+          "venue": "Journal of the ACM",
+          "type": "paper",
+          "why": "Captured exactly how much failure detection is needed to solve consensus, separating safety from timing assumptions. It is the conceptual basis for timeout-driven leader election in real systems.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Nakamoto",
+          "year": 2008,
+          "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+          "venue": "Self-published white paper",
+          "type": "paper",
+          "why": "Achieved open-membership agreement through proof-of-work and longest-chain rules, a new answer to Byzantine consensus. Research on blockchain consensus, proof-of-stake and their security still argues with this design.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Hunt, Konar, Junqueira & Reed",
+          "year": 2010,
+          "title": "ZooKeeper: Wait-free Coordination for Internet-scale Systems",
+          "venue": "Proceedings of USENIX Annual Technical Conference",
+          "type": "paper",
+          "why": "Packaged consensus as a small coordination service that applications use for locks, configuration and leader election. That pattern, now also served by etcd, underpins Kafka, Kubernetes-style control planes and more.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Shapiro, Preguiça, Baquero & Zawirski",
+          "year": 2011,
+          "title": "Conflict-Free Replicated Data Types",
+          "venue": "Proceedings of SSS (Symposium on Stabilization, Safety, and Security of Distributed Systems), LNCS 6976",
+          "type": "paper",
+          "why": "Defined data types whose replicas always converge without coordination. CRDTs now power collaborative editors and local-first apps, and are an active research area.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Zaharia et al.",
+          "year": 2012,
+          "title": "Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing",
+          "venue": "Proceedings of NSDI (USENIX Symposium on Networked Systems Design and Implementation)",
+          "type": "paper",
+          "why": "Replaced MapReduce's disk-bound model with in-memory datasets that recover by recomputing from lineage. Spark, built on it, became the dominant engine for large-scale data processing.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Hawblitzel et al.",
+          "year": 2015,
+          "title": "IronFleet: Proving Practical Distributed Systems Correct",
+          "venue": "Proceedings of SOSP (ACM Symposium on Operating Systems Principles)",
+          "type": "paper",
+          "why": "Machine-checked both safety and liveness of a working Paxos-based system and key-value store. It launched the current push to formally verify production distributed systems, now seen at AWS and elsewhere.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Yin, Malkhi, Reiter, Gueta & Abraham",
+          "year": 2019,
+          "title": "HotStuff: BFT Consensus with Linearity and Responsiveness",
+          "venue": "Proceedings of PODC (ACM Symposium on Principles of Distributed Computing)",
+          "type": "paper",
+          "why": "Cut the communication cost of Byzantine consensus to linear while keeping it fast, using a simple chained structure. It became the base for many blockchain and BFT designs and for ongoing work on faster BFT.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kleppmann, Wiggins, van Hardenberg & McGranaghan",
+          "year": 2019,
+          "title": "Local-First Software: You Own Your Data, in Spite of the Cloud",
+          "venue": "Proceedings of Onward! (ACM SIGPLAN Symposium on New Ideas in Programming and Reflections on Software)",
+          "type": "paper",
+          "why": "Argued that apps should keep the primary copy of data on users' devices and sync with CRDTs, with the cloud as a helper. It set an agenda that a growing research and developer community is now building out.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "field": "Programming languages",
+      "lead": "Making software correct and safe by construction: expressive type systems and effect systems, program logics that scale to real code, verified compilers and proof assistants, and memory safety without garbage collection.",
+      "papers": [
+        {
+          "authors": "Hoare",
+          "year": 1969,
+          "title": "An Axiomatic Basis for Computer Programming",
+          "venue": "Communications of the ACM",
+          "type": "paper",
+          "why": "Introduced pre- and postcondition reasoning about programs. Every modern verifier, from Dafny to the logics inside proof assistants, is built on Hoare triples.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Cousot & Cousot",
+          "year": 1977,
+          "title": "Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints",
+          "venue": "Proceedings of POPL (ACM Symposium on Principles of Programming Languages)",
+          "type": "paper",
+          "why": "Gave a single mathematical framework for sound static analysis by computing over approximations of program behavior. Industrial analyzers like Astrée and much of compiler analysis still work this way.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Milner",
+          "year": 1978,
+          "title": "A Theory of Type Polymorphism in Programming",
+          "venue": "Journal of Computer and System Sciences",
+          "type": "paper",
+          "why": "Showed that a compiler can infer polymorphic types automatically and that well-typed programs cannot go wrong. Type inference in ML, OCaml, Haskell, Rust and Swift descends from it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Coquand & Huet",
+          "year": 1988,
+          "title": "The Calculus of Constructions",
+          "venue": "Information and Computation",
+          "type": "paper",
+          "why": "Combined dependent types and polymorphism in one consistent calculus where proofs are programs. It is the core of Coq/Rocq and close kin to Lean, the tools behind today's verified software and formalized mathematics.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Moggi",
+          "year": 1991,
+          "title": "Notions of Computation and Monads",
+          "venue": "Information and Computation",
+          "type": "paper",
+          "why": "Used monads to give a uniform account of side effects such as state, exceptions and I/O. This made effectful code tractable in pure languages and frames all later work on effect systems.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Reynolds",
+          "year": 2002,
+          "title": "Separation Logic: A Logic for Shared Mutable Data Structures",
+          "venue": "Proceedings of LICS (IEEE Symposium on Logic in Computer Science)",
+          "type": "paper",
+          "why": "Made reasoning about pointers local by letting proofs talk about disjoint pieces of the heap. It underlies Meta's Infer, the Iris framework and most current verification of low-level and concurrent code.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Siek & Taha",
+          "year": 2006,
+          "title": "Gradual Typing for Functional Languages",
+          "venue": "Scheme and Functional Programming Workshop",
+          "type": "paper",
+          "why": "Showed how static and dynamic typing can coexist in one language with a principled boundary. TypeScript, typed Python and the ongoing debate about the cost and soundness of mixed typing trace back here.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Plotkin & Pretnar",
+          "year": 2009,
+          "title": "Handlers of Algebraic Effects",
+          "venue": "Proceedings of ESOP (European Symposium on Programming), LNCS 5502",
+          "type": "paper",
+          "why": "Introduced effect handlers, letting programmers define and intercept effects like exceptions, generators and async in one mechanism. They now ship in OCaml 5 and Koka and are a major research thread.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Leroy",
+          "year": 2009,
+          "title": "Formal Verification of a Realistic Compiler",
+          "venue": "Communications of the ACM",
+          "type": "paper",
+          "why": "Presented CompCert, a C compiler proved in Coq to preserve program meaning. It showed end-to-end verified toolchains are feasible and is used in safety-critical industry.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Jung, Jourdan, Krebbers & Dreyer",
+          "year": 2018,
+          "title": "RustBelt: Securing the Foundations of the Rust Programming Language",
+          "venue": "Proceedings of the ACM on Programming Languages (POPL)",
+          "type": "paper",
+          "why": "Gave the first formal safety proof for Rust's ownership system, including libraries that use unsafe code internally. It anchors ongoing work to make memory-safe systems languages trustworthy.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ],
+      "more": [
+        {
+          "authors": "Reynolds",
+          "year": 1983,
+          "title": "Types, Abstraction and Parametric Polymorphism",
+          "venue": "Information Processing 83 (Proceedings of the IFIP 9th World Computer Congress)",
+          "type": "paper",
+          "why": "Introduced relational parametricity: generic code must behave uniformly, so types alone guarantee properties. 'Theorems for free' and much of modern type-theoretic reasoning rest on it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Girard",
+          "year": 1987,
+          "title": "Linear Logic",
+          "venue": "Theoretical Computer Science",
+          "type": "paper",
+          "why": "A logic in which assumptions are resources that must be used exactly once. Linear and affine types, Rust's ownership and session types all draw on it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Tofte & Talpin",
+          "year": 1997,
+          "title": "Region-Based Memory Management",
+          "venue": "Information and Computation",
+          "type": "paper",
+          "why": "Showed a type system can infer when memory is freed, without a garbage collector. Rust's lifetimes and region systems in research languages build on this idea.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Lattner & Adve",
+          "year": 2004,
+          "title": "LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation",
+          "venue": "Proceedings of CGO (International Symposium on Code Generation and Optimization)",
+          "type": "paper",
+          "why": "Introduced a typed SSA intermediate representation and modular compiler infrastructure. LLVM is the backend of Clang, Rust, Swift and Julia, and most compiler research is prototyped on it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Rondon, Kawaguchi & Jhala",
+          "year": 2008,
+          "title": "Liquid Types",
+          "venue": "Proceedings of PLDI (ACM Conference on Programming Language Design and Implementation)",
+          "type": "paper",
+          "why": "Combined refinement types with automatic inference via SMT solvers, so types can state properties like array bounds with little annotation. LiquidHaskell and refinement types in newer languages follow.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Calcagno, Distefano, O'Hearn & Yang",
+          "year": 2009,
+          "title": "Compositional Shape Analysis by Means of Bi-Abduction",
+          "venue": "Proceedings of POPL (ACM Symposium on Principles of Programming Languages)",
+          "type": "paper",
+          "why": "Made separation-logic analysis compositional, so it can scale to millions of lines. It became Meta's Infer, a leading example of formal methods deployed at industrial scale.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Batty, Owens, Sarkar, Sewell & Weber",
+          "year": 2011,
+          "title": "Mathematizing C++ Concurrency",
+          "venue": "Proceedings of POPL (ACM Symposium on Principles of Programming Languages)",
+          "type": "paper",
+          "why": "Formalized the C/C++11 memory model and found flaws in the standard. Weak memory models remain an open problem, and this work set the method for studying them.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Jung et al.",
+          "year": 2018,
+          "title": "Iris from the Ground Up: A Modular Foundation for Higher-Order Concurrent Separation Logic",
+          "venue": "Journal of Functional Programming",
+          "type": "paper",
+          "why": "Built a small, general framework from which concurrent separation logics can be derived and mechanized in Coq. It is now the standard tool for verifying concurrent programs and language guarantees.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "O'Hearn",
+          "year": 2020,
+          "title": "Incorrectness Logic",
+          "venue": "Proceedings of the ACM on Programming Languages (POPL)",
+          "type": "paper",
+          "why": "Flipped Hoare logic to prove the presence of bugs rather than their absence, with no false positives. It explains how bug-finding tools work and has spawned a fast-growing line of research.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "de Moura & Ullrich",
+          "year": 2021,
+          "title": "The Lean 4 Theorem Prover and Programming Language",
+          "venue": "Proceedings of CADE (International Conference on Automated Deduction), LNCS 12699",
+          "type": "paper",
+          "why": "Described Lean 4, a dependently typed language that is both a proof assistant and an efficient programming language. It hosts mathlib and is central to current work on formal mathematics and AI-assisted proving.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "field": "Databases",
+      "lead": "Rebuilding data systems for cloud and modern hardware: disaggregated storage, vectorized and compiled query engines, better optimizers (including learned ones), and open lakehouse formats, all while keeping relational semantics and transactions.",
+      "papers": [
+        {
+          "authors": "Codd",
+          "year": 1970,
+          "title": "A Relational Model of Data for Large Shared Data Banks",
+          "venue": "Communications of the ACM",
+          "type": "paper",
+          "why": "Separated the logical view of data as relations from how it is stored. Every SQL system and the recurring challenges from NoSQL and document stores are measured against this model.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Selinger et al.",
+          "year": 1979,
+          "title": "Access Path Selection in a Relational Database Management System",
+          "venue": "Proceedings of ACM SIGMOD",
+          "type": "paper",
+          "why": "Introduced cost-based query optimization with dynamic programming over join orders. Nearly every optimizer still works this way, and its weaknesses drive current research.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Mohan et al.",
+          "year": 1992,
+          "title": "ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging",
+          "venue": "ACM Transactions on Database Systems",
+          "type": "paper",
+          "why": "Defined write-ahead-logging recovery as used by most commercial and open-source databases. New storage hardware and cloud log-based designs are explained as departures from ARIES.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Berenson et al.",
+          "year": 1995,
+          "title": "A Critique of ANSI SQL Isolation Levels",
+          "venue": "Proceedings of ACM SIGMOD",
+          "type": "paper",
+          "why": "Showed the SQL standard's isolation levels were ambiguous and defined snapshot isolation with its anomalies. Arguments about what isolation databases really provide still start here.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "O'Neil, Cheng, Gawlick & O'Neil",
+          "year": 1996,
+          "title": "The Log-Structured Merge-Tree (LSM-Tree)",
+          "venue": "Acta Informatica",
+          "type": "paper",
+          "why": "Turned random writes into sequential ones by buffering and merging sorted runs. LSM-trees run LevelDB, RocksDB and Cassandra, and tuning their trade-offs is an active research area.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Stonebraker et al.",
+          "year": 2005,
+          "title": "C-Store: A Column-oriented DBMS",
+          "venue": "Proceedings of VLDB (International Conference on Very Large Data Bases)",
+          "type": "paper",
+          "why": "Made the case for storing data by column for analytics, with compression and multiple projections. Columnar engines like Vertica, Snowflake and DuckDB and the Parquet format follow from it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Ngo, Porat, Ré & Rudra",
+          "year": 2018,
+          "title": "Worst-Case Optimal Join Algorithms",
+          "venue": "Journal of the ACM",
+          "type": "paper",
+          "why": "Showed that traditional pairwise join plans can be asymptotically suboptimal and gave algorithms matching the bound. These joins are now being built into graph and relational engines.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kraska et al.",
+          "year": 2018,
+          "title": "The Case for Learned Index Structures",
+          "venue": "Proceedings of ACM SIGMOD",
+          "type": "paper",
+          "why": "Proposed replacing indexes with models that learn the data distribution. It launched the 'ML for systems' agenda in databases, still being tested and argued over.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Hellerstein & Alvaro",
+          "year": 2020,
+          "title": "Keeping CALM: When Distributed Consistency Is Easy",
+          "venue": "Communications of the ACM",
+          "type": "paper",
+          "why": "Proved that exactly the monotonic programs can be run consistently without coordination. It gives a principled way to decide when distributed data systems can avoid expensive consensus.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Armbrust, Ghodsi, Xin & Zaharia",
+          "year": 2021,
+          "title": "Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics",
+          "venue": "Proceedings of CIDR (Conference on Innovative Data Systems Research)",
+          "type": "paper",
+          "why": "Argued that warehouse features like transactions and indexing can sit on open files in cheap object storage. Delta Lake, Iceberg and Hudi made this the dominant architecture for analytics.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ],
+      "more": [
+        {
+          "authors": "Graefe",
+          "year": 1994,
+          "title": "Volcano—An Extensible and Parallel Query Evaluation System",
+          "venue": "IEEE Transactions on Knowledge and Data Engineering",
+          "type": "paper",
+          "why": "Introduced the iterator model and the exchange operator for parallel query execution. Most engines still use it, and the vectorized and compiled engines below are defined against it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Boncz, Zukowski & Nes",
+          "year": 2005,
+          "title": "MonetDB/X100: Hyper-Pipelining Query Execution",
+          "venue": "Proceedings of CIDR (Conference on Innovative Data Systems Research)",
+          "type": "paper",
+          "why": "Showed that processing batches of values at a time fits modern CPUs far better than tuple-at-a-time. Vectorized execution is now standard in analytical engines like DuckDB and Snowflake.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Cahill, Röhm & Fekete",
+          "year": 2008,
+          "title": "Serializable Isolation for Snapshot Databases",
+          "venue": "Proceedings of ACM SIGMOD",
+          "type": "paper",
+          "why": "Showed how to make snapshot isolation fully serializable cheaply by detecting dangerous dependency patterns. PostgreSQL's serializable level is built on it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Melnik et al.",
+          "year": 2010,
+          "title": "Dremel: Interactive Analysis of Web-Scale Datasets",
+          "venue": "Proceedings of the VLDB Endowment",
+          "type": "paper",
+          "why": "Introduced nested columnar storage and tree-structured serving for interactive queries over huge data. It led to BigQuery and the Parquet file format.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Neumann",
+          "year": 2011,
+          "title": "Efficiently Compiling Efficient Query Plans for Modern Hardware",
+          "venue": "Proceedings of the VLDB Endowment",
+          "type": "paper",
+          "why": "Compiled queries into tight machine code that keeps data in registers, rather than interpreting operators. Compilation versus vectorization is still a live design debate.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Thomson et al.",
+          "year": 2012,
+          "title": "Calvin: Fast Distributed Transactions for Partitioned Database Systems",
+          "venue": "Proceedings of ACM SIGMOD",
+          "type": "paper",
+          "why": "Ordered transactions before executing them, so replicas run deterministically without two-phase commit. Deterministic databases remain a competing approach to Spanner-style designs.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Leis et al.",
+          "year": 2015,
+          "title": "How Good Are Query Optimizers, Really?",
+          "venue": "Proceedings of the VLDB Endowment",
+          "type": "paper",
+          "why": "Built the Join Order Benchmark and showed cardinality estimates are the main source of bad plans. It reset optimizer research and is the standard benchmark for learned optimizers.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Dageville et al.",
+          "year": 2016,
+          "title": "The Snowflake Elastic Data Warehouse",
+          "venue": "Proceedings of ACM SIGMOD",
+          "type": "paper",
+          "why": "Separated storage from compute so warehouses scale elastically on cloud object storage. That disaggregated design is now the norm for cloud analytics.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Verbitski et al.",
+          "year": 2017,
+          "title": "Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases",
+          "venue": "Proceedings of ACM SIGMOD",
+          "type": "paper",
+          "why": "Pushed the redo log down into a distributed storage service so only log records cross the network. It defined the cloud-native OLTP architecture copied by many systems.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Stonebraker & Pavlo",
+          "year": 2024,
+          "title": "What Goes Around Comes Around... And Around...",
+          "venue": "ACM SIGMOD Record",
+          "type": "paper",
+          "why": "Surveys two decades of data-model fads and argues that the relational model and SQL keep absorbing them. A useful map of where the field stands and what is actually new.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "field": "Networking",
+      "lead": "Making networks programmable, low-latency and efficient at datacenter and planetary scale, through software-defined control, programmable switches, new congestion control, and encrypted transport deployed across the Internet.",
+      "papers": [
+        {
+          "authors": "Saltzer, Reed & Clark",
+          "year": 1984,
+          "title": "End-to-End Arguments in System Design",
+          "venue": "ACM Transactions on Computer Systems",
+          "type": "paper",
+          "why": "Argued that functions like reliability belong at the endpoints, not inside the network. Every debate about in-network computing, middleboxes and smart NICs is an argument with this principle.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Clark",
+          "year": 1988,
+          "title": "The Design Philosophy of the DARPA Internet Protocols",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Laid out the Internet's ranked goals and the trade-offs they forced, such as weak accountability and management. Its candor about what the design neglects still frames proposals for new architectures.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Jacobson",
+          "year": 1988,
+          "title": "Congestion Avoidance and Control",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Rescued the Internet from congestion collapse with slow start, AIMD and RTT estimation. Every congestion controller since, including BBR and datacenter schemes, is a response to it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Chiu & Jain",
+          "year": 1989,
+          "title": "Analysis of the Increase and Decrease Algorithms for Congestion Avoidance in Computer Networks",
+          "venue": "Computer Networks and ISDN Systems",
+          "type": "paper",
+          "why": "Proved that additive-increase, multiplicative-decrease converges to fair and efficient sharing. It is still the analytical baseline new congestion controllers are judged against.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Al-Fares, Loukissas & Vahdat",
+          "year": 2008,
+          "title": "A Scalable, Commodity Data Center Network Architecture",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Showed a fat-tree Clos built from cheap commodity switches gives full bisection bandwidth. This became the blueprint for hyperscale datacenter networks.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "McKeown et al.",
+          "year": 2008,
+          "title": "OpenFlow: Enabling Innovation in Campus Networks",
+          "venue": "ACM SIGCOMM Computer Communication Review",
+          "type": "paper",
+          "why": "Separated the control plane from switch hardware behind an open interface. It started software-defined networking, now standard in datacenters and WANs.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Alizadeh et al.",
+          "year": 2010,
+          "title": "Data Center TCP (DCTCP)",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Used ECN marks to react to the extent of congestion, keeping switch queues short in datacenters. It is widely deployed and the reference point for datacenter congestion control.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Bosshart et al.",
+          "year": 2014,
+          "title": "P4: Programming Protocol-Independent Packet Processors",
+          "venue": "ACM SIGCOMM Computer Communication Review",
+          "type": "paper",
+          "why": "Made the switch data plane itself programmable with a high-level language. It drives work on in-network telemetry, load balancing and computation.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Cardwell, Cheng, Gunn, Yeganeh & Jacobson",
+          "year": 2016,
+          "title": "BBR: Congestion-Based Congestion Control",
+          "venue": "ACM Queue",
+          "type": "paper",
+          "why": "Replaced loss-based congestion signals with a model of bottleneck bandwidth and round-trip time. Deployed across Google and YouTube, its fairness and later versions are still actively studied.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Langley et al.",
+          "year": 2017,
+          "title": "The QUIC Transport Protocol: Design and Internet-Scale Deployment",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Moved transport into user space over UDP with built-in encryption and faster connection setup. Standardized as HTTP/3's transport, it now carries a large share of Internet traffic.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ],
+      "more": [
+        {
+          "authors": "Kelly, Maulloo & Tan",
+          "year": 1998,
+          "title": "Rate Control for Communication Networks: Shadow Prices, Proportional Fairness and Stability",
+          "venue": "Journal of the Operational Research Society",
+          "type": "paper",
+          "why": "Framed congestion control as distributed optimization of network utility. This view still guides the theory and design of rate allocation.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Griffin, Shepherd & Wilfong",
+          "year": 2002,
+          "title": "The Stable Paths Problem and Interdomain Routing",
+          "venue": "IEEE/ACM Transactions on Networking",
+          "type": "paper",
+          "why": "Showed that BGP policies can make Internet routing oscillate or fail to converge. BGP stability and security are still open problems built on this model.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Nichols & Jacobson",
+          "year": 2012,
+          "title": "Controlling Queue Delay",
+          "venue": "ACM Queue",
+          "type": "paper",
+          "why": "Introduced CoDel to fight bufferbloat by managing how long packets wait rather than queue length. It and successors like FQ-CoDel are now in Linux and home routers.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Jain et al.",
+          "year": 2013,
+          "title": "B4: Experience with a Globally-Deployed Software Defined WAN",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Showed centralized traffic engineering could run Google's inter-datacenter WAN near full utilization. It proved SDN at scale and set the pattern for cloud WANs.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Winstein & Balakrishnan",
+          "year": 2013,
+          "title": "TCP ex Machina: Computer-Generated Congestion Control",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Generated congestion control algorithms by optimization rather than hand design, and they beat human-designed ones. It opened the line of learned and data-driven congestion control.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Singh et al.",
+          "year": 2015,
+          "title": "Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google's Datacenter Network",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Reported ten years of building Clos datacenter fabrics with centralized control. It is the main public record of how hyperscale networks are actually run.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Guo et al.",
+          "year": 2016,
+          "title": "RDMA over Commodity Ethernet at Scale",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Documented the deadlocks and failures of running RDMA over Ethernet across a large datacenter, and their fixes. RDMA networking is now central to AI training clusters.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Handley et al.",
+          "year": 2017,
+          "title": "Re-architecting Datacenter Networks and Stacks for Low Latency and High Performance",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Presented NDP, which trims packets instead of dropping them and lets receivers pace senders. Its ideas feed into current datacenter transports such as those for AI clusters.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Handley",
+          "year": 2018,
+          "title": "Delay is Not an Option: Low Latency Routing in Space",
+          "venue": "Proceedings of ACM HotNets (Workshop on Hot Topics in Networks)",
+          "type": "paper",
+          "why": "Showed that low-Earth-orbit constellations with laser links could beat fiber on long-distance latency. It started networking research on Starlink-style networks.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kumar et al.",
+          "year": 2020,
+          "title": "Swift: Delay is Simple and Effective for Congestion Control in the Datacenter",
+          "venue": "Proceedings of ACM SIGCOMM",
+          "type": "paper",
+          "why": "Showed precise delay measurements alone can drive datacenter congestion control at scale. Delay-based control is now a leading approach in production datacenters.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "field": "Human-computer interaction",
+      "lead": "Understanding and designing how people live and work with computing, now dominated by how humans collaborate with, rely on and are shaped by AI systems, alongside accessibility, social computing and ubiquitous interfaces.",
+      "papers": [
+        {
+          "authors": "Hutchins, Hollan & Norman",
+          "year": 1985,
+          "title": "Direct Manipulation Interfaces",
+          "venue": "Human-Computer Interaction",
+          "type": "paper",
+          "why": "Explained why direct manipulation feels natural, through the gulfs of execution and evaluation. Those concepts are now used to analyze the gap between intent and output in prompt-based AI interfaces.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Suchman",
+          "year": 1987,
+          "title": "Plans and Situated Actions: The Problem of Human-Machine Communication",
+          "venue": "Cambridge University Press",
+          "type": "book",
+          "why": "Showed that people act by improvising in context rather than by executing plans, and that machines misread this. It remains the standard critique applied to AI assistants and agents.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Weiser",
+          "year": 1991,
+          "title": "The Computer for the 21st Century",
+          "venue": "Scientific American",
+          "type": "paper",
+          "why": "Envisioned computing that fades into the environment across many devices. Ubiquitous and context-aware computing research still works toward and argues with this vision.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Ishii & Ullmer",
+          "year": 1997,
+          "title": "Tangible Bits: Towards Seamless Interfaces between People, Bits and Atoms",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Proposed making digital information graspable through physical objects and ambient media. It founded tangible interaction, still an active area in shape-changing and fabrication research.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Gaver, Dunne & Pacenti",
+          "year": 1999,
+          "title": "Design: Cultural Probes",
+          "venue": "interactions",
+          "type": "paper",
+          "why": "Used open-ended, playful materials to learn about people's lives instead of controlled studies. Probes became a standard design-research method and a touchstone for debates about rigor in HCI.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Zimmerman, Forlizzi & Evenson",
+          "year": 2007,
+          "title": "Research Through Design as a Method for Interaction Design Research in HCI",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Argued that making artifacts can itself produce knowledge, and set criteria for judging such work. It legitimized design research within HCI and is still how such contributions are evaluated.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kittur, Chi & Suh",
+          "year": 2008,
+          "title": "Crowdsourcing User Studies with Mechanical Turk",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Showed that online crowd workers could run user studies fast and cheaply, if tasks are designed to deter gaming. Crowdsourced data collection and its ethics now pervade HCI and AI.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Wobbrock, Kane, Gajos, Harada & Froehlich",
+          "year": 2011,
+          "title": "Ability-Based Design: Concept, Principles and Examples",
+          "venue": "ACM Transactions on Accessible Computing",
+          "type": "paper",
+          "why": "Shifted accessibility from fixing users to adapting systems to what users can do. It frames current work on adaptive and personalized interfaces.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Amershi et al.",
+          "year": 2019,
+          "title": "Guidelines for Human-AI Interaction",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Distilled 18 tested guidelines for designing AI-infused products. It is widely used in industry and is the baseline for new work on designing with AI.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Park et al.",
+          "year": 2023,
+          "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+          "venue": "Proceedings of ACM UIST (Symposium on User Interface Software and Technology)",
+          "type": "paper",
+          "why": "Showed that language-model agents with memory and reflection can simulate believable human behavior. It opened research on simulating users and on LLM agents as interface material.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ],
+      "more": [
+        {
+          "authors": "Shneiderman & Maes",
+          "year": 1997,
+          "title": "Direct Manipulation vs. Interface Agents",
+          "venue": "interactions",
+          "type": "paper",
+          "why": "Staged the debate between giving users direct control and delegating to intelligent agents. With LLM agents the debate is back at the center of the field.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Horvitz",
+          "year": 1999,
+          "title": "Principles of Mixed-Initiative User Interfaces",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Set out when a system should act on its own versus ask, weighing uncertainty and cost of interruption. It is a core reference for designing AI assistants today.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Ackerman",
+          "year": 2000,
+          "title": "The Intellectual Challenge of CSCW: The Gap Between Social Requirements and Technical Feasibility",
+          "venue": "Human-Computer Interaction",
+          "type": "paper",
+          "why": "Argued that systems systematically fail to support the nuance of social life, and that this gap is the field's central problem. It still frames social computing and collaboration research.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Lee & See",
+          "year": 2004,
+          "title": "Trust in Automation: Designing for Appropriate Reliance",
+          "venue": "Human Factors",
+          "type": "paper",
+          "why": "Defined appropriate trust as reliance matched to a system's actual capability. Calibrating reliance on AI is now one of HCI's most studied problems.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Dourish",
+          "year": 2006,
+          "title": "Implications for Design",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Challenged the habit of reducing ethnographic studies to design requirements. The question of what HCI research should deliver remains contested.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Greenberg & Buxton",
+          "year": 2008,
+          "title": "Usability Evaluation Considered Harmful (Some of the Time)",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Argued that demanding usability studies for every idea can kill early, novel designs. It shapes how the field judges contributions and still sparks debate.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Bardzell",
+          "year": 2010,
+          "title": "Feminist HCI: Taking Stock and Outlining an Agenda for Design",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Brought feminist theory into interaction design with concrete qualities such as pluralism and advocacy. It opened the critical and justice-oriented work that is now a large part of HCI.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Mankoff, Hayes & Kasnitz",
+          "year": 2010,
+          "title": "Disability Studies as a Source of Critical Inquiry for the Field of Assistive Technology",
+          "venue": "Proceedings of ACM ASSETS (Conference on Computers and Accessibility)",
+          "type": "paper",
+          "why": "Challenged assistive-technology research to involve disabled people and question medical framings of disability. Its stance now guides accessibility research methods.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Bansal et al.",
+          "year": 2021,
+          "title": "Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Found that AI explanations often increase acceptance of AI advice whether or not it is right, instead of improving joint decisions. It reshaped research on explainable AI and human-AI teams.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Jakesch, Bhat, Buschek, Zalmanson & Naaman",
+          "year": 2023,
+          "title": "Co-Writing with Opinionated Language Models Affects Users' Views",
+          "venue": "Proceedings of ACM CHI",
+          "type": "paper",
+          "why": "Showed that writing with a biased language model shifts what people write and what they later believe. It made latent persuasion by AI assistants a pressing research concern.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "field": "Computer architecture",
+      "lead": "Getting more performance per watt after Dennard scaling and Moore's law have slowed, mainly through domain-specific accelerators for AI, attacks on the memory wall, and hardware that is secure against side channels.",
+      "papers": [
+        {
+          "authors": "Amdahl",
+          "year": 1967,
+          "title": "Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities",
+          "venue": "Proceedings of AFIPS Spring Joint Computer Conference",
+          "type": "paper",
+          "why": "Showed that the serial part of a program limits the speedup from parallel hardware. Amdahl's law still governs how architects size cores, accelerators and systems.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Dennard et al.",
+          "year": 1974,
+          "title": "Design of Ion-Implanted MOSFET's with Very Small Physical Dimensions",
+          "venue": "IEEE Journal of Solid-State Circuits",
+          "type": "paper",
+          "why": "Gave the scaling rules under which smaller transistors also used proportionally less power. The breakdown of this scaling around 2005 is the root cause of nearly every trend in architecture today.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Wulf & McKee",
+          "year": 1995,
+          "title": "Hitting the Memory Wall: Implications of the Obvious",
+          "venue": "ACM SIGARCH Computer Architecture News",
+          "type": "paper",
+          "why": "Predicted that growing processor-memory speed gaps would make memory the bottleneck. With AI workloads, memory bandwidth is again the main limit, and this paper names the problem.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Hill & Marty",
+          "year": 2008,
+          "title": "Amdahl's Law in the Multicore Era",
+          "venue": "IEEE Computer",
+          "type": "paper",
+          "why": "Extended Amdahl's law to symmetric, asymmetric and dynamic multicore designs. It explains why chips mix big and small cores and accelerators.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Hameed et al.",
+          "year": 2010,
+          "title": "Understanding Sources of Inefficiency in General-Purpose Chips",
+          "venue": "Proceedings of ISCA (International Symposium on Computer Architecture)",
+          "type": "paper",
+          "why": "Measured how far general-purpose processors are from custom hardware in energy and showed where the waste goes. It became a core argument for specialization.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Esmaeilzadeh et al.",
+          "year": 2011,
+          "title": "Dark Silicon and the End of Multicore Scaling",
+          "venue": "Proceedings of ISCA (International Symposium on Computer Architecture)",
+          "type": "paper",
+          "why": "Projected that power limits would leave much of each chip unpowered, so adding cores would stop paying off. This pushed the field toward specialized accelerators.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kim et al.",
+          "year": 2014,
+          "title": "Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors",
+          "venue": "Proceedings of ISCA (International Symposium on Computer Architecture)",
+          "type": "paper",
+          "why": "Discovered RowHammer: repeatedly reading DRAM rows can flip bits in neighboring rows. It became a serious security threat and denser memory has made it worse, so mitigations remain active research.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Jouppi et al.",
+          "year": 2017,
+          "title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+          "venue": "Proceedings of ISCA (International Symposium on Computer Architecture)",
+          "type": "paper",
+          "why": "Showed a simple matrix-multiply accelerator beat contemporary CPUs and GPUs on neural-network inference by large margins. It set off the current wave of AI accelerators.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Hennessy & Patterson",
+          "year": 2019,
+          "title": "A New Golden Age for Computer Architecture",
+          "venue": "Communications of the ACM",
+          "type": "paper",
+          "why": "Argued that with general-purpose scaling ending, progress will come from domain-specific architectures, languages and open instruction sets. It is the field's own statement of its current agenda.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kocher et al.",
+          "year": 2019,
+          "title": "Spectre Attacks: Exploiting Speculative Execution",
+          "venue": "Proceedings of IEEE Symposium on Security and Privacy",
+          "type": "paper",
+          "why": "Showed that speculative execution, central to fast CPUs, leaks secrets through caches. Designing processors that are fast and leak-free is still unsolved.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ],
+      "more": [
+        {
+          "authors": "Williams, Waterman & Patterson",
+          "year": 2009,
+          "title": "Roofline: An Insightful Visual Performance Model for Multicore Architectures",
+          "venue": "Communications of the ACM",
+          "type": "paper",
+          "why": "Gave a simple model of whether a workload is limited by compute or memory bandwidth. It is used everywhere to analyze AI and HPC workloads.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Asanović & Patterson",
+          "year": 2014,
+          "title": "Instruction Sets Should Be Free: The Case For RISC-V",
+          "venue": "Technical Report UCB/EECS-2014-146, University of California, Berkeley",
+          "type": "paper",
+          "why": "Argued for an open, royalty-free instruction set. RISC-V now ships widely and is the default platform for academic and custom-chip work.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Kanev et al.",
+          "year": 2015,
+          "title": "Profiling a Warehouse-Scale Computer",
+          "venue": "Proceedings of ISCA (International Symposium on Computer Architecture)",
+          "type": "paper",
+          "why": "Measured real Google datacenter workloads and found large overheads in common software functions, the 'datacenter tax'. It redirected attention to accelerating that tax and to front-end bottlenecks.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Ahn, Hong, Yoo, Mutlu & Choi",
+          "year": 2015,
+          "title": "A Scalable Processing-in-Memory Accelerator for Parallel Graph Processing",
+          "venue": "Proceedings of ISCA (International Symposium on Computer Architecture)",
+          "type": "paper",
+          "why": "Placed compute inside 3D-stacked memory to attack the memory wall for graph workloads. Processing-in-memory is now being commercialized and remains a major research thread.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Chen, Krishna, Emer & Sze",
+          "year": 2016,
+          "title": "Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks",
+          "venue": "Proceedings of ISCA (International Symposium on Computer Architecture)",
+          "type": "paper",
+          "why": "Showed that data movement dominates accelerator energy and classified dataflows by what they keep local. That taxonomy is still how accelerator designs are compared.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Lipp et al.",
+          "year": 2018,
+          "title": "Meltdown: Reading Kernel Memory from User Space",
+          "venue": "Proceedings of USENIX Security Symposium",
+          "type": "paper",
+          "why": "Showed out-of-order execution could read kernel memory from user programs on most Intel CPUs. Its fixes changed operating systems and hardware, and it defines transient-execution attacks with Spectre.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Leiserson et al.",
+          "year": 2020,
+          "title": "There's Plenty of Room at the Top: What Will Drive Computer Performance After Moore's Law?",
+          "venue": "Science",
+          "type": "paper",
+          "why": "Argued that future gains will come from software, algorithms and hardware streamlining rather than transistors. It is a widely cited map of where performance will come from now.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Dally, Turakhia & Han",
+          "year": 2020,
+          "title": "Domain-Specific Hardware Accelerators",
+          "venue": "Communications of the ACM",
+          "type": "paper",
+          "why": "Explained where accelerators get their efficiency, mainly specialization, parallelism and reducing data movement. It is a clear guide to how today's AI chips are designed.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Jouppi et al.",
+          "year": 2023,
+          "title": "TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings",
+          "venue": "Proceedings of ISCA (International Symposium on Computer Architecture)",
+          "type": "paper",
+          "why": "Described a machine-learning supercomputer using optical circuit switches to reconfigure its network. It shows how architecture now operates at the scale of whole clusters.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Gholami et al.",
+          "year": 2024,
+          "title": "AI and Memory Wall",
+          "venue": "IEEE Micro",
+          "type": "paper",
+          "why": "Showed that compute for AI has grown far faster than memory and interconnect bandwidth, making memory the limit for large models. It updates the memory-wall argument for the current era.",
+          "verified": false,
+          "conf": "low",
+          "note": "Title, authors and 2024 confirmed; IEEE Micro venue from memory, not confirmed this pass."
+        }
+      ]
+    }
+  ]
+}

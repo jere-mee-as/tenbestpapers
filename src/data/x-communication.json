@@ -1,0 +1,233 @@
+{
+  "discipline": "Communication",
+  "fields": [
+    {
+      "field": "Media & communication",
+      "lead": "The field is mainly measuring how much platforms, algorithms and misinformation actually shape what people believe and do, using large-scale behavioural data and field experiments that often find smaller effects than public alarm suggests.",
+      "papers": [
+        {
+          "authors": "McCombs & Shaw",
+          "year": 1972,
+          "title": "The Agenda-Setting Function of Mass Media",
+          "venue": "Public Opinion Quarterly",
+          "type": "paper",
+          "why": "Showed that the issues news outlets emphasise become the issues audiences think are important. It moved media-effects research away from asking whether media change minds toward asking what they make salient, and agenda setting is still the baseline that platform-era studies of salience and attention test against.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Entman",
+          "year": 1993,
+          "title": "Framing: Toward Clarification of a Fractured Paradigm",
+          "venue": "Journal of Communication",
+          "type": "paper",
+          "why": "Gave framing a working definition: selecting and highlighting some aspects of a reality to promote a particular interpretation. It remains the most cited anchor for framing research, which still dominates the journals and now gets applied to algorithmic and partisan news environments.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Bakshy, Messing & Adamic",
+          "year": 2015,
+          "title": "Exposure to Ideologically Diverse News and Opinion on Facebook",
+          "venue": "Science",
+          "type": "paper",
+          "why": "Using data on 10 million users, it separated the effect of friends, the ranking algorithm and users' own clicks on cross-cutting exposure, finding individual choice mattered more than the algorithm. It set the template, and the controversy over platform-run research, that the 2020 election studies later inherited.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Vosoughi, Roy & Aral",
+          "year": 2018,
+          "title": "The Spread of True and False News Online",
+          "venue": "Science",
+          "type": "paper",
+          "why": "Tracked fact-checked rumour cascades on Twitter and found falsehoods spread farther, faster and deeper than truths, driven by people rather than bots. It is the most cited empirical claim about misinformation dynamics, and later work keeps qualifying how much it generalises beyond contested, viral rumours.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Lazer et al.",
+          "year": 2018,
+          "title": "The science of fake news",
+          "venue": "Science",
+          "type": "paper",
+          "why": "A multidisciplinary statement that defined fake news by its process rather than content and laid out a research agenda on prevalence, mechanisms and interventions. It organised the post-2016 misinformation field, and much of what followed reads as answers to its questions.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Guess, Nagler & Tucker",
+          "year": 2019,
+          "title": "Less than you think: Prevalence and predictors of fake news dissemination on Facebook",
+          "venue": "Science Advances",
+          "type": "paper",
+          "why": "Linked survey data to actual Facebook sharing and found that few people shared fake news, concentrated among older users. It started the shift from alarm about pervasive misinformation to the finding that exposure and sharing are highly concentrated in small groups.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Allcott, Braghieri, Eichmeyer & Gentzkow",
+          "year": 2020,
+          "title": "The Welfare Effects of Social Media",
+          "venue": "American Economic Review",
+          "type": "paper",
+          "why": "Paid people to deactivate Facebook for four weeks before the 2018 midterms and measured news knowledge, polarisation, well-being and later use. It made large deactivation experiments the standard way to estimate social media's causal effects, and its modest but real effects frame current debates.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Guess et al.",
+          "year": 2023,
+          "title": "How do social media feed algorithms affect attitudes and behavior in an election campaign?",
+          "venue": "Science",
+          "type": "paper",
+          "why": "Part of the 2020 Facebook and Instagram election studies, it switched users from algorithmic to chronological feeds for three months. Time on platform and content changed sharply but polarisation and political attitudes did not detectably move, which is now the central evidence in arguments over algorithmic harm.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Nyhan et al.",
+          "year": 2023,
+          "title": "Like-minded sources on Facebook are prevalent but not polarizing",
+          "venue": "Nature",
+          "type": "paper",
+          "why": "Another 2020 election study: it reduced exposure to like-minded sources for millions of users and found no measurable change in polarisation or ideological extremity. It is the strongest experimental evidence against the simple echo-chamber story and is still being argued over for what a short intervention can show.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Budak et al.",
+          "year": 2024,
+          "title": "Misunderstanding the harms of online misinformation",
+          "venue": "Nature",
+          "type": "paper",
+          "why": "A synthesis arguing that exposure to false and inflammatory content is low on average and concentrated in a narrow fringe, and that public discourse misreads the evidence. It states where the field now stands and points research toward heavy consumers, demand-side drivers and non-Western platforms.",
+          "verified": true,
+          "conf": "high",
+          "note": ""
+        }
+      ],
+      "more": [
+        {
+          "authors": "Prior",
+          "year": 2007,
+          "title": "Post-Broadcast Democracy: How Media Choice Increases Inequality in Political Involvement and Polarizes Elections",
+          "venue": "Cambridge University Press",
+          "type": "book",
+          "why": "Argued that expanding media choice lets the uninterested opt out of news entirely while partisans consume more, widening gaps in knowledge and turnout. Its focus on selective exposure and news avoidance is still the main lens for understanding fragmented audiences.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Scheufele & Tewksbury",
+          "year": 2007,
+          "title": "Framing, Agenda Setting, and Priming: The Evolution of Three Media Effects Models",
+          "venue": "Journal of Communication",
+          "type": "paper",
+          "why": "Separated accessibility-based effects (agenda setting, priming) from applicability-based framing effects. It remains the standard conceptual map that keeps these three closely related research traditions apart.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Flaxman, Goel & Rao",
+          "year": 2016,
+          "title": "Filter Bubbles, Echo Chambers, and Online News Consumption",
+          "venue": "Public Opinion Quarterly",
+          "type": "paper",
+          "why": "Used browsing histories of 50,000 users to show that social and search referrals raise ideological distance slightly but also raise exposure to the other side. It was an early large-scale behavioural test showing most people's news diets are less segregated than filter-bubble claims implied.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Martin & Yurukoglu",
+          "year": 2017,
+          "title": "Bias in Cable News: Persuasion and Polarization",
+          "venue": "American Economic Review",
+          "type": "paper",
+          "why": "Used channel-position variation to estimate that Fox News has substantial persuasive effects on vote share and that cable news increased polarisation. It is a key counterweight to minimal-effects findings, showing a partisan outlet can move votes.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Pennycook & Rand",
+          "year": 2019,
+          "title": "Lazy, not biased: Susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning",
+          "venue": "Cognition",
+          "type": "paper",
+          "why": "Found that people who reason more analytically are better at telling true from false headlines regardless of partisan fit. It started the inattention account of misinformation and the accuracy-prompt interventions, and it is still debated against motivated-reasoning explanations.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Wood & Porter",
+          "year": 2019,
+          "title": "The Elusive Backfire Effect: Mass Attitudes' Steadfast Factual Adherence",
+          "venue": "Political Behavior",
+          "type": "paper",
+          "why": "Across many issues and thousands of subjects, factual corrections moved beliefs toward accuracy and backfire almost never appeared. It largely overturned the belief that corrections entrench misperceptions, and fact-checking research now builds on it.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Rathje, Van Bavel & van der Linden",
+          "year": 2021,
+          "title": "Out-group animosity drives engagement on social media",
+          "venue": "Proceedings of the National Academy of Sciences",
+          "type": "paper",
+          "why": "Showed that posts about the political out-group got far more shares and reactions than other content on Facebook and Twitter. It links the attention economy to polarisation through engagement-based incentives, a central idea in current platform-design debates.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Braghieri, Levy & Makarin",
+          "year": 2022,
+          "title": "Social Media and Mental Health",
+          "venue": "American Economic Review",
+          "type": "paper",
+          "why": "Used Facebook's staggered rollout across US colleges to estimate that access worsened students' mental health. It is among the strongest quasi-experimental evidence in the heated debate over social media and adolescent and young adult well-being.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "Ecker et al.",
+          "year": 2022,
+          "title": "The psychological drivers of misinformation belief and its resistance to correction",
+          "venue": "Nature Reviews Psychology",
+          "type": "paper",
+          "why": "Reviews why people believe misinformation and why corrected falsehoods continue to influence reasoning, and what makes debunking and prebunking work. It is the current standard summary for correction and inoculation research.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        },
+        {
+          "authors": "González-Bailón et al.",
+          "year": 2023,
+          "title": "Asymmetric ideological segregation in exposure to political news on Facebook",
+          "venue": "Science",
+          "type": "paper",
+          "why": "Measured exposure across all US adult Facebook users in 2020 and found substantial ideological segregation, with a conservative corner of the news ecosystem where most misinformation sat. It complicates the null results from the experiments by showing that segregation is real and asymmetric even if short-term interventions do not shift attitudes.",
+          "verified": false,
+          "conf": "high",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

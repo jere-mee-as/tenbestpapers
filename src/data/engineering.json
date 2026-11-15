@@ -1,0 +1,2057 @@
+{
+ "discipline": "Engineering",
+ "fields": [
+  {
+   "field": "Electrical & electronic",
+   "lead": "The field is chasing more data per watt: massive-MIMO, millimetre-wave and 6G links on the communications side, and specialised accelerators and in-memory computing now that transistor scaling no longer delivers free gains.",
+   "papers": [
+    {
+     "authors": "Shannon",
+     "year": 1948,
+     "title": "A Mathematical Theory of Communication",
+     "venue": "Bell System Technical Journal",
+     "type": "paper",
+     "why": "Defined information and channel capacity, turning communication into a problem with a provable ceiling. Every new code, modulation and 6G proposal is still judged by how close it gets to Shannon's limit.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dennard, Gaensslen, Yu, Rideout, Bassous & LeBlanc",
+     "year": 1974,
+     "title": "Design of Ion-Implanted MOSFET's with Very Small Physical Dimensions",
+     "venue": "IEEE Journal of Solid-State Circuits",
+     "type": "paper",
+     "why": "Gave the scaling rules under which shrinking transistors also made them faster and cooler, powering decades of chip progress. The end of this scaling around 2005 is the reason the field now turns to multicore, accelerators and new devices.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Telatar",
+     "year": 1999,
+     "title": "Capacity of Multi-Antenna Gaussian Channels",
+     "venue": "European Transactions on Telecommunications",
+     "type": "paper",
+     "why": "Showed that capacity grows roughly linearly with the number of antennas, which made MIMO the core of Wi-Fi, 4G and 5G. Its capacity formulas remain the starting point for analysing any multi-antenna system.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Candès, Romberg & Tao",
+     "year": 2006,
+     "title": "Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Proved that sparse signals can be recovered exactly from far fewer samples than classical sampling demands. Compressed sensing changed how MRI scanners, radar and sensors are designed and still shapes sparse and learned reconstruction methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Strukov, Snider, Stewart & Williams",
+     "year": 2008,
+     "title": "The missing memristor found",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Linked a physical titanium-oxide device to Chua's theoretical memristor and set off the resistive-memory boom. It is still argued over, both whether these devices are 'true' memristors and how far they can go as analog synapses for AI hardware.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arikan",
+     "year": 2009,
+     "title": "Channel Polarization: A Method for Constructing Capacity-Achieving Codes for Symmetric Binary-Input Memoryless Channels",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Introduced polar codes, the first explicit codes provably reaching capacity with low-complexity decoding. They were adopted for 5G control channels within a decade, and their decoders and finite-length performance remain active research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marzetta",
+     "year": 2010,
+     "title": "Noncooperative Cellular Wireless with Unlimited Numbers of Base Station Antennas",
+     "venue": "IEEE Transactions on Wireless Communications",
+     "type": "paper",
+     "why": "Showed that with very many base-station antennas, noise and fast fading average out and pilot contamination becomes the only limit. This launched massive MIMO, now standard in 5G, and pilot contamination is still a live problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Esmaeilzadeh, Blem, St. Amant, Sankaralingam & Burger",
+     "year": 2011,
+     "title": "Dark Silicon and the End of Multicore Scaling",
+     "venue": "Proceedings of the 38th International Symposium on Computer Architecture (ISCA)",
+     "type": "paper",
+     "why": "Quantified that power limits will leave much of a chip unpowered, so adding cores cannot keep performance growing. It is the standard argument for why the industry moved to specialised accelerators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rappaport et al.",
+     "year": 2013,
+     "title": "Millimeter Wave Mobile Communications for 5G Cellular: It Will Work!",
+     "venue": "IEEE Access",
+     "type": "paper",
+     "why": "Used outdoor measurements in New York to show that millimetre-wave bands could support mobile links, overturning the belief that they were too lossy. It opened the high-frequency spectrum now used in 5G and pushed toward sub-terahertz 6G work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jouppi et al.",
+     "year": 2017,
+     "title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+     "venue": "Proceedings of the 44th International Symposium on Computer Architecture (ISCA)",
+     "type": "paper",
+     "why": "Showed a domain-specific matrix accelerator beating contemporary CPUs and GPUs by large margins on real neural-network workloads. It became the template for the AI-accelerator industry and the benchmark story every new chip is compared against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Gallager",
+     "year": 1962,
+     "title": "Low-Density Parity-Check Codes",
+     "venue": "IRE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Proposed sparse-graph codes with iterative decoding that were ignored for 30 years and then found to approach capacity. LDPC codes now carry data in 5G, Wi-Fi and storage, and their design is still refined.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Horowitz",
+     "year": 2014,
+     "title": "1.1 Computing's energy problem (and what we can do about it)",
+     "venue": "IEEE International Solid-State Circuits Conference (ISSCC), Digest of Technical Papers",
+     "type": "paper",
+     "why": "Tabulated the energy cost of arithmetic versus memory access and showed that moving data, not computing on it, dominates. Its numbers are quoted in almost every accelerator and near-memory computing paper.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Larsson, Edfors, Tufvesson & Marzetta",
+     "year": 2014,
+     "title": "Massive MIMO for Next Generation Wireless Systems",
+     "venue": "IEEE Communications Magazine",
+     "type": "paper",
+     "why": "Turned massive MIMO from a theoretical limit into an engineering programme, covering hardware, channel estimation and deployment. It is the most common entry point to the technology that became 5G's core.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Andrews et al.",
+     "year": 2014,
+     "title": "What Will 5G Be?",
+     "venue": "IEEE Journal on Selected Areas in Communications",
+     "type": "paper",
+     "why": "Set out the combination of densification, millimetre wave and massive MIMO that defined 5G research. It framed the agenda that standards followed and that 6G work now extends.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sze, Chen, Yang & Emer",
+     "year": 2017,
+     "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+     "venue": "Proceedings of the IEEE",
+     "type": "paper",
+     "why": "Laid out dataflows, memory hierarchies and metrics for building neural-network hardware. It is the standard reference for how to design and fairly compare AI accelerators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "O'Shea & Hoydis",
+     "year": 2017,
+     "title": "An Introduction to Deep Learning for the Physical Layer",
+     "venue": "IEEE Transactions on Cognitive Communications and Networking",
+     "type": "paper",
+     "why": "Treated a whole transmitter, channel and receiver as an autoencoder learned end to end. It started the push for machine-learned air interfaces that 6G proposals now take seriously.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ielmini & Wong",
+     "year": 2018,
+     "title": "In-memory computing with resistive switching devices",
+     "venue": "Nature Electronics",
+     "type": "paper",
+     "why": "Surveyed how resistive memories can do matrix multiplication where the data is stored, avoiding the memory bottleneck. It frames the current race to build analog in-memory AI chips and their accuracy problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hennessy & Patterson",
+     "year": 2019,
+     "title": "A New Golden Age for Computer Architecture",
+     "venue": "Communications of the ACM",
+     "type": "paper",
+     "why": "Argued that with Moore's and Dennard's laws fading, gains must come from domain-specific architectures, languages and open instruction sets. It is the field's agreed account of why hardware design is fragmenting into specialised chips.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wu & Zhang",
+     "year": 2019,
+     "title": "Intelligent Reflecting Surface Enhanced Wireless Network via Joint Active and Passive Beamforming",
+     "venue": "IEEE Transactions on Wireless Communications",
+     "type": "paper",
+     "why": "Showed how cheap passive reflecting surfaces can be co-designed with base-station beams to reshape the radio channel. Reconfigurable surfaces are now one of the most studied 6G technologies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liu et al.",
+     "year": 2022,
+     "title": "Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond",
+     "venue": "IEEE Journal on Selected Areas in Communications",
+     "type": "paper",
+     "why": "Mapped how a single waveform and network can both communicate and act as radar. Integrated sensing and communication is a headline 6G feature, and this survey sets its open problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Mechanical",
+   "lead": "Mechanical engineering is fusing simulation with design and data: topology optimisation for additive manufacturing, phase-field fracture, and machine-learned surrogates and operators for turbulence and solid mechanics.",
+   "papers": [
+    {
+     "authors": "Griffith",
+     "year": 1921,
+     "title": "The Phenomena of Rupture and Flow in Solids",
+     "venue": "Philosophical Transactions of the Royal Society A",
+     "type": "paper",
+     "why": "Explained fracture as a balance between released elastic energy and the energy of new crack surface. That energy balance is exactly what modern phase-field and variational fracture models regularise and compute.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Launder & Spalding",
+     "year": 1974,
+     "title": "The Numerical Computation of Turbulent Flows",
+     "venue": "Computer Methods in Applied Mechanics and Engineering",
+     "type": "paper",
+     "why": "Set out the k-epsilon model and wall functions that made turbulent flow computable in industry. RANS models of this type still run most engineering CFD, and their known failures are what data-driven turbulence modelling targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bendsøe & Kikuchi",
+     "year": 1988,
+     "title": "Generating Optimal Topologies in Structural Design Using a Homogenization Method",
+     "venue": "Computer Methods in Applied Mechanics and Engineering",
+     "type": "paper",
+     "why": "Turned the question of where to put material into a computable optimisation, giving birth to topology optimisation. Its descendants now design aircraft brackets, additively manufactured parts and metamaterials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Francfort & Marigo",
+     "year": 1998,
+     "title": "Revisiting Brittle Fracture as an Energy Minimization Problem",
+     "venue": "Journal of the Mechanics and Physics of Solids",
+     "type": "paper",
+     "why": "Recast Griffith's theory as global energy minimisation, so crack paths emerge without being prescribed. It is the mathematical basis of phase-field fracture, one of the busiest areas in computational mechanics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moës, Dolbow & Belytschko",
+     "year": 1999,
+     "title": "A Finite Element Method for Crack Growth Without Remeshing",
+     "venue": "International Journal for Numerical Methods in Engineering",
+     "type": "paper",
+     "why": "Introduced the extended finite element method, which enriches elements so a crack can cut through a fixed mesh. XFEM remains a main competitor to phase-field methods and is built into commercial codes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hughes, Cottrell & Bazilevs",
+     "year": 2005,
+     "title": "Isogeometric Analysis: CAD, Finite Elements, NURBS, Exact Geometry and Mesh Refinement",
+     "venue": "Computer Methods in Applied Mechanics and Engineering",
+     "type": "paper",
+     "why": "Proposed analysing designs directly with the spline geometry used in CAD, removing the meshing step. Isogeometric analysis has grown into a large research area spanning shells, contact and design optimisation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Miehe, Hofacker & Welschinger",
+     "year": 2010,
+     "title": "A phase field model of rate-independent crack propagation: Robust algorithmic implementation based on operator splits",
+     "venue": "Computer Methods in Applied Mechanics and Engineering",
+     "type": "paper",
+     "why": "Gave a thermodynamically consistent phase-field formulation with a staggered solver that engineers could actually run. Most current phase-field fracture codes start from this formulation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sigmund & Maute",
+     "year": 2013,
+     "title": "Topology optimization approaches",
+     "venue": "Structural and Multidisciplinary Optimization",
+     "type": "paper",
+     "why": "Compared density, level-set, phase-field and other topology optimisation methods and their weaknesses side by side. It is the standard map of the field and frames current debates over which approach to use.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brunton, Proctor & Kutz",
+     "year": 2016,
+     "title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced SINDy, which recovers compact differential equations from measured data using sparse regression. It sparked the equation-discovery strand of scientific machine learning, used in fluids, control and structural dynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raissi, Perdikaris & Karniadakis",
+     "year": 2019,
+     "title": "Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations",
+     "venue": "Journal of Computational Physics",
+     "type": "paper",
+     "why": "Trained neural networks to satisfy governing PDEs as well as data, enabling inverse problems with sparse measurements. PINNs are now everywhere in mechanics, and their training failures and limits are heavily debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Bourdin, Francfort & Marigo",
+     "year": 2000,
+     "title": "Numerical experiments in revisited brittle fracture",
+     "venue": "Journal of the Mechanics and Physics of Solids",
+     "type": "paper",
+     "why": "Introduced the regularised approximation that made variational fracture computable. This is the step that turned Francfort and Marigo's theory into today's phase-field simulations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang, Wang & Guo",
+     "year": 2003,
+     "title": "A level set method for structural topology optimization",
+     "venue": "Computer Methods in Applied Mechanics and Engineering",
+     "type": "paper",
+     "why": "Represented the structure's boundary as a level set, giving crisp designs instead of grey densities. Level-set methods remain the main alternative to density-based topology optimisation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schmid",
+     "year": 2010,
+     "title": "Dynamic mode decomposition of numerical and experimental data",
+     "venue": "Journal of Fluid Mechanics",
+     "type": "paper",
+     "why": "Extracted coherent oscillating structures directly from flow snapshots, with no model required. DMD became a standard tool for flow analysis, reduced-order modelling and control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Avila et al.",
+     "year": 2011,
+     "title": "The Onset of Turbulence in Pipe Flow",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Pinned down the critical Reynolds number for sustained pipe turbulence by balancing puff decay against splitting. It resolved Reynolds's century-old question and tied transition to directed percolation, an area still under study.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bertoldi, Vitelli, Christensen & van Hecke",
+     "year": 2017,
+     "title": "Flexible mechanical metamaterials",
+     "venue": "Nature Reviews Materials",
+     "type": "paper",
+     "why": "Showed how instabilities and geometry let soft structures have programmable, unusual mechanical responses. It defines the design space for the mechanical metamaterials now being optimised and printed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duraisamy, Iaccarino & Xiao",
+     "year": 2019,
+     "title": "Turbulence Modeling in the Age of Data",
+     "venue": "Annual Review of Fluid Mechanics",
+     "type": "paper",
+     "why": "Reviewed how data and machine learning can correct and quantify uncertainty in RANS models. It sets the agenda and the cautions for learned turbulence closures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lu, Jin, Pang, Zhang & Karniadakis",
+     "year": 2021,
+     "title": "Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators",
+     "venue": "Nature Machine Intelligence",
+     "type": "paper",
+     "why": "Learned whole solution operators, mapping input functions to output functions, instead of single solutions. Operator learning is now the main route to fast surrogates for parametric PDEs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Li et al.",
+     "year": 2021,
+     "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Learned PDE solution operators in Fourier space, giving mesh-independent surrogates orders of magnitude faster than solvers. FNO and its variants are the leading architectures in neural PDE surrogates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pfaff, Fortunato, Sanchez-Gonzalez & Battaglia",
+     "year": 2021,
+     "title": "Learning Mesh-Based Simulation with Graph Networks",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Learned simulators that operate on unstructured meshes for cloth, fluids and solids. Graph-network simulators are a main line in making learned physics compatible with engineering meshes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Karniadakis et al.",
+     "year": 2021,
+     "title": "Physics-informed machine learning",
+     "venue": "Nature Reviews Physics",
+     "type": "paper",
+     "why": "Surveyed the ways physics can be built into machine-learning models and where each succeeds or fails. It is the standard overview of the field that PINNs, operators and SINDy belong to.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Civil & structural",
+   "lead": "Civil engineering is focused on performance-based and resilience-based design under earthquakes and other hazards, on cutting the carbon of concrete and building materials, and on sensor- and vision-based monitoring of ageing infrastructure.",
+   "papers": [
+    {
+     "authors": "Biot",
+     "year": 1941,
+     "title": "General Theory of Three-Dimensional Consolidation",
+     "venue": "Journal of Applied Physics",
+     "type": "paper",
+     "why": "Coupled pore-fluid flow with solid deformation in a single theory of poroelasticity. It is still the framework for settlement, liquefaction, geothermal and subsurface storage models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roscoe, Schofield & Wroth",
+     "year": 1958,
+     "title": "On the Yielding of Soils",
+     "venue": "Géotechnique",
+     "type": "paper",
+     "why": "Introduced the critical state concept linking soil strength, density and stress. Critical-state soil mechanics underpins most constitutive models used in geotechnical design and is still being extended.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cornell",
+     "year": 1968,
+     "title": "Engineering Seismic Risk Analysis",
+     "venue": "Bulletin of the Seismological Society of America",
+     "type": "paper",
+     "why": "Created probabilistic seismic hazard analysis, combining all possible earthquakes into the probability of exceeding a shaking level. National hazard maps and building codes still use it, and its assumptions are still argued over.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bažant",
+     "year": 1984,
+     "title": "Size Effect in Blunt Fracture: Concrete, Rock, Metal",
+     "venue": "Journal of Engineering Mechanics (ASCE)",
+     "type": "paper",
+     "why": "Showed that quasi-brittle structures get weaker as they get bigger, in a way strength-based design misses. The size-effect law has entered shear provisions in concrete codes and remains debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mander, Priestley & Park",
+     "year": 1988,
+     "title": "Theoretical Stress-Strain Model for Confined Concrete",
+     "venue": "Journal of Structural Engineering (ASCE)",
+     "type": "paper",
+     "why": "Gave a stress-strain model for concrete confined by steel ties, capturing gains in strength and ductility. It is still the default concrete model in nonlinear seismic analysis software.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dallard et al.",
+     "year": 2001,
+     "title": "London Millennium Bridge: Pedestrian-Induced Lateral Vibration",
+     "venue": "Journal of Bridge Engineering",
+     "type": "paper",
+     "why": "Documented how walkers synchronised with the bridge's sway, a crowd-structure feedback that designers had not anticipated. It changed footbridge design guidance and still drives research on human-structure interaction.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vamvatsikos & Cornell",
+     "year": 2002,
+     "title": "Incremental Dynamic Analysis",
+     "venue": "Earthquake Engineering & Structural Dynamics",
+     "type": "paper",
+     "why": "Scaled ground motions up step by step to trace a structure's response all the way to collapse. IDA is the standard way to estimate collapse risk and underpins assessment methods like FEMA P695.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cornell, Jalayer, Hamburger & Foutch",
+     "year": 2002,
+     "title": "Probabilistic Basis for 2000 SAC Federal Emergency Management Agency Steel Moment Frame Guidelines",
+     "venue": "Journal of Structural Engineering (ASCE)",
+     "type": "paper",
+     "why": "Gave a closed-form way to combine hazard, response and capacity uncertainty into a probability of failure. It is the backbone of performance-based earthquake engineering.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bruneau et al.",
+     "year": 2003,
+     "title": "A Framework to Quantitatively Assess and Enhance the Seismic Resilience of Communities",
+     "venue": "Earthquake Spectra",
+     "type": "paper",
+     "why": "Defined resilience as the loss and recovery of function over time, the 'resilience triangle'. This framing now drives how cities and agencies plan for disasters beyond life safety.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scrivener, John & Gartner",
+     "year": 2018,
+     "title": "Eco-efficient cements: Potential economically viable solutions for a low-CO2 cement-based materials industry",
+     "venue": "Cement and Concrete Research",
+     "type": "paper",
+     "why": "Assessed which cement and concrete changes can realistically cut the sector's large CO2 footprint, such as clinker substitution and calcined clays. It frames the current push for low-carbon concrete.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Seed & Idriss",
+     "year": 1971,
+     "title": "Simplified Procedure for Evaluating Soil Liquefaction Potential",
+     "venue": "Journal of the Soil Mechanics and Foundations Division (ASCE)",
+     "type": "paper",
+     "why": "Compared earthquake-induced cyclic stress with soil resistance in a simple, field-usable way. Its updated descendants are still how liquefaction is assessed in practice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dafalias & Manzari",
+     "year": 2004,
+     "title": "Simple Plasticity Sand Model Accounting for Fabric Change Effects",
+     "venue": "Journal of Engineering Mechanics (ASCE)",
+     "type": "paper",
+     "why": "A critical-state sand model that captures cyclic behaviour and liquefaction with one set of parameters. It and its variants are widely used in current liquefaction simulations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Farrar & Worden",
+     "year": 2007,
+     "title": "An introduction to structural health monitoring",
+     "venue": "Philosophical Transactions of the Royal Society A",
+     "type": "paper",
+     "why": "Framed damage detection as a statistical pattern-recognition problem. It set the vocabulary and approach for today's sensor- and data-driven monitoring of bridges and buildings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cimellaro, Reinhorn & Bruneau",
+     "year": 2010,
+     "title": "Framework for analytical quantification of disaster resilience",
+     "venue": "Engineering Structures",
+     "type": "paper",
+     "why": "Turned the resilience concept into computable measures that combine losses and recovery paths. It is a standard basis for quantitative resilience assessment.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baker",
+     "year": 2011,
+     "title": "Conditional Mean Spectrum: Tool for Ground-Motion Selection",
+     "venue": "Journal of Structural Engineering (ASCE)",
+     "type": "paper",
+     "why": "Showed that the uniform hazard spectrum is an unrealistic target and offered a better one for choosing earthquake records. It changed how ground motions are selected for analysis, including in ASCE 7.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baker",
+     "year": 2015,
+     "title": "Efficient Analytical Fragility Function Fitting Using Dynamic Structural Analysis",
+     "venue": "Earthquake Spectra",
+     "type": "paper",
+     "why": "Gave a statistically sound way to fit collapse and damage fragility curves from limited analyses. These fragilities feed directly into loss and resilience estimates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ramage et al.",
+     "year": 2017,
+     "title": "The wood from the trees: The use of timber in construction",
+     "venue": "Renewable and Sustainable Energy Reviews",
+     "type": "paper",
+     "why": "Reviewed timber as a structural material from forestry to engineered products such as cross-laminated timber. Mass-timber buildings are a fast-growing low-carbon alternative, and this is a standard reference.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cha, Choi & Büyüköztürk",
+     "year": 2017,
+     "title": "Deep Learning-Based Crack Damage Detection Using Convolutional Neural Networks",
+     "venue": "Computer-Aided Civil and Infrastructure Engineering",
+     "type": "paper",
+     "why": "Showed that convolutional networks can find concrete cracks in images reliably. It kicked off the wave of deep-learning inspection of civil infrastructure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spencer, Hoskere & Narazaki",
+     "year": 2019,
+     "title": "Advances in Computer Vision-Based Civil Infrastructure Inspection and Monitoring",
+     "venue": "Engineering",
+     "type": "paper",
+     "why": "Surveyed computer vision for inspection and displacement measurement, including drones. It sets out where vision-based monitoring works and where it still falls short.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Habert et al.",
+     "year": 2020,
+     "title": "Environmental impacts and decarbonization strategies in the cement and concrete industries",
+     "venue": "Nature Reviews Earth & Environment",
+     "type": "paper",
+     "why": "Laid out the levers for cutting concrete's emissions across materials, design and carbon capture. It is a widely used roadmap for decarbonising construction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Chemical",
+   "lead": "Chemical engineering is working to electrify and decarbonise production, through electrocatalysis, carbon capture, energy-efficient separations and renewable feedstocks, with model-based and data-driven process control.",
+   "papers": [
+    {
+     "authors": "Peng & Robinson",
+     "year": 1976,
+     "title": "A New Two-Constant Equation of State",
+     "venue": "Industrial & Engineering Chemistry Fundamentals",
+     "type": "paper",
+     "why": "Gave a cubic equation of state that predicts vapour-liquid behaviour well enough for real design. It still sits inside essentially every process simulator, including for CO2 and hydrogen systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Morari & Lee",
+     "year": 1999,
+     "title": "Model Predictive Control: Past, Present and Future",
+     "venue": "Computers & Chemical Engineering",
+     "type": "paper",
+     "why": "Took stock of model predictive control as it moved from refineries into general use and set out its open problems. MPC is now the default advanced control method in process industries, and many of those problems remain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Li, Eddaoudi, O'Keeffe & Yaghi",
+     "year": 1999,
+     "title": "Design and Synthesis of an Exceptionally Stable and Highly Porous Metal-Organic Framework",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported MOF-5, a highly porous, stable framework built from designed molecular parts. It opened metal-organic frameworks, now central to gas storage, carbon capture and separations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nørskov et al.",
+     "year": 2004,
+     "title": "Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode",
+     "venue": "Journal of Physical Chemistry B",
+     "type": "paper",
+     "why": "Introduced the computational hydrogen electrode and explained catalytic activity with descriptor-based volcano plots. This is how electrocatalysts for fuel cells and electrolysers are screened today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Huber, Iborra & Corma",
+     "year": 2006,
+     "title": "Synthesis of Transportation Fuels from Biomass: Chemistry, Catalysts, and Engineering",
+     "venue": "Chemical Reviews",
+     "type": "paper",
+     "why": "Mapped the catalytic routes from biomass to liquid fuels. It remains the reference for biorefinery design as sustainable aviation fuel and renewable chemicals scale up.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Robeson",
+     "year": 2008,
+     "title": "The Upper Bound Revisited",
+     "venue": "Journal of Membrane Science",
+     "type": "paper",
+     "why": "Updated the empirical trade-off line between permeability and selectivity for polymer membranes. Beating the Robeson bound is still the main benchmark claim in membrane research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rochelle",
+     "year": 2009,
+     "title": "Amine Scrubbing for CO2 Capture",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that amine absorption is the mature, near-term technology for capturing CO2 from power plants. It sets the baseline that newer sorbents and capture processes must beat.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sholl & Lively",
+     "year": 2016,
+     "title": "Seven Chemical Separations to Change the World",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Pointed out that thermal separations use a large share of global energy and named seven where better methods would matter most. It steers much current work on membranes and sorbents.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Seh et al.",
+     "year": 2017,
+     "title": "Combining theory and experiment in electrocatalysis: Insights into materials design",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Brought together theory and experiment across hydrogen, oxygen, CO2 and nitrogen reactions into one design framework. It is the standard map for electrocatalyst work in electrified chemical production.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "De Luna et al.",
+     "year": 2019,
+     "title": "What Would It Take for Renewably Powered Electrosynthesis to Displace Petrochemical Processes?",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Set techno-economic targets for electricity prices, efficiency and catalyst performance needed for electrosynthesis to compete. These targets frame the case for electrifying the chemical industry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Mayne, Rawlings, Rao & Scokaert",
+     "year": 2000,
+     "title": "Constrained model predictive control: Stability and optimality",
+     "venue": "Automatica",
+     "type": "paper",
+     "why": "Unified the conditions that guarantee stability for constrained MPC. It is the theoretical reference for MPC designs used in process control today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Furukawa, Cordova, O'Keeffe & Yaghi",
+     "year": 2013,
+     "title": "The Chemistry and Applications of Metal-Organic Frameworks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reviewed how MOFs are designed and used across storage, separations and catalysis. It is the common entry point to the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McDonald et al.",
+     "year": 2015,
+     "title": "Cooperative insertion of CO2 in diamine-appended metal-organic frameworks",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found a cooperative mechanism that gives step-shaped CO2 uptake, allowing capture with small temperature swings. It showed how MOFs could cut the energy cost of carbon capture.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Park, Kamcev, Robeson, Elimelech & Freeman",
+     "year": 2017,
+     "title": "Maximizing the right stuff: The trade-off between membrane permeability and selectivity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that past a point, selectivity matters more than permeability for real membrane processes. It reshaped what membrane researchers optimise for.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Keith, Holmes, St. Angelo & Heidel",
+     "year": 2018,
+     "title": "A Process for Capturing CO2 from the Atmosphere",
+     "venue": "Joule",
+     "type": "paper",
+     "why": "Gave a full engineering design and cost estimate for direct air capture at industrial scale. It anchors current debates over the cost of removing CO2 from air.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dinh et al.",
+     "year": 2018,
+     "title": "CO2 electroreduction to ethylene via hydroxide-mediated copper catalysis at an abrupt interface",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used a gas-diffusion electrode in alkaline conditions to reach industrially relevant current densities for ethylene. It moved CO2 electroreduction toward practical reactor engineering.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Venkatasubramanian",
+     "year": 2019,
+     "title": "The promise of artificial intelligence in chemical engineering: Is it here, finally?",
+     "venue": "AIChE Journal",
+     "type": "paper",
+     "why": "Traced past AI waves in chemical engineering and argued why this one may stick. It frames current machine-learning work in process modelling and design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nitopi et al.",
+     "year": 2019,
+     "title": "Progress and Perspectives of Electrochemical CO2 Reduction on Copper in Aqueous Electrolyte",
+     "venue": "Chemical Reviews",
+     "type": "paper",
+     "why": "Collected what is known about copper, the only metal that makes multi-carbon products from CO2. It is the reference review for CO2 electroreduction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Van Geem, Galvita & Marin",
+     "year": 2019,
+     "title": "Making chemicals with electricity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Surveyed how heat-driven processes such as steam cracking could be powered by electricity instead of fossil fuels. It frames reactor electrification as a design problem.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smith, Hill & Torrente-Murciano",
+     "year": 2020,
+     "title": "Current and future role of Haber–Bosch ammonia in a carbon-free energy landscape",
+     "venue": "Energy & Environmental Science",
+     "type": "paper",
+     "why": "Assessed how ammonia production can be decarbonised and how ammonia could carry hydrogen energy. It shapes the green-ammonia debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Aerospace",
+   "lead": "Aerospace work centres on adjoint- and CFD-driven design of more efficient aircraft, electrified and lower-emission flight, reusable launch with autonomous landing guidance, and managing an increasingly crowded orbital environment.",
+   "papers": [
+    {
+     "authors": "Lighthill",
+     "year": 1952,
+     "title": "On Sound Generated Aerodynamically. I. General Theory",
+     "venue": "Proceedings of the Royal Society A",
+     "type": "paper",
+     "why": "Recast the flow equations as an acoustic analogy and showed jet noise scales with the eighth power of speed. Aircraft noise prediction, still a certification constraint, rests on this analogy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kessler & Cour-Palais",
+     "year": 1978,
+     "title": "Collision Frequency of Artificial Satellites: The Creation of a Debris Belt",
+     "venue": "Journal of Geophysical Research",
+     "type": "paper",
+     "why": "Predicted that collisions between orbiting objects could create runaway debris growth, the 'Kessler syndrome'. With megaconstellations, this is now a central policy and engineering concern.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jameson",
+     "year": 1988,
+     "title": "Aerodynamic Design via Control Theory",
+     "venue": "Journal of Scientific Computing",
+     "type": "paper",
+     "why": "Used adjoint equations to get design gradients at a cost independent of the number of shape variables. Adjoint-based optimisation is now how aircraft shapes are designed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spalart & Allmaras",
+     "year": 1992,
+     "title": "A One-Equation Turbulence Model for Aerodynamic Flows",
+     "venue": "AIAA Paper 92-0439 (journal version: La Recherche Aérospatiale, 1994)",
+     "type": "paper",
+     "why": "Gave a cheap, robust turbulence model tuned for aerodynamic flows. It is still the default in external-aero CFD, and its limits drive work on hybrid and learned models.",
+     "verified": false,
+     "conf": "high",
+     "note": "1992 AIAA conference paper; journal version La Recherche Aérospatiale no. 1, 1994."
+    },
+    {
+     "authors": "Koon, Lo, Marsden & Ross",
+     "year": 2000,
+     "title": "Heteroclinic Connections between Periodic Orbits and Resonance Transitions in Celestial Mechanics",
+     "venue": "Chaos",
+     "type": "paper",
+     "why": "Showed how invariant manifolds of three-body orbits form low-energy transport routes. This dynamical-systems view is used in designing cislunar and low-energy missions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Açıkmeşe & Ploen",
+     "year": 2007,
+     "title": "Convex Programming Approach to Powered Descent Guidance for Mars Landing",
+     "venue": "Journal of Guidance, Control, and Dynamics",
+     "type": "paper",
+     "why": "Showed that the fuel-optimal landing problem can be solved reliably in real time by convexification. Convex guidance is now central to autonomous landing, including reusable rockets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Martins & Lambe",
+     "year": 2013,
+     "title": "Multidisciplinary Design Optimization: A Survey of Architectures",
+     "venue": "AIAA Journal",
+     "type": "paper",
+     "why": "Organised the ways of coupling aerodynamics, structures and other disciplines in a single optimisation. It is the standard map for MDO in aircraft and spacecraft design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Slotnick et al.",
+     "year": 2014,
+     "title": "CFD Vision 2030 Study: A Path to Revolutionary Computational Aerosciences",
+     "venue": "NASA Contractor Report NASA/CR-2014-218178",
+     "type": "paper",
+     "why": "Identified where CFD fails, especially separated flows, meshing and uncertainty, and set a research roadmap. It still guides priorities for aerospace simulation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jones",
+     "year": 2018,
+     "title": "The Recent Large Reduction in Space Launch Cost",
+     "venue": "48th International Conference on Environmental Systems (ICES)",
+     "type": "paper",
+     "why": "Documented the steep fall in cost per kilogram to orbit driven by commercial reusable launch. That fall is reshaping mission economics, and this is a common citation for it.",
+     "verified": false,
+     "conf": "high",
+     "note": "Title confirmed by search; venue (ICES-2018-81) from memory."
+    },
+    {
+     "authors": "Schäfer et al.",
+     "year": 2019,
+     "title": "Technological, Economic and Environmental Prospects of All-Electric Aircraft",
+     "venue": "Nature Energy",
+     "type": "paper",
+     "why": "Quantified the battery energy density and costs needed for electric regional aircraft. It frames realistic expectations for electric aviation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Ffowcs Williams & Hawkings",
+     "year": 1969,
+     "title": "Sound generation by turbulence and surfaces in arbitrary motion",
+     "venue": "Philosophical Transactions of the Royal Society A",
+     "type": "paper",
+     "why": "Extended Lighthill's analogy to moving surfaces like rotors and propellers. The FW-H equation is the standard tool for rotor and drone noise prediction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liou & Johnson",
+     "year": 2006,
+     "title": "Risks in Space from Orbiting Debris",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed with simulations that low Earth orbit debris would keep growing even with no new launches. It made active debris removal a serious topic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spalart",
+     "year": 2009,
+     "title": "Detached-Eddy Simulation",
+     "venue": "Annual Review of Fluid Mechanics",
+     "type": "paper",
+     "why": "Reviewed hybrid RANS-LES methods that resolve large separated eddies while modelling the boundary layer. DES-type methods are the main step beyond RANS in aerospace CFD.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brelje & Martins",
+     "year": 2019,
+     "title": "Electric, hybrid, and turboelectric fixed-wing aircraft: A review of concepts, models, and design approaches",
+     "venue": "Progress in Aerospace Sciences",
+     "type": "paper",
+     "why": "Surveyed electrified propulsion architectures and how to design aircraft around them. It is a standard reference for electric aircraft design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kenway, Mader, He & Martins",
+     "year": 2019,
+     "title": "Effective adjoint approaches for computational fluid dynamics",
+     "venue": "Progress in Aerospace Sciences",
+     "type": "paper",
+     "why": "Reviewed how to implement adjoints efficiently in real CFD codes. It is the practical counterpart to Jameson's method.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brunton, Noack & Koumoutsakos",
+     "year": 2020,
+     "title": "Machine Learning for Fluid Mechanics",
+     "venue": "Annual Review of Fluid Mechanics",
+     "type": "paper",
+     "why": "Surveyed where machine learning helps in modelling, control and optimisation of flows. It frames the data-driven turn in aerodynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McDowell",
+     "year": 2020,
+     "title": "The Low Earth Orbit Satellite Population and Impacts of the SpaceX Starlink Constellation",
+     "venue": "Astrophysical Journal Letters",
+     "type": "paper",
+     "why": "Quantified how megaconstellations change the orbital population and their effects on astronomy. It is a key reference in the congestion debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lee et al.",
+     "year": 2021,
+     "title": "The contribution of global aviation to anthropogenic climate forcing for 2000 to 2018",
+     "venue": "Atmospheric Environment",
+     "type": "paper",
+     "why": "Showed that contrails and NOx contribute more warming than aviation's CO2 alone. It underpins current work on contrail avoidance and climate-optimised flight.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Malyuta et al.",
+     "year": 2022,
+     "title": "Convex Optimization for Trajectory Generation: A Tutorial on Generating Dynamically Feasible Trajectories Reliably and Efficiently",
+     "venue": "IEEE Control Systems Magazine",
+     "type": "paper",
+     "why": "Explained lossless convexification and sequential convex programming for real-time guidance. It is the current reference for onboard trajectory optimisation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Viswanathan et al.",
+     "year": 2022,
+     "title": "The challenges and opportunities of battery-powered flight",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Set battery requirements for electric aircraft from air taxis to regional jets. It frames what electric flight needs from battery research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Biomedical",
+   "lead": "Biomedical engineering is concentrating on engineered tissues and organ-on-chip models, nanoparticle and mRNA delivery, high-channel brain-computer interfaces, wearable sensors, and deep learning for imaging and diagnosis.",
+   "papers": [
+    {
+     "authors": "Matsumura & Maeda",
+     "year": 1986,
+     "title": "A New Concept for Macromolecular Therapeutics in Cancer Chemotherapy: Mechanism of Tumoritropic Accumulation of Proteins and the Antitumor Agent Smancs",
+     "venue": "Cancer Research",
+     "type": "paper",
+     "why": "Proposed the enhanced permeability and retention effect, the idea that large molecules collect in leaky tumours. It justified decades of cancer nanomedicine, and whether it holds in humans is now hotly contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Langer & Vacanti",
+     "year": 1993,
+     "title": "Tissue Engineering",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Defined tissue engineering as combining cells, scaffolds and signals to build tissue. It set the agenda that bioprinting and organoid work still follow.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hochberg et al.",
+     "year": 2006,
+     "title": "Neuronal Ensemble Control of Prosthetic Devices by a Human with Tetraplegia",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed a person with paralysis controlling a cursor and devices through an implanted array. It started the human BCI trials that now produce speech and handwriting decoders.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Engler, Sen, Sweeney & Discher",
+     "year": 2006,
+     "title": "Matrix Elasticity Directs Stem Cell Lineage Specification",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Showed that substrate stiffness alone can steer stem cells toward different lineages. Mechanobiology and mechanically tuned biomaterials grew directly from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lustig, Donoho & Pauly",
+     "year": 2007,
+     "title": "Sparse MRI: The Application of Compressed Sensing for Rapid MR Imaging",
+     "venue": "Magnetic Resonance in Medicine",
+     "type": "paper",
+     "why": "Applied compressed sensing to MRI, making scans much faster from undersampled data. It is now in clinical scanners and is the baseline that deep-learning reconstruction competes with.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Huh et al.",
+     "year": 2010,
+     "title": "Reconstituting Organ-Level Lung Functions on a Chip",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Built a breathing lung-on-a-chip that reproduced organ-level responses. Organ chips are now being accepted as alternatives to animal testing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kim et al.",
+     "year": 2011,
+     "title": "Epidermal Electronics",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Made skin-like electronics that conform to the body and record signals. It launched soft wearable sensors now used for continuous health monitoring.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ronneberger, Fischer & Brox",
+     "year": 2015,
+     "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+     "venue": "Medical Image Computing and Computer-Assisted Intervention (MICCAI), Lecture Notes in Computer Science",
+     "type": "paper",
+     "why": "Introduced an encoder-decoder network that segments biomedical images accurately from few examples. U-Net is the default backbone in medical image analysis and in diffusion models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Esteva et al.",
+     "year": 2017,
+     "title": "Dermatologist-Level Classification of Skin Cancer with Deep Neural Networks",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Matched dermatologists at classifying skin lesions from photos. It became the flagship case for AI diagnosis and for debates over bias and real-world validation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mitchell et al.",
+     "year": 2021,
+     "title": "Engineering Precision Nanoparticles for Drug Delivery",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Reviewed how nanoparticle design controls delivery across biological barriers, including lipid nanoparticles for mRNA. It is the current map of drug-delivery engineering.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Lutolf & Hubbell",
+     "year": 2005,
+     "title": "Synthetic biomaterials as instructive extracellular microenvironments for morphogenesis in tissue engineering",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Argued for designed synthetic matrices that give cells specific cues. It set the design approach for engineered hydrogels.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Murphy & Atala",
+     "year": 2014,
+     "title": "3D bioprinting of tissues and organs",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Laid out bioprinting strategies, materials and challenges. It is the standard reference for the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilhelm et al.",
+     "year": 2016,
+     "title": "Analysis of nanoparticle delivery to tumours",
+     "venue": "Nature Reviews Materials",
+     "type": "paper",
+     "why": "Found that a median of only about 0.7% of injected nanoparticles reach tumours. It forced a rethink of cancer nanomedicine.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gao et al.",
+     "year": 2016,
+     "title": "Fully integrated wearable sensor arrays for multiplexed in situ perspiration analysis",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Combined flexible sweat sensors with on-board electronics for real-time multiplexed analysis. It started the wearable chemical-sensing field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chaudhuri et al.",
+     "year": 2016,
+     "title": "Hydrogels with tunable stress relaxation regulate stem cell fate and activity",
+     "venue": "Nature Materials",
+     "type": "paper",
+     "why": "Showed that viscoelasticity, not just stiffness, guides stem cells. It extended mechanobiology into time-dependent material design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jun et al.",
+     "year": 2017,
+     "title": "Fully integrated silicon probes for high-density recording of neural activity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Introduced Neuropixels probes recording hundreds of neurons at once. High-density probes are now standard in neuroscience and BCI work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pardi, Hogan, Porter & Weissman",
+     "year": 2018,
+     "title": "mRNA vaccines — a new era in vaccinology",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Reviewed mRNA vaccine design and delivery just before COVID-19. mRNA platforms are now a major therapeutic engineering focus.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hammernik et al.",
+     "year": 2018,
+     "title": "Learning a variational network for reconstruction of accelerated MRI data",
+     "venue": "Magnetic Resonance in Medicine",
+     "type": "paper",
+     "why": "Combined optimisation-based reconstruction with deep learning for fast MRI. It shaped learned reconstruction now entering clinical scanners.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Topol",
+     "year": 2019,
+     "title": "High-performance medicine: the convergence of human and artificial intelligence",
+     "venue": "Nature Medicine",
+     "type": "paper",
+     "why": "Reviewed where medical AI works and where its evidence is thin. It is a widely used framing for clinical AI deployment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Willett, Avansino, Hochberg, Henderson & Shenoy",
+     "year": 2021,
+     "title": "High-performance brain-to-text communication via handwriting",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Decoded imagined handwriting from motor cortex at about 90 characters per minute. It set the pace for the current wave of speech and text BCIs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Materials science",
+   "lead": "Materials science is pursuing 2D and twisted layered materials, multi-principal-element alloys that escape the strength-toughness trade-off, architected and additively manufactured materials, and machine-learning-driven discovery with autonomous labs.",
+   "papers": [
+    {
+     "authors": "Lu, Shen, Chen, Qian & Lu",
+     "year": 2004,
+     "title": "Ultrahigh Strength and High Electrical Conductivity in Copper",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed nanoscale twin boundaries make copper very strong without losing conductivity. Interface engineering with twins is still a main strategy for strong yet ductile metals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Novoselov et al.",
+     "year": 2004,
+     "title": "Electric Field Effect in Atomically Thin Carbon Films",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Isolated graphene and showed its electronic properties could be tuned. It started the field of 2D materials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cantor, Chang, Knight & Vincent",
+     "year": 2004,
+     "title": "Microstructural Development in Equiatomic Multicomponent Alloys",
+     "venue": "Materials Science and Engineering A",
+     "type": "paper",
+     "why": "Showed that equal mixes of five elements can form a single simple phase. This launched high-entropy alloy research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ritchie",
+     "year": 2011,
+     "title": "The conflicts between strength and toughness",
+     "venue": "Nature Materials",
+     "type": "paper",
+     "why": "Explained why strength and toughness usually trade off and how hierarchical design can beat that. It is the framing for much of current structural materials design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Geim & Grigorieva",
+     "year": 2013,
+     "title": "Van der Waals heterostructures",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed stacking different 2D crystals like Lego to build new materials. Heterostructure stacking is now the main mode of 2D materials research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jain et al.",
+     "year": 2013,
+     "title": "Commentary: The Materials Project: A Materials Genome Approach to Accelerating Materials Innovation",
+     "venue": "APL Materials",
+     "type": "paper",
+     "why": "Described an open database of computed properties for many thousands of compounds. It is the backbone of data-driven materials discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zheng et al.",
+     "year": 2014,
+     "title": "Ultralight, Ultrastiff Mechanical Metamaterials",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used micro-lattices to keep stiffness roughly proportional to density at very low weight. It opened architected materials as a design approach.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cao et al.",
+     "year": 2018,
+     "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found superconductivity in two graphene sheets twisted by about 1.1 degrees. It launched 'twistronics', one of the most active areas in materials physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "DebRoy et al.",
+     "year": 2018,
+     "title": "Additive Manufacturing of Metallic Components: Process, Structure and Properties",
+     "venue": "Progress in Materials Science",
+     "type": "paper",
+     "why": "Linked process, microstructure and properties in metal 3D printing. It is the reference review as additive manufacturing moves into production.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Merchant et al.",
+     "year": 2023,
+     "title": "Scaling Deep Learning for Materials Discovery",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used graph networks to predict millions of new stable crystals. It is the flagship and much-debated claim for AI-driven materials discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Yeh et al.",
+     "year": 2004,
+     "title": "Nanostructured High-Entropy Alloys with Multiple Principal Elements: Novel Alloy Design Concepts and Outcomes",
+     "venue": "Advanced Engineering Materials",
+     "type": "paper",
+     "why": "Coined 'high-entropy alloys' and argued that configurational entropy stabilises them. That argument is still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mak, Lee, Hone, Shan & Heinz",
+     "year": 2010,
+     "title": "Atomically Thin MoS2: A New Direct-Gap Semiconductor",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed monolayer MoS2 has a direct band gap. It opened 2D semiconductors for electronics and optoelectronics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Naguib et al.",
+     "year": 2011,
+     "title": "Two-Dimensional Nanocrystals Produced by Exfoliation of Ti3AlC2",
+     "venue": "Advanced Materials",
+     "type": "paper",
+     "why": "Introduced MXenes, a large family of 2D carbides. They are now studied for energy storage and electromagnetic shielding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gludovatz et al.",
+     "year": 2014,
+     "title": "A fracture-resistant high-entropy alloy for cryogenic applications",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed the CrMnFeCoNi alloy gets tougher at cryogenic temperatures. It made high-entropy alloys a serious structural material.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Meza, Das & Greer",
+     "year": 2014,
+     "title": "Strong, lightweight, and recoverable three-dimensional ceramic nanolattices",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Made ceramic nanolattices that recover after compression. It showed size effects can make brittle materials resilient.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Li, Pradeep, Deng, Raabe & Tasan",
+     "year": 2016,
+     "title": "Metastable high-entropy dual-phase alloys overcome the strength–ductility trade-off",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used phase metastability to make an alloy both strong and ductile. It set a design route for complex alloys.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Martin et al.",
+     "year": 2017,
+     "title": "3D printing of high-strength aluminium alloys",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used nanoparticle nucleants to stop hot cracking in printed high-strength aluminium. It showed alloy design for printing is key.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Miracle & Senkov",
+     "year": 2017,
+     "title": "A critical review of high entropy alloys and related concepts",
+     "venue": "Acta Materialia",
+     "type": "paper",
+     "why": "Reviewed the field critically, including which claims hold up. It is the standard reference for complex concentrated alloys.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Butler, Davies, Cartwright, Isayev & Walsh",
+     "year": 2018,
+     "title": "Machine learning for molecular and materials science",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Surveyed machine learning in materials and chemistry. It frames current data-driven materials research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Szymanski et al.",
+     "year": 2023,
+     "title": "An autonomous laboratory for the accelerated synthesis of novel materials",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Ran a robot lab that planned and synthesised predicted materials. Its claims were challenged, making it central to the autonomous-lab debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Energy systems",
+   "lead": "Energy systems research is about decarbonising electricity and beyond: cheaper batteries and storage, perovskite and tandem solar, running grids dominated by variable and inverter-based renewables, and the mix of firm clean power deep decarbonisation needs.",
+   "papers": [
+    {
+     "authors": "Shockley & Queisser",
+     "year": 1961,
+     "title": "Detailed Balance Limit of Efficiency of p-n Junction Solar Cells",
+     "venue": "Journal of Applied Physics",
+     "type": "paper",
+     "why": "Derived the maximum efficiency of a single-junction solar cell, about 30%. Silicon is now close to it, which is why tandem cells are the frontier.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Armand & Tarascon",
+     "year": 2008,
+     "title": "Building Better Batteries",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Set out the chemistry challenges for next-generation batteries. It still frames battery research priorities.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kojima, Teshima, Shirai & Miyasaka",
+     "year": 2009,
+     "title": "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "First used halide perovskites in solar cells. Perovskites are now the fastest-improving photovoltaic technology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goodenough & Kim",
+     "year": 2010,
+     "title": "Challenges for Rechargeable Li Batteries",
+     "venue": "Chemistry of Materials",
+     "type": "paper",
+     "why": "Explained the electrolyte stability window and electrode limits of lithium batteries. It is a standard guide to battery design limits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dunn, Kamath & Tarascon",
+     "year": 2011,
+     "title": "Electrical Energy Storage for the Grid: A Battery of Choices",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Compared battery technologies for grid storage. It frames the choice of chemistries for grid use.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hirth",
+     "year": 2013,
+     "title": "The Market Value of Variable Renewables: The Effect of Solar Wind Power Variability on Their Relative Price",
+     "venue": "Energy Economics",
+     "type": "paper",
+     "why": "Showed that wind and solar lose market value as their share grows. It is central to debates on renewable economics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schmidt, Hawkes, Gambhir & Staffell",
+     "year": 2017,
+     "title": "The Future Cost of Electrical Energy Storage Based on Experience Rates",
+     "venue": "Nature Energy",
+     "type": "paper",
+     "why": "Projected storage costs using experience curves. It underpins forecasts of storage deployment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Davis et al.",
+     "year": 2018,
+     "title": "Net-Zero Emissions Energy Systems",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Identified hard-to-decarbonise services such as aviation, steel and cement. It frames net-zero planning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sepulveda, Jenkins, de Sisternes & Lester",
+     "year": 2018,
+     "title": "The Role of Firm Low-Carbon Electricity Resources in Deep Decarbonization of Power Generation",
+     "venue": "Joule",
+     "type": "paper",
+     "why": "Showed firm low-carbon power cuts deep decarbonisation costs. It is central to the 100% renewables debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Milano, Dörfler, Hug, Hill & Verbič",
+     "year": 2018,
+     "title": "Foundations and Challenges of Low-Inertia Systems",
+     "venue": "Power Systems Computation Conference (PSCC)",
+     "type": "paper",
+     "why": "Explained how replacing spinning generators with inverters changes grid stability. It frames work on grid-forming inverters.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Lee, Teuscher, Miyasaka, Murakami & Snaith",
+     "year": 2012,
+     "title": "Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Raised perovskite cells above 10% efficiency and showed they work as solid-state absorbers. It triggered the perovskite boom.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Janek & Zeier",
+     "year": 2016,
+     "title": "A solid future for battery development",
+     "venue": "Nature Energy",
+     "type": "paper",
+     "why": "Assessed solid-state batteries' promise and problems. It frames solid-state battery research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clack et al.",
+     "year": 2017,
+     "title": "Evaluation of a proposal for reliable low-cost grid power with 100% wind, water, and solar",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Challenged a prominent 100% renewables study's modelling. It is central to debate on all-renewable grids.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shaner, Davis, Lewis & Caldeira",
+     "year": 2018,
+     "title": "Geophysical constraints on the reliability of solar and wind power in the United States",
+     "venue": "Energy & Environmental Science",
+     "type": "paper",
+     "why": "Used decades of weather data to show the storage needed for reliable wind and solar. It frames storage requirements.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Severson et al.",
+     "year": 2019,
+     "title": "Data-driven prediction of battery cycle life before capacity degradation",
+     "venue": "Nature Energy",
+     "type": "paper",
+     "why": "Predicted battery lifetime from early cycles with machine learning. It opened data-driven battery diagnostics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ziegler et al.",
+     "year": 2019,
+     "title": "Storage Requirements and Costs of Shaping Renewable Energy Toward Grid Decarbonization",
+     "venue": "Joule",
+     "type": "paper",
+     "why": "Estimated storage costs needed for renewables to provide baseload-like power. It sets cost targets for long-duration storage.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Staffell et al.",
+     "year": 2019,
+     "title": "The role of hydrogen and fuel cells in the global energy system",
+     "venue": "Energy & Environmental Science",
+     "type": "paper",
+     "why": "Assessed hydrogen's roles across sectors. It is a reference in the hydrogen debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Al-Ashouri et al.",
+     "year": 2020,
+     "title": "Monolithic perovskite/silicon tandem solar cell with >29% efficiency by enhanced hole extraction",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Pushed perovskite-silicon tandems past silicon's single-junction limit. Tandems are now heading to commercialisation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ziegler & Trancik",
+     "year": 2021,
+     "title": "Re-examining rates of lithium-ion battery technology improvement and cost decline",
+     "venue": "Energy & Environmental Science",
+     "type": "paper",
+     "why": "Measured lithium-ion cost decline at about 97% since 1991. It is a key data source for battery cost forecasting.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Way, Ives, Mealy & Farmer",
+     "year": 2022,
+     "title": "Empirically grounded technology forecasts and the energy transition",
+     "venue": "Joule",
+     "type": "paper",
+     "why": "Showed fast renewable transition is likely cheaper than slow. It challenges conventional energy models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Robotics",
+   "lead": "Robotics is moving to learned control: reinforcement learning for legged and agile robots, diffusion and vision-language-action policies for manipulation trained on large multi-robot datasets, on top of mature planning, SLAM and compliant control.",
+   "papers": [
+    {
+     "authors": "Hogan",
+     "year": 1985,
+     "title": "Impedance Control: An Approach to Manipulation: Part I - Theory",
+     "venue": "Journal of Dynamic Systems, Measurement, and Control",
+     "type": "paper",
+     "why": "Controlled the dynamic relationship between force and motion rather than either alone. Impedance control is still how robots handle contact safely.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kavraki, Švestka, Latombe & Overmars",
+     "year": 1996,
+     "title": "Probabilistic Roadmaps for Path Planning in High-Dimensional Configuration Spaces",
+     "venue": "IEEE Transactions on Robotics and Automation",
+     "type": "paper",
+     "why": "Introduced sampling-based planning for high-dimensional robots. Sampling-based planners remain the default motion planners.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rus & Tolley",
+     "year": 2015,
+     "title": "Design, Fabrication and Control of Soft Robots",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reviewed soft robots made from compliant materials. It frames soft robotics research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levine, Finn, Darrell & Abbeel",
+     "year": 2016,
+     "title": "End-to-End Training of Deep Visuomotor Policies",
+     "venue": "Journal of Machine Learning Research",
+     "type": "paper",
+     "why": "Trained neural policies from pixels to motor torques. It started end-to-end robot learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cadena et al.",
+     "year": 2016,
+     "title": "Past, Present, and Future of Simultaneous Localization and Mapping: Toward the Robust-Perception Age",
+     "venue": "IEEE Transactions on Robotics",
+     "type": "paper",
+     "why": "Took stock of SLAM and set its open problems. It is the standard SLAM reference.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tobin et al.",
+     "year": 2017,
+     "title": "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World",
+     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+     "type": "paper",
+     "why": "Randomised simulation visuals so policies transfer to reality. Domain randomisation is now standard in sim-to-real.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hwangbo et al.",
+     "year": 2019,
+     "title": "Learning Agile and Dynamic Motor Skills for Legged Robots",
+     "venue": "Science Robotics",
+     "type": "paper",
+     "why": "Trained legged robot control in simulation that transferred to hardware. It started the RL legged locomotion wave.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chi et al.",
+     "year": 2023,
+     "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+     "venue": "Robotics: Science and Systems (RSS)",
+     "type": "paper",
+     "why": "Used diffusion models to generate robot actions. It became the default imitation-learning policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brohan et al.",
+     "year": 2023,
+     "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+     "venue": "Conference on Robot Learning (CoRL), PMLR",
+     "type": "paper",
+     "why": "Fine-tuned vision-language models to output robot actions. It launched vision-language-action models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "O'Neill et al.",
+     "year": 2024,
+     "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+     "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+     "type": "paper",
+     "why": "Pooled data from many labs and robots and showed cross-robot training helps. It is the basis for robot foundation models.",
+     "verified": false,
+     "conf": "low",
+     "note": "Author list is published under 'Open X-Embodiment Collaboration'; first-listed author O'Neill from memory."
+    }
+   ],
+   "more": [
+    {
+     "authors": "LaValle & Kuffner",
+     "year": 2001,
+     "title": "Randomized Kinodynamic Planning",
+     "venue": "International Journal of Robotics Research",
+     "type": "paper",
+     "why": "Introduced RRTs for planning with dynamics. RRT variants remain widely used.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Karaman & Frazzoli",
+     "year": 2011,
+     "title": "Sampling-based algorithms for optimal motion planning",
+     "venue": "International Journal of Robotics Research",
+     "type": "paper",
+     "why": "Introduced RRT* and PRM*, with optimality guarantees. They are standard in planning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kober, Bagnell & Peters",
+     "year": 2013,
+     "title": "Reinforcement learning in robotics: A survey",
+     "venue": "International Journal of Robotics Research",
+     "type": "paper",
+     "why": "Surveyed RL in robotics and its challenges. It frames robot learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mur-Artal, Montiel & Tardós",
+     "year": 2015,
+     "title": "ORB-SLAM: A Versatile and Accurate Monocular SLAM System",
+     "venue": "IEEE Transactions on Robotics",
+     "type": "paper",
+     "why": "Made feature-based visual SLAM robust and real-time. It is a standard SLAM baseline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wehner et al.",
+     "year": 2016,
+     "title": "An integrated design and fabrication strategy for entirely soft, autonomous robots",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Built the Octobot, an entirely soft autonomous robot. It showed soft robots without rigid parts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Di Carlo, Wensing, Katz, Bledt & Kim",
+     "year": 2018,
+     "title": "Dynamic Locomotion in the MIT Cheetah 3 Through Convex Model-Predictive Control",
+     "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+     "type": "paper",
+     "why": "Used convex MPC for dynamic legged locomotion. It is the model-based baseline against RL.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lee, Hwangbo, Wellhausen, Koltun & Hutter",
+     "year": 2020,
+     "title": "Learning quadrupedal locomotion over challenging terrain",
+     "venue": "Science Robotics",
+     "type": "paper",
+     "why": "Trained blind quadruped control that walked robustly over rough terrain. It shows RL beating model-based control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kumar, Fu, Pathak & Malik",
+     "year": 2021,
+     "title": "RMA: Rapid Motor Adaptation for Legged Robots",
+     "venue": "Robotics: Science and Systems (RSS)",
+     "type": "paper",
+     "why": "Adapted legged control online to new terrains. It shows how learned controllers adapt.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zhao, Kumar, Levine & Finn",
+     "year": 2023,
+     "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+     "venue": "Robotics: Science and Systems (RSS)",
+     "type": "paper",
+     "why": "Introduced ALOHA hardware and action-chunking transformers. It spread low-cost imitation learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaufmann et al.",
+     "year": 2023,
+     "title": "Champion-level drone racing using deep reinforcement learning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Trained a drone to beat human champions. It shows RL for agile flight.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

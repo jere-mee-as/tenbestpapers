@@ -1,0 +1,1145 @@
+{
+ "discipline": "Systems & information",
+ "fields": [
+  {
+   "field": "Information theory",
+   "lead": "Pushing codes and bounds toward practical limits at short block lengths and in networks, and using information-theoretic ideas to understand learning and compression by neural models.",
+   "papers": [
+    {
+     "authors": "Shannon",
+     "year": 1948,
+     "title": "A Mathematical Theory of Communication",
+     "venue": "Bell System Technical Journal",
+     "type": "paper",
+     "why": "Defined information, entropy and channel capacity and proved that reliable communication up to capacity is possible. Every code and every rate bound is still measured against Shannon's limits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gallager",
+     "year": 1962,
+     "title": "Low-Density Parity-Check Codes",
+     "venue": "IRE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Proposed sparse parity-check codes with iterative decoding, then largely forgotten for 30 years. Rediscovered, LDPC codes now carry Wi-Fi, 5G data and satellite links.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Slepian & Wolf",
+     "year": 1973,
+     "title": "Noiseless Coding of Correlated Information Sources",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Showed correlated sources can be compressed separately as efficiently as jointly. The basis of distributed compression and network information theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wyner",
+     "year": 1975,
+     "title": "The Wire-Tap Channel",
+     "venue": "Bell System Technical Journal",
+     "type": "paper",
+     "why": "Showed secure communication is possible without keys when the eavesdropper's channel is worse. Physical-layer security in wireless research grows from this model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ziv & Lempel",
+     "year": 1977,
+     "title": "A Universal Algorithm for Sequential Data Compression",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Gave a dictionary compressor that needs no model of the source. LZ77 descendants (gzip, zstd) still compress most data on the internet.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rissanen",
+     "year": 1978,
+     "title": "Modeling by Shortest Data Description",
+     "venue": "Automatica",
+     "type": "paper",
+     "why": "Introduced the minimum description length principle: the best model is the one that compresses the data most. The compression view of learning is again central to how people think about large models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tishby, Pereira & Bialek",
+     "year": 1999,
+     "title": "The Information Bottleneck Method",
+     "venue": "Proceedings of the 37th Annual Allerton Conference on Communication, Control and Computing",
+     "type": "paper",
+     "why": "Framed learning a representation as keeping only the information relevant to a target. Its use to explain deep learning is still disputed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ahlswede, Cai, Li & Yeung",
+     "year": 2000,
+     "title": "Network Information Flow",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Showed that mixing data at network nodes can beat routing. Network coding underlies distributed storage codes and multicast research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arikan",
+     "year": 2009,
+     "title": "Channel Polarization: A Method for Constructing Capacity-Achieving Codes for Symmetric Binary-Input Memoryless Channels",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Gave the first explicit low-complexity codes provably achieving capacity. Polar codes are in the 5G control channel and an active research area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Polyanskiy, Poor & Verdú",
+     "year": 2010,
+     "title": "Channel Coding Rate in the Finite Blocklength Regime",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Showed how far below capacity you must operate with short blocks. Essential for low-latency communication and now the standard benchmark for short codes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Berrou, Glavieux & Thitimajshima",
+     "year": 1993,
+     "title": "Near Shannon Limit Error-Correcting Coding and Decoding: Turbo-Codes",
+     "venue": "Proceedings of the IEEE International Conference on Communications (ICC '93)",
+     "type": "paper",
+     "why": "Showed iterative decoding could come within a fraction of a decibel of capacity, which few thought practical. Its iterative-decoding idea reshaped coding theory and inference.",
+     "verified": false,
+     "conf": "low",
+     "note": "Title often given with suffix '(1)'."
+    },
+    {
+     "authors": "Telatar",
+     "year": 1999,
+     "title": "Capacity of Multi-Antenna Gaussian Channels",
+     "venue": "European Transactions on Telecommunications",
+     "type": "paper",
+     "why": "Showed capacity grows roughly linearly with the number of antennas. It is the theory behind MIMO and massive MIMO in current wireless systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Richardson & Urbanke",
+     "year": 2001,
+     "title": "The Capacity of Low-Density Parity-Check Codes under Message-Passing Decoding",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Introduced density evolution to compute the noise thresholds of iterative decoders. It is still the main tool for designing LDPC codes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Donoho",
+     "year": 2006,
+     "title": "Compressed Sensing",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Showed sparse signals can be recovered from far fewer measurements than classical sampling requires. It changed medical imaging and signal processing and connects to high-dimensional statistics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cadambe & Jafar",
+     "year": 2008,
+     "title": "Interference Alignment and Degrees of Freedom of the K-User Interference Channel",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Showed each user can get half the spectrum regardless of how many users interfere, by aligning interference. It reshaped multi-user wireless theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maddah-Ali & Niesen",
+     "year": 2014,
+     "title": "Fundamental Limits of Caching",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Showed that coding cached content gives gains that grow with network size. It opened a large field on caching and coded distributed computing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tal & Vardy",
+     "year": 2015,
+     "title": "List Decoding of Polar Codes",
+     "venue": "IEEE Transactions on Information Theory",
+     "type": "paper",
+     "why": "Made polar codes competitive at practical lengths with list decoding plus CRC. This step led to their adoption in 5G.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ballé, Laparra & Simoncelli",
+     "year": 2017,
+     "title": "End-to-End Optimized Image Compression",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Trained a neural image codec directly on the rate-distortion objective. It launched learned compression, which now rivals standard codecs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Xu & Raginsky",
+     "year": 2017,
+     "title": "Information-Theoretic Analysis of Generalization Capability of Learning Algorithms",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Bounded generalization error by the mutual information between training data and the learned model. A main line of information-theoretic learning theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Delétang et al.",
+     "year": 2024,
+     "title": "Language Modeling Is Compression",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Showed large language models are strong general-purpose compressors, even of images and audio. It makes the old equivalence between prediction and compression concrete for modern AI.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Game & decision theory",
+   "lead": "Handling bounded rationality and behavioral deviations, learning and computing equilibria, and designing mechanisms, information and AI agents for strategic settings.",
+   "papers": [
+    {
+     "authors": "Nash",
+     "year": 1951,
+     "title": "Non-Cooperative Games",
+     "venue": "Annals of Mathematics",
+     "type": "paper",
+     "why": "Defined equilibrium for any finite game and proved it exists. Still the central solution concept, and its computation and plausibility remain open questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harsanyi",
+     "year": 1967,
+     "title": "Games with Incomplete Information Played by 'Bayesian' Players, I–III",
+     "venue": "Management Science",
+     "type": "paper",
+     "why": "Made games with private information tractable by modeling players' types and beliefs. Auctions, signaling and information design all use this framework.",
+     "verified": false,
+     "conf": "high",
+     "note": "Published in three parts, 1967–68; year given for Part I."
+    },
+    {
+     "authors": "Maynard Smith & Price",
+     "year": 1973,
+     "title": "The Logic of Animal Conflict",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Introduced the evolutionarily stable strategy, bringing game theory into biology. Evolutionary game theory and learning dynamics still build on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kahneman & Tversky",
+     "year": 1979,
+     "title": "Prospect Theory: An Analysis of Decision under Risk",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Documented systematic violations of expected utility and modeled them with reference points and loss aversion. Behavioral economics still argues over and extends it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Myerson",
+     "year": 1981,
+     "title": "Optimal Auction Design",
+     "venue": "Mathematics of Operations Research",
+     "type": "paper",
+     "why": "Characterized revenue-maximizing auctions with virtual values. Mechanism design, including automated and learned auctions, starts here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aumann",
+     "year": 1987,
+     "title": "Correlated Equilibrium as an Expression of Bayesian Rationality",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed correlated equilibrium follows from common priors and rationality. It is the concept learning algorithms actually converge to, which keeps it central.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hart & Mas-Colell",
+     "year": 2000,
+     "title": "A Simple Adaptive Procedure Leading to Correlated Equilibrium",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed simple regret-matching players converge to correlated equilibrium. Regret minimization now drives the strongest game-playing AI.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roughgarden & Tardos",
+     "year": 2002,
+     "title": "How Bad Is Selfish Routing?",
+     "venue": "Journal of the ACM",
+     "type": "paper",
+     "why": "Bounded how much selfish behavior costs a network compared with central control. The 'price of anarchy' became a core tool of algorithmic game theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Daskalakis, Goldberg & Papadimitriou",
+     "year": 2009,
+     "title": "The Complexity of Computing a Nash Equilibrium",
+     "venue": "SIAM Journal on Computing",
+     "type": "paper",
+     "why": "Showed computing Nash equilibria is PPAD-complete, so likely intractable. Raises doubts about Nash as a prediction and motivates other concepts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brown & Sandholm",
+     "year": 2019,
+     "title": "Superhuman AI for Multiplayer Poker",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Pluribus beat top professionals at six-player poker, where equilibrium guarantees break down. A milestone for AI in imperfect-information, multi-agent settings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Gale & Shapley",
+     "year": 1962,
+     "title": "College Admissions and the Stability of Marriage",
+     "venue": "American Mathematical Monthly",
+     "type": "paper",
+     "why": "Defined stable matching and gave the deferred-acceptance algorithm. It runs school choice and medical residency matching today and anchors market-design research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McKelvey & Palfrey",
+     "year": 1995,
+     "title": "Quantal Response Equilibria for Normal Form Games",
+     "venue": "Games and Economic Behavior",
+     "type": "paper",
+     "why": "Replaced exact best responses with noisy, probabilistic ones in an equilibrium model. It is the standard model fitted to laboratory game data and in multi-agent AI.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fehr & Schmidt",
+     "year": 1999,
+     "title": "A Theory of Fairness, Competition, and Cooperation",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Modeled people as disliking unequal payoffs to explain fair and cooperative behavior in experiments. It remains a main model of social preferences in behavioral economics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roth & Peranson",
+     "year": 1999,
+     "title": "The Redesign of the Matching Market for American Physicians: Some Engineering Aspects of Economic Design",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed how matching theory was adapted to redesign a real labor market. It became the template for market design as an engineering discipline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Camerer, Ho & Chong",
+     "year": 2004,
+     "title": "A Cognitive Hierarchy Model of Games",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Modeled players as reasoning only a limited number of steps about others. It is a leading account of bounded rationality in strategic settings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zinkevich, Johanson, Bowling & Piccione",
+     "year": 2007,
+     "title": "Regret Minimization in Games with Incomplete Information",
+     "venue": "Advances in Neural Information Processing Systems (NIPS)",
+     "type": "paper",
+     "why": "Introduced counterfactual regret minimization for large imperfect-information games. It is the algorithm behind superhuman poker AI and much multi-agent research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kamenica & Gentzkow",
+     "year": 2011,
+     "title": "Bayesian Persuasion",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Asked how a sender should design what information to reveal in order to influence a decision-maker. It started information design, now a major area of economic theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bergemann & Morris",
+     "year": 2016,
+     "title": "Bayes Correlated Equilibrium and the Comparison of Information Structures in Games",
+     "venue": "Theoretical Economics",
+     "type": "paper",
+     "why": "Characterized every outcome achievable across all possible information structures in a game. A core tool of information design and robust predictions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dütting, Feng, Narasimhan, Parkes & Ravindranath",
+     "year": 2019,
+     "title": "Optimal Auctions through Deep Learning",
+     "venue": "Proceedings of the 36th International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "Used neural networks to learn near-optimal multi-item auctions where theory has no closed form. A leading example of machine learning applied to mechanism design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Meta FAIR Diplomacy Team, Bakhtin et al.",
+     "year": 2022,
+     "title": "Human-Level Play in the Game of Diplomacy by Combining Language Models with Strategic Reasoning",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Cicero combined a language model with strategic planning to negotiate and cooperate with human players. It is a frontier example of AI in mixed cooperative-competitive games.",
+     "verified": true,
+     "conf": "low",
+     "note": "Credited to the Meta Fundamental AI Research Diplomacy Team (FAIR) with Bakhtin and many others; exact author-line format not confirmed."
+    }
+   ]
+  },
+  {
+   "field": "Network science",
+   "lead": "Moving beyond static pairwise graphs to multilayer, temporal and higher-order networks, and testing which structural claims hold up against careful statistical inference.",
+   "papers": [
+    {
+     "authors": "Granovetter",
+     "year": 1973,
+     "title": "The Strength of Weak Ties",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Argued that acquaintances, not close friends, bridge groups and carry new information. Still tested on large-scale data, including in recent field experiments on job mobility.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Watts & Strogatz",
+     "year": 1998,
+     "title": "Collective Dynamics of 'Small-World' Networks",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that a few random shortcuts make a clustered network small-world. Launched modern network science and remains a standard model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barabási & Albert",
+     "year": 1999,
+     "title": "Emergence of Scaling in Random Networks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Proposed growth with preferential attachment to explain heavy-tailed degrees. Its claim that real networks are 'scale-free' is still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Albert, Jeong & Barabási",
+     "year": 2000,
+     "title": "Error and Attack Tolerance of Complex Networks",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed hub-dominated networks survive random failures but break under targeted attack. Robustness analysis of infrastructure still begins here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Newman, Strogatz & Watts",
+     "year": 2001,
+     "title": "Random Graphs with Arbitrary Degree Distributions and Their Applications",
+     "venue": "Physical Review E",
+     "type": "paper",
+     "why": "Gave generating-function methods for random graphs with any degree distribution. The configuration model is the standard null model and analytical tool for spreading and percolation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pastor-Satorras & Vespignani",
+     "year": 2001,
+     "title": "Epidemic Spreading in Scale-Free Networks",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed epidemics can spread without a threshold on heavy-tailed networks. Network epidemiology, used in COVID-19 modeling, grew from this.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Newman",
+     "year": 2006,
+     "title": "Modularity and Community Structure in Networks",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Gave the modularity measure and a spectral method to find communities. Modularity is still the most used community criterion, and its limits are well studied.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Buldyrev, Parshani, Paul, Stanley & Havlin",
+     "year": 2010,
+     "title": "Catastrophic Cascade of Failures in Interdependent Networks",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed coupled networks such as power and communication grids can collapse abruptly. Central to work on systemic risk and resilience.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kivelä, Arenas, Barthelemy, Gleeson, Moreno & Porter",
+     "year": 2014,
+     "title": "Multilayer Networks",
+     "venue": "Journal of Complex Networks",
+     "type": "paper",
+     "why": "Unified the many ways of representing networks with multiple types of links. The reference framework for multilayer analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Battiston, Cencetti, Iacopini, Latora, Lucas, Patania, Young & Petri",
+     "year": 2020,
+     "title": "Networks beyond Pairwise Interactions: Structure and Dynamics",
+     "venue": "Physics Reports",
+     "type": "paper",
+     "why": "Surveys hypergraphs and simplicial complexes for group interactions. Higher-order networks are one of the field's main frontiers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Milo, Shen-Orr, Itzkovitz, Kashtan, Chklovskii & Alon",
+     "year": 2002,
+     "title": "Network Motifs: Simple Building Blocks of Complex Networks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found small subgraphs that recur far more often than chance and linked them to function. Motif analysis remains standard in gene regulation and neural network studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kempe, Kleinberg & Tardos",
+     "year": 2003,
+     "title": "Maximizing the Spread of Influence through a Social Network",
+     "venue": "Proceedings of the 9th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+     "type": "paper",
+     "why": "Framed choosing seed users to maximize spread as a submodular optimization problem with guarantees. Viral marketing, intervention seeding and diffusion research still build on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Centola & Macy",
+     "year": 2007,
+     "title": "Complex Contagions and the Weakness of Long Ties",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Showed that behaviors needing reinforcement from several contacts spread through clustered ties, not long bridges. This qualifies Granovetter and is central to current social contagion research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blondel, Guillaume, Lambiotte & Lefebvre",
+     "year": 2008,
+     "title": "Fast Unfolding of Communities in Large Networks",
+     "venue": "Journal of Statistical Mechanics: Theory and Experiment",
+     "type": "paper",
+     "why": "Introduced the Louvain algorithm for optimizing modularity on networks with millions of nodes. It and its Leiden successor are still among the most used community-detection tools.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clauset, Shalizi & Newman",
+     "year": 2009,
+     "title": "Power-Law Distributions in Empirical Data",
+     "venue": "SIAM Review",
+     "type": "paper",
+     "why": "Gave rigorous methods for fitting and testing power laws and showed many claimed ones fail. It is the standard method whenever heavy tails are claimed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fortunato",
+     "year": 2010,
+     "title": "Community Detection in Graphs",
+     "venue": "Physics Reports",
+     "type": "paper",
+     "why": "The comprehensive review of community detection methods, benchmarks and pitfalls. Still the main entry point to the most studied problem in network science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Karrer & Newman",
+     "year": 2011,
+     "title": "Stochastic Blockmodels and Community Structure in Networks",
+     "venue": "Physical Review E",
+     "type": "paper",
+     "why": "Added degree correction to the stochastic block model so it fits real networks. It made principled statistical inference the leading approach to community detection.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Holme & Saramäki",
+     "year": 2012,
+     "title": "Temporal Networks",
+     "venue": "Physics Reports",
+     "type": "paper",
+     "why": "Reviewed networks whose links appear and disappear over time and showed timing changes spreading and reachability. It founded temporal network analysis as its own subfield.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Broido & Clauset",
+     "year": 2019,
+     "title": "Scale-Free Networks Are Rare",
+     "venue": "Nature Communications",
+     "type": "paper",
+     "why": "Tested nearly a thousand real networks and found strong power-law degree distributions are rare. It reignited the debate over one of the field's best-known claims.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Iacopini, Petri, Barrat & Latora",
+     "year": 2019,
+     "title": "Simplicial Models of Social Contagion",
+     "venue": "Nature Communications",
+     "type": "paper",
+     "why": "Showed that group interactions can make contagion explosive and bistable, unlike pairwise models. A key early result for higher-order network dynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Control theory",
+   "lead": "Combining robust and optimal control with learning from data, safety guarantees and distributed coordination.",
+   "papers": [
+    {
+     "authors": "Kalman",
+     "year": 1960,
+     "title": "A New Approach to Linear Filtering and Prediction Problems",
+     "venue": "Journal of Basic Engineering (Transactions of the ASME)",
+     "type": "paper",
+     "why": "Introduced the recursive state estimator now called the Kalman filter. It runs in navigation, robotics and forecasting everywhere, and its extensions are still developed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Doyle",
+     "year": 1978,
+     "title": "Guaranteed Margins for LQG Regulators",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "A one-page counterexample showing optimal LQG controllers can have arbitrarily small robustness margins. It started robust control and still warns against trusting optimality alone.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zames",
+     "year": 1981,
+     "title": "Feedback and Optimal Sensitivity: Model Reference Transformations, Multiplicative Seminorms, and Approximate Inverses",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "Posed control design as minimizing worst-case sensitivity, which led to H-infinity control. Robust control still uses this formulation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Doyle, Glover, Khargonekar & Francis",
+     "year": 1989,
+     "title": "State-Space Solutions to Standard H2 and H-infinity Control Problems",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "Gave practical Riccati-equation solutions for H-infinity design. Made robust control computable and remains standard.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mayne, Rawlings, Rao & Scokaert",
+     "year": 2000,
+     "title": "Constrained Model Predictive Control: Stability and Optimality",
+     "venue": "Automatica",
+     "type": "paper",
+     "why": "Set the conditions under which MPC is stable and handles constraints. MPC is the dominant advanced control method in industry and robotics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Olfati-Saber & Murray",
+     "year": 2004,
+     "title": "Consensus Problems in Networks of Agents with Switching Topology and Time-Delays",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "Gave a graph-theoretic analysis of agents agreeing through local communication. The basis of multi-agent and distributed control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brunton, Proctor & Kutz",
+     "year": 2016,
+     "title": "Discovering Governing Equations from Data by Sparse Identification of Nonlinear Dynamical Systems",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "SINDy finds interpretable equations from data using sparse regression. A main approach in data-driven modeling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ames, Xu, Grizzle & Tabuada",
+     "year": 2017,
+     "title": "Control Barrier Function Based Quadratic Programs for Safety Critical Systems",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "Combined barrier functions and quadratic programs to enforce safety in real time. Widely used to make learned controllers safe.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Recht",
+     "year": 2019,
+     "title": "A Tour of Reinforcement Learning: The View from Continuous Control",
+     "venue": "Annual Review of Control, Robotics, and Autonomous Systems",
+     "type": "paper",
+     "why": "Compared reinforcement learning with classical control on shared benchmarks. It framed the current merger of the two fields.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dean, Mania, Matni, Recht & Tu",
+     "year": 2020,
+     "title": "On the Sample Complexity of the Linear Quadratic Regulator",
+     "venue": "Foundations of Computational Mathematics",
+     "type": "paper",
+     "why": "Gave non-asymptotic bounds on learning a controller from data. Defines how 'learning for control' theory is done now.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Sontag",
+     "year": 1989,
+     "title": "Smooth Stabilization Implies Coprime Factorization",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "Introduced input-to-state stability, a way to measure how disturbances affect nonlinear systems. ISS is now the standard language for robustness and interconnection of nonlinear systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Packard & Doyle",
+     "year": 1993,
+     "title": "The Complex Structured Singular Value",
+     "venue": "Automatica",
+     "type": "paper",
+     "why": "The reference treatment of mu analysis for systems with structured uncertainty. It is still used to certify robustness in aerospace and other safety-critical designs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jadbabaie, Lin & Morse",
+     "year": 2003,
+     "title": "Coordination of Groups of Mobile Autonomous Agents Using Nearest Neighbor Rules",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "Proved that agents following the Vicsek nearest-neighbor rule reach agreement under changing connections. It helped found multi-agent coordination theory used in robot swarms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Prajna & Jadbabaie",
+     "year": 2004,
+     "title": "Safety Verification of Hybrid Systems Using Barrier Certificates",
+     "venue": "Hybrid Systems: Computation and Control (HSCC 2004), Lecture Notes in Computer Science",
+     "type": "paper",
+     "why": "Introduced barrier certificates, functions that prove a system never enters unsafe states, found by sum-of-squares optimization. Control barrier functions and safe learning grow directly from it.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Willems, Rapisarda, Markovsky & De Moor",
+     "year": 2005,
+     "title": "A Note on Persistency of Excitation",
+     "venue": "Systems & Control Letters",
+     "type": "paper",
+     "why": "Showed that one sufficiently rich data trajectory describes all behaviors of a linear system. This 'fundamental lemma' is the basis of today's direct data-driven control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Berkenkamp, Turchetta, Schoellig & Krause",
+     "year": 2017,
+     "title": "Safe Model-Based Reinforcement Learning with Stability Guarantees",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Combined Lyapunov stability analysis with Gaussian-process models so an agent can explore without leaving a safe region. A key reference for safe reinforcement learning in robotics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fazel, Ge, Kakade & Mesbahi",
+     "year": 2018,
+     "title": "Global Convergence of Policy Gradient Methods for the Linear Quadratic Regulator",
+     "venue": "Proceedings of the 35th International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "Proved that policy gradient reaches the optimal LQR controller despite a nonconvex landscape. It opened the theory of policy optimization for control problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Coulson, Lygeros & Dörfler",
+     "year": 2019,
+     "title": "Data-Enabled Predictive Control: In the Shallows of the DeePC",
+     "venue": "European Control Conference (ECC)",
+     "type": "paper",
+     "why": "Built predictive control directly from recorded data matrices, skipping system identification. DeePC is now a leading data-driven control method, tested on power systems and robots.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "De Persis & Tesi",
+     "year": 2020,
+     "title": "Formulas for Data-Driven Control: Stabilization, Optimality, and Robustness",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "Gave controllers computed straight from data through linear matrix inequalities. Central to the current theory of direct data-driven control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hewing, Wabersich, Menner & Zeilinger",
+     "year": 2020,
+     "title": "Learning-Based Model Predictive Control: Toward Safe Learning in Control",
+     "venue": "Annual Review of Control, Robotics, and Autonomous Systems",
+     "type": "paper",
+     "why": "Reviewed how learned models and safety filters are being combined with MPC. A map of where learning-for-control research stands.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Complexity science",
+   "lead": "Finding principles such as scaling, criticality, collective behavior and tipping points that hold across biological, social, economic and climate systems, and testing them against data.",
+   "papers": [
+    {
+     "authors": "Anderson",
+     "year": 1972,
+     "title": "More Is Different",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued each level of organization has its own laws not deducible in practice from the level below. The manifesto of emergence that complexity science still cites to justify itself.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lorenz",
+     "year": 1963,
+     "title": "Deterministic Nonperiodic Flow",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Showed a simple deterministic model can be unpredictable because of sensitivity to initial conditions. Limits on prediction in weather and other systems are still framed by it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schelling",
+     "year": 1971,
+     "title": "Dynamic Models of Segregation",
+     "venue": "Journal of Mathematical Sociology",
+     "type": "paper",
+     "why": "Showed mild individual preferences can produce strong segregation. The template for agent-based models in social science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "May",
+     "year": 1976,
+     "title": "Simple Mathematical Models with Very Complicated Dynamics",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed the logistic map produces chaos and urged scientists to expect it in simple models. Still shapes how ecologists and others read irregular data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bak, Tang & Wiesenfeld",
+     "year": 1987,
+     "title": "Self-Organized Criticality: An Explanation of 1/f Noise",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Proposed that systems drive themselves to critical states with avalanches of all sizes. How widely it applies, from earthquakes to brains, is still argued.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "West, Brown & Enquist",
+     "year": 1997,
+     "title": "A General Model for the Origin of Allometric Scaling Laws in Biology",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Derived quarter-power scaling of metabolism from branching networks. Influential and still contested, it inspired scaling studies of cities and firms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bettencourt, Lobo, Helbing, Kühnert & West",
+     "year": 2007,
+     "title": "Growth, Innovation, Scaling, and the Pace of Life in Cities",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Found that urban output scales superlinearly with population while infrastructure scales sublinearly. Founded the science of cities and is still being tested.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hidalgo, Klinger, Barabási & Hausmann",
+     "year": 2007,
+     "title": "The Product Space Conditions the Development of Nations",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Mapped which products countries can move into based on related capabilities. Economic complexity is now used in development policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scheffer, Bascompte, Brock, Brovkin, Carpenter, Dakos, Held, van Nes, Rietkerk & Sugihara",
+     "year": 2009,
+     "title": "Early-Warning Signals for Critical Transitions",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed systems approaching tipping points slow down in detectable ways. Used today to monitor climate, ecosystem and other tipping risks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mora & Bialek",
+     "year": 2011,
+     "title": "Are Biological Systems Poised at Criticality?",
+     "venue": "Journal of Statistical Physics",
+     "type": "paper",
+     "why": "Examined evidence that neurons, flocks and proteins sit near critical points. The question remains one of the field's most active debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Simon",
+     "year": 1962,
+     "title": "The Architecture of Complexity",
+     "venue": "Proceedings of the American Philosophical Society",
+     "type": "paper",
+     "why": "Argued that complex systems are built from nearly decomposable hierarchies of subsystems, which makes them evolvable. It remains the standard reference for modularity in biology, organizations and engineering.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kauffman",
+     "year": 1969,
+     "title": "Metabolic Stability and Epigenesis in Randomly Constructed Genetic Nets",
+     "venue": "Journal of Theoretical Biology",
+     "type": "paper",
+     "why": "Modeled gene regulation with random Boolean networks and found ordered, stable behavior near a critical point. These models are still used to study cell types and criticality in biology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "May",
+     "year": 1972,
+     "title": "Will a Large Complex System Be Stable?",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used random matrix theory to show that large, densely connected ecosystems should become unstable. The diversity-stability debate in ecology is still organized around this result.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arthur",
+     "year": 1989,
+     "title": "Competing Technologies, Increasing Returns, and Lock-In by Historical Events",
+     "venue": "Economic Journal",
+     "type": "paper",
+     "why": "Showed that with increasing returns, small chance events can lock a market into an inferior technology. It is the basis of path dependence arguments in economics and technology policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vicsek, Czirók, Ben-Jacob, Cohen & Shochet",
+     "year": 1995,
+     "title": "Novel Type of Phase Transition in a System of Self-Driven Particles",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that particles following a simple alignment rule undergo a transition to collective motion. It founded the physics of active matter and remains the base model for flocking.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Strogatz",
+     "year": 2000,
+     "title": "From Kuramoto to Crawford: Exploring the Onset of Synchronization in Populations of Coupled Oscillators",
+     "venue": "Physica D",
+     "type": "paper",
+     "why": "Reviewed how the Kuramoto model explains spontaneous synchronization and its mathematics. Synchronization in power grids, brains and biological rhythms is still analyzed with it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ballerini et al.",
+     "year": 2008,
+     "title": "Interaction Ruling Animal Collective Behavior Depends on Topological Rather than Metric Distance: Evidence from a Field Study",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Reconstructed real starling flocks in 3D and found each bird tracks about seven neighbors regardless of distance. It changed how collective-motion models are built and tested against data.",
+     "verified": false,
+     "conf": "low",
+     "note": "Exact title wording recalled from memory."
+    },
+    {
+     "authors": "Lenton, Held, Kriegler, Hall, Lucht, Rahmstorf & Schellnhuber",
+     "year": 2008,
+     "title": "Tipping Elements in the Earth's Climate System",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Identified climate subsystems, such as ice sheets and the Amazon, that could shift abruptly past a threshold. It defines the list of tipping elements that climate risk research still monitors and revises.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hidalgo & Hausmann",
+     "year": 2009,
+     "title": "The Building Blocks of Economic Complexity",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced the method of reflections, which infers a country's hidden capabilities from what it exports. The resulting economic complexity index predicts growth better than many standard indicators and is now widely used in development work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haldane & May",
+     "year": 2011,
+     "title": "Systemic Risk in Banking Ecosystems",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Applied ideas from ecological network stability to contagion between banks. It shaped post-2008 thinking on why highly connected, homogeneous financial systems are fragile.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

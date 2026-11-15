@@ -1,0 +1,917 @@
+{
+ "discipline": "Neuroscience",
+ "fields": [
+  {
+   "field": "Cellular & molecular",
+   "lead": "The field is mapping every cell type in the brain at molecular resolution and using genetic tools to test which cells, synapses and glial processes store memories and go wrong in disease.",
+   "papers": [
+    {
+     "authors": "Bliss & Lømo",
+     "year": 1973,
+     "title": "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+     "venue": "Journal of Physiology",
+     "type": "paper",
+     "why": "It showed that brief bursts of activity can strengthen a synapse for hours. Long-term potentiation is still the leading cellular model of how experience is stored, and labs are still arguing over which of its mechanisms actually matter for memory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caterina et al.",
+     "year": 1997,
+     "title": "The capsaicin receptor: a heat-activated ion channel in the pain pathway",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Cloning TRPV1 turned pain from a vague sensation into a specific molecule that responds to heat and chili. It opened the TRP channel family that drug developers are still targeting for non-opioid painkillers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hardy & Selkoe",
+     "year": 2002,
+     "title": "The amyloid hypothesis of Alzheimer's disease: progress and problems on the road to therapeutics",
+     "venue": "Science",
+     "type": "paper",
+     "why": "This is the canonical statement that amyloid-beta buildup drives Alzheimer's. Two decades of failed drugs and then the modest success of anti-amyloid antibodies keep it at the center of the field's biggest argument.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Boyden et al.",
+     "year": 2005,
+     "title": "Millisecond-timescale, genetically targeted optical control of neural activity",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It showed that a light-gated algal channel could switch chosen neurons on and off with millisecond precision. Optogenetics made causal tests of specific cell types routine, and almost every circuit study now relies on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schafer et al.",
+     "year": 2012,
+     "title": "Microglia sculpt postnatal neural circuits in an activity and complement-dependent manner",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "It showed that the brain's immune cells eat weak synapses during development, guided by complement tags. This moved glia from support staff to active circuit editors and now underpins work on schizophrenia and neurodegeneration.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liu et al.",
+     "year": 2012,
+     "title": "Optogenetic stimulation of a hippocampal engram activates fear memory recall",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reactivating the neurons tagged during learning was enough to bring back a fear memory. It made the memory engram something you can label and manipulate, and the engram program it launched is still expanding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Südhof",
+     "year": 2013,
+     "title": "Neurotransmitter release: the last millisecond in the life of a synaptic vesicle",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "It lays out the current molecular model of how SNARE proteins, Munc18 and synaptotagmin turn a calcium signal into vesicle fusion. Many psychiatric and neurological risk genes code for these proteins, so this is the working map for synaptic disease.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen et al.",
+     "year": 2013,
+     "title": "Ultrasensitive fluorescent proteins for imaging neuronal activity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "GCaMP6 was the first calcium indicator sensitive enough to see single action potentials in living animals. It made imaging thousands of identified neurons at once a standard method, and its successors still dominate the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sekar et al.",
+     "year": 2016,
+     "title": "Schizophrenia risk from complex variation of complement component 4",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It traced the strongest genetic signal for schizophrenia to variants that raise C4 expression, a molecule that tags synapses for pruning. It is the clearest bridge so far from psychiatric genetics to a cellular mechanism.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yao et al.",
+     "year": 2023,
+     "title": "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It classified millions of cells into thousands of types across the entire mouse brain and placed them in space. This atlas is now the reference that genetic targeting, disease mapping and cross-species comparison are built on.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Malenka & Bear",
+     "year": 2004,
+     "title": "LTP and LTD: an embarrassment of riches",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "It showed that synaptic strengthening and weakening come in many mechanistic flavors depending on synapse and age. It remains the standard guide to why a single 'plasticity mechanism' for memory is not on offer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Coste et al.",
+     "year": 2010,
+     "title": "Piezo1 and Piezo2 are essential components of distinct mechanically activated cation channels",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It identified the long-sought molecules that turn touch and pressure into electrical signals. Piezo channels are now studied in touch, proprioception, breathing and blood pressure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Iliff et al.",
+     "year": 2012,
+     "title": "A paravascular pathway facilitates CSF flow through the brain parenchyma and the clearance of interstitial solutes, including amyloid β",
+     "venue": "Science Translational Medicine",
+     "type": "paper",
+     "why": "It proposed the glymphatic system, a fluid route that clears waste from the brain, especially during sleep. Whether and how it works is one of the most contested questions in the field.",
+     "verified": false,
+     "conf": "low",
+     "note": "Exact wording of the long title not confirmed this pass."
+    },
+    {
+     "authors": "Lancaster et al.",
+     "year": 2013,
+     "title": "Cerebral organoids model human brain development and microcephaly",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It grew three-dimensional human brain tissue from stem cells and used it to model a human disease. Organoids are now a main way to study human-specific development and disease genes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jucker & Walker",
+     "year": 2013,
+     "title": "Self-propagation of pathogenic protein aggregates in neurodegenerative diseases",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It argued that misfolded proteins in Alzheimer's, Parkinson's and related diseases spread from cell to cell like prions. This idea drives current work on disease staging, biomarkers and antibody therapies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Keren-Shaul et al.",
+     "year": 2017,
+     "title": "A unique microglia type associated with restricting development of Alzheimer's disease",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Single-cell sequencing revealed a disease-associated microglia state that clusters around plaques. It shifted Alzheimer's research toward the brain's immune response and the TREM2 pathway.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tasic et al.",
+     "year": 2018,
+     "title": "Shared and distinct transcriptomic cell types across neocortical areas",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It sequenced tens of thousands of cortical neurons and found over a hundred types, some shared across areas and some area-specific. It set the template for the brain-wide atlases that followed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Josselyn & Tonegawa",
+     "year": 2020,
+     "title": "Memory engrams: Recalling the past and imagining the future",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It summarizes what engram experiments have shown about how memories are allocated, stored and retrieved. It is the best entry into an active program that keeps raising questions about forgetting and memory updating.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Satterstrom et al.",
+     "year": 2020,
+     "title": "Large-scale exome sequencing study implicates both developmental and functional changes in the neurobiology of autism",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "It identified over a hundred genes with strong evidence for autism risk, many involved in gene regulation or synaptic signaling. Those genes are now the starting point for cellular and animal models of autism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "van Dyck et al.",
+     "year": 2023,
+     "title": "Lecanemab in early Alzheimer's disease",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "It showed that clearing amyloid modestly slowed decline in early Alzheimer's, with real side effects. It is the main data point in the current fight over whether the amyloid hypothesis has been vindicated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Systems",
+   "lead": "The field is recording thousands of neurons across many brain regions during natural behavior and asking how their joint dynamics, not single cells, produce perception, memory, decisions and movement.",
+   "papers": [
+    {
+     "authors": "Georgopoulos, Schwartz & Kettner",
+     "year": 1986,
+     "title": "Neuronal population coding of movement direction",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It showed that movement direction could be read out by pooling many broadly tuned motor cortex neurons. The population vector launched brain-computer interfaces and is still the foil for newer dynamical accounts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Felleman & Van Essen",
+     "year": 1991,
+     "title": "Distributed hierarchical processing in the primate cerebral cortex",
+     "venue": "Cerebral Cortex",
+     "type": "paper",
+     "why": "It organized dozens of visual areas into a hierarchy based on their wiring. That hierarchy is still the scaffold used to compare brains with deep networks and to interpret large-scale recordings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilson & McNaughton",
+     "year": 1994,
+     "title": "Reactivation of hippocampal ensemble memories during sleep",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It found that hippocampal cells active together during waking fired together again during sleep. Replay is now central to theories of memory consolidation and planning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schultz, Dayan & Montague",
+     "year": 1997,
+     "title": "A neural substrate of prediction and reward",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It showed that dopamine neurons fire like a reward prediction error from reinforcement learning. That link is still the strongest bridge between machine learning and the brain, and it is still being tested and refined.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raichle et al.",
+     "year": 2001,
+     "title": "A default mode of brain function",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "It identified a network that is most active when people are at rest, not engaged in a task. The default mode network is now a core concept in research on self-reflection, memory and psychiatric disorders.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Buzsáki & Draguhn",
+     "year": 2004,
+     "title": "Neuronal oscillations in cortical networks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It argued that brain rhythms are an organizing principle that coordinates timing across regions, not just background noise. Debates about whether oscillations cause or merely reflect computation still build on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hafting et al.",
+     "year": 2005,
+     "title": "Microstructure of a spatial map in the entorhinal cortex",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It discovered grid cells, which fire in a hexagonal pattern tiling space. Grid cells became the clearest example of the brain computing an abstract code and are now studied for non-spatial knowledge as well.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Churchland et al.",
+     "year": 2012,
+     "title": "Neural population dynamics during reaching",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It showed that motor cortex activity is best described as rotational dynamics generating movement, not as cells representing movement parameters. This dynamical-systems view now frames much of systems neuroscience.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Steinmetz et al.",
+     "year": 2019,
+     "title": "Distributed coding of choice, action and engagement across the mouse brain",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Recording tens of thousands of neurons across dozens of regions, it found decision and action signals spread widely rather than confined to a few areas. It set the brain-wide recording agenda now being pursued at scale.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stringer et al.",
+     "year": 2019,
+     "title": "Spontaneous behaviors drive multidimensional, brainwide activity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It showed that much of the 'noise' in sensory cortex is actually tracking the animal's ongoing movements. Every study since has had to account for behavior before interpreting brain signals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Shadlen & Newsome",
+     "year": 2001,
+     "title": "Neural basis of a perceptual decision in the parietal cortex (area LIP) of the rhesus monkey",
+     "venue": "Journal of Neurophysiology",
+     "type": "paper",
+     "why": "It showed parietal neurons ramping up as evidence accumulated toward a choice. Evidence accumulation became the standard model of decisions, and whether single neurons really ramp is still argued.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pfeiffer & Foster",
+     "year": 2013,
+     "title": "Hippocampal place-cell sequences depict future paths to remembered goals",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It found that hippocampal sequences play out paths the animal is about to take, not only ones it took. This made replay a candidate mechanism for planning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Murray et al.",
+     "year": 2014,
+     "title": "A hierarchy of intrinsic timescales across primate cortex",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It showed that higher cortical areas integrate information over longer timescales than sensory areas. This timescale hierarchy is now used to explain how cortex supports working memory and decisions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Buzsáki",
+     "year": 2015,
+     "title": "Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and memory planning",
+     "venue": "Hippocampus",
+     "type": "paper",
+     "why": "It brings together the evidence that brief ripple events carry replay used for memory and planning. It is the reference point for experiments that disrupt or boost ripples to test their role.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harris & Shepherd",
+     "year": 2015,
+     "title": "The neocortical circuit: themes and variations",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It describes what is common across cortical areas in cell types, layers and connections. It is the working template for interpreting cell-type-specific recordings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jun et al.",
+     "year": 2017,
+     "title": "Fully integrated silicon probes for high-density recording of neural activity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Neuropixels probes let one lab record hundreds to thousands of neurons across many regions at once. They are the hardware behind the current brain-wide recording era.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Musall et al.",
+     "year": 2019,
+     "title": "Single-trial neural dynamics are dominated by richly varied movements",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It found that uninstructed movements explain most cortical activity during cognitive tasks. With Stringer et al., it forced a rethink of how to read task signals from the brain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dabney et al.",
+     "year": 2020,
+     "title": "A distributional code for value in dopamine-based reinforcement learning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It showed that dopamine neurons vary in optimism, encoding a whole distribution of possible rewards rather than an average. It is an example of an AI idea predicting new neural data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Siegle et al.",
+     "year": 2021,
+     "title": "Survey of spiking in the mouse visual system reveals functional hierarchy",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "This open, standardized survey of spiking across mouse visual areas showed a functional hierarchy. It is a model for large shared datasets that many labs now analyze.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gardner et al.",
+     "year": 2022,
+     "title": "Toroidal topology of population activity in grid cells",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Recording hundreds of grid cells together showed their joint activity lies on a torus, as attractor models predicted. It is direct evidence for continuous attractor dynamics in the brain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Cognitive",
+   "lead": "The field is using imaging, intracranial recordings and AI models to decode what the brain represents during perception, thought and language, while reckoning with how reliable and interpretable those inferences are.",
+   "papers": [
+    {
+     "authors": "Kanwisher, McDermott & Chun",
+     "year": 1997,
+     "title": "The fusiform face area: a module in human extrastriate cortex specialized for face perception",
+     "venue": "Journal of Neuroscience",
+     "type": "paper",
+     "why": "It identified a patch of cortex that responds far more to faces than to anything else. Whether the brain is built of specialized modules or distributed codes is still argued with this paper as the anchor.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haxby et al.",
+     "year": 2001,
+     "title": "Distributed and overlapping representations of faces and objects in ventral temporal cortex",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It showed that object categories can be decoded from distributed activity patterns, even outside peak regions. Multivariate pattern analysis started here and became standard in human imaging.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Miller & Cohen",
+     "year": 2001,
+     "title": "An integrative theory of prefrontal cortex function",
+     "venue": "Annual Review of Neuroscience",
+     "type": "paper",
+     "why": "It proposed that prefrontal cortex biases processing elsewhere to keep goals in control of behavior. Cognitive control research and many models of executive function still use this framework.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dehaene & Naccache",
+     "year": 2001,
+     "title": "Towards a cognitive neuroscience of consciousness: basic evidence and a workspace framework",
+     "venue": "Cognition",
+     "type": "paper",
+     "why": "It set out global workspace theory, in which conscious content is information broadcast widely across cortex. It is one of the two main theories now being tested head-to-head.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Corbetta & Shulman",
+     "year": 2002,
+     "title": "Control of goal-directed and stimulus-driven attention in the brain",
+     "venue": "Nature Reviews Neuroscience",
+     "type": "paper",
+     "why": "It split attention into a dorsal goal-driven network and a ventral network that redirects attention to salient events. This two-network model still organizes most attention research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hasson et al.",
+     "year": 2004,
+     "title": "Intersubject synchronization of cortical activity during natural vision",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It showed that people watching the same movie have strongly correlated brain activity. It opened naturalistic neuroscience, which now drives studies of film, stories and conversation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Poldrack",
+     "year": 2006,
+     "title": "Can cognitive processes be inferred from neuroimaging data?",
+     "venue": "Trends in Cognitive Sciences",
+     "type": "paper",
+     "why": "It warned against reverse inference, concluding a mental process from which region lights up. It remains the standard warning cited whenever imaging results are oversold.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Huth et al.",
+     "year": 2016,
+     "title": "Natural speech reveals the semantic maps that tile human cerebral cortex",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Using hours of stories, it mapped word meanings across much of the cortex. It showed that rich semantic maps could be built from naturalistic data and set up today's language decoding work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schrimpf et al.",
+     "year": 2021,
+     "title": "The neural architecture of language: Integrative modeling converges on predictive processing",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "It found that language models trained to predict the next word best explain brain responses to language. It anchors the current program of using AI models as theories of human language processing.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marek et al.",
+     "year": 2022,
+     "title": "Reproducible brain-wide association studies require thousands of individuals",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It showed that links between brain imaging and traits are tiny and need thousands of participants to replicate. It has reshaped how the field designs and trusts studies of individual differences.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kriegeskorte, Mur & Bandettini",
+     "year": 2008,
+     "title": "Representational similarity analysis – connecting the branches of systems neuroscience",
+     "venue": "Frontiers in Systems Neuroscience",
+     "type": "paper",
+     "why": "It introduced comparing brains, models and behavior through the similarity structure of their responses. RSA is now a standard way to test whether a model and a brain represent things alike.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fedorenko, Behr & Kanwisher",
+     "year": 2011,
+     "title": "Functional specificity for high-level linguistic processing in the human brain",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "It showed that language regions respond little to arithmetic, music or working memory. The view that language is a distinct system is central to current debates about language and thought.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yeo et al.",
+     "year": 2011,
+     "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity",
+     "venue": "Journal of Neurophysiology",
+     "type": "paper",
+     "why": "It divided the cortex into seven and seventeen networks based on resting-state connectivity in a thousand people. These network labels are now the default vocabulary of human imaging.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Button et al.",
+     "year": 2013,
+     "title": "Power failure: why small sample size undermines the reliability of neuroscience",
+     "venue": "Nature Reviews Neuroscience",
+     "type": "paper",
+     "why": "It showed that typical neuroscience studies are badly underpowered, which inflates false findings. It started the reliability reckoning that Marek et al. later sharpened.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shenhav, Botvinick & Cohen",
+     "year": 2013,
+     "title": "The expected value of control: an integrative theory of anterior cingulate cortex function",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "It proposed that anterior cingulate decides how much mental effort is worth spending. It is the leading framework for current work on effort, motivation and control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Glasser et al.",
+     "year": 2016,
+     "title": "A multi-modal parcellation of human cerebral cortex",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It mapped 180 areas per hemisphere using several kinds of imaging data together. It is now the standard atlas for locating results in the human cortex.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eklund, Nichols & Knutsson",
+     "year": 2016,
+     "title": "Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "It showed that common fMRI software produced far more false positives than claimed. It pushed the field toward better statistics and open validation of methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldstein et al.",
+     "year": 2022,
+     "title": "Shared computational principles for language processing in humans and deep language models",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "Using intracranial recordings, it showed that the brain predicts upcoming words before hearing them, as language models do. It is key evidence for prediction as a core principle of comprehension.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tang et al.",
+     "year": 2023,
+     "title": "Semantic reconstruction of continuous language from non-invasive brain recordings",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It decoded the gist of heard and imagined speech from fMRI using a language model. It showed what non-invasive decoding can now do and raised mental-privacy questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cogitate Consortium",
+     "year": 2025,
+     "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Rival theorists pre-registered predictions and tested them together, and both theories were partly challenged. It is a model for settling theory disputes and the current state of the consciousness debate.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Computational",
+   "lead": "The field is testing whether deep networks, recurrent dynamical models and predictive or Bayesian theories can explain real neural data, and how the brain could learn without backpropagation.",
+   "papers": [
+    {
+     "authors": "Hopfield",
+     "year": 1982,
+     "title": "Neural networks and physical systems with emergent collective computational abilities",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "It showed that a network of simple units can store memories as stable attractor states. Attractor models still explain working memory, head direction and grid cells, and modern Hopfield networks connect to transformers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rumelhart, Hinton & Williams",
+     "year": 1986,
+     "title": "Learning representations by back-propagating errors",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "It showed that backpropagation lets multi-layer networks learn useful internal representations. Whether the brain does anything like it is one of the field's central open questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "van Vreeswijk & Sompolinsky",
+     "year": 1996,
+     "title": "Chaos in neuronal networks with balanced excitatory and inhibitory activity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "It showed that strong, balanced excitation and inhibition explain the irregular firing seen in cortex. The balanced-network regime is still the default assumption in cortical circuit models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Olshausen & Field",
+     "year": 1996,
+     "title": "Emergence of simple-cell receptive field properties by learning a sparse code for natural images",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Training a network to represent images with few active units produced receptive fields like those in visual cortex. It made efficient coding of natural statistics a working theory that still guides models of sensory systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rao & Ballard",
+     "year": 1999,
+     "title": "Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It modeled cortex as a hierarchy where higher areas predict lower ones and only errors are passed up. Predictive coding is now a major theory of cortical function and is tested directly in experiments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sussillo & Abbott",
+     "year": 2009,
+     "title": "Generating coherent patterns of activity from chaotic neural networks",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "It showed how to train chaotic recurrent networks to produce useful, stable outputs. Trained recurrent networks became the main tool for building models of how brain circuits compute.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Friston",
+     "year": 2010,
+     "title": "The free-energy principle: a unified brain theory?",
+     "venue": "Nature Reviews Neuroscience",
+     "type": "paper",
+     "why": "It argued that perception, action and learning all minimize prediction error, or free energy. Its reach and testability are still fiercely debated, and it shapes much of theoretical neuroscience and psychiatry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yamins et al.",
+     "year": 2014,
+     "title": "Performance-optimized hierarchical models predict neural responses in higher visual cortex",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Networks trained only to recognize objects turned out to predict monkey visual cortex responses. Goal-driven deep learning has since become a main way to model the brain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stachenfeld, Botvinick & Gershman",
+     "year": 2017,
+     "title": "The hippocampus as a predictive map",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It proposed that place cells encode predictions of where an animal will go next, a successor representation. It links hippocampus to reinforcement learning and drives current work on cognitive maps.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Richards et al.",
+     "year": 2019,
+     "title": "A deep learning framework for neuroscience",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It argued that neuroscience should study the objectives, architectures and learning rules that shape circuits, as deep learning does. It is the manifesto for the current AI-driven approach to theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Knill & Pouget",
+     "year": 2004,
+     "title": "The Bayesian brain: the role of uncertainty in neural coding and computation",
+     "venue": "Trends in Neurosciences",
+     "type": "paper",
+     "why": "It argued that the brain represents and computes with probability distributions. The Bayesian brain remains a main theory of perception and is still tested at the neural level.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Daw, Niv & Dayan",
+     "year": 2005,
+     "title": "Uncertainty-based competition between prefrontal and dorsolateral striatal systems for behavioral control",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It modeled habits and deliberate choice as model-free and model-based learning systems competing by reliability. The distinction now frames decision neuroscience and computational psychiatry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mante et al.",
+     "year": 2013,
+     "title": "Context-dependent computation by recurrent dynamics in prefrontal cortex",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "A trained recurrent network reproduced how prefrontal cortex flexibly selects relevant information. It made comparing trained networks with recordings a standard method.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kriegeskorte",
+     "year": 2015,
+     "title": "Deep neural networks: a new framework for modeling biological vision and brain information processing",
+     "venue": "Annual Review of Vision Science",
+     "type": "paper",
+     "why": "It made the case for deep networks as models of brain computation and set out how to test them. It is the standard introduction to that program.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Keller & Mrsic-Flogel",
+     "year": 2018,
+     "title": "Predictive processing: a canonical cortical computation",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "It reviews circuit-level evidence for prediction-error signals in mouse cortex. It shows how predictive coding moved from abstract theory to testable experiments on cell types.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang et al.",
+     "year": 2018,
+     "title": "Prefrontal cortex as a meta-reinforcement learning system",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "It showed that a recurrent network trained by dopamine-like learning becomes a learning system in its own activity. It links fast and slow learning in prefrontal cortex to AI meta-learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yang et al.",
+     "year": 2019,
+     "title": "Task representations in neural networks trained to perform many cognitive tasks",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "Training one network on many tasks produced clustered, reusable components, like specialized circuits. It started current work on how brains reuse computation across tasks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lillicrap et al.",
+     "year": 2020,
+     "title": "Backpropagation and the brain",
+     "venue": "Nature Reviews Neuroscience",
+     "type": "paper",
+     "why": "It argued that the brain may approximate backpropagation using feedback activity rather than exact error signals. It is the reference point for research on biologically plausible learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Whittington et al.",
+     "year": 2020,
+     "title": "The Tolman-Eichenbaum Machine: Unifying Space and Relational Memory through Generalization in the Hippocampal Formation",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "A model trained to predict across structured tasks learned grid-like and place-like cells on its own. It frames the hippocampal formation as a general system for structured knowledge, not just space.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dorkenwald et al.",
+     "year": 2024,
+     "title": "Neuronal wiring diagram of an adult brain",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "FlyWire mapped every neuron and synapse of an adult fruit fly brain. Whole-brain connectomes now let models be built and tested against real wiring.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "discipline": "Law",
+ "fields": [
+  {
+   "field": "Law & economics",
+   "lead": "The field is mainly working on behavioral and empirical tests of legal rules, contract and corporate law design, and challenges to efficiency analysis from antitrust and law-and-political-economy critics.",
+   "papers": [
+    {
+     "authors": "Coase",
+     "year": 1960,
+     "title": "The Problem of Social Cost",
+     "venue": "Journal of Law and Economics",
+     "type": "paper",
+     "why": "Showed that with low transaction costs the initial legal assignment of rights does not change efficient outcomes. Its real lesson, that transaction costs make legal rules matter, still guides how law is analyzed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Becker",
+     "year": 1968,
+     "title": "Crime and Punishment: An Economic Approach",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Modeled crime as a choice responsive to the probability and severity of punishment. Empirical work on deterrence and optimal enforcement still tests and refines it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Calabresi & Melamed",
+     "year": 1972,
+     "title": "Property Rules, Liability Rules, and Inalienability: One View of the Cathedral",
+     "venue": "Harvard Law Review",
+     "type": "paper",
+     "why": "Classified how entitlements can be protected and when each form fits. The framework is still used across property, torts, IP and remedies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Priest & Klein",
+     "year": 1984,
+     "title": "The Selection of Disputes for Litigation",
+     "venue": "Journal of Legal Studies",
+     "type": "paper",
+     "why": "Argued that cases going to trial are a selected sample, pushing plaintiff win rates toward 50%. Any empirical study of court outcomes must deal with this selection effect.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ellickson",
+     "year": 1991,
+     "title": "Order Without Law: How Neighbors Settle Disputes",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Showed that ranchers in Shasta County resolved disputes through social norms rather than law. It remains the key work on informal order and the limits of legal rules.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaplow",
+     "year": 1992,
+     "title": "Rules versus Standards: An Economic Analysis",
+     "venue": "Duke Law Journal",
+     "type": "paper",
+     "why": "Framed the choice between rules and standards as a trade-off between up-front and enforcement costs. It is still the standard analysis for legal design questions, including algorithmic rules.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jolls, Sunstein & Thaler",
+     "year": 1998,
+     "title": "A Behavioral Approach to Law and Economics",
+     "venue": "Stanford Law Review",
+     "type": "paper",
+     "why": "Brought bounded rationality, willpower and self-interest into legal analysis. Behavioral law and economics is now a main branch of the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "La Porta, Lopez-de-Silanes, Shleifer & Vishny",
+     "year": 1998,
+     "title": "Law and Finance",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Linked common-law origins to stronger investor protection and deeper financial markets. The legal-origins thesis is still built on and heavily criticized.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hansmann & Kraakman",
+     "year": 2001,
+     "title": "The End of History for Corporate Law",
+     "venue": "Georgetown Law Journal",
+     "type": "paper",
+     "why": "Predicted convergence on shareholder-oriented corporate law. Debates over stakeholder governance and ESG are arguments with this claim.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaplow & Shavell",
+     "year": 2001,
+     "title": "Any Non-welfarist Method of Policy Assessment Violates the Pareto Principle",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Proved that any policy criterion not based solely on welfare can make everyone worse off. It is the formal core of the debate over fairness versus welfare in legal analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Shavell",
+     "year": 1980,
+     "title": "Strict Liability versus Negligence",
+     "venue": "Journal of Legal Studies",
+     "type": "paper",
+     "why": "Showed that strict liability also controls how much people engage in risky activity, not just how carefully. It is still the basis of the economic analysis of tort rules.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ayres & Gertner",
+     "year": 1989,
+     "title": "Filling Gaps in Incomplete Contracts: An Economic Theory of Default Rules",
+     "venue": "Yale Law Journal",
+     "type": "paper",
+     "why": "Introduced 'penalty defaults' that push informed parties to reveal information. It remains central to contract design and default-rule theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Polinsky & Shavell",
+     "year": 2000,
+     "title": "The Economic Theory of Public Enforcement of Law",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Synthesized the theory of fines, imprisonment and enforcement probability. It is the standard reference for optimal enforcement design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Djankov, La Porta, Lopez-de-Silanes & Shleifer",
+     "year": 2003,
+     "title": "Courts",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Measured procedural formalism in eviction and check collection across 109 countries. It extended legal-origins research to court efficiency.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sunstein & Thaler",
+     "year": 2003,
+     "title": "Libertarian Paternalism Is Not an Oxymoron",
+     "venue": "University of Chicago Law Review",
+     "type": "paper",
+     "why": "Argued that since defaults are unavoidable, law can steer choices without coercion. It launched 'nudge' policy and the ongoing debate about it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schwartz & Scott",
+     "year": 2003,
+     "title": "Contract Theory and the Limits of Contract Law",
+     "venue": "Yale Law Journal",
+     "type": "paper",
+     "why": "Argued that contracts between firms should be interpreted textually and enforced as written. It defines one side of the live formalism-versus-contextualism debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bebchuk, Cohen & Ferrell",
+     "year": 2009,
+     "title": "What Matters in Corporate Governance?",
+     "venue": "Review of Financial Studies",
+     "type": "paper",
+     "why": "Built an entrenchment index from six provisions and linked it to lower firm value. It is still widely used in empirical corporate-law research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ben-Shahar & Schneider",
+     "year": 2011,
+     "title": "The Failure of Mandated Disclosure",
+     "venue": "University of Pennsylvania Law Review",
+     "type": "paper",
+     "why": "Argued that disclosure mandates rarely help consumers and can harm them. It shapes current consumer-protection and privacy-notice debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Khan",
+     "year": 2017,
+     "title": "Amazon's Antitrust Paradox",
+     "venue": "Yale Law Journal",
+     "type": "paper",
+     "why": "Argued that the consumer-welfare standard misses the harms of platform dominance. It sparked the neo-Brandeisian challenge to Chicago-school antitrust.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Britton-Purdy, Grewal, Kapczynski & Rahman",
+     "year": 2020,
+     "title": "Building a Law-and-Political-Economy Framework: Beyond the Twentieth-Century Synthesis",
+     "venue": "Yale Law Journal",
+     "type": "paper",
+     "why": "Argued that efficiency-centered legal analysis neglects power and democracy. It is the founding statement of the law-and-political-economy movement challenging the field.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

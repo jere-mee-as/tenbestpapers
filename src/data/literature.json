@@ -1,0 +1,233 @@
+{
+ "discipline": "Literature",
+ "fields": [
+  {
+   "field": "Literary theory",
+   "lead": "Literary theory is now mainly debating how to read, critique versus description and repair, close versus computational reading, and how to theorize world literature, race and climate.",
+   "papers": [
+    {
+     "authors": "Barthes",
+     "year": 1967,
+     "title": "The Death of the Author",
+     "venue": "Aspen (English translation; French original in Manteia, 1968)",
+     "type": "paper",
+     "why": "Shifted meaning from the author's intentions to the reader and the text's language. Debates over intention and interpretation still begin by agreeing or disagreeing with it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Said",
+     "year": 1978,
+     "title": "Orientalism",
+     "venue": "Pantheon Books",
+     "type": "book",
+     "why": "Showed how Western scholarship and literature built the 'Orient' as an object of knowledge and power. It founded postcolonial studies and remains its most argued-over book.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jameson",
+     "year": 1981,
+     "title": "The Political Unconscious: Narrative as a Socially Symbolic Act",
+     "venue": "Cornell University Press",
+     "type": "book",
+     "why": "Argued that narratives work out social contradictions and must be read historically. It is the base text of Marxist criticism and the main target of today's critiques of suspicious reading.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spivak",
+     "year": 1988,
+     "title": "Can the Subaltern Speak?",
+     "venue": "Marxism and the Interpretation of Culture, ed. Nelson & Grossberg (University of Illinois Press)",
+     "type": "paper",
+     "why": "Questioned whether intellectuals can represent the most marginalized without silencing them. It is still the reference for the ethics of representation in postcolonial studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Butler",
+     "year": 1990,
+     "title": "Gender Trouble: Feminism and the Subversion of Identity",
+     "venue": "Routledge",
+     "type": "book",
+     "why": "Argued that gender is performed through repeated acts rather than given by nature. It founded queer theory and is still central to arguments about gender and identity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moretti",
+     "year": 2000,
+     "title": "Conjectures on World Literature",
+     "venue": "New Left Review",
+     "type": "paper",
+     "why": "Proposed 'distant reading' of many texts across languages instead of close reading of a few. It launched current world-literature and computational approaches.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sedgwick",
+     "year": 2003,
+     "title": "Paranoid Reading and Reparative Reading, or, You're So Paranoid, You Probably Think This Essay Is About You",
+     "venue": "Touching Feeling: Affect, Pedagogy, Performativity (Duke University Press)",
+     "type": "paper",
+     "why": "Contrasted exposing, suspicious critique with a reparative mode that seeks sustenance in texts. It started the current debate about what criticism is for.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Best & Marcus",
+     "year": 2009,
+     "title": "Surface Reading: An Introduction",
+     "venue": "Representations",
+     "type": "paper",
+     "why": "Argued for attending to what texts openly show rather than hunting hidden meanings. It is a key statement of the post-critique turn.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Felski",
+     "year": 2015,
+     "title": "The Limits of Critique",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Examined the habits of suspicious reading and argued for attachment and description. It is the leading book in the current debate over method.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levine",
+     "year": 2015,
+     "title": "Forms: Whole, Rhythm, Hierarchy, Network",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that literary and social forms are shaped in similar ways and can be analyzed together. It is the main statement of the new formalism that now competes with historicism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Gates",
+     "year": 1988,
+     "title": "The Signifying Monkey: A Theory of African-American Literary Criticism",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Built a theory of African American literature from its own vernacular traditions of signifying. It remains central to Black literary theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sedgwick",
+     "year": 1990,
+     "title": "Epistemology of the Closet",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Argued that the homo/heterosexual distinction structures modern Western thought and literature. It is a founding text of queer reading.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bhabha",
+     "year": 1994,
+     "title": "The Location of Culture",
+     "venue": "Routledge",
+     "type": "book",
+     "why": "Developed hybridity, mimicry and the 'third space' to describe colonial culture. Its concepts are still widely used and argued over.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Casanova",
+     "year": 1999,
+     "title": "The World Republic of Letters",
+     "venue": "Éditions du Seuil (French original 1999); English translation, Harvard University Press, 2004",
+     "type": "book",
+     "why": "Described world literature as an unequal market with centers that grant recognition. It is a core text in current world-literature theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hartman",
+     "year": 2008,
+     "title": "Venus in Two Acts",
+     "venue": "Small Axe",
+     "type": "paper",
+     "why": "Asked how to write about enslaved people who appear in archives only through violence, and proposed 'critical fabulation'. It is one of the most influential recent essays across literature and history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Love",
+     "year": 2010,
+     "title": "Close but not Deep: Literary Ethics and the Descriptive Turn",
+     "venue": "New Literary History",
+     "type": "paper",
+     "why": "Proposed careful description instead of deep interpretation, drawing on sociology. It is a key text in the post-critique debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ngai",
+     "year": 2012,
+     "title": "Our Aesthetic Categories: Zany, Cute, Interesting",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Argued that minor categories like 'cute' and 'interesting' are the real aesthetics of late capitalism. It has shaped current aesthetics and criticism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Warwick Research Collective",
+     "year": 2015,
+     "title": "Combined and Uneven Development: Towards a New Theory of World-Literature",
+     "venue": "Liverpool University Press",
+     "type": "book",
+     "why": "Defined world literature as literature that registers the unequal capitalist world system. It is a central Marxist position in current world-literature debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ghosh",
+     "year": 2016,
+     "title": "The Great Derangement: Climate Change and the Unthinkable",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Argued that the modern novel struggles to represent climate change. It drives current debate in environmental criticism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Underwood",
+     "year": 2019,
+     "title": "Distant Horizons: Digital Evidence and Literary Change",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Used machine learning on large corpora to trace long-term changes in genre and literary prestige. It is the strongest current case for computational literary history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

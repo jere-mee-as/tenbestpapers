@@ -1,0 +1,689 @@
+{
+ "discipline": "Business",
+ "fields": [
+  {
+   "field": "Strategy",
+   "lead": "Strategy research is working out where durable advantage comes from when competition runs through platforms, ecosystems and fast-changing capabilities, and how managers' theories and choices shape it.",
+   "papers": [
+    {
+     "authors": "Coase",
+     "year": 1937,
+     "title": "The Nature of the Firm",
+     "venue": "Economica",
+     "type": "paper",
+     "why": "Coase asked why firms exist at all and answered that they save the costs of using markets. Every make-or-buy, outsourcing and platform-boundary question still starts from his framing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Porter",
+     "year": 1979,
+     "title": "How Competitive Forces Shape Strategy",
+     "venue": "Harvard Business Review",
+     "type": "paper",
+     "why": "Porter argued that five industry forces set how much profit is available. It made industry positioning the default lens for strategy and remains the first tool used in industry analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Williamson",
+     "year": 1979,
+     "title": "Transaction-Cost Economics: The Governance of Contractual Relations",
+     "venue": "Journal of Law and Economics",
+     "type": "paper",
+     "why": "Williamson showed how asset specificity, uncertainty and frequency decide whether a transaction belongs in the market, a hybrid or the firm. It still drives research on vertical integration, outsourcing and alliances.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wernerfelt",
+     "year": 1984,
+     "title": "A Resource-Based View of the Firm",
+     "venue": "Strategic Management Journal",
+     "type": "paper",
+     "why": "Wernerfelt shifted attention from product markets to the resources a firm controls and the barriers protecting them. It started the resource-based view, still the dominant explanation of lasting performance differences.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barney",
+     "year": 1991,
+     "title": "Firm Resources and Sustained Competitive Advantage",
+     "venue": "Journal of Management",
+     "type": "paper",
+     "why": "Barney set out when resources give lasting advantage: valuable, rare, hard to imitate and hard to substitute. It gave the resource-based view its working framework, still used in research and teaching.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levinthal",
+     "year": 1997,
+     "title": "Adaptation on Rugged Landscapes",
+     "venue": "Management Science",
+     "type": "paper",
+     "why": "Levinthal modelled firms searching a landscape of interdependent choices and showed why they get stuck on local peaks. It launched the simulation-based research on search, complexity and strategic change that is still expanding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Teece, Pisano & Shuen",
+     "year": 1997,
+     "title": "Dynamic Capabilities and Strategic Management",
+     "venue": "Strategic Management Journal",
+     "type": "paper",
+     "why": "The authors argued that in fast-changing markets advantage comes from the ability to integrate, build and reconfigure competences. It is the most used frame for studying digital transformation and adaptation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dyer & Singh",
+     "year": 1998,
+     "title": "The Relational View: Cooperative Strategy and Sources of Interorganizational Competitive Advantage",
+     "venue": "Academy of Management Review",
+     "type": "paper",
+     "why": "Dyer and Singh showed that advantage can sit in relationships between firms through shared assets, knowledge sharing and governance. It underpins research on alliances, supply chains and networks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bloom & Van Reenen",
+     "year": 2007,
+     "title": "Measuring and Explaining Management Practices Across Firms and Countries",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "The authors built a survey tool to score management practices and found large gaps that track productivity. It made management quality a measurable driver of firm and national performance and spawned a large empirical programme.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jacobides, Cennamo & Gawer",
+     "year": 2018,
+     "title": "Towards a Theory of Ecosystems",
+     "venue": "Strategic Management Journal",
+     "type": "paper",
+     "why": "The authors defined ecosystems by the specific complementarities that tie firms together, separating them from markets and supply chains. It is the reference point for strategy in platform and digital markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Rumelt",
+     "year": 1991,
+     "title": "How Much Does Industry Matter?",
+     "venue": "Strategic Management Journal",
+     "type": "paper",
+     "why": "Rumelt found that business-unit effects explain far more of profit differences than industry. It launched the variance-decomposition debate that still underlies the case for firm-level strategy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brandenburger & Stuart",
+     "year": 1996,
+     "title": "Value-Based Business Strategy",
+     "venue": "Journal of Economics & Management Strategy",
+     "type": "paper",
+     "why": "The authors defined a firm's added value as what the game loses if the firm leaves, linking strategy to cooperative game theory. Value-based strategy is now a fast-growing formal approach in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Porter",
+     "year": 1996,
+     "title": "What Is Strategy?",
+     "venue": "Harvard Business Review",
+     "type": "paper",
+     "why": "Porter separated operational effectiveness from strategy and argued that advantage comes from trade-offs and fit among activities. It remains the most cited statement of strategy as choice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eisenhardt & Martin",
+     "year": 2000,
+     "title": "Dynamic Capabilities: What Are They?",
+     "venue": "Strategic Management Journal",
+     "type": "paper",
+     "why": "The authors argued that dynamic capabilities are identifiable routines and that in fast markets they must be simple and improvisational. It is the main alternative reading of dynamic capabilities to Teece's.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gavetti & Levinthal",
+     "year": 2000,
+     "title": "Looking Forward and Looking Backward: Cognitive and Experiential Search",
+     "venue": "Administrative Science Quarterly",
+     "type": "paper",
+     "why": "The authors modelled how managers' simplified mental representations combine with trial and error. It founded the cognitive strand of strategy research that informs work on managerial attention and theory-based strategy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rochet & Tirole",
+     "year": 2003,
+     "title": "Platform Competition in Two-Sided Markets",
+     "venue": "Journal of the European Economic Association",
+     "type": "paper",
+     "why": "Rochet and Tirole showed how platforms set prices across two sides that need each other. It is the economic core of platform strategy and digital competition policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Teece",
+     "year": 2007,
+     "title": "Explicating Dynamic Capabilities: The Nature and Microfoundations of (Sustainable) Enterprise Performance",
+     "venue": "Strategic Management Journal",
+     "type": "paper",
+     "why": "Teece broke dynamic capabilities into sensing, seizing and transforming and set out their underlying processes. It is the version most current research operationalises.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Adner & Kapoor",
+     "year": 2010,
+     "title": "Value Creation in Innovation Ecosystems: How the Structure of Technological Interdependence Affects Firm Performance in New Technology Generations",
+     "venue": "Strategic Management Journal",
+     "type": "paper",
+     "why": "Studying semiconductor lithography, the authors showed that bottlenecks among upstream suppliers and downstream complementors shape who wins technology transitions. It is the main empirical foundation for ecosystem strategy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gibbons & Henderson",
+     "year": 2012,
+     "title": "Relational Contracts and Organizational Capabilities",
+     "venue": "Organization Science",
+     "type": "paper",
+     "why": "The authors argued that persistent performance differences rest on informal, trust-based agreements inside firms that are hard to copy. It links organisational economics to the capabilities literature and the management-practices evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Felin & Zenger",
+     "year": 2017,
+     "title": "The Theory-Based View: Economic Actors as Theorists",
+     "venue": "Strategy Science",
+     "type": "paper",
+     "why": "Felin and Zenger argued that advantage comes from managers forming distinctive theories about value that others do not yet see. It is a leading new perspective, tied to experimentation and entrepreneurial strategy.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Organizational behavior",
+   "lead": "Organizational behaviour is focused on how teams learn and speak up, how hiring and diversity efforts actually work, and how remote work and AI are changing jobs and performance.",
+   "papers": [
+    {
+     "authors": "Granovetter",
+     "year": 1973,
+     "title": "The Strength of Weak Ties",
+     "venue": "American Journal of Sociology",
+     "type": "paper",
+     "why": "Granovetter showed that acquaintances, not close friends, bridge groups and bring new information such as job leads. It underlies network research on careers, information flow and innovation, and is still being tested with platform data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hackman & Oldham",
+     "year": 1976,
+     "title": "Motivation through the Design of Work: Test of a Theory",
+     "venue": "Organizational Behavior and Human Performance",
+     "type": "paper",
+     "why": "The authors showed that autonomy, feedback, task identity and significance drive motivation and satisfaction. Job design research built on it now shapes debates on remote work, gig work and automation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "DiMaggio & Powell",
+     "year": 1983,
+     "title": "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "The authors explained why organisations in a field come to look alike through coercive, mimetic and normative pressures. It anchors institutional theory, used to explain the spread of practices from diversity policies to ESG.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ashforth & Mael",
+     "year": 1989,
+     "title": "Social Identity Theory and the Organization",
+     "venue": "Academy of Management Review",
+     "type": "paper",
+     "why": "The authors brought social identity theory into organisations, showing how identification with a group shapes commitment and behaviour. It opened the large literature on identification, culture and diversity at work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "March",
+     "year": 1991,
+     "title": "Exploration and Exploitation in Organizational Learning",
+     "venue": "Organization Science",
+     "type": "paper",
+     "why": "March showed why organisations drift toward refining what they know at the expense of searching for the new. It is the root of ambidexterity research and still frames how firms balance innovation and efficiency.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barrick & Mount",
+     "year": 1991,
+     "title": "The Big Five Personality Dimensions and Job Performance: A Meta-Analysis",
+     "venue": "Personnel Psychology",
+     "type": "paper",
+     "why": "This meta-analysis found conscientiousness predicts job performance across occupations. It established personality as a legitimate predictor and still guides selection and assessment research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schmidt & Hunter",
+     "year": 1998,
+     "title": "The Validity and Utility of Selection Methods in Personnel Psychology: Practical and Theoretical Implications of 85 Years of Research Findings",
+     "venue": "Psychological Bulletin",
+     "type": "paper",
+     "why": "The authors compared how well hiring methods predict performance and put cognitive ability tests at the top. Its estimates are now being actively revised, which makes it the necessary baseline for the current selection debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Edmondson",
+     "year": 1999,
+     "title": "Psychological Safety and Learning Behavior in Work Teams",
+     "venue": "Administrative Science Quarterly",
+     "type": "paper",
+     "why": "Edmondson showed that teams where members feel safe to take interpersonal risks learn more and perform better. Psychological safety is now one of the most studied and applied constructs in team research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bertrand & Mullainathan",
+     "year": 2004,
+     "title": "Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Sending identical résumés with different names, the authors found large racial gaps in callbacks. It established the modern audit-study method, still central to research and policy on hiring discrimination.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Woolley et al.",
+     "year": 2010,
+     "title": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups",
+     "venue": "Science",
+     "type": "paper",
+     "why": "The authors found a general group-level intelligence factor linked to social sensitivity and turn-taking more than to members' IQ. It launched current work on team composition and collective intelligence, including replication debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kahn",
+     "year": 1990,
+     "title": "Psychological Conditions of Personal Engagement and Disengagement at Work",
+     "venue": "Academy of Management Journal",
+     "type": "paper",
+     "why": "Kahn defined engagement as bringing one's full self to work and identified meaningfulness, safety and availability as its conditions. It is the origin of the engagement construct and an early source of psychological safety.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Burt",
+     "year": 1992,
+     "title": "Structural Holes: The Social Structure of Competition",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Burt argued that people who bridge gaps between unconnected groups gain information and control advantages. It is the leading account of network advantage in careers, brokerage and idea generation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ely & Thomas",
+     "year": 2001,
+     "title": "Cultural Diversity at Work: The Effects of Diversity Perspectives on Work Group Processes and Outcomes",
+     "venue": "Administrative Science Quarterly",
+     "type": "paper",
+     "why": "The authors showed that whether diversity helps depends on how a group frames it, with integration and learning beating access or fairness framings. It still shapes research and practice on making diversity work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wrzesniewski & Dutton",
+     "year": 2001,
+     "title": "Crafting a Job: Revisioning Employees as Active Crafters of Their Work",
+     "venue": "Academy of Management Review",
+     "type": "paper",
+     "why": "The authors showed that employees reshape the tasks, relationships and meaning of their jobs. Job crafting is now a major research area and intervention target.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kalev, Dobbin & Kelly",
+     "year": 2006,
+     "title": "Best Practices or Best Guesses? Assessing the Efficacy of Corporate Affirmative Action and Diversity Policies",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Using decades of workforce data, the authors found that diversity training does little while assigning responsibility and mentoring work. It is the core evidence in current debates on what diversity programmes achieve.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bakker & Demerouti",
+     "year": 2007,
+     "title": "The Job Demands-Resources Model: State of the Art",
+     "venue": "Journal of Managerial Psychology",
+     "type": "paper",
+     "why": "The authors set out a model in which job demands drive burnout while resources drive engagement. It is the most widely used framework for research on wellbeing and burnout.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rivera",
+     "year": 2012,
+     "title": "Hiring as Cultural Matching: The Case of Elite Professional Service Firms",
+     "venue": "American Sociological Review",
+     "type": "paper",
+     "why": "Rivera showed that elite employers hire for shared leisure pursuits and style as much as skill. It made cultural fit a central topic in research on inequality in hiring.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bloom et al.",
+     "year": 2015,
+     "title": "Does Working from Home Work? Evidence from a Chinese Experiment",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "A randomised trial at a Chinese travel agency found working from home raised performance but hurt promotion. It became the reference experiment for remote and hybrid work research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sackett et al.",
+     "year": 2022,
+     "title": "Revisiting Meta-Analytic Estimates of Validity in Personnel Selection: Addressing Systematic Overcorrection for Restriction of Range",
+     "venue": "Journal of Applied Psychology",
+     "type": "paper",
+     "why": "The authors argued that earlier corrections inflated validities and that structured interviews outpredict ability tests. It reopened the field's settled view of what predicts job performance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brynjolfsson, Li & Raymond",
+     "year": 2025,
+     "title": "Generative AI at Work",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Studying customer-support agents, the authors found an AI assistant raised productivity most for novices and less skilled workers. It is a leading field study for the fast-growing research on AI and work.",
+     "verified": false,
+     "conf": "low",
+     "note": "Widely circulated as an NBER working paper (2023); journal volume and issue not checked."
+    }
+   ]
+  },
+  {
+   "field": "Innovation & entrepreneurship",
+   "lead": "The field is asking why innovation and business dynamism appear to be slowing, who gets to become an inventor or founder, and how startups, incumbents and acquirers divide the gains from new technology.",
+   "papers": [
+    {
+     "authors": "Schumpeter",
+     "year": 1942,
+     "title": "Capitalism, Socialism and Democracy",
+     "venue": "Harper & Brothers",
+     "type": "book",
+     "why": "Schumpeter described creative destruction, with new firms and technologies displacing old ones as the engine of capitalism. Modern growth theory, antitrust debates on big tech and the economics of startups all still work from his account.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Teece",
+     "year": 1986,
+     "title": "Profiting from Technological Innovation: Implications for Integration, Collaboration, Licensing and Public Policy",
+     "venue": "Research Policy",
+     "type": "paper",
+     "why": "Teece explained why innovators often lose out to imitators or owners of complementary assets, depending on how easily ideas can be protected. It remains the main framework for who captures value from innovation, including in AI and platforms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "von Hippel",
+     "year": 1986,
+     "title": "Lead Users: A Source of Novel Product Concepts",
+     "venue": "Management Science",
+     "type": "paper",
+     "why": "Von Hippel showed that advanced users often invent what the market later wants. It began the user-innovation tradition behind open source, crowdsourcing and community-driven product development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cohen & Levinthal",
+     "year": 1990,
+     "title": "Absorptive Capacity: A New Perspective on Learning and Innovation",
+     "venue": "Administrative Science Quarterly",
+     "type": "paper",
+     "why": "The authors argued that a firm's ability to use outside knowledge depends on its prior related knowledge, so R&D also builds learning capacity. It is among the most used concepts in innovation research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Henderson & Clark",
+     "year": 1990,
+     "title": "Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Established Firms",
+     "venue": "Administrative Science Quarterly",
+     "type": "paper",
+     "why": "The authors showed that incumbents stumble when innovation changes how components fit together, even if the components stay familiar. It sharpened the explanation of why established firms are blindsided.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aghion & Howitt",
+     "year": 1992,
+     "title": "A Model of Growth Through Creative Destruction",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "The authors formalised Schumpeter in a growth model where new innovations displace old ones. It anchors modern endogenous growth theory and current arguments on competition, market power and innovation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Christensen",
+     "year": 1997,
+     "title": "The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail",
+     "venue": "Harvard Business School Press",
+     "type": "book",
+     "why": "Christensen argued that well-run incumbents lose to entrants that start in low-end or new markets. Disruption became the dominant language of technology strategy, and its scope and evidence are still disputed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shane & Venkataraman",
+     "year": 2000,
+     "title": "The Promise of Entrepreneurship as a Field of Research",
+     "venue": "Academy of Management Review",
+     "type": "paper",
+     "why": "The authors defined entrepreneurship research as the study of how opportunities are discovered, evaluated and exploited, and by whom. It gave the field its core framework and is still argued with.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sarasvathy",
+     "year": 2001,
+     "title": "Causation and Effectuation: Toward a Theoretical Shift from Economic Inevitability to Entrepreneurial Contingency",
+     "venue": "Academy of Management Review",
+     "type": "paper",
+     "why": "Sarasvathy showed that expert entrepreneurs start from the means at hand and shape goals as they go. It underlies lean-startup thinking and much research on entrepreneurial decision-making.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bloom et al.",
+     "year": 2020,
+     "title": "Are Ideas Getting Harder to Find?",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "The authors showed that research effort has risen steeply while productivity growth has not, across many sectors. It drives the current debate on slowing innovation and what policy should do about it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Tushman & Anderson",
+     "year": 1986,
+     "title": "Technological Discontinuities and Organizational Environments",
+     "venue": "Administrative Science Quarterly",
+     "type": "paper",
+     "why": "The authors distinguished competence-enhancing from competence-destroying technological shifts. It remains the standard way to classify technological change and predict which firms suffer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jaffe, Trajtenberg & Henderson",
+     "year": 1993,
+     "title": "Geographic Localization of Knowledge Spillovers as Evidenced by Patent Citations",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Using patent citations, the authors showed that knowledge spillovers are geographically concentrated. It founded patent-citation methods and underlies research on innovation clusters.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gompers & Lerner",
+     "year": 2001,
+     "title": "The Venture Capital Revolution",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "The authors explained how venture capital screens, contracts with and monitors young firms. It remains the standard introduction to the financing model behind most high-growth startups.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chesbrough",
+     "year": 2003,
+     "title": "Open Innovation: The New Imperative for Creating and Profiting from Technology",
+     "venue": "Harvard Business School Press",
+     "type": "book",
+     "why": "Chesbrough argued that firms should combine internal R&D with outside ideas and external routes to market. It changed corporate practice on partnering, licensing and corporate venturing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wuchty, Jones & Uzzi",
+     "year": 2007,
+     "title": "The Increasing Dominance of Teams in Production of Knowledge",
+     "venue": "Science",
+     "type": "paper",
+     "why": "The authors showed that teams increasingly produce the most cited papers and patents. It launched the science-of-science research on how team structure affects discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jones",
+     "year": 2009,
+     "title": "The Burden of Knowledge and the 'Death of the Renaissance Man': Is Innovation Getting Harder?",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Jones argued that as knowledge accumulates, innovators train longer, specialise more and work in teams. It is the main mechanism proposed for why ideas are getting harder to find.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haltiwanger, Jarmin & Miranda",
+     "year": 2013,
+     "title": "Who Creates Jobs? Small versus Large versus Young",
+     "venue": "Review of Economics and Statistics",
+     "type": "paper",
+     "why": "The authors showed that net job creation comes from young firms, not small firms as such. It redirected policy toward startups and underlies the debate on declining business dynamism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bell et al.",
+     "year": 2019,
+     "title": "Who Becomes an Inventor in America? The Importance of Exposure to Innovation",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Linking patent and tax records, the authors showed that children from high-income families are far more likely to become inventors, largely because of exposure. It reframed innovation policy around 'lost Einsteins'.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cunningham, Ederer & Ma",
+     "year": 2021,
+     "title": "Killer Acquisitions",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "The authors showed that pharmaceutical incumbents buy and shut down rival drug projects. It is central to current antitrust debates over big-tech and big-pharma acquisitions of startups.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Park, Leahey & Funk",
+     "year": 2023,
+     "title": "Papers and Patents Are Becoming Less Disruptive over Time",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Using a citation-based disruption index, the authors found steady declines in disruptive science and technology. It is a focal and contested piece of evidence on slowing progress.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

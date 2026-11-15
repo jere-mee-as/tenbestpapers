@@ -1,0 +1,917 @@
+{
+ "discipline": "Statistics",
+ "fields": [
+  {
+   "field": "Inference",
+   "lead": "Making p-values, intervals and error control trustworthy when hypotheses are chosen after looking at data, tested by the thousands, monitored continuously or estimated with machine learning.",
+   "papers": [
+    {
+     "authors": "James & Stein",
+     "year": 1961,
+     "title": "Estimation with Quadratic Loss",
+     "venue": "Proceedings of the Fourth Berkeley Symposium on Mathematical Statistics and Probability",
+     "type": "paper",
+     "why": "Showed that the obvious estimator of several means is beaten by shrinking them toward each other. Shrinkage, empirical Bayes and modern regularization all trace back here, and the result still shapes how people think about pooling many noisy estimates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Huber",
+     "year": 1964,
+     "title": "Robust Estimation of a Location Parameter",
+     "venue": "Annals of Mathematical Statistics",
+     "type": "paper",
+     "why": "Asked how estimators behave when the model is slightly wrong and introduced M-estimators that degrade gracefully. Robust losses, heavy-tailed data and distributionally robust methods in ML keep this framework in daily use.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Efron",
+     "year": 1979,
+     "title": "Bootstrap Methods: Another Look at the Jackknife",
+     "venue": "Annals of Statistics",
+     "type": "paper",
+     "why": "Replaced hard analytic derivations of standard errors with resampling from the data. It is still the default way to get uncertainty for complicated estimators, and its limits are an active research topic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Benjamini & Hochberg",
+     "year": 1995,
+     "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Swapped the near-impossible goal of no false positives for controlling the share of discoveries that are false. Genomics, imaging and any large screen now run on FDR, and new variants keep appearing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ioannidis",
+     "year": 2005,
+     "title": "Why Most Published Research Findings Are False",
+     "venue": "PLoS Medicine",
+     "type": "paper",
+     "why": "Showed with a simple model how low power, bias and many tested hypotheses make most significant findings unreliable. It launched the replication-crisis debate that still drives reforms in how statistics is used.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Berk, Brown, Buja, Zhang & Zhao",
+     "year": 2013,
+     "title": "Valid Post-Selection Inference",
+     "venue": "Annals of Statistics",
+     "type": "paper",
+     "why": "Confronted the fact that standard intervals are wrong when the model was chosen using the same data. Selective inference grew from this problem and remains unsettled.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wasserstein & Lazar",
+     "year": 2016,
+     "title": "The ASA's Statement on p-Values: Context, Process, and Purpose",
+     "venue": "The American Statistician",
+     "type": "paper",
+     "why": "The first time the American Statistical Association formally warned about how p-values are misused. It reopened arguments over thresholds, alternatives and reporting that the field has not resolved.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chernozhukov, Chetverikov, Demirer, Duflo, Hansen, Newey & Robins",
+     "year": 2018,
+     "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
+     "venue": "The Econometrics Journal",
+     "type": "paper",
+     "why": "Showed how to plug flexible ML predictions into estimation and still get valid confidence intervals, using orthogonal scores and cross-fitting. It is now a standard tool across economics, epidemiology and tech.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lei, G'Sell, Rinaldo, Tibshirani & Wasserman",
+     "year": 2018,
+     "title": "Distribution-Free Predictive Inference for Regression",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Made conformal prediction a mainstream statistical tool: prediction intervals with guaranteed coverage around any model, including black-box ML. Conformal methods are one of the fastest-growing areas in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ramdas, Grünwald, Vovk & Shafer",
+     "year": 2023,
+     "title": "Game-Theoretic Statistics and Safe Anytime-Valid Inference",
+     "venue": "Statistical Science",
+     "type": "paper",
+     "why": "Surveys the new framework of e-values and testing by betting, which stays valid however often you peek at the data and whenever you stop. It is the main candidate for rebuilding hypothesis testing around sequential, real-world use.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Storey",
+     "year": 2002,
+     "title": "A Direct Approach to False Discovery Rates",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Introduced q-values and estimated the share of true nulls, making FDR more powerful. Standard in genomics pipelines today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Efron",
+     "year": 2004,
+     "title": "Large-Scale Simultaneous Hypothesis Testing: The Choice of a Null Hypothesis",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Argued that with thousands of tests the theoretical null is often wrong and should be estimated from the data. Started the empirical-Bayes view of large-scale inference that is still developing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Simmons, Nelson & Simonsohn",
+     "year": 2011,
+     "title": "False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Showed by simulation how ordinary analytic choices inflate false positives far beyond 5%. It drove preregistration and is still the standard reference on 'p-hacking'.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barber & Candès",
+     "year": 2015,
+     "title": "Controlling the False Discovery Rate via Knockoffs",
+     "venue": "Annals of Statistics",
+     "type": "paper",
+     "why": "Built fake 'knockoff' variables to control FDR in variable selection without p-values. Knockoffs became a major line of work in high-dimensional inference.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Open Science Collaboration",
+     "year": 2015,
+     "title": "Estimating the Reproducibility of Psychological Science",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Replicated 100 psychology studies and found effects were much weaker and often absent. It turned the replication crisis from argument into evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lee, Sun, Sun & Taylor",
+     "year": 2016,
+     "title": "Exact Post-Selection Inference, with Application to the Lasso",
+     "venue": "Annals of Statistics",
+     "type": "paper",
+     "why": "Gave exact conditional tests after lasso selection by characterizing the selection event as a polyhedron. The workhorse result for practical selective inference.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Candès, Fan, Janson & Lv",
+     "year": 2018,
+     "title": "Panning for Gold: 'Model-X' Knockoffs for High Dimensional Controlled Variable Selection",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Moved the modeling burden from the response to the covariates, so knockoffs work with any model. Widely used in genetics and conditional-independence testing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Benjamin et al.",
+     "year": 2018,
+     "title": "Redefine Statistical Significance",
+     "venue": "Nature Human Behaviour",
+     "type": "paper",
+     "why": "Seventy-two authors proposed moving the default threshold from 0.05 to 0.005. The responses it provoked map the live disagreements about how evidence should be judged.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wasserman, Ramdas & Balakrishnan",
+     "year": 2020,
+     "title": "Universal Inference",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Built valid tests and confidence sets for any model where the likelihood can be computed, with no regularity conditions, by splitting the data. A key bridge to the e-value framework.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Angelopoulos, Bates, Fannjiang, Jordan & Zrnic",
+     "year": 2023,
+     "title": "Prediction-Powered Inference",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed how to combine a small labelled sample with many ML predictions and still get valid confidence intervals. Central to the current question of how to do statistics with AI-generated data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Bayesian statistics",
+   "lead": "Making Bayesian computation fast and reliable at scale and turning prior choice, model checking and comparison into a disciplined workflow.",
+   "papers": [
+    {
+     "authors": "Ferguson",
+     "year": 1973,
+     "title": "A Bayesian Analysis of Some Nonparametric Problems",
+     "venue": "Annals of Statistics",
+     "type": "paper",
+     "why": "Introduced the Dirichlet process, giving a usable prior over whole distributions. Bayesian nonparametrics, from mixture models to clustering with unknown numbers of groups, still builds on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kass & Raftery",
+     "year": 1995,
+     "title": "Bayes Factors",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "The standard account of comparing models by Bayes factors, with practical guidance on computation and interpretation. Still the reference point in arguments over Bayesian hypothesis testing and its sensitivity to priors.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gelman, Meng & Stern",
+     "year": 1996,
+     "title": "Posterior Predictive Assessment of Model Fitness via Realized Discrepancies",
+     "venue": "Statistica Sinica",
+     "type": "paper",
+     "why": "Gave a practical way to check whether a fitted Bayesian model can reproduce features of the data. Posterior predictive checks are now a core step of applied Bayesian work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gelman",
+     "year": 2006,
+     "title": "Prior Distributions for Variance Parameters in Hierarchical Models",
+     "venue": "Bayesian Analysis",
+     "type": "paper",
+     "why": "Showed that popular 'noninformative' priors on variances behave badly and recommended weakly informative alternatives such as half-Cauchy. It changed default practice in hierarchical models and the wider debate on priors.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rue, Martino & Chopin",
+     "year": 2009,
+     "title": "Approximate Bayesian Inference for Latent Gaussian Models by Using Integrated Nested Laplace Approximations",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "INLA gave fast, accurate deterministic inference for a huge class of spatial and hierarchical models. It remains the main alternative to MCMC in spatial statistics and epidemiology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Neal",
+     "year": 2011,
+     "title": "MCMC Using Hamiltonian Dynamics",
+     "venue": "Handbook of Markov Chain Monte Carlo (Chapman & Hall/CRC)",
+     "type": "paper",
+     "why": "Explained how to use gradients and simulated physics to move through high-dimensional posteriors efficiently. Hamiltonian Monte Carlo is now the engine of most general-purpose Bayesian software.",
+     "verified": false,
+     "conf": "low",
+     "note": "Book chapter (ch. 5); venue given as the handbook."
+    },
+    {
+     "authors": "Hoffman & Gelman",
+     "year": 2014,
+     "title": "The No-U-Turn Sampler: Adaptively Setting Path Lengths in Hamiltonian Monte Carlo",
+     "venue": "Journal of Machine Learning Research",
+     "type": "paper",
+     "why": "Removed HMC's hardest tuning step so it could run automatically. NUTS is the default sampler in Stan, PyMC and NumPyro.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blei, Kucukelbir & McAuliffe",
+     "year": 2017,
+     "title": "Variational Inference: A Review for Statisticians",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Presented variational inference, which turns posterior computation into optimization, to statisticians. It is how Bayesian methods scale to big data and deep models, and its accuracy is still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vehtari, Gelman & Gabry",
+     "year": 2017,
+     "title": "Practical Bayesian Model Evaluation Using Leave-One-Out Cross-Validation and WAIC",
+     "venue": "Statistics and Computing",
+     "type": "paper",
+     "why": "Made leave-one-out cross-validation cheap to compute from posterior draws with PSIS-LOO. It is now the standard way to compare Bayesian models by predictive accuracy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gelman, Vehtari, Simpson, Margossian, Carpenter, Yao, Kennedy, Gabry, Bürkner & Modrák",
+     "year": 2020,
+     "title": "Bayesian Workflow",
+     "venue": "arXiv:2011.01808",
+     "type": "paper",
+     "why": "Treats Bayesian analysis as an iterative process of building, checking, fixing and comparing models rather than a single fit. It sets the current agenda for how applied Bayesian work should be done.",
+     "verified": true,
+     "conf": "high",
+     "note": "Preprint; not published in a journal."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Beaumont, Zhang & Balding",
+     "year": 2002,
+     "title": "Approximate Bayesian Computation in Population Genetics",
+     "venue": "Genetics",
+     "type": "paper",
+     "why": "Made ABC practical for models whose likelihood cannot be computed but can be simulated. Started the line of work that became simulation-based inference.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Teh, Jordan, Beal & Blei",
+     "year": 2006,
+     "title": "Hierarchical Dirichlet Processes",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Let groups of data share clusters in a nonparametric model. Still a core tool in Bayesian nonparametrics and topic models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Del Moral, Doucet & Jasra",
+     "year": 2006,
+     "title": "Sequential Monte Carlo Samplers",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Extended particle methods from tracking to general static posteriors. SMC is now a main alternative to MCMC for multimodal and sequential problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carvalho, Polson & Scott",
+     "year": 2010,
+     "title": "The Horseshoe Estimator for Sparse Signals",
+     "venue": "Biometrika",
+     "type": "paper",
+     "why": "Introduced a continuous shrinkage prior that keeps large signals while crushing noise. The standard Bayesian approach to sparsity today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Welling & Teh",
+     "year": 2011,
+     "title": "Bayesian Learning via Stochastic Gradient Langevin Dynamics",
+     "venue": "Proceedings of the 28th International Conference on Machine Learning (ICML)",
+     "type": "paper",
+     "why": "Combined minibatch gradients with injected noise to sample posteriors on big data. Launched stochastic-gradient MCMC, used in Bayesian deep learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bissiri, Holmes & Walker",
+     "year": 2016,
+     "title": "A General Framework for Updating Belief Distributions",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Justified updating beliefs with a loss function instead of a likelihood. Generalized Bayes is central to current work on misspecified models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carpenter et al.",
+     "year": 2017,
+     "title": "Stan: A Probabilistic Programming Language",
+     "venue": "Journal of Statistical Software",
+     "type": "paper",
+     "why": "Describes the language and engine that made HMC accessible to applied researchers. Stan's design shapes how modern Bayesian models are written and diagnosed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kucukelbir, Tran, Ranganath, Gelman & Blei",
+     "year": 2017,
+     "title": "Automatic Differentiation Variational Inference",
+     "venue": "Journal of Machine Learning Research",
+     "type": "paper",
+     "why": "Automated variational inference for any differentiable model. Underlies the VI options in modern probabilistic programming.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cranmer, Brehmer & Louppe",
+     "year": 2020,
+     "title": "The Frontier of Simulation-Based Inference",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Mapped how neural networks are transforming inference for simulator models in physics, biology and beyond. A main frontier of Bayesian computation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vehtari, Gelman, Simpson, Carpenter & Bürkner",
+     "year": 2021,
+     "title": "Rank-Normalization, Folding, and Localization: An Improved R-hat for Assessing Convergence of MCMC",
+     "venue": "Bayesian Analysis",
+     "type": "paper",
+     "why": "Fixed known failures of the standard convergence diagnostic and added effective sample size estimates for tails. Now the default diagnostic in major software.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Causal inference",
+   "lead": "Causal inference is building a unified theory of identification from potential outcomes and causal graphs, and pairing it with machine learning, sensitivity analysis and causal discovery so effects can be estimated credibly from observational data.",
+   "papers": [
+    {
+     "authors": "Rubin",
+     "year": 1974,
+     "title": "Estimating Causal Effects of Treatments in Randomized and Nonrandomized Studies",
+     "venue": "Journal of Educational Psychology",
+     "type": "paper",
+     "why": "Defined causal effects as comparisons of potential outcomes under different treatments. This language is how almost all modern causal work states what it is estimating.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rosenbaum & Rubin",
+     "year": 1983,
+     "title": "The Central Role of the Propensity Score in Observational Studies for Causal Effects",
+     "venue": "Biometrika",
+     "type": "paper",
+     "why": "Showed that adjusting for the probability of treatment is enough to remove measured confounding. Propensity-score matching and weighting remain everyday tools.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Robins",
+     "year": 1986,
+     "title": "A New Approach to Causal Inference in Mortality Studies with a Sustained Exposure Period",
+     "venue": "Mathematical Modelling",
+     "type": "paper",
+     "why": "Solved the problem of treatments that change over time and are affected by earlier outcomes, with the g-formula. Modern longitudinal causal inference and target-trial emulation rest on it.",
+     "verified": false,
+     "conf": "high",
+     "note": "Full title continues: '—Application to Control of the Healthy Worker Survivor Effect'."
+    },
+    {
+     "authors": "Robins, Rotnitzky & Zhao",
+     "year": 1994,
+     "title": "Estimation of Regression Coefficients When Some Regressors Are Not Always Observed",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Introduced augmented inverse-probability weighting and double robustness. The ancestor of today's efficient, ML-friendly estimators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pearl",
+     "year": 1995,
+     "title": "Causal Diagrams for Empirical Research",
+     "venue": "Biometrika",
+     "type": "paper",
+     "why": "Introduced causal graphs and the back-door criterion for deciding what to adjust for. Directed acyclic graphs are now standard for stating assumptions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Robins, Hernán & Brumback",
+     "year": 2000,
+     "title": "Marginal Structural Models and Causal Inference in Epidemiology",
+     "venue": "Epidemiology",
+     "type": "paper",
+     "why": "Introduced marginal structural models fitted by inverse-probability weighting to handle time-varying confounding affected by past treatment. They are the everyday tool for longitudinal causal questions and a template for modern sequential-treatment estimators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Peters, Bühlmann & Meinshausen",
+     "year": 2016,
+     "title": "Causal Inference by Using Invariant Prediction",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Used the idea that causal relationships stay stable across environments to find causes from data. Links causal discovery to robustness in machine learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "VanderWeele & Ding",
+     "year": 2017,
+     "title": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
+     "venue": "Annals of Internal Medicine",
+     "type": "paper",
+     "why": "Proposed the E-value: how strong unmeasured confounding would have to be to explain away an observed effect. It made sensitivity analysis routine in applied work and sparked an ongoing debate about how to report robustness.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Athey & Imbens",
+     "year": 2016,
+     "title": "Recursive Partitioning for Heterogeneous Causal Effects",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Adapted regression trees to estimate treatment effects with honest sample splitting, so subgroup effects come with valid confidence intervals. Honest estimation is now a standard ingredient of ML-based heterogeneous effect methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wager & Athey",
+     "year": 2018,
+     "title": "Estimation and Inference of Heterogeneous Treatment Effects Using Random Forests",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Adapted random forests to estimate how effects vary across people, with valid confidence intervals. Started the boom in ML methods for personalized effects.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Holland",
+     "year": 1986,
+     "title": "Statistics and Causal Inference",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Stated the 'fundamental problem of causal inference' and the slogan 'no causation without manipulation'. Still the standard framing of what counts as a cause.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spirtes, Glymour & Scheines",
+     "year": 1993,
+     "title": "Causation, Prediction, and Search",
+     "venue": "Springer",
+     "type": "book",
+     "why": "Developed algorithms such as PC for learning causal graphs from data. The basis of causal discovery today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shpitser & Pearl",
+     "year": 2006,
+     "title": "Identification of Joint Interventional Distributions in Recursive Semi-Markovian Causal Models",
+     "venue": "Proceedings of the 21st National Conference on Artificial Intelligence (AAAI)",
+     "type": "paper",
+     "why": "Proved that the do-calculus is complete: an effect is identifiable from a causal graph exactly when the ID algorithm finds it. This settled nonparametric identification with hidden variables and underlies today's automated identification tools.",
+     "verified": false,
+     "conf": "low",
+     "note": "Venue details (AAAI proceedings) and exact title wording not checked."
+    },
+    {
+     "authors": "Shimizu, Hoyer, Hyvärinen & Kerminen",
+     "year": 2006,
+     "title": "A Linear Non-Gaussian Acyclic Model for Causal Discovery",
+     "venue": "Journal of Machine Learning Research",
+     "type": "paper",
+     "why": "Showed that non-Gaussian noise makes the full causal order identifiable from observational data, beyond the equivalence classes of constraint-based search. LiNGAM and its descendants remain a main line of identifiable causal discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "van der Laan & Rubin",
+     "year": 2006,
+     "title": "Targeted Maximum Likelihood Learning",
+     "venue": "International Journal of Biostatistics",
+     "type": "paper",
+     "why": "Proposed TMLE, which nudges an ML fit so it targets one causal parameter efficiently. Widely used in epidemiology alongside double machine learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Imai, Keele & Tingley",
+     "year": 2010,
+     "title": "A General Approach to Causal Mediation Analysis",
+     "venue": "Psychological Methods",
+     "type": "paper",
+     "why": "Gave a general potential-outcomes definition of direct and indirect effects, the assumptions needed to identify them, and sensitivity analysis for those assumptions. It is the standard modern framework behind mediation analysis across the social and health sciences.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hernán & Robins",
+     "year": 2016,
+     "title": "Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available",
+     "venue": "American Journal of Epidemiology",
+     "type": "paper",
+     "why": "Proposed designing observational analyses to mimic a specific randomized trial. Now standard practice in epidemiology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zheng, Aragam, Ravikumar & Xing",
+     "year": 2018,
+     "title": "DAGs with NO TEARS: Continuous Optimization for Structure Learning",
+     "venue": "Advances in Neural Information Processing Systems",
+     "type": "paper",
+     "why": "Recast DAG learning as a smooth continuous optimization problem, opening causal discovery to gradient-based deep learning. It launched a wave of differentiable discovery methods, and of critiques of what they actually identify.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Künzel, Sekhon, Bickel & Yu",
+     "year": 2019,
+     "title": "Metalearners for Estimating Heterogeneous Treatment Effects Using Machine Learning",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Organized ML approaches to effect heterogeneity into S-, T- and X-learners. A common starting point in practice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cinelli & Hazlett",
+     "year": 2020,
+     "title": "Making sense of sensitivity: extending omitted variable bias",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Built sensitivity analysis for unobserved confounding directly on the regression omitted-variable-bias formula, with bounds benchmarked against observed covariates. Its tools are now widely used to report how robust observational estimates are.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Statistical learning",
+   "lead": "Explaining why heavily overparameterized models generalize while keeping high-dimensional, regularized and ensemble methods on firm theoretical ground.",
+   "papers": [
+    {
+     "authors": "Vapnik & Chervonenkis",
+     "year": 1971,
+     "title": "On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities",
+     "venue": "Theory of Probability and Its Applications",
+     "type": "paper",
+     "why": "Tied generalization to the capacity of a model class. Classical learning theory still starts here, and the failure of such bounds for deep nets is what current theory tries to explain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tibshirani",
+     "year": 1996,
+     "title": "Regression Shrinkage and Selection via the Lasso",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Penalized the absolute size of coefficients, so estimation and variable selection happen together. The lasso anchors high-dimensional statistics and is still extended in many directions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Breiman",
+     "year": 2001,
+     "title": "Random Forests",
+     "venue": "Machine Learning",
+     "type": "paper",
+     "why": "Averaged many decorrelated trees into a strong, low-tuning predictor. Random forests remain a default for tabular data and a base for causal forests.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Friedman",
+     "year": 2001,
+     "title": "Greedy Function Approximation: A Gradient Boosting Machine",
+     "venue": "Annals of Statistics",
+     "type": "paper",
+     "why": "Framed boosting as gradient descent in function space. XGBoost, LightGBM and similar tools, which dominate tabular prediction, implement this idea.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Breiman",
+     "year": 2001,
+     "title": "Statistical Modeling: The Two Cultures",
+     "venue": "Statistical Science",
+     "type": "paper",
+     "why": "Contrasted modeling the data-generating process with judging models only by prediction. The split it described still organizes debates between statistics and ML.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Candès & Recht",
+     "year": 2009,
+     "title": "Exact Matrix Completion via Convex Optimization",
+     "venue": "Foundations of Computational Mathematics",
+     "type": "paper",
+     "why": "Proved a low-rank matrix can be recovered from few entries by convex optimization. Low-rank recovery is now used across recommendation, imaging and data science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zhang, Bengio, Hardt, Recht & Vinyals",
+     "year": 2017,
+     "title": "Understanding Deep Learning Requires Rethinking Generalization",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Showed that networks that generalize well can also memorize random labels, which classical capacity bounds cannot explain. It set the puzzle that modern learning theory is still working on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Belkin, Hsu, Ma & Mandal",
+     "year": 2019,
+     "title": "Reconciling Modern Machine-Learning Practice and the Classical Bias-Variance Trade-Off",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Documented 'double descent': test error can fall again once models get big enough to fit the data exactly. It reframed the bias-variance picture for overparameterized models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bartlett, Long, Lugosi & Tsigler",
+     "year": 2020,
+     "title": "Benign Overfitting in Linear Regression",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Gave conditions under which fitting noise perfectly still predicts well. A key theoretical answer to the interpolation puzzle.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hastie, Montanari, Rosset & Tibshirani",
+     "year": 2022,
+     "title": "Surprises in High-Dimensional Ridgeless Least Squares Interpolation",
+     "venue": "Annals of Statistics",
+     "type": "paper",
+     "why": "Worked out exact test error of interpolating linear models as dimensions grow. A reference model for current overparameterization theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Bartlett & Mendelson",
+     "year": 2002,
+     "title": "Rademacher and Gaussian Complexities: Risk Bounds and Structural Results",
+     "venue": "Journal of Machine Learning Research",
+     "type": "paper",
+     "why": "Introduced data-dependent complexity measures for generalization bounds. Still the main tool in learning-theory proofs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zou & Hastie",
+     "year": 2005,
+     "title": "Regularization and Variable Selection via the Elastic Net",
+     "venue": "Journal of the Royal Statistical Society: Series B",
+     "type": "paper",
+     "why": "Mixed lasso and ridge penalties to handle correlated predictors. A default in applied high-dimensional regression.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bickel, Ritov & Tsybakov",
+     "year": 2009,
+     "title": "Simultaneous Analysis of Lasso and Dantzig Selector",
+     "venue": "Annals of Statistics",
+     "type": "paper",
+     "why": "Gave the restricted-eigenvalue conditions for lasso guarantees. The standard theory behind sparse estimation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Friedman, Hastie & Tibshirani",
+     "year": 2010,
+     "title": "Regularization Paths for Generalized Linear Models via Coordinate Descent",
+     "venue": "Journal of Statistical Software",
+     "type": "paper",
+     "why": "Made penalized regression fast enough for routine use via glmnet. Still the workhorse implementation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen & Guestrin",
+     "year": 2016,
+     "title": "XGBoost: A Scalable Tree Boosting System",
+     "venue": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+     "type": "paper",
+     "why": "Engineered gradient boosting to scale and win competitions. Still the benchmark for tabular data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lundberg & Lee",
+     "year": 2017,
+     "title": "A Unified Approach to Interpreting Model Predictions",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Introduced SHAP values for attributing predictions to features. The most used explanation method, and much criticized.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jacot, Gabriel & Hongler",
+     "year": 2018,
+     "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "Showed very wide networks train like kernel methods. A central, contested lens on deep learning theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nakkiran, Kaplun, Bansal, Yang, Barak & Sutskever",
+     "year": 2020,
+     "title": "Deep Double Descent: Where Bigger Models and More Data Hurt",
+     "venue": "International Conference on Learning Representations (ICLR)",
+     "type": "paper",
+     "why": "Showed double descent across model size, data and training time in deep nets. Moved the phenomenon from theory to practice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mei & Montanari",
+     "year": 2022,
+     "title": "The Generalization Error of Random Features Regression: Precise Asymptotics and the Double Descent Curve",
+     "venue": "Communications on Pure and Applied Mathematics",
+     "type": "paper",
+     "why": "Derived exact double descent curves for a two-layer model. A benchmark for high-dimensional asymptotic theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Grinsztajn, Oyallon & Varoquaux",
+     "year": 2022,
+     "title": "Why Do Tree-Based Models Still Outperform Deep Learning on Typical Tabular Data?",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track",
+     "type": "paper",
+     "why": "Benchmarked trees against deep nets on tabular data and explained why trees win. Shapes the ongoing push for tabular foundation models.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

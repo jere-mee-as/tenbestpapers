@@ -1,0 +1,233 @@
+{
+ "discipline": "Psychology",
+ "fields": [
+  {
+   "field": "Evolutionary",
+   "lead": "Evolutionary psychology is re-testing its flagship findings with large preregistered and cross-cultural samples, while competing with cultural evolution as the main explanation of human behaviour and rethinking frameworks such as life-history theory that have not held up well.",
+   "papers": [
+    {
+     "authors": "Tooby & Cosmides",
+     "year": 1992,
+     "title": "The Psychological Foundations of Culture",
+     "venue": "The Adapted Mind, ed. Barkow, Cosmides & Tooby (Oxford University Press)",
+     "type": "paper",
+     "why": "The manifesto of modern evolutionary psychology: a mind made of many domain-specific adaptations shaped in ancestral environments, set against the 'Standard Social Science Model'. Both supporters and critics still argue against this exact statement of the programme.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gould & Lewontin",
+     "year": 1979,
+     "title": "The spandrels of San Marco and the Panglossian paradigm: a critique of the adaptationist programme",
+     "venue": "Proceedings of the Royal Society B",
+     "type": "paper",
+     "why": "Charged adaptationists with telling just-so stories and ignoring constraint and by-products. It is still the standard objection to adaptationist explanations of human psychology, and evolutionary psychologists still write replies to it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Buss",
+     "year": 1989,
+     "title": "Sex differences in human mate preferences: Evolutionary hypotheses tested in 37 cultures",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "A 37-culture survey reporting that men valued youth and looks more and women valued resources and status more. It is the field's flagship cross-cultural finding, and its size, meaning and robustness are still the most contested questions in the area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eagly & Wood",
+     "year": 1999,
+     "title": "The origins of sex differences in human behavior: Evolved dispositions versus social roles",
+     "venue": "American Psychologist",
+     "type": "paper",
+     "why": "Reanalysed Buss's data to argue that sex differences in mate preferences shrink where gender roles are more equal, offering social role theory as the rival explanation. The evolved-versus-structural argument it framed is still being fought with new cross-national data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Henrich, Heine & Norenzayan",
+     "year": 2010,
+     "title": "The weirdest people in the world?",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Showed that most behavioural science relies on Western, educated, industrialised, rich, democratic samples that are often outliers. For a field claiming universal human nature it made sampling breadth a basic test of any claim.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Richerson & Boyd",
+     "year": 2005,
+     "title": "Not by Genes Alone: How Culture Transformed Human Evolution",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "The accessible statement of dual inheritance theory: culture is a second inheritance system that evolves and shapes genetic evolution. It is the main rival framework to narrow evolutionary psychology and underlies most current cultural evolution work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eastwick, Luchies, Finkel & Hunt",
+     "year": 2014,
+     "title": "The predictive validity of ideal partner preferences: A review and meta-analysis",
+     "venue": "Psychological Bulletin",
+     "type": "paper",
+     "why": "Found that what people say they want in a partner barely predicts whom they actually choose or how happy they are with them. It undercut a lot of stated-preference evidence and pushed the field toward studying real choices.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Walter et al.",
+     "year": 2020,
+     "title": "Sex Differences in Mate Preferences Across 45 Countries: A Large-Scale Replication",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "A preregistered replication of Buss's design in 45 countries that found the main sex differences again, while showing only weak and inconsistent links to gender equality. It is the current reference point for how robust the classic findings are.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jones et al.",
+     "year": 2018,
+     "title": "No Compelling Evidence that Preferences for Facial Masculinity Track Changes in Women's Hormonal Status",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "A large, well-powered study with measured hormones found no shift in women's preferences for masculine faces across the cycle. It is the key replication failure for the once-popular ovulatory shift literature, and the reason most of that work is now doubted.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zietsch & Sidari",
+     "year": 2020,
+     "title": "A critique of life history approaches to human trait covariation",
+     "venue": "Evolution and Human Behavior",
+     "type": "paper",
+     "why": "Argued that 'fast versus slow' life-history strategies in psychology rest on weak measurement, confounding by genes and loose links to biological theory. Together with related critiques it has put one of the field's most used frameworks on the defensive.",
+     "verified": false,
+     "conf": "high",
+     "note": "Exact title not confirmed by search"
+    }
+   ],
+   "more": [
+    {
+     "authors": "Buller",
+     "year": 2005,
+     "title": "Adapting Minds: Evolutionary Psychology and the Persistent Quest for Human Nature",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "A philosopher's detailed critique of the massive modularity thesis and of several flagship findings. It remains the most thorough sympathetic-but-hostile assessment and is assigned alongside the field's own manifestos.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Henrich",
+     "year": 2016,
+     "title": "The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that humans succeed through cumulative cultural learning rather than individual intelligence, with gene-culture coevolution shaping our bodies and minds. It is the most widely read case for the cultural-evolution frame.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Heyes",
+     "year": 2018,
+     "title": "Cognitive Gadgets: The Cultural Evolution of Thinking",
+     "venue": "Belknap Press of Harvard University Press",
+     "type": "book",
+     "why": "Proposed that distinctively human mechanisms such as imitation, mindreading and language are culturally learned 'gadgets', not genetic instincts. It challenges both nativist evolutionary psychology and gene-centred dual inheritance accounts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Apicella, Norenzayan & Henrich",
+     "year": 2020,
+     "title": "Beyond WEIRD: A review of the last decade and a look ahead to the global laboratory of the future",
+     "venue": "Evolution and Human Behavior",
+     "type": "paper",
+     "why": "Took stock of how much sampling had actually changed ten years after the WEIRD paper and set out what diverse, multi-site research should look like. It is the current agenda for cross-cultural evidence in evolutionary behavioural science.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lieberman, Tooby & Cosmides",
+     "year": 2007,
+     "title": "The architecture of human kin detection",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Identified cues, such as seeing one's mother care for an infant and years of co-residence, that predict both altruism toward siblings and aversion to incest. It is the showcase example of the adaptationist method producing specific, testable mechanisms in kin psychology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Delton, Krasnow, Cosmides & Tooby",
+     "year": 2011,
+     "title": "Evolution of direct reciprocity under uncertainty can explain human generosity in one-shot encounters",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Modelled how cooperating in one-shot interactions can be a by-product of reciprocity under uncertainty, without group selection. It is a central piece in the dispute between evolutionary psychologists and cultural group selectionists over why humans cooperate with strangers.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gildersleeve, Haselton & Fales",
+     "year": 2014,
+     "title": "Do women's mate preferences change across the ovulatory cycle? A meta-analytic review",
+     "venue": "Psychological Bulletin",
+     "type": "paper",
+     "why": "A meta-analysis reporting cycle shifts in preferences for short-term partners. Read against later null results it shows how publication bias and small samples can produce an apparently robust literature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zentner & Mitura",
+     "year": 2012,
+     "title": "Stepping out of the caveman's shadow: Nations' gender gap predicts degree of sex differentiation in mate preferences",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Reported that sex differences in mate preferences are smaller in more gender-equal nations. Its finding conflicts with later large replications, which keeps the evolved-versus-structural question open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ellis, Figueredo, Brumbach & Schlomer",
+     "year": 2009,
+     "title": "Fundamental dimensions of environmental risk: The impact of harsh versus unpredictable environments on the evolution and development of life history strategies",
+     "venue": "Human Nature",
+     "type": "paper",
+     "why": "Separated harshness from unpredictability as drivers of fast or slow developmental strategies. It is the main theoretical basis of psychological life-history research and the main target of its recent critics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nettle & Frankenhuis",
+     "year": 2020,
+     "title": "Life-history theory in psychology and evolutionary biology: one research programme or two?",
+     "venue": "Philosophical Transactions of the Royal Society B",
+     "type": "paper",
+     "why": "Argued that psychology's use of life-history theory has drifted away from the biological theory it borrows from, and proposed ways to reconnect them. It anchors the current rethinking of that framework.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

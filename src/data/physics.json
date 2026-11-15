@@ -1,0 +1,1373 @@
+{
+ "discipline": "Physics",
+ "fields": [
+  {
+   "field": "Particle physics",
+   "lead": "The Standard Model keeps passing every test, so the field is hunting for where it breaks: Higgs couplings, neutrino masses, the matter-antimatter imbalance, the strong CP problem and axions, dark matter, and ever more precise measurements.",
+   "papers": [
+    {
+     "authors": "Higgs",
+     "year": 1964,
+     "title": "Broken Symmetries and the Masses of Gauge Bosons",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed how a gauge theory can give force carriers mass through a scalar field and predicted the boson that bears his name. Measuring that boson's couplings and self-interaction is now the LHC's central program.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Weinberg",
+     "year": 1967,
+     "title": "A Model of Leptons",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Wrote down the unified electroweak theory that is still the core of the Standard Model. Every precision electroweak fit and every search for deviations is a test of this structure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sakharov",
+     "year": 1967,
+     "title": "Violation of CP Invariance, C Asymmetry, and Baryon Asymmetry of the Universe",
+     "venue": "JETP Letters",
+     "type": "paper",
+     "why": "Listed the three conditions any theory needs to make more matter than antimatter. Every baryogenesis and leptogenesis model is still judged against them, and the Standard Model alone fails them.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kobayashi & Maskawa",
+     "year": 1973,
+     "title": "CP-Violation in the Renormalizable Theory of Weak Interaction",
+     "venue": "Progress of Theoretical Physics",
+     "type": "paper",
+     "why": "Showed that three quark generations allow CP violation through a single phase in the quark-mixing matrix. Flavor physics at LHCb and Belle II is a running test of whether this is the only source, and it is too small to explain the matter excess.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilson",
+     "year": 1974,
+     "title": "Confinement of Quarks",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Put quantum chromodynamics on a spacetime lattice so it could be computed numerically. Lattice QCD now supplies the hadronic inputs that decide precision tests, including the muon g-2 prediction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Peccei & Quinn",
+     "year": 1977,
+     "title": "CP Conservation in the Presence of Pseudoparticles",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Proposed a new symmetry to explain why the strong force does not violate CP, a solution that implies the axion. The strong CP problem is still open, and axion searches are one of the fastest-growing experimental efforts because the axion doubles as a dark matter candidate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Super-Kamiokande Collaboration (Fukuda et al.)",
+     "year": 1998,
+     "title": "Evidence for Oscillation of Atmospheric Neutrinos",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that neutrinos change flavor and therefore have mass, the first clear physics beyond the minimal Standard Model. DUNE, Hyper-K and JUNO are now built to pin down the mass ordering and leptonic CP violation this opened up.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "ATLAS Collaboration",
+     "year": 2012,
+     "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+     "venue": "Physics Letters B",
+     "type": "paper",
+     "why": "Discovered the Higgs boson, completing the Standard Model's particle list. The absence of anything else at the LHC since then is what drives the current debate over naturalness and where new physics hides.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Borsanyi et al.",
+     "year": 2021,
+     "title": "Leading hadronic contribution to the muon magnetic moment from lattice QCD",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "A lattice calculation that shifted the Standard Model prediction for the muon's magnetic moment toward experiment. It turned a famous anomaly into a dispute between theory methods and showed lattice QCD can now decide precision questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Muon g-2 Collaboration",
+     "year": 2025,
+     "title": "Measurement of the Positive Muon Anomalous Magnetic Moment to 127 ppb",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "The final Fermilab measurement of the muon's magnetic anomaly, at a precision no theory can yet match. Set against the updated lattice-based prediction it largely closes the long-running anomaly, and it is now the benchmark any new-physics claim in this area has to meet.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Weinberg",
+     "year": 1979,
+     "title": "Baryon- and Lepton-Nonconserving Processes",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Treated the Standard Model as a low-energy effective theory and catalogued the leading higher-dimension operators, including the one that gives neutrinos mass. This is the starting point of the effective-field-theory approach that now organizes most searches for new physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "'t Hooft",
+     "year": 1980,
+     "title": "Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking",
+     "venue": "Recent Developments in Gauge Theories (Plenum Press)",
+     "type": "paper",
+     "why": "Gave the precise statement of naturalness: small parameters should be protected by a symmetry. The LHC's failure to find the partners naturalness predicted has made this principle the field's most argued-over idea.",
+     "verified": true,
+     "conf": "high",
+     "note": "Book chapter in Cargese Summer Institute 1979 proceedings"
+    },
+    {
+     "authors": "Wolfenstein",
+     "year": 1978,
+     "title": "Neutrino oscillations in matter",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Showed that passing through matter changes how neutrinos oscillate. This effect is how long-baseline experiments plan to measure the neutrino mass ordering and CP violation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Preskill, Wise & Wilczek",
+     "year": 1983,
+     "title": "Cosmology of the Invisible Axion",
+     "venue": "Physics Letters B",
+     "type": "paper",
+     "why": "Showed that axions produced in the early universe could make up the dark matter. It set the mass window that today's haloscope and axion searches are scanning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goodman & Witten",
+     "year": 1985,
+     "title": "Detectability of certain dark-matter candidates",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Proposed detecting dark matter particles by the recoil they give atomic nuclei. Every direct-detection experiment, now reaching the neutrino floor, descends from this idea.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fukugita & Yanagida",
+     "year": 1986,
+     "title": "Barygenesis without grand unification",
+     "venue": "Physics Letters B",
+     "type": "paper",
+     "why": "Proposed leptogenesis: heavy neutrinos decaying in the early universe create a lepton excess that becomes the matter excess. It links the matter-antimatter puzzle to neutrino physics and is a leading explanation today.",
+     "verified": true,
+     "conf": "high",
+     "note": "Published title spells it 'Barygenesis'"
+    },
+    {
+     "authors": "Randall & Sundrum",
+     "year": 1999,
+     "title": "A Large Mass Hierarchy from a Small Extra Dimension",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that a warped extra dimension could explain why gravity is so weak compared with the other forces. It shaped a generation of LHC searches and remains a reference model for composite-Higgs and hierarchy ideas.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "SNO Collaboration (Ahmad et al.)",
+     "year": 2002,
+     "title": "Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Settled the solar neutrino problem by counting all flavors and showing the missing electron neutrinos had changed flavor. It fixed the solar mixing parameters every oscillation fit still uses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Daya Bay Collaboration (An et al.)",
+     "year": 2012,
+     "title": "Observation of Electron-Antineutrino Disappearance at Daya Bay",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Measured the last unknown neutrino mixing angle and found it surprisingly large. That is what makes measuring leptonic CP violation feasible at DUNE and Hyper-K.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Grzadkowski, Iskrzyński, Misiak & Rosiek",
+     "year": 2010,
+     "title": "Dimension-Six Terms in the Standard Model Lagrangian",
+     "venue": "Journal of High Energy Physics",
+     "type": "paper",
+     "why": "Gave the complete, non-redundant basis of dimension-six operators for the Standard Model effective field theory. It is the framework the LHC experiments now use to fit Higgs, top and electroweak data for signs of new physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Atomic, molecular & optical",
+   "lead": "Controlled atoms, ions and photons are now built into quantum computers and simulators, error-corrected logical qubits, and clocks precise enough to search for new physics.",
+   "papers": [
+    {
+     "authors": "Cirac & Zoller",
+     "year": 1995,
+     "title": "Quantum Computations with Cold Trapped Ions",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed how to build a quantum computer from trapped ions using their shared motion as a bus. Trapped ions remain one of the two or three leading qubit platforms, with gate fidelities others aim for.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jaksch, Bruder, Cirac, Gardiner & Zoller",
+     "year": 1998,
+     "title": "Cold Bosonic Atoms in Optical Lattices",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that atoms in a laser lattice realize the Hubbard model with tunable parameters. This turned cold atoms into analog quantum simulators of condensed-matter models, the main program of the field since.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jaksch, Cirac, Zoller, Rolston, Côté & Lukin",
+     "year": 2000,
+     "title": "Fast Quantum Gates for Neutral Atoms",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Proposed using the Rydberg blockade to entangle neutral atoms quickly. It is the mechanism behind today's large neutral-atom processors.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greiner, Mandel, Esslinger, Hänsch & Bloch",
+     "year": 2002,
+     "title": "Quantum phase transition from a superfluid to a Mott insulator in a gas of ultracold atoms",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Realized the superfluid-to-Mott-insulator transition, the first demonstration that cold atoms could simulate a strongly correlated many-body problem. It launched lattice quantum simulation as an experimental field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Udem, Holzwarth & Hänsch",
+     "year": 2002,
+     "title": "Optical frequency metrology",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Explained the optical frequency comb, which links optical frequencies to microwave standards. Combs underpin optical clocks, precision spectroscopy and the coming redefinition of the second.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bloch, Dalibard & Zwerger",
+     "year": 2008,
+     "title": "Many-body physics with ultracold gases",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "The standard map of quantum simulation with cold atoms: lattices, Feshbach-tuned interactions, low dimensions. It is still the entry point for what these systems can and cannot model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ludlow, Boyd, Ye, Peik & Schmidt",
+     "year": 2015,
+     "title": "Optical atomic clocks",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Reviews clocks that keep time to around one part in 10^18. These clocks are now used to test relativity, search for drifting constants and dark matter, and are driving the redefinition of the SI second.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bernien et al.",
+     "year": 2017,
+     "title": "Probing many-body dynamics on a 51-atom quantum simulator",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "A 51-atom Rydberg array that showed unexpected persistent oscillations, later explained as quantum many-body scars. It established programmable atom arrays as a leading platform for quantum simulation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Safronova et al.",
+     "year": 2018,
+     "title": "Search for new physics with atoms and molecules",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Surveys how tabletop atomic and molecular measurements test physics beyond the Standard Model, from electric dipole moments to dark matter and varying constants. It frames the precision-measurement frontier where AMO competes with colliders.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bluvstein et al.",
+     "year": 2024,
+     "title": "Logical quantum processor based on reconfigurable atom arrays",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Ran algorithms on dozens of error-corrected logical qubits by moving atoms around mid-computation. It put neutral atoms at the front of the race toward fault-tolerant quantum computing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Zwierlein et al.",
+     "year": 2005,
+     "title": "Vortices and superfluidity in a strongly interacting Fermi gas",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proved superfluidity across the BEC-BCS crossover by imaging vortex lattices in a Fermi gas. Strongly interacting fermions remain a clean testbed for problems shared with superconductors and neutron stars.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kimble",
+     "year": 2008,
+     "title": "The quantum internet",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Laid out a program for networks that move entanglement between quantum nodes over light. Quantum repeaters and networked atom and ion nodes are now an active engineering effort.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bakr, Gillen, Peng, Fölling & Greiner",
+     "year": 2009,
+     "title": "A quantum gas microscope for detecting single atoms in a Hubbard-regime optical lattice",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Imaged single atoms site by site in an optical lattice. Quantum gas microscopes are now the standard tool for measuring correlations in simulated Hubbard models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chin, Grimm, Julienne & Tiesinga",
+     "year": 2010,
+     "title": "Feshbach resonances in ultracold gases",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "The reference on tuning atomic interactions with magnetic fields. That control is what lets cold atoms explore strongly interacting regimes and build ultracold molecules.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saffman, Walker & Mølmer",
+     "year": 2010,
+     "title": "Quantum information with Rydberg atoms",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "The reference review on using Rydberg interactions for gates and entanglement. It frames the physics behind today's neutral-atom quantum computers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Blatt & Roos",
+     "year": 2012,
+     "title": "Quantum simulations with trapped ions",
+     "venue": "Nature Physics",
+     "type": "paper",
+     "why": "Reviews how ion chains simulate spin models and quantum dynamics. Ion simulators remain a leading way to study many-body dynamics with full control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aspelmeyer, Kippenberg & Marquardt",
+     "year": 2014,
+     "title": "Cavity optomechanics",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Covers coupling light to mechanical motion, down to cooling objects to their quantum ground state. It drives work on quantum sensing, transduction between qubit types and tests of quantum mechanics with massive objects.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "ACME Collaboration",
+     "year": 2018,
+     "title": "Improved limit on the electric dipole moment of the electron",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "A molecular measurement that bounds the electron's dipole moment so tightly it probes new physics at scales beyond the LHC's direct reach. It shows how tabletop experiments constrain theories of the matter-antimatter asymmetry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Semeghini et al.",
+     "year": 2021,
+     "title": "Probing topological spin liquids on a programmable quantum simulator",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used a Rydberg array to create signatures of a topological spin liquid, a phase long sought in materials. It showed atom arrays can make exotic quantum phases on demand.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bothwell et al.",
+     "year": 2022,
+     "title": "Resolving the gravitational redshift across a millimetre-scale atomic sample",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Measured gravity's effect on time across a single millimetre-sized atom cloud. It shows clocks are now sensitive enough to work as gravity sensors and to probe where quantum mechanics meets general relativity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Condensed matter",
+   "lead": "The field is mapping topological and strongly correlated phases, using tunable moire and 2D materials to create them on demand, and still trying to explain unconventional superconductivity.",
+   "papers": [
+    {
+     "authors": "Anderson",
+     "year": 1958,
+     "title": "Absence of Diffusion in Certain Random Lattices",
+     "venue": "Physical Review",
+     "type": "paper",
+     "why": "Showed that disorder alone can stop a quantum particle from spreading. Localization is still central, from many-body localization to wave transport in photonics and cold atoms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anderson",
+     "year": 1972,
+     "title": "More Is Different",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that new laws emerge at each level of complexity and cannot be read off from particle physics. It is still the field's statement of purpose and is cited in every debate over emergence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thouless, Kohmoto, Nightingale & den Nijs",
+     "year": 1982,
+     "title": "Quantized Hall Conductance in a Two-Dimensional Periodic Potential",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that the quantized Hall conductance is a topological invariant of the band structure. This is the root of topological band theory, which now classifies materials by their topology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Laughlin",
+     "year": 1983,
+     "title": "Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Explained the fractional quantum Hall effect with a wavefunction carrying fractional charge. Fractional states are now being found without magnetic fields in moire materials, and the same ideas guide that search.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anderson",
+     "year": 1987,
+     "title": "The Resonating Valence Bond State in La2CuO4 and Superconductivity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Proposed that cuprate superconductivity grows out of a quantum spin liquid. Whether that is right is still unsettled, and the paper defines how the field thinks about doped Mott insulators and spin liquids.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haldane",
+     "year": 1988,
+     "title": "Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the \"Parity Anomaly\"",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that a lattice can have a quantized Hall effect with no net magnetic field. This model is the template for Chern insulators and today's quantum anomalous Hall materials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Novoselov, Geim et al.",
+     "year": 2004,
+     "title": "Electric Field Effect in Atomically Thin Carbon Films",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Isolated graphene and showed it could be gated like a transistor. It opened the whole field of stackable 2D materials that moire physics is built on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kane & Mele",
+     "year": 2005,
+     "title": "Z2 Topological Order and the Quantum Spin Hall Effect",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that time-reversal symmetry allows a new topological phase with protected edge states. It started the topological insulator field and the wider classification of symmetry-protected phases.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kitaev",
+     "year": 2006,
+     "title": "Anyons in an exactly solved model and beyond",
+     "venue": "Annals of Physics",
+     "type": "paper",
+     "why": "Solved a honeycomb spin model exactly and found a spin liquid with anyons. The search for real Kitaev materials such as alpha-RuCl3 is one of the field's most active fronts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cao et al.",
+     "year": 2018,
+     "title": "Unconventional superconductivity in magic-angle graphene superlattices",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found superconductivity in two graphene sheets twisted to a magic angle. It made moire materials the field's main tunable platform for correlated and topological physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Wen",
+     "year": 1990,
+     "title": "Topological orders in rigid states",
+     "venue": "International Journal of Modern Physics B",
+     "type": "paper",
+     "why": "Introduced topological order, phases distinguished by long-range entanglement rather than symmetry breaking. The concept now organizes the study of spin liquids, fractional states and topological quantum memory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kitaev",
+     "year": 2001,
+     "title": "Unpaired Majorana fermions in quantum wires",
+     "venue": "Physics-Uspekhi",
+     "type": "paper",
+     "why": "Showed that a simple superconducting wire can host Majorana modes at its ends. It drives the long and contested hunt for Majorana-based topological qubits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fu & Kane",
+     "year": 2008,
+     "title": "Superconducting Proximity Effect and Majorana Fermions at the Surface of a Topological Insulator",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Proposed making Majorana states by putting a superconductor on a topological insulator. It launched the heterostructure approach to engineering topological superconductivity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hasan & Kane",
+     "year": 2010,
+     "title": "Colloquium: Topological insulators",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "The standard review of topological insulators, theory and experiment. Still the entry point to topological band physics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bistritzer & MacDonald",
+     "year": 2011,
+     "title": "Moiré bands in twisted double-layer graphene",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Predicted that twisted bilayer graphene has nearly flat bands at magic angles. It is the theory that set up the twistronics boom and still the starting model for moire calculations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wan, Turner, Vishwanath & Savrasov",
+     "year": 2011,
+     "title": "Topological semimetal and Fermi-arc surface states in the electronic structure of pyrochlore iridates",
+     "venue": "Physical Review B",
+     "type": "paper",
+     "why": "Predicted Weyl semimetals with Fermi-arc surface states. Weyl and Dirac semimetals are now a large class of real materials studied for their unusual transport.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Keimer, Kivelson, Norman, Uchida & Zaanen",
+     "year": 2015,
+     "title": "From quantum matter to high-temperature superconductivity in copper oxides",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "A consensus map of what is known and unknown about the cuprate phase diagram, including the pseudogap and strange metal. It frames the open problem nearly forty years after discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Drozdov, Eremets, Troyan, Ksenofontov & Shylin",
+     "year": 2015,
+     "title": "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found superconductivity near 200 K in compressed hydrogen sulfide. It started the hydride race toward room-temperature superconductivity, a field now also marked by disputed claims.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Savary & Balents",
+     "year": 2017,
+     "title": "Quantum spin liquids: a review",
+     "venue": "Reports on Progress in Physics",
+     "type": "paper",
+     "why": "Reviews the theory and candidate materials for quantum spin liquids. It is the reference for a search that still has no fully confirmed example.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Park et al.",
+     "year": 2023,
+     "title": "Observation of fractionally quantized anomalous Hall effect",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Saw fractional quantum Hall states in twisted MoTe2 with no magnetic field. Fractional anomalous Hall states are now one of the hottest topics because they could host anyons in a gate-tunable material.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Statistical mechanics",
+   "lead": "Current work covers how isolated quantum systems thermalize or fail to, the thermodynamics of small fluctuating systems, disordered and glassy systems, and active matter driven far from equilibrium.",
+   "papers": [
+    {
+     "authors": "Wilson",
+     "year": 1971,
+     "title": "Renormalization Group and Critical Phenomena. I. Renormalization Group and the Kadanoff Scaling Picture",
+     "venue": "Physical Review B",
+     "type": "paper",
+     "why": "Turned the renormalization group into a calculational method explaining universality at phase transitions. It remains the organizing idea for classifying phases, including nonequilibrium and quantum ones.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kosterlitz & Thouless",
+     "year": 1973,
+     "title": "Ordering, metastability and phase transitions in two-dimensional systems",
+     "venue": "Journal of Physics C: Solid State Physics",
+     "type": "paper",
+     "why": "Showed that 2D systems can have a phase transition driven by binding of topological defects. It is the template for topological transitions now seen in thin films, cold atoms and active matter.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Parisi",
+     "year": 1979,
+     "title": "Infinite Number of Order Parameters for Spin-Glasses",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Introduced replica symmetry breaking to solve the mean-field spin glass. The method now spreads far beyond magnets, into optimization, neural networks and machine learning theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kardar, Parisi & Zhang",
+     "year": 1986,
+     "title": "Dynamic Scaling of Growing Interfaces",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Wrote the equation for growing rough interfaces and found a new universality class. KPZ scaling keeps turning up, from bacterial colonies to quantum spin chains and polariton condensates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Srednicki",
+     "year": 1994,
+     "title": "Chaos and quantum thermalization",
+     "venue": "Physical Review E",
+     "type": "paper",
+     "why": "Formulated the eigenstate thermalization hypothesis, which says individual energy eigenstates already look thermal. ETH is the working explanation for how closed quantum systems reach equilibrium, and its failures are a research area in themselves.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vicsek, Czirók, Ben-Jacob, Cohen & Shochet",
+     "year": 1995,
+     "title": "Novel Type of Phase Transition in a System of Self-Driven Particles",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that self-propelled particles following a simple alignment rule develop collective motion. It founded the physics of active matter, from flocks to cell tissues.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jarzynski",
+     "year": 1997,
+     "title": "Nonequilibrium Equality for Free Energy Differences",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Gave an exact relation between work done far from equilibrium and equilibrium free energy. It is a pillar of stochastic thermodynamics and is used to analyze single-molecule experiments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Basko, Aleiner & Altshuler",
+     "year": 2006,
+     "title": "Metal-insulator transition in a weakly interacting many-electron system with localized single-particle states",
+     "venue": "Annals of Physics",
+     "type": "paper",
+     "why": "Argued that localization can survive interactions, giving many-body localized systems that never thermalize. Whether true MBL exists in the thermodynamic limit is still disputed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rigol, Dunjko & Olshanii",
+     "year": 2008,
+     "title": "Thermalization and its mechanism for generic isolated quantum systems",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Numerically showed eigenstate thermalization at work in a model system. It made ETH the accepted mechanism and set off the large body of work on quantum quench dynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Seifert",
+     "year": 2012,
+     "title": "Stochastic thermodynamics, fluctuation theorems and molecular machines",
+     "venue": "Reports on Progress in Physics",
+     "type": "paper",
+     "why": "The standard review of thermodynamics for small fluctuating systems. It is the reference framework for molecular motors, information engines and thermodynamic bounds.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Deutsch",
+     "year": 1991,
+     "title": "Quantum statistical mechanics in a closed system",
+     "venue": "Physical Review A",
+     "type": "paper",
+     "why": "Independently proposed that random-matrix-like eigenstates make closed systems thermalize. Together with Srednicki it is the origin of eigenstate thermalization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Toner & Tu",
+     "year": 1995,
+     "title": "Long-Range Order in a Two-Dimensional Dynamical XY Model: How Birds Fly Together",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Gave a hydrodynamic theory of flocking showing active systems can order in 2D, which equilibrium systems cannot. It is the base of continuum theories of active matter.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Crooks",
+     "year": 1999,
+     "title": "Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences",
+     "venue": "Physical Review E",
+     "type": "paper",
+     "why": "Related forward and reverse process probabilities to entropy production. The Crooks relation is used alongside Jarzynski to extract free energies from experiments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Calabrese & Cardy",
+     "year": 2004,
+     "title": "Entanglement entropy and quantum field theory",
+     "venue": "Journal of Statistical Mechanics: Theory and Experiment",
+     "type": "paper",
+     "why": "Derived how entanglement entropy scales at critical points using conformal field theory. Entanglement scaling is now a standard diagnostic of quantum phases and numerical methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marchetti et al.",
+     "year": 2013,
+     "title": "Hydrodynamics of soft active matter",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "The standard review of active matter theory, from flocks to active gels. Still the entry point for the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cates & Tailleur",
+     "year": 2015,
+     "title": "Motility-Induced Phase Separation",
+     "venue": "Annual Review of Condensed Matter Physics",
+     "type": "paper",
+     "why": "Explained how self-propelled particles separate into dense and dilute phases without any attraction. MIPS is a defining example of nonequilibrium phase behavior.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nandkishore & Huse",
+     "year": 2015,
+     "title": "Many-Body Localization and Thermalization in Quantum Statistical Mechanics",
+     "venue": "Annual Review of Condensed Matter Physics",
+     "type": "paper",
+     "why": "Reviews the contrast between thermalizing and many-body localized systems. It shaped how the field frames the breakdown of statistical mechanics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barato & Seifert",
+     "year": 2015,
+     "title": "Thermodynamic Uncertainty Relation for Biomolecular Processes",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that precision in a nonequilibrium process costs a minimum amount of dissipation. Thermodynamic uncertainty relations are now a major line of work and are used to infer dissipation from data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "D'Alessio, Kafri, Polkovnikov & Rigol",
+     "year": 2016,
+     "title": "From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics",
+     "venue": "Advances in Physics",
+     "type": "paper",
+     "why": "The comprehensive review linking quantum chaos, ETH and thermodynamics. It is the standard reference for quantum thermalization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Turner, Michailidis, Abanin, Serbyn & Papić",
+     "year": 2018,
+     "title": "Weak ergodicity breaking from quantum many-body scars",
+     "venue": "Nature Physics",
+     "type": "paper",
+     "why": "Explained the persistent oscillations seen in Rydberg arrays as special non-thermal eigenstates. Quantum many-body scars are now a major exception to ETH being studied.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Quantum foundations & information",
+   "lead": "The field is building error-corrected quantum computers, using entanglement for communication and sensing, and still arguing about what the quantum state is and how measurement works.",
+   "papers": [
+    {
+     "authors": "Einstein, Podolsky & Rosen",
+     "year": 1935,
+     "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+     "venue": "Physical Review",
+     "type": "paper",
+     "why": "Argued that entanglement shows quantum mechanics is incomplete. The questions it raised about locality and reality are still the frame of debates in foundations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Everett",
+     "year": 1957,
+     "title": "\"Relative State\" Formulation of Quantum Mechanics",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Proposed that the wavefunction never collapses and all outcomes occur. The many-worlds view it started is one of the main live interpretations, with ongoing work on probability within it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bell",
+     "year": 1964,
+     "title": "On the Einstein Podolsky Rosen Paradox",
+     "venue": "Physics",
+     "type": "paper",
+     "why": "Proved that no local hidden-variable theory can reproduce quantum predictions. Bell tests now certify randomness and security, and the theorem is the fixed point every interpretation has to deal with.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shor",
+     "year": 1997,
+     "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+     "venue": "SIAM Journal on Computing",
+     "type": "paper",
+     "why": "Showed a quantum computer could break widely used public-key cryptography. It is why governments and industry are moving to post-quantum cryptography now.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kitaev",
+     "year": 2003,
+     "title": "Fault-tolerant quantum computation by anyons",
+     "venue": "Annals of Physics",
+     "type": "paper",
+     "why": "Introduced the toric code and topological protection of quantum information. Its descendant, the surface code, is the error-correcting code most hardware groups are building toward.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zurek",
+     "year": 2003,
+     "title": "Decoherence, einselection, and the quantum origins of the classical",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Explains how interaction with the environment selects classical-looking states. Decoherence is the accepted account of why we don't see superpositions, and the main noise source quantum hardware fights.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pusey, Barrett & Rudolph",
+     "year": 2012,
+     "title": "On the reality of the quantum state",
+     "venue": "Nature Physics",
+     "type": "paper",
+     "why": "Proved that under modest assumptions the quantum state must be a real feature of the world, not just knowledge. It narrowed the space of interpretations and set off the current debate over psi-ontic versus psi-epistemic views.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hensen et al.",
+     "year": 2015,
+     "title": "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "The first Bell test closing the main loopholes at once. It settled the experimental side of Bell's question and enabled device-independent quantum protocols.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arute et al.",
+     "year": 2019,
+     "title": "Quantum supremacy using a programmable superconducting processor",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Claimed a quantum processor did a task beyond practical reach of classical computers. The back-and-forth with classical simulation that followed is still how quantum advantage claims are tested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Google Quantum AI and Collaborators (Acharya et al.)",
+     "year": 2025,
+     "title": "Quantum error correction below the surface code threshold",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed logical error rates falling as surface codes grow, the core requirement for fault tolerance. It marks the field's shift from noisy demonstrations to scaling error-corrected machines.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Bohm",
+     "year": 1952,
+     "title": "A Suggested Interpretation of the Quantum Theory in Terms of \"Hidden\" Variables. I",
+     "venue": "Physical Review",
+     "type": "paper",
+     "why": "Showed a deterministic hidden-variable theory can reproduce quantum mechanics if it is nonlocal. Bohmian mechanics is still a main contender in the interpretation debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kochen & Specker",
+     "year": 1967,
+     "title": "The Problem of Hidden Variables in Quantum Mechanics",
+     "venue": "Journal of Mathematics and Mechanics",
+     "type": "paper",
+     "why": "Proved that quantum outcomes cannot all be fixed in advance independent of what else is measured. Contextuality is now studied as a resource for quantum computational advantage.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ghirardi, Rimini & Weber",
+     "year": 1986,
+     "title": "Unified dynamics for microscopic and macroscopic systems",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Proposed spontaneous collapse to explain measurement with a modified dynamics. It is the leading testable alternative to standard quantum mechanics, and experiments are now constraining it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ekert",
+     "year": 1991,
+     "title": "Quantum cryptography based on Bell's theorem",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Used entanglement and Bell violations to secure key distribution. It is the basis of device-independent cryptography.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dennis, Kitaev, Landahl & Preskill",
+     "year": 2002,
+     "title": "Topological quantum memory",
+     "venue": "Journal of Mathematical Physics",
+     "type": "paper",
+     "why": "Worked out how the surface code protects quantum memory and found its error threshold. Much of how hardware teams think about decoding and thresholds comes from this paper.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bravyi & Kitaev",
+     "year": 2005,
+     "title": "Universal quantum computation with ideal Clifford gates and noisy ancillas",
+     "venue": "Physical Review A",
+     "type": "paper",
+     "why": "Introduced magic state distillation to complete a fault-tolerant gate set. The cost of producing magic states is a major target in current fault-tolerance research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Horodecki, Horodecki, Horodecki & Horodecki",
+     "year": 2009,
+     "title": "Quantum entanglement",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "The comprehensive review of entanglement theory, from detection to measures. Still the standard reference.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fowler, Mariantoni, Martinis & Cleland",
+     "year": 2012,
+     "title": "Surface codes: Towards practical large-scale quantum computation",
+     "venue": "Physical Review A",
+     "type": "paper",
+     "why": "A practical guide to running a quantum computer on the surface code. It became the blueprint superconducting hardware groups followed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Preskill",
+     "year": 2018,
+     "title": "Quantum Computing in the NISQ era and beyond",
+     "venue": "Quantum",
+     "type": "paper",
+     "why": "Named the era of noisy intermediate-scale quantum devices and set realistic expectations. It frames the current debate over what useful work pre-fault-tolerant machines can do.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frauchiger & Renner",
+     "year": 2018,
+     "title": "Quantum theory cannot consistently describe the use of itself",
+     "venue": "Nature Communications",
+     "type": "paper",
+     "why": "A Wigner's-friend thought experiment showing that standard assumptions about agents using quantum theory conflict. It revived the measurement debate and set off a stream of extended Wigner's-friend no-go theorems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Gravitation",
+   "lead": "Gravitation physics is testing general relativity ever more precisely, from equivalence-principle experiments to gravitational-wave signals, while theorists use semiclassical gravity, holography and entanglement to resolve the black hole information problem and find a quantum theory of spacetime.",
+   "papers": [
+    {
+     "authors": "Will",
+     "year": 2014,
+     "title": "The Confrontation between General Relativity and Experiment",
+     "venue": "Living Reviews in Relativity",
+     "type": "paper",
+     "why": "The standard scorecard of every experimental test of general relativity and the parametrized framework used to compare GR with its rivals. Each new test, from lunar ranging to binary pulsars to gravitational waves, is read against it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hawking",
+     "year": 1975,
+     "title": "Particle Creation by Black Holes",
+     "venue": "Communications in Mathematical Physics",
+     "type": "paper",
+     "why": "Showed black holes radiate thermally and so evaporate. This raised the information paradox that drives much of quantum gravity research today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Unruh",
+     "year": 1976,
+     "title": "Notes on black-hole evaporation",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Showed that an accelerated observer sees the vacuum as a thermal bath, tying Hawking radiation to the observer-dependence of particles in curved spacetime. The Unruh effect anchors quantum field theory in curved spacetime and the analogue-gravity experiments that try to reproduce it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Donoghue",
+     "year": 1994,
+     "title": "General relativity as an effective field theory: The leading quantum corrections",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Showed that, although GR is not renormalizable, it is a perfectly good quantum effective field theory at low energies with calculable, unambiguous quantum corrections. This reframed quantum gravity as a problem only at the Planck scale and underpins today's amplitude-based approach to gravity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jacobson",
+     "year": 1995,
+     "title": "Thermodynamics of Spacetime: The Einstein Equation of State",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Derived Einstein's equations from the entropy-area relation applied to local horizons, suggesting gravity may be emergent thermodynamics. It remains the starting point for emergent-gravity and entanglement-equilibrium programmes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maldacena",
+     "year": 1998,
+     "title": "The Large N Limit of Superconformal Field Theories and Supergravity",
+     "venue": "Advances in Theoretical and Mathematical Physics",
+     "type": "paper",
+     "why": "Proposed that a gravity theory can be exactly equivalent to a quantum field theory on its boundary. Holography is the main tool for studying quantum gravity and much of the current work builds on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ryu & Takayanagi",
+     "year": 2006,
+     "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Linked boundary entanglement to the area of surfaces in the bulk geometry. It started the program of building spacetime from entanglement.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Campanelli, Lousto, Marronetti & Zlochower",
+     "year": 2006,
+     "title": "Accurate Evolutions of Orbiting Black-Hole Binaries without Excision",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Introduced the moving-puncture method that, alongside Pretorius's approach, finally let computers evolve merging black holes. Moving punctures are now the workhorse of numerical relativity codes that build waveform models and probe strong-field GR.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "LIGO Scientific & Virgo Collaborations (Abbott et al.)",
+     "year": 2016,
+     "title": "Tests of General Relativity with GW150914",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Turned the first detected merger into a test of GR itself: inspiral-merger-ringdown consistency, bounds on post-Newtonian deviations and the graviton mass. Its battery of tests is repeated and extended for every new gravitational-wave catalogue.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Almheiri, Mahajan, Maldacena & Zhao",
+     "year": 2020,
+     "title": "The Page curve of Hawking radiation from semiclassical geometry",
+     "venue": "Journal of High Energy Physics",
+     "type": "paper",
+     "why": "Showed that 'islands' in semiclassical gravity make the entropy of Hawking radiation follow the unitary Page curve. It is one of the papers that turned the information paradox into a calculable problem, and the island framework is now being extended to cosmology and flat space.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Ashtekar",
+     "year": 1986,
+     "title": "New Variables for Classical and Quantum Gravity",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Rewrote GR in connection variables that make it look like a gauge theory, simplifying its constraints. These variables are the foundation of loop quantum gravity and its cosmological offshoots.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rovelli & Smolin",
+     "year": 1995,
+     "title": "Discreteness of area and volume in quantum gravity",
+     "venue": "Nuclear Physics B",
+     "type": "paper",
+     "why": "Found that area and volume operators in loop quantum gravity have discrete spectra, a concrete prediction of quantum geometry. It is the central result that loop quantum gravity's black hole entropy counting and spin-foam work rest on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Strominger & Vafa",
+     "year": 1996,
+     "title": "Microscopic Origin of the Bekenstein-Hawking Entropy",
+     "venue": "Physics Letters B",
+     "type": "paper",
+     "why": "Counted string states to reproduce black hole entropy exactly for certain black holes. It is still the strongest evidence that a quantum gravity theory accounts for black hole microstates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Reuter",
+     "year": 1998,
+     "title": "Nonperturbative evolution equation for quantum gravity",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Set up the functional renormalization group for gravity, giving concrete form to Weinberg's asymptotic-safety idea. A large programme now searches for and tests the ultraviolet fixed point it made computable.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Buonanno & Damour",
+     "year": 1999,
+     "title": "Effective one-body approach to general relativistic two-body dynamics",
+     "venue": "Physical Review D",
+     "type": "paper",
+     "why": "Mapped the two-body problem onto a single body in an effective metric, giving analytic waveforms through merger. Effective-one-body models calibrated to numerical relativity are among the templates used to analyse gravitational-wave data and test GR.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Van Raamsdonk",
+     "year": 2010,
+     "title": "Building up spacetime with quantum entanglement",
+     "venue": "General Relativity and Gravitation",
+     "type": "paper",
+     "why": "Argued that spacetime connectivity comes from entanglement between quantum degrees of freedom. It shaped the idea that geometry emerges from entanglement.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maldacena, Shenker & Stanford",
+     "year": 2016,
+     "title": "A bound on chaos",
+     "venue": "Journal of High Energy Physics",
+     "type": "paper",
+     "why": "Proved that quantum chaos, measured by out-of-time-order correlators, has a maximum rate that black holes saturate. It linked black hole physics to quantum chaos and the SYK model, a now central toy model of holography.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bose et al.",
+     "year": 2017,
+     "title": "Spin Entanglement Witness for Quantum Gravity",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Proposed testing whether gravity is quantum by checking whether two masses become entangled purely through their gravitational interaction. With the companion Marletto-Vedral paper, it launched the tabletop quantum-gravity experiments now being built.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Almheiri, Hartman, Maldacena, Shaghoulian & Tajdini",
+     "year": 2021,
+     "title": "The entropy of Hawking radiation",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "The standard review of the island and replica-wormhole resolution of the Page curve. It is where researchers learn what the recent progress on the information paradox does and does not establish.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Touboul et al.",
+     "year": 2022,
+     "title": "MICROSCOPE Mission: Final Results of the Test of the Equivalence Principle",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "A satellite test confirming the weak equivalence principle to about one part in 10^15, the best limit to date. It sets the bar that any theory adding new fields to gravity must clear.",
+     "verified": false,
+     "conf": "low",
+     "note": "Exact title wording and author list not checked."
+    }
+   ]
+  }
+ ]
+}

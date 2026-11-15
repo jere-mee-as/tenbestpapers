@@ -1,0 +1,1829 @@
+{
+ "discipline": "Medicine & health",
+ "fields": [
+  {
+   "field": "Epidemiology",
+   "lead": "The field is mainly working on getting causal answers from observational data, through target-trial emulation, g-methods, Mendelian randomization and bias analysis, while also estimating epidemic dynamics in real time.",
+   "papers": [
+    {
+     "authors": "Hill",
+     "year": 1965,
+     "title": "The Environment and Disease: Association or Causation?",
+     "venue": "Proceedings of the Royal Society of Medicine",
+     "type": "paper",
+     "why": "Hill's nine 'viewpoints' became the standard checklist for judging whether an association is causal. They are still invoked in every causal dispute, from regulators to courts, and are still argued over as people try to replace them with formal causal models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rosenbaum & Rubin",
+     "year": 1983,
+     "title": "The Central Role of the Propensity Score in Observational Studies for Causal Effects",
+     "venue": "Biometrika",
+     "type": "paper",
+     "why": "Showed that adjusting for a single score, the probability of treatment given covariates, can remove confounding from measured variables. Propensity-score matching and weighting are now the default tools in pharmacoepidemiology and real-world-evidence studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greenland, Pearl & Robins",
+     "year": 1999,
+     "title": "Causal Diagrams for Epidemiologic Research",
+     "venue": "Epidemiology",
+     "type": "paper",
+     "why": "Brought directed acyclic graphs into epidemiology, giving a clear way to decide what to adjust for and what not to. DAGs are now expected in study design and peer review, and they frame most current debates about bias.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Robins, Hernán & Brumback",
+     "year": 2000,
+     "title": "Marginal Structural Models and Causal Inference in Epidemiology",
+     "venue": "Epidemiology",
+     "type": "paper",
+     "why": "Introduced inverse-probability weighting to handle time-varying confounders that are also affected by earlier treatment, where ordinary regression fails. These g-methods underpin modern longitudinal analyses of drugs, HIV therapy and lifestyle exposures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hernán, Hernández-Díaz & Robins",
+     "year": 2004,
+     "title": "A Structural Approach to Selection Bias",
+     "venue": "Epidemiology",
+     "type": "paper",
+     "why": "Used causal diagrams to show that many different named biases are one thing: conditioning on a common effect. It is the reference point for current arguments about collider bias, from the obesity paradox to biased COVID-19 samples.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Davey Smith & Ebrahim",
+     "year": 2003,
+     "title": "'Mendelian randomization': can genetic epidemiology contribute to understanding environmental determinants of disease?",
+     "venue": "International Journal of Epidemiology",
+     "type": "paper",
+     "why": "Proposed using genetic variants as natural experiments to test whether an exposure causes disease. With large biobanks, Mendelian randomization has become one of the most used and most argued-about causal methods in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ioannidis",
+     "year": 2005,
+     "title": "Why Most Published Research Findings Are False",
+     "venue": "PLoS Medicine",
+     "type": "paper",
+     "why": "Showed with simple arithmetic how small studies, flexible analyses and weak priors make many published findings false. It launched the reproducibility movement and still shapes calls for preregistration, larger samples and replication.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lipsitch, Tchetgen Tchetgen & Cohen",
+     "year": 2010,
+     "title": "Negative Controls: A Tool for Detecting Confounding and Bias in Observational Studies",
+     "venue": "Epidemiology",
+     "type": "paper",
+     "why": "Formalized the use of outcomes or exposures that should show no effect as a check for hidden bias. Negative controls are now routine in vaccine-effectiveness and drug-safety studies and are being extended into full estimation methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cori et al.",
+     "year": 2013,
+     "title": "A New Framework and Software to Estimate Time-Varying Reproduction Numbers During Epidemics",
+     "venue": "American Journal of Epidemiology",
+     "type": "paper",
+     "why": "Gave a simple, widely implemented method (EpiEstim) to estimate the reproduction number from case counts in real time. It was the workhorse of COVID-19 situational reporting and remains central to outbreak response.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hernán & Robins",
+     "year": 2016,
+     "title": "Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available",
+     "venue": "American Journal of Epidemiology",
+     "type": "paper",
+     "why": "Argued that every observational analysis should be designed as an emulation of a specific hypothetical trial, which avoids self-inflicted biases like immortal time. Target-trial emulation is now the organizing framework for real-world evidence used by regulators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Robins",
+     "year": 1986,
+     "title": "A New Approach to Causal Inference in Mortality Studies with a Sustained Exposure Period: Application to Control of the Healthy Worker Survivor Effect",
+     "venue": "Mathematical Modelling",
+     "type": "paper",
+     "why": "Introduced the g-formula and the general theory of time-varying treatments. It is the mathematical basis of almost every modern causal method in epidemiology and is still the source people return to.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Krieger",
+     "year": 2001,
+     "title": "Theories for Social Epidemiology in the 21st Century: An Ecosocial Perspective",
+     "venue": "International Journal of Epidemiology",
+     "type": "paper",
+     "why": "Laid out how social and biological processes jointly produce population patterns of disease. It anchors current work on structural racism and embodiment as exposures that epidemiology must measure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wallinga & Teunis",
+     "year": 2004,
+     "title": "Different Epidemic Curves for Severe Acute Respiratory Syndrome Reveal Similar Impacts of Control Measures",
+     "venue": "American Journal of Epidemiology",
+     "type": "paper",
+     "why": "Showed how to estimate the reproduction number from the epidemic curve and infer the effect of control measures. Its method is the ancestor of today's real-time transmission estimates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hernán et al.",
+     "year": 2008,
+     "title": "Observational Studies Analyzed Like Randomized Experiments: An Application to Postmenopausal Hormone Therapy and Coronary Heart Disease",
+     "venue": "Epidemiology",
+     "type": "paper",
+     "why": "Reanalysed the Nurses' Health Study as if it were a trial and largely reconciled it with the conflicting Women's Health Initiative results. It is the key demonstration that careful design, not more data, fixes observational studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bowden, Davey Smith & Burgess",
+     "year": 2015,
+     "title": "Mendelian Randomization with Invalid Instruments: Effect Estimation and Bias Detection Through Egger Regression",
+     "venue": "International Journal of Epidemiology",
+     "type": "paper",
+     "why": "Gave MR-Egger, a way to detect and correct for genetic variants that affect the outcome through other pathways. It started the wave of robust MR methods that every current MR study is expected to report.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lawlor, Tilling & Davey Smith",
+     "year": 2016,
+     "title": "Triangulation in Aetiological Epidemiology",
+     "venue": "International Journal of Epidemiology",
+     "type": "paper",
+     "why": "Argued that causal confidence comes from combining methods with different, unrelated biases rather than from any single design. Triangulation is now an explicit strategy in grant proposals and evidence reviews.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "VanderWeele & Ding",
+     "year": 2017,
+     "title": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
+     "venue": "Annals of Internal Medicine",
+     "type": "paper",
+     "why": "Offered one number for how strong unmeasured confounding would have to be to explain away a result. E-values spread quickly into journals and are still debated over whether they help or mislead.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hernán",
+     "year": 2018,
+     "title": "The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data",
+     "venue": "American Journal of Public Health",
+     "type": "paper",
+     "why": "Argued that observational researchers should state causal questions openly instead of hiding behind 'association'. It changed editorial norms and is central to the ongoing debate over how journals should treat causal language.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Flaxman et al.",
+     "year": 2020,
+     "title": "Estimating the Effects of Non-Pharmaceutical Interventions on COVID-19 in Europe",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used a Bayesian model of deaths to estimate how much lockdowns and other measures cut transmission in 11 countries. It became one of the most cited and most contested pandemic papers, and frames how the field now evaluates interventions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dagan et al.",
+     "year": 2021,
+     "title": "BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Used Israeli health records with careful matching to reproduce trial-level vaccine effectiveness within weeks of rollout. It is the showcase for rapid real-world evidence that regulators and agencies now rely on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Public & global health",
+   "lead": "The field is mainly working on the social, commercial and environmental causes of ill health, on closing gaps between and within countries, and on measuring burden with comparable data.",
+   "papers": [
+    {
+     "authors": "Rose",
+     "year": 1985,
+     "title": "Sick Individuals and Sick Populations",
+     "venue": "International Journal of Epidemiology",
+     "type": "paper",
+     "why": "Argued that shifting a whole population's risk often prevents more disease than targeting high-risk people, the 'prevention paradox'. It is still the core argument behind salt, sugar, tobacco and alcohol policy and is still contested by targeted-care advocates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marmot et al. (Commission on Social Determinants of Health)",
+     "year": 2008,
+     "title": "Closing the Gap in a Generation: Health Equity Through Action on the Social Determinants of Health",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Made the case that health inequalities come mainly from the conditions in which people live and work. It set the social-determinants agenda that health systems and governments still organize around.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kremer & Miguel",
+     "year": 2004,
+     "title": "Worms: Identifying Impacts on Education and Health in the Presence of Treatment Externalities",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "A school deworming trial that found large spillover benefits and helped bring randomized trials into development policy. Its reanalysis sparked the 'worm wars', still the textbook case of how to weigh contested evidence in global health.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Black et al.",
+     "year": 2013,
+     "title": "Maternal and Child Undernutrition and Overweight in Low-Income and Middle-Income Countries",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Updated estimates of stunting, wasting and micronutrient deficiency and documented the rise of overweight alongside them. It anchors the 'double burden of malnutrition' agenda that drives current nutrition policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bhatt et al.",
+     "year": 2015,
+     "title": "The Effect of Malaria Control on Plasmodium falciparum in Africa Between 2000 and 2015",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Estimated that malaria control averted about 663 million cases, with bed nets doing most of the work. It is the main evidence base for today's malaria strategy as insecticide and drug resistance threaten those gains.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Case & Deaton",
+     "year": 2015,
+     "title": "Rising Morbidity and Mortality in Midlife Among White Non-Hispanic Americans in the 21st Century",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Revealed rising midlife death rates from drugs, alcohol and suicide in a rich country. The 'deaths of despair' framing still drives research on the US life-expectancy gap and on economic causes of mortality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Whitmee et al.",
+     "year": 2015,
+     "title": "Safeguarding Human Health in the Anthropocene Epoch: Report of The Rockefeller Foundation-Lancet Commission on Planetary Health",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Defined planetary health: human health depends on the state of natural systems that we are degrading. It launched the field's current focus on climate, biodiversity and food systems as health issues.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty et al.",
+     "year": 2016,
+     "title": "The Association Between Income and Life Expectancy in the United States, 2001-2014",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "Linked tax and death records to show a 10 to 15 year life-expectancy gap between the richest and poorest Americans, and that it varies by place. It is the reference for research on place-based health inequality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kruk et al.",
+     "year": 2018,
+     "title": "High-Quality Health Systems in the Sustainable Development Goals Era: Time for a Revolution",
+     "venue": "The Lancet Global Health",
+     "type": "paper",
+     "why": "Showed that poor-quality care now kills more people in low- and middle-income countries than lack of access. It moved the agenda from coverage alone to quality, which is how universal health coverage is now judged.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "GBD 2019 Risk Factors Collaborators",
+     "year": 2020,
+     "title": "Global Burden of 87 Risk Factors in 204 Countries and Territories, 1990-2019: A Systematic Analysis for the Global Burden of Disease Study 2019",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Ranked the risks behind death and disability worldwide, with high blood pressure, tobacco and air pollution at the top. GBD estimates are the shared numbers that WHO, donors and governments use to set priorities.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Link & Phelan",
+     "year": 1995,
+     "title": "Social Conditions as Fundamental Causes of Disease",
+     "venue": "Journal of Health and Social Behavior",
+     "type": "paper",
+     "why": "Argued that socioeconomic status keeps producing health gaps because resources let people avoid whatever risks exist at the time. 'Fundamental cause' theory is still the main explanation for why inequalities persist as diseases change.",
+     "verified": false,
+     "conf": "high",
+     "note": "Special issue (Extra Issue), 1995."
+    },
+    {
+     "authors": "Wilkinson & Pickett",
+     "year": 2009,
+     "title": "The Spirit Level: Why More Equal Societies Almost Always Do Better",
+     "venue": "Allen Lane",
+     "type": "book",
+     "why": "Claimed that income inequality itself worsens health and social outcomes across rich countries. Its thesis remains heavily cited and heavily disputed, and frames the inequality-and-health debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jamison et al.",
+     "year": 2013,
+     "title": "Global Health 2035: A World Converging Within a Generation",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Argued that with targeted investment, poor countries could reach the death rates of middle-income ones within a generation, and that this would pay for itself. It shaped donor and finance-ministry thinking and was updated in 2024.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bor et al.",
+     "year": 2013,
+     "title": "Increases in Adult Life Expectancy in Rural South Africa: Valuing the Scale-Up of HIV Treatment",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed an 11-year gain in adult life expectancy after antiretroviral therapy rolled out, using population surveillance data. It is a key estimate of what large treatment programmes are worth as donor funding comes under pressure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jha & Peto",
+     "year": 2014,
+     "title": "Global Effects of Smoking, of Quitting, and of Taxing Tobacco",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Summarized that smoking costs about a decade of life, quitting before 40 recovers most of it, and tax is the most effective control lever. It underpins current tobacco tax and endgame policies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aiken et al.",
+     "year": 2015,
+     "title": "Re-analysis of Health and Educational Impacts of a School-Based Deworming Programme in Western Kenya: A Pure Replication",
+     "venue": "International Journal of Epidemiology",
+     "type": "paper",
+     "why": "Reanalysed the Kremer-Miguel deworming trial and found errors that weakened some results. The ensuing dispute is the field's live case study on replication, spillovers and how to fund on contested evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Victora et al.",
+     "year": 2016,
+     "title": "Breastfeeding in the 21st Century: Epidemiology, Mechanisms, and Lifelong Effect",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Estimated that scaling up breastfeeding could prevent over 800,000 child deaths a year and documented long-term benefits. It is the main evidence behind current breastfeeding policy and regulation of formula marketing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Landrigan et al.",
+     "year": 2018,
+     "title": "The Lancet Commission on Pollution and Health",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Estimated that pollution causes about 9 million deaths a year, more than AIDS, TB and malaria combined. It put air, water and chemical pollution at the centre of the global health agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gilmore et al.",
+     "year": 2023,
+     "title": "Defining and Conceptualising the Commercial Determinants of Health",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Set out how corporate products and practices, from ultra-processed food to alcohol and fossil fuels, shape population health. It is the framing for a fast-growing field of research and policy on industry influence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Romanello et al.",
+     "year": 2023,
+     "title": "The 2023 Report of the Lancet Countdown on Health and Climate Change: The Imperative for a Health-Centred Response in a World Facing Irreversible Harms",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Tracks dozens of indicators on how climate change is already affecting health, from heat deaths to food insecurity. These annual reports are the standard source for the health case in climate negotiations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Clinical trials & evidence-based medicine",
+   "lead": "The field is mainly working on making trials faster, larger and more pragmatic (platform, adaptive and embedded designs), on judging how much to trust evidence, and on when real-world data can stand in for randomization.",
+   "papers": [
+    {
+     "authors": "Evidence-Based Medicine Working Group (Guyatt et al.)",
+     "year": 1992,
+     "title": "Evidence-Based Medicine: A New Approach to Teaching the Practice of Medicine",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "Named and launched evidence-based medicine: clinical decisions should rest on appraised research, not authority. Its premise still structures medical training, guidelines and the arguments of its critics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schulz, Chalmers, Hayes & Altman",
+     "year": 1995,
+     "title": "Empirical Evidence of Bias: Dimensions of Methodological Quality Associated With Estimates of Treatment Effects in Controlled Trials",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "Showed that trials with poor allocation concealment or no blinding exaggerate treatment effects. This evidence is why concealment and blinding are core items in every risk-of-bias tool used today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rothwell",
+     "year": 2005,
+     "title": "External Validity of Randomised Controlled Trials: 'To Whom Do the Results of This Trial Apply?'",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Catalogued the ways trial populations and settings differ from everyday practice. It remains the touchstone for current work on generalizability, transportability and pragmatic trials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Guyatt et al.",
+     "year": 2008,
+     "title": "GRADE: An Emerging Consensus on Rating Quality of Evidence and Strength of Recommendations",
+     "venue": "British Medical Journal",
+     "type": "paper",
+     "why": "Introduced GRADE, a transparent way to rate certainty of evidence and strength of recommendations. It is now used by WHO, Cochrane and most guideline bodies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chalmers & Glasziou",
+     "year": 2009,
+     "title": "Avoidable Waste in the Production and Reporting of Research Evidence",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Estimated that about 85% of research investment is wasted through poor questions, design, publication and reporting. It launched the research-waste agenda behind trial registration, reporting standards and open data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Prasad et al.",
+     "year": 2013,
+     "title": "A Decade of Reversal: An Analysis of 146 Contradicted Medical Practices",
+     "venue": "Mayo Clinic Proceedings",
+     "type": "paper",
+     "why": "Found that many established practices tested in NEJM trials were no better than what they replaced. It made 'medical reversal' a live concern and strengthens the case for testing practices before adopting them.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ford & Norrie",
+     "year": 2016,
+     "title": "Pragmatic Trials",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Explained how to design trials that test treatments in real care settings with ordinary patients and outcomes. Pragmatic and registry-embedded trials are now a main route to answering practice questions cheaply.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Woodcock & LaVange",
+     "year": 2017,
+     "title": "Master Protocols to Study Multiple Therapies, Multiple Diseases, or Both",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Defined umbrella, basket and platform trials that test many treatments under one shared protocol. These designs became the backbone of pandemic and oncology trials and are now encouraged by regulators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sterne et al.",
+     "year": 2019,
+     "title": "RoB 2: A Revised Tool for Assessing Risk of Bias in Randomised Trials",
+     "venue": "British Medical Journal",
+     "type": "paper",
+     "why": "Replaced the original Cochrane tool with structured judgments on each source of bias. It is now the standard method for appraising trials in systematic reviews.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "RECOVERY Collaborative Group",
+     "year": 2021,
+     "title": "Dexamethasone in Hospitalized Patients with Covid-19",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "A pragmatic platform trial in NHS hospitals showed within months that a cheap steroid cut COVID-19 deaths. It is the main proof that large, simple, embedded trials can change practice fast.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Sackett et al.",
+     "year": 1996,
+     "title": "Evidence Based Medicine: What It Is and What It Isn't",
+     "venue": "British Medical Journal",
+     "type": "paper",
+     "why": "Defined EBM as combining best evidence with clinical expertise and patient values, answering early critics. Its definition is still the one quoted in current debates about EBM's limits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Egger, Davey Smith, Schneider & Minder",
+     "year": 1997,
+     "title": "Bias in Meta-Analysis Detected by a Simple, Graphical Test",
+     "venue": "British Medical Journal",
+     "type": "paper",
+     "why": "Introduced the regression test for funnel-plot asymmetry to detect small-study and publication bias. It is still run in nearly every meta-analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Concato, Shah & Horwitz",
+     "year": 2000,
+     "title": "Randomized, Controlled Trials, Observational Studies, and the Hierarchy of Research Designs",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Found that well-designed observational studies often gave similar results to trials on the same questions. It started the argument over the evidence hierarchy that continues in the real-world-evidence debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Higgins & Thompson",
+     "year": 2002,
+     "title": "Quantifying Heterogeneity in a Meta-Analysis",
+     "venue": "Statistics in Medicine",
+     "type": "paper",
+     "why": "Introduced the I-squared statistic for how much results vary between studies. It is reported in nearly every meta-analysis and its misuse is still a common topic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lexchin, Bero, Djulbegovic & Clark",
+     "year": 2003,
+     "title": "Pharmaceutical Industry Sponsorship and Research Outcome and Quality: Systematic Review",
+     "venue": "British Medical Journal",
+     "type": "paper",
+     "why": "Showed industry-funded studies are more likely to favour the sponsor's product. It underpins today's conflict-of-interest rules and independent trial funding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schulz, Altman & Moher",
+     "year": 2010,
+     "title": "CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel Group Randomised Trials",
+     "venue": "British Medical Journal",
+     "type": "paper",
+     "why": "Set the checklist that journals require for trial reports. It has been updated again but this version shaped a generation of trial reporting.",
+     "verified": false,
+     "conf": "high",
+     "note": "Published simultaneously in several journals; BMJ 2010;340:c332. A CONSORT 2025 update exists."
+    },
+    {
+     "authors": "Loudon et al.",
+     "year": 2015,
+     "title": "The PRECIS-2 Tool: Designing Trials That Are Fit for Purpose",
+     "venue": "British Medical Journal",
+     "type": "paper",
+     "why": "Gave a tool for placing a trial on the spectrum from explanatory to pragmatic, domain by domain. It is widely used to design trials meant to inform real-world decisions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ioannidis",
+     "year": 2016,
+     "title": "The Mass Production of Redundant, Misleading, and Conflicted Systematic Reviews and Meta-analyses",
+     "venue": "The Milbank Quarterly",
+     "type": "paper",
+     "why": "Documented the flood of overlapping and low-quality systematic reviews. It frames current efforts to register reviews and build living, coordinated evidence syntheses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pallmann et al.",
+     "year": 2018,
+     "title": "Adaptive Designs in Clinical Trials: Why Use Them, and How to Run and Report Them",
+     "venue": "BMC Medicine",
+     "type": "paper",
+     "why": "A practical guide to trials that change course based on accumulating data. It is a standard reference as adaptive designs spread beyond oncology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Collins, Bowman, Landray & Peto",
+     "year": 2020,
+     "title": "The Magic of Randomization versus the Myth of Real-World Evidence",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Argued that only randomization reliably detects moderate treatment effects and that observational data cannot replace it. It is the main counterweight in the current real-world-evidence debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Oncology",
+   "lead": "The field is mainly working on overcoming resistance to targeted and immune therapies, extending them to earlier disease, and using genomics and circulating tumour DNA to decide who needs which treatment.",
+   "papers": [
+    {
+     "authors": "Nowell",
+     "year": 1976,
+     "title": "The Clonal Evolution of Tumor Cell Populations",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Proposed that cancers evolve by stepwise mutation and selection within the tumour. This evolutionary view now drives research on heterogeneity, resistance and adaptive dosing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hanahan & Weinberg",
+     "year": 2011,
+     "title": "Hallmarks of Cancer: The Next Generation",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Organized cancer biology into a set of acquired capabilities, adding immune evasion and metabolism. It remains the framework most researchers use to place new findings and drug targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Vogelstein et al.",
+     "year": 2013,
+     "title": "Cancer Genome Landscapes",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Summarized early cancer-sequencing results: few driver genes per tumour working through a dozen pathways. It defines how the field thinks about drivers versus passengers and actionable mutations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gerlinger et al.",
+     "year": 2012,
+     "title": "Intratumor Heterogeneity and Branched Evolution Revealed by Multiregion Sequencing",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed that different regions of one kidney tumour carry different mutations, so a single biopsy misses much. It reshaped thinking on biomarkers and resistance and led to large tumour-evolution studies like TRACERx.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Druker et al.",
+     "year": 2001,
+     "title": "Efficacy and Safety of a Specific Inhibitor of the BCR-ABL Tyrosine Kinase in Chronic Myeloid Leukemia",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Imatinib turned a fatal leukaemia into a manageable disease by targeting its driver kinase. It remains the model every targeted therapy is measured against, and current CML care builds directly on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hodi et al.",
+     "year": 2010,
+     "title": "Improved Survival with Ipilimumab in Patients with Metastatic Melanoma",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "First trial showing an immune checkpoint antibody prolonged survival in a solid tumour. It opened the immunotherapy era, with long-term survivors still being followed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Topalian et al.",
+     "year": 2012,
+     "title": "Safety, Activity, and Immune Correlates of Anti-PD-1 Antibody in Cancer",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed that blocking PD-1 produced durable responses across several cancers, linked to tumour PD-L1. PD-1/PD-L1 drugs are now among the most used cancer treatments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maude et al.",
+     "year": 2014,
+     "title": "Chimeric Antigen Receptor T Cells for Sustained Remissions in Leukemia",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Engineered CD19 CAR T cells put most patients with relapsed acute lymphoblastic leukaemia into remission. It led to the first approved cell therapies and current efforts in solid tumours and autoimmunity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Le et al.",
+     "year": 2015,
+     "title": "PD-1 Blockade in Tumors with Mismatch-Repair Deficiency",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed that tumours with many mutations from mismatch-repair defects respond to PD-1 blockade regardless of organ. It led to the first tissue-agnostic approval and to testing every tumour for this marker.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Reck et al.",
+     "year": 2016,
+     "title": "Pembrolizumab versus Chemotherapy for PD-L1-Positive Non-Small-Cell Lung Cancer",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "KEYNOTE-024 showed first-line pembrolizumab beat chemotherapy in lung cancer with high PD-L1. It made immunotherapy the starting treatment for the most common cause of cancer death.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Alexandrov et al.",
+     "year": 2013,
+     "title": "Signatures of Mutational Processes in Human Cancer",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Extracted distinct mutational signatures from thousands of cancer genomes and linked them to causes like tobacco, UV and DNA-repair defects. Signatures are now used to find causes and to pick patients for drugs such as PARP inhibitors.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tomasetti & Vogelstein",
+     "year": 2015,
+     "title": "Variation in Cancer Risk Among Tissues Can Be Explained by the Number of Stem Cell Divisions",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that much cancer risk across tissues tracks the number of stem-cell divisions, framed as 'bad luck'. It provoked a still-running debate on how much cancer is preventable.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Martincorena et al.",
+     "year": 2015,
+     "title": "High Burden and Pervasive Positive Selection of Somatic Mutations in Normal Human Skin",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that normal skin is full of clones carrying cancer driver mutations. It opened the study of clonal expansion in normal tissue, now central to understanding early cancer and ageing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sharma, Hu-Lieskovan, Wargo & Ribas",
+     "year": 2017,
+     "title": "Primary, Adaptive, and Acquired Resistance to Cancer Immunotherapy",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Mapped why most patients do not respond to checkpoint blockade, or relapse. It frames the current search for combinations and biomarkers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Neelapu et al.",
+     "year": 2017,
+     "title": "Axicabtagene Ciloleucel CAR T-Cell Therapy in Refractory Large B-Cell Lymphoma",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "ZUMA-1 showed durable responses with CAR T cells in a common lymphoma, leading to approval. CAR T is now moving into earlier lines of therapy on this basis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Soria et al.",
+     "year": 2018,
+     "title": "Osimertinib in Untreated EGFR-Mutated Advanced Non-Small-Cell Lung Cancer",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "FLAURA showed a third-generation EGFR inhibitor beat earlier drugs in first-line treatment. It set current practice for EGFR-mutant lung cancer and the model of designing drugs against known resistance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sparano et al.",
+     "year": 2018,
+     "title": "Adjuvant Chemotherapy Guided by a 21-Gene Expression Assay in Breast Cancer",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "TAILORx showed most women with intermediate-risk early breast cancer can safely skip chemotherapy. It is the leading example of genomic de-escalation now standard in care.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cercek et al.",
+     "year": 2022,
+     "title": "PD-1 Blockade in Mismatch Repair-Deficient, Locally Advanced Rectal Cancer",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Every patient in this small series had complete clinical response to dostarlimab alone, avoiding surgery and radiation. It drives current trials of immunotherapy instead of surgery in early disease.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Modi et al.",
+     "year": 2022,
+     "title": "Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "DESTINY-Breast04 showed an antibody-drug conjugate worked even in tumours with low HER2, creating a new treatable group. Antibody-drug conjugates are now one of oncology's fastest-moving drug classes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tie et al.",
+     "year": 2022,
+     "title": "Circulating Tumor DNA Analysis Guiding Adjuvant Therapy in Stage II Colon Cancer",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "DYNAMIC showed that using ctDNA to decide on chemotherapy after surgery cut chemotherapy use without worse outcomes. It is the leading trial for liquid-biopsy-guided treatment decisions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Cardiology",
+   "lead": "The field is mainly working on drugs that lower risk across heart, kidney and metabolic disease (lipid lowering, SGLT2 inhibitors, GLP-1 agonists), on inflammation as a target, and on right-sizing invasive procedures.",
+   "papers": [
+    {
+     "authors": "Cholesterol Treatment Trialists' (CTT) Collaboration",
+     "year": 2010,
+     "title": "Efficacy and Safety of More Intensive Lowering of LDL Cholesterol: A Meta-Analysis of Data from 170,000 Participants in 26 Randomised Trials",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Showed that each 1 mmol/L fall in LDL cholesterol cuts major vascular events by about a fifth, with no lower threshold found. This 'lower is better' result is the basis of current lipid guidelines.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ference et al.",
+     "year": 2017,
+     "title": "Low-Density Lipoproteins Cause Atherosclerotic Cardiovascular Disease. 1. Evidence from Genetic, Epidemiologic, and Clinical Studies. A Consensus Statement from the European Atherosclerosis Society Consensus Panel",
+     "venue": "European Heart Journal",
+     "type": "paper",
+     "why": "Combined genetic, epidemiological and trial evidence to conclude LDL causes atherosclerosis in proportion to cumulative exposure. It justifies earlier, lifelong and more aggressive LDL lowering.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sabatine et al. (FOURIER)",
+     "year": 2017,
+     "title": "Evolocumab and Clinical Outcomes in Patients with Cardiovascular Disease",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed a PCSK9 antibody pushing LDL to very low levels further cut events, safely. It validated a gene-target-to-drug path and set up current very-low-LDL targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ridker et al. (CANTOS)",
+     "year": 2017,
+     "title": "Antiinflammatory Therapy with Canakinumab for Atherosclerotic Disease",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "First trial showing that targeting inflammation alone, without lowering cholesterol, reduced cardiovascular events. It launched inflammation as a treatment target, now pursued with colchicine and IL-6 drugs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "SPRINT Research Group",
+     "year": 2015,
+     "title": "A Randomized Trial of Intensive versus Standard Blood-Pressure Control",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Targeting systolic pressure below 120 mmHg cut cardiovascular events and deaths compared with below 140. It drove the lower US blood-pressure thresholds and remains debated over measurement and harms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zinman et al. (EMPA-REG OUTCOME)",
+     "year": 2015,
+     "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "An SGLT2 inhibitor unexpectedly cut cardiovascular death and heart-failure hospitalization in diabetes. It started the shift to judging diabetes drugs by heart and kidney outcomes, not glucose.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McMurray et al. (PARADIGM-HF)",
+     "year": 2014,
+     "title": "Angiotensin-Neprilysin Inhibition versus Enalapril in Heart Failure",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Sacubitril-valsartan beat the long-standing standard ACE inhibitor in reduced-ejection-fraction heart failure. It is one of the four pillars of current heart-failure therapy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McMurray et al. (DAPA-HF)",
+     "year": 2019,
+     "title": "Dapagliflozin in Patients with Heart Failure and Reduced Ejection Fraction",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed SGLT2 inhibitor benefit in heart failure with or without diabetes. It made SGLT2 inhibitors a heart-failure drug and led to their spread into kidney disease.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Leon et al.",
+     "year": 2010,
+     "title": "Transcatheter Aortic-Valve Implantation for Aortic Stenosis in Patients Who Cannot Undergo Surgery",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "PARTNER showed a catheter-delivered valve saved lives in patients too sick for surgery. TAVI has since spread to lower-risk patients and now outnumbers surgical valve replacement in many countries.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maron et al. (ISCHEMIA)",
+     "year": 2020,
+     "title": "Initial Invasive or Conservative Strategy for Stable Coronary Disease",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "In stable patients with moderate or severe ischaemia, routine stenting or bypass did not reduce major events over medical therapy. It is the key trial in current efforts to limit unnecessary procedures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Boden et al. (COURAGE)",
+     "year": 2007,
+     "title": "Optimal Medical Therapy with or without PCI for Stable Coronary Disease",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed adding stents to good medical therapy did not cut death or heart attack in stable disease. It started the evidence line that ISCHEMIA extended and still shapes referral for angiography.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Connolly et al. (RE-LY)",
+     "year": 2009,
+     "title": "Dabigatran versus Warfarin in Patients with Atrial Fibrillation",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "The first direct oral anticoagulant to match or beat warfarin for stroke prevention. DOACs have since largely replaced warfarin in atrial fibrillation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Khera et al.",
+     "year": 2018,
+     "title": "Genome-Wide Polygenic Scores for Common Diseases Identify Individuals with Risk Equivalent to Monogenic Mutations",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Showed a polygenic score identifies about 8% of people with tripled coronary risk. It drives the current debate on whether polygenic scores belong in clinical risk prediction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mack et al. (PARTNER 3)",
+     "year": 2019,
+     "title": "Transcatheter Aortic-Valve Replacement with a Balloon-Expandable Valve in Low-Risk Patients",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "TAVR beat surgery even in low-risk patients over one year. It extended TAVR to younger patients and raised the open question of long-term valve durability.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bhatt et al. (REDUCE-IT)",
+     "year": 2019,
+     "title": "Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Reported a 25% cut in events with high-dose purified EPA. Disputes over its mineral-oil placebo make it a live case on how comparator choice shapes results.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ray et al.",
+     "year": 2020,
+     "title": "Two Phase 3 Trials of Inclisiran in Patients with Elevated LDL Cholesterol",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "An siRNA given twice a year halved LDL cholesterol. It brought RNA-silencing drugs into common chronic disease, pending outcome trials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kirchhof et al. (EAST-AFNET 4)",
+     "year": 2020,
+     "title": "Early Rhythm-Control Therapy in Patients with Atrial Fibrillation",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Starting rhythm control soon after diagnosis cut cardiovascular outcomes compared with usual care. It shifted atrial fibrillation care toward early rhythm control and ablation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anker et al. (EMPEROR-Preserved)",
+     "year": 2021,
+     "title": "Empagliflozin in Heart Failure with a Preserved Ejection Fraction",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "First large trial to show clear benefit of a drug in heart failure with preserved ejection fraction. It made SGLT2 inhibitors standard across the ejection-fraction range.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lincoff et al. (SELECT)",
+     "year": 2023,
+     "title": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Semaglutide cut major cardiovascular events by 20% in people with obesity but no diabetes. It made obesity treatment a cardiovascular prevention strategy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Khan et al.",
+     "year": 2024,
+     "title": "Development and Validation of the American Heart Association's PREVENT Equations",
+     "venue": "Circulation",
+     "type": "paper",
+     "why": "New risk equations that add kidney and metabolic measures and drop race, predicting heart failure as well as atherosclerotic disease. They are replacing the 2013 pooled cohort equations and changing who qualifies for preventive drugs.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Infectious disease",
+   "lead": "The field is mainly working on antimicrobial resistance and new antibiotics, pandemic preparedness through rapid vaccines and antivirals, and long-acting HIV prevention and treatment.",
+   "papers": [
+    {
+     "authors": "Anderson & May",
+     "year": 1979,
+     "title": "Population Biology of Infectious Diseases: Part I",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Set out the transmission models, built on the reproduction number, that link host and pathogen dynamics. Their framework underlies modern outbreak modelling and vaccination-threshold planning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jones et al.",
+     "year": 2008,
+     "title": "Global Trends in Emerging Infectious Diseases",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed emerging infections are rising, mostly zoonotic and mostly from wildlife, and mapped hotspots. It shapes current spillover surveillance and the One Health agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cohen et al. (HPTN 052)",
+     "year": 2011,
+     "title": "Prevention of HIV-1 Infection with Early Antiretroviral Therapy",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Early treatment of the HIV-positive partner cut transmission to partners by 96%. It established treatment as prevention and the 'undetectable equals untransmittable' message.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "INSIGHT START Study Group",
+     "year": 2015,
+     "title": "Initiation of Antiretroviral Therapy in Early Asymptomatic HIV Infection",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Starting therapy immediately, rather than waiting for CD4 counts to drop, reduced serious illness. It is the basis of today's 'treat all' policy for HIV.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tacconelli et al.",
+     "year": 2018,
+     "title": "Discovery, Research, and Development of New Antibiotics: The WHO Priority List of Antibiotic-Resistant Bacteria and Tuberculosis",
+     "venue": "The Lancet Infectious Diseases",
+     "type": "paper",
+     "why": "Ranked resistant bacteria by urgency, with carbapenem-resistant Gram-negatives at the top. It guides antibiotic research funding and incentive schemes worldwide.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zhu et al.",
+     "year": 2020,
+     "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Identified and sequenced SARS-CoV-2. Rapid genome sharing from this work enabled vaccine design within days and set the expectation for pathogen data sharing in future outbreaks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Polack et al.",
+     "year": 2020,
+     "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed 95% efficacy for the first mRNA vaccine within a year of the virus emerging. It validated mRNA platforms now being used for influenza, RSV and other targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hammond et al.",
+     "year": 2022,
+     "title": "Oral Nirmatrelvir for High-Risk, Nonhospitalized Adults with Covid-19",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "An oral protease inhibitor cut hospitalization or death by about 89% in unvaccinated high-risk patients. It is the model for oral antivirals in pandemic plans, though its value in vaccinated people is debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Antimicrobial Resistance Collaborators (Murray et al.)",
+     "year": 2022,
+     "title": "Global Burden of Bacterial Antimicrobial Resistance in 2019: A Systematic Analysis",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Estimated that resistant bacteria were directly responsible for about 1.27 million deaths in 2019. It is the reference burden figure for AMR policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bekker et al. (PURPOSE 1)",
+     "year": 2024,
+     "title": "Twice-Yearly Lenacapavir or Daily F/TAF for HIV Prevention in Cisgender Women",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "An injection every six months prevented all HIV infections in young African women in the trial. It could transform HIV prevention, and the current fight is over price and access.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Grant et al. (iPrEx)",
+     "year": 2010,
+     "title": "Preexposure Chemoprophylaxis for HIV Prevention in Men Who Have Sex with Men",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed daily oral antiretrovirals prevent HIV infection. Pre-exposure prophylaxis is now a pillar of prevention and the base that long-acting agents build on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liu et al.",
+     "year": 2016,
+     "title": "Emergence of Plasmid-Mediated Colistin Resistance Mechanism MCR-1 in Animals and Human Beings in China: A Microbiological and Molecular Biology Study",
+     "venue": "The Lancet Infectious Diseases",
+     "type": "paper",
+     "why": "Found transferable resistance to colistin, a last-resort antibiotic, spreading from farm animals. It drove bans on colistin in livestock and One Health resistance policy.",
+     "verified": false,
+     "conf": "high",
+     "note": "Online Nov 2015; issue 2016."
+    },
+    {
+     "authors": "Singer et al.",
+     "year": 2016,
+     "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "Redefined sepsis as organ dysfunction from a dysregulated response to infection. It is the current definition used in trials and care, though its use for early detection is still argued.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stokes et al.",
+     "year": 2020,
+     "title": "A Deep Learning Approach to Antibiotic Discovery",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Used a neural network to find halicin, a structurally new antibiotic. It started the current push to use machine learning for antibiotic discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beigel et al. (ACTT-1)",
+     "year": 2020,
+     "title": "Remdesivir for the Treatment of Covid-19 — Final Report",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Remdesivir shortened recovery time in hospitalized COVID-19 patients. It was the first approved COVID-19 antiviral, and its conflicting results with other trials are still a case study.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Conradie et al.",
+     "year": 2020,
+     "title": "Treatment of Highly Drug-Resistant Pulmonary Tuberculosis",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "The Nix-TB trial showed a six-month all-oral regimen cured about 90% of highly resistant TB. It led WHO to adopt short all-oral regimens for drug-resistant TB.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Worobey et al.",
+     "year": 2022,
+     "title": "The Huanan Seafood Wholesale Market in Wuhan Was the Early Epicenter of the COVID-19 Pandemic",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used spatial and case data to place the pandemic's origin at the Wuhan market. It is central to the ongoing origins debate and to policy on wildlife trade.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carlson et al.",
+     "year": 2022,
+     "title": "Climate Change Increases Cross-Species Viral Transmission Risk",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Projected that shifting mammal ranges under climate change will create thousands of new virus-sharing events. It ties pandemic risk to climate policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Davis, McCorkell, Vogel & Topol",
+     "year": 2023,
+     "title": "Long COVID: Major Findings, Mechanisms and Recommendations",
+     "venue": "Nature Reviews Microbiology",
+     "type": "paper",
+     "why": "Synthesized what is known about long COVID's prevalence and proposed mechanisms. It frames the current research agenda on post-infection syndromes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Datoo et al.",
+     "year": 2024,
+     "title": "Safety and Efficacy of Malaria Vaccine Candidate R21/Matrix-M in African Children: A Multicentre, Double-Blind, Randomised, Phase 3 Trial",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Showed a cheap, scalable malaria vaccine with about 75% efficacy in seasonal settings. It is now being rolled out across Africa.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Pharmacology",
+   "lead": "The field is mainly working on drugging hard targets with new modalities (degraders, RNA drugs, gene editing), on using human genetics to pick targets, on why drug development is so costly, and on incretin drugs with broad metabolic effects.",
+   "papers": [
+    {
+     "authors": "Black & Leff",
+     "year": 1983,
+     "title": "Operational Models of Pharmacological Agonism",
+     "venue": "Proceedings of the Royal Society of London. Series B",
+     "type": "paper",
+     "why": "Gave a mathematical model linking receptor binding to response through 'efficacy' and tissue factors. It is still the standard way to quantify agonism and the basis of current work on biased agonists.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lipinski, Lombardo, Dominy & Feeney",
+     "year": 1997,
+     "title": "Experimental and Computational Approaches to Estimate Solubility and Permeability in Drug Discovery and Development Settings",
+     "venue": "Advanced Drug Delivery Reviews",
+     "type": "paper",
+     "why": "Introduced the 'rule of five' for oral drug-likeness. Medicinal chemists still use it daily, and current modalities like degraders are defined by how they break it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sakamoto et al.",
+     "year": 2001,
+     "title": "Protacs: Chimeric Molecules That Target Proteins to the Skp1-Cullin-F Box Complex for Ubiquitination and Degradation",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced PROTACs, molecules that send a target protein to the cell's disposal system instead of blocking it. Targeted protein degradation is now one of the busiest areas of drug discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hopkins & Groom",
+     "year": 2002,
+     "title": "The Druggable Genome",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Estimated that only a small part of the genome encodes proteins small molecules can bind. Expanding that 'druggable' set is still the main goal of new-modality research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rasmussen et al.",
+     "year": 2011,
+     "title": "Crystal Structure of the beta2 Adrenergic Receptor-Gs Protein Complex",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "The first structure of an active G-protein-coupled receptor bound to its G protein. It made structure-based design possible for the largest family of drug targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scannell, Blanckley, Boldon & Warrington",
+     "year": 2012,
+     "title": "Diagnosing the Decline in Pharmaceutical R&D Efficiency",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Named 'Eroom's law': the number of drugs per billion dollars has halved roughly every nine years. It frames current debates over target choice, models and AI in drug discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ostrem et al.",
+     "year": 2013,
+     "title": "K-Ras(G12C) Inhibitors Allosterically Control GTP Affinity and Effector Interactions",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found a pocket that lets small molecules lock mutant KRAS in its off state. It led to sotorasib and adagrasib and to the current drive against other 'undruggable' targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nelson et al.",
+     "year": 2015,
+     "title": "The Support of Human Genetic Evidence for Approved Drug Indications",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Showed that drug targets with human genetic support are about twice as likely to succeed. It is why companies now prioritize targets from genetics and biobanks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Relling & Evans",
+     "year": 2015,
+     "title": "Pharmacogenomics in the Clinic",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reviewed how genetic variants affecting drug response have moved into practice and what blocks wider use. It frames current pre-emptive genotyping and guideline programmes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilding et al. (STEP 1)",
+     "year": 2021,
+     "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Weekly semaglutide produced about 15% weight loss, far beyond earlier drugs. It started the current wave of incretin drugs being tested across heart, kidney, liver and brain disease.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Swinney & Anthony",
+     "year": 2011,
+     "title": "How Were New Medicines Discovered?",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Found that phenotypic screening produced more first-in-class drugs than target-based screening. It revived phenotypic discovery and the debate over how to find new mechanisms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kenakin & Christopoulos",
+     "year": 2013,
+     "title": "Signalling Bias in New Drug Discovery: Detection, Quantification and Therapeutic Impact",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Set out how to measure ligands that activate some pathways of a receptor but not others. Biased agonism is a live strategy for safer opioids and other GPCR drugs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Santos et al.",
+     "year": 2017,
+     "title": "A Comprehensive Map of Molecular Drug Targets",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Counted the proteins that approved drugs actually act on, under 900. It is the reference for how narrow the drugged target space still is.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Morgan et al.",
+     "year": 2018,
+     "title": "Impact of a Five-Dimensional Framework on R&D Productivity at AstraZeneca",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Showed that stricter target, tissue, safety, patient and commercial criteria raised one company's success rates several-fold. It is a rare documented fix for low R&D productivity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Adams et al. (APOLLO)",
+     "year": 2018,
+     "title": "Patisiran, an RNAi Therapeutic, for Hereditary Transthyretin Amyloidosis",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "The first RNA-interference drug to succeed in a phase 3 trial. It opened the way for the siRNA drugs now reaching common diseases.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lyu et al.",
+     "year": 2019,
+     "title": "Ultra-Large Library Docking for Discovering New Chemotypes",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Docked hundreds of millions of virtual molecules and found potent new ligands. Ultra-large virtual screening is now a standard early-discovery approach.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wong, Siah & Lo",
+     "year": 2019,
+     "title": "Estimation of Clinical Trial Success Rates and Related Parameters",
+     "venue": "Biostatistics",
+     "type": "paper",
+     "why": "Estimated phase-by-phase success rates from tens of thousands of trials, showing oncology lowest. It is the standard reference for drug development risk.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frangoul et al.",
+     "year": 2021,
+     "title": "CRISPR-Cas9 Gene Editing for Sickle Cell Disease and beta-Thalassemia",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Edited blood stem cells to restore fetal haemoglobin, freeing patients from crises and transfusions. It led to the first approved CRISPR therapy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Békés, Langley & Crews",
+     "year": 2022,
+     "title": "PROTAC Targeted Protein Degraders: The Past Is Prologue",
+     "venue": "Nature Reviews Drug Discovery",
+     "type": "paper",
+     "why": "Reviewed two decades of degrader development, from concept to clinical trials. It maps the open problems now being worked on in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jastreboff et al. (SURMOUNT-1)",
+     "year": 2022,
+     "title": "Tirzepatide Once Weekly for the Treatment of Obesity",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "A dual GIP/GLP-1 agonist produced about 20% weight loss. It showed multi-receptor incretin drugs can approach surgical results.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Psychiatry",
+   "lead": "The field is mainly working on replacing categorical diagnoses with dimensional and biological ones, testing fast-acting and novel treatments such as ketamine, psychedelics and muscarinic drugs, and using large genetic and trial datasets to see what works.",
+   "papers": [
+    {
+     "authors": "Kessler et al.",
+     "year": 2005,
+     "title": "Lifetime Prevalence and Age-of-Onset Distributions of DSM-IV Disorders in the National Comorbidity Survey Replication",
+     "venue": "Archives of General Psychiatry",
+     "type": "paper",
+     "why": "Found about half of Americans meet criteria for a mental disorder in their lifetime, with half starting by age 14. It drives the current focus on early intervention and youth mental health.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lieberman et al. (CATIE)",
+     "year": 2005,
+     "title": "Effectiveness of Antipsychotic Drugs in Patients with Chronic Schizophrenia",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Found that most patients stopped their antipsychotic within 18 months and that newer drugs were not clearly better. It still frames antipsychotic choice and the need for new mechanisms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rush et al. (STAR*D)",
+     "year": 2006,
+     "title": "Acute and Longer-Term Outcomes in Depressed Outpatients Requiring One or Several Treatment Steps: A STAR*D Report",
+     "venue": "American Journal of Psychiatry",
+     "type": "paper",
+     "why": "Followed patients through up to four treatment steps and found remission becomes less likely with each failure. It shaped stepped care, and recent reanalyses disputing its numbers keep it live.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zarate et al.",
+     "year": 2006,
+     "title": "A Randomized Trial of an N-Methyl-D-Aspartate Antagonist in Treatment-Resistant Major Depression",
+     "venue": "Archives of General Psychiatry",
+     "type": "paper",
+     "why": "One ketamine infusion relieved treatment-resistant depression within hours. It led to esketamine and the search for rapid-acting antidepressants beyond serotonin.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Turner et al.",
+     "year": 2008,
+     "title": "Selective Publication of Antidepressant Trials and Its Influence on Apparent Efficacy",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Comparing FDA files to journals showed negative antidepressant trials were mostly unpublished or spun. It is a key case for trial registration and still frames debate on antidepressant effect sizes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Insel et al.",
+     "year": 2010,
+     "title": "Research Domain Criteria (RDoC): Toward a New Classification Framework for Research on Mental Disorders",
+     "venue": "American Journal of Psychiatry",
+     "type": "paper",
+     "why": "NIMH proposed studying dimensions of brain function rather than DSM categories. It changed what US psychiatry research funds and is still debated over its clinical payoff.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caspi et al.",
+     "year": 2014,
+     "title": "The p Factor: One General Psychopathology Factor in the Structure of Psychiatric Disorders?",
+     "venue": "Clinical Psychological Science",
+     "type": "paper",
+     "why": "Found that a single general factor explains much of the overlap among mental disorders. It underpins current dimensional models and explains why disorders share risk genes and treatments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schizophrenia Working Group of the Psychiatric Genomics Consortium",
+     "year": 2014,
+     "title": "Biological Insights from 108 Schizophrenia-Associated Genetic Loci",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "The first large GWAS success in psychiatry, implicating synaptic and immune genes. It showed that psychiatric disorders are highly polygenic and started the era of big genetic consortia.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cipriani et al.",
+     "year": 2018,
+     "title": "Comparative Efficacy and Acceptability of 21 Antidepressant Drugs for the Acute Treatment of Adults with Major Depressive Disorder: A Systematic Review and Network Meta-Analysis",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Found all 21 antidepressants beat placebo, with modest effects and differences between drugs. It is the main reference for drug choice and the antidepressant efficacy debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goodwin et al.",
+     "year": 2022,
+     "title": "Single-Dose Psilocybin for a Treatment-Resistant Episode of Major Depression",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "The largest psilocybin trial so far found a 25 mg dose reduced depression at three weeks versus 1 mg. It is the key evidence in the current regulatory push for psychedelic therapy, with open questions about durability and blinding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kirsch et al.",
+     "year": 2008,
+     "title": "Initial Severity and Antidepressant Benefits: A Meta-Analysis of Data Submitted to the Food and Drug Administration",
+     "venue": "PLoS Medicine",
+     "type": "paper",
+     "why": "Using FDA data, found antidepressant benefit over placebo was small except in severe depression. It remains the central reference for skeptics in the antidepressant efficacy debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Leucht et al.",
+     "year": 2013,
+     "title": "Comparative Efficacy and Tolerability of 15 Antipsychotic Drugs in Schizophrenia: A Multiple-Treatments Meta-Analysis",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Ranked antipsychotics and showed real differences in efficacy and side effects. It is the main evidence base for choosing antipsychotics today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kotov et al.",
+     "year": 2017,
+     "title": "The Hierarchical Taxonomy of Psychopathology (HiTOP): A Dimensional Alternative to Traditional Nosologies",
+     "venue": "Journal of Abnormal Psychology",
+     "type": "paper",
+     "why": "Proposed a data-driven, dimensional classification of mental illness. It is the leading alternative to DSM in current research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Patel et al.",
+     "year": 2018,
+     "title": "The Lancet Commission on Global Mental Health and Sustainable Development",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Argued for treating mental health as a continuum and for task-sharing care in low-resource settings. It frames the global mental health agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Popova et al.",
+     "year": 2019,
+     "title": "Efficacy and Safety of Flexibly Dosed Esketamine Nasal Spray Combined With a Newly Initiated Oral Antidepressant in Treatment-Resistant Depression: A Randomized Double-Blind Active-Controlled Study",
+     "venue": "American Journal of Psychiatry",
+     "type": "paper",
+     "why": "TRANSFORM-2 supported approval of esketamine for treatment-resistant depression. It is the first approved rapid-acting antidepressant with a new mechanism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cuijpers et al.",
+     "year": 2020,
+     "title": "A Network Meta-Analysis of the Effects of Psychotherapies, Pharmacotherapies and Their Combination in the Treatment of Adult Depression",
+     "venue": "World Psychiatry",
+     "type": "paper",
+     "why": "Found combined psychotherapy and medication beat either alone for depression. It informs current guidelines on first-line treatment.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brannan et al.",
+     "year": 2021,
+     "title": "Muscarinic Cholinergic Receptor Agonist and Peripheral Antagonist for Schizophrenia",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Showed xanomeline-trospium reduced psychosis without blocking dopamine. It led to the first antipsychotic with a new mechanism in decades, approved in 2024.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carhart-Harris et al.",
+     "year": 2021,
+     "title": "Trial of Psilocybin versus Escitalopram for Depression",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Found psilocybin not significantly better than escitalopram on the primary outcome but better on secondary ones. It is central to arguments over how psychedelic trials should be designed and read.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Trubetskoy et al.",
+     "year": 2022,
+     "title": "Mapping Genomic Loci Implicates Genes and Synaptic Biology in Schizophrenia",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Expanded schizophrenia GWAS to 287 loci and pinned down likely causal genes at synapses. It is the current genetic map that drug-target and biology work builds on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moncrieff et al.",
+     "year": 2023,
+     "title": "The Serotonin Theory of Depression: A Systematic Umbrella Review of the Evidence",
+     "venue": "Molecular Psychiatry",
+     "type": "paper",
+     "why": "Found no consistent evidence that depression is caused by low serotonin. It set off a public and academic fight over how antidepressants work and how psychiatry explains itself.",
+     "verified": false,
+     "conf": "low",
+     "note": "Published online July 2022; journal volume 28 is 2023."
+    }
+   ]
+  }
+ ]
+}

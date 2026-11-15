@@ -1,0 +1,917 @@
+{
+ "discipline": "Political science",
+ "fields": [
+  {
+   "field": "Comparative politics",
+   "lead": "The field is mainly working on why democracies erode from within and how modern autocracies use elections, parties and repression to survive.",
+   "papers": [
+    {
+     "authors": "Lipset",
+     "year": 1959,
+     "title": "Some Social Requisites of Democracy: Economic Development and Political Legitimacy",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Tied democracy to wealth, education and legitimacy, setting up the modernization hypothesis. Every new study of whether rich democracies can backslide is still testing Lipset's claim.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Linz",
+     "year": 1990,
+     "title": "The Perils of Presidentialism",
+     "venue": "Journal of Democracy",
+     "type": "paper",
+     "why": "Argued that fixed terms and dual legitimacy make presidential systems more breakdown-prone than parliamentary ones. The claim is still debated whenever presidents push past constraints, from Latin America to the US.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Przeworski & Limongi",
+     "year": 1997,
+     "title": "Modernization: Theories and Facts",
+     "venue": "World Politics",
+     "type": "paper",
+     "why": "Separated two ideas: wealth may not cause democratization, but it strongly protects democracies that already exist. That distinction frames today's surprise at backsliding in middle- and high-income democracies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Boix & Stokes",
+     "year": 2003,
+     "title": "Endogenous Democratization",
+     "venue": "World Politics",
+     "type": "paper",
+     "why": "Pushed back on Przeworski and Limongi with longer data, arguing development does cause democratization. Together the two papers are the live core of the modernization debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pierson",
+     "year": 2000,
+     "title": "Increasing Returns, Path Dependence, and the Study of Politics",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Gave a precise account of why early institutional choices lock in and become costly to reverse. It underpins much current historical-institutional work on long-run legacies and critical junctures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fearon & Laitin",
+     "year": 2003,
+     "title": "Ethnicity, Insurgency, and Civil War",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Found that weak states, poverty and rough terrain, not ethnic diversity or grievance, predict civil war onset. It remains the benchmark that newer grievance and exclusion arguments must beat.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levitsky & Way",
+     "year": 2002,
+     "title": "The Rise of Competitive Authoritarianism",
+     "venue": "Journal of Democracy",
+     "type": "paper",
+     "why": "Named the hybrid regime that holds real elections on a tilted playing field. The concept is now the standard lens for Hungary, Turkey, Venezuela and similar cases.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Magaloni",
+     "year": 2008,
+     "title": "Credible Power-Sharing and the Longevity of Authoritarian Rule",
+     "venue": "Comparative Political Studies",
+     "type": "paper",
+     "why": "Showed how ruling parties let dictators credibly share spoils with elites and so survive longer. It is central to the current study of why some autocracies are so durable.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bermeo",
+     "year": 2016,
+     "title": "On Democratic Backsliding",
+     "venue": "Journal of Democracy",
+     "type": "paper",
+     "why": "Showed that democracies now rarely die by coup and instead erode through elected executives' gradual aggrandizement. That reframing defines the backsliding research agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Svolik",
+     "year": 2019,
+     "title": "Polarization versus Democracy",
+     "venue": "Journal of Democracy",
+     "type": "paper",
+     "why": "Argued that polarized voters will tolerate undemocratic behavior by their own side, so elections stop checking would-be autocrats. It drives current experimental work on voters as a democratic safeguard.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Geddes",
+     "year": 1999,
+     "title": "What Do We Know About Democratization After Twenty Years?",
+     "venue": "Annual Review of Political Science",
+     "type": "paper",
+     "why": "Introduced the split between military, single-party and personalist regimes and showed they break down differently. Her typology and data still structure most quantitative work on autocracy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wantchekon",
+     "year": 2003,
+     "title": "Clientelism and Voting: Evidence from a Field Experiment in Benin",
+     "venue": "World Politics",
+     "type": "paper",
+     "why": "Ran real campaign experiments to show clientelist promises beat programmatic ones. It opened the door to field experiments on clientelism and vote buying across the developing world.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Posner",
+     "year": 2004,
+     "title": "The Political Salience of Cultural Difference: Why Chewas and Tumbukas Are Allies in Malawi and Adversaries in Zambia",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Used a natural experiment to show ethnic divisions matter politically only when groups are big enough to be useful coalitions. It anchors the constructivist view of ethnic politics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gandhi & Przeworski",
+     "year": 2007,
+     "title": "Authoritarian Institutions and the Survival of Autocrats",
+     "venue": "Comparative Political Studies",
+     "type": "paper",
+     "why": "Argued that dictators create legislatures and parties to co-opt opponents, and that this helps them last. It launched the 'authoritarian institutions' literature that is still expanding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Svolik",
+     "year": 2009,
+     "title": "Power Sharing and Leadership Dynamics in Authoritarian Regimes",
+     "venue": "American Journal of Political Science",
+     "type": "paper",
+     "why": "Modeled the dictator-elite struggle and explained why most autocrats fall to insiders rather than mass revolt. The framework is widely used in work on coups and personalization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cederman, Wimmer & Min",
+     "year": 2010,
+     "title": "Why Do Ethnic Groups Rebel? New Data and Analysis",
+     "venue": "World Politics",
+     "type": "paper",
+     "why": "Using new data on ethnic power relations, showed that groups excluded from state power are far more likely to rebel. It reopened the grievance debate against Fearon and Laitin.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "King, Pan & Roberts",
+     "year": 2013,
+     "title": "How Censorship in China Allows Government Criticism but Silences Collective Expression",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Found that Chinese censors tolerate criticism but delete anything that could spark collective action. It set the agenda for studying digital authoritarianism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Foa & Mounk",
+     "year": 2016,
+     "title": "The Danger of Deconsolidation: The Democratic Disconnect",
+     "venue": "Journal of Democracy",
+     "type": "paper",
+     "why": "Claimed that support for democracy is falling among younger citizens in established democracies. The claim and its rebuttals remain a live argument about whether democratic values are eroding.",
+     "verified": false,
+     "conf": "low",
+     "note": "Subtitle wording 'The Democratic Disconnect' is from memory."
+    },
+    {
+     "authors": "Lührmann & Lindberg",
+     "year": 2019,
+     "title": "A Third Wave of Autocratization Is Here: What Is New About It?",
+     "venue": "Democratization",
+     "type": "paper",
+     "why": "Used V-Dem data to document a global wave of democratic decline led by gradual erosion under legal cover. It is the standard empirical reference for the scale of current backsliding.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Graham & Svolik",
+     "year": 2020,
+     "title": "Democracy in America? Partisanship, Polarization, and the Robustness of Support for Democracy in the United States",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Showed experimentally that only a small share of Americans punish their own candidate for undemocratic acts. It is a key piece of evidence on why voters fail to check backsliding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "International relations",
+   "lead": "The field is mainly working on how shifting power, domestic politics and economic interdependence shape war, coercion and the durability of international order.",
+   "papers": [
+    {
+     "authors": "Jervis",
+     "year": 1978,
+     "title": "Cooperation Under the Security Dilemma",
+     "venue": "World Politics",
+     "type": "paper",
+     "why": "Showed that defensive moves can look offensive, so states can spiral into conflict nobody wants, and that the offense-defense balance changes the odds. It still frames debates on arms races, cyber and US-China competition.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Doyle",
+     "year": 1983,
+     "title": "Kant, Liberal Legacies, and Foreign Affairs",
+     "venue": "Philosophy & Public Affairs",
+     "type": "paper",
+     "why": "Revived Kant's argument that liberal states do not fight each other while remaining aggressive toward others. The democratic peace it launched is still tested and contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Putnam",
+     "year": 1988,
+     "title": "Diplomacy and Domestic Politics: The Logic of Two-Level Games",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Modeled leaders as bargaining at once with foreign counterparts and domestic ratifiers. The two-level frame is standard in work on trade deals, climate talks and sanctions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wendt",
+     "year": 1992,
+     "title": "Anarchy Is What States Make of It: The Social Construction of Power Politics",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Argued that anarchy has no fixed logic; self-help depends on how states come to see each other. It founded mainstream constructivism, which still contests realist and rationalist work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mearsheimer",
+     "year": 1994,
+     "title": "The False Promise of International Institutions",
+     "venue": "International Security",
+     "type": "paper",
+     "why": "Argued that institutions merely reflect power and cannot cause peace. Its challenge returns whenever great-power rivalry strains the liberal order.",
+     "verified": false,
+     "conf": "high",
+     "note": "Issue dated Winter 1994/95."
+    },
+    {
+     "authors": "Fearon",
+     "year": 1995,
+     "title": "Rationalist Explanations for War",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Asked why rational states fight when a bargain would be cheaper, and answered with private information, commitment problems and indivisibility. Nearly all formal and much empirical conflict research starts here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moravcsik",
+     "year": 1997,
+     "title": "Taking Preferences Seriously: A Liberal Theory of International Politics",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Rebuilt liberalism around the domestic preferences that states bring to the table. It shaped the field's move toward domestic-politics explanations of foreign policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Koremenos, Lipson & Snidal",
+     "year": 2001,
+     "title": "The Rational Design of International Institutions",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Treated features like membership, scope and flexibility as rational responses to cooperation problems. It is the baseline for current work on treaty design and institutional change.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tomz",
+     "year": 2007,
+     "title": "Domestic Audience Costs in International Relations: An Experimental Approach",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Used survey experiments to show citizens punish leaders who back down from threats. It made experiments a core IR method and anchors the audience-cost debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chenoweth & Stephan",
+     "year": 2008,
+     "title": "Why Civil Resistance Works: The Strategic Logic of Nonviolent Conflict",
+     "venue": "International Security",
+     "type": "paper",
+     "why": "Found nonviolent campaigns succeeded about twice as often as violent ones because they draw broader participation. Researchers are now actively testing why that success rate has fallen.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Waltz",
+     "year": 1979,
+     "title": "Theory of International Politics",
+     "venue": "Addison-Wesley",
+     "type": "book",
+     "why": "Built structural realism: the distribution of power among states, not their character, drives their behavior. It is still the theory that rising-power and polarity arguments return to.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Keohane",
+     "year": 1984,
+     "title": "After Hegemony: Cooperation and Discord in the World Political Economy",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Showed how institutions can sustain cooperation by cutting transaction costs even as a hegemon declines. It bears directly on whether today's order survives US relative decline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fearon",
+     "year": 1994,
+     "title": "Domestic Political Audiences and the Escalation of International Disputes",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Introduced audience costs: leaders who back down face domestic punishment, which makes their threats credible. The idea is still tested, extended and challenged.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Walter",
+     "year": 1997,
+     "title": "The Critical Barrier to Civil War Settlement",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Argued that civil wars rarely end in settlements because rebels cannot safely disarm without outside guarantees. It shaped research and policy on peacekeeping and peace deals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Finnemore & Sikkink",
+     "year": 1998,
+     "title": "International Norm Dynamics and Political Change",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Described the norm 'life cycle' from emergence to cascade to internalization. It remains the main framework for studying how human-rights and other norms spread and erode.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Powell",
+     "year": 2006,
+     "title": "War as a Commitment Problem",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Showed that large, rapid shifts in power make bargains impossible to commit to, which can cause war. It is central to analysis of rising powers and preventive war.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gartzke",
+     "year": 2007,
+     "title": "The Capitalist Peace",
+     "venue": "American Journal of Political Science",
+     "type": "paper",
+     "why": "Argued that market development and shared interests, not democracy, explain peace among developed states. It is a main rival to democratic-peace explanations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Weeks",
+     "year": 2008,
+     "title": "Autocratic Audience Costs: Regime Type and Signaling Resolve",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Showed that many autocracies also face elite audiences who punish backing down. It broadened audience-cost theory beyond democracies and shaped work on autocratic foreign policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Debs & Monteiro",
+     "year": 2014,
+     "title": "Known Unknowns: Power Shifts, Uncertainty, and War",
+     "venue": "International Organization",
+     "type": "paper",
+     "why": "Argued that wars over power shifts arise when one side cannot observe the other's military investments. It sharpens the commitment-problem account for cases like nuclear proliferation.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Farrell & Newman",
+     "year": 2019,
+     "title": "Weaponized Interdependence: How Global Economic Networks Shape State Coercion",
+     "venue": "International Security",
+     "type": "paper",
+     "why": "Showed how states that control hubs in finance and information networks can use them to coerce others. It is now the core frame for sanctions, export controls and US-China tech competition.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Political economy",
+   "lead": "The field is mainly working on how inequality, trade and financial shocks feed populism and polarization, and how institutions shape long-run development.",
+   "papers": [
+    {
+     "authors": "Meltzer & Richard",
+     "year": 1981,
+     "title": "A Rational Theory of the Size of Government",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Predicted that more inequality leads the median voter to demand more redistribution. The puzzle that rising inequality has not reliably raised redistribution keeps it at the center of debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "North & Weingast",
+     "year": 1989,
+     "title": "Constitutions and Commitment: The Evolution of Institutions Governing Public Choice in Seventeenth-Century England",
+     "venue": "Journal of Economic History",
+     "type": "paper",
+     "why": "Argued that the Glorious Revolution made the crown's promises credible and so opened cheap credit and growth. Its theory of credible commitment is still built on and historically contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Grossman & Helpman",
+     "year": 1994,
+     "title": "Protection for Sale",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Modeled trade policy as the outcome of lobbies bidding for protection. It remains the workhorse model of interest groups and trade policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Acemoglu & Robinson",
+     "year": 2000,
+     "title": "Why Did the West Extend the Franchise? Democracy, Inequality, and Growth in Historical Perspective",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Argued that elites extended voting rights to commit credibly to redistribution under threat of revolution. It is central to current models of democratization and redistribution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Acemoglu, Johnson & Robinson",
+     "year": 2001,
+     "title": "The Colonial Origins of Comparative Development: An Empirical Investigation",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Used settler mortality to argue that institutions cause long-run prosperity. The paper, its instrument and its critics still define the institutions-versus-geography debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Iversen & Soskice",
+     "year": 2001,
+     "title": "An Asset Theory of Social Policy Preferences",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Argued that workers with specific skills want social insurance because their skills are hard to move. It is a basis for current work on how automation and skills shape welfare politics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scheve & Slaughter",
+     "year": 2001,
+     "title": "What Determines Individual Trade-Policy Preferences?",
+     "venue": "Journal of International Economics",
+     "type": "paper",
+     "why": "Showed that less-skilled US workers oppose trade, consistent with factor-based theory. It sets the material-interest baseline that newer identity-based accounts argue against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Funke, Schularick & Trebesch",
+     "year": 2016,
+     "title": "Going to Extremes: Politics after Financial Crises, 1870–2014",
+     "venue": "European Economic Review",
+     "type": "paper",
+     "why": "Found that far-right vote shares rise sharply after financial crises across nearly 150 years of data. It is a key reference on the economic roots of populism.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Acemoglu, Naidu, Restrepo & Robinson",
+     "year": 2019,
+     "title": "Democracy Does Cause Growth",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Found that democratization raises GDP per capita by about 20% over the long run. It answered a long-unsettled question and is now the reference point for democracy-growth claims.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Autor, Dorn, Hanson & Majlesi",
+     "year": 2020,
+     "title": "Importing Political Polarization? The Electoral Consequences of Rising Trade Exposure",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Linked local exposure to Chinese imports to ideological polarization and gains for more extreme candidates. It is central to the debate on the economic causes of polarization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Olson",
+     "year": 1993,
+     "title": "Dictatorship, Democracy, and Development",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Contrasted 'roving' and 'stationary' bandits to explain why rulers who expect to stay provide order and growth. It still informs work on autocratic time horizons and development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rodrik",
+     "year": 1998,
+     "title": "Why Do More Open Economies Have Bigger Governments?",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed that more trade-exposed countries have larger governments, as insurance against external risk. It underlies the 'embedded liberalism' account of the globalization backlash.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Alesina, Glaeser & Sacerdote",
+     "year": 2001,
+     "title": "Why Doesn't the United States Have a European-Style Welfare State?",
+     "venue": "Brookings Papers on Economic Activity",
+     "type": "paper",
+     "why": "Attributed the gap to political institutions and racial heterogeneity more than economics. It drives current research on race, diversity and support for redistribution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ansolabehere, de Figueiredo & Snyder",
+     "year": 2003,
+     "title": "Why Is There So Little Money in U.S. Politics?",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "Showed that campaign contributions are small relative to the stakes and look more like consumption than investment. It remains the starting point for debates about money and policy influence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nunn",
+     "year": 2008,
+     "title": "The Long-Term Effects of Africa's Slave Trades",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Found that African regions hit hardest by the slave trades are poorer today. It helped found the historical-persistence literature now central to political economy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Besley & Persson",
+     "year": 2009,
+     "title": "The Origins of State Capacity: Property Rights, Taxation, and Politics",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Modeled state capacity as an investment that governments choose to make. It launched the state-capacity research agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dell",
+     "year": 2010,
+     "title": "The Persistent Effects of Peru's Mining Mita",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Used a regression-discontinuity design at a colonial boundary to show forced labor still lowers living standards. It set the methodological standard for persistence studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Colantone & Stanig",
+     "year": 2018,
+     "title": "The Trade Origins of Economic Nationalism: Import Competition and Voting Behavior in Western Europe",
+     "venue": "American Journal of Political Science",
+     "type": "paper",
+     "why": "Showed that regions hit harder by Chinese imports shifted toward nationalist and radical-right parties. It extended the China-shock politics findings to Europe.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gethin, Martínez-Toledano & Piketty",
+     "year": 2022,
+     "title": "Brahmin Left Versus Merchant Right: Changing Political Cleavages in 21 Western Democracies, 1948–2020",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Documented the shift of highly educated voters to the left while high-income voters stay right. It is a key data source for current debates on class, education and realignment.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Guriev & Papaioannou",
+     "year": 2022,
+     "title": "The Political Economy of Populism",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Surveys the evidence on economic and cultural causes of populism. It is the current map of the field's most active debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Voting & public opinion",
+   "lead": "The field is mainly working on affective polarization, the limits of persuasion and misinformation, and how far governments respond to ordinary voters.",
+   "papers": [
+    {
+     "authors": "Converse",
+     "year": 1964,
+     "title": "The Nature of Belief Systems in Mass Publics",
+     "venue": "In D. Apter (ed.), Ideology and Discontent, Free Press",
+     "type": "paper",
+     "why": "Found most citizens hold weak, inconsistent policy views and do not think in ideological terms. Research on ideology, polarization and voter competence is still arguing with it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Page & Shapiro",
+     "year": 1983,
+     "title": "Effects of Public Opinion on Policy",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Found that policy tends to move with large shifts in public opinion. It set up the responsiveness question that Gilens and Page and others reopened.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zaller & Feldman",
+     "year": 1992,
+     "title": "A Simple Theory of the Survey Response: Answering Questions versus Revealing Preferences",
+     "venue": "American Journal of Political Science",
+     "type": "paper",
+     "why": "Argued that survey answers are samples from the considerations at the top of the head, not fixed attitudes. It still shapes how researchers interpret opinion data and framing effects.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gerber & Green",
+     "year": 2000,
+     "title": "The Effects of Canvassing, Telephone Calls, and Direct Mail on Voter Turnout: A Field Experiment",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Ran large field experiments showing door-to-door canvassing raises turnout while mail and calls do little. It launched the experimental turn in political behavior.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Taber & Lodge",
+     "year": 2006,
+     "title": "Motivated Skepticism in the Evaluation of Political Beliefs",
+     "venue": "American Journal of Political Science",
+     "type": "paper",
+     "why": "Showed people accept congenial arguments and scrutinize opposing ones, so exposure can deepen disagreement. It drives current work on motivated reasoning and corrections.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Iyengar, Sood & Lelkes",
+     "year": 2012,
+     "title": "Affect, Not Ideology: A Social Identity Perspective on Polarization",
+     "venue": "Public Opinion Quarterly",
+     "type": "paper",
+     "why": "Showed that partisans increasingly dislike the other party even without ideological divergence. It launched the affective-polarization literature, now one of the field's largest.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gilens & Page",
+     "year": 2014,
+     "title": "Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens",
+     "venue": "Perspectives on Politics",
+     "type": "paper",
+     "why": "Found US policy tracks the preferences of affluent citizens and organized groups, not average voters. Its claims and methods are still actively debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mason",
+     "year": 2015,
+     "title": "I Disrespectfully Agree: The Differential Effects of Partisan Sorting on Social and Issue Polarization",
+     "venue": "American Journal of Political Science",
+     "type": "paper",
+     "why": "Showed partisan-ideological sorting raises anger and bias even when policy views do not diverge. It is a core account of identity-based polarization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Achen & Bartels",
+     "year": 2016,
+     "title": "Democracy for Realists: Why Elections Do Not Produce Responsive Government",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that voters act on group identity and punish incumbents for things beyond their control. It is the main recent challenge to standard theories of democratic accountability.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kalla & Broockman",
+     "year": 2018,
+     "title": "The Minimal Persuasive Effects of Campaign Contact in General Elections: Evidence from 49 Field Experiments",
+     "venue": "American Political Science Review",
+     "type": "paper",
+     "why": "Found the average persuasive effect of campaign contact in general elections is close to zero. It reset expectations about what campaigns can achieve.",
+     "verified": false,
+     "conf": "high",
+     "note": "Title corrected: 'Campaign Contact', not 'Campaign Contacting'."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Campbell, Converse, Miller & Stokes",
+     "year": 1960,
+     "title": "The American Voter",
+     "venue": "Wiley",
+     "type": "book",
+     "why": "Argued that party identification is a stable, early-learned attachment that colors how voters see politics. The identity view of partisanship that dominates today descends from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bartels",
+     "year": 2002,
+     "title": "Beyond the Running Tally: Partisan Bias in Political Perceptions",
+     "venue": "Political Behavior",
+     "type": "paper",
+     "why": "Showed partisans perceive basic economic facts differently. It is a foundation for research on partisan bias in factual beliefs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Healy, Malhotra & Mo",
+     "year": 2010,
+     "title": "Irrelevant Events Affect Voters' Evaluations of Government Performance",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Found local college football wins boost incumbent vote shares. It is a key piece of evidence in the debate over blind retrospection.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nyhan & Reifler",
+     "year": 2010,
+     "title": "When Corrections Fail: The Persistence of Political Misperceptions",
+     "venue": "Political Behavior",
+     "type": "paper",
+     "why": "Reported that corrections can sometimes strengthen misperceptions, the 'backfire effect'. It launched the misinformation-correction literature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lenz",
+     "year": 2012,
+     "title": "Follow the Leader? How Voters Respond to Politicians' Policies and Performance",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Showed voters often adopt their party's positions rather than choosing parties based on policy. It is central to debates on whether voters hold leaders accountable on issues.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bullock, Gerber, Hill & Huber",
+     "year": 2015,
+     "title": "Partisan Bias in Factual Beliefs about Politics",
+     "venue": "Quarterly Journal of Political Science",
+     "type": "paper",
+     "why": "Showed that paying people for correct answers shrinks partisan gaps in factual beliefs. It raised the question of how much partisan bias is expressive cheerleading.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Broockman & Kalla",
+     "year": 2016,
+     "title": "Durably Reducing Transphobia: A Field Experiment on Door-to-Door Canvassing",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that brief perspective-taking conversations produced lasting attitude change. It revived research on 'deep canvassing' and durable persuasion.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wood & Porter",
+     "year": 2019,
+     "title": "The Elusive Backfire Effect: Mass Attitudes' Steadfast Factual Adherence",
+     "venue": "Political Behavior",
+     "type": "paper",
+     "why": "Across many experiments, found that corrections rarely backfire and usually work. It largely overturned the backfire consensus.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Iyengar, Lelkes, Levendusky, Malhotra & Westwood",
+     "year": 2019,
+     "title": "The Origins and Consequences of Affective Polarization in the United States",
+     "venue": "Annual Review of Political Science",
+     "type": "paper",
+     "why": "Synthesizes evidence on why partisan animosity has grown and what it does. It is the standard map of the affective-polarization field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Guess, Nyhan & Reifler",
+     "year": 2020,
+     "title": "Exposure to Untrustworthy Websites in the 2016 US Election",
+     "venue": "Nature Human Behaviour",
+     "type": "paper",
+     "why": "Using browsing data, found fake-news exposure was concentrated in a small, older, highly partisan group. It anchors current measurement-based work on misinformation.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

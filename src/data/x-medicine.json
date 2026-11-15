@@ -1,0 +1,689 @@
+{
+ "discipline": "Medicine & health",
+ "fields": [
+  {
+   "field": "Endocrinology & metabolism",
+   "lead": "Incretin-based multi-agonist drugs are reshaping how obesity and type 2 diabetes are defined and treated, while the field debates long-term use, organ-protection effects beyond glucose, and whether obesity is a disease in its own right.",
+   "papers": [
+    {
+     "authors": "DeFronzo",
+     "year": 2009,
+     "title": "From the Triumvirate to the Ominous Octet: A New Paradigm for the Treatment of Type 2 Diabetes Mellitus",
+     "venue": "Diabetes",
+     "type": "paper",
+     "why": "DeFronzo's Banting Lecture recast type 2 diabetes as failure across eight organs, not just insulin resistance plus a tired pancreas. It pushed treatment toward combination therapy aimed at the gut, kidney and brain as well as the islet, and it is still the map most clinicians use for why GLP-1 and SGLT2 drugs work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Samuel & Shulman",
+     "year": 2012,
+     "title": "Mechanisms for Insulin Resistance: Common Threads and Missing Links",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "This review set out the lipid (diacylglycerol/PKC-epsilon) account of how fat in liver and muscle blocks insulin signalling. It remains the leading mechanistic model and the main thing rival explanations, such as inflammation and mitochondrial theories, are argued against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rosen & Spiegelman",
+     "year": 2014,
+     "title": "What We Talk About When We Talk About Fat",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "A synthesis of adipose biology that treats fat as an endocrine organ with distinct white, brown and beige cell types. It frames current work on where fat is stored, why some obesity is metabolically healthy, and whether thermogenic fat can be harnessed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Drucker & Nauck",
+     "year": 2006,
+     "title": "The Incretin System: Glucagon-like Peptide-1 Receptor Agonists and Dipeptidyl Peptidase-4 Inhibitors in Type 2 Diabetes",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "The standard account of incretin biology at the moment the first GLP-1 drugs reached patients. Everything since, from semaglutide to multi-agonists, builds on the physiology laid out here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marso et al. (LEADER)",
+     "year": 2016,
+     "title": "Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "LEADER showed a GLP-1 agonist cut cardiovascular death, not just glucose. It turned diabetes drugs from glucose-lowering agents into organ-protection drugs and set the outcome-trial template the field now uses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lean et al. (DiRECT)",
+     "year": 2018,
+     "title": "Primary Care-Led Weight Management for Remission of Type 2 Diabetes (DiRECT): An Open-Label, Cluster-Randomised Trial",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "DiRECT showed that roughly half of people with recent type 2 diabetes could reach remission through intensive weight loss in ordinary primary care. It made remission a realistic treatment goal and underpins the argument that the disease is driven by excess fat in liver and pancreas.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frías et al. (SURPASS-2)",
+     "year": 2021,
+     "title": "Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "A dual GIP/GLP-1 agonist beat the best GLP-1 drug head-to-head on both glucose and weight. It reopened the question of what GIP actually does, since GIP agonism and antagonism both seem to help, and launched the multi-agonist era.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jastreboff et al.",
+     "year": 2023,
+     "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity: A Phase 2 Trial",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Adding glucagon receptor agonism produced weight loss near 24% at 48 weeks, close to bariatric surgery. It marks the frontier of incretin pharmacology and raises the open question of how far drug-induced weight loss can and should go.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Perkovic et al. (FLOW)",
+     "year": 2024,
+     "title": "Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "FLOW was stopped early because semaglutide clearly protected the kidneys. It is a key piece of evidence that GLP-1 drugs act across organs, which drives the current push to test them in kidney, liver, heart failure and other conditions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rubino et al.",
+     "year": 2025,
+     "title": "Definition and Diagnostic Criteria of Clinical Obesity",
+     "venue": "The Lancet Diabetes & Endocrinology",
+     "type": "paper",
+     "why": "The Lancet Commission proposed separating 'clinical obesity', a disease defined by organ dysfunction, from 'preclinical obesity' and from BMI alone. It is the field's live argument over whether obesity is a disease and who should get the new drugs.",
+     "verified": false,
+     "conf": "high",
+     "note": "Lancet Commission report, published January 2025."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Holman et al.",
+     "year": 2008,
+     "title": "10-Year Follow-up of Intensive Glucose Control in Type 2 Diabetes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "The UKPDS follow-up showed that early tight glucose control had a 'legacy effect' on heart attacks and death that appeared years after the trial. It is still the main evidence for treating hard early in the disease.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Action to Control Cardiovascular Risk in Diabetes Study Group (ACCORD)",
+     "year": 2008,
+     "title": "Effects of Intensive Glucose Lowering in Type 2 Diabetes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Pushing HbA1c very low in long-standing diabetes increased deaths. Together with UKPDS it defines the timing debate and explains why guidelines individualise glucose targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Knowler et al. (Diabetes Prevention Program)",
+     "year": 2002,
+     "title": "Reduction in the Incidence of Type 2 Diabetes with Lifestyle Intervention or Metformin",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Lifestyle change cut progression to diabetes by 58%, beating metformin. It remains the benchmark every prevention programme and every drug prevention trial is measured against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ahlqvist et al.",
+     "year": 2018,
+     "title": "Novel Subgroups of Adult-Onset Diabetes and Their Association with Outcomes: A Data-Driven Cluster Analysis of Six Variables",
+     "venue": "The Lancet Diabetes & Endocrinology",
+     "type": "paper",
+     "why": "Clustering split adult diabetes into five subtypes with different complication risks. It started the precision-diabetes programme, which is still debating whether discrete clusters or continuous traits are the better description.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cypess et al.",
+     "year": 2009,
+     "title": "Identification and Importance of Brown Adipose Tissue in Adult Humans",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "This study showed that adults keep active brown fat, previously thought to vanish after infancy. It opened the thermogenic-fat research programme that is still testing whether brown and beige fat can be used against obesity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilding et al.",
+     "year": 2022,
+     "title": "Weight Regain and Cardiometabolic Effects After Withdrawal of Semaglutide: The STEP 1 Trial Extension",
+     "venue": "Diabetes, Obesity and Metabolism",
+     "type": "paper",
+     "why": "After stopping semaglutide, participants regained about two-thirds of the weight they lost within a year. It is central to the current debate about whether obesity drugs must be taken for life.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Herold et al.",
+     "year": 2019,
+     "title": "An Anti-CD3 Antibody, Teplizumab, in Relatives at Risk for Type 1 Diabetes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Teplizumab delayed the onset of type 1 diabetes by about two years, the first immune therapy to do so. It led to the first approved disease-modifying drug for type 1 diabetes and to screening for the disease before symptoms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saag et al. (ARCH)",
+     "year": 2017,
+     "title": "Romosozumab or Alendronate for Fracture Prevention in Women with Osteoporosis",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Sclerostin blockade with romosozumab cut fractures more than alendronate but showed a cardiovascular signal. It defines the 'anabolic first' strategy in osteoporosis and the safety trade-off that still limits its use.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stott et al. (TRUST)",
+     "year": 2017,
+     "title": "Thyroid Hormone Therapy for Older Adults with Subclinical Hypothyroidism",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Levothyroxine gave no benefit to older adults with subclinical hypothyroidism. It drives the current push against overtreating mild thyroid test abnormalities, one of the most common prescriptions in medicine.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harrison et al. (MAESTRO-NASH)",
+     "year": 2024,
+     "title": "A Phase 3, Randomized, Controlled Trial of Resmetirom in NASH with Liver Fibrosis",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "A liver-targeted thyroid hormone receptor-beta agonist resolved steatohepatitis and improved fibrosis, leading to the first approved drug for the condition. It puts fatty liver disease at the centre of metabolic medicine alongside diabetes and obesity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Neurology",
+   "lead": "Neurology is shifting to biology-defined disease and targeted therapy: anti-amyloid antibodies and blood biomarkers in Alzheimer's, seed assays in Parkinson's, antisense drugs in ALS, wider thrombectomy in stroke, and implanted brain-computer interfaces.",
+   "papers": [
+    {
+     "authors": "National Institute of Neurological Disorders and Stroke rt-PA Stroke Study Group",
+     "year": 1995,
+     "title": "Tissue Plasminogen Activator for Acute Ischemic Stroke",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "The first trial to show that a clot-busting drug given within three hours improves stroke outcomes. It created emergency stroke care as a system, and today's trials of tenecteplase and of wider time windows still build on its design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goyal et al. (HERMES)",
+     "year": 2016,
+     "title": "Endovascular Thrombectomy After Large-Vessel Ischaemic Stroke: A Meta-Analysis of Individual Patient Data from Five Randomised Trials",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "Pooling the five 2015 trials showed that mechanically removing the clot roughly halves disability, with one patient helped for every 2.6 treated. It made thrombectomy standard care and is the reference for every later question about who should get it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nogueira et al. (DAWN)",
+     "year": 2018,
+     "title": "Thrombectomy 6 to 24 Hours after Stroke with a Mismatch between Deficit and Infarct",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "DAWN extended thrombectomy to 24 hours for patients selected by imaging. It shifted stroke care from 'time is brain' to 'tissue is brain', and today's trials are still pushing that selection logic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jack et al.",
+     "year": 2018,
+     "title": "NIA-AA Research Framework: Toward a Biological Definition of Alzheimer's Disease",
+     "venue": "Alzheimer's & Dementia",
+     "type": "paper",
+     "why": "This framework defined Alzheimer's by amyloid, tau and neurodegeneration biomarkers rather than symptoms. It is the foundation of current trials and diagnosis, and it remains contested because it labels symptom-free people as having the disease.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Palmqvist et al.",
+     "year": 2020,
+     "title": "Discriminative Accuracy of Plasma Phospho-tau217 for Alzheimer Disease vs Other Neurodegenerative Disorders",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "A blood test for p-tau217 matched PET and spinal-fluid measures in identifying Alzheimer's pathology. Blood biomarkers are now moving into clinics and trial screening, which changes who can be diagnosed and how early.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "van Dyck et al. (Clarity AD)",
+     "year": 2023,
+     "title": "Lecanemab in Early Alzheimer's Disease",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Lecanemab cleared amyloid and slowed decline by 27% over 18 months, the first clean phase 3 win for the amyloid hypothesis. It drives the current debate over whether that effect is clinically meaningful given the risk of brain swelling and bleeding (ARIA).",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sims et al. (TRAILBLAZER-ALZ 2)",
+     "year": 2023,
+     "title": "Donanemab in Early Symptomatic Alzheimer Disease: The TRAILBLAZER-ALZ 2 Randomized Clinical Trial",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "Donanemab slowed decline, worked best in people with low tau, and let patients stop treatment once amyloid was cleared. It sharpened the case for treating early and the argument over how much benefit justifies ARIA risk and cost.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Siderowf et al.",
+     "year": 2023,
+     "title": "Assessment of Heterogeneity Among Participants in the Parkinson's Progression Markers Initiative Cohort Using α-Synuclein Seed Amplification: A Cross-Sectional Study",
+     "venue": "The Lancet Neurology",
+     "type": "paper",
+     "why": "The spinal-fluid seed amplification assay detected misfolded alpha-synuclein in about 88% of Parkinson's patients and in people before symptoms. It underpins the current proposals to define Parkinson's biologically, as Alzheimer's has been.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bjornevik et al.",
+     "year": 2022,
+     "title": "Longitudinal Analysis Reveals High Prevalence of Epstein-Barr Virus Associated with Multiple Sclerosis",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Following ten million military personnel, the study found that EBV infection raised MS risk 32-fold and came before the disease. It made EBV the leading candidate cause of MS and launched vaccine and antiviral strategies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Miller et al. (VALOR)",
+     "year": 2022,
+     "title": "Trial of Antisense Oligonucleotide Tofersen for SOD1 ALS",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Tofersen lowered SOD1 protein and neurofilament levels but missed its primary endpoint, yet it was approved on the biomarker. It is the test case for gene-targeted therapy in neurodegeneration and for using neurofilament as evidence that a drug works.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Albers et al. (DEFUSE 3)",
+     "year": 2018,
+     "title": "Thrombectomy for Stroke at 6 to 16 Hours with Selection by Perfusion Imaging",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Alongside DAWN, DEFUSE 3 showed that perfusion imaging can find salvageable brain late after onset. Its selection approach is still used and still argued over as trials test simpler imaging.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sarraj et al. (SELECT2)",
+     "year": 2023,
+     "title": "Trial of Endovascular Thrombectomy for Large Ischemic Strokes",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Thrombectomy helped even patients with large established infarcts, who had been excluded from earlier trials. With related trials it is rapidly widening who qualifies for the procedure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Budd Haeberlein et al.",
+     "year": 2022,
+     "title": "Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer's Disease",
+     "venue": "The Journal of Prevention of Alzheimer's Disease",
+     "type": "paper",
+     "why": "Two identical trials gave conflicting results, yet aducanumab won accelerated approval in 2021. The episode remains the field's cautionary tale about post-hoc analyses, surrogate endpoints and regulatory standards.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jack et al.",
+     "year": 2024,
+     "title": "Revised Criteria for Diagnosis and Staging of Alzheimer's Disease: Alzheimer's Association Workgroup",
+     "venue": "Alzheimer's & Dementia",
+     "type": "paper",
+     "why": "The revision lets a single core biomarker, including a blood test, define Alzheimer's disease. It is the current focus of the debate over diagnosing people without symptoms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Livingston et al.",
+     "year": 2024,
+     "title": "Dementia Prevention, Intervention, and Care: 2024 Report of the Lancet Standing Commission",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "The Commission estimated that about 45% of dementia is linked to 14 modifiable risk factors. It anchors the prevention side of dementia research, though the estimate rests largely on observational data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "DeJesus-Hernandez et al.",
+     "year": 2011,
+     "title": "Expanded GGGGCC Hexanucleotide Repeat in Noncoding Region of C9ORF72 Causes Chromosome 9p-Linked FTD and ALS",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "This paper found the most common genetic cause of ALS and frontotemporal dementia, linking the two diseases. C9ORF72 biology and antisense programmes aimed at it remain a main line of ALS research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hauser et al.",
+     "year": 2017,
+     "title": "Ocrelizumab versus Interferon Beta-1a in Relapsing Multiple Sclerosis",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Depleting B cells with an anti-CD20 antibody cut relapses well beyond the standard therapy. It shifted MS from a T-cell to a B-cell disease model, which fits the EBV link and shapes current treatment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Devinsky et al.",
+     "year": 2017,
+     "title": "Trial of Cannabidiol for Drug-Resistant Seizures in the Dravet Syndrome",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "Cannabidiol reduced convulsive seizures in a severe genetic epilepsy, leading to the first approved cannabis-derived drug. It is a reference point for treating drug-resistant epilepsy and for how much rigorous evidence supports cannabis medicine.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Willett et al.",
+     "year": 2023,
+     "title": "A High-Performance Speech Neuroprosthesis",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "An intracortical implant decoded attempted speech at about 62 words per minute in a person with ALS. It showed that brain-computer interfaces could restore conversation, the goal now driving the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Card et al.",
+     "year": 2024,
+     "title": "An Accurate and Rapidly Calibrating Speech Neuroprosthesis",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "A speech brain-computer interface reached about 97% accuracy and was used daily at home by a man with ALS. It moved speech neuroprostheses from lab demonstration toward long-term clinical use.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Nutrition",
+   "lead": "Nutrition science is trying to move from confounded observational associations to controlled feeding and large randomised trials, with ultra-processed food, carbohydrate-versus-calorie models of obesity, sodium and the microbiome as the main live disputes.",
+   "papers": [
+    {
+     "authors": "Sacks et al. (DASH-Sodium)",
+     "year": 2001,
+     "title": "Effects on Blood Pressure of Reduced Dietary Sodium and the Dietary Approaches to Stop Hypertension (DASH) Diet",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "A controlled feeding trial showed that the DASH diet and lower sodium each lowered blood pressure, and did so more together. It is still the strongest feeding-trial evidence behind sodium and dietary-pattern guidelines.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Estruch et al. (PREDIMED)",
+     "year": 2018,
+     "title": "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "The largest diet RCT for hard cardiovascular outcomes was retracted in 2018 and republished after randomisation problems were found at some sites. The reanalysis still found about 30% fewer cardiovascular events, but critics argue the flaws mean it is no longer a clean randomised trial.",
+     "verified": false,
+     "conf": "high",
+     "note": "This is the 2018 republication; the original 2013 paper was retracted."
+    },
+    {
+     "authors": "Schoenfeld & Ioannidis",
+     "year": 2013,
+     "title": "Is Everything We Eat Associated with Cancer? A Systematic Cookbook Review",
+     "venue": "The American Journal of Clinical Nutrition",
+     "type": "paper",
+     "why": "Most common cookbook ingredients had published links to cancer risk in both directions, mostly with weak evidence. It became the standard illustration of how nutritional epidemiology produces noisy, implausible associations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ioannidis",
+     "year": 2018,
+     "title": "The Challenge of Reforming Nutritional Epidemiologic Research",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "Ioannidis argued that the field's observational methods, built on food questionnaires, are too confounded and imprecise to support most of its claims. It made the methods debate explicit; defenders such as Willett and Hu argue that cohort findings have often been confirmed by trials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Monteiro et al.",
+     "year": 2019,
+     "title": "Ultra-Processed Foods: What They Are and How to Identify Them",
+     "venue": "Public Health Nutrition",
+     "type": "paper",
+     "why": "This paper set out the NOVA classification of ultra-processed foods. The concept now drives a major research and policy agenda, while critics argue that the category is too broad and inconsistently applied to pin down any mechanism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hall et al.",
+     "year": 2019,
+     "title": "Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake",
+     "venue": "Cell Metabolism",
+     "type": "paper",
+     "why": "In a metabolic ward, people ate about 500 extra calories a day and gained weight on an ultra-processed diet matched for presented nutrients. It is the main causal evidence for ultra-processed food harms, though it was small (20 people) and short (two weeks), and replication trials are under way.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gardner et al. (DIETFITS)",
+     "year": 2018,
+     "title": "Effect of Low-Fat vs Low-Carbohydrate Diet on 12-Month Weight Loss in Overweight Adults and the Association With Genotype or Insulin Secretion",
+     "venue": "JAMA",
+     "type": "paper",
+     "why": "Low-fat and low-carbohydrate diets produced the same weight loss, and neither genotype nor insulin secretion predicted who did better. It weakened both the diet wars and early claims for personalised diets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ludwig & Ebbeling",
+     "year": 2018,
+     "title": "The Carbohydrate-Insulin Model of Obesity: Beyond 'Calories In, Calories Out'",
+     "venue": "JAMA Internal Medicine",
+     "type": "paper",
+     "why": "This is the clearest statement of the view that high-glycaemic carbohydrates cause obesity through insulin-driven fat storage. It is one side of a still-unresolved dispute; Hall's feeding studies are the main evidence against it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zeevi et al.",
+     "year": 2015,
+     "title": "Personalized Nutrition by Prediction of Glycemic Responses",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Blood glucose responses to the same foods varied widely between people, and gut microbiome data helped predict them. It launched microbiome-based personalised nutrition, whose clinical benefit is still unproven.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Neal et al. (SSaSS)",
+     "year": 2021,
+     "title": "Effect of Salt Substitution on Cardiovascular Events and Death",
+     "venue": "New England Journal of Medicine",
+     "type": "paper",
+     "why": "In rural China, replacing salt with a potassium-enriched substitute cut strokes, cardiovascular events and deaths. It is the strongest hard-outcome RCT for lowering sodium and raising potassium, and it counters cohort data that suggest a J-curve.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Willett",
+     "year": 2013,
+     "title": "Nutritional Epidemiology (3rd ed.)",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "The standard textbook for the food-questionnaire and cohort methods behind most dietary guidelines. It is the methodological position the current reform debate is arguing with.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Te Morenga, Mallard & Mann",
+     "year": 2013,
+     "title": "Dietary Sugars and Body Weight: Systematic Review and Meta-Analyses of Randomised Controlled Trials and Cohort Studies",
+     "venue": "BMJ",
+     "type": "paper",
+     "why": "Sugar affected body weight mainly through extra calories, since swapping sugar for other carbohydrates changed little. It underlies WHO's sugar guideline and keeps the debate over whether sugar is uniquely harmful.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mente et al.",
+     "year": 2016,
+     "title": "Associations of Urinary Sodium Excretion with Cardiovascular Events in Individuals with and without Hypertension: A Pooled Analysis of Data from Four Studies",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "This pooled analysis reported a J-curve in which low sodium intake was also linked to more cardiovascular events. It is the main challenge to population sodium reduction and is heavily criticised for relying on spot urine samples and reverse causation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hall et al.",
+     "year": 2021,
+     "title": "Effect of a Plant-Based, Low-Fat Diet versus an Animal-Based, Ketogenic Diet on Ad Libitum Energy Intake",
+     "venue": "Nature Medicine",
+     "type": "paper",
+     "why": "People ate about 700 fewer calories a day on a low-fat diet than on a ketogenic diet, despite higher insulin. This contradicts a key prediction of the carbohydrate-insulin model, though supporters dispute the short time frame.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ebbeling et al.",
+     "year": 2018,
+     "title": "Effects of a Low Carbohydrate Diet on Energy Expenditure During Weight Loss Maintenance: Randomized Trial",
+     "venue": "BMJ",
+     "type": "paper",
+     "why": "A low-carbohydrate diet appeared to raise energy expenditure by about 200 kcal a day during weight maintenance. It is the main trial evidence for the carbohydrate-insulin model, and Hall and others have disputed its analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "David et al.",
+     "year": 2014,
+     "title": "Diet Rapidly and Reproducibly Alters the Human Gut Microbiome",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Switching between plant-based and animal-based diets reshaped the gut microbiome within days. It established diet as a fast lever on the microbiome, the starting point for diet-microbiome-health research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Suez et al.",
+     "year": 2014,
+     "title": "Artificial Sweeteners Induce Glucose Intolerance by Altering the Gut Microbiota",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Non-caloric sweeteners impaired glucose tolerance in mice and some people, through the microbiome. It kept the safety of sweeteners an open question; human results have been mixed and remain debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Johnston et al. (NutriRECS)",
+     "year": 2019,
+     "title": "Unprocessed Red Meat and Processed Meat Consumption: Dietary Guideline Recommendations From the NutriRECS Consortium",
+     "venue": "Annals of Internal Medicine",
+     "type": "paper",
+     "why": "Applying GRADE, the panel concluded that the evidence was too weak to tell most adults to cut red meat. It caused a major row over how evidence rules built for drugs should apply to nutrition.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Willett et al.",
+     "year": 2019,
+     "title": "Food in the Anthropocene: The EAT-Lancet Commission on Healthy Diets from Sustainable Food Systems",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "The Commission proposed a mostly plant-based 'planetary health diet' meant to serve both health and sustainability. It shapes policy and is contested on nutrient adequacy, cost and the strength of its health evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Morton et al.",
+     "year": 2018,
+     "title": "A Systematic Review, Meta-Analysis and Meta-Regression of the Effect of Protein Supplementation on Resistance Training-Induced Gains in Muscle Mass and Strength in Healthy Adults",
+     "venue": "British Journal of Sports Medicine",
+     "type": "paper",
+     "why": "Extra protein added modestly to muscle gains from resistance training, with benefits levelling off at about 1.6 g/kg/day. It is the reference for current protein recommendations above the official RDA, a target still being argued about, especially for older adults.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

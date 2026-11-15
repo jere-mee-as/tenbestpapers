@@ -1,0 +1,1601 @@
+{
+ "discipline": "Philosophy",
+ "fields": [
+  {
+   "field": "Epistemology",
+   "lead": "Epistemology is mainly working out what follows if knowledge, not belief, is the basic notion, and how evidence, practical stakes, disagreement, higher-order doubt and social position bear on what we should believe.",
+   "papers": [
+    {
+     "authors": "Gettier",
+     "year": 1963,
+     "title": "Is Justified True Belief Knowledge?",
+     "venue": "Analysis",
+     "type": "paper",
+     "why": "Three pages of counterexamples ended the idea that knowledge is justified true belief. Every theory of knowledge on the table today, including knowledge-first views that refuse to analyse it, is still judged by how it handles Gettier cases.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldman",
+     "year": 1979,
+     "title": "What Is Justified Belief?",
+     "venue": "Justification and Knowledge (ed. Pappas), Reidel",
+     "type": "paper",
+     "why": "Argued that a belief is justified when it is produced by a reliable process, which made externalism a serious option. Reliabilism and the virtue epistemology built on it remain one of the main camps, and the 'new evil demon' objection to it is still argued over.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewis",
+     "year": 1996,
+     "title": "Elusive Knowledge",
+     "venue": "Australasian Journal of Philosophy",
+     "type": "paper",
+     "why": "Gave a contextualist account where 'knows' rules out only the possibilities relevant in the conversation, so the sceptic wins only by changing the subject. It is the reference point for contextualism and for every rival that tries to explain why sceptical arguments feel compelling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pryor",
+     "year": 2000,
+     "title": "The Skeptic and the Dogmatist",
+     "venue": "Noûs",
+     "type": "paper",
+     "why": "Defended 'dogmatism': an experience can justify a belief about the world without independent proof that you are not dreaming. The resulting fight with conservatives and Bayesians over immediate justification is still one of the busiest in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Williamson",
+     "year": 2000,
+     "title": "Knowledge and Its Limits",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Turned the field around by treating knowledge as basic and unanalysable, identifying evidence with knowledge (E=K), and arguing that we are not always in a position to know what we know. Knowledge-first epistemology and the debates over luminosity and evidence still start here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Joyce",
+     "year": 1998,
+     "title": "A Nonpragmatic Vindication of Probabilism",
+     "venue": "Philosophy of Science",
+     "type": "paper",
+     "why": "Showed that credences violating probability theory are always less accurate than some alternative, whatever the world is like, giving a purely epistemic reason to be probabilistic. It launched accuracy-first epistemology, which now drives most formal work on rational credence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fantl & McGrath",
+     "year": 2002,
+     "title": "Evidence, Pragmatics, and Justification",
+     "venue": "The Philosophical Review",
+     "type": "paper",
+     "why": "Argued that whether you are justified in believing something can depend on what is at stake for you in acting on it. This 'pragmatic encroachment' idea is still contested and has spread into debates about moral encroachment and the ethics of belief.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "White",
+     "year": 2005,
+     "title": "Epistemic Permissiveness",
+     "venue": "Philosophical Perspectives",
+     "type": "paper",
+     "why": "Argued that a body of evidence permits only one rational attitude, against the common view that reasonable people can differ on the same evidence. The uniqueness versus permissivism question now underlies work on disagreement, rational choice of priors and the value of rationality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Christensen",
+     "year": 2007,
+     "title": "Epistemology of Disagreement: The Good News",
+     "venue": "The Philosophical Review",
+     "type": "paper",
+     "why": "Made the case that learning an equally competent peer disagrees with you should make you lower your confidence. The peer disagreement debate it helped define has broadened into the study of higher-order evidence, which is now one of the field's central topics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fricker",
+     "year": 2007,
+     "title": "Epistemic Injustice: Power and the Ethics of Knowing",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Named two wrongs: giving someone less credibility because of prejudice, and lacking the concepts to make sense of someone's experience. It created social and political epistemology as a field and is now applied in medicine, law and AI ethics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Hawthorne",
+     "year": 2004,
+     "title": "Knowledge and Lotteries",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Used the puzzle of why you cannot know your lottery ticket will lose to test contextualism, invariantism and the link between knowledge and practical reasoning. It set up the 'subject-sensitive invariantism' that pragmatic encroachment debates still use.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stanley",
+     "year": 2005,
+     "title": "Knowledge and Practical Interests",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended the view that whether someone knows depends on their practical stakes, and attacked contextualism on linguistic grounds. It is the main statement of interest-relative invariantism and is still the target for critics of pragmatic encroachment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sosa",
+     "year": 2007,
+     "title": "A Virtue Epistemology: Apt Belief and Reflective Knowledge, Volume I",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Analysed knowledge as belief that is accurate because of the believer's competence, like an archer's shot that hits because of skill. Performance-based virtue epistemology is now a leading framework and keeps generating work on luck, achievement and reflective knowledge.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Elga",
+     "year": 2007,
+     "title": "Reflection and Disagreement",
+     "venue": "Noûs",
+     "type": "paper",
+     "why": "Defended the 'equal weight view': treat a peer's verdict as just as likely to be right as yours. It is one pole of the disagreement debate and a test case for how far conciliationism can go before it undermines itself.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lasonen-Aarnio",
+     "year": 2014,
+     "title": "Higher-Order Evidence and the Limits of Defeat",
+     "venue": "Philosophy and Phenomenological Research",
+     "type": "paper",
+     "why": "Argued that evidence about whether you reasoned well cannot be folded into ordinary evidential rules without contradiction. It sharpened the higher-order evidence problem that now sits at the centre of work on disagreement, akrasia and self-doubt.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pettigrew",
+     "year": 2016,
+     "title": "Accuracy and the Laws of Credence",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Worked out accuracy-first epistemology in full, deriving probabilism, conditionalization and principles about chance from the single aim of having accurate credences. It is the standard reference for that programme and for its critics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moss",
+     "year": 2018,
+     "title": "Probabilistic Knowledge",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that credences, not just full beliefs, can be knowledge, and used the idea to explain statistical evidence in law and racial profiling. It links formal and social epistemology and is driving new work on the ethics of statistical inference.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Basu",
+     "year": 2019,
+     "title": "What We Epistemically Owe to Each Other",
+     "venue": "Philosophical Studies",
+     "type": "paper",
+     "why": "Argued that beliefs themselves can wrong people, for example by believing something about someone because of their race even when the statistics support it. It is a central paper in the fast-growing literature on doxastic wronging and moral encroachment.",
+     "verified": true,
+     "conf": "high",
+     "note": "Published online 2018; issue year 2019."
+    },
+    {
+     "authors": "Srinivasan",
+     "year": 2020,
+     "title": "Radical Externalism",
+     "venue": "The Philosophical Review",
+     "type": "paper",
+     "why": "Used cases of people raised into ideology or self-doubt to argue that internalist ideas of rationality can protect injustice. It pushed externalism into political epistemology and is widely discussed in work on ideology and rational belief.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nguyen",
+     "year": 2020,
+     "title": "Echo Chambers and Epistemic Bubbles",
+     "venue": "Episteme",
+     "type": "paper",
+     "why": "Distinguished bubbles, where you just never hear the other side, from echo chambers, where you are taught to distrust outside sources. The distinction is now standard in work on polarization, misinformation and trust online.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Metaphysics",
+   "lead": "Metaphysics is mainly arguing about whether its job is to describe the world's fundamental structure through grounding and essence, or whether many ontological disputes are shallow, and what method could settle that.",
+   "papers": [
+    {
+     "authors": "Quine",
+     "year": 1948,
+     "title": "On What There Is",
+     "venue": "The Review of Metaphysics",
+     "type": "paper",
+     "why": "Gave the criterion that a theory is committed to whatever its quantifiers range over, and made ontology a matter of choosing the best theory. Current metaontology, including the grounding and deflationist camps, still defines itself by agreement or disagreement with this paper.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewis",
+     "year": 1973,
+     "title": "Causation",
+     "venue": "The Journal of Philosophy",
+     "type": "paper",
+     "why": "Analysed causation in terms of counterfactual dependence evaluated with possible worlds. The counterfactual approach and its problem cases (pre-emption, overdetermination) still frame metaphysical work on causation and feed directly into interventionist and causal-modelling accounts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewis",
+     "year": 1986,
+     "title": "On the Plurality of Worlds",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Defended the view that possible worlds are as real as ours and used them to analyse modality, properties and content. Few accept the realism, but the methods and the theoretical-benefits argument are still the template for systematic metaphysics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "van Inwagen",
+     "year": 1990,
+     "title": "Material Beings",
+     "venue": "Cornell University Press",
+     "type": "book",
+     "why": "Asked when several things compose a further thing and answered: only when their activity constitutes a life. The special composition question it posed is still the core of the ontology of material objects, and its eliminativism about tables remains a live position.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fine",
+     "year": 1994,
+     "title": "Essence and Modality",
+     "venue": "Philosophical Perspectives",
+     "type": "paper",
+     "why": "Showed with the Socrates and singleton case that essence cannot be defined by necessity, and proposed taking essence as basic instead. It reopened real definition and essence as tools of metaphysics, and much current work on grounding builds on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fine",
+     "year": 2001,
+     "title": "The Question of Realism",
+     "venue": "Philosophers' Imprint",
+     "type": "paper",
+     "why": "Introduced notions of ground and of what is real as distinct from what exists, to say what is at stake in realism disputes. It helped start the grounding programme that now organizes a large share of mainstream metaphysics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thomasson",
+     "year": 2007,
+     "title": "Ordinary Objects",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended tables and people against eliminativists by arguing that existence questions are settled by the application conditions of our concepts. It is the source of the 'easy ontology' deflationism that is the main rival to heavyweight metaphysics today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schaffer",
+     "year": 2009,
+     "title": "On What Grounds What",
+     "venue": "Metametaphysics: New Essays on the Foundations of Ontology (Chalmers, Manley & Wasserman, eds.), Oxford University Press",
+     "type": "paper",
+     "why": "Argued that metaphysics should not ask what exists, which is easy, but what grounds what. This reframing made grounding the field's central notion and is still the standard statement of the neo-Aristotelian approach.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sider",
+     "year": 2011,
+     "title": "Writing the Book of the World",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that the world has objective structure and that good theories use concepts that carve it, extending this even to logic and quantifiers. It is the main rival to the grounding programme and to deflationism, and still the reference point for debates about fundamentality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Williamson",
+     "year": 2013,
+     "title": "Modal Logic as Metaphysics",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended necessitism, the view that everything necessarily exists, by treating metaphysics as theory choice in higher-order modal logic. It helped push metaphysics toward higher-order logic, which is now one of its most active areas.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Lewis",
+     "year": 1994,
+     "title": "Humean Supervenience Debugged",
+     "venue": "Mind",
+     "type": "paper",
+     "why": "Defended the best-system account of laws and the idea that everything supervenes on the distribution of local qualities, fixing the problem chance seemed to cause. Humeanism about laws remains one of the field's main research programmes, against primitivism and powers views.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sider",
+     "year": 2001,
+     "title": "Four-Dimensionalism: An Ontology of Persistence and Time",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Gave the main arguments that objects persist by having temporal parts and that past and future things exist. It is still the standard case for four-dimensionalism in debates about persistence, time and change.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hirsch",
+     "year": 2002,
+     "title": "Quantifier Variance and Realism",
+     "venue": "Philosophical Issues",
+     "type": "paper",
+     "why": "Argued that disputes over whether chairs or mereological sums exist can be merely verbal, because 'exists' can be read in equally good ways. Quantifier variance is the main deflationary challenge that serious ontologists like Sider have to answer.",
+     "verified": false,
+     "conf": "low",
+     "note": "Venue and year from memory; Philosophical Issues 12 (2002)."
+    },
+    {
+     "authors": "Ladyman & Ross",
+     "year": 2007,
+     "title": "Every Thing Must Go: Metaphysics Naturalized",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Attacked armchair 'neo-scholastic' metaphysics and defended a structural realism on which physics reveals structure, not things. It is the key text for naturalistic metaphysics and the critique of metaphysical method.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rosen",
+     "year": 2010,
+     "title": "Metaphysical Dependence: Grounding and Reduction",
+     "venue": "Modality: Metaphysics, Logic, and Epistemology (Hale & Hoffmann, eds.), Oxford University Press",
+     "type": "paper",
+     "why": "Gave a careful formulation of grounding and its connection to essence and reduction. Along with Fine and Schaffer it set the standard framework that the grounding literature argues within.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schaffer",
+     "year": 2010,
+     "title": "Monism: The Priority of the Whole",
+     "venue": "The Philosophical Review",
+     "type": "paper",
+     "why": "Defended priority monism: the whole cosmos is fundamental and its parts depend on it, using quantum entanglement as support. It showed what grounding could do and is still a live position in debates about fundamentality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fine",
+     "year": 2012,
+     "title": "Guide to Ground",
+     "venue": "Metaphysical Grounding: Understanding the Structure of Reality (Correia & Schnieder, eds.), Cambridge University Press",
+     "type": "paper",
+     "why": "Laid out the logic and varieties of ground in detail. It is the most cited technical treatment of grounding and the base for current work on the logic of ground.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilson",
+     "year": 2014,
+     "title": "No Work for a Theory of Grounding",
+     "venue": "Inquiry",
+     "type": "paper",
+     "why": "Argued that a single generic grounding relation does no explanatory work that specific relations like identity, part-whole and realization do not already do. It is the leading sceptical paper about grounding and is still the main objection proponents answer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thomasson",
+     "year": 2015,
+     "title": "Ontology Made Easy",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Developed the 'easy approach': many existence questions are answered by trivial inferences from undisputed truths, so hard ontology is misguided. It is the fullest statement of the deflationist position in current metaontology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bennett",
+     "year": 2017,
+     "title": "Making Things Up",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Grouped grounding, composition, constitution and realization as 'building relations' and gave a unified theory of them. It is a central recent statement of how dependence and fundamentality should be understood.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Ethics",
+   "lead": "Ethics is mainly working on whether there are objective moral facts and reasons in light of evolution and psychology, how to act under moral and empirical uncertainty, and what we owe to distant and future people.",
+   "papers": [
+    {
+     "authors": "Singer",
+     "year": 1972,
+     "title": "Famine, Affluence, and Morality",
+     "venue": "Philosophy & Public Affairs",
+     "type": "paper",
+     "why": "Argued that if you can prevent something very bad without sacrificing anything comparably important, you must, which makes giving to famine relief a duty. It is the root of effective altruism and still the main argument in debates about the demands of morality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mackie",
+     "year": 1977,
+     "title": "Ethics: Inventing Right and Wrong",
+     "venue": "Penguin",
+     "type": "book",
+     "why": "Argued that ordinary moral claims aim at objective facts but there are none, so they are all false. Error theory, and Mackie's 'queerness' argument, are still the benchmark that moral realists have to answer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Williams",
+     "year": 1979,
+     "title": "Internal and External Reasons",
+     "venue": "Rational Action (ed. Ross Harrison), Cambridge University Press",
+     "type": "paper",
+     "why": "Argued that you have a reason to act only if it connects to some motive you already have or could reach by sound deliberation. The internalism versus externalism question about reasons it set up is still central to metaethics and the theory of normativity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Parfit",
+     "year": 1984,
+     "title": "Reasons and Persons",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that personal identity matters less than we think, that some moral theories defeat themselves, and set out the non-identity problem and the Repugnant Conclusion. Population ethics and longtermism are still working through the problems this book introduced.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Railton",
+     "year": 1986,
+     "title": "Moral Realism",
+     "venue": "The Philosophical Review",
+     "type": "paper",
+     "why": "Gave a naturalist account on which moral facts are facts about what fully informed people would want for themselves and on what is good from a social point of view. It is still the model for naturalist moral realism and for idealized-response theories of value.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gibbard",
+     "year": 1990,
+     "title": "Wise Choices, Apt Feelings: A Theory of Normative Judgment",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Treated normative judgments as accepting norms rather than describing facts, and built a formal semantics for that view. It is the basis for modern expressivism and for the debates about whether expressivists can explain the logic of moral talk.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Korsgaard",
+     "year": 1996,
+     "title": "The Sources of Normativity",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Argued that obligation comes from our need to act under some conception of our identity, which commits us to valuing humanity. It is the central text of Kantian constructivism, the main alternative to both realism and expressivism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scanlon",
+     "year": 1998,
+     "title": "What We Owe to Each Other",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Argued that an act is wrong if any principle allowing it could be reasonably rejected, and that reasons are basic. Contractualism is now a main rival to consequentialism, and Scanlon's reasons-first view shaped current metaethics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harman",
+     "year": 1999,
+     "title": "Moral Philosophy Meets Social Psychology: Virtue Ethics and the Fundamental Attribution Error",
+     "venue": "Proceedings of the Aristotelian Society",
+     "type": "paper",
+     "why": "Used experiments showing behaviour depends on situations more than on character to question whether stable virtues exist. The situationist challenge is still a major issue for virtue ethics and helped start empirically informed moral philosophy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Street",
+     "year": 2006,
+     "title": "A Darwinian Dilemma for Realist Theories of Value",
+     "venue": "Philosophical Studies",
+     "type": "paper",
+     "why": "Argued that evolution shaped our values, so if there were mind-independent moral truths it would be a coincidence that we track them. Evolutionary debunking arguments are now one of the main pressures on moral realism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Thomson",
+     "year": 1985,
+     "title": "The Trolley Problem",
+     "venue": "The Yale Law Journal",
+     "type": "paper",
+     "why": "Showed that intuitions about killing and letting die resist simple principles, using switch and footbridge cases. The trolley cases remain a test bed for the doctrine of double effect and for moral psychology and machine ethics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smith",
+     "year": 1994,
+     "title": "The Moral Problem",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Set out the puzzle of how moral judgments can be both beliefs and motivating, and defended a rationalist realism to solve it. The problem as he framed it is still how metaethics courses and debates are organized.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hursthouse",
+     "year": 1999,
+     "title": "On Virtue Ethics",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Gave the leading statement of neo-Aristotelian virtue ethics, including how it guides action. It is the version of virtue ethics that critics and defenders still engage.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Darwall",
+     "year": 2006,
+     "title": "The Second-Person Standpoint: Morality, Respect, and Accountability",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Argued that moral obligation rests on the authority people have to make claims on each other. It started a large literature on second-personal reasons, blame and accountability.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schroeder",
+     "year": 2007,
+     "title": "Slaves of the Passions",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended a Humean theory on which reasons depend on desires, while answering the standard objection that this makes reasons too relative. It is the main modern statement of Humeanism about reasons.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Berker",
+     "year": 2009,
+     "title": "The Normative Insignificance of Neuroscience",
+     "venue": "Philosophy & Public Affairs",
+     "type": "paper",
+     "why": "Argued that neuroscience showing emotional processing behind deontological judgments cannot by itself debunk them, against Greene. It is the key reply in the continuing debate over what empirical moral psychology can show.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Enoch",
+     "year": 2011,
+     "title": "Taking Morality Seriously: A Defense of Robust Realism",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended non-naturalist realism by arguing that deliberation is indispensable and commits us to irreducibly normative facts. It is a main current defence of robust realism against debunking and error theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Parfit",
+     "year": 2011,
+     "title": "On What Matters",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that Kantian, contractualist and consequentialist theories converge, and defended non-naturalist realism about reasons. Its arguments about objectivity and convergence are still being worked through.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greaves",
+     "year": 2016,
+     "title": "Cluelessness",
+     "venue": "Proceedings of the Aristotelian Society",
+     "type": "paper",
+     "why": "Asked how we can choose when the long-run effects of our actions are vast and unknowable, and distinguished harmless from troubling cluelessness. It is central to current work on longtermism and decision-making under deep uncertainty.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "MacAskill, Bykvist & Ord",
+     "year": 2020,
+     "title": "Moral Uncertainty",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Gave the first full treatment of how to act when unsure which moral theory is right, including how to compare theories. Moral uncertainty is now a standard topic in ethics and in AI alignment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Political philosophy",
+   "lead": "Political philosophy is mainly working on what equality requires, what justifies democratic authority, how ideal theory relates to real injustice such as racial domination and workplace power, and what justice demands across borders.",
+   "papers": [
+    {
+     "authors": "Rawls",
+     "year": 1971,
+     "title": "A Theory of Justice",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Argued that fair principles are those chosen behind a veil of ignorance, leading to equal liberties and the difference principle. Nearly all current political philosophy still positions itself relative to it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nozick",
+     "year": 1974,
+     "title": "Anarchy, State, and Utopia",
+     "venue": "Basic Books",
+     "type": "book",
+     "why": "Argued from self-ownership that only a minimal state is legitimate and that patterned distributions violate liberty. It remains the main philosophical statement of libertarianism and a live challenge to redistribution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dworkin",
+     "year": 1981,
+     "title": "What Is Equality? Part 2: Equality of Resources",
+     "venue": "Philosophy & Public Affairs",
+     "type": "paper",
+     "why": "Proposed that people should be equal in resources and responsible for their choices but not their bad luck, using auctions and insurance models. It started the luck egalitarian programme still argued over today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cohen",
+     "year": 1989,
+     "title": "On the Currency of Egalitarian Justice",
+     "venue": "Ethics",
+     "type": "paper",
+     "why": "Asked what egalitarians should equalize and defended 'access to advantage', sharpening the line between choice and luck. The 'equality of what?' debate it framed is still running.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Young",
+     "year": 1990,
+     "title": "Justice and the Politics of Difference",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that justice is about domination and oppression, with five faces of oppression, not just distribution. It is still the reference for theories of structural and group-based injustice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rawls",
+     "year": 1993,
+     "title": "Political Liberalism",
+     "venue": "Columbia University Press",
+     "type": "book",
+     "why": "Asked how a society of people with deep disagreements can share principles, answering with public reason and overlapping consensus. Public reason liberalism and its critics remain a major area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pettit",
+     "year": 1997,
+     "title": "Republicanism: A Theory of Freedom and Government",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended freedom as non-domination, not being subject to arbitrary power, as an alternative to non-interference. Republican freedom is now used across work on workplaces, the state and international relations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mills",
+     "year": 1997,
+     "title": "The Racial Contract",
+     "venue": "Cornell University Press",
+     "type": "book",
+     "why": "Argued that the actual social contract was a racial one that excluded nonwhites. It is the founding text of critical philosophy of race and a key source for the critique of ideal theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anderson",
+     "year": 1999,
+     "title": "What Is the Point of Equality?",
+     "venue": "Ethics",
+     "type": "paper",
+     "why": "Argued that the point of equality is relations among equals, not compensating bad luck, attacking luck egalitarianism. Relational egalitarianism is now one of the main egalitarian positions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Estlund",
+     "year": 2008,
+     "title": "Democratic Authority: A Philosophical Framework",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that democracy is justified by its tendency to make good decisions, constrained by what all can accept. It is central to the epistemic democracy debate and to work on political legitimacy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Carens",
+     "year": 1987,
+     "title": "Aliens and Citizens: The Case for Open Borders",
+     "venue": "The Review of Politics",
+     "type": "paper",
+     "why": "Argued that liberal theories of all kinds imply largely open borders. It defined the ethics of immigration as a subfield and is still the main argument critics answer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pogge",
+     "year": 2002,
+     "title": "World Poverty and Human Rights",
+     "venue": "Polity",
+     "type": "book",
+     "why": "Argued that rich nations actively harm the global poor through the institutional order they impose, so they owe duties of justice, not just charity. It is a central text in global justice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nagel",
+     "year": 2005,
+     "title": "The Problem of Global Justice",
+     "venue": "Philosophy & Public Affairs",
+     "type": "paper",
+     "why": "Argued that egalitarian justice applies only within states that coerce their members, not globally. It is the main statist position in the global justice debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cohen",
+     "year": 2008,
+     "title": "Rescuing Justice and Equality",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Argued against Rawls that justice is not a matter of rules for institutions alone and that incentives for the talented are not just. It shapes current debates on ideal theory and egalitarian ethos.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sen",
+     "year": 2009,
+     "title": "The Idea of Justice",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Argued that political philosophy should compare real options to reduce injustice rather than describe a perfect society. It is a core text in the ideal versus non-ideal theory debate and for the capability approach.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gaus",
+     "year": 2011,
+     "title": "The Order of Public Reason: A Theory of Freedom and Morality in a Diverse and Bounded World",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Rebuilt public reason liberalism around convergence among diverse individual reasons rather than shared reasons. It is a leading version of current public reason theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Landemore",
+     "year": 2013,
+     "title": "Democratic Reason: Politics, Collective Intelligence, and the Rule of the Many",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that inclusive democratic decision-making is smarter than rule by experts, using results on cognitive diversity. It drives current work on epistemic democracy and citizen assemblies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kolodny",
+     "year": 2014,
+     "title": "Rule Over None I: What Justifies Democracy?",
+     "venue": "Philosophy & Public Affairs",
+     "type": "paper",
+     "why": "Argued that democracy is required because it avoids relations of subordination, not mainly because of its outcomes. It is a central statement of relational and non-instrumental justifications of democracy.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shelby",
+     "year": 2016,
+     "title": "Dark Ghettos: Injustice, Dissent, and Reform",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Asked what justice requires of the state and of residents in segregated, poor neighbourhoods, defending a structural view of injustice. It is a key work at the intersection of race, poverty and non-ideal theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anderson",
+     "year": 2017,
+     "title": "Private Government: How Employers Rule Our Lives (and Why We Don't Talk about It)",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that employers exercise a form of government over workers that political philosophy has ignored. It made workplace domination a central topic in current political philosophy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Philosophy of mind",
+   "lead": "Philosophy of mind is mainly working on consciousness, testing physicalism, illusionism and scientific theories such as global workspace and higher-order views, and on whether AI systems could understand or be conscious.",
+   "papers": [
+    {
+     "authors": "Putnam",
+     "year": 1967,
+     "title": "Psychological Predicates",
+     "venue": "Art, Mind, and Religion (eds. Capitan & Merrill), University of Pittsburgh Press",
+     "type": "paper",
+     "why": "Argued that mental states are functional states that could be realized in many physical systems, not brain states. Functionalism remains the default view, and it is the assumption behind most debates about whether AI could have a mind.",
+     "verified": false,
+     "conf": "high",
+     "note": "Reprinted as 'The Nature of Mental States'."
+    },
+    {
+     "authors": "Nagel",
+     "year": 1974,
+     "title": "What Is It Like to Be a Bat?",
+     "venue": "The Philosophical Review",
+     "type": "paper",
+     "why": "Argued that consciousness is a subjective point of view that objective science seems unable to capture. The phrase 'what it is like' still defines the target of consciousness research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Searle",
+     "year": 1980,
+     "title": "Minds, Brains, and Programs",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Used the Chinese Room to argue that running a program is not enough for understanding. The argument is again central now that large language models raise the question directly.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jackson",
+     "year": 1982,
+     "title": "Epiphenomenal Qualia",
+     "venue": "The Philosophical Quarterly",
+     "type": "paper",
+     "why": "Gave the knowledge argument: Mary knows all the physical facts about colour but learns something new on seeing red. Responses to Mary, including the phenomenal concept strategy, still structure the physicalism debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Block",
+     "year": 1995,
+     "title": "On a Confusion about a Function of Consciousness",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Distinguished phenomenal consciousness from access consciousness. The distinction is central to current disputes between global workspace and other scientific theories of consciousness.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chalmers",
+     "year": 1995,
+     "title": "Facing Up to the Problem of Consciousness",
+     "venue": "Journal of Consciousness Studies",
+     "type": "paper",
+     "why": "Separated the 'easy problems' of cognitive function from the 'hard problem' of why there is experience at all. The framing still organizes the field, from illusionism to panpsychism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kim",
+     "year": 1998,
+     "title": "Mind in a Physical World: An Essay on the Mind-Body Problem and Mental Causation",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Gave the causal exclusion argument that if the physical world is causally closed, non-reductive mental properties do no causal work. It is still the main challenge to non-reductive physicalism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clark & Chalmers",
+     "year": 1998,
+     "title": "The Extended Mind",
+     "venue": "Analysis",
+     "type": "paper",
+     "why": "Argued that a notebook can be part of a person's memory when it plays the right role. The extended and embodied mind debates it started are live, especially with smartphones and AI tools.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clark",
+     "year": 2013,
+     "title": "Whatever Next? Predictive Brains, Situated Agents, and the Future of Cognitive Science",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Brought predictive processing, the idea that the brain constantly predicts its inputs, into philosophy of mind. It is now one of the most active frameworks for perception, action and consciousness.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frankish",
+     "year": 2016,
+     "title": "Illusionism as a Theory of Consciousness",
+     "venue": "Journal of Consciousness Studies",
+     "type": "paper",
+     "why": "Argued that phenomenal consciousness is an illusion created by introspection, so the hard problem should be replaced by explaining why we think we have it. Illusionism is now a major position with a large critical literature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Levine",
+     "year": 1983,
+     "title": "Materialism and Qualia: The Explanatory Gap",
+     "venue": "Pacific Philosophical Quarterly",
+     "type": "paper",
+     "why": "Argued that even if physicalism is true, there is a gap in explaining why a physical state feels the way it does. The explanatory gap remains the core problem for physicalists.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rosenthal",
+     "year": 1986,
+     "title": "Two Concepts of Consciousness",
+     "venue": "Philosophical Studies",
+     "type": "paper",
+     "why": "Introduced the higher-order thought theory: a state is conscious when one is aware of being in it. Higher-order theories are among the leading scientific theories of consciousness under empirical test.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dehaene & Naccache",
+     "year": 2001,
+     "title": "Towards a Cognitive Neuroscience of Consciousness: Basic Evidence and a Workspace Framework",
+     "venue": "Cognition",
+     "type": "paper",
+     "why": "Set out the global neuronal workspace theory, on which consciousness is information broadcast across the brain. It is a leading theory in current adversarial collaborations testing theories of consciousness.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tononi",
+     "year": 2004,
+     "title": "An Information Integration Theory of Consciousness",
+     "venue": "BMC Neuroscience",
+     "type": "paper",
+     "why": "Proposed that consciousness is integrated information, measurable as phi. Integrated information theory is a major and controversial contender, with debates over its testability and implications for AI.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Block",
+     "year": 2007,
+     "title": "Consciousness, Accessibility, and the Mesh between Psychology and Neuroscience",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Argued that phenomenal consciousness overflows what we can access and report. The overflow debate is central to how scientific theories of consciousness are tested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schwitzgebel",
+     "year": 2008,
+     "title": "The Unreliability of Naive Introspection",
+     "venue": "The Philosophical Review",
+     "type": "paper",
+     "why": "Argued that people are often wrong about their own current conscious experience. It undermines a key source of evidence in consciousness science and supports illusionist views.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hohwy",
+     "year": 2013,
+     "title": "The Predictive Mind",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Gave a full philosophical account of predictive processing, arguing the mind is inferential and bounded by the skull. It is a main text in the predictive processing debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goff",
+     "year": 2017,
+     "title": "Consciousness and Fundamental Reality",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended Russellian panpsychism, on which consciousness is part of the basic nature of matter. Panpsychism is now a serious contender and the combination problem is a live research topic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chalmers",
+     "year": 2018,
+     "title": "The Meta-Problem of Consciousness",
+     "venue": "Journal of Consciousness Studies",
+     "type": "paper",
+     "why": "Asked why we think there is a hard problem, arguing that answering this is tractable and constrains theories. It brought illusionists and realists into a shared research agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Butlin et al.",
+     "year": 2023,
+     "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+     "venue": "arXiv (2308.08708)",
+     "type": "paper",
+     "why": "Derived indicator properties from leading scientific theories of consciousness and assessed current AI systems against them. It is the reference point for the AI consciousness question that now dominates public debate.",
+     "verified": true,
+     "conf": "high",
+     "note": "Preprint; many co-authors including Long, Bengio, Birch, Chalmers."
+    }
+   ]
+  },
+  {
+   "field": "Philosophy of science",
+   "lead": "Philosophy of science is mainly working on how idealized models and causal methods deliver understanding, whether realism survives theory change, and how social values and statistics shape scientific knowledge.",
+   "papers": [
+    {
+     "authors": "Kuhn",
+     "year": 1962,
+     "title": "The Structure of Scientific Revolutions",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Argued that science moves through paradigms and revolutions, not steady accumulation. Questions it raised about theory choice, incommensurability and the social structure of science are still central.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "van Fraassen",
+     "year": 1980,
+     "title": "The Scientific Image",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended constructive empiricism: science aims only at theories true about observables. It remains the main anti-realist position that realists must answer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Laudan",
+     "year": 1981,
+     "title": "A Confutation of Convergent Realism",
+     "venue": "Philosophy of Science",
+     "type": "paper",
+     "why": "Listed successful past theories later found false, the pessimistic induction against realism. Selective realisms are still built to answer it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cartwright",
+     "year": 1983,
+     "title": "How the Laws of Physics Lie",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that fundamental laws are false of real systems and that models do the explanatory work. It set up current debates about idealization, models and laws.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hacking",
+     "year": 1983,
+     "title": "Representing and Intervening",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Argued that experiment has a life of its own and that we can be realists about entities we manipulate. Entity realism and the philosophy of experiment still build on it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Worrall",
+     "year": 1989,
+     "title": "Structural Realism: The Best of Both Worlds?",
+     "venue": "Dialectica",
+     "type": "paper",
+     "why": "Argued that mathematical structure survives theory change even when ontology does not. Structural realism remains a leading response to the pessimistic induction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Douglas",
+     "year": 2000,
+     "title": "Inductive Risk and Values in Science",
+     "venue": "Philosophy of Science",
+     "type": "paper",
+     "why": "Argued that scientists must use social values when deciding how much evidence is enough, because errors have consequences. It revived the values-in-science debate, now central to the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Woodward",
+     "year": 2003,
+     "title": "Making Things Happen: A Theory of Causal Explanation",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Analysed causation and explanation in terms of interventions. Interventionism is now the standard account across philosophy of science and links to causal modelling in statistics and AI.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stanford",
+     "year": 2006,
+     "title": "Exceeding Our Grasp: Science, History, and the Problem of Unconceived Alternatives",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that scientists repeatedly fail to conceive serious alternatives to their theories, threatening realism. It is the strongest recent anti-realist argument.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Weisberg",
+     "year": 2013,
+     "title": "Simulation and Similarity: Using Models to Understand the World",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Gave a systematic account of scientific models and how they represent targets by similarity. It anchors the very active current work on modelling and idealization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Longino",
+     "year": 1990,
+     "title": "Science as Social Knowledge: Values and Objectivity in Scientific Inquiry",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that objectivity comes from critical interaction within a scientific community. It underlies current social epistemology of science and feminist philosophy of science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Psillos",
+     "year": 1999,
+     "title": "Scientific Realism: How Science Tracks Truth",
+     "venue": "Routledge",
+     "type": "book",
+     "why": "Gave the leading defence of selective realism, keeping the parts of theories that did the work in successes. It is the standard realist reply to the pessimistic induction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Machamer, Darden & Craver",
+     "year": 2000,
+     "title": "Thinking about Mechanisms",
+     "venue": "Philosophy of Science",
+     "type": "paper",
+     "why": "Defined mechanisms as entities and activities organized to produce phenomena. The new mechanism programme it launched dominates philosophy of biology and neuroscience.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pearl",
+     "year": 2000,
+     "title": "Causality: Models, Reasoning, and Inference",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Developed causal graphical models and the do-calculus for inferring effects of interventions. It changed how philosophers and scientists treat causal inference.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kitcher",
+     "year": 2001,
+     "title": "Science, Truth, and Democracy",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that the research agenda should be set by 'well-ordered science' reflecting democratic deliberation. It is a key text on science and democracy and values in science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Godfrey-Smith",
+     "year": 2006,
+     "title": "The Strategy of Model-Based Science",
+     "venue": "Biology and Philosophy",
+     "type": "paper",
+     "why": "Distinguished model-based science, which studies a model as an indirect route to a target, from abstract direct representation. It is a central paper in philosophy of modelling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Strevens",
+     "year": 2008,
+     "title": "Depth: An Account of Scientific Explanation",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Gave a kairetic account in which explanations cite only difference-making factors. It is a leading theory of explanation and of idealization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Elgin",
+     "year": 2017,
+     "title": "True Enough",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Argued that science aims at understanding, which can be advanced by felicitous falsehoods like idealizations. It is central to the current focus on understanding over truth.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Potochnik",
+     "year": 2017,
+     "title": "Idealization and the Aims of Science",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Argued that idealizations are pervasive and permanent because science aims at understanding for limited human agents. It shapes current debates about the aims of science.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mayo",
+     "year": 2018,
+     "title": "Statistical Inference as Severe Testing: How to Get Beyond the Statistics Wars",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Defended error-statistical methods and severe testing amid the replication crisis. It is central to current philosophy of statistics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Philosophy of language",
+   "lead": "Philosophy of language is mainly working on context-sensitivity and the semantics-pragmatics line, the dynamics of conversation, the social and political uses of speech, and whether language models mean anything.",
+   "papers": [
+    {
+     "authors": "Frege",
+     "year": 1892,
+     "title": "Über Sinn und Bedeutung (On Sense and Reference)",
+     "venue": "Zeitschrift für Philosophie und philosophische Kritik",
+     "type": "paper",
+     "why": "Distinguished an expression's sense from its reference to explain informative identity statements. Frege's puzzle is still the problem every theory of names and attitude reports must solve.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Davidson",
+     "year": 1967,
+     "title": "Truth and Meaning",
+     "venue": "Synthese",
+     "type": "paper",
+     "why": "Proposed that a theory of meaning is a theory of truth conditions built compositionally. It underlies formal semantics and current debates about the link between meaning and truth.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Grice",
+     "year": 1975,
+     "title": "Logic and Conversation",
+     "venue": "Syntax and Semantics, Vol. 3: Speech Acts (Cole & Morgan, eds.), Academic Press",
+     "type": "paper",
+     "why": "Introduced conversational implicature and the cooperative principle. The line it drew between what is said and what is implicated is still the core of the semantics-pragmatics debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Putnam",
+     "year": 1975,
+     "title": "The Meaning of 'Meaning'",
+     "venue": "Minnesota Studies in the Philosophy of Science, Vol. 7 (Gunderson, ed.)",
+     "type": "paper",
+     "why": "Argued with Twin Earth that meanings 'ain't in the head'. Semantic externalism is still the default and matters in debates about conceptual engineering and AI meaning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stalnaker",
+     "year": 1978,
+     "title": "Assertion",
+     "venue": "Syntax and Semantics, Vol. 9: Pragmatics (Cole, ed.), Academic Press",
+     "type": "paper",
+     "why": "Modelled assertion as narrowing the common ground of a conversation. This model underlies dynamic semantics and work on presupposition.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewis",
+     "year": 1979,
+     "title": "Scorekeeping in a Language Game",
+     "venue": "Journal of Philosophical Logic",
+     "type": "paper",
+     "why": "Treated conversation as a game with an evolving score that accommodates what speakers say. It is basic to work on accommodation, context-sensitivity and social uses of speech.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kripke",
+     "year": 1980,
+     "title": "Naming and Necessity",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Argued that names refer directly, not by descriptions, and separated necessity from a priority. It set the agenda for reference and modality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaplan",
+     "year": 1989,
+     "title": "Demonstratives",
+     "venue": "Themes from Kaplan (Almog, Perry & Wettstein, eds.), Oxford University Press",
+     "type": "paper",
+     "why": "Gave the logic of indexicals with the character/content distinction. It is the standard framework for context-sensitivity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Langton",
+     "year": 1993,
+     "title": "Speech Acts and Unspeakable Acts",
+     "venue": "Philosophy & Public Affairs",
+     "type": "paper",
+     "why": "Used speech act theory to argue that pornography can subordinate and silence. It started the work on speech and oppression that now covers slurs, propaganda and hate speech.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stanley",
+     "year": 2000,
+     "title": "Context and Logical Form",
+     "venue": "Linguistics and Philosophy",
+     "type": "paper",
+     "why": "Argued that all context effects on truth conditions trace to hidden variables in logical form. It is the key statement of indexicalism in the debate with contextualists and minimalists.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kripke",
+     "year": 1982,
+     "title": "Wittgenstein on Rules and Private Language",
+     "venue": "Harvard University Press",
+     "type": "book",
+     "why": "Posed a sceptical paradox about what fixes meaning, since no fact seems to make it the case that you mean plus. The rule-following problem is still live, including for meaning in AI systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stalnaker",
+     "year": 2002,
+     "title": "Common Ground",
+     "venue": "Linguistics and Philosophy",
+     "type": "paper",
+     "why": "Refined the notion of common ground as shared acceptance. It is the standard reference for conversation models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cappelen & Lepore",
+     "year": 2005,
+     "title": "Insensitive Semantics: A Defense of Semantic Minimalism and Speech Act Pluralism",
+     "venue": "Blackwell",
+     "type": "book",
+     "why": "Argued that few expressions are context-sensitive and semantics should be minimal. It is a pole of the contextualism debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yalcin",
+     "year": 2007,
+     "title": "Epistemic Modals",
+     "venue": "Mind",
+     "type": "paper",
+     "why": "Showed puzzles about 'might' that standard semantics cannot handle and gave a domain semantics. It drove the rise of expressivist and dynamic approaches to modals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hom",
+     "year": 2008,
+     "title": "The Semantics of Racial Epithets",
+     "venue": "The Journal of Philosophy",
+     "type": "paper",
+     "why": "Argued that slurs' derogatory content is part of their semantics. It started the philosophical literature on slurs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roberts",
+     "year": 2012,
+     "title": "Information Structure in Discourse: Towards an Integrated Formal Theory of Pragmatics",
+     "venue": "Semantics and Pragmatics",
+     "type": "paper",
+     "why": "Modelled discourse as organized by questions under discussion. The QUD framework is now standard in formal pragmatics.",
+     "verified": false,
+     "conf": "low",
+     "note": "Originally circulated 1996 in OSU Working Papers in Linguistics; reprinted 2012 in Semantics and Pragmatics vol. 5."
+    },
+    {
+     "authors": "MacFarlane",
+     "year": 2014,
+     "title": "Assessment Sensitivity: Relative Truth and Its Applications",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Defended truth relative to a context of assessment for taste, knowledge and future contingents. It is the main statement of relativism in semantics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stanley",
+     "year": 2015,
+     "title": "How Propaganda Works",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Analysed propaganda as speech that exploits flawed ideologies to undermine democratic ideals. It is central to the political philosophy of language.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cappelen",
+     "year": 2018,
+     "title": "Fixing Language: An Essay on Conceptual Engineering",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Gave the first systematic account of conceptual engineering, the revision of our concepts. It launched one of the field's most active current topics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bender & Koller",
+     "year": 2020,
+     "title": "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data",
+     "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+     "type": "paper",
+     "why": "Argued that systems trained only on linguistic form cannot learn meaning. It is the central reference in the debate over whether language models understand.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "discipline": "Economics",
+ "fields": [
+  {
+   "field": "Environmental & energy economics",
+   "lead": "Pinning down climate damages and the social cost of carbon from micro evidence, and measuring how well carbon pricing, efficiency policy and power-market design actually cut emissions and steer clean innovation.",
+   "papers": [
+    {
+     "authors": "Weitzman",
+     "year": 1974,
+     "title": "Prices vs. Quantities",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Showed that whether a tax or a cap is better depends on the relative slopes of marginal costs and marginal benefits under uncertainty. It is still the starting point for every argument over carbon taxes versus cap-and-trade, and for hybrid designs with price floors and ceilings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stern",
+     "year": 2007,
+     "title": "The Economics of Climate Change: The Stern Review",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Argued for strong early action largely through a near-zero pure rate of time preference, setting off the Stern–Nordhaus discounting fight. The prescriptive-versus-descriptive discounting debate it sharpened still determines how large any social cost of carbon comes out.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Weitzman",
+     "year": 2009,
+     "title": "On Modeling and Interpreting the Economics of Catastrophic Climate Change",
+     "venue": "Review of Economics and Statistics",
+     "type": "paper",
+     "why": "Argued that fat-tailed uncertainty about climate sensitivity and damages can swamp discounting and make standard cost-benefit analysis unreliable (the 'dismal theorem'). The question of how to price tail risk in climate policy remains open and shapes how integrated assessment models treat catastrophe.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nordhaus",
+     "year": 2017,
+     "title": "Revisiting the Social Cost of Carbon",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Updated the DICE integrated assessment model and its social cost of carbon estimates, with explicit treatment of uncertainty. DICE remains the reference IAM that newer models are built against or argue with, and this paper states its current numbers and assumptions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Acemoglu, Aghion, Bursztyn & Hemous",
+     "year": 2012,
+     "title": "The Environment and Directed Technical Change",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Put endogenous, directed innovation into a climate model, showing that temporary carbon taxes plus research subsidies can redirect innovation toward clean technologies for good. It made path dependence in innovation central to climate policy design and is still the main framework for pairing carbon pricing with green R&D support.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Burke, Hsiang & Miguel",
+     "year": 2015,
+     "title": "Global Non-Linear Effect of Temperature on Economic Production",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Estimated a concave, globally shared relationship between temperature and output, implying much larger climate damages than standard IAM damage functions. Whether warming hits growth rates or levels, and how large aggregate damages are, is still the field's most consequential empirical dispute.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carleton et al.",
+     "year": 2022,
+     "title": "Valuing the Global Mortality Consequences of Climate Change Accounting for Adaptation Costs and Benefits",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used subnational mortality data from around the world to estimate temperature-mortality effects that account for adaptation and its costs. It is the template for the bottom-up, sector-by-sector damage estimation that now feeds directly into official social cost of carbon numbers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rennert et al.",
+     "year": 2022,
+     "title": "Comprehensive Evidence Implies a Higher Social Cost of CO2",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Built a modular social cost of carbon from updated socioeconomic projections, discounting tied to growth uncertainty, and recent damage evidence, arriving near $185 per ton. It underpinned the US EPA's revised estimate and is the current benchmark that other estimates are judged against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Allcott & Greenstone",
+     "year": 2012,
+     "title": "Is There an Energy Efficiency Gap?",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "Asked whether consumers and firms really leave profitable efficiency investments unmade and found the evidence for a large gap much weaker than engineering studies claimed. It reframed the question around measurable market failures and launched the wave of field-experimental tests of efficiency policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schmalensee & Stavins",
+     "year": 2017,
+     "title": "Lessons Learned from Three Decades of Experience with Cap and Trade",
+     "venue": "Review of Environmental Economics and Policy",
+     "type": "paper",
+     "why": "Reviewed the record of SO2 trading, RECLAIM, the EU ETS, RGGI, California and others, drawing out what made systems work or fail. It is the standard synthesis of cap-and-trade evidence that new and reformed carbon markets are designed against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Golosov, Hassler, Krusell & Tsyvinski",
+     "year": 2014,
+     "title": "Optimal Taxes on Fossil Fuel in General Equilibrium",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Derived a simple closed-form optimal carbon tax proportional to output in a dynamic general equilibrium model. It made climate economics tractable for macroeconomists and anchors the newer quantitative climate-macro literature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dell, Jones & Olken",
+     "year": 2012,
+     "title": "Temperature Shocks and Economic Growth: Evidence from the Last Half Century",
+     "venue": "American Economic Journal: Macroeconomics",
+     "type": "paper",
+     "why": "Used year-to-year temperature variation to show that hot years reduce growth substantially in poor countries. It opened the panel-weather approach to climate damages that later studies extend and contest.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hsiang et al.",
+     "year": 2017,
+     "title": "Estimating Economic Damage from Climate Change in the United States",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Combined climate projections with empirical damage functions across sectors to estimate county-level US damages. It showed how unequally damages fall and is a model for spatially resolved damage accounting.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pindyck",
+     "year": 2013,
+     "title": "Climate Change Policy: What Do the Models Tell Us?",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Argued that IAMs' outputs are driven by arbitrary assumptions about damages and discount rates and give a false sense of precision. The critique still frames debate about how much weight to put on any model-based social cost of carbon.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Drupp, Freeman, Groom & Nesje",
+     "year": 2018,
+     "title": "Discounting Disentangled",
+     "venue": "American Economic Journal: Economic Policy",
+     "type": "paper",
+     "why": "Surveyed hundreds of experts on the components of the social discount rate, finding a median near 2% but wide disagreement on each parameter. It is the empirical basis for the lower discount rates now used in official carbon valuations.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Calel & Dechezleprêtre",
+     "year": 2016,
+     "title": "Environmental Policy and Directed Technological Change: Evidence from the European Carbon Market",
+     "venue": "Review of Economics and Statistics",
+     "type": "paper",
+     "why": "Found that firms regulated under the EU ETS increased low-carbon patenting relative to matched unregulated firms. It is key evidence on whether carbon markets actually induce clean innovation, and how much.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aghion, Dechezleprêtre, Hémous, Martin & Van Reenen",
+     "year": 2016,
+     "title": "Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed with patent data that higher fuel prices push car-makers toward clean innovation and that firms' innovation history is path-dependent. It gave empirical support to directed technical change theory and to early, credible price signals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fowlie, Greenstone & Wolfram",
+     "year": 2018,
+     "title": "Do Energy Efficiency Investments Deliver? Evidence from the Weatherization Assistance Program",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "A randomized encouragement design found realized energy savings were far below engineering projections, making the investments a poor deal. It intensified the debate over the efficiency gap and over relying on modeled rather than measured savings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Borenstein",
+     "year": 2012,
+     "title": "The Private and Public Economics of Renewable Electricity Generation",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "Sorted the valid from the dubious arguments for subsidizing renewables, stressing that their value depends on when and where they produce. Those questions about intermittency, market value and second-best subsidies dominate electricity-market economics today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hirth",
+     "year": 2013,
+     "title": "The Market Value of Variable Renewables: The Effect of Solar Wind Power Variability on Their Relative Price",
+     "venue": "Energy Economics",
+     "type": "paper",
+     "why": "Showed that the market value of wind and solar falls as their share grows, because they produce at the same times. Value deflation, or cannibalization, is now central to planning high-renewable power systems and their market design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "discipline": "Systems & information",
+ "fields": [
+  {
+   "field": "Optimization & operations research",
+   "lead": "The field is scaling first-order and GPU-friendly solvers, blending machine learning with optimization, and making decisions robust to uncertain data.",
+   "papers": [
+    {
+     "authors": "Boyd & Vandenberghe",
+     "year": 2004,
+     "title": "Convex Optimization",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "It taught a generation to recognize and reformulate problems as convex programs, which can be solved reliably. Its modeling view underlies modern tools like CVXPY and remains the field's common language.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nesterov & Nemirovskii",
+     "year": 1994,
+     "title": "Interior-Point Polynomial Algorithms in Convex Programming",
+     "venue": "SIAM",
+     "type": "book",
+     "why": "It built the theory of self-concordant barriers, showing why interior-point methods solve broad classes of convex problems in polynomial time. Every conic solver in use today rests on this theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Robbins & Monro",
+     "year": 1951,
+     "title": "A Stochastic Approximation Method",
+     "venue": "Annals of Mathematical Statistics",
+     "type": "paper",
+     "why": "It showed how to find a root using only noisy evaluations with decreasing step sizes. Stochastic gradient descent, the workhorse of large-scale learning and stochastic optimization, descends directly from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nesterov",
+     "year": 1983,
+     "title": "A Method for Solving the Convex Programming Problem with Convergence Rate O(1/k^2)",
+     "venue": "Soviet Mathematics Doklady",
+     "type": "paper",
+     "why": "It introduced accelerated gradient methods that reach the optimal rate for smooth convex problems. Acceleration and its interpretations are still an active research area and appear in most first-order solvers.",
+     "verified": false,
+     "conf": "high",
+     "note": "Title is the standard English translation; original in Russian (Doklady Akademii Nauk SSSR)."
+    },
+    {
+     "authors": "Tassiulas & Ephremides",
+     "year": 1992,
+     "title": "Stability Properties of Constrained Queueing Systems and Scheduling Policies for Maximum Throughput in Multihop Radio Networks",
+     "venue": "IEEE Transactions on Automatic Control",
+     "type": "paper",
+     "why": "It introduced the max-weight scheduling policy and proved it stabilizes any load the network can support. Max-weight and its drift arguments drive current work on switches, data centers and ride-hailing matching.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ben-Tal & Nemirovski",
+     "year": 1998,
+     "title": "Robust Convex Optimization",
+     "venue": "Mathematics of Operations Research",
+     "type": "paper",
+     "why": "It showed that optimizing against worst cases in an uncertainty set often stays a tractable convex problem. This made robust optimization a practical modeling paradigm that is now standard in operations research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nemirovski, Juditsky, Lan & Shapiro",
+     "year": 2009,
+     "title": "Robust Stochastic Approximation Approach to Stochastic Programming",
+     "venue": "SIAM Journal on Optimization",
+     "type": "paper",
+     "why": "It showed that properly averaged stochastic gradient methods beat sample average approximation on many stochastic programs. It shaped the modern complexity theory of stochastic first-order methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Boyd, Parikh, Chu, Peleato & Eckstein",
+     "year": 2011,
+     "title": "Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers",
+     "venue": "Foundations and Trends in Machine Learning",
+     "type": "paper",
+     "why": "It revived ADMM as a simple way to split large problems across machines or structures. Operator-splitting methods it popularized power first-order solvers like OSQP and SCS.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mohajerin Esfahani & Kuhn",
+     "year": 2018,
+     "title": "Data-Driven Distributionally Robust Optimization Using the Wasserstein Metric: Performance Guarantees and Tractable Reformulations",
+     "venue": "Mathematical Programming",
+     "type": "paper",
+     "why": "It showed that hedging against all distributions near the empirical data in Wasserstein distance gives tractable problems with finite-sample guarantees. Wasserstein DRO is now a central topic in data-driven decision making.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bengio, Lodi & Prouvost",
+     "year": 2021,
+     "title": "Machine Learning for Combinatorial Optimization: A Methodological Tour d'Horizon",
+     "venue": "European Journal of Operational Research",
+     "type": "paper",
+     "why": "It mapped how learning can replace or guide decisions inside combinatorial solvers. It frames the fast-growing research on learned branching, cuts and heuristics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Halfin & Whitt",
+     "year": 1981,
+     "title": "Heavy-Traffic Limits for Queues with Many Exponential Servers",
+     "venue": "Operations Research",
+     "type": "paper",
+     "why": "It identified the regime where many-server systems are both efficient and responsive. The Halfin-Whitt regime still guides staffing of call centers, hospitals and cloud systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dai",
+     "year": 1995,
+     "title": "On Positive Harris Recurrence of Multiclass Queueing Networks: A Unified Approach via Fluid Limit Models",
+     "venue": "Annals of Applied Probability",
+     "type": "paper",
+     "why": "It showed that stability of complex queueing networks can be read from deterministic fluid models. Fluid limits remain the main tool for proving that scheduling policies work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Burer & Monteiro",
+     "year": 2003,
+     "title": "A Nonlinear Programming Algorithm for Solving Semidefinite Programs via Low-Rank Factorization",
+     "venue": "Mathematical Programming",
+     "type": "paper",
+     "why": "It solved large semidefinite programs by optimizing over low-rank factors instead of full matrices. Its nonconvex approach and the theory of when it is benign are active research topics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bertsimas & Sim",
+     "year": 2004,
+     "title": "The Price of Robustness",
+     "venue": "Operations Research",
+     "type": "paper",
+     "why": "It introduced budgeted uncertainty sets that let modelers control conservatism while keeping linear programs linear. It is the most used form of robust optimization in practice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Beck & Teboulle",
+     "year": 2009,
+     "title": "A Fast Iterative Shrinkage-Thresholding Algorithm for Linear Inverse Problems",
+     "venue": "SIAM Journal on Imaging Sciences",
+     "type": "paper",
+     "why": "FISTA brought acceleration to composite problems with nonsmooth regularizers. Proximal gradient methods it popularized are still default tools for structured optimization.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bottou, Curtis & Nocedal",
+     "year": 2018,
+     "title": "Optimization Methods for Large-Scale Machine Learning",
+     "venue": "SIAM Review",
+     "type": "paper",
+     "why": "It explained why stochastic gradient methods dominate large-scale learning and surveyed noise reduction and second-order variants. It is the standard bridge between optimization theory and machine learning practice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gasse, Chételat, Ferroni, Charlin & Lodi",
+     "year": 2019,
+     "title": "Exact Combinatorial Optimization with Graph Convolutional Neural Networks",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "It learned branching decisions inside branch-and-bound with a graph neural network on the variable-constraint graph. It set the template for learning inside exact MIP solvers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Applegate, Díaz, Hinder, Lu, Lubin, O'Donoghue & Schudy",
+     "year": 2021,
+     "title": "Practical Large-Scale Linear Programming using Primal-Dual Hybrid Gradient",
+     "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+     "type": "paper",
+     "why": "PDLP showed that a first-order method with restarts and preconditioning can solve huge linear programs competitively. GPU-based first-order LP solvers built on it are reshaping commercial solvers.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Elmachtoub & Grigas",
+     "year": 2022,
+     "title": "Smart \"Predict, then Optimize\"",
+     "venue": "Management Science",
+     "type": "paper",
+     "why": "It trained predictive models on the cost of the decisions they lead to, not prediction error. Decision-focused learning is a major current research thread in operations research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Koch, Berthold, Pedersen & Vanaret",
+     "year": 2022,
+     "title": "Progress in Mathematical Programming Solvers from 2001 to 2020",
+     "venue": "EURO Journal on Computational Optimization",
+     "type": "paper",
+     "why": "It measured the large speedups of LP and MIP solvers over two decades and where they came from. It is the current reference on what modern solvers can do and what still limits them.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

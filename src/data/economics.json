@@ -1,0 +1,2057 @@
+{
+ "discipline": "Economics",
+ "fields": [
+  {
+   "field": "Microeconomic theory",
+   "lead": "Theorists are building mechanism and information design that stays robust when the designer knows little, and turning matching and auction theory into working markets.",
+   "papers": [
+    {
+     "authors": "Gale & Shapley",
+     "year": 1962,
+     "title": "College Admissions and the Stability of Marriage",
+     "venue": "American Mathematical Monthly",
+     "type": "paper",
+     "why": "Introduced stable matching and the deferred-acceptance algorithm. It runs school-choice and medical-residency matches today, and every new matching market is still judged against it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Akerlof",
+     "year": 1970,
+     "title": "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Showed that hidden quality can make a market unravel. Adverse selection is still the first question asked of insurance, credit, used-goods and platform markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Myerson",
+     "year": 1981,
+     "title": "Optimal Auction Design",
+     "venue": "Mathematics of Operations Research",
+     "type": "paper",
+     "why": "Gave the revenue-maximizing auction and the revelation-principle toolkit for designing mechanisms. Virtual values and the same method are still how theorists attack pricing, auctions and screening problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Milgrom & Weber",
+     "year": 1982,
+     "title": "A Theory of Auctions and Competitive Bidding",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Brought interdependent values and the linkage principle into auction theory. It explains why open, ascending formats reveal information and shaped the spectrum and ad auctions in use now.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Crawford & Sobel",
+     "year": 1982,
+     "title": "Strategic Information Transmission",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed that when interests differ, communication is coarse and only partly informative. Cheap-talk models remain the baseline for advice, delegation, and the persuasion literature that grew from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hart & Moore",
+     "year": 1990,
+     "title": "Property Rights and the Nature of the Firm",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Argued that ownership matters because contracts are incomplete, so control rights shape investment. Incomplete-contract theory still frames debates about firm boundaries, and its foundations are still contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Holmström & Milgrom",
+     "year": 1991,
+     "title": "Multitask Principal-Agent Analyses: Incentive Contracts, Asset Ownership, and Job Design",
+     "venue": "Journal of Law, Economics, & Organization",
+     "type": "paper",
+     "why": "Showed that strong incentives on measurable tasks crowd out effort on unmeasured ones. It explains why real contracts are often low-powered and is the standard lens for metrics-driven pay, teaching to the test, and algorithmic management.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abdulkadiroğlu & Sönmez",
+     "year": 2003,
+     "title": "School Choice: A Mechanism Design Approach",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Recast school assignment as a mechanism-design problem and proposed strategy-proof alternatives to manipulable systems. It launched the redesign of school choice in Boston, New York and beyond, and the field is still refining it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kamenica & Gentzkow",
+     "year": 2011,
+     "title": "Bayesian Persuasion",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Asked how a sender should design information when it can commit to what it reveals. This started information design, now one of the most active areas in theory, applied to ratings, disclosure, and platforms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bergemann & Morris",
+     "year": 2013,
+     "title": "Robust Predictions in Games with Incomplete Information",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Characterized every outcome a game can produce across all possible information structures, via Bayes correlated equilibrium. It gives the tool for robust prediction and for information design in multi-player settings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Myerson & Satterthwaite",
+     "year": 1983,
+     "title": "Efficient Mechanisms for Bilateral Trading",
+     "venue": "Journal of Economic Theory",
+     "type": "paper",
+     "why": "Proved that with private values no mechanism can guarantee efficient, voluntary, budget-balanced trade. The impossibility still sets the limits for market design and bargaining policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roth",
+     "year": 2002,
+     "title": "The Economist as Engineer: Game Theory, Experimentation, and Computation as Tools for Design Economics",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Set out market design as an engineering discipline, drawing on the redesign of the medical residency match. It defines how economists now build and fix real markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bergemann & Morris",
+     "year": 2005,
+     "title": "Robust Mechanism Design",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Asked which mechanisms work regardless of what agents believe about each other. It started the push to make mechanism design less reliant on common-knowledge assumptions, still a central theme.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hatfield & Milgrom",
+     "year": 2005,
+     "title": "Matching with Contracts",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Unified matching and auctions in one framework where agents match over contract terms. It is the backbone of modern matching theory, used for cadet-branch matching and labor-market design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Budish",
+     "year": 2011,
+     "title": "The Combinatorial Assignment Problem: Approximate Competitive Equilibrium from Equal Incomes",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Gave a practical, approximately fair and efficient way to allocate bundles without money. It is used for course allocation at Wharton and is a model for fair-division design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carroll",
+     "year": 2015,
+     "title": "Robustness and Linear Contracts",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that linear contracts are optimal when the principal fears the worst about what the agent can do. It is the leading example of the max-min approach now spreading through contract and mechanism theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bergemann, Brooks & Morris",
+     "year": 2015,
+     "title": "The Limits of Price Discrimination",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Mapped every combination of consumer and producer surplus that information about buyers can produce. It is central to current debates over data, privacy and personalized pricing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Li",
+     "year": 2017,
+     "title": "Obviously Strategy-Proof Mechanisms",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Defined mechanisms whose dominant strategy is obvious even to boundedly rational players. It explains why ascending auctions outperform sealed bids in practice and is reshaping design theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bergemann & Morris",
+     "year": 2019,
+     "title": "Information Design: A Unified Perspective",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Ties Bayesian persuasion and Bayes correlated equilibrium into one framework. It is the standard map of the information-design field and its open questions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Milgrom & Segal",
+     "year": 2020,
+     "title": "Clock Auctions and Radio Spectrum Reallocation",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Developed deferred-acceptance clock auctions behind the FCC incentive auction that bought back broadcast spectrum. It shows theory running a multibillion-dollar market and is the template for complex procurement.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Macroeconomics & growth",
+   "lead": "The frontier puts household and firm heterogeneity into models of monetary and fiscal policy, identifies policy effects with sharper empirical designs, and asks why productivity growth has slowed.",
+   "papers": [
+    {
+     "authors": "Lucas",
+     "year": 1976,
+     "title": "Econometric Policy Evaluation: A Critique",
+     "venue": "Carnegie-Rochester Conference Series on Public Policy",
+     "type": "paper",
+     "why": "Argued that relationships estimated under one policy break down when policy changes, because expectations adjust. It is why macro models are built from preferences and technology, and the critique is still invoked against reduced-form policy analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Romer",
+     "year": 1990,
+     "title": "Endogenous Technological Change",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Made growth the result of profit-seeking investment in nonrival ideas. Idea-based growth remains the core framework for thinking about R&D policy and the productivity slowdown.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aghion & Howitt",
+     "year": 1992,
+     "title": "A Model of Growth Through Creative Destruction",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Modeled growth as new innovations replacing incumbents. The Schumpeterian framework now drives work on competition, firm dynamics and why innovation may be slowing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kiyotaki & Moore",
+     "year": 1997,
+     "title": "Credit Cycles",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed how collateral constraints let small shocks amplify through asset prices and lending. After 2008 this mechanism became standard in macro-finance models of crises.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Krusell & Smith",
+     "year": 1998,
+     "title": "Income and Wealth Heterogeneity in the Macroeconomy",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed how to solve business-cycle models with many different households facing uninsured risk. It opened the heterogeneous-agent macro that now dominates the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Acemoglu, Johnson & Robinson",
+     "year": 2001,
+     "title": "The Colonial Origins of Comparative Development: An Empirical Investigation",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Used settler mortality to argue that institutions cause long-run income differences. Its data and identification are still disputed, and it anchors the institutions-and-growth agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Christiano, Eichenbaum & Evans",
+     "year": 2005,
+     "title": "Nominal Rigidities and the Dynamic Effects of a Shock to Monetary Policy",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Built a New Keynesian model with the frictions needed to match the estimated response to monetary shocks. It became the template for the DSGE models central banks use, and the benchmark HANK models are judged against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hsieh & Klenow",
+     "year": 2009,
+     "title": "Misallocation and Manufacturing TFP in China and India",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Measured how much output is lost when capital and labor are spread badly across firms. Misallocation is now a main explanation for cross-country productivity gaps.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaplan, Moll & Violante",
+     "year": 2018,
+     "title": "Monetary Policy According to HANK",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that with realistic household balance sheets, monetary policy works mostly through indirect general-equilibrium effects on income. It set the direction of current macro research on policy transmission.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nakamura & Steinsson",
+     "year": 2018,
+     "title": "High-Frequency Identification of Monetary Non-Neutrality: The Information Effect",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used narrow windows around Fed announcements to identify policy effects and found announcements also move beliefs about the economy. It is central to the current empirical debate on how monetary policy works.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Aiyagari",
+     "year": 1994,
+     "title": "Uninsured Idiosyncratic Risk and Aggregate Saving",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Built the steady-state model of households saving against uninsurable income risk. It is the core building block inside every HANK model.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jones",
+     "year": 1995,
+     "title": "R&D-Based Models of Economic Growth",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed that idea-based models wrongly predict growth rising with research effort, and offered semi-endogenous growth instead. The question of scale effects still shapes growth forecasts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Woodford",
+     "year": 2003,
+     "title": "Interest and Prices: Foundations of a Theory of Monetary Policy",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Set out the New Keynesian theory of interest-rate policy and the role of managing expectations. It is the reference framework for inflation targeting and forward guidance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jordà",
+     "year": 2005,
+     "title": "Estimation and Inference of Impulse Responses by Local Projections",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Proposed estimating impulse responses horizon by horizon instead of through a VAR. Local projections are now a default tool in empirical macro, and their trade-offs with VARs are actively studied.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smets & Wouters",
+     "year": 2007,
+     "title": "Shocks and Frictions in US Business Cycles: A Bayesian DSGE Approach",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that an estimated medium-scale DSGE model can forecast as well as statistical models. It set the template for policy models at central banks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Restuccia & Rogerson",
+     "year": 2008,
+     "title": "Policy Distortions and Aggregate Productivity with Heterogeneous Establishments",
+     "venue": "Review of Economic Dynamics",
+     "type": "paper",
+     "why": "Showed that policies favoring some firms over others can sharply cut aggregate productivity. With Hsieh-Klenow it founded the misallocation literature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gabaix",
+     "year": 2011,
+     "title": "The Granular Origins of Aggregate Fluctuations",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Argued that shocks to very large firms do not average out and can drive aggregate fluctuations. It started the micro-to-macro work on firms, networks and concentration.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mian, Rao & Sufi",
+     "year": 2013,
+     "title": "Household Balance Sheets, Consumption, and the Economic Slump",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used regional data to show that housing-wealth losses hit spending hardest among indebted households. It made household debt central to how macro understands recessions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bloom, Jones, Van Reenen & Webb",
+     "year": 2020,
+     "title": "Are Ideas Getting Harder to Find?",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Found research productivity falling sharply across many fields. It frames current debate on the growth slowdown and on whether AI could reverse it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Auclert, Bardóczy, Rognlie & Straub",
+     "year": 2021,
+     "title": "Using the Sequence-Space Jacobian to Solve and Estimate Heterogeneous-Agent Models",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Made heterogeneous-agent models fast to solve and estimate. It is the computational method behind much of current HANK research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Econometrics",
+   "lead": "Work centers on credible causal inference: difference-in-differences robust to heterogeneous effects, shift-share and design-based identification, and machine learning with valid inference.",
+   "papers": [
+    {
+     "authors": "Hansen",
+     "year": 1982,
+     "title": "Large Sample Properties of Generalized Method of Moments Estimators",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed how to estimate models from moment conditions without specifying full distributions. GMM still underlies structural estimation and much of asset pricing and macro.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rosenbaum & Rubin",
+     "year": 1983,
+     "title": "The Central Role of the Propensity Score in Observational Studies for Causal Effects",
+     "venue": "Biometrika",
+     "type": "paper",
+     "why": "Showed that conditioning on the probability of treatment is enough to remove bias from observed confounders. Propensity scores are now built into matching, weighting and doubly-robust machine-learning estimators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Imbens & Angrist",
+     "year": 1994,
+     "title": "Identification and Estimation of Local Average Treatment Effects",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed that with heterogeneous effects, instrumental variables recover the effect for compliers only. This changed how every IV estimate is interpreted and set up the field's focus on heterogeneity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Staiger & Stock",
+     "year": 1997,
+     "title": "Instrumental Variables Regression with Weak Instruments",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed that weak instruments make standard IV inference unreliable and gave the rule-of-thumb diagnostics. Weak-instrument inference is still being revised, so this remains the reference point.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bertrand, Duflo & Mullainathan",
+     "year": 2004,
+     "title": "How Much Should We Trust Differences-in-Differences Estimates?",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Showed that serial correlation made many difference-in-differences studies wildly overconfident. It made clustered standard errors standard and began the field's scrutiny of DiD practice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abadie, Diamond & Hainmueller",
+     "year": 2010,
+     "title": "Synthetic Control Methods for Comparative Case Studies",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Built a weighted control unit from untreated units to study a single treated case. Synthetic control is now everywhere in policy evaluation, and its extensions are an active research area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Calonico, Cattaneo & Titiunik",
+     "year": 2014,
+     "title": "Robust Nonparametric Confidence Intervals for Regression-Discontinuity Designs",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Fixed the bias that made conventional regression-discontinuity confidence intervals too narrow. Its bias-corrected methods are now the default way RD is estimated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chernozhukov et al.",
+     "year": 2018,
+     "title": "Double/Debiased Machine Learning for Treatment and Structural Parameters",
+     "venue": "Econometrics Journal",
+     "type": "paper",
+     "why": "Showed how to use machine learning for nuisance functions while keeping valid inference on causal parameters. It is the main bridge between ML and econometrics today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goodman-Bacon",
+     "year": 2021,
+     "title": "Difference-in-Differences with Variation in Treatment Timing",
+     "venue": "Journal of Econometrics",
+     "type": "paper",
+     "why": "Decomposed two-way fixed-effects DiD into comparisons and showed some use already-treated units as controls. This forced re-examination of a huge body of applied work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Callaway & Sant'Anna",
+     "year": 2021,
+     "title": "Difference-in-Differences with Multiple Time Periods",
+     "venue": "Journal of Econometrics",
+     "type": "paper",
+     "why": "Proposed estimators of group-time effects that stay valid with staggered adoption and heterogeneous effects. It is one of the standard replacements for two-way fixed effects.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Berry, Levinsohn & Pakes",
+     "year": 1995,
+     "title": "Automobile Prices in Market Equilibrium",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed how to estimate demand with differentiated products and endogenous prices. BLP is still the workhorse for merger analysis and structural IO.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Belloni, Chernozhukov & Hansen",
+     "year": 2014,
+     "title": "Inference on Treatment Effects after Selection among High-Dimensional Controls",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Introduced post-double-selection lasso for choosing controls with valid inference. It is a direct precursor to double machine learning and widely used in applied work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wager & Athey",
+     "year": 2018,
+     "title": "Estimation and Inference of Heterogeneous Treatment Effects using Random Forests",
+     "venue": "Journal of the American Statistical Association",
+     "type": "paper",
+     "why": "Built causal forests that estimate how treatment effects vary across people, with valid confidence intervals. It drives current work on targeting policies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "de Chaisemartin & D'Haultfœuille",
+     "year": 2020,
+     "title": "Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that two-way fixed-effects estimates can carry negative weights and even have the wrong sign. It helped start the heterogeneity-robust DiD revolution and offers an alternative estimator.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldsmith-Pinkham, Sorkin & Swift",
+     "year": 2020,
+     "title": "Bartik Instruments: What, When, Why, and How",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that shift-share instruments are identified by the exogeneity of the initial shares. It changed how Bartik designs are justified and tested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sun & Abraham",
+     "year": 2021,
+     "title": "Estimating Dynamic Treatment Effects in Event Studies with Heterogeneous Treatment Effects",
+     "venue": "Journal of Econometrics",
+     "type": "paper",
+     "why": "Showed that event-study leads and lags are contaminated under heterogeneous effects and gave a clean estimator. It is standard in applied event studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arkhangelsky et al.",
+     "year": 2021,
+     "title": "Synthetic Difference-in-Differences",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Combined synthetic control weighting with difference-in-differences. It is a popular, robust option for panel policy evaluation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Borusyak, Hull & Jaravel",
+     "year": 2022,
+     "title": "Quasi-Experimental Shift-Share Research Designs",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Showed that shift-share instruments can instead be identified by as-good-as-random shocks. With Goldsmith-Pinkham et al. it defines how shift-share designs are used now.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rambachan & Roth",
+     "year": 2023,
+     "title": "A More Credible Approach to Parallel Trends",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Replaced pass/fail pre-trend tests with inference robust to bounded violations of parallel trends. Sensitivity analysis of this kind is becoming expected in DiD papers.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abadie, Athey, Imbens & Wooldridge",
+     "year": 2023,
+     "title": "When Should You Adjust Standard Errors for Clustering?",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Argued that clustering depends on the sampling and assignment design, not on whether clustering changes the answer. It is reshaping a routine but consequential choice in applied work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Behavioral",
+   "lead": "The field is moving from cataloguing biases to formal models of attention, beliefs and reference points, tested in field settings and used to evaluate policy and welfare.",
+   "papers": [
+    {
+     "authors": "Tversky & Kahneman",
+     "year": 1974,
+     "title": "Judgment under Uncertainty: Heuristics and Biases",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that people judge probabilities with shortcuts that produce systematic errors. Current models of belief formation, such as diagnostic expectations, formalize these heuristics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kahneman & Tversky",
+     "year": 1979,
+     "title": "Prospect Theory: An Analysis of Decision under Risk",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Replaced expected utility with reference dependence, loss aversion and probability weighting. It remains the main alternative model of risky choice and is still being tested and extended.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Laibson",
+     "year": 1997,
+     "title": "Golden Eggs and Hyperbolic Discounting",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Put present bias into a standard savings model and showed demand for commitment. Quasi-hyperbolic discounting is the default model of self-control problems in saving, health and work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fehr & Schmidt",
+     "year": 1999,
+     "title": "A Theory of Fairness, Competition, and Cooperation",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Explained with inequity aversion why people are fair in some games and selfish in markets. It remains a baseline model of social preferences.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Madrian & Shea",
+     "year": 2001,
+     "title": "The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Showed that switching to automatic enrollment hugely raised retirement-plan participation. It started default-based policy design and remains the key evidence for nudges.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sims",
+     "year": 2003,
+     "title": "Implications of Rational Inattention",
+     "venue": "Journal of Monetary Economics",
+     "type": "paper",
+     "why": "Modeled attention as a limited capacity to process information. Rational inattention is now a leading framework for limited attention in behavioral and macro.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kőszegi & Rabin",
+     "year": 2006,
+     "title": "A Model of Reference-Dependent Preferences",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Made the reference point a person's rational expectations. It turned loss aversion into a disciplined model and is widely used in labor supply, pricing and finance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "DellaVigna",
+     "year": 2009,
+     "title": "Psychology and Economics: Evidence from the Field",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Organized field evidence into deviations in preferences, beliefs and decision making. It is still the standard map of behavioral field evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bordalo, Gennaioli & Shleifer",
+     "year": 2012,
+     "title": "Salience Theory of Choice Under Risk",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Argued that attention is drawn to salient payoffs, distorting risky choice. Salience theory is now applied to consumer choice, judicial decisions and asset prices.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gabaix",
+     "year": 2014,
+     "title": "A Sparsity-Based Model of Bounded Rationality",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Modeled agents who simplify by ignoring most variables. It powers behavioral macro and work on inattention to taxes and prices.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kahneman, Knetsch & Thaler",
+     "year": 1990,
+     "title": "Experimental Tests of the Endowment Effect and the Coase Theorem",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed in markets that owners demand far more to give up a good than buyers will pay. The endowment effect is still debated, with challenges over experimental procedure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Benartzi & Thaler",
+     "year": 1995,
+     "title": "Myopic Loss Aversion and the Equity Premium Puzzle",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Explained the equity premium with loss aversion and frequent evaluation. It launched behavioral asset pricing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "O'Donoghue & Rabin",
+     "year": 1999,
+     "title": "Doing It Now or Later",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Distinguished naive from sophisticated present-biased agents. The distinction is central to procrastination, contract design and measuring sophistication.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rabin",
+     "year": 2000,
+     "title": "Risk Aversion and Expected-Utility Theory: A Calibration Theorem",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed that expected utility cannot explain small-stakes risk aversion without absurd large-stakes aversion. It is a key argument for reference-dependent models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Camerer, Ho & Chong",
+     "year": 2004,
+     "title": "A Cognitive Hierarchy Model of Games",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Modeled players thinking a limited number of steps about others. Level-k and cognitive-hierarchy models are standard alternatives to equilibrium.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "DellaVigna & Malmendier",
+     "year": 2006,
+     "title": "Paying Not to Go to the Gym",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that gym members overpay for flat-rate contracts because they overestimate attendance. It is a key field demonstration of naive present bias and of firms exploiting it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bernheim & Rangel",
+     "year": 2009,
+     "title": "Beyond Revealed Preference: Choice-Theoretic Foundations for Behavioral Welfare Economics",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Proposed welfare analysis when choices are inconsistent. It frames the unsettled question of how to evaluate nudges and behavioral policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Augenblick, Niederle & Sprenger",
+     "year": 2015,
+     "title": "Working over Time: Dynamic Inconsistency in Real Effort Tasks",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Found present bias for effort but not for money. It changed how present bias is measured.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bordalo, Gennaioli & Shleifer",
+     "year": 2018,
+     "title": "Diagnostic Expectations and Credit Cycles",
+     "venue": "Journal of Finance",
+     "type": "paper",
+     "why": "Formalized representativeness as diagnostic expectations and used it to explain credit booms and busts. Belief-based models like this are a fast-growing frontier.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maćkowiak, Matějka & Wiederholt",
+     "year": 2023,
+     "title": "Rational Inattention: A Review",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Surveys rational inattention across micro and macro. It is the current guide to the theory and its tests.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Development",
+   "lead": "Development economics is dominated by experimental and quasi-experimental evidence on anti-poverty programs, now pushing on general-equilibrium effects, scale, external validity and the persistence of history and institutions.",
+   "papers": [
+    {
+     "authors": "Townsend",
+     "year": 1994,
+     "title": "Risk and Insurance in Village India",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Tested whether village households pool risk and found substantial but incomplete insurance. It defines how economists study informal insurance and the value of programs that change it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duflo",
+     "year": 2001,
+     "title": "Schooling and Labor Market Consequences of School Construction in Indonesia: Evidence from an Unusual Policy Experiment",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Used a school-building program to estimate the returns to schooling. It is a model of quasi-experimental policy evaluation and is still revisited with new data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Miguel & Kremer",
+     "year": 2004,
+     "title": "Worms: Identifying Impacts on Education and Health in the Presence of Treatment Externalities",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed that deworming raised school attendance and that spillovers can bias individual-level trials. Its reanalysis fight and long-run follow-ups keep it at the center of debates on evidence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jensen",
+     "year": 2007,
+     "title": "The Digital Provide: Information (Technology), Market Performance, and Welfare in the South Indian Fisheries Sector",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Showed that mobile phones reduced price dispersion and waste in fish markets. It anchors work on information and technology in developing markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dell",
+     "year": 2010,
+     "title": "The Persistent Effects of Peru's Mining Mita",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Used a colonial boundary to show forced-labor institutions still lower living standards. It made geographic regression discontinuity a standard tool for studying persistence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Deaton",
+     "year": 2010,
+     "title": "Instruments, Randomization, and Learning about Development",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Argued that randomized trials identify narrow effects and do not reveal mechanisms or generalize. The field is still answering this critique about external validity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bryan, Chowdhury & Mobarak",
+     "year": 2014,
+     "title": "Underinvestment in a Profitable Technology: The Case of Seasonal Migration in Bangladesh",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed that a small incentive led to profitable seasonal migration that people repeated. It shapes thinking about risk, learning and migration subsidies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Banerjee, Duflo, Glennerster & Kinnan",
+     "year": 2015,
+     "title": "The Miracle of Microfinance? Evidence from a Randomized Evaluation",
+     "venue": "American Economic Journal: Applied Economics",
+     "type": "paper",
+     "why": "Found modest effects of microcredit on average borrowers. With companion trials it reset expectations about microfinance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Banerjee et al.",
+     "year": 2015,
+     "title": "A Multifaceted Program Causes Lasting Progress for the Very Poor: Evidence from Six Countries",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that a graduation package of assets, training and support produced lasting gains in six countries. Graduation programs are now scaled by governments and still evaluated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Egger et al.",
+     "year": 2022,
+     "title": "General Equilibrium Effects of Cash Transfers: Experimental Evidence from Kenya",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Found large local multipliers from cash transfers with little inflation. It shows how to measure market-wide effects in experiments, a key frontier.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Udry",
+     "year": 1994,
+     "title": "Risk and Insurance in a Rural Credit Market: An Empirical Investigation in Northern Nigeria",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Showed that informal loans adjust repayment to shocks, acting as insurance. It is a model for studying informal finance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Foster & Rosenzweig",
+     "year": 1995,
+     "title": "Learning by Doing and Learning from Others: Human Capital and Technical Change in Agriculture",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Showed farmers learn about new technology from neighbors. Social learning remains central to technology adoption.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nunn",
+     "year": 2008,
+     "title": "The Long-Term Effects of Africa's Slave Trades",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Linked slave exports to lower present-day income in Africa. It spurred the historical persistence literature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "de Mel, McKenzie & Woodruff",
+     "year": 2008,
+     "title": "Returns to Capital in Microenterprises: Evidence from a Field Experiment",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Gave random cash grants to small firms and found high returns to capital. It underlies the question of why such returns go unexploited.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duflo, Kremer & Robinson",
+     "year": 2011,
+     "title": "Nudging Farmers to Use Fertilizer: Theory and Experimental Evidence from Kenya",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that present bias, not low returns, limits fertilizer use, and that small timed discounts help. It brought behavioral economics into development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gollin, Lagakos & Waugh",
+     "year": 2014,
+     "title": "The Agricultural Productivity Gap",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Documented large measured productivity gaps between agriculture and other sectors. Whether the gap is real or selection is an active question about structural transformation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jack & Suri",
+     "year": 2014,
+     "title": "Risk Sharing and Transactions Costs: Evidence from Kenya's Mobile Money Revolution",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that M-Pesa let households share risk over distance. It anchors the economics of digital finance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haushofer & Shapiro",
+     "year": 2016,
+     "title": "The Short-Term Impact of Unconditional Cash Transfers to the Poor: Experimental Evidence from Kenya",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Found large gains in consumption, assets and wellbeing from unconditional cash. It made cash the benchmark other programs are compared to.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Muralidharan, Niehaus & Sukhtankar",
+     "year": 2016,
+     "title": "Building State Capacity: Evidence from Biometric Smartcards in India",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed at scale that biometric payments cut leakage in welfare programs. It leads the state-capacity agenda in development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Meager",
+     "year": 2019,
+     "title": "Understanding the Average Impact of Microcredit Expansions: A Bayesian Hierarchical Analysis of Seven Randomized Experiments",
+     "venue": "American Economic Journal: Applied Economics",
+     "type": "paper",
+     "why": "Pooled seven trials to estimate microcredit effects and how well they generalize. It is a model for aggregating evidence across sites.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Labor",
+   "lead": "The field is working out how technology, trade, firms and employer power shape wages and inequality, using linked employer-employee data and quasi-experiments.",
+   "papers": [
+    {
+     "authors": "Card",
+     "year": 1990,
+     "title": "The Impact of the Mariel Boatlift on the Miami Labor Market",
+     "venue": "Industrial and Labor Relations Review",
+     "type": "paper",
+     "why": "Found that a sudden immigrant influx barely affected local wages. Its reanalyses keep it central to the immigration debate and to natural-experiment methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Katz & Murphy",
+     "year": 1992,
+     "title": "Changes in Relative Wages, 1963-1987: Supply and Demand Factors",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Explained rising college wage premia as a race between growing demand for skill and the supply of graduates. The supply-demand framework remains the baseline for inequality research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Card & Krueger",
+     "year": 1994,
+     "title": "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Found no job losses after New Jersey raised its minimum wage. It reopened the minimum-wage debate, and the monopsony view it implies is now mainstream.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mortensen & Pissarides",
+     "year": 1994,
+     "title": "Job Creation and Job Destruction in the Theory of Unemployment",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Built the search-and-matching model with endogenous job creation and destruction. It is the workhorse model of unemployment and labor-market frictions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abowd, Kramarz & Margolis",
+     "year": 1999,
+     "title": "High Wage Workers and High Wage Firms",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Separated worker and firm effects in wages using linked employer-employee data. The AKM model is now central to research on firms and inequality, and its biases are actively studied.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Autor, Levy & Murnane",
+     "year": 2003,
+     "title": "The Skill Content of Recent Technological Change: An Empirical Exploration",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Showed that computers replace routine tasks and complement non-routine ones. The task framework now shapes analysis of automation and AI.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Autor, Dorn & Hanson",
+     "year": 2013,
+     "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that Chinese import competition caused lasting job and wage losses in exposed U.S. regions. It overturned assumptions about smooth adjustment and shapes current trade politics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Card, Heining & Kline",
+     "year": 2013,
+     "title": "Workplace Heterogeneity and the Rise of West German Wage Inequality",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Found that rising firm pay premia and sorting explain much of rising West German inequality. It made firms central to inequality research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goldin",
+     "year": 2014,
+     "title": "A Grand Gender Convergence: Its Last Chapter",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Argued that the remaining gender pay gap reflects nonlinear pay for long, inflexible hours. It frames current work on gender gaps and job design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Acemoglu & Restrepo",
+     "year": 2020,
+     "title": "Robots and Jobs: Evidence from US Labor Markets",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Found that industrial robot adoption reduced employment and wages in exposed U.S. areas. It anchors the debate on automation's labor effects, now extended to AI.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Borjas",
+     "year": 2003,
+     "title": "The Labor Demand Curve Is Downward Sloping: Reexamining the Impact of Immigration on the Labor Market",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used national skill-experience cells to find sizable wage effects of immigration. It is the main counterweight to Card's findings in an ongoing debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Manning",
+     "year": 2003,
+     "title": "Monopsony in Motion: Imperfect Competition in Labor Markets",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Argued that search frictions give employers wage-setting power even in markets with many firms. Monopsony is now a major research and antitrust theme.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Acemoglu & Autor",
+     "year": 2011,
+     "title": "Skills, Tasks and Technologies: Implications for Employment and Earnings",
+     "venue": "Handbook of Labor Economics, Vol. 4B (Elsevier)",
+     "type": "paper",
+     "why": "Built the task-based model explaining job polarization. It is the theory behind current work on automation and AI.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Card, Cardoso, Heining & Kline",
+     "year": 2018,
+     "title": "Firms and Labor Market Inequality: Evidence and Some Theory",
+     "venue": "Journal of Labor Economics",
+     "type": "paper",
+     "why": "Gave a model of firm wage premia with imperfect competition. It ties AKM evidence to monopsony theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cengiz, Dube, Lindner & Zipperer",
+     "year": 2019,
+     "title": "The Effect of Minimum Wages on Low-Wage Jobs",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used the bunching of jobs around the minimum wage to find little job loss. It is the leading current evidence in the minimum-wage debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Song, Price, Guvenen, Bloom & von Wachter",
+     "year": 2019,
+     "title": "Firming Up Inequality",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Found that rising U.S. earnings inequality is mostly between firms, driven by worker sorting. It shapes how firms are viewed in inequality research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kleven, Landais & Søgaard",
+     "year": 2019,
+     "title": "Children and Gender Inequality: Evidence from Denmark",
+     "venue": "American Economic Journal: Applied Economics",
+     "type": "paper",
+     "why": "Showed that the arrival of children explains most of the remaining gender earnings gap. The child penalty is now a standard measure across countries.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Autor, Dorn, Katz, Patterson & Van Reenen",
+     "year": 2020,
+     "title": "The Fall of the Labor Share and the Rise of Superstar Firms",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Linked the falling labor share to reallocation toward superstar firms. It ties labor to market concentration.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lamadon, Mogstad & Setzler",
+     "year": 2022,
+     "title": "Imperfect Competition, Compensating Differentials, and Rent Sharing in the US Labor Market",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Estimated employer power and the markdown on U.S. wages. It is a leading quantitative monopsony study.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brynjolfsson, Li & Raymond",
+     "year": 2025,
+     "title": "Generative AI at Work",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Found a generative-AI assistant raised customer-support productivity, mostly for less experienced workers. It is among the first rigorous evidence on AI at work.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Public",
+   "lead": "Public economics rests on sufficient-statistics welfare analysis, administrative data on inequality and mobility, and quasi-experimental evaluation of taxes and programs.",
+   "papers": [
+    {
+     "authors": "Mirrlees",
+     "year": 1971,
+     "title": "An Exploration in the Theory of Optimum Income Taxation",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Framed optimal income taxation as a trade-off between equity and incentives when ability is hidden. Every optimal-tax formula used today descends from it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Feldstein",
+     "year": 1999,
+     "title": "Tax Avoidance and the Deadweight Loss of the Income Tax",
+     "venue": "Review of Economics and Statistics",
+     "type": "paper",
+     "why": "Argued that the elasticity of taxable income captures all behavioral responses to taxes. It launched the large literature estimating that elasticity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saez",
+     "year": 2001,
+     "title": "Using Elasticities to Derive Optimal Income Tax Rates",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Expressed optimal tax rates in measurable elasticities and income distributions. It made optimal tax theory usable for top-rate debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty",
+     "year": 2009,
+     "title": "Sufficient Statistics for Welfare Analysis: A Bridge Between Structural and Reduced-Form Methods",
+     "venue": "Annual Review of Economics",
+     "type": "paper",
+     "why": "Showed welfare effects can often be computed from a few estimable elasticities. It is the dominant method in public economics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty, Looney & Kroft",
+     "year": 2009,
+     "title": "Salience and Taxation: Theory and Evidence",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed people underreact to taxes not shown in posted prices. It brought behavioral responses into tax analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saez",
+     "year": 2010,
+     "title": "Do Taxpayers Bunch at Kink Points?",
+     "venue": "American Economic Journal: Economic Policy",
+     "type": "paper",
+     "why": "Used bunching at tax kinks to estimate elasticities. Bunching methods are now standard.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Finkelstein et al.",
+     "year": 2012,
+     "title": "The Oregon Health Insurance Experiment: Evidence from the First Year",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used a Medicaid lottery to estimate the effects of insurance. It remains the key randomized evidence in health-insurance policy debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty, Hendren, Kline & Saez",
+     "year": 2014,
+     "title": "Where Is the Land of Opportunity? The Geography of Intergenerational Mobility in the United States",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Mapped mobility across U.S. areas using tax records. It opened the place-based mobility agenda.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Piketty, Saez & Zucman",
+     "year": 2018,
+     "title": "Distributional National Accounts: Methods and Estimates for the United States",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Distributed all of national income across the population. Its estimates are central to the ongoing dispute over U.S. inequality trends.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hendren & Sprung-Keyser",
+     "year": 2020,
+     "title": "A Unified Welfare Analysis of Government Policies",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Compared 133 policies using the marginal value of public funds. MVPF is becoming the standard way to rank policies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Piketty & Saez",
+     "year": 2003,
+     "title": "Income Inequality in the United States, 1913-1998",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used tax data to build a century-long series of top income shares. It started the modern top-incomes literature.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Einav, Finkelstein & Cullen",
+     "year": 2010,
+     "title": "Estimating Welfare in Insurance Markets Using Variation in Prices",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Gave a simple way to measure adverse-selection welfare loss from price variation. It is the standard approach in insurance markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Diamond & Saez",
+     "year": 2011,
+     "title": "The Case for a Progressive Tax: From Basic Research to Policy Recommendations",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "Turned optimal tax theory into policy recommendations, including high top rates. It is the reference statement of that view.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saez, Slemrod & Giertz",
+     "year": 2012,
+     "title": "The Elasticity of Taxable Income with Respect to Marginal Tax Rates: A Critical Review",
+     "venue": "Journal of Economic Literature",
+     "type": "paper",
+     "why": "Reviewed the evidence and pitfalls in estimating taxable-income elasticities. It is the standard guide.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kleven & Waseem",
+     "year": 2013,
+     "title": "Using Notches to Uncover Optimization Frictions and Structural Elasticities: Theory and Evidence from Pakistan",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Used notches to separate frictions from elasticities. It extended bunching methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Piketty, Saez & Stantcheva",
+     "year": 2014,
+     "title": "Optimal Taxation of Top Labor Incomes: A Tale of Three Elasticities",
+     "venue": "American Economic Journal: Economic Policy",
+     "type": "paper",
+     "why": "Split the top-income response into labor supply, avoidance and bargaining. It shapes debate over top tax rates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty, Friedman & Rockoff",
+     "year": 2014,
+     "title": "Measuring the Impacts of Teachers I: Evaluating Bias in Teacher Value-Added Estimates",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Tested teacher value-added estimates for bias using quasi-experiments. It anchors debate over teacher evaluation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty, Hendren & Katz",
+     "year": 2016,
+     "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Found large gains for children who moved young. It revived interest in housing mobility policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saez & Stantcheva",
+     "year": 2016,
+     "title": "Generalized Social Marginal Welfare Weights for Optimal Tax Theory",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Let welfare weights reflect fairness principles beyond utilitarianism. It is used for normative tax analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Auten & Splinter",
+     "year": 2024,
+     "title": "Income Inequality in the United States: Using Tax Data to Measure Long-Term Trends",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Argued that top income shares rose far less than Piketty-Saez-Zucman find. It is the main counterpoint in the inequality measurement dispute.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "International trade",
+   "lead": "Researchers use quantitative trade and spatial models with firm-level and tariff data to measure gains from trade, the effects of trade shocks and tariffs, and global supply chains.",
+   "papers": [
+    {
+     "authors": "Krugman",
+     "year": 1980,
+     "title": "Scale Economies, Product Differentiation, and the Pattern of Trade",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Explained trade between similar countries through scale economies and consumer love of variety. Its CES demand structure and home-market effect are built into quantitative trade models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eaton & Kortum",
+     "year": 2002,
+     "title": "Technology, Geography, and Trade",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Built a Ricardian model with many countries and geographic trade costs that fits bilateral trade data. It is the foundation of quantitative trade models used for policy counterfactuals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anderson & van Wincoop",
+     "year": 2003,
+     "title": "Gravity with Gravitas: A Solution to the Border Puzzle",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Gave the gravity equation a theoretical basis through multilateral resistance terms. It changed how gravity is estimated, and gravity remains the most used empirical tool in trade.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Melitz",
+     "year": 2003,
+     "title": "The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Showed that trade reallocates output toward more productive firms, raising industry productivity. Heterogeneous-firm models are now the default in trade theory and empirics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Antràs & Helpman",
+     "year": 2004,
+     "title": "Global Sourcing",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Combined firm heterogeneity and incomplete contracts to explain when firms outsource or integrate abroad. It frames current work on multinational supply chains and reshoring.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arkolakis, Costinot & Rodríguez-Clare",
+     "year": 2012,
+     "title": "New Trade Models, Same Old Gains?",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that welfare gains from trade in a wide class of models depend on just the domestic trade share and the trade elasticity. It structured how gains are measured and what new models must add.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Allen & Arkolakis",
+     "year": 2014,
+     "title": "Trade and the Topography of the Spatial Economy",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Built a general-equilibrium model of trade and migration over continuous geographic space. It launched quantitative spatial economics, now used for infrastructure, cities and regional policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caliendo & Parro",
+     "year": 2015,
+     "title": "Estimates of the Trade and Welfare Effects of NAFTA",
+     "venue": "Review of Economic Studies",
+     "type": "paper",
+     "why": "Added input-output linkages across sectors to quantitative trade models and applied them to NAFTA. It is the standard template for evaluating trade agreements and tariffs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pierce & Schott",
+     "year": 2016,
+     "title": "The Surprisingly Swift Decline of US Manufacturing Employment",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Linked the fast decline of U.S. manufacturing jobs after 2000 to the removal of tariff uncertainty on China. It anchors research on trade-policy uncertainty and the China shock.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fajgelbaum, Goldberg, Kennedy & Khandelwal",
+     "year": 2020,
+     "title": "The Return to Protectionism",
+     "venue": "Quarterly Journal of Economics",
+     "type": "paper",
+     "why": "Measured the 2018 U.S. tariffs and foreign retaliation, finding full pass-through and aggregate losses. It is the leading assessment of the trade war and a template for studying today's tariffs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Bernard, Eaton, Jensen & Kortum",
+     "year": 2003,
+     "title": "Plants and Productivity in International Trade",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Built a Ricardian model with plant-level productivity that matches facts about exporters. With Melitz it is the foundation of firm-level trade models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Santos Silva & Tenreyro",
+     "year": 2006,
+     "title": "The Log of Gravity",
+     "venue": "Review of Economics and Statistics",
+     "type": "paper",
+     "why": "Showed that log-linear gravity estimates are biased under heteroskedasticity and proposed Poisson estimation. PPML is now the default way gravity equations are estimated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dekle, Eaton & Kortum",
+     "year": 2007,
+     "title": "Unbalanced Trade",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed how to compute counterfactuals in changes using only observed data and a few elasticities. This exact hat algebra is how nearly all quantitative trade counterfactuals are now computed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chaney",
+     "year": 2008,
+     "title": "Distorted Gravity: The Intensive and Extensive Margins of International Trade",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that trade costs work through the number of exporting firms as well as how much each exports. It reshaped how gravity elasticities are interpreted.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Johnson & Noguera",
+     "year": 2012,
+     "title": "Accounting for Intermediates: Production Sharing and Trade in Value Added",
+     "venue": "Journal of International Economics",
+     "type": "paper",
+     "why": "Measured trade in value added instead of gross flows, revealing how much trade is production sharing. It is the basis of global value chain measurement.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Antràs & Chor",
+     "year": 2013,
+     "title": "Organizing the Global Value Chain",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Modeled ownership decisions along a sequential production chain. It frames the study of where firms sit in supply chains, central to current reshoring debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Costinot & Rodríguez-Clare",
+     "year": 2014,
+     "title": "Trade Theory with Numbers: Quantifying the Consequences of Globalization",
+     "venue": "Handbook of International Economics, Vol. 4 (Elsevier)",
+     "type": "paper",
+     "why": "Surveyed quantitative trade models and showed how to compute gains and policy effects with them. It is the standard guide to the toolkit.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dix-Carneiro & Kovak",
+     "year": 2017,
+     "title": "Trade Liberalization and Regional Dynamics",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Found that Brazil's trade liberalization hurt exposed regions more over time, not less. It overturned the assumption of quick adjustment and fed the China-shock debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caliendo, Dvorkin & Parro",
+     "year": 2019,
+     "title": "Trade and Labor Market Dynamics: General Equilibrium Analysis of the China Trade Shock",
+     "venue": "Econometrica",
+     "type": "paper",
+     "why": "Built a dynamic general-equilibrium model with migration and labor frictions to study the China shock. It links reduced-form labor evidence to quantitative trade.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Amiti, Redding & Weinstein",
+     "year": 2019,
+     "title": "The Impact of the 2018 Tariffs on Prices and Welfare",
+     "venue": "Journal of Economic Perspectives",
+     "type": "paper",
+     "why": "Found that the 2018 U.S. tariffs passed almost fully into import prices paid by Americans. It is key evidence on who bears tariffs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Financial economics",
+   "lead": "Finance is focused on why risk premia and asset prices move, how intermediary balance sheets and runs drive crises, what limits arbitrage, and who holds assets.",
+   "papers": [
+    {
+     "authors": "Modigliani & Miller",
+     "year": 1958,
+     "title": "The Cost of Capital, Corporation Finance and the Theory of Investment",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that with frictionless markets a firm's value does not depend on how it is financed. Corporate finance is largely the study of which frictions break this result.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sharpe",
+     "year": 1964,
+     "title": "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk",
+     "venue": "Journal of Finance",
+     "type": "paper",
+     "why": "Derived the CAPM, in which only exposure to market risk earns a premium. It still underlies cost-of-capital practice and is the benchmark every factor model is tested against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fama",
+     "year": 1970,
+     "title": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+     "venue": "Journal of Finance",
+     "type": "paper",
+     "why": "Defined weak, semi-strong and strong market efficiency and the joint-hypothesis problem. Every test of anomalies still runs into that problem, so the framing organizes the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shiller",
+     "year": 1981,
+     "title": "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Showed that stock prices are far too volatile to be explained by later dividends. It moved the field toward studying changing discount rates and remains central to the efficiency debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Diamond & Dybvig",
+     "year": 1983,
+     "title": "Bank Runs, Deposit Insurance, and Liquidity",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Modeled banks as liquidity providers that are exposed to self-fulfilling runs. It remains the core model of runs, revisited after 2008 and the 2023 regional bank failures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mehra & Prescott",
+     "year": 1985,
+     "title": "The Equity Premium: A Puzzle",
+     "venue": "Journal of Monetary Economics",
+     "type": "paper",
+     "why": "Showed that standard models cannot explain why stocks earn so much more than bonds. Nearly every asset-pricing model since is judged by whether it solves this puzzle.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fama & French",
+     "year": 1993,
+     "title": "Common Risk Factors in the Returns on Stocks and Bonds",
+     "venue": "Journal of Financial Economics",
+     "type": "paper",
+     "why": "Proposed size and value factors alongside the market to explain average stock returns. Factor models remain the way returns are benchmarked, and the explosion of proposed factors since is a live problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shleifer & Vishny",
+     "year": 1997,
+     "title": "The Limits of Arbitrage",
+     "venue": "Journal of Finance",
+     "type": "paper",
+     "why": "Showed that arbitrageurs who manage other people's money can be forced out just when mispricing is greatest. It explains why anomalies persist and anchors behavioral and intermediary finance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cochrane",
+     "year": 2011,
+     "title": "Presidential Address: Discount Rates",
+     "venue": "Journal of Finance",
+     "type": "paper",
+     "why": "Argued that nearly all movement in asset prices comes from changing discount rates, not expected cash flows. It frames the central question in asset pricing now: what drives those discount rates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brunnermeier & Sannikov",
+     "year": 2014,
+     "title": "A Macroeconomic Model with a Financial Sector",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Built a continuous-time model where intermediary balance sheets make the economy unstable near crises. It is a core model of modern macro-finance and of why volatility can be endogenous.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Jensen & Meckling",
+     "year": 1976,
+     "title": "Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure",
+     "venue": "Journal of Financial Economics",
+     "type": "paper",
+     "why": "Framed the firm as a set of agency relationships between managers and outside investors. Agency costs still organize research on governance, executive pay and capital structure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Myers & Majluf",
+     "year": 1984,
+     "title": "Corporate Financing and Investment Decisions When Firms Have Information That Investors Do Not Have",
+     "venue": "Journal of Financial Economics",
+     "type": "paper",
+     "why": "Showed that when managers know more than investors, firms prefer internal funds, then debt, then equity. The pecking order is still one of the main theories tested in capital-structure research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Campbell & Shiller",
+     "year": 1988,
+     "title": "The Dividend-Price Ratio and Expectations of Future Dividends and Discount Factors",
+     "venue": "Review of Financial Studies",
+     "type": "paper",
+     "why": "Derived a log-linear identity linking the dividend-price ratio to future returns and dividend growth. It is the standard tool for decomposing price movements and testing return predictability.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jegadeesh & Titman",
+     "year": 1993,
+     "title": "Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency",
+     "venue": "Journal of Finance",
+     "type": "paper",
+     "why": "Documented that recent winners keep outperforming recent losers for months. Momentum has survived decades of out-of-sample tests and still has no agreed explanation, risk-based or behavioral.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Campbell & Cochrane",
+     "year": 1999,
+     "title": "By Force of Habit: A Consumption-Based Explanation of Aggregate Stock Market Behavior",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Used slow-moving habit to make risk aversion rise in bad times, explaining the equity premium and excess volatility. It is still a leading rational model of time-varying risk premia.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bansal & Yaron",
+     "year": 2004,
+     "title": "Risks for the Long Run: A Potential Resolution of Asset Pricing Puzzles",
+     "venue": "Journal of Finance",
+     "type": "paper",
+     "why": "Explained asset-pricing puzzles with small, persistent shocks to consumption growth and Epstein-Zin preferences. Long-run risk is one of the two leading rational models, alongside habits, and their rivalry continues.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brunnermeier & Pedersen",
+     "year": 2009,
+     "title": "Market Liquidity and Funding Liquidity",
+     "venue": "Review of Financial Studies",
+     "type": "paper",
+     "why": "Showed that traders' funding constraints and market liquidity reinforce each other, producing liquidity spirals. It explains episodes from 2008 to the 2020 Treasury market dash for cash.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "He & Krishnamurthy",
+     "year": 2013,
+     "title": "Intermediary Asset Pricing",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Made the capital of financial intermediaries, not households, the driver of risk premia. Intermediary asset pricing became a leading explanation for crisis dynamics and is still tested across markets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Koijen & Yogo",
+     "year": 2019,
+     "title": "A Demand System Approach to Asset Pricing",
+     "venue": "Journal of Political Economy",
+     "type": "paper",
+     "why": "Estimated investors' demand curves for stocks from their holdings and found demand is far less elastic than theory assumed. It started demand-based asset pricing, now a major agenda on how flows and institutions move prices.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gu, Kelly & Xiu",
+     "year": 2020,
+     "title": "Empirical Asset Pricing via Machine Learning",
+     "venue": "Review of Financial Studies",
+     "type": "paper",
+     "why": "Showed that machine-learning methods, especially trees and neural nets, predict stock returns much better than linear models. It set the benchmark for the fast-growing use of ML in empirical asset pricing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

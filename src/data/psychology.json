@@ -1,0 +1,1145 @@
+{
+ "discipline": "Psychology",
+ "fields": [
+  {
+   "field": "Cognitive",
+   "lead": "Cognitive psychology is building computational accounts of a mind that predicts, plans and works within tight resource limits, testing them in large online experiments and against AI models that now rival people on many tasks.",
+   "papers": [
+    {
+     "authors": "Tversky & Kahneman",
+     "year": 1974,
+     "title": "Judgment under uncertainty: heuristics and biases",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that people judge probability with shortcuts such as representativeness and availability that produce predictable errors. Fifty years on, the claim that human judgment is systematically biased is still the position every theory of rationality, and every model of choice, has to answer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cowan",
+     "year": 2001,
+     "title": "The magical number 4 in short-term memory: a reconsideration of mental storage capacity",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Argued that once rehearsal and chunking are controlled, people hold about four items in mind at once. It is the main statement of the fixed-capacity view that the current slots-versus-resources debate is fought over.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dehaene & Naccache",
+     "year": 2001,
+     "title": "Towards a cognitive neuroscience of consciousness: basic evidence and a workspace framework",
+     "venue": "Cognition",
+     "type": "paper",
+     "why": "Turned global workspace theory into concrete predictions about which information reaches awareness and what that looks like in the brain. It is one of the two theories now being pitted against each other in preregistered adversarial experiments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roediger & Karpicke",
+     "year": 2006,
+     "title": "Test-enhanced learning: taking memory tests improves long-term retention",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Showed that practising retrieval beats rereading for long-term memory. The testing effect has survived the replication era intact and is now the clearest case of lab memory research changing how people study and teach.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Daw, Gershman, Seymour, Dayan & Dolan",
+     "year": 2011,
+     "title": "Model-based influences on humans' choices and striatal prediction errors",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "Introduced the two-step task and showed that people mix habit-like and planning-based learning, with both visible in brain signals. The task and the model-based/model-free split are now standard tools in decision science and computational psychiatry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tenenbaum, Kemp, Griffiths & Goodman",
+     "year": 2011,
+     "title": "How to grow a mind: statistics, structure, and abstraction",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Made the case that people learn so much from so little because they do probabilistic inference over structured knowledge. It is the reference statement of the Bayesian programme, which is now being tested against what large neural networks can learn from data alone.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clark",
+     "year": 2013,
+     "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Presented predictive processing, the idea that the brain constantly predicts its input and learns from the errors, as one framework for perception, action and attention. With its many commentaries it is still the main entry point to an idea that now shapes much of cognitive science and neuroscience.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ma, Husain & Bays",
+     "year": 2014,
+     "title": "Changing concepts of working memory",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "Argued that working memory is a limited resource spread across items with varying precision rather than a fixed number of slots. Read alongside Cowan, it sets out the live debate over what a memory limit actually is.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lake, Ullman, Tenenbaum & Gershman",
+     "year": 2017,
+     "title": "Building machines that learn and think like people",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Listed what people do that deep networks did not: build causal models, use intuitive physics and psychology, and generalise from a few examples. Large language models have since put each item on that list to the test, so it frames the current argument about how human-like AI is.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lieder & Griffiths",
+     "year": 2020,
+     "title": "Resource-rational analysis: understanding human cognition as the optimal use of limited computational resources",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Proposed that apparent biases are often the best use of limited time and computation, giving a way to derive cognitive strategies rather than just catalogue errors. It is the main current attempt to reconcile the heuristics-and-biases tradition with rational models.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Gigerenzer & Goldstein",
+     "year": 1996,
+     "title": "Reasoning the fast and frugal way: models of bounded rationality",
+     "venue": "Psychological Review",
+     "type": "paper",
+     "why": "Showed that simple heuristics that ignore most information can match or beat complex statistical models. It anchors the ecological-rationality side of the long argument with Tversky and Kahneman about whether heuristics are flaws or adaptations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Friston",
+     "year": 2010,
+     "title": "The free-energy principle: a unified brain theory?",
+     "venue": "Nature Reviews Neuroscience",
+     "type": "paper",
+     "why": "Set out the formal free-energy principle behind predictive processing and active inference. It is widely cited and widely disputed, and much theoretical work in the field is either building on it or arguing that it is unfalsifiable.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Petersen & Posner",
+     "year": 2012,
+     "title": "The attention system of the human brain: 20 years after",
+     "venue": "Annual Review of Neuroscience",
+     "type": "paper",
+     "why": "Updated the classic alerting, orienting and executive-network account of attention with two decades of imaging and genetic evidence. It is the current version of the scaffold most attention research still uses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dunlosky, Rawson, Marsh, Nathan & Willingham",
+     "year": 2013,
+     "title": "Improving students' learning with effective learning techniques: promising directions from cognitive and educational psychology",
+     "venue": "Psychological Science in the Public Interest",
+     "type": "paper",
+     "why": "Graded ten common study techniques by evidence and found practice testing and spaced practice clearly best while highlighting and rereading did little. It is the standard bridge from memory research to education.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shenhav, Botvinick & Cohen",
+     "year": 2013,
+     "title": "The expected value of control: an integrative theory of anterior cingulate cortex function",
+     "venue": "Neuron",
+     "type": "paper",
+     "why": "Framed cognitive control as a cost-benefit decision about whether effort is worth it. That idea now drives research on mental effort, motivation and fatigue, partly replacing the discredited willpower-as-resource account.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Firestone & Scholl",
+     "year": 2016,
+     "title": "Cognition does not affect perception: evaluating the evidence for 'top-down' effects",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Argued that most reported effects of beliefs, moods and goals on what people literally see can be explained by six common methodological pitfalls. It is a central text in the debate over how far prediction reaches into perception.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Peterson, Bourgin, Agrawal, Reichman & Griffiths",
+     "year": 2021,
+     "title": "Using large-scale experiments and machine learning to discover theories of human decision-making",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Collected choices on over 9,000 gambles and used neural networks to search for better theories of risky choice. It shows the field's new method: very large datasets plus machine learning to find where classic theories fail.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yarkoni",
+     "year": 2022,
+     "title": "The generalizability crisis",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Argued that psychology's deeper problem is not failed replication but statistical models that do not match the broad verbal claims researchers make. It pushes the reform movement beyond p-values toward better measurement, sampling of stimuli and theory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Binz & Schulz",
+     "year": 2023,
+     "title": "Using cognitive psychology to understand GPT-3",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Ran a large language model through classic cognitive experiments and found human-like behaviour in some tasks and clear failures in others. It helped start the practice of studying AI systems with psychological methods, now a fast-growing area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cogitate Consortium et al.",
+     "year": 2025,
+     "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Rival theorists agreed on predictions in advance and then tested them in a large multi-lab study; both global workspace and integrated information theory failed some key tests. It is the model for how consciousness science now tries to settle disputes.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Social",
+   "lead": "Social psychology is rebuilding its evidence base after the replication crisis with large preregistered and multi-site studies, while working on intergroup bias, polarisation and misinformation, and on which interventions actually change attitudes and behaviour.",
+   "papers": [
+    {
+     "authors": "Tajfel, Billig, Bundy & Flament",
+     "year": 1971,
+     "title": "Social categorization and intergroup behaviour",
+     "venue": "European Journal of Social Psychology",
+     "type": "paper",
+     "why": "Showed that being sorted into groups on a trivial basis is enough to make people favour their own group. The minimal group effect has held up, and social identity theory built on it remains the standard explanation for partisan and intergroup hostility.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Greenwald, McGhee & Schwartz",
+     "year": 1998,
+     "title": "Measuring individual differences in implicit cognition: the Implicit Association Test",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Introduced the IAT and made implicit bias a household idea and a training industry. It is here because the field is still arguing over what the test measures, how reliable it is for individuals and how well it predicts behaviour.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haidt",
+     "year": 2001,
+     "title": "The emotional dog and its rational tail: a social intuitionist approach to moral judgment",
+     "venue": "Psychological Review",
+     "type": "paper",
+     "why": "Argued that moral judgments are mostly quick intuitions, with reasoning supplied afterwards to justify them. It started modern moral psychology and its study of why political opponents talk past each other, and its claims are still being tested and contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fiske, Cuddy, Glick & Xu",
+     "year": 2002,
+     "title": "A model of (often mixed) stereotype content: competence and warmth respectively follow from perceived status and competition",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Showed that stereotypes sort along warmth and competence, so a group can be respected but disliked or liked but pitied. The model has held up across many countries and is still the standard map for describing stereotypes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pettigrew & Tropp",
+     "year": 2006,
+     "title": "A meta-analytic test of intergroup contact theory",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Pooled over 500 studies and found that contact between groups generally reduces prejudice. It is still the main evidence for contact interventions, and newer work asks how much of it survives when only randomised studies are counted.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Henrich, Heine & Norenzayan",
+     "year": 2010,
+     "title": "The weirdest people in the world?",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Showed that psychology's samples come mostly from Western, educated, industrialised, rich, democratic societies that are unusual on many measures. It made generalisability a standing question for every social-psychological claim.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Simmons, Nelson & Simonsohn",
+     "year": 2011,
+     "title": "False-positive psychology: undisclosed flexibility in data collection and analysis allows presenting anything as significant",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Showed that routine choices about when to stop collecting data and what to report can make nearly any effect look significant. It launched the reforms, preregistration and disclosure among them, that now govern how the field publishes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Open Science Collaboration",
+     "year": 2015,
+     "title": "Estimating the reproducibility of psychological science",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Repeated 100 published studies and found significant results in only about a third, with effects about half as large. It is the defining event of the replication crisis, and social psychology fared worst, so every older finding is now read in its light.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bail et al.",
+     "year": 2018,
+     "title": "Exposure to opposing views on social media can increase political polarization",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Paid people to follow accounts from the other side on Twitter and found that Republicans became more conservative. It undercut the simple echo-chamber fix and started the current wave of field experiments on social media and polarisation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Paluck, Porat, Clark & Green",
+     "year": 2021,
+     "title": "Prejudice reduction: progress and challenges",
+     "venue": "Annual Review of Psychology",
+     "type": "paper",
+     "why": "Reviewed hundreds of prejudice-reduction studies and found that the rigorous ones are rare and effects often small or short-lived. It is the best current summary of what works and what the field should stop claiming.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Oswald, Mitchell, Blanton, Jaccard & Tetlock",
+     "year": 2013,
+     "title": "Predicting ethnic and racial discrimination: a meta-analysis of IAT criterion studies",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Found that IAT scores predict discriminatory behaviour weakly, no better than explicit measures. It is the main evidence on the sceptical side of the IAT debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hagger et al.",
+     "year": 2016,
+     "title": "A multilab preregistered replication of the ego-depletion effect",
+     "venue": "Perspectives on Psychological Science",
+     "type": "paper",
+     "why": "Twenty-three labs ran the same preregistered ego-depletion study and found an effect close to zero. It turned one of social psychology's best-known theories into the standard example of a literature that did not hold up.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Klein et al.",
+     "year": 2018,
+     "title": "Many Labs 2: investigating variation in replicability across samples and settings",
+     "venue": "Advances in Methods and Practices in Psychological Science",
+     "type": "paper",
+     "why": "Repeated 28 classic findings in about 125 samples worldwide; roughly half replicated, and those that did varied little across cultures and settings. It suggested failures come from weak original effects more than from hidden moderators.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Camerer et al.",
+     "year": 2018,
+     "title": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+     "venue": "Nature Human Behaviour",
+     "type": "paper",
+     "why": "Replicated 21 social science experiments from top journals with large samples; 13 replicated, with effects about half the original size. It also showed prediction markets could guess which would fail, meaning researchers can spot weak findings in advance.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Paluck, Green & Green",
+     "year": 2019,
+     "title": "The contact hypothesis re-evaluated",
+     "venue": "Behavioural Public Policy",
+     "type": "paper",
+     "why": "Restricted the contact literature to randomised studies with delayed outcomes and found effects that are real but smaller and narrower than believed. It is the key update to Pettigrew and Tropp.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Forscher et al.",
+     "year": 2019,
+     "title": "A meta-analysis of procedures to change implicit measures",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Pooled hundreds of studies and found that implicit measures can be shifted, but the changes do not lead to changed behaviour. It is the main reason the field now doubts implicit-bias training as a fix for discrimination.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pennycook et al.",
+     "year": 2021,
+     "title": "Shifting attention to accuracy can reduce misinformation online",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that prompting people to think about accuracy improved the quality of news they shared, including in a field test on Twitter. It anchors the view that misinformation spreads more through inattention than partisanship, and is now debated and tested at scale.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Maier, Bartoš, Stanley, Shanks, Harris & Wagenmakers",
+     "year": 2022,
+     "title": "No evidence for nudging after adjusting for publication bias",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Reanalysed a large nudging meta-analysis and found that, after correcting for publication bias, the average effect was indistinguishable from zero. It is a sharp current example of how bias correction is changing what applied social psychology can claim.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nyhan et al.",
+     "year": 2023,
+     "title": "Like-minded sources on Facebook are prevalent but not polarizing",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reduced exposure to like-minded content for over 20,000 Facebook users during the 2020 US election and found little change in polarisation. With its companion studies it is the largest test yet of the echo-chamber idea.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Voelkel et al.",
+     "year": 2024,
+     "title": "Megastudy testing 25 treatments to reduce antidemocratic attitudes and partisan animosity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Tested 25 crowdsourced interventions on over 30,000 Americans in one study; many reduced partisan animosity, but few changed support for undemocratic practices. It shows the megastudy, where many ideas compete under the same conditions, as the field's current method.",
+     "verified": true,
+     "conf": "high",
+     "note": "Venue from memory; title and year confirmed by search."
+    }
+   ]
+  },
+  {
+   "field": "Developmental",
+   "lead": "Developmental psychology is retesting classic infant findings in large multi-lab replications, modelling children as active learners, and working out how adversity, genes, schooling and technology shape long-run outcomes.",
+   "papers": [
+    {
+     "authors": "Spelke, Breinlinger, Macomber & Jacobson",
+     "year": 1992,
+     "title": "Origins of knowledge",
+     "venue": "Psychological Review",
+     "type": "paper",
+     "why": "Argued that infants start with core knowledge about objects, such as that they are solid and move continuously. It anchors the nativist side of the debate over what is built in, which is now being retested with larger samples and computational models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Saffran, Aslin & Newport",
+     "year": 1996,
+     "title": "Statistical learning by 8-month-old infants",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that infants find word boundaries by tracking which syllables tend to follow one another. It made statistical learning a core developmental mechanism and is a reference point when comparing children with language models trained on statistics alone.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wellman, Cross & Watson",
+     "year": 2001,
+     "title": "Meta-analysis of theory-of-mind development: the truth about false belief",
+     "venue": "Child Development",
+     "type": "paper",
+     "why": "Pooled about 180 studies and found that children pass explicit false-belief tests at around age four regardless of task details. It is the firm baseline against which disputed claims of much earlier infant understanding are judged.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kuhl, Tsao & Liu",
+     "year": 2003,
+     "title": "Foreign-language experience in infants: effects of short-term exposure and social interaction on phonetic learning",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Showed that nine-month-olds kept the ability to hear Mandarin sounds after live sessions with a speaker but not after the same input on video or audio. It underpins current research and advice on screens versus social interaction in early learning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nelson et al.",
+     "year": 2007,
+     "title": "Cognitive recovery in socially deprived young children: the Bucharest Early Intervention Project",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Randomly assigned institutionalised Romanian children to foster care and found larger cognitive gains the earlier they were placed. It remains the strongest causal evidence on early deprivation and sensitive periods, and its cohort is still being followed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moffitt et al.",
+     "year": 2011,
+     "title": "A gradient of childhood self-control predicts health, wealth, and public safety",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Followed a full birth cohort for 32 years and found that childhood self-control predicted adult health, wealth and crime even after accounting for IQ and family class. It made self-control a central target for policy and intervention research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gopnik",
+     "year": 2012,
+     "title": "Scientific thinking in young children: theoretical advances, empirical research, and policy implications",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Summarised evidence that young children learn causal structure by forming and testing hypotheses much as scientists do. It is a core statement of the child-as-scientist view that drives today's computational work on children's learning and exploration.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Watts, Duncan & Quan",
+     "year": 2018,
+     "title": "Revisiting the marshmallow test: a conceptual replication investigating links between early delay of gratification and later outcomes",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Using a larger and more diverse sample, it found that the link between waiting for a treat and later achievement shrank by about two thirds once family background and early ability were controlled. It is the standard case of a famous developmental finding being cut down to size.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Orben & Przybylski",
+     "year": 2019,
+     "title": "The association between adolescent well-being and digital technology use",
+     "venue": "Nature Human Behaviour",
+     "type": "paper",
+     "why": "Ran every reasonable analysis of three large datasets and found that technology use explained less than half a percent of the variation in teen well-being. It set the terms of the current screen-time debate, which is about effect sizes and analytic choices as much as data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "ManyBabies Consortium",
+     "year": 2020,
+     "title": "Quantifying sources of variability in infancy research using the infant-directed-speech preference",
+     "venue": "Advances in Methods and Practices in Psychological Science",
+     "type": "paper",
+     "why": "Sixty-seven labs tested the same infant preference for baby talk and found a real but smaller effect than earlier studies, which varied with age and method. It is the template for the multi-lab replications now reshaping infancy research.",
+     "verified": true,
+     "conf": "high",
+     "note": "Title confirmed by search; venue and year from memory."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Tomasello, Carpenter, Call, Behne & Moll",
+     "year": 2005,
+     "title": "Understanding and sharing intentions: the origins of cultural cognition",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Argued that what sets human children apart from other apes is a motive to share goals and attention with others. It remains the leading account of how cooperation and culture get started in development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Onishi & Baillargeon",
+     "year": 2005,
+     "title": "Do 15-month-old infants understand false beliefs?",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used looking times to suggest that infants track others' false beliefs years before they pass verbal tests. It set off a debate over implicit theory of mind that is now being decided by replication attempts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hamlin, Wynn & Bloom",
+     "year": 2007,
+     "title": "Social evaluation by preverbal infants",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported that infants as young as six months prefer a puppet that helps over one that hinders. It became the main evidence for an early moral sense and was recently retested on a large scale.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duncan et al.",
+     "year": 2007,
+     "title": "School readiness and later achievement",
+     "venue": "Developmental Psychology",
+     "type": "paper",
+     "why": "Pooled six longitudinal datasets and found that early maths skills were the strongest predictor of later achievement, ahead of reading and attention, with social-emotional skills adding little. It still shapes what early-education policy targets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bailey, Duncan, Odgers & Yu",
+     "year": 2017,
+     "title": "Persistence and fadeout in the impacts of child and adolescent interventions",
+     "venue": "Journal of Research on Educational Effectiveness",
+     "type": "paper",
+     "why": "Documented that gains from many child interventions fade within a few years and examined when they last. Fadeout is now a central problem for anyone designing or evaluating early intervention.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kong et al.",
+     "year": 2018,
+     "title": "The nature of nurture: effects of parental genotypes",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used Icelandic genetic data to show that parents' genes children did not inherit still predict children's education, through the environment parents create. It opened the current study of genetic nurture, which blurs the line between genes and upbringing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Twenge, Joiner, Rogers & Martin",
+     "year": 2018,
+     "title": "Increases in depressive symptoms, suicide-related outcomes, and suicide rates among U.S. adolescents after 2010 and links to increased new media screen time",
+     "venue": "Clinical Psychological Science",
+     "type": "paper",
+     "why": "Linked rising teen depression after 2010 to the spread of smartphones and social media. Read against Orben and Przybylski, it sets out the opposing side of today's screen-time and youth mental health debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kulke, von Duhn, Schneider & Rakoczy",
+     "year": 2018,
+     "title": "Is implicit theory of mind a real and robust phenomenon? Results from a systematic replication study",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Tried to replicate several implicit false-belief tasks and found most effects did not reproduce or were inconsistent. It is the main reason the early theory-of-mind claims are now in doubt.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yeager et al.",
+     "year": 2019,
+     "title": "A national experiment reveals where a growth mindset improves achievement",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "A short online growth-mindset lesson given to a national sample of US ninth graders slightly raised grades for lower-achieving students. Together with sceptical meta-analyses it defines the current debate over small, cheap interventions and where they work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lucca et al.",
+     "year": 2025,
+     "title": "Infants' social evaluation of helpers and hinderers: a large-scale, multi-lab, coordinated replication study",
+     "venue": "Developmental Science",
+     "type": "paper",
+     "why": "Dozens of labs repeated the helper-hinderer study and did not find the preference Hamlin and colleagues reported. It is the clearest recent example of a celebrated infant result failing in a large replication.",
+     "verified": false,
+     "conf": "low",
+     "note": "Title confirmed by search (ManyBabies 4); first author, year and venue from memory and not confirmed."
+    }
+   ]
+  },
+  {
+   "field": "Clinical",
+   "lead": "Clinical psychology is working out which psychological treatments really work and how large their effects are once bias is corrected, which transdiagnostic mechanisms they act on, and how to streamline and scale them through digital and lay-delivered formats.",
+   "papers": [
+    {
+     "authors": "Jacobson & Truax",
+     "year": 1991,
+     "title": "Clinical significance: a statistical approach to defining meaningful change in psychotherapy research",
+     "venue": "Journal of Consulting and Clinical Psychology",
+     "type": "paper",
+     "why": "Introduced the reliable change index and cut-offs for whether a patient's improvement is clinically meaningful, not just statistically significant. It is still how trials and routine outcome monitoring define recovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ehlers & Clark",
+     "year": 2000,
+     "title": "A cognitive model of posttraumatic stress disorder",
+     "venue": "Behaviour Research and Therapy",
+     "type": "paper",
+     "why": "Explained PTSD as a sense of current threat produced by how the trauma is remembered and appraised. The therapy built from it is a first-line treatment, and the model still guides research on trauma memory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harvey, Watkins, Mansell & Shafran",
+     "year": 2004,
+     "title": "Cognitive Behavioural Processes across Psychological Disorders: A Transdiagnostic Approach to Research and Treatment",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Argued that attention, memory, reasoning and behavioural processes are shared across disorders, so treatments can target processes rather than diagnoses. It set the agenda for the transdiagnostic therapies and process-based CBT now in trials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hayes, Luoma, Bond, Masuda & Lillis",
+     "year": 2006,
+     "title": "Acceptance and commitment therapy: model, processes and outcomes",
+     "venue": "Behaviour Research and Therapy",
+     "type": "paper",
+     "why": "Laid out the psychological flexibility model behind ACT and its early outcome evidence. ACT and the wider 'third wave' of mindfulness and acceptance therapies are still tested against classic CBT on both outcomes and mechanisms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kazdin",
+     "year": 2007,
+     "title": "Mediators and mechanisms of change in psychotherapy research",
+     "venue": "Annual Review of Clinical Psychology",
+     "type": "paper",
+     "why": "Pointed out that after decades of trials the field still could not say why any psychotherapy works. Finding mechanisms of change remains a central goal of treatment research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aldao, Nolen-Hoeksema & Schweizer",
+     "year": 2010,
+     "title": "Emotion-regulation strategies across psychopathology: A meta-analytic review",
+     "venue": "Clinical Psychology Review",
+     "type": "paper",
+     "why": "Showed that rumination, avoidance and suppression relate to many disorders, while reappraisal and acceptance are protective. Emotion regulation is now one of the main transdiagnostic targets that treatments are designed around.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Craske et al.",
+     "year": 2014,
+     "title": "Maximizing exposure therapy: an inhibitory learning approach",
+     "venue": "Behaviour Research and Therapy",
+     "type": "paper",
+     "why": "Recast exposure therapy as learning new safety associations that compete with fear, rather than wearing fear down. It changed how exposure is designed and is the best current example of lab learning theory improving a treatment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wampold",
+     "year": 2015,
+     "title": "How important are the common factors in psychotherapy? An update",
+     "venue": "World Psychiatry",
+     "type": "paper",
+     "why": "Argued that the alliance, empathy and expectations shared by all therapies explain more of the outcome than specific techniques. It is the main statement of one side of the continuing debate over what makes therapy work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Holmes et al.",
+     "year": 2018,
+     "title": "The Lancet Psychiatry Commission on psychological treatments research in tomorrow's science",
+     "venue": "The Lancet Psychiatry",
+     "type": "paper",
+     "why": "Argued that psychological treatments have stalled and set out how mechanism science, from experimental psychopathology to neuroscience, should drive their next generation. It is the main current roadmap for treatment development in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cuijpers, Karyotaki, Reijnders & Ebert",
+     "year": 2019,
+     "title": "Was Eysenck right after all? A reassessment of the effects of psychotherapy for adult depression",
+     "venue": "Epidemiology and Psychiatric Sciences",
+     "type": "paper",
+     "why": "Showed that after correcting for small and low-quality trials and publication bias, the effects of psychotherapy for depression are much smaller than usually reported. It is the field's own reckoning with inflated evidence, and it shapes how new treatments are now judged.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kraemer, Wilson, Fairburn & Agras",
+     "year": 2002,
+     "title": "Mediators and moderators of treatment effects in randomized clinical trials",
+     "venue": "Archives of General Psychiatry",
+     "type": "paper",
+     "why": "Gave precise definitions and tests for mediators and moderators inside randomized trials. Those definitions remain the standard for asking how, and for whom, a therapy works.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dimidjian et al.",
+     "year": 2006,
+     "title": "Randomized trial of behavioral activation, cognitive therapy, and antidepressant medication in the acute treatment of adults with major depression",
+     "venue": "Journal of Consulting and Clinical Psychology",
+     "type": "paper",
+     "why": "Found that simple behavioural activation matched or beat cognitive therapy for severe depression. It revived the question of which components of CBT matter and fuelled cheaper, more scalable treatments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nolen-Hoeksema, Wisco & Lyubomirsky",
+     "year": 2008,
+     "title": "Rethinking rumination",
+     "venue": "Perspectives on Psychological Science",
+     "type": "paper",
+     "why": "Synthesised evidence that rumination predicts and prolongs depression and other disorders. Rumination is now a leading transdiagnostic mechanism and a direct target of newer therapies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cuijpers, Smit, Bohlmeijer, Hollon & Andersson",
+     "year": 2010,
+     "title": "Efficacy of cognitive-behavioural therapy and other psychological treatments for adult depression: meta-analytic study of publication bias",
+     "venue": "British Journal of Psychiatry",
+     "type": "paper",
+     "why": "Showed that publication bias inflates the apparent effects of psychotherapy for depression, as it does for antidepressants. It started the bias-corrected reassessment of psychotherapy efficacy that the field is still working through.",
+     "verified": false,
+     "conf": "low",
+     "note": "Author order and exact title not checked."
+    },
+    {
+     "authors": "Shedler",
+     "year": 2010,
+     "title": "The efficacy of psychodynamic psychotherapy",
+     "venue": "American Psychologist",
+     "type": "paper",
+     "why": "Argued that psychodynamic therapy has effect sizes comparable to evidence-based treatments. It remains a reference point in the debate over whether specific therapy brands differ in efficacy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Borsboom & Cramer",
+     "year": 2013,
+     "title": "Network analysis: an integrative approach to the structure of psychopathology",
+     "venue": "Annual Review of Clinical Psychology",
+     "type": "paper",
+     "why": "Proposed that disorders are networks of symptoms that cause one another rather than signs of a hidden disease. The network approach has become a major research programme, along with a debate about whether its findings replicate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Franklin et al.",
+     "year": 2017,
+     "title": "Risk factors for suicidal thoughts and behaviors: a meta-analysis of 50 years of research",
+     "venue": "Psychological Bulletin",
+     "type": "paper",
+     "why": "Pooled 50 years of studies and found that known risk factors predict suicidal behaviour only slightly better than chance. It pushed the field toward machine-learning prediction and short-term risk monitoring.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Singla, Kohrt, Murray, Anand, Chorpita & Patel",
+     "year": 2017,
+     "title": "Psychological treatments for the world: lessons from low- and middle-income countries",
+     "venue": "Annual Review of Clinical Psychology",
+     "type": "paper",
+     "why": "Reviewed trials of therapies delivered by trained non-specialists in poorer countries and found consistent benefits. Task-sharing is now one of the main strategies for closing the global treatment gap.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Flückiger, Del Re, Wampold & Horvath",
+     "year": 2018,
+     "title": "The alliance in adult psychotherapy: A meta-analytic synthesis",
+     "venue": "Psychotherapy",
+     "type": "paper",
+     "why": "Pooled nearly 300 studies showing that the therapeutic alliance reliably predicts outcome across treatments. It is central evidence in the common-factors debate and the study of the therapy process.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Linardon, Cuijpers, Carlbring, Messer & Fuller-Tyszkiewicz",
+     "year": 2019,
+     "title": "The efficacy of app-supported smartphone interventions for mental health problems: a meta-analysis of randomized controlled trials",
+     "venue": "World Psychiatry",
+     "type": "paper",
+     "why": "Found small to moderate benefits of smartphone interventions, shrinking against active controls. It is the main reference point as digital and AI-delivered therapies spread.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Personality & individual differences",
+   "lead": "The field is mapping how stable and heritable traits and abilities are, how they change and can be changed, and which of their links to life outcomes hold up, increasingly using large genomic and replication datasets.",
+   "papers": [
+    {
+     "authors": "Goldberg",
+     "year": 1990,
+     "title": "An alternative 'description of personality': the Big-Five factor structure",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Showed that the trait words in everyday language reliably sort into five broad factors. The Big Five it established is still the common language nearly all personality research uses or argues with.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schmidt & Hunter",
+     "year": 1998,
+     "title": "The validity and utility of selection methods in personnel psychology: practical and theoretical implications of 85 years of research findings",
+     "venue": "Psychological Bulletin",
+     "type": "paper",
+     "why": "Ranked hiring methods by how well they predict job performance and put general mental ability near the top. Its numbers have been cited for decades and are now being revised downward, which keeps it at the centre of applied debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Turkheimer",
+     "year": 2000,
+     "title": "Three laws of behavior genetics and what they mean",
+     "venue": "Current Directions in Psychological Science",
+     "type": "paper",
+     "why": "Summed up twin research in three laws: all traits are heritable, growing up in the same family matters less than genes, and much variation is explained by neither. It is still the shortest guide to reading behavioural genetic results, including modern genomic ones.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roberts, Walton & Viechtbauer",
+     "year": 2006,
+     "title": "Patterns of mean-level change in personality traits across the life course: a meta-analysis of longitudinal studies",
+     "venue": "Psychological Bulletin",
+     "type": "paper",
+     "why": "Found that people become more conscientious, agreeable and emotionally stable as they age, well into adulthood. It established that personality changes in predictable ways, which now frames research on whether it can be changed deliberately.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ashton & Lee",
+     "year": 2007,
+     "title": "Empirical, theoretical, and practical advantages of the HEXACO model of personality structure",
+     "venue": "Personality and Social Psychology Review",
+     "type": "paper",
+     "why": "Argued for a six-factor structure that adds honesty-humility to the Big Five. It is the main rival to the Big Five, and honesty-humility is now widely used in research on ethics and antisocial behaviour.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roberts, Kuncel, Shiner, Caspi & Goldberg",
+     "year": 2007,
+     "title": "The power of personality: the comparative validity of personality traits, socioeconomic status, and cognitive ability for predicting important life outcomes",
+     "venue": "Perspectives on Psychological Science",
+     "type": "paper",
+     "why": "Showed that traits predict mortality, divorce and career success about as well as IQ and family background. It established personality as a serious predictor of life outcomes and a target for policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Polderman et al.",
+     "year": 2015,
+     "title": "Meta-analysis of the heritability of human traits based on fifty years of twin studies",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Combined twin studies of over 17,000 traits and found that average heritability is about half. It is the broadest single summary of twin evidence and the baseline that DNA-based estimates are compared with.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lee et al.",
+     "year": 2018,
+     "title": "Gene discovery and polygenic prediction from a genome-wide association study of educational attainment in 1.1 million individuals",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Found over 1,200 genetic variants linked to years of schooling and built a polygenic score that predicts a meaningful share of the variation. It showed what DNA-based prediction of individual differences can do, and its limits and misuses are now hotly debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Soto",
+     "year": 2019,
+     "title": "How replicable are links between personality traits and consequential life outcomes? The Life Outcomes of Personality Replication Project",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Retested 78 published trait-outcome links in new preregistered samples; about 87 percent replicated, though with smaller effects. It is the best evidence that personality findings have weathered the replication crisis better than much of psychology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Funder & Ozer",
+     "year": 2019,
+     "title": "Evaluating effect size in psychological research: sense and nonsense",
+     "venue": "Advances in Methods and Practices in Psychological Science",
+     "type": "paper",
+     "why": "Argued that correlations around 0.1 to 0.3 are normal and can matter a lot when added up over time and people, while large effects from small studies are usually wrong. It shapes how the field now judges what a meaningful finding is.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Fleeson",
+     "year": 2001,
+     "title": "Toward a structure- and process-integrated view of personality: traits as density distributions of states",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Showed with repeated daily measurements that people's behaviour varies widely from moment to moment, while their averages are very stable. It largely settled the old person-situation debate and launched today's experience-sampling research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Deary",
+     "year": 2012,
+     "title": "Intelligence",
+     "venue": "Annual Review of Psychology",
+     "type": "paper",
+     "why": "Summarises what is robustly known about intelligence differences: their structure, stability, heritability and links to health and longevity. It is a compact guide to one of psychology's most replicable bodies of findings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Credé, Tynan & Harms",
+     "year": 2017,
+     "title": "Much ado about grit: a meta-analytic synthesis of the grit literature",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Found that grit predicts performance only modestly and overlaps heavily with conscientiousness. It is a key example of a popular new trait being absorbed back into existing ones.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mõttus et al.",
+     "year": 2017,
+     "title": "Personality traits below facets: the consensual validity, longitudinal stability, heritability, and utility of personality nuances",
+     "venue": "Journal of Personality and Social Psychology",
+     "type": "paper",
+     "why": "Showed that individual questionnaire items carry stable, heritable information beyond the broad traits. It drives the current move toward finer-grained, item-level models of personality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roberts et al.",
+     "year": 2017,
+     "title": "A systematic review of personality trait change through intervention",
+     "venue": "Psychological Bulletin",
+     "type": "paper",
+     "why": "Found that clinical interventions produce marked changes in traits, especially emotional stability, within weeks. It turned the question of whether personality can be changed deliberately into a live research area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ritchie & Tucker-Drob",
+     "year": 2018,
+     "title": "How much does education improve intelligence? A meta-analysis",
+     "venue": "Psychological Science",
+     "type": "paper",
+     "why": "Used natural experiments to estimate that each extra year of schooling raises IQ by about one to five points. It is the strongest current evidence that intelligence is shaped by environment as well as genes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bleidorn et al.",
+     "year": 2019,
+     "title": "The policy relevance of personality traits",
+     "venue": "American Psychologist",
+     "type": "paper",
+     "why": "Argued that traits predict outcomes, can change and should be part of public policy. It sets out the case, and the cautions, for using personality in schools, health and work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harden & Koellinger",
+     "year": 2020,
+     "title": "Using genetics for social science",
+     "venue": "Nature Human Behaviour",
+     "type": "paper",
+     "why": "Explained how genomic data can and cannot be used to study behaviour and social outcomes, including the pitfalls of polygenic scores. It is a common guide to the fast-moving field of social genomics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Howe et al.",
+     "year": 2022,
+     "title": "Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Compared siblings to separate direct genetic effects from family and population effects and found that estimates for educational attainment and cognition shrank substantially. It shows that many genetic associations with behaviour are partly environmental, a key current correction.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sackett, Zhang, Berry & Lievens",
+     "year": 2022,
+     "title": "Revisiting meta-analytic estimates of validity in personnel selection: addressing systematic overcorrection for restriction of range",
+     "venue": "Journal of Applied Psychology",
+     "type": "paper",
+     "why": "Found that earlier corrections had overstated how well many hiring methods predict job performance, with cognitive ability falling from the top of the ranking. It is now the main update to Schmidt and Hunter.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

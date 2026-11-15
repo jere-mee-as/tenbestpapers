@@ -1,0 +1,689 @@
+{
+ "discipline": "Anthropology",
+ "fields": [
+  {
+   "field": "Cultural anthropology",
+   "lead": "Cultural anthropology is rethinking the culture concept and the line between human and nonhuman, while working on ethics, humanitarianism, global capitalism and environmental crisis.",
+   "papers": [
+    {
+     "authors": "Geertz",
+     "year": 1973,
+     "title": "Thick Description: Toward an Interpretive Theory of Culture",
+     "venue": "The Interpretation of Cultures (Basic Books)",
+     "type": "paper",
+     "why": "Recast culture as webs of meaning to be interpreted, not laws to be discovered. Its model of ethnographic interpretation is still what later approaches define themselves against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ortner",
+     "year": 1984,
+     "title": "Theory in Anthropology since the Sixties",
+     "venue": "Comparative Studies in Society and History",
+     "type": "paper",
+     "why": "Mapped the field's theoretical schools and pointed toward practice theory, linking structure and agency. It is still the standard orientation to how anthropology theorizes action.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Clifford & Marcus (eds.)",
+     "year": 1986,
+     "title": "Writing Culture: The Poetics and Politics of Ethnography",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Treated ethnography as constructed text shaped by power and rhetoric. It changed how anthropologists write and is still argued with in debates on authority and representation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abu-Lughod",
+     "year": 1991,
+     "title": "Writing against Culture",
+     "venue": "Recapturing Anthropology (School of American Research Press)",
+     "type": "paper",
+     "why": "Argued the culture concept freezes difference and hierarchy, and urged ethnographies of the particular. It remains the classic critique in debates over whether 'culture' is still usable.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Appadurai",
+     "year": 1996,
+     "title": "Modernity at Large: Cultural Dimensions of Globalization",
+     "venue": "University of Minnesota Press",
+     "type": "book",
+     "why": "Offered a vocabulary of 'scapes' for global flows of people, media, money and ideas. It still frames the anthropology of globalization and migration.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Viveiros de Castro",
+     "year": 1998,
+     "title": "Cosmological Deixis and Amerindian Perspectivism",
+     "venue": "Journal of the Royal Anthropological Institute",
+     "type": "paper",
+     "why": "Described Amazonian worlds in which many beings share one culture but inhabit different natures. It is a founding text of the ontological turn, the field's biggest recent theoretical fight.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Farmer",
+     "year": 2004,
+     "title": "An Anthropology of Structural Violence",
+     "venue": "Current Anthropology",
+     "type": "paper",
+     "why": "Argued that poverty, racism and political economy produce suffering and illness that ethnography must make visible. It shaped medical and global-health anthropology and the debates over the 'suffering subject.'",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tsing",
+     "year": 2005,
+     "title": "Friction: An Ethnography of Global Connection",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Showed global capitalism and environmentalism working through sticky, uneven local encounters. It is the model for studying global processes ethnographically.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Robbins",
+     "year": 2013,
+     "title": "Beyond the Suffering Subject: Toward an Anthropology of the Good",
+     "venue": "Journal of the Royal Anthropological Institute",
+     "type": "paper",
+     "why": "Argued the field had become fixated on suffering and called for studying how people pursue the good. It helped launch the anthropology of ethics and morality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kohn",
+     "year": 2013,
+     "title": "How Forests Think: Toward an Anthropology beyond the Human",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Used semiotics to argue that forests and animals take part in meaning-making. It is a central text for multispecies and posthumanist anthropology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Strathern",
+     "year": 1988,
+     "title": "The Gender of the Gift: Problems with Women and Problems with Society in Melanesia",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Argued Melanesian persons are relational composites, not bounded individuals. It reshaped theories of personhood, kinship and gender and feeds today's ontological debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ferguson",
+     "year": 1990,
+     "title": "The Anti-Politics Machine: 'Development,' Depoliticization and Bureaucratic Power in Lesotho",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Showed development projects fail at their stated aims but expand state power while turning politics into technical problems. It is the founding text of the anthropology of development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Trouillot",
+     "year": 1991,
+     "title": "Anthropology and the Savage Slot: The Poetics and Politics of Otherness",
+     "venue": "Recapturing Anthropology (School of American Research Press)",
+     "type": "paper",
+     "why": "Argued anthropology inherited a Western 'savage slot' that defines its object. It is central to current calls to decolonize the discipline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mahmood",
+     "year": 2005,
+     "title": "Politics of Piety: The Islamic Revival and the Feminist Subject",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Studied Egyptian women's piety movement to challenge the assumption that agency means resistance. It reshaped anthropology of religion, ethics and secularism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kirksey & Helmreich",
+     "year": 2010,
+     "title": "The Emergence of Multispecies Ethnography",
+     "venue": "Cultural Anthropology",
+     "type": "paper",
+     "why": "Named and outlined multispecies ethnography, studying humans with other organisms. It defined an approach that is now a major strand of the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fassin",
+     "year": 2012,
+     "title": "Humanitarian Reason: A Moral History of the Present",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Analyzed how compassion became a mode of governing the poor, migrants and victims. It anchors critical work on humanitarianism and moral economies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Descola",
+     "year": 2013,
+     "title": "Beyond Nature and Culture",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Proposed four ontologies (animism, totemism, analogism, naturalism) and argued Western naturalism is only one. It is the most systematic statement of the ontological turn. French original 2005.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tsing",
+     "year": 2015,
+     "title": "The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Followed the matsutake mushroom through ruined forests and supply chains to think about life amid environmental damage. It is a defining text for anthropology of the Anthropocene.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ortner",
+     "year": 2016,
+     "title": "Dark Anthropology and Its Others: Theory since the Eighties",
+     "venue": "HAU: Journal of Ethnographic Theory",
+     "type": "paper",
+     "why": "Mapped the turn to 'dark' anthropology of neoliberalism and suffering and its rivals in ethics and the good. It is the best current guide to the field's theoretical landscape.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Holbraad & Pedersen",
+     "year": 2017,
+     "title": "The Ontological Turn: An Anthropological Exposition",
+     "venue": "Cambridge University Press",
+     "type": "book",
+     "why": "Set out what the ontological turn claims and defended it against critics. It is the key reference for that ongoing debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Biological anthropology & human evolution",
+   "lead": "Ancient DNA and new fossils are redrawing human origins as a tangled story of mixing among many hominin lineages, while energetics and life-history work explain what made humans distinctive.",
+   "papers": [
+    {
+     "authors": "Aiello & Wheeler",
+     "year": 1995,
+     "title": "The Expensive-Tissue Hypothesis: The Brain and the Digestive System in Human and Primate Evolution",
+     "venue": "Current Anthropology",
+     "type": "paper",
+     "why": "Proposed that a smaller gut, fed by higher-quality food, freed energy for a bigger brain. Later tests challenged it, but the energetic trade-off framing still drives brain-evolution research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hawkes et al.",
+     "year": 1998,
+     "title": "Grandmothering, Menopause, and the Evolution of Human Life Histories",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Argued that postmenopausal women provisioning grandchildren selected for longer human lives. The grandmother hypothesis is still a leading and debated account of human life history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bramble & Lieberman",
+     "year": 2004,
+     "title": "Endurance Running and the Evolution of Homo",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued that long-distance running shaped the body of Homo. It remains a widely tested and debated hypothesis about human anatomy and foraging.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brown et al.",
+     "year": 2004,
+     "title": "A New Small-Bodied Hominin from the Late Pleistocene of Flores, Indonesia",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Announced Homo floresiensis, a tiny hominin that survived until recently. It showed late human evolution was more diverse than assumed and still drives questions about island dwarfing and early dispersals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lovejoy",
+     "year": 2009,
+     "title": "Reexamining Human Origins in Light of Ardipithecus ramidus",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used the 4.4-million-year-old Ardi skeleton to argue our last common ancestor with chimps was not chimp-like. It is still at the center of debates about early bipedalism and social behavior.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Green et al.",
+     "year": 2010,
+     "title": "A Draft Sequence of the Neandertal Genome",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Sequenced the Neanderthal genome and found that non-Africans carry Neanderthal ancestry. It ended the strict replacement model and started the study of archaic admixture.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Reich et al.",
+     "year": 2010,
+     "title": "Genetic History of an Archaic Hominin Group from Denisova Cave in Siberia",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Identified the Denisovans from a finger bone's DNA alone and found their ancestry in Melanesians. It showed genetics can discover hominin groups the fossil record barely shows.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Berger et al.",
+     "year": 2015,
+     "title": "Homo naledi, a New Species of the Genus Homo from the Dinaledi Chamber, South Africa",
+     "venue": "eLife",
+     "type": "paper",
+     "why": "Described a small-brained Homo species later dated to about 300,000 years ago. It challenges the link between brain size and behavior and fuels ongoing disputes about deliberate burial.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pontzer et al.",
+     "year": 2016,
+     "title": "Metabolic Acceleration and the Evolution of Human Brain Size and Life History",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Measured energy use to show humans burn more calories than other apes. It reoriented explanations of big brains and long lives toward a faster overall metabolism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hublin et al.",
+     "year": 2017,
+     "title": "New Fossils from Jebel Irhoud, Morocco and the Pan-African Origin of Homo sapiens",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Dated early Homo sapiens to about 300,000 years ago in North Africa. It pushed back our species' origin and supports the view that it emerged across Africa, not in one place.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Wrangham et al.",
+     "year": 1999,
+     "title": "The Raw and the Stolen: Cooking and the Ecology of Human Origins",
+     "venue": "Current Anthropology",
+     "type": "paper",
+     "why": "Proposed that cooking drove the evolution of Homo erectus. The cooking hypothesis remains a central and debated explanation of human diet and anatomy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaplan, Hill, Lancaster & Hurtado",
+     "year": 2000,
+     "title": "A Theory of Human Life History Evolution: Diet, Intelligence, and Longevity",
+     "venue": "Evolutionary Anthropology",
+     "type": "paper",
+     "why": "Argued that skill-intensive foraging selected for big brains, long childhoods and long lives. It is the main rival and complement to the grandmother hypothesis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Prüfer et al.",
+     "year": 2014,
+     "title": "The Complete Genome Sequence of a Neanderthal from the Altai Mountains",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Produced a high-quality Neanderthal genome showing inbreeding and several gene flows among archaic groups. It became the reference for later admixture studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sankararaman et al.",
+     "year": 2014,
+     "title": "The Genomic Landscape of Neanderthal Ancestry in Present-Day Humans",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Mapped where Neanderthal DNA survives in modern genomes and where selection removed it. It shaped research on the health and adaptive effects of archaic ancestry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Huerta-Sánchez et al.",
+     "year": 2014,
+     "title": "Altitude Adaptation in Tibetans Caused by Introgression of Denisovan-like DNA",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed Tibetans' high-altitude adaptation came from Denisovan DNA. It is the clearest case of adaptive introgression from archaic humans.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harmand et al.",
+     "year": 2015,
+     "title": "3.3-Million-Year-Old Stone Tools from Lomekwi 3, West Turkana, Kenya",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported stone tools older than the genus Homo. It reopened the question of who made the first tools and remains debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Villmoare et al.",
+     "year": 2015,
+     "title": "Early Homo at 2.8 Ma from Ledi-Geraru, Afar, Ethiopia",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Described a jaw pushing the origin of Homo back to about 2.8 million years. It is the key fossil for when and why our genus appeared.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scerri et al.",
+     "year": 2018,
+     "title": "Did Our Species Evolve in Subdivided Populations across Africa, and Why Does It Matter?",
+     "venue": "Trends in Ecology & Evolution",
+     "type": "paper",
+     "why": "Argued Homo sapiens emerged from linked, subdivided populations across Africa. This 'African multiregionalism' is now a leading model of our origins.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Slon et al.",
+     "year": 2018,
+     "title": "The Genome of the Offspring of a Neanderthal Mother and a Denisovan Father",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Identified a first-generation hybrid of two archaic groups. It showed interbreeding among hominins was common.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ragsdale et al.",
+     "year": 2023,
+     "title": "A Weakly Structured Stem for Human Origins in Africa",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used genomic models to argue modern humans descend from several weakly connected African populations rather than a single source or archaic admixture. It is at the frontier of the debate over our species' origins.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Archaeology",
+   "lead": "Archaeology is being remade by ancient DNA, lidar and large data syntheses, and is rethinking how early inequality, cities and states emerged and who controls the past.",
+   "papers": [
+    {
+     "authors": "Childe",
+     "year": 1950,
+     "title": "The Urban Revolution",
+     "venue": "Town Planning Review",
+     "type": "paper",
+     "why": "Listed the traits marking the rise of cities and states. Archaeologists still test and argue with its criteria, and recent critiques of linear social evolution target it directly.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Trigger",
+     "year": 1984,
+     "title": "Alternative Archaeologies: Nationalist, Colonialist, Imperialist",
+     "venue": "Man",
+     "type": "paper",
+     "why": "Showed archaeology's interpretations reflect the political contexts that produce it. It underlies current work on decolonizing archaeology and heritage politics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ingold",
+     "year": 1993,
+     "title": "The Temporality of the Landscape",
+     "venue": "World Archaeology",
+     "type": "paper",
+     "why": "Argued landscapes are made through ongoing human activity over time. It remains a key text for landscape and phenomenological archaeology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zeder",
+     "year": 2011,
+     "title": "The Origins of Agriculture in the Near East",
+     "venue": "Current Anthropology",
+     "type": "paper",
+     "why": "Synthesized evidence showing farming arose gradually across a wide region, not as a sudden revolution. It reshaped how archaeologists see domestication.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kintigh et al.",
+     "year": 2014,
+     "title": "Grand Challenges for Archaeology",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Surveyed archaeologists to define the field's biggest open questions, from inequality to resilience. It is a widely used agenda for current research and data synthesis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Haak et al.",
+     "year": 2015,
+     "title": "Massive Migration from the Steppe Was a Source for Indo-European Languages in Europe",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used ancient DNA to show a large population movement from the steppe into Europe about 5,000 years ago. It revived migration as an explanation and sparked debate between archaeologists and geneticists.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kohler et al.",
+     "year": 2017,
+     "title": "Greater Post-Neolithic Wealth Disparities in Eurasia than in North America and Mesoamerica",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used house-size Gini coefficients from many sites to track wealth inequality over millennia. It linked inequality to domestic animals and launched comparative, quantitative work on ancient inequality.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Olalde et al.",
+     "year": 2018,
+     "title": "The Beaker Phenomenon and the Genomic Transformation of Northwest Europe",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed the Beaker culture spread partly by ideas and partly by migration that replaced most of Britain's population. It is a model case for combining genetics and material culture.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Canuto et al.",
+     "year": 2018,
+     "title": "Ancient Lowland Maya Complexity as Revealed by Airborne Laser Scanning of Northern Guatemala",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used lidar to reveal dense Maya settlement and infrastructure. It showed remote sensing can transform estimates of ancient population and complexity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Graeber & Wengrow",
+     "year": 2021,
+     "title": "The Dawn of Everything: A New History of Humanity",
+     "venue": "Farrar, Straus and Giroux",
+     "type": "book",
+     "why": "Argued early societies experimented with many political forms rather than following a fixed path to the state. It has set off a broad debate about social evolution and inequality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "McBrearty & Brooks",
+     "year": 2000,
+     "title": "The Revolution That Wasn't: A New Interpretation of the Origin of Modern Human Behavior",
+     "venue": "Journal of Human Evolution",
+     "type": "paper",
+     "why": "Argued modern behavior built up gradually in Africa rather than appearing suddenly in Europe. It is the standard reference against the 'Upper Paleolithic revolution.'",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Henshilwood et al.",
+     "year": 2002,
+     "title": "Emergence of Modern Human Behavior: Middle Stone Age Engravings from South Africa",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reported engraved ochre about 75,000 years old from Blombos Cave. It is key evidence for early symbolic behavior in Africa.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Atalay",
+     "year": 2006,
+     "title": "Indigenous Archaeology as Decolonizing Practice",
+     "venue": "American Indian Quarterly",
+     "type": "paper",
+     "why": "Argued for archaeology done with and for Indigenous communities. It is central to current community-based and decolonizing practice.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bocquet-Appel",
+     "year": 2011,
+     "title": "When the World's Population Took Off: The Springboard of the Neolithic Demographic Transition",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed farming brought a sharp rise in birth rates visible in cemetery data. It frames work on the demographic effects of agriculture.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hodder",
+     "year": 2012,
+     "title": "Entangled: An Archaeology of the Relationships between Humans and Things",
+     "venue": "Wiley-Blackwell",
+     "type": "book",
+     "why": "Argued humans and things become entangled in dependencies that drive change. It is a major statement of the 'material turn' in archaeology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dietrich et al.",
+     "year": 2012,
+     "title": "The Role of Cult and Feasting in the Emergence of Neolithic Communities. New Evidence from Göbekli Tepe, South-Eastern Turkey",
+     "venue": "Antiquity",
+     "type": "paper",
+     "why": "Presented evidence of large-scale feasting at Göbekli Tepe's monumental enclosures. It supports the idea that ritual gatherings helped drive settled life and is still debated.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Larson et al.",
+     "year": 2014,
+     "title": "Current Perspectives and the Future of Domestication Studies",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Synthesized genetics and archaeology on how plants and animals were domesticated. It sets the current agenda for domestication research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lazaridis et al.",
+     "year": 2016,
+     "title": "Genomic Insights into the Origin of Farming in the Ancient Near East",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed early farming populations across the Near East were genetically distinct and that farming spread through both ideas and people. It is key to the ancient DNA account of the Neolithic.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stephens et al.",
+     "year": 2019,
+     "title": "Archaeological Assessment Reveals Earth's Early Transformation through Land Use",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used expert surveys to show substantial human land transformation by 3,000 years ago. It brings archaeology into Anthropocene debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bennett et al.",
+     "year": 2021,
+     "title": "Evidence of Humans in North America during the Last Glacial Maximum",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Dated human footprints at White Sands to about 21,000 to 23,000 years ago. It challenges the timeline of the peopling of the Americas and remains contested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

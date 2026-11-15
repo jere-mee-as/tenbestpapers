@@ -1,0 +1,1145 @@
+{
+ "discipline": "Earth sciences",
+ "fields": [
+  {
+   "field": "Geology & plate tectonics",
+   "lead": "Working out when and how plate tectonics began, how plates and the deep mantle drive each other, and how faults release stress in both slow and fast slip.",
+   "papers": [
+    {
+     "authors": "Morgan",
+     "year": 1971,
+     "title": "Convection plumes in the lower mantle",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed that hotspots like Hawaii sit above narrow plumes rising from deep in the mantle. Whether plumes exist and where they come from is still argued over, now with seismic imaging.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Forsyth & Uyeda",
+     "year": 1975,
+     "title": "On the relative importance of the driving forces of plate motion",
+     "venue": "Geophysical Journal of the Royal Astronomical Society",
+     "type": "paper",
+     "why": "Compared plate speeds with plate features and concluded that sinking slabs pull plates more than ridges push them. Slab pull remains the starting point for plate-driving models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tackley",
+     "year": 2000,
+     "title": "Mantle convection and plate tectonics: toward an integrated physical and chemical theory",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Laid out why mantle convection models struggled to produce plates and what was needed to fix that. Self-consistent plate generation is still a main goal of geodynamic modeling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilde, Valley, Peck & Graham",
+     "year": 2001,
+     "title": "Evidence from detrital zircons for the existence of continental crust and oceans on the Earth 4.4 Gyr ago",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used tiny zircon crystals to argue for crust and liquid water within 150 million years of Earth's formation. These zircons are central to the debate over what the early Earth was like.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rogers & Dragert",
+     "year": 2003,
+     "title": "Episodic tremor and slip on the Cascadia subduction zone: the chatter of silent slip",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found that slow slip on the Cascadia fault repeats regularly and comes with seismic tremor. Slow earthquakes are now a major research area because they may load faults toward big ones.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stern",
+     "year": 2005,
+     "title": "Evidence from ophiolites, blueschists, and ultrahigh-pressure metamorphic terranes that the modern episode of subduction tectonics began in Neoproterozoic time",
+     "venue": "Geology",
+     "type": "paper",
+     "why": "Argued that modern-style subduction began less than a billion years ago. It sits at one end of the wide debate over when plate tectonics started.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Müller, Sdrolias, Gaina & Roest",
+     "year": 2008,
+     "title": "Age, spreading rates, and spreading asymmetry of the world's ocean crust",
+     "venue": "Geochemistry, Geophysics, Geosystems",
+     "type": "paper",
+     "why": "Produced a global map of seafloor age and spreading rates. It is a standard input for plate reconstructions, sea-level and mantle models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Garnero & McNamara",
+     "year": 2008,
+     "title": "Structure and dynamics of Earth's lower mantle",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reviewed the two large blobs of slow seismic speed at the base of the mantle and what they might be. Their origin and role in plumes is still open.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bercovici & Ricard",
+     "year": 2014,
+     "title": "Plate tectonics, damage and inheritance",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed that weakened zones in the lithosphere build up and persist over time, letting plate tectonics start slowly. It is a leading physical model for how plates first formed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "French & Romanowicz",
+     "year": 2015,
+     "title": "Broad plumes rooted at the base of the Earth's mantle beneath major hotspots",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used whole-mantle seismic imaging to find broad plumes beneath major hotspots. It revived the plume hypothesis and linked plumes to the deep mantle blobs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Molnar & Tapponnier",
+     "year": 1975,
+     "title": "Cenozoic tectonics of Asia: effects of a continental collision",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Explained Asia's faults and mountains as the result of India's collision. How continents deform, as blocks or as a continuum, is still debated using this case.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hofmann",
+     "year": 1997,
+     "title": "Mantle geochemistry: the message from oceanic volcanism",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reviewed how ocean-island lavas show recycled crust in the mantle. It frames how geochemistry is used to trace mantle structure.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "van der Hilst, Widiyantoro & Engdahl",
+     "year": 1997,
+     "title": "Evidence for deep mantle circulation from global tomography",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Imaged sinking slabs reaching the lower mantle. It largely ended the idea of a mantle split into separate layers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Obara",
+     "year": 2002,
+     "title": "Nonvolcanic deep tremor associated with subduction in southwest Japan",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Discovered tremor deep under Japan unlike ordinary earthquakes. Together with Cascadia, it opened the study of slow earthquakes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Torsvik, Smethurst, Burke & Steinberger",
+     "year": 2006,
+     "title": "Large igneous provinces generated from the margins of the large low-velocity provinces in the deep mantle",
+     "venue": "Geophysical Journal International",
+     "type": "paper",
+     "why": "Found that past large eruptions plot above the edges of the deep mantle blobs. It suggests these structures have been stable for hundreds of millions of years.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ide, Beroza, Shelly & Uchide",
+     "year": 2007,
+     "title": "A scaling law for slow earthquakes",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed slow earthquakes follow a different size-duration law from ordinary ones. It set up slow slip as a distinct process to explain.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Simons et al.",
+     "year": 2011,
+     "title": "The 2011 magnitude 9.0 Tohoku-Oki earthquake: mosaicking the megathrust from seconds to centuries",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed how unexpectedly large slip occurred near the trench. It changed hazard thinking about which fault segments can host giant earthquakes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tang, Chen & Rudnick",
+     "year": 2016,
+     "title": "Archean upper crust transition from mafic to felsic marks the onset of plate tectonics",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used trace elements to argue continental crust changed composition around three billion years ago. It places the start of plate tectonics far earlier than Stern does.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cawood et al.",
+     "year": 2018,
+     "title": "Geological archive of the onset of plate tectonics",
+     "venue": "Philosophical Transactions of the Royal Society A",
+     "type": "paper",
+     "why": "Reviewed the rock evidence for when plate tectonics began. It is a standard summary of a still-unsettled question.",
+     "verified": false,
+     "conf": "low",
+     "note": "Title and author list not checked this pass."
+    },
+    {
+     "authors": "Yuan et al.",
+     "year": 2023,
+     "title": "Moon-forming impactor as a source of Earth's basal mantle anomalies",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Proposed that the deep mantle blobs are remains of the body that hit Earth and formed the Moon. It is a new and contested idea about their origin.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Climate science",
+   "lead": "Narrowing how much warming a given amount of carbon dioxide causes, and working out the regional extremes and tipping risks that follow.",
+   "papers": [
+    {
+     "authors": "Manabe & Wetherald",
+     "year": 1967,
+     "title": "Thermal equilibrium of the atmosphere with a given distribution of relative humidity",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Gave the first realistic estimate of warming from doubled carbon dioxide, including water vapor feedback. Its approach and its answer still hold, and it remains the base of climate modeling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hays, Imbrie & Shackleton",
+     "year": 1976,
+     "title": "Variations in the Earth's orbit: pacemaker of the ice ages",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that ice ages follow cycles in Earth's orbit. Why the climate responds so strongly to small orbital changes is still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Petit et al.",
+     "year": 1999,
+     "title": "Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that carbon dioxide and temperature rose and fell together over four ice-age cycles. Ice-core records remain a key check on climate sensitivity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gregory et al.",
+     "year": 2004,
+     "title": "A new method for diagnosing radiative forcing and climate sensitivity",
+     "venue": "Geophysical Research Letters",
+     "type": "paper",
+     "why": "Introduced a simple regression for getting forcing and feedback from model runs. It is now the standard way climate sensitivity is measured in models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stott, Stone & Allen",
+     "year": 2004,
+     "title": "Human contribution to the European heatwave of 2003",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that human influence had at least doubled the risk of the 2003 heatwave. It started event attribution, now done routinely after major disasters.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Held & Soden",
+     "year": 2006,
+     "title": "Robust responses of the hydrological cycle to global warming",
+     "venue": "Journal of Climate",
+     "type": "paper",
+     "why": "Explained why warming makes wet regions wetter and dry regions drier, while convection slows. These rules of thumb still frame how rainfall change is understood.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lenton et al.",
+     "year": 2008,
+     "title": "Tipping elements in the Earth's climate system",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Identified parts of the climate system that could shift abruptly, such as ice sheets and the Amazon. Tipping risk now shapes climate policy and research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Allen et al.",
+     "year": 2009,
+     "title": "Warming caused by cumulative carbon emissions towards the trillionth tonne",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that peak warming depends mainly on total carbon emitted. Carbon budgets in IPCC reports and net-zero targets rest on this.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marcott, Shakun, Clark & Mix",
+     "year": 2013,
+     "title": "A reconstruction of regional and global temperature for the past 11,300 years",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reconstructed temperature since the last ice age and showed today's warming is unusual. Its disagreement with models, the 'Holocene temperature conundrum', is still being worked on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sherwood et al.",
+     "year": 2020,
+     "title": "An assessment of Earth's climate sensitivity using multiple lines of evidence",
+     "venue": "Reviews of Geophysics",
+     "type": "paper",
+     "why": "Combined physical, historical and paleoclimate evidence to narrow climate sensitivity to about 2.6-3.9 degrees. It underpinned the IPCC's tighter range.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Hasselmann",
+     "year": 1976,
+     "title": "Stochastic climate models. Part I. Theory",
+     "venue": "Tellus",
+     "type": "paper",
+     "why": "Showed that slow climate variability can come from integrating fast weather noise. It underlies how natural variability is separated from forced change.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lüthi et al.",
+     "year": 2008,
+     "title": "High-resolution carbon dioxide concentration record 650,000-800,000 years before present",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Extended the ice-core carbon dioxide record to 800,000 years. It shows today's levels are far outside that range.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Meinshausen et al.",
+     "year": 2009,
+     "title": "Greenhouse-gas emission targets for limiting global warming to 2 °C",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Turned temperature targets into emissions budgets with probabilities. It shaped how targets like the Paris goals are framed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shakun et al.",
+     "year": 2012,
+     "title": "Global warming preceded by increasing carbon dioxide concentrations during the last deglaciation",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed global temperature lagged carbon dioxide at the end of the last ice age. It settled a common objection about which came first.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eyring et al.",
+     "year": 2016,
+     "title": "Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization",
+     "venue": "Geoscientific Model Development",
+     "type": "paper",
+     "why": "Set the design of the current round of climate model comparisons. Most climate projections today come from CMIP6 runs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "DeConto & Pollard",
+     "year": 2016,
+     "title": "Contribution of Antarctica to past and future sea-level rise",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Added ice-cliff collapse to Antarctic models and projected much faster sea-level rise. Whether that process is real is one of the biggest open questions in sea-level projection.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Armour",
+     "year": 2017,
+     "title": "Energy budget constraints on climate sensitivity in light of inconstant climate feedbacks",
+     "venue": "Nature Climate Change",
+     "type": "paper",
+     "why": "Showed that sensitivity estimated from recent warming is biased low because feedbacks change over time. This 'pattern effect' is a live topic in sensitivity research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Otto",
+     "year": 2017,
+     "title": "Attribution of weather and climate events",
+     "venue": "Annual Review of Environment and Resources",
+     "type": "paper",
+     "why": "Reviewed how scientists attribute single extreme events to climate change. It is the standard overview of a fast-growing field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zelinka et al.",
+     "year": 2020,
+     "title": "Causes of higher climate sensitivity in CMIP6 models",
+     "venue": "Geophysical Research Letters",
+     "type": "paper",
+     "why": "Traced the high sensitivity of many new models to cloud feedbacks. It led to the 'hot model' problem in how projections are used.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Armstrong McKay et al.",
+     "year": 2022,
+     "title": "Exceeding 1.5°C global warming could trigger multiple climate tipping points",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Updated tipping-point thresholds and found several may be crossed near 1.5 degrees. It is the current reference for tipping risk.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Oceanography",
+   "lead": "Tracking how the ocean's circulation, heat uptake, oxygen and carbon chemistry are changing, and whether the Atlantic overturning circulation is heading toward collapse.",
+   "papers": [
+    {
+     "authors": "Stommel",
+     "year": 1961,
+     "title": "Thermohaline convection with two stable regimes of flow",
+     "venue": "Tellus",
+     "type": "paper",
+     "why": "Showed with a simple model that ocean circulation driven by heat and salt can have two stable states. It is the basis for today's fear that the Atlantic circulation could tip.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Munk & Wunsch",
+     "year": 1998,
+     "title": "Abyssal recipes II: energetics of tidal and wind mixing",
+     "venue": "Deep-Sea Research Part I",
+     "type": "paper",
+     "why": "Showed that the deep circulation depends on mixing powered by tides and winds, not just on sinking water. Where that mixing happens is still an active research question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Falkowski, Barber & Smetacek",
+     "year": 1998,
+     "title": "Biogeochemical controls and feedbacks on ocean primary production",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reviewed how nutrients and plankton control the ocean's uptake of carbon. It frames how ocean biology affects the carbon cycle.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rahmstorf",
+     "year": 2002,
+     "title": "Ocean circulation and climate during the past 120,000 years",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Linked abrupt past climate shifts to changes in the Atlantic circulation. It is the reference case for what a circulation shutdown could do.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sabine et al.",
+     "year": 2004,
+     "title": "The oceanic sink for anthropogenic CO2",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Measured how much human carbon dioxide the ocean has taken up, about half of fossil emissions. Tracking this sink remains central to carbon budgets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Orr et al.",
+     "year": 2005,
+     "title": "Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Projected that parts of the ocean will become corrosive to shells this century. It made ocean acidification a major research area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Levitus et al.",
+     "year": 2012,
+     "title": "World ocean heat content and thermosteric sea level change (0-2000 m), 1955-2010",
+     "venue": "Geophysical Research Letters",
+     "type": "paper",
+     "why": "Showed the ocean has absorbed most of the extra heat from global warming. Ocean heat content is now one of the main measures of climate change.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Marshall & Speer",
+     "year": 2012,
+     "title": "Closing the meridional overturning circulation through Southern Ocean upwelling",
+     "venue": "Nature Geoscience",
+     "type": "paper",
+     "why": "Showed that winds over the Southern Ocean pull deep water up, closing the global circulation. It shifted attention to the Southern Ocean's role in heat and carbon uptake.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caesar, Rahmstorf, Robinson, Feulner & Saba",
+     "year": 2018,
+     "title": "Observed fingerprint of a weakening Atlantic Ocean overturning circulation",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used a sea-surface temperature pattern to argue the Atlantic circulation has weakened since the mid-twentieth century. The claim is contested, which keeps it at the center of the AMOC debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lozier et al.",
+     "year": 2019,
+     "title": "A sea change in our view of overturning in the subpolar North Atlantic",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reported OSNAP measurements showing most overturning happens east of Greenland, not in the Labrador Sea. It changed where models and monitoring focus.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Martin",
+     "year": 1990,
+     "title": "Glacial-interglacial CO2 change: the iron hypothesis",
+     "venue": "Paleoceanography",
+     "type": "paper",
+     "why": "Proposed that iron limits plankton growth and that more dust during ice ages drew down carbon dioxide. Iron limitation is now well established and still drives carbon-removal debates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sigman & Boyle",
+     "year": 2000,
+     "title": "Glacial/interglacial variations in atmospheric carbon dioxide",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reviewed how the ocean could have stored the carbon missing from the ice-age atmosphere. The question is still not fully settled.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wunsch",
+     "year": 2002,
+     "title": "What is the thermohaline circulation?",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued the 'conveyor belt' is a misleading picture because winds and tides do most of the driving. It reshaped how the overturning circulation is described.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roemmich et al.",
+     "year": 2009,
+     "title": "The Argo Program: observing the global ocean with profiling floats",
+     "venue": "Oceanography",
+     "type": "paper",
+     "why": "Described the global network of floats that measure ocean temperature and salinity. Argo data underpin nearly all modern estimates of ocean heat.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chelton, Schlax & Samelson",
+     "year": 2011,
+     "title": "Global observations of nonlinear mesoscale eddies",
+     "venue": "Progress in Oceanography",
+     "type": "paper",
+     "why": "Mapped eddies worldwide from satellites and showed they carry heat and nutrients. Representing eddies is a main challenge for climate models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schmidtko, Stramma & Visbeck",
+     "year": 2017,
+     "title": "Decline in global oceanic oxygen content during the past five decades",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found the ocean has lost about two percent of its oxygen since 1960. Deoxygenation is now a major concern for marine life.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frölicher, Fischer & Gruber",
+     "year": 2018,
+     "title": "Marine heatwaves under global warming",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed marine heatwaves have become more frequent and will increase sharply with warming. It started much of the current work on ocean extremes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gruber et al.",
+     "year": 2019,
+     "title": "The oceanic sink for anthropogenic CO2 from 1994 to 2007",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Updated the ocean carbon sink and found it kept pace with rising emissions. It is the reference for whether the sink is weakening.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Boyd, Claustre, Levy, Siegel & Weber",
+     "year": 2019,
+     "title": "Multi-faceted particle pumps drive carbon sequestration in the ocean",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed several mechanisms besides sinking particles move carbon into the deep ocean. It reshaped estimates of the biological carbon pump.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ditlevsen & Ditlevsen",
+     "year": 2023,
+     "title": "Warning of a forthcoming collapse of the Atlantic meridional overturning circulation",
+     "venue": "Nature Communications",
+     "type": "paper",
+     "why": "Used statistical early-warning signals to predict an AMOC collapse possibly this century. It is widely debated and has driven new work on tipping risk.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Atmospheric science",
+   "lead": "Improving weather and climate prediction, now with machine learning, while clouds, aerosols and changes in extremes remain the biggest sources of uncertainty.",
+   "papers": [
+    {
+     "authors": "Lorenz",
+     "year": 1963,
+     "title": "Deterministic nonperiodic flow",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Showed that a simple weather model is chaotic, so small errors grow and limit forecasts. It is why forecasting now uses ensembles of runs.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bjerknes",
+     "year": 1969,
+     "title": "Atmospheric teleconnections from the equatorial Pacific",
+     "venue": "Monthly Weather Review",
+     "type": "paper",
+     "why": "Explained El Niño as a feedback between Pacific winds and ocean temperatures. That feedback is still the core of ENSO prediction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Madden & Julian",
+     "year": 1971,
+     "title": "Detection of a 40-50 day oscillation in the zonal wind in the tropical Pacific",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Found a slow, eastward-moving pattern of tropical rainfall and winds. The Madden-Julian Oscillation is a main source of predictability beyond two weeks, and models still struggle with it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Twomey",
+     "year": 1977,
+     "title": "The influence of pollution on the shortwave albedo of clouds",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Showed that pollution particles make clouds brighter by creating more, smaller droplets. Aerosol effects on clouds are still the largest uncertainty in human climate forcing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Held & Hou",
+     "year": 1980,
+     "title": "Nonlinear axially symmetric circulations in a nearly inviscid atmosphere",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Gave a simple theory for how wide the tropical Hadley circulation is. It frames current work on why the tropics are expanding.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hoskins & Karoly",
+     "year": 1981,
+     "title": "The steady linear response of a spherical atmosphere to thermal and orographic forcing",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Showed how tropical heating sends wave trains around the globe. It explains how El Niño and other tropical events affect weather far away.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Emanuel",
+     "year": 2005,
+     "title": "Increasing destructiveness of tropical cyclones over the past 30 years",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Linked rising hurricane destructiveness to warmer oceans. It started the ongoing debate over how climate change affects tropical cyclones.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bauer, Thorpe & Brunet",
+     "year": 2015,
+     "title": "The quiet revolution of numerical weather prediction",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Described how forecasts gained about a day of skill per decade. It is the baseline that machine-learning forecasting is now measured against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bony et al.",
+     "year": 2015,
+     "title": "Clouds, circulation and climate sensitivity",
+     "venue": "Nature Geoscience",
+     "type": "paper",
+     "why": "Argued that understanding how clouds interact with circulation is key to narrowing climate sensitivity. It set the agenda for current field campaigns and modeling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lam et al.",
+     "year": 2023,
+     "title": "Learning skillful medium-range global weather forecasting",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed a machine-learning model (GraphCast) beating the leading physics-based forecast on most measures. It has pushed forecasting centers to adopt AI models.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Albrecht",
+     "year": 1989,
+     "title": "Aerosols, cloud microphysics, and fractional cloudiness",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Proposed that pollution makes clouds last longer by suppressing rain. How strong this effect is remains a main uncertainty in aerosol forcing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bretherton, Blossey & Khairoutdinov",
+     "year": 2005,
+     "title": "An energy-balance analysis of deep convective self-aggregation above uniform SST",
+     "venue": "Journal of the Atmospheric Sciences",
+     "type": "paper",
+     "why": "Showed that tropical storms can clump together on their own in uniform conditions. Self-aggregation is an active topic for climate sensitivity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lu, Vecchi & Reichler",
+     "year": 2007,
+     "title": "Expansion of the Hadley cell under global warming",
+     "venue": "Geophysical Research Letters",
+     "type": "paper",
+     "why": "Showed models expand the tropics as the climate warms. Tropical widening affects where deserts and storm tracks shift.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stevens & Feingold",
+     "year": 2009,
+     "title": "Untangling aerosol effects on clouds and precipitation in a buffered system",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued clouds partly buffer aerosol effects, so they may be smaller than thought. It shapes how aerosol-cloud interactions are studied.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Francis & Vavrus",
+     "year": 2012,
+     "title": "Evidence linking Arctic amplification to extreme weather in mid-latitudes",
+     "venue": "Geophysical Research Letters",
+     "type": "paper",
+     "why": "Proposed that a warming Arctic makes the jet stream wavier and weather more persistent. The claim is contested, which keeps it live.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shepherd",
+     "year": 2014,
+     "title": "Atmospheric circulation as a source of uncertainty in climate change projections",
+     "venue": "Nature Geoscience",
+     "type": "paper",
+     "why": "Argued that changes in circulation, not just temperature, drive regional climate uncertainty. It shaped storyline approaches to regional projections.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Solomon et al.",
+     "year": 2016,
+     "title": "Emergence of healing in the Antarctic ozone layer",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found the first signs of the Antarctic ozone hole recovering. It shows the Montreal Protocol working and is the baseline for tracking recovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bellouin et al.",
+     "year": 2020,
+     "title": "Bounding global aerosol radiative forcing of climate change",
+     "venue": "Reviews of Geophysics",
+     "type": "paper",
+     "why": "Combined evidence to constrain how much aerosols have cooled the planet. It sets the range used in recent assessments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kossin, Knapp, Olander & Velden",
+     "year": 2020,
+     "title": "Global increase in major tropical cyclone exceedance probability over the past four decades",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Found the share of storms reaching major intensity has risen globally since 1979. It is the main observational evidence for stronger tropical cyclones.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Price et al.",
+     "year": 2025,
+     "title": "Probabilistic weather forecasting with machine learning",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed a machine-learning ensemble (GenCast) beating the leading physics-based ensemble forecast. It moved AI weather models toward probabilistic forecasting.",
+     "verified": false,
+     "conf": "low",
+     "note": "Published online Dec 2024; issue year 2025 assumed."
+    }
+   ]
+  },
+  {
+   "field": "Paleontology",
+   "lead": "Dating mass extinctions precisely, working out when animals and major groups arose, and using the fossil record to judge today's biodiversity loss.",
+   "papers": [
+    {
+     "authors": "Gould & Eldredge",
+     "year": 1977,
+     "title": "Punctuated equilibria: the tempo and mode of evolution reconsidered",
+     "venue": "Paleobiology",
+     "type": "paper",
+     "why": "Defended the claim that species mostly stay stable and change in short bursts. How often stasis occurs is still tested with fossil data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Alvarez, Alvarez, Asaro & Michel",
+     "year": 1980,
+     "title": "Extraterrestrial cause for the Cretaceous-Tertiary extinction",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found iridium at the extinction boundary and proposed an asteroid impact. The impact is accepted, but its role relative to volcanism is still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raup & Sepkoski",
+     "year": 1982,
+     "title": "Mass extinctions in the marine fossil record",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Identified the 'big five' mass extinctions from fossil counts. This framework is how today's biodiversity loss is compared to the past.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Xu et al.",
+     "year": 2003,
+     "title": "Four-winged dinosaurs from China",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Described Microraptor, a feathered dinosaur with wings on all four limbs. It reshaped ideas about how flight evolved, a question still being worked out.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shubin, Daeschler & Jenkins",
+     "year": 2006,
+     "title": "The pectoral fin of Tiktaalik roseae and the origin of the tetrapod limb",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed how a fish fin turned into a limb with joints. It is the main fossil evidence for the move from water to land.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Alroy et al.",
+     "year": 2008,
+     "title": "Phanerozoic trends in the global diversity of marine invertebrates",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Corrected the fossil record for sampling and found much less rise in diversity than earlier counts showed. Sampling correction is now standard in the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Erwin et al.",
+     "year": 2011,
+     "title": "The Cambrian conundrum: early divergence and later ecological success in the early history of animals",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Combined fossils and molecular clocks to show animal lineages split long before they show up as fossils. The gap is still being explained.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barnosky et al.",
+     "year": 2011,
+     "title": "Has the Earth's sixth mass extinction already arrived?",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Compared today's extinction rates with the big five using fossil data. It put the 'sixth extinction' on a quantitative footing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Renne et al.",
+     "year": 2013,
+     "title": "Time scales of critical events around the Cretaceous-Paleogene boundary",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Dated the asteroid impact and the extinction to within tens of thousands of years of each other. High-precision dating is now how competing causes are tested.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Burgess, Bowring & Shen",
+     "year": 2014,
+     "title": "High-precision timeline for Earth's most severe extinction",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Dated the end-Permian extinction to about 60,000 years. It tied the extinction closely to Siberian volcanism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Sepkoski",
+     "year": 1981,
+     "title": "A factor analytic description of the Phanerozoic marine fossil record",
+     "venue": "Paleobiology",
+     "type": "paper",
+     "why": "Identified three great evolutionary faunas that dominated the oceans in turn. It is still the standard description of large-scale marine diversity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hunt",
+     "year": 2007,
+     "title": "The relative importance of directional change, random walks, and stasis in the evolution of fossil lineages",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Tested hundreds of fossil sequences and found directional change is rare. It gave a statistical answer to the punctuated equilibrium debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Benton",
+     "year": 2009,
+     "title": "The Red Queen and the Court Jester: species diversity and the role of biotic and abiotic factors through time",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Contrasted competition and environmental change as drivers of diversity. The question of which dominates is still argued.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schulte et al.",
+     "year": 2010,
+     "title": "The Chicxulub asteroid impact and mass extinction at the Cretaceous-Paleogene boundary",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Pulled together evidence that the impact caused the extinction. It is the main statement of the impact case against volcanism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Brusatte, Lloyd, Wang & Norell",
+     "year": 2014,
+     "title": "Gradual assembly of avian body plan culminated in rapid rates of evolution across the dinosaur-bird transition",
+     "venue": "Current Biology",
+     "type": "paper",
+     "why": "Showed bird features built up gradually in dinosaurs before a burst of fast evolution. It is the main quantitative picture of how birds arose.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "dos Reis et al.",
+     "year": 2015,
+     "title": "Uncertainty in the timing of origin of animals and the limits of precision in molecular timescales",
+     "venue": "Current Biology",
+     "type": "paper",
+     "why": "Showed molecular clocks can't pin down the origin of animals precisely. It shapes how fossil and molecular dates are reconciled.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Field et al.",
+     "year": 2018,
+     "title": "Early evolution of modern birds structured by global forest collapse at the end-Cretaceous mass extinction",
+     "venue": "Current Biology",
+     "type": "paper",
+     "why": "Argued that forests collapsed after the impact, so only ground-dwelling birds survived. It links extinction selectivity to ecology.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bobrovskiy et al.",
+     "year": 2018,
+     "title": "Ancient steroids establish the Ediacaran fossil Dickinsonia as one of the earliest animals",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found animal cholesterol in a Dickinsonia fossil, showing it was an animal. It uses molecular fossils to settle a long debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Penn, Deutsch, Payne & Sperling",
+     "year": 2018,
+     "title": "Temperature-dependent hypoxia explains biogeography and severity of end-Permian marine mass extinction",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed warming and oxygen loss together explain where and how severely species died out. It links past extinctions to today's ocean changes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Close, Benson, Saupe, Clapham & Butler",
+     "year": 2020,
+     "title": "The spatial structure of Phanerozoic marine animal biodiversity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that diversity trends depend strongly on the geographic spread of samples. It changed how global diversity curves are built.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

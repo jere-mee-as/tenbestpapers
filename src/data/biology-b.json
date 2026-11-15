@@ -1,0 +1,1601 @@
+{
+ "discipline": "Biology",
+ "fields": [
+  {
+   "field": "Microbiology",
+   "lead": "Microbiology is now about communities rather than isolates: uncultured diversity, the microbiome, antibiotic tolerance and microbial immune systems that became genome-editing tools.",
+   "papers": [
+    {
+     "authors": "Woese & Fox",
+     "year": 1977,
+     "title": "Phylogenetic structure of the prokaryotic domain: the primary kingdoms",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Used ribosomal RNA sequences to show that life splits into three deep lineages, with archaea separate from bacteria. Every modern tree of life and every metagenomic survey still builds on this ribosomal-gene framework.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Fuqua, Winans & Greenberg",
+     "year": 1994,
+     "title": "Quorum sensing in bacteria: the LuxR-LuxI family of cell density-responsive transcriptional regulators",
+     "venue": "Journal of Bacteriology",
+     "type": "paper",
+     "why": "Showed that bacteria talk to each other with diffusible signals and coordinate gene expression by population density. Bacterial communication and its disruption remain central to virulence and community research.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Costerton et al.",
+     "year": 1995,
+     "title": "Microbial biofilms",
+     "venue": "Annual Review of Microbiology",
+     "type": "paper",
+     "why": "Argued that most bacteria in nature and in infections live as surface-attached communities, not free-floating cells. That reframed chronic infection, antibiotic failure and the physical ecology of microbes.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Balaban et al.",
+     "year": 2004,
+     "title": "Bacterial persistence as a phenotypic switch",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Followed single cells to show that a small fraction switch into a dormant, drug-tolerant state without any mutation. This is the basis for today's work on antibiotic tolerance and relapsing infections.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Venter et al.",
+     "year": 2004,
+     "title": "Environmental genome shotgun sequencing of the Sargasso Sea",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Sequenced DNA straight from seawater and found enormous unseen diversity and new genes. It opened the era of metagenomics, in which most microbes are studied without culturing them.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Turnbaugh et al.",
+     "year": 2006,
+     "title": "An obesity-associated gut microbiome with increased capacity for energy harvest",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that gut microbial communities differ with host metabolic state and can transfer a trait when transplanted. It launched the causal-microbiome agenda, whose claims and limits are still being tested.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Human Microbiome Project Consortium",
+     "year": 2012,
+     "title": "Structure, function and diversity of the healthy human microbiome",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Mapped what a normal human microbiome looks like across body sites and people. Every microbiome-and-disease claim since is measured against this baseline.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spang et al.",
+     "year": 2015,
+     "title": "Complex archaea that bridge the gap between prokaryotes and eukaryotes",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found Asgard archaea carrying many genes once thought unique to eukaryotes. It reshaped the debate on how complex cells arose, now framed as a two-domain tree with eukaryotes nested inside archaea.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Brown et al.",
+     "year": 2015,
+     "title": "Unusual biology across a group comprising more than 15% of domain Bacteria",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Revealed the candidate phyla radiation, a huge branch of tiny, uncultured bacteria with stripped-down genomes. It forced a rethink of how much bacterial diversity we had been missing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Imachi et al.",
+     "year": 2020,
+     "title": "Isolation of an archaeon at the prokaryote–eukaryote interface",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "After twelve years of culturing, grew an Asgard archaeon in the lab and saw how it might have partnered with bacteria. It turned the origin of complex cells from inference into something you can study directly.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Pace",
+     "year": 1997,
+     "title": "A molecular view of microbial diversity and the biosphere",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued for surveying microbes by their ribosomal RNA genes instead of culturing them. That move is why most of today's microbial diversity is known only from sequence.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rappé & Giovannoni",
+     "year": 2003,
+     "title": "The uncultured microbial majority",
+     "venue": "Annual Review of Microbiology",
+     "type": "paper",
+     "why": "Took stock of the bacterial phyla known only from DNA. The gap it described between what lives out there and what grows in a dish still drives the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lewis",
+     "year": 2007,
+     "title": "Persister cells, dormancy and infectious disease",
+     "venue": "Nature Reviews Microbiology",
+     "type": "paper",
+     "why": "Made the case that dormant persister cells, not resistance genes, explain many relapsing infections. Antibiotic tolerance is now a field of its own.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hehemann et al.",
+     "year": 2010,
+     "title": "Transfer of carbohydrate-active enzymes from marine bacteria to Japanese gut microbiota",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed gut bacteria in people who eat seaweed picked up seaweed-digesting genes from ocean bacteria. A clean example of diet shaping the microbiome through gene transfer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thompson et al.",
+     "year": 2017,
+     "title": "A communal catalogue reveals Earth's multiscale microbial diversity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "The Earth Microbiome Project's standardized survey of tens of thousands of samples across the planet. It set the template for comparing microbial communities at global scale.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Doron et al.",
+     "year": 2018,
+     "title": "Systematic discovery of antiphage defense systems in the microbial pan-genome",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found ten new bacterial immune systems by looking at genes clustered near known defences. It opened today's flood of discoveries about how bacteria fight viruses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Parks et al.",
+     "year": 2018,
+     "title": "A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Rebuilt bacterial classification from genomes rather than from history and physiology. Its GTDB taxonomy is now the default in microbiome research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Almeida et al.",
+     "year": 2019,
+     "title": "A new genomic blueprint of the human gut microbiota",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Assembled nearly 2,000 previously unknown gut species straight from metagenomes. It showed how much of our own microbiome was still uncharacterised.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nayfach et al.",
+     "year": 2021,
+     "title": "A genomic catalog of Earth's microbiomes",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Recovered over 50,000 genomes from environmental samples worldwide, greatly widening the known tree of life. It is a standard reference for uncultured diversity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Antimicrobial Resistance Collaborators",
+     "year": 2022,
+     "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+     "venue": "The Lancet",
+     "type": "paper",
+     "why": "The first comprehensive estimate of deaths tied to drug-resistant bacteria, putting them among the leading causes of death worldwide. It frames current resistance policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Virology",
+   "lead": "Virology is working to map the full virosphere through metagenomics, trace how viruses cross species and evolve, and build structure-guided countermeasures for emerging pathogens.",
+   "papers": [
+    {
+     "authors": "Baltimore",
+     "year": 1970,
+     "title": "Viral RNA-dependent DNA polymerase",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported an enzyme in tumor viruses that copies RNA into DNA, overturning the one-way flow of genetic information. Reverse transcription underlies retrovirology, HIV therapy and a large part of genome biology.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Barré-Sinoussi et al.",
+     "year": 1983,
+     "title": "Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS)",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Isolated the virus that causes AIDS from a patient's lymph node. It made HIV diagnosis and drug development possible and remains the model case of a virus-driven chronic disease.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Raoult et al.",
+     "year": 2004,
+     "title": "The 1.2-megabase genome sequence of Mimivirus",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Sequenced a virus larger than some bacteria, with genes for translation-related functions. Giant viruses blurred the line between viruses and cells and fed ongoing arguments about viral origins.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Li et al.",
+     "year": 2005,
+     "title": "Bats are natural reservoirs of SARS-like coronaviruses",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Traced the SARS coronavirus to horseshoe bats. It set the template for finding animal reservoirs of emerging viruses and for judging spillover risk.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Olival et al.",
+     "year": 2017,
+     "title": "Host and viral traits predict zoonotic spillover from mammals",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Built a database of mammal hosts and their viruses and asked which ones end up infecting people. It made spillover risk something you can model rather than only narrate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Koonin, Dolja & Krupovic",
+     "year": 2015,
+     "title": "Origins and evolution of viruses of eukaryotes: the ultimate modularity",
+     "venue": "Virology",
+     "type": "paper",
+     "why": "Laid out viruses as mosaics assembled from reusable gene modules, and proposed evolutionary groupings across all RNA and DNA viruses. It is a core reference for the current effort to classify viruses by deep ancestry.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Paez-Espino et al.",
+     "year": 2016,
+     "title": "Uncovering Earth's virome",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Mined huge sequence collections to catalog hundreds of thousands of uncultivated viral genomes across habitats. It showed that most viral diversity is invisible to culture-based virology.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Shi et al.",
+     "year": 2016,
+     "title": "Redefining the invertebrate RNA virosphere",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Sequenced RNA viruses from invertebrates and found many new families, including lineages bridging known groups. It established that RNA virus diversity and evolutionary history were far broader than disease-focused sampling suggested.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Zhou et al.",
+     "year": 2020,
+     "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Identified and sequenced SARS-CoV-2 and showed its close relationship to a bat coronavirus and its use of the ACE2 receptor. It anchors the ongoing work on the origin and spillover of the pandemic virus.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Wrapp et al.",
+     "year": 2020,
+     "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Solved the structure of the SARS-CoV-2 spike within weeks of the genome release, enabling stabilized-spike vaccines. It exemplifies the structure-first route to vaccines and antibodies now used for other viruses.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    }
+   ],
+   "more": [
+    {
+     "authors": "Temin & Mizutani",
+     "year": 1970,
+     "title": "RNA-dependent DNA polymerase in virions of Rous sarcoma virus",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Published alongside Baltimore, it showed that information can flow from RNA back to DNA. Reverse transcription underlies retrovirology, HIV drugs and much of molecular biology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Baltimore",
+     "year": 1971,
+     "title": "Expression of animal virus genomes",
+     "venue": "Bacteriological Reviews",
+     "type": "paper",
+     "why": "Sorted viruses by how they get from genome to messenger RNA. The Baltimore classes are still how virologists organise the virosphere.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eigen",
+     "year": 1971,
+     "title": "Selforganization of matter and the evolution of biological macromolecules",
+     "venue": "Naturwissenschaften",
+     "type": "paper",
+     "why": "Introduced the quasispecies idea and the error threshold. Debates about how fast-mutating RNA viruses evolve still start here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Suttle",
+     "year": 2005,
+     "title": "Viruses in the sea",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that marine viruses are the most abundant biological entities and a major force in ocean nutrient cycles. Viral ecology grew from this picture.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McLellan et al.",
+     "year": 2013,
+     "title": "Structure-based design of a fusion glycoprotein vaccine for respiratory syncytial virus",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Locked the RSV fusion protein in its pre-fusion shape to make a far better vaccine antigen. The same approach later shaped COVID-19 and the first licensed RSV vaccines.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dutilh et al.",
+     "year": 2014,
+     "title": "A highly abundant bacteriophage discovered in the unknown sequences of human faecal metagenomes",
+     "venue": "Nature Communications",
+     "type": "paper",
+     "why": "Found crAssphage, the most common virus in the human gut, hidden in unassigned sequence data. It showed how much of the human virome had been invisible.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Plowright et al.",
+     "year": 2017,
+     "title": "Pathways to zoonotic spillover",
+     "venue": "Nature Reviews Microbiology",
+     "type": "paper",
+     "why": "Framed spillover as a chain of barriers a virus must pass between animal reservoir and human infection. Much current surveillance thinking follows this frame.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shi et al.",
+     "year": 2018,
+     "title": "The evolutionary history of vertebrate RNA viruses",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Sequenced RNA viruses across fish, amphibians, reptiles and more, finding that many virus families are as old as their vertebrate hosts. It reframed virus evolution as long-term co-divergence plus host jumps.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Coronaviridae Study Group of the ICTV",
+     "year": 2020,
+     "title": "The species Severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+     "venue": "Nature Microbiology",
+     "type": "paper",
+     "why": "Placed the new virus in the existing SARS-related species and gave it its name. It is the reference point for how SARS-CoV-2 relates to its relatives.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Worobey et al.",
+     "year": 2022,
+     "title": "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Mapped the earliest known COVID-19 cases and found they clustered around the Huanan market. It is central to the still-contested debate over the pandemic's origin.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Immunology",
+   "lead": "Immunology is focused on how innate sensing steers adaptive responses, how tolerance and exhaustion are controlled, and how to harness these checkpoints to treat cancer and autoimmunity.",
+   "papers": [
+    {
+     "authors": "Mosmann et al.",
+     "year": 1986,
+     "title": "Two types of murine helper T cell clone. I. Definition according to profiles of lymphokine activities and secreted proteins",
+     "venue": "Journal of Immunology",
+     "type": "paper",
+     "why": "Showed that helper T cells fall into distinct subsets with different cytokine programs. The Th1/Th2 idea and its descendants are the basis for how immune responses are classified and tuned.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Kärre et al.",
+     "year": 1986,
+     "title": "Selective rejection of H-2-deficient lymphoma variants suggests alternative immune defence strategy",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found that cells missing MHC class I are killed by natural killer cells, the 'missing self' idea. It framed how inhibitory receptors let immune cells distinguish healthy from stressed or tumor cells.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Janeway",
+     "year": 1989,
+     "title": "Approaching the asymptote? Evolution and revolution in immunology",
+     "venue": "Cold Spring Harbor Symposia on Quantitative Biology",
+     "type": "paper",
+     "why": "Argued that adaptive immunity needs innate pattern recognition to switch on, and predicted germline receptors for microbial patterns. This essay redirected the field toward innate immunity.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Matzinger",
+     "year": 1994,
+     "title": "Tolerance, danger, and the extended family",
+     "venue": "Annual Review of Immunology",
+     "type": "paper",
+     "why": "Proposed that the immune system responds to signals of tissue damage rather than just foreignness. The danger model still shapes thinking on sterile inflammation, autoimmunity and tumor immunity.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Leach, Krummel & Allison",
+     "year": 1996,
+     "title": "Enhancement of antitumor immunity by CTLA-4 blockade",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that blocking an inhibitory receptor on T cells let mice reject tumors. It launched checkpoint-blockade immunotherapy, now a pillar of cancer treatment.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Poltorak et al.",
+     "year": 1998,
+     "title": "Defective LPS signaling in C3H/HeJ and C57BL/10ScCr mice: mutations in Tlr4 gene",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Identified Toll-like receptor 4 as the sensor for bacterial lipopolysaccharide by positional cloning. It gave molecular proof for innate pattern recognition and opened the whole field of innate sensing.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Iwai et al.",
+     "year": 2002,
+     "title": "Involvement of PD-L1 on tumor cells in the escape from host immune system and tumor immunotherapy by PD-L1 blockade",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Showed that tumors exploit PD-L1 to evade T cells and that blocking it restores attack. It led to the PD-1/PD-L1 drugs that dominate current oncology immunotherapy.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Hori, Nomura & Sakaguchi",
+     "year": 2003,
+     "title": "Control of regulatory T cell development by the transcription factor Foxp3",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that Foxp3 is the master regulator of regulatory T cells, the cells that restrain immune responses. It anchors current work on tolerance, autoimmunity and Treg-based therapies.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Wherry",
+     "year": 2011,
+     "title": "T cell exhaustion",
+     "venue": "Nature Immunology",
+     "type": "paper",
+     "why": "Synthesized how chronic infection and tumors drive T cells into a dysfunctional but persistent state. This concept explains why checkpoint therapy works in some patients and is central to cell therapy design.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Netea et al.",
+     "year": 2016,
+     "title": "Trained immunity: a program of innate immune memory in health and disease",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that innate cells keep an epigenetic memory of past challenges that changes later responses. It broke the rule that only adaptive immunity has memory and links to vaccines, chronic inflammation and cardiovascular disease.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    }
+   ],
+   "more": [
+    {
+     "authors": "Steinman & Cohn",
+     "year": 1973,
+     "title": "Identification of a novel cell type in peripheral lymphoid organs of mice",
+     "venue": "Journal of Experimental Medicine",
+     "type": "paper",
+     "why": "Described dendritic cells, the sentinels that show antigens to T cells. Much of today's vaccine and immunotherapy design runs through them.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zinkernagel & Doherty",
+     "year": 1974,
+     "title": "Restriction of in vitro T cell-mediated cytotoxicity in lymphocytic choriomeningitis within a syngeneic or semiallogeneic system",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed T cells recognise antigen only alongside the body's own MHC molecules. MHC restriction is still the core of how T-cell recognition is understood.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tonegawa",
+     "year": 1983,
+     "title": "Somatic generation of antibody diversity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Explained how a limited genome makes a near-limitless range of antibodies by reshuffling gene segments. It is the basis of how the adaptive immune repertoire is studied and engineered.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ishida et al.",
+     "year": 1992,
+     "title": "Induced expression of PD-1, a novel member of the immunoglobulin gene superfamily, upon programmed cell death",
+     "venue": "EMBO Journal",
+     "type": "paper",
+     "why": "Discovered PD-1, which turned out to be a brake on T cells. Blocking it became one of the main pillars of modern cancer treatment.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Sakaguchi et al.",
+     "year": 1995,
+     "title": "Immunologic self-tolerance maintained by activated T cells expressing IL-2 receptor α-chains (CD25)",
+     "venue": "Journal of Immunology",
+     "type": "paper",
+     "why": "Identified the regulatory T cells that stop the immune system attacking the body. Treg biology now drives work on autoimmunity, transplants and cancer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Medzhitov, Preston-Hurlburt & Janeway",
+     "year": 1997,
+     "title": "A human homologue of the Drosophila Toll protein signals activation of adaptive immunity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Found the first human Toll-like receptor and showed it switches on adaptive immunity. It confirmed the pattern-recognition idea that innate sensing gates the whole response.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pulendran & Ahmed",
+     "year": 2011,
+     "title": "Immunological mechanisms of vaccination",
+     "venue": "Nature Immunology",
+     "type": "paper",
+     "why": "Laid out what is known and unknown about why vaccines work, from innate sensing to memory. It frames the systems-vaccinology work that followed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kaech & Cui",
+     "year": 2012,
+     "title": "Transcriptional control of effector and memory CD8+ T cell differentiation",
+     "venue": "Nature Reviews Immunology",
+     "type": "paper",
+     "why": "Pulled together how killer T cells decide between short-lived effector and long-lived memory fates. That fate choice is central to vaccines and cell therapies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Belkaid & Hand",
+     "year": 2014,
+     "title": "Role of the microbiota in immunity and inflammation",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Showed how the microbes we carry tune immune development and inflammation. The microbiome-immunity link is one of the field's busiest frontiers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "June et al.",
+     "year": 2018,
+     "title": "CAR T cell immunotherapy for human cancer",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reviewed how engineered T cells went from lab idea to approved cancer drug. It sets out the open problems the field is working on now, from solid tumours to toxicity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Plant biology",
+   "lead": "Plant biology is now working out how plants sense pathogens and hormones at the molecular level, how they manage their microbiomes, and how to engineer photosynthesis and crops.",
+   "papers": [
+    {
+     "authors": "Arabidopsis Genome Initiative",
+     "year": 2000,
+     "title": "Analysis of the genome sequence of the flowering plant Arabidopsis thaliana",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Delivered the first complete flowering-plant genome. It turned Arabidopsis into the reference system whose gene catalogs and mutants still underpin most plant molecular work.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Gómez-Gómez & Boller",
+     "year": 2000,
+     "title": "FLS2: an LRR receptor-like kinase involved in the perception of the bacterial elicitor flagellin in Arabidopsis",
+     "venue": "Molecular Cell",
+     "type": "paper",
+     "why": "Identified the receptor kinase that detects bacterial flagellin at the cell surface. It established surface pattern recognition in plants and the receptor-kinase signaling paradigm.",
+     "verified": false,
+     "note": "Search budget ran out before this one could be checked; authors, year, title and venue are from memory.",
+     "conf": "high"
+    },
+    {
+     "authors": "Kepinski & Leyser",
+     "year": 2005,
+     "title": "The Arabidopsis F-box protein TIR1 is an auxin receptor",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that auxin is perceived by TIR1, which targets repressor proteins for degradation. This solved a long-standing question and defined how many plant hormones act through regulated protein turnover.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Corbesier et al.",
+     "year": 2007,
+     "title": "FT protein movement contributes to long-distance signaling in floral induction of Arabidopsis",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that the FT protein travels from leaves to the shoot tip to trigger flowering, identifying florigen. It is the foundation for how plants time flowering with season and is used in crop breeding.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Park et al.",
+     "year": 2009,
+     "title": "Abscisic acid inhibits type 2C protein phosphatases via the PYR/PYL family of START proteins",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Identified the long-sought abscisic acid receptors that control drought responses. It completed the core hormone pathway and enabled work on engineering stress tolerance.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Jones & Dangl",
+     "year": 2006,
+     "title": "The plant immune system",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Presented the two-layer model of plant immunity, with surface pattern-triggered and intracellular effector-triggered defense. It remains the organizing framework for plant-pathogen research and disease resistance breeding.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Lundberg et al.",
+     "year": 2012,
+     "title": "Defining the core Arabidopsis thaliana root microbiome",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that roots assemble a reproducible bacterial community distinct from the soil. It kickstarted modern research on plant microbiomes and their effects on growth and health.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Kromdijk et al.",
+     "year": 2016,
+     "title": "Improving photosynthesis and crop productivity by accelerating recovery from photoprotection",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that speeding relaxation of photoprotection in tobacco raised biomass in field trials. It is the proof of concept that engineering photosynthesis can increase yield.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Wang et al.",
+     "year": 2019,
+     "title": "Reconstitution and structure of a plant NLR resistosome conferring immunity",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Solved the structure of an activated plant NLR immune receptor, showing it assembles into a pentameric ring. This revealed how intracellular plant immune receptors work and is guiding efforts to engineer disease resistance.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Bowman et al.",
+     "year": 2017,
+     "title": "Insights into land plant evolution garnered from the Marchantia polymorpha genome",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Sequenced a liverwort whose small, simple genome shows which regulatory systems were present early in land plants. It made Marchantia a model for tracing how plant hormone and developmental pathways evolved.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    }
+   ],
+   "more": [
+    {
+     "authors": "Reinhart et al.",
+     "year": 2002,
+     "title": "MicroRNAs in plants",
+     "venue": "Genes & Development",
+     "type": "paper",
+     "why": "Showed plants use microRNAs to control development, much as animals do. Small-RNA regulation is now a pillar of plant gene control.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bastow et al.",
+     "year": 2004,
+     "title": "Vernalization requires epigenetic silencing of FLC by histone methylation",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that a plant's memory of winter is stored as chromatin marks on a flowering gene. It remains the textbook-live case of epigenetic memory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zipfel et al.",
+     "year": 2006,
+     "title": "Perception of the bacterial PAMP EF-Tu by the receptor EFR restricts Agrobacterium-mediated transformation",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Added a second bacterial-sensing receptor and showed these receptors shape resistance. Moving such receptors between crops is now an active strategy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Long et al.",
+     "year": 2006,
+     "title": "Can improvement in photosynthesis increase crop yields?",
+     "venue": "Plant, Cell & Environment",
+     "type": "paper",
+     "why": "Argued that photosynthesis, not other traits, is where the remaining yield gains lie. It set the agenda for today's photosynthesis-engineering projects.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hamant et al.",
+     "year": 2008,
+     "title": "Developmental patterning by mechanical signals in Arabidopsis",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed physical stress in growing tissue guides how plant cells orient their growth. Mechanics is now treated as a signal alongside hormones.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bulgarelli et al.",
+     "year": 2012,
+     "title": "Revealing structure and assembly cues for Arabidopsis root-inhabiting bacterial microbiota",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Published with Lundberg et al., it showed roots recruit a consistent bacterial community from soil. Root microbiome research grew out of these two papers.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lin et al.",
+     "year": 2014,
+     "title": "Genomic analyses provide insights into the history of tomato breeding",
+     "venue": "Nature Genetics",
+     "type": "paper",
+     "why": "Resequenced hundreds of tomatoes to trace domestication and breeding in the genome. It is a model for how crop history is now read from DNA.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "1001 Genomes Consortium",
+     "year": 2016,
+     "title": "1,135 genomes reveal the global pattern of polymorphism in Arabidopsis thaliana",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Mapped natural genetic variation across the model plant's global range. It is the reference for studying how plants adapt to their environments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "South et al.",
+     "year": 2019,
+     "title": "Synthetic glycolate metabolism pathways stimulate crop growth and productivity in the field",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Engineered a shortcut around a wasteful step in photosynthesis and got bigger plants in field trials. A key proof that photosynthesis engineering can work outside the lab.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bi et al.",
+     "year": 2021,
+     "title": "The ZAR1 resistosome is a calcium-permeable channel triggering plant immune signaling",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Showed the plant resistosome works by opening a calcium channel in the membrane. It explained how immune receptor activation turns into cell death.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Animal behavior",
+   "lead": "Animal behavior is now concerned with collective behavior, animal culture and cognition, consistent individual personalities, and tracking movement at scale with new technology.",
+   "papers": [
+    {
+     "authors": "Tinbergen",
+     "year": 1963,
+     "title": "On aims and methods of ethology",
+     "venue": "Zeitschrift für Tierpsychologie",
+     "type": "paper",
+     "why": "Set out four distinct questions about any behavior: causation, development, function and evolution. Researchers still use this framework to organize and separate explanations.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "West, Griffin & Gardner",
+     "year": 2007,
+     "title": "Social semantics: altruism, cooperation, mutualism, strong reciprocity and group selection",
+     "venue": "Journal of Evolutionary Biology",
+     "type": "paper",
+     "why": "Untangled the competing vocabularies for social behaviour that kept biologists and economists talking past each other. It is the standard map for current debates about cooperation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Trivers",
+     "year": 1971,
+     "title": "The evolution of reciprocal altruism",
+     "venue": "Quarterly Review of Biology",
+     "type": "paper",
+     "why": "Explained how cooperation among unrelated individuals can evolve through repeated exchange. It shaped decades of work on cooperation, cheating detection and social cognition.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Emlen & Oring",
+     "year": 1977,
+     "title": "Ecology, sexual selection, and the evolution of mating systems",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Tied mating systems to how resources and mates can be monopolized. This ecological logic still structures research on sexual selection and mating strategies.",
+     "verified": true,
+     "note": "",
+     "conf": "high"
+    },
+    {
+     "authors": "Clayton & Dickinson",
+     "year": 1998,
+     "title": "Episodic-like memory during cache recovery by scrub jays",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that jays remember what they hid, where and how long ago, challenging claims that such memory is uniquely human. It opened rigorous comparative work on animal cognition.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Whiten et al.",
+     "year": 1999,
+     "title": "Cultures in chimpanzees",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Compared long-term field sites and found many behaviors that vary by community and not by ecology. It established that wild animals have socially transmitted traditions and spurred research on animal culture.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Rendell & Whitehead",
+     "year": 2001,
+     "title": "Culture in whales and dolphins",
+     "venue": "Behavioral and Brain Sciences",
+     "type": "paper",
+     "why": "Reviewed evidence for socially learned behavior in cetaceans, including group-specific vocal dialects. It extended animal culture beyond primates and fuels debates about gene-culture coevolution.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Sih, Bell & Johnson",
+     "year": 2004,
+     "title": "Behavioral syndromes: an ecological and evolutionary overview",
+     "venue": "Trends in Ecology & Evolution",
+     "type": "paper",
+     "why": "Argued that individuals differ consistently in boldness, aggression and activity, and that these traits correlate. Animal personality is now a major research area linking behavior to ecology and fitness.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Couzin et al.",
+     "year": 2005,
+     "title": "Effective leadership and decision-making in animal groups on the move",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Modeled how a small informed minority can steer a whole group without explicit signals. It is a landmark of collective-behavior research connecting simple rules to group decisions.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Nathan et al.",
+     "year": 2008,
+     "title": "A movement ecology paradigm for unifying organismal movement research",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Proposed a unified framework linking an animal's internal state, motion and navigation capacity, and environment. It guides current biologging and GPS-tracking research on migration and space use.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    }
+   ],
+   "more": [
+    {
+     "authors": "Maynard Smith & Price",
+     "year": 1973,
+     "title": "The logic of animal conflict",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Brought game theory into biology to explain why most animal fights are ritualised. The evolutionarily stable strategy is still the field's basic tool.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zahavi",
+     "year": 1975,
+     "title": "Mate selection—a selection for a handicap",
+     "venue": "Journal of Theoretical Biology",
+     "type": "paper",
+     "why": "Proposed that costly signals are honest precisely because they are costly. Signalling theory still argues over and builds on this idea.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Charnov",
+     "year": 1976,
+     "title": "Optimal foraging, the marginal value theorem",
+     "venue": "Theoretical Population Biology",
+     "type": "paper",
+     "why": "Predicted when an animal should leave a food patch for the next one. Its logic now reaches into neuroscience studies of decision-making.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Andersson",
+     "year": 1982,
+     "title": "Female choice selects for extreme tail length in a widowbird",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Cut and glued widowbird tails to show females prefer longer ones. A landmark field experiment that made sexual selection testable.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dall, Houston & McNamara",
+     "year": 2004,
+     "title": "The behavioural ecology of personality: consistent individual differences from an adaptive perspective",
+     "venue": "Ecology Letters",
+     "type": "paper",
+     "why": "Asked why individuals of the same species behave consistently differently. It helped launch animal personality as a mainstream research area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Seeley et al.",
+     "year": 2012,
+     "title": "Stop signals provide cross inhibition in collective decision-making by honeybee swarms",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed bee swarms avoid deadlock with inhibitory signals, much like neurons. Collective decision-making is now studied as a kind of distributed computation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aplin et al.",
+     "year": 2015,
+     "title": "Experimentally induced innovations lead to persistent culture via conformity in wild birds",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Seeded new foraging traditions in wild great tits and watched them spread and persist. Strong experimental evidence for animal culture.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kays et al.",
+     "year": 2015,
+     "title": "Terrestrial animal tracking as an eye on life and planet",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reviewed how cheap tags and satellites are transforming the study of animal movement. It maps the data-rich direction the field has taken.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Strandburg-Peshkin et al.",
+     "year": 2015,
+     "title": "Shared decision-making drives collective movement in wild baboons",
+     "venue": "Science",
+     "type": "paper",
+     "why": "GPS-collared a whole baboon troop and found movement decisions are shared, not dictated by a leader. It brought high-resolution tracking to primate social behaviour.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mathis et al.",
+     "year": 2018,
+     "title": "DeepLabCut: markerless pose estimation of user-defined body parts with deep learning",
+     "venue": "Nature Neuroscience",
+     "type": "paper",
+     "why": "Made it easy to track animal body parts from ordinary video. Machine-learning pose tracking is now standard in behaviour research.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Systems & synthetic biology",
+   "lead": "The field is trying to make biological design predictable, through whole-cell models, engineered circuits, minimal and synthetic genomes and microbial production of useful molecules.",
+   "papers": [
+    {
+     "authors": "Hartwell et al.",
+     "year": 1999,
+     "title": "From molecular to modular cell biology",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued that cell function should be understood as interacting functional modules rather than single genes. It framed the systems-biology program of studying networks.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Gardner, Cantor & Collins",
+     "year": 2000,
+     "title": "Construction of a genetic toggle switch in Escherichia coli",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Built a bistable memory circuit from two mutually repressing genes in bacteria. It launched synthetic biology by showing that circuits can be designed from parts.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Elowitz & Leibler",
+     "year": 2000,
+     "title": "A synthetic oscillatory network of transcriptional regulators",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Built the repressilator, a three-gene circuit giving oscillations in single cells, and revealed noisy behavior. It remains the standard demonstration of designing dynamic behavior.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Elowitz et al.",
+     "year": 2002,
+     "title": "Stochastic gene expression in a single cell",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Measured fluorescent reporters in single cells to separate intrinsic and extrinsic noise in gene expression. It made cell-to-cell variability a central topic.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Milo et al.",
+     "year": 2002,
+     "title": "Network motifs: simple building blocks of complex networks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found small wiring patterns recurring far more often than chance in biological networks. This motif idea still guides how regulatory networks are analyzed and designed.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Ro et al.",
+     "year": 2006,
+     "title": "Production of the antimalarial drug precursor artemisinic acid in engineered yeast",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Rebuilt a plant pathway in yeast to make a drug precursor. It is the flagship example of metabolic engineering for industrial production.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Gibson et al.",
+     "year": 2010,
+     "title": "Creation of a bacterial cell controlled by a chemically synthesized genome",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Chemically synthesized a bacterial genome and booted a cell with it. It proved genome-scale synthesis is possible and opened genome design.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Orth, Thiele & Palsson",
+     "year": 2010,
+     "title": "What is flux balance analysis?",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Explained the constraint-based method for predicting metabolic flux across a whole genome-scale network. It is the standard introduction to modeling cell metabolism, still widely used.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Karr et al.",
+     "year": 2012,
+     "title": "A whole-cell computational model predicts phenotype from genotype",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Built a model integrating all known processes in a Mycoplasma cell to predict behavior from genotype. It remains the reference point for whole-cell modeling ambitions.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Hutchison et al.",
+     "year": 2016,
+     "title": "Design and synthesis of a minimal bacterial genome",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Designed and built a cell with only 473 genes, and found many of them of unknown function. It shows how far we still are from understanding even the simplest cell.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    }
+   ],
+   "more": [
+    {
+     "authors": "Barkai & Leibler",
+     "year": 1997,
+     "title": "Robustness in simple biochemical networks",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed bacterial chemotaxis keeps working even when its parts vary, because of how the network is wired. Robustness became a central systems-biology question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Becskei & Serrano",
+     "year": 2000,
+     "title": "Engineering stability in gene networks by autoregulation",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Built a self-repressing gene and showed it reduces noise. One of the first tests of a design principle with a synthetic circuit.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tyson, Chen & Novak",
+     "year": 2003,
+     "title": "Sniffers, buzzers, toggles and blinkers: dynamics of regulatory and signaling pathways in the cell",
+     "venue": "Current Opinion in Cell Biology",
+     "type": "paper",
+     "why": "Catalogued the small network shapes that produce switches, pulses and oscillations. A widely used vocabulary for reading cell circuits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Endy",
+     "year": 2005,
+     "title": "Foundations for engineering biology",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Argued biology could be engineered with standard parts and abstraction, like electronics. The field's engineering ethos traces to it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Alon",
+     "year": 2007,
+     "title": "Network motifs: theory and experimental approaches",
+     "venue": "Nature Reviews Genetics",
+     "type": "paper",
+     "why": "Showed what each recurring circuit pattern does and how experiments confirmed it. It is the field's go-to summary of design principles.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Paddon et al.",
+     "year": 2013,
+     "title": "High-level semi-synthetic production of the potent antimalarial artemisinin",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Took engineered yeast for artemisinin from proof of principle to industrial scale. A case study in what scaling a synthetic pathway really takes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nielsen et al.",
+     "year": 2016,
+     "title": "Genetic circuit design automation",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Compiled circuit designs written in a programming language into working DNA. It showed genetic design can be automated, not hand-built.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gao et al.",
+     "year": 2018,
+     "title": "Programmable protein circuits in living cells",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Built circuits from proteins rather than genes, so they act faster and can go anywhere in the cell. It widened what synthetic circuits can be made of.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thornburg et al.",
+     "year": 2022,
+     "title": "Fundamental behaviors emerge from simulations of a living minimal cell",
+     "venue": "Cell",
+     "type": "paper",
+     "why": "Simulated a whole minimal cell through its life cycle in physical detail. It shows how close whole-cell modelling now is to predicting real behaviour.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hasty, McMillen & Collins",
+     "year": 2002,
+     "title": "Engineered gene circuits",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Took stock of the first wave of synthetic circuits and the modelling behind them. It set out the engineering agenda the field has followed since.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Bioinformatics",
+   "lead": "Bioinformatics now centers on large-scale statistical genomics, single-cell data integration, population variant catalogs, and deep-learning models of protein structure and sequence.",
+   "papers": [
+    {
+     "authors": "Altschul et al.",
+     "year": 1990,
+     "title": "Basic local alignment search tool",
+     "venue": "Journal of Molecular Biology",
+     "type": "paper",
+     "why": "Introduced BLAST, a fast heuristic for finding similar sequences. Sequence similarity search still underlies annotation and discovery in nearly all biology.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Eisen et al.",
+     "year": 1998,
+     "title": "Cluster analysis and display of genome-wide expression patterns",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Showed that clustering of microarray data groups genes by function. It set the template for exploratory analysis in expression studies.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Lander et al.",
+     "year": 2001,
+     "title": "Initial sequencing and analysis of the human genome",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported the first draft of the human genome. It supplied the reference on which nearly all variant, expression and regulation analysis is built.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Subramanian et al.",
+     "year": 2005,
+     "title": "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced testing whether predefined gene sets shift together, rather than ranking single genes. Pathway-level interpretation is now standard.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Li & Durbin",
+     "year": 2009,
+     "title": "Fast and accurate short read alignment with Burrows-Wheeler transform",
+     "venue": "Bioinformatics",
+     "type": "paper",
+     "why": "Gave an efficient way to align billions of short reads to a genome. It enabled the practical analysis of next-generation sequencing data.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "McKenna et al.",
+     "year": 2010,
+     "title": "The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data",
+     "venue": "Genome Research",
+     "type": "paper",
+     "why": "Gave the field a shared, scalable way to call variants from raw sequencing reads. Its best practices still sit behind most human genome analyses.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Love, Huber & Anders",
+     "year": 2014,
+     "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+     "venue": "Genome Biology",
+     "type": "paper",
+     "why": "Provided a statistical method for differential expression with few replicates. It is a default tool for RNA-seq analysis.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Butler et al.",
+     "year": 2018,
+     "title": "Integrating single-cell transcriptomic data across different conditions, technologies, and species",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Presented the Seurat method to align single-cell datasets from different sources. It is a core part of the single-cell atlas workflow.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Lin et al.",
+     "year": 2023,
+     "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that a protein language model trained on sequences alone can predict structure, and applied it to hundreds of millions of metagenomic proteins. It points to the current direction of sequence-based foundation models.",
+     "verified": false,
+     "note": "Could not confirm via search (search budget exhausted); citation from memory, please check.",
+     "conf": "high"
+    },
+    {
+     "authors": "Cheng et al.",
+     "year": 2023,
+     "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used protein-structure models to score nearly every possible single-letter change in human proteins. It shows where deep learning is taking variant interpretation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Smith & Waterman",
+     "year": 1981,
+     "title": "Identification of common molecular subsequences",
+     "venue": "Journal of Molecular Biology",
+     "type": "paper",
+     "why": "Gave the exact algorithm for finding the best local match between two sequences. Faster methods are still judged against it.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Eddy",
+     "year": 1998,
+     "title": "Profile hidden Markov models",
+     "venue": "Bioinformatics",
+     "type": "paper",
+     "why": "Explained how probabilistic models of whole protein families find distant relatives. They power protein family databases to this day.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Edgar",
+     "year": 2004,
+     "title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput",
+     "venue": "Nucleic Acids Research",
+     "type": "paper",
+     "why": "Made fast, accurate alignment of many sequences routine. Multiple alignments feed phylogenetics and structure prediction.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Langmead et al.",
+     "year": 2009,
+     "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+     "venue": "Genome Biology",
+     "type": "paper",
+     "why": "Bowtie, released alongside BWA, made mapping millions of short reads cheap. Read mapping is the first step of nearly every sequencing analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Trapnell et al.",
+     "year": 2010,
+     "title": "Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Showed RNA-seq could assemble and count individual transcripts, not just genes. It shaped how isoform-level expression is studied.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stamatakis",
+     "year": 2014,
+     "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
+     "venue": "Bioinformatics",
+     "type": "paper",
+     "why": "Made maximum-likelihood trees practical for very large datasets. A workhorse for building trees of life.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lopez et al.",
+     "year": 2018,
+     "title": "Deep generative modeling for single-cell transcriptomics",
+     "venue": "Nature Methods",
+     "type": "paper",
+     "why": "Brought deep generative models to single-cell data to handle noise and batch effects. It opened the probabilistic deep-learning approach now common in the field.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wolf, Angerer & Theis",
+     "year": 2018,
+     "title": "SCANPY: large-scale single-cell gene expression data analysis",
+     "venue": "Genome Biology",
+     "type": "paper",
+     "why": "A Python toolkit that scaled single-cell analysis to millions of cells. One of the two standard ecosystems for single-cell work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Avsec et al.",
+     "year": 2021,
+     "title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+     "venue": "Nature Methods",
+     "type": "paper",
+     "why": "Predicted gene expression straight from DNA sequence using long-range context. It marks the turn toward sequence-to-function models of the genome.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liao et al.",
+     "year": 2023,
+     "title": "A draft human pangenome reference",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Replaced the single human reference with a set of genomes from diverse people. Moving from one reference to a pangenome is reshaping how variation is analysed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "discipline": "Architecture & planning",
+ "fields": [
+  {
+   "field": "Architectural theory",
+   "lead": "Theory is arguing over what architecture's critical and political role can be in an age of computation, global capital, infrastructure and climate, after the old split between autonomy and social engagement stopped holding.",
+   "papers": [
+    {
+     "authors": "Alexander",
+     "year": 1965,
+     "title": "A City is Not a Tree",
+     "venue": "Architectural Forum",
+     "type": "paper",
+     "why": "Alexander showed that planned cities are rigid hierarchies while cities that grow over time are overlapping networks of relations. That claim fed straight into pattern languages, complexity science and today's network and generative models of urban form, which still cite it as their starting point.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Venturi",
+     "year": 1966,
+     "title": "Complexity and Contradiction in Architecture",
+     "venue": "Museum of Modern Art",
+     "type": "book",
+     "why": "Venturi argued for ambiguity, layered meaning and the ordinary against modernist purity. After it, architects could take convention, history and everyday buildings seriously again, and practice still argues about how far to follow that permission.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tafuri",
+     "year": 1976,
+     "title": "Architecture and Utopia: Design and Capitalist Development",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Tafuri argued that the avant-garde's dreams of reform were absorbed into capitalist planning, leaving architecture unable to change society by design alone. Every current argument about whether architecture can be political or critical still has to answer him.",
+     "verified": false,
+     "conf": "high",
+     "note": "Italian original, Progetto e utopia, Laterza 1973; year given is the English translation."
+    },
+    {
+     "authors": "Eisenman",
+     "year": 1976,
+     "title": "Post-Functionalism",
+     "venue": "Oppositions",
+     "type": "paper",
+     "why": "Eisenman declared humanist functionalism over and recast architecture as a self-referential system of form. It is the clearest statement of the disciplinary-autonomy position that later digital formalism inherited and that today's socially engaged practice defines itself against.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Koolhaas",
+     "year": 1978,
+     "title": "Delirious New York: A Retroactive Manifesto for Manhattan",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Koolhaas read Manhattan as an unplanned 'culture of congestion' in which the grid and the skyscraper let wildly mixed programmes stack up. It taught a generation to work with the market and the metropolis instead of against them, and that stance still shapes major practices.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frampton",
+     "year": 1983,
+     "title": "Towards a Critical Regionalism: Six Points for an Architecture of Resistance",
+     "venue": "The Anti-Aesthetic: Essays on Postmodern Culture (Bay Press), ed. Hal Foster",
+     "type": "paper",
+     "why": "Frampton proposed grounding architecture in climate, topography, light and tectonics so it could resist both placeless global modernism and nostalgic kitsch. With climate and local material back at the centre of design, it is cited more now than a generation ago.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Pallasmaa",
+     "year": 1996,
+     "title": "The Eyes of the Skin: Architecture and the Senses",
+     "venue": "Academy Editions",
+     "type": "book",
+     "why": "Pallasmaa attacked the dominance of sight and argued for architecture experienced through touch, sound, smell and the moving body. It opened the sensory and atmospheric strand of theory that now informs work on wellbeing, neuroscience and embodied design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Somol & Whiting",
+     "year": 2002,
+     "title": "Notes around the Doppler Effect and Other Moods of Modernism",
+     "venue": "Perspecta",
+     "type": "paper",
+     "why": "Somol and Whiting proposed a 'projective' or post-critical architecture of effects and performance in place of the critical, resistant model inherited from Tafuri and Eisenman. The post-critical debate it started is still the frame for arguments over whether architecture should critique or simply perform.",
+     "verified": true,
+     "conf": "high",
+     "note": "Perspecta 33 (2002)."
+    },
+    {
+     "authors": "Latour & Yaneva",
+     "year": 2008,
+     "title": "Give Me a Gun and I Will Make All Buildings Move: An ANT's View of Architecture",
+     "venue": "Explorations in Architecture: Teaching, Design, Research (Birkhäuser), ed. Reto Geiser",
+     "type": "paper",
+     "why": "Latour and Yaneva argued that buildings are never static objects but ongoing projects assembled by many people, materials and disputes. It is the touchstone for the current turn to studying design as process, controversy and infrastructure rather than finished form.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Schumacher",
+     "year": 2009,
+     "title": "Parametricism: A New Global Style for Architecture and Urban Design",
+     "venue": "Architectural Design (AD)",
+     "type": "paper",
+     "why": "Schumacher claimed that parameter-driven computational design is the successor style to modernism. Few accept the claim whole, but it is the manifesto that debates about algorithms, digital fabrication and now AI in design keep returning to.",
+     "verified": true,
+     "conf": "high",
+     "note": "AD vol. 79 no. 4 (2009), 'Digital Cities'; the text was first presented in 2008, which the draft gave as the year."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Rossi",
+     "year": 1966,
+     "title": "The Architecture of the City",
+     "venue": "Marsilio (English edition MIT Press, 1982)",
+     "type": "book",
+     "why": "Rossi treated the city as a built artefact shaped by persistent types and collective memory rather than by function. Typology and urban memory remain working tools in European practice and in current arguments about reuse and continuity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hays",
+     "year": 1984,
+     "title": "Critical Architecture: Between Culture and Form",
+     "venue": "Perspecta",
+     "type": "paper",
+     "why": "Hays defined a 'critical architecture' that neither simply reflects culture nor withdraws into pure form. It is the position the post-critical camp later attacked, so it is essential for following that still-open argument.",
+     "verified": true,
+     "conf": "high",
+     "note": "Perspecta 21 (1984)."
+    },
+    {
+     "authors": "Lynn",
+     "year": 1993,
+     "title": "Architectural Curvilinearity: The Folded, the Pliant and the Supple",
+     "venue": "Architectural Design (AD), 'Folding in Architecture'",
+     "type": "paper",
+     "why": "Lynn drew on Deleuze and calculus-based modelling to argue for smooth, continuous forms that absorb difference instead of collaging it. It launched the digital-design movement whose tools and ambitions run through parametric and computational practice today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frampton",
+     "year": 1995,
+     "title": "Studies in Tectonic Culture: The Poetics of Construction in Nineteenth and Twentieth Century Architecture",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Frampton argued that architecture's meaning lies in the expressive logic of how it is built. With timber, earth and low-carbon construction back in focus, the tectonic argument has gained new practical force.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Allen",
+     "year": 1999,
+     "title": "Field Conditions",
+     "venue": "Points + Lines: Diagrams and Projects for the City (Princeton Architectural Press)",
+     "type": "paper",
+     "why": "Allen proposed designing with fields of repeated, loosely linked elements rather than composed objects. The idea underpins landscape urbanism and much computational and infrastructural design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Forty",
+     "year": 2000,
+     "title": "Words and Buildings: A Vocabulary of Modern Architecture",
+     "venue": "Thames & Hudson",
+     "type": "book",
+     "why": "Forty traced how key terms such as space, form, function and context came to mean what they do. It shows how architectural thinking is built from language, and is still the reference for anyone parsing current theoretical vocabulary.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Koolhaas",
+     "year": 2002,
+     "title": "Junkspace",
+     "venue": "October",
+     "type": "paper",
+     "why": "Koolhaas described the endless, air-conditioned, escalator-linked interiors that globalisation produces as architecture's dominant product. It remains the sharpest account of the generic built environment that critics and designers are still trying to answer.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Till",
+     "year": 2009,
+     "title": "Architecture Depends",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Till argued that architecture is always contingent on people, time and circumstance, and that pretending otherwise is a professional fantasy. It shapes current thinking on participation, ethics and the social responsibility of architects.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Carpo",
+     "year": 2011,
+     "title": "The Alphabet and the Algorithm",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Carpo argued that digital design ends the Albertian idea of the architect as author of an identical, reproducible design, and returns architecture to variability. It frames current debates on authorship, mass customisation and AI-generated design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Easterling",
+     "year": 2014,
+     "title": "Extrastatecraft: The Power of Infrastructure Space",
+     "venue": "Verso",
+     "type": "book",
+     "why": "Easterling showed that free zones, broadband networks and technical standards act as a hidden layer of governance in space. It moved theory toward infrastructure as a medium of power, a focus that now dominates critical practice.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Architectural history",
+   "lead": "Historians are rewriting modern architecture as a global story of empire, race, media, energy and the Cold War, asking whom buildings served and what they cost.",
+   "papers": [
+    {
+     "authors": "Banham",
+     "year": 1960,
+     "title": "Theory and Design in the First Machine Age",
+     "venue": "Architectural Press",
+     "type": "book",
+     "why": "Banham showed that the modern movement's claims to be a rational architecture of the machine age were largely rhetoric. That habit of testing modernism against its own claims became the core method of critical architectural history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Banham",
+     "year": 1969,
+     "title": "The Architecture of the Well-Tempered Environment",
+     "venue": "Architectural Press",
+     "type": "book",
+     "why": "Banham wrote the history of buildings through heating, ventilation, lighting and air conditioning rather than form. It is the direct ancestor of today's energy, climate and infrastructure histories of architecture.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Frampton",
+     "year": 1980,
+     "title": "Modern Architecture: A Critical History",
+     "venue": "Thames & Hudson",
+     "type": "book",
+     "why": "Frampton's survey tied modern architecture to politics, technology and construction rather than style. Repeatedly updated, it is still the standard narrative, and much current work positions itself as a correction of its scope.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wright",
+     "year": 1991,
+     "title": "The Politics of Design in French Colonial Urbanism",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Wright showed how French planners used colonial cities as laboratories for managing difference and governing populations. It opened the study of architecture and empire, now one of the field's main research areas.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Colomina",
+     "year": 1994,
+     "title": "Privacy and Publicity: Modern Architecture as Mass Media",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Colomina argued that modern architecture was produced and consumed through photographs, magazines and exhibitions as much as buildings. It made media a central object of the field, extended now to digital images and social platforms.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wigley",
+     "year": 1995,
+     "title": "White Walls, Designer Dresses: The Fashioning of Modern Architecture",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Wigley showed that modernism's white wall was a form of dress, tied to fashion, hygiene and the body. It undid the story of modernism as pure rationality and shaped later histories of surface, gender and ornament.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chattopadhyay",
+     "year": 2005,
+     "title": "Representing Calcutta: Modernity, Nationalism, and the Colonial Uncanny",
+     "venue": "Routledge",
+     "type": "book",
+     "why": "Chattopadhyay showed how colonial and nationalist spaces in Calcutta shaped each other rather than one simply imposing on the other. It is a model for the postcolonial, city-centred history that the field now practises.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aureli",
+     "year": 2011,
+     "title": "The Possibility of an Absolute Architecture",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Aureli traced a lineage of architecture that defines itself by separating from and framing the city's economy, from Palladio to Ungers. It links historical work directly to current arguments about architecture's political form and autonomy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Barber",
+     "year": 2016,
+     "title": "A House in the Sun: Modern Architecture and Solar Energy in the Cold War",
+     "venue": "Oxford University Press",
+     "type": "book",
+     "why": "Barber recovered a postwar culture of solar house design and showed how it was sidelined by cheap fossil fuel. It is a key work in the field's environmental turn and its interest in how buildings and energy politics shaped each other.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cheng, Davis & Wilson",
+     "year": 2020,
+     "title": "Race and Modern Architecture: A Critical History from the Enlightenment to the Present",
+     "venue": "University of Pittsburgh Press",
+     "type": "book",
+     "why": "This edited volume shows that ideas of race were built into modern architecture's theories, institutions and buildings from the start. It sets the agenda for the most active research area in the field today.",
+     "verified": false,
+     "conf": "high",
+     "note": "Edited volume (eds. Irene Cheng, Charles L. Davis II & Mabel O. Wilson)."
+    }
+   ],
+   "more": [
+    {
+     "authors": "Çelik",
+     "year": 1997,
+     "title": "Urban Forms and Colonial Confrontations: Algiers under French Rule",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Çelik showed how colonial planning and Algerian resistance shaped Algiers together. It is a reference point for histories of colonial cities that take the colonised as actors.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Heynen",
+     "year": 1999,
+     "title": "Architecture and Modernity: A Critique",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Heynen read modern architecture through critical theory, separating modernity as experience from modernism as programme. It remains the standard theoretical frame for asking what 'modern' meant in architecture.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Martin",
+     "year": 2003,
+     "title": "The Organizational Complex: Architecture, Media, and Corporate Space",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Martin showed how postwar corporate architecture was shaped by cybernetics, systems thinking and corporate organisation. It opened the history of architecture and information that current work on computation and networks builds on.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Crinson",
+     "year": 2003,
+     "title": "Modern Architecture and the End of Empire",
+     "venue": "Ashgate",
+     "type": "book",
+     "why": "Crinson traced how British modernism was exported through late colonial and decolonising building programmes. It helped turn attention to modernism's global and imperial circuits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Scott",
+     "year": 2007,
+     "title": "Architecture or Techno-Utopia: Politics after Modernism",
+     "venue": "MIT Press",
+     "type": "book",
+     "why": "Scott examined the radical and experimental architecture of the 1960s and 70s and its uneasy ties to technology and politics. It shapes current debates on what architectural activism can achieve.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wilson",
+     "year": 2012,
+     "title": "Negro Building: Black Americans in the World of Fairs and Museums",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Wilson showed how Black Americans used exhibitions and museums to construct public space and identity against exclusion. It is foundational to the growing field of race and American architectural history.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harris",
+     "year": 2013,
+     "title": "Little White Houses: How the Postwar Home Constructed Race in America",
+     "venue": "University of Minnesota Press",
+     "type": "book",
+     "why": "Harris showed how magazines, plans and design advice made the postwar suburban house a marker of whiteness and class. It connects architectural history directly to current debates on housing and segregation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chang",
+     "year": 2016,
+     "title": "A Genealogy of Tropical Architecture: Colonial Networks, Nature and Technoscience",
+     "venue": "Routledge",
+     "type": "book",
+     "why": "Chang traced how tropical architecture emerged from colonial science, health policy and climate knowledge. It joins the colonial and environmental strands that now drive the field.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Abramson",
+     "year": 2016,
+     "title": "Obsolescence: An Architectural History",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Abramson showed how the idea that buildings wear out economically shaped postwar demolition, design and finance. It is central to current debates on reuse, embodied carbon and the life span of buildings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stanek",
+     "year": 2020,
+     "title": "Architecture in Global Socialism: Eastern Europe, West Africa, and the Middle East in the Cold War",
+     "venue": "Princeton University Press",
+     "type": "book",
+     "why": "Stanek showed how architects and firms from socialist countries built across Africa and the Middle East outside Western networks. It is the leading example of the field's turn to global, non-Western circuits of modernism.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Urban planning",
+   "lead": "Planning is focused on housing supply and zoning reform, car dependence, segregation and neighbourhood opportunity, informal urbanisation in the global South, and who gets a say in shaping cities.",
+   "papers": [
+    {
+     "authors": "Jacobs",
+     "year": 1961,
+     "title": "The Death and Life of Great American Cities",
+     "venue": "Random House",
+     "type": "book",
+     "why": "Jacobs attacked urban renewal and argued that mixed uses, short blocks, old buildings and dense street life make cities work. Its ideas still set the terms of urbanist practice and of today's arguments over density and zoning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arnstein",
+     "year": 1969,
+     "title": "A Ladder of Citizen Participation",
+     "venue": "Journal of the American Institute of Planners",
+     "type": "paper",
+     "why": "Arnstein separated genuine citizen power from tokenism on an eight-rung ladder. Planners and critics still use it to judge engagement, and it now sits at the centre of arguments over whether participation has become a tool for blocking housing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rittel & Webber",
+     "year": 1973,
+     "title": "Dilemmas in a General Theory of Planning",
+     "venue": "Policy Sciences",
+     "type": "paper",
+     "why": "Rittel and Webber introduced 'wicked problems' that cannot be cleanly defined or solved. It ended the hope of a purely technical planning science and is invoked constantly for climate, housing and equity.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Logan & Molotch",
+     "year": 1987,
+     "title": "Urban Fortunes: The Political Economy of Place",
+     "venue": "University of California Press",
+     "type": "book",
+     "why": "Logan and Molotch described cities as growth machines run by coalitions that profit from rising land values. It remains the main framework for analysing development politics and who gains from growth.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cervero & Kockelman",
+     "year": 1997,
+     "title": "Travel Demand and the 3Ds: Density, Diversity, and Design",
+     "venue": "Transportation Research Part D: Transport and Environment",
+     "type": "paper",
+     "why": "The paper measured how density, land-use mix and street design change how much people drive. It became the evidence base for transit-oriented development and compact-growth policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Roy",
+     "year": 2005,
+     "title": "Urban Informality: Toward an Epistemology of Planning",
+     "venue": "Journal of the American Planning Association",
+     "type": "paper",
+     "why": "Roy argued that informality is a mode of urbanisation that states produce and use, not a deviation to be cleared. It reshaped planning theory around the global South, where most urban growth now happens.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Glaeser, Gyourko & Saks",
+     "year": 2005,
+     "title": "Why Is Manhattan So Expensive? Regulation and the Rise in Housing Prices",
+     "venue": "Journal of Law and Economics",
+     "type": "paper",
+     "why": "The authors showed that high housing prices in many US cities reflect regulatory limits on building, not land scarcity or construction costs. It underlies the current zoning reform and housing-abundance movement.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shoup",
+     "year": 2005,
+     "title": "The High Cost of Free Parking",
+     "venue": "Planners Press (American Planning Association)",
+     "type": "book",
+     "why": "Shoup showed that minimum parking requirements and underpriced curb space distort land use, travel and housing costs. It drove the wave of parking-minimum repeal now spreading across cities.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Harvey",
+     "year": 2008,
+     "title": "The Right to the City",
+     "venue": "New Left Review",
+     "type": "paper",
+     "why": "Harvey recast the right to the city as a collective claim over how urban surplus is produced and used. It supplies the vocabulary of housing, anti-gentrification and urban social movements.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rothstein",
+     "year": 2017,
+     "title": "The Color of Law: A Forgotten History of How Our Government Segregated America",
+     "venue": "Liveright",
+     "type": "book",
+     "why": "Rothstein documented how government policy, not just private choice, created residential segregation in the US. It now frames American debates on zoning, housing finance and remedies for racial inequality.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Healey",
+     "year": 1997,
+     "title": "Collaborative Planning: Shaping Places in Fragmented Societies",
+     "venue": "Macmillan",
+     "type": "book",
+     "why": "Healey set out a model of planning as deliberation among many stakeholders. It became the dominant normative theory in planning education, and the target of current critiques that process now outweighs outcomes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Flyvbjerg",
+     "year": 1998,
+     "title": "Rationality and Power: Democracy in Practice",
+     "venue": "University of Chicago Press",
+     "type": "book",
+     "why": "Flyvbjerg's study of a plan in Aalborg showed power shaping what counts as rational analysis. It is the main counterpoint to communicative planning theory and underlies his later work on why megaprojects overrun.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Watson",
+     "year": 2009,
+     "title": "'The Planned City Sweeps the Poor Away…': Urban Planning and 21st Century Urbanisation",
+     "venue": "Progress in Planning",
+     "type": "paper",
+     "why": "Watson showed how imported planning models clash with the realities of fast-growing cities in Africa and Asia. It is a standard reference for the field's southern turn.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Fainstein",
+     "year": 2010,
+     "title": "The Just City",
+     "venue": "Cornell University Press",
+     "type": "book",
+     "why": "Fainstein argued that planning should be judged by equity, diversity and democracy in its outcomes. It is the central normative statement for justice-oriented planning.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ewing & Cervero",
+     "year": 2010,
+     "title": "Travel and the Built Environment: A Meta-Analysis",
+     "venue": "Journal of the American Planning Association",
+     "type": "paper",
+     "why": "This meta-analysis pooled studies to estimate how much built-environment features change driving and walking. It is the evidence most often used in climate and transport plans.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duranton & Turner",
+     "year": 2011,
+     "title": "The Fundamental Law of Road Congestion: Evidence from US Cities",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "The authors showed that new road capacity raises driving roughly one for one, so widening roads does not cut congestion. It is the key evidence behind induced-demand arguments and congestion pricing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bettencourt",
+     "year": 2013,
+     "title": "The Origins of Scaling in Cities",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Bettencourt modelled why urban output, innovation and infrastructure scale predictably with population. It anchors the new science of cities that tries to give planning quantitative laws.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chetty, Hendren & Katz",
+     "year": 2016,
+     "title": "The Effects of Exposure to Better Neighborhoods on Children: New Evidence from the Moving to Opportunity Experiment",
+     "venue": "American Economic Review",
+     "type": "paper",
+     "why": "Re-analysing a housing-voucher experiment, the authors found large adult earnings gains for children who moved young to lower-poverty areas. It drives current housing-mobility and neighbourhood-opportunity policy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hsieh & Moretti",
+     "year": 2019,
+     "title": "Housing Constraints and Spatial Misallocation",
+     "venue": "American Economic Journal: Macroeconomics",
+     "type": "paper",
+     "why": "The authors estimated that housing restrictions in productive cities kept workers out and lowered aggregate US growth. It turned zoning into a national economic issue.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Moreno et al.",
+     "year": 2021,
+     "title": "Introducing the '15-Minute City': Sustainability, Resilience and Place Identity in Future Post-Pandemic Cities",
+     "venue": "Smart Cities",
+     "type": "paper",
+     "why": "The paper set out the idea of neighbourhoods where daily needs sit within a short walk or bike ride. It became a global planning agenda and a political flashpoint.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1601 @@
+{
+ "discipline": "Chemistry",
+ "fields": [
+  {
+   "field": "Organic",
+   "lead": "Organic chemistry is mostly about new ways to make bonds: light, electricity, enzymes and radicals as catalysts, editing ring skeletons directly, running reactions inside cells, and letting data and machine learning steer reaction choice.",
+   "papers": [
+    {
+     "authors": "Kolb, Finn & Sharpless",
+     "year": 2001,
+     "title": "Click Chemistry: Diverse Chemical Function from a Few Good Reactions",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Argued that chemists should build molecules from a few near-perfect, modular reactions instead of chasing every target by bespoke routes. That idea now runs through drug discovery, materials and chemical biology, and new click reactions are still being added to the set.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ahrendt, Borths & MacMillan",
+     "year": 2000,
+     "title": "New Strategies for Organic Catalysis: The First Highly Enantioselective Organocatalytic Diels-Alder Reaction",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Showed that a small chiral amine can activate a substrate by forming an iminium ion, giving a general recipe for metal-free asymmetric catalysis. Its activation modes are still being combined with photoredox and other catalysts in new methods.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Agard, Prescher & Bertozzi",
+     "year": 2004,
+     "title": "A Strain-Promoted [3+2] Azide-Alkyne Cycloaddition for Covalent Modification of Biomolecules in Living Systems",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Used ring strain instead of toxic copper to drive the azide-alkyne reaction, so it can run inside living cells. Bioorthogonal chemistry grew from it and is now used for imaging, drug targeting and antibody-drug conjugates.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nicewicz & MacMillan",
+     "year": 2008,
+     "title": "Merging Photoredox Catalysis with Organocatalysis: The Direct Asymmetric Alkylation of Aldehydes",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that a visible-light photocatalyst can run alongside a second catalytic cycle to make bonds that neither could make alone. This revived photoredox catalysis and set the dual-catalysis pattern behind much current method development.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen, Engle, Wang & Yu",
+     "year": 2009,
+     "title": "Palladium(II)-Catalyzed C-H Activation/C-C Cross-Coupling Reactions: Versatility and Practicality",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Laid out how directing groups let palladium turn ordinary C-H bonds into C-C bonds without first installing a handle. Controlling which C-H bond reacts, and doing it late in a synthesis, is still one of the field's main problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Coelho et al.",
+     "year": 2013,
+     "title": "Olefin cyclopropanation via carbene transfer catalyzed by engineered cytochrome P450 enzymes",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that directed evolution can make an enzyme run a reaction no natural enzyme does. New-to-nature biocatalysis is now a fast-growing route to selective synthesis, including in industry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zuo et al.",
+     "year": 2014,
+     "title": "Merging photoredox with nickel catalysis: Coupling of alpha-carboxyl sp3-carbons with aryl halides",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Paired a light-absorbing iridium catalyst with nickel so that cheap carboxylic acids couple to aryl halides. Metallaphotoredox is now a routine tool in pharmaceutical labs for building three-dimensional, sp3-rich molecules.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cornella et al.",
+     "year": 2016,
+     "title": "Practical Ni-Catalyzed Aryl-Alkyl Cross-Coupling of Secondary Redox-Active Esters",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Turned ordinary carboxylic acids into radical precursors for nickel cross-coupling with simple, bench-stable reagents. It is a key paper in the current shift toward planning syntheses around radical disconnections.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ahneman, Estrada, Lin, Dreher & Doyle",
+     "year": 2018,
+     "title": "Predicting reaction performance in C-N cross-coupling using machine learning",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used high-throughput experiments plus machine learning to predict yields across thousands of reaction combinations. It started a running debate about what such models really learn, and data-driven reaction optimization is now a major research line.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kennedy, Dherange, Berger & Levin",
+     "year": 2021,
+     "title": "Skeletal editing through direct nitrogen deletion of secondary amines",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Removed a single nitrogen atom from the middle of a molecule and stitched the carbon skeleton back together. Skeletal editing, changing a ring's atoms rather than its decorations, is one of the most active new areas in synthesis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "List, Lerner & Barbas",
+     "year": 2000,
+     "title": "Proline-Catalyzed Direct Asymmetric Aldol Reactions",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Showed that the amino acid proline catalyzes an enantioselective aldol reaction through enamine activation. Together with iminium catalysis it defined modern organocatalysis, recognized by the 2021 Nobel Prize.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rostovtsev, Green, Fokin & Sharpless",
+     "year": 2002,
+     "title": "A Stepwise Huisgen Cycloaddition Process: Copper(I)-Catalyzed Regioselective \"Ligation\" of Azides and Terminal Alkynes",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Reported the copper-catalyzed azide-alkyne cycloaddition, the reaction that made click chemistry practical. It remains the most used click reaction in materials and drug discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen & White",
+     "year": 2007,
+     "title": "A Predictably Selective Aliphatic C-H Oxidation Reaction for Complex Molecule Synthesis",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that an iron catalyst can oxidize one particular unactivated C-H bond in a complex molecule according to simple electronic and steric rules. It made late-stage C-H oxidation look predictable and is still a model for selectivity design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Savile et al.",
+     "year": 2010,
+     "title": "Biocatalytic Asymmetric Synthesis of Chiral Amines from Ketones Applied to Sitagliptin Manufacture",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Evolved a transaminase to replace a rhodium-catalyzed step in making a diabetes drug at scale. It is the standard example of engineered enzymes beating metal catalysis in industry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Prier, Rankic & MacMillan",
+     "year": 2013,
+     "title": "Visible Light Photoredox Catalysis with Transition Metal Complexes: Applications in Organic Synthesis",
+     "venue": "Chemical Reviews",
+     "type": "paper",
+     "why": "Gives the working principles of photoredox catalysis: excited-state redox potentials, quenching cycles and reaction types. It is the standard entry point to the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Tellis, Primer & Molander",
+     "year": 2014,
+     "title": "Single-electron transmetalation in organoboron cross-coupling by photoredox/nickel dual catalysis",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Published alongside the MacMillan-Doyle paper, it used photoredox to feed alkyl radicals from trifluoroborates into nickel catalysis. It helped show metallaphotoredox was general rather than a one-off.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Dong, Krasnova, Finn & Sharpless",
+     "year": 2014,
+     "title": "Sulfur(VI) Fluoride Exchange (SuFEx): Another Good Reaction for Click Chemistry",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Added sulfur(VI) fluoride exchange to the click toolkit. SuFEx is now widely used for covalent drug probes, polymers and fast library synthesis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Li et al.",
+     "year": 2015,
+     "title": "Synthesis of many different types of organic small molecules using one automated process",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Built many classes of small molecules on one machine by iterative coupling of protected boronate building blocks. It set out the case for automated, generalized synthesis that self-driving labs now pursue.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cernak, Dykstra, Tyagarajan, Vachal & Krska",
+     "year": 2016,
+     "title": "The medicinal chemist's toolbox for late stage functionalization of drug-like molecules",
+     "venue": "Chemical Society Reviews",
+     "type": "paper",
+     "why": "Surveys the methods that modify finished drug candidates directly, mostly by C-H functionalization. It frames what the pharmaceutical industry needs from new methods.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yan, Kawamata & Baran",
+     "year": 2017,
+     "title": "Synthetic Organic Electrochemical Methods Since 2000: On the Verge of a Renaissance",
+     "venue": "Chemical Reviews",
+     "type": "paper",
+     "why": "Reviews the comeback of electrochemistry as a way to drive redox reactions without chemical oxidants or reductants. Electrosynthesis is now a fast-growing part of method development and process chemistry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Inorganic",
+   "lead": "Inorganic chemistry is working on porous frameworks, main-group compounds that behave like transition metals, molecules that act as magnets and qubits, and the metal clusters that biology and synthetic catalysts use to split water and fix nitrogen.",
+   "papers": [
+    {
+     "authors": "Li, Eddaoudi, O'Keeffe & Yaghi",
+     "year": 1999,
+     "title": "Design and synthesis of an exceptionally stable and highly porous metal-organic framework",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported MOF-5, a crystalline framework that stays porous after the solvent is removed. It turned metal-organic frameworks into a design-led field, recognized by the 2025 Nobel Prize, now aimed at gas storage, carbon capture and separations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Yandulov & Schrock",
+     "year": 2003,
+     "title": "Catalytic Reduction of Dinitrogen to Ammonia at a Single Molybdenum Center",
+     "venue": "Science",
+     "type": "paper",
+     "why": "First showed that a single, well-defined metal complex can turn N2 into ammonia catalytically under mild conditions. Much current work on molecular nitrogen fixation builds on or competes with this result.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Welch, Ruiz, Miehlich & Stephan",
+     "year": 2006,
+     "title": "Metal-Free Catalytic Hydrogenation",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that a Lewis acid and base too bulky to bond to each other can split H2 and hydrogenate substrates. Frustrated Lewis pairs are now a broad route to activating small molecules without metals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kanan & Nocera",
+     "year": 2008,
+     "title": "In Situ Formation of an Oxygen-Evolving Catalyst in Neutral Water Containing Phosphate and Co2+",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Found a cobalt-phosphate catalyst that forms by itself on an electrode and oxidizes water in neutral conditions. It launched the search for cheap, self-repairing water-oxidation catalysts for solar fuels.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kamihara, Watanabe, Hirano & Hosono",
+     "year": 2008,
+     "title": "Iron-based layered superconductor La[O1-xFx]FeAs (x = 0.05-0.12) with Tc = 26 K",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Discovered a new family of high-temperature superconductors built on iron, found by solid-state chemistry. How these materials superconduct is still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Power",
+     "year": 2010,
+     "title": "Main-group elements as transition metals",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that heavier main-group compounds can bind and break small molecules like H2 and NH3, which had been thought to need transition metals. It frames the current push for catalysis with cheap, abundant main-group elements.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Umena, Kawakami, Shen & Kamiya",
+     "year": 2011,
+     "title": "Crystal structure of oxygen-evolving photosystem II at a resolution of 1.9 angstrom",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Gave the first clear atomic picture of the Mn4CaO5 cluster that splits water in photosynthesis. It is the reference structure for mechanism debates and for designing artificial water-oxidation catalysts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Spatzal et al.",
+     "year": 2011,
+     "title": "Evidence for interstitial carbon in nitrogenase FeMo cofactor",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Identified the central atom of nitrogenase's iron-molybdenum cofactor as carbon. That changed what synthetic models must reproduce and how the enzyme's N2 reduction is understood.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Furukawa, Cordova, O'Keeffe & Yaghi",
+     "year": 2013,
+     "title": "The Chemistry and Applications of Metal-Organic Frameworks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Maps how MOFs are designed and used after their first fifteen years. It remains the best single overview of the field and its open problems in stability and scale-up.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Guo et al.",
+     "year": 2018,
+     "title": "Magnetic hysteresis up to 80 kelvin in a dysprosium metallocene single-molecule magnet",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Pushed magnetic memory in a single molecule above the boiling point of liquid nitrogen. It showed that ligand design can control lanthanide magnetism, which drives current work on molecular data storage and spin qubits.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Eddaoudi et al.",
+     "year": 2002,
+     "title": "Systematic Design of Pore Size and Functionality in Isoreticular MOFs and Their Application in Methane Storage",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that one MOF topology can be expanded and functionalized systematically by swapping linkers. This isoreticular principle is the core of reticular design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ishikawa, Sugita, Ishikawa, Koshihara & Kaizu",
+     "year": 2003,
+     "title": "Lanthanide Double-Decker Complexes Functioning as Magnets at the Single-Molecular Level",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Showed that a single lanthanide ion in the right ligand field can act as a molecular magnet. It started the single-ion magnet line that led to today's dysprosium records.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cavka et al.",
+     "year": 2008,
+     "title": "A New Zirconium Inorganic Building Brick Forming Metal Organic Frameworks with Exceptional Stability",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Reported UiO-66, a zirconium MOF stable to water, heat and acid. Its stability made MOFs credible for catalysis and real-world use, and it is still a standard platform.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Stephan & Erker",
+     "year": 2010,
+     "title": "Frustrated Lewis Pairs: Metal-free Hydrogen Activation and More",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Reviews how frustrated Lewis pairs activate H2, CO2 and other small molecules. It is the standard overview of the concept and its reach.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arashiba, Miyake & Nishibayashi",
+     "year": 2011,
+     "title": "A molybdenum complex bearing PNP-type pincer ligands leads to the catalytic reduction of dinitrogen into ammonia",
+     "venue": "Nature Chemistry",
+     "type": "paper",
+     "why": "Introduced the pincer-molybdenum systems that later reached high turnover for N2-to-ammonia under ambient conditions. This line now competes with Haber-Bosch in efficiency studies.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Anderson, Rittle & Peters",
+     "year": 2013,
+     "title": "Catalytic conversion of nitrogen to ammonia by an iron model complex",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed the first iron complex that catalytically reduces N2 to ammonia. It linked synthetic models to nitrogenase's iron sites and remains a reference for molecular nitrogen fixation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zadrozny, Niklas, Poluektov & Freedman",
+     "year": 2015,
+     "title": "Millisecond Coherence Time in a Tunable Molecular Electronic Spin Qubit",
+     "venue": "ACS Central Science",
+     "type": "paper",
+     "why": "Showed that removing nuclear spins from a vanadium complex gives coherence times long enough for quantum information. It set the design rules for molecular spin qubits.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goodwin, Ortu, Reta, Chilton & Mills",
+     "year": 2017,
+     "title": "Molecular magnetic hysteresis at 60 kelvin in dysprosocenium",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Broke the long-standing temperature barrier for single-molecule magnets with a dysprosium metallocene. It showed that controlling molecular vibrations is key to magnetic memory.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kim et al.",
+     "year": 2017,
+     "title": "Water harvesting from air with metal-organic frameworks powered by natural sunlight",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Used a MOF to pull drinkable water from dry desert air using only sunlight. It is the best known application demonstration for MOFs and a live engineering target.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kern et al.",
+     "year": 2018,
+     "title": "Structures of the intermediates of Kok's photosynthetic water oxidation clock",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used X-ray free-electron lasers to capture photosystem II at each step of its water-splitting cycle at room temperature. Where and how the O-O bond forms is still argued over these data.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Physical",
+   "lead": "Physical chemistry is pushing measurement to single molecules and attosecond timescales, testing how far quantum coherence and light-matter coupling change chemistry, and building theory for charge transfer and molecules far from equilibrium.",
+   "papers": [
+    {
+     "authors": "Marcus",
+     "year": 1993,
+     "title": "Electron transfer reactions in chemistry. Theory and experiment",
+     "venue": "Reviews of Modern Physics",
+     "type": "paper",
+     "why": "Marcus's Nobel lecture sets out how reorganization energy and driving force control electron-transfer rates, including the inverted region. It is still the working theory for photosynthesis, solar fuels, batteries and electrocatalysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jarzynski",
+     "year": 1997,
+     "title": "Nonequilibrium Equality for Free Energy Differences",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that equilibrium free energies can be recovered from the work done in fast, irreversible processes. It underpins single-molecule pulling experiments, many free-energy simulations and stochastic thermodynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hamm, Lim & Hochstrasser",
+     "year": 1998,
+     "title": "Structure of the Amide I Band of Peptides Measured by Femtosecond Nonlinear-Infrared Spectroscopy",
+     "venue": "The Journal of Physical Chemistry B",
+     "type": "paper",
+     "why": "An early demonstration of two-dimensional infrared spectroscopy on peptides. Multidimensional spectroscopy is now a main tool for watching structure and solvation change on picosecond timescales.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Zewail",
+     "year": 2000,
+     "title": "Femtochemistry: Atomic-Scale Dynamics of the Chemical Bond",
+     "venue": "The Journal of Physical Chemistry A",
+     "type": "paper",
+     "why": "Summarizes how femtosecond laser pulses let chemists watch bonds break and form in real time. X-ray laser, electron diffraction and attosecond experiments today extend this program.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chandler",
+     "year": 2005,
+     "title": "Interfaces and the driving force of hydrophobic assembly",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Explained why the hydrophobic effect depends on the size of the solute and why water near large surfaces behaves differently. It is still the reference point for theories of protein folding and self-assembly in water.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Betzig et al.",
+     "year": 2006,
+     "title": "Imaging intracellular fluorescent proteins at nanometer resolution",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Introduced photoactivated localization microscopy, which beats the diffraction limit by locating single molecules one at a time. Super-resolution imaging is now standard, and pushing its resolution and speed is ongoing work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Engel et al.",
+     "year": 2007,
+     "title": "Evidence for wavelike energy transfer through quantum coherence in photosynthetic systems",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported long-lived quantum beats in a photosynthetic complex using two-dimensional spectroscopy. Whether those coherences matter for function is still argued, and the paper drives the field of quantum effects in biology.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goulielmakis et al.",
+     "year": 2010,
+     "title": "Real-time observation of valence electron motion",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Used attosecond pulses to watch valence electrons move in an ion in real time. Attosecond science, recognized by the 2023 Nobel Prize in Physics, is now moving into molecules and charge migration in chemistry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Weinberg et al.",
+     "year": 2012,
+     "title": "Proton-Coupled Electron Transfer",
+     "venue": "Chemical Reviews",
+     "type": "paper",
+     "why": "A comprehensive account of reactions where electrons and protons move together. Proton-coupled electron transfer is central to current work on water oxidation, CO2 reduction, enzymes and photoredox catalysis.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Hutchison, Schwartz, Genet, Devaux & Ebbesen",
+     "year": 2012,
+     "title": "Modifying Chemical Landscapes by Coupling to Vacuum Fields",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Reported that strongly coupling molecules to an optical cavity changes a photochemical reaction rate. It started polariton chemistry, whose effects and mechanisms are still disputed.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Moerner & Kador",
+     "year": 1989,
+     "title": "Optical detection and spectroscopy of single molecules in a solid",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "First detected the optical absorption of a single molecule. Single-molecule spectroscopy, and the super-resolution imaging built on it, trace back here.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bryngelson, Onuchic, Socci & Wolynes",
+     "year": 1995,
+     "title": "Funnels, pathways, and the energy landscape of protein folding: a synthesis",
+     "venue": "Proteins: Structure, Function, and Bioinformatics",
+     "type": "paper",
+     "why": "Set out the funnel-shaped energy landscape view of protein folding. It still shapes how chemists and biophysicists think about folding, misfolding and complex free-energy surfaces.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Crooks",
+     "year": 1999,
+     "title": "Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences",
+     "venue": "Physical Review E",
+     "type": "paper",
+     "why": "Derived a fluctuation theorem that connects forward and reverse work distributions to free energy. Crooks' relation is used with Jarzynski's in experiments and simulations.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Liphardt et al.",
+     "year": 2002,
+     "title": "Equilibrium information from nonequilibrium measurements in an experimental test of Jarzynski's equality",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Tested Jarzynski's equality by mechanically unfolding single RNA molecules. It showed the nonequilibrium relations work in the lab and opened single-molecule thermodynamics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Shen & Ostroverkhov",
+     "year": 2006,
+     "title": "Sum-Frequency Vibrational Spectroscopy on Water Interfaces: Polar Orientation of Water Molecules at Interfaces",
+     "venue": "Chemical Reviews",
+     "type": "paper",
+     "why": "Reviews how sum-frequency spectroscopy picks out molecules at interfaces only. It is the main experimental window on interfacial water, a central question for electrochemistry and atmospheric chemistry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Rust, Bates & Zhuang",
+     "year": 2006,
+     "title": "Sub-diffraction-limit imaging by stochastic optical reconstruction microscopy (STORM)",
+     "venue": "Nature Methods",
+     "type": "paper",
+     "why": "Reported STORM, a parallel route to single-molecule localization imaging using switchable dyes. Together with PALM it defines modern super-resolution microscopy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ishizaki & Fleming",
+     "year": 2009,
+     "title": "Theoretical examination of quantum coherence in a photosynthetic system at physiological temperature",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Modeled how electronic coherence might survive in a photosynthetic complex at room temperature. It is a key paper on one side of the coherence debate.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Duan et al.",
+     "year": 2017,
+     "title": "Nature does not rely on long-lived electronic quantum coherence for photosynthetic energy transfer",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Re-measured the same photosynthetic complex and found electronic coherence too short-lived to matter for function. It is the main counterweight to the 2007 claim and shows the debate is not settled.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nisoli, Decleva, Calegari, Palacios & Martin",
+     "year": 2017,
+     "title": "Attosecond Electron Dynamics in Molecules",
+     "venue": "Chemical Reviews",
+     "type": "paper",
+     "why": "Reviews experiments and theory on electron motion in molecules at attosecond times. It maps the open question of whether electronic dynamics can be used to steer chemical reactions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Thomas et al.",
+     "year": 2019,
+     "title": "Tilting a ground-state reactivity landscape by vibrational strong light-matter coupling",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reported that coupling a molecular vibration to an optical cavity changes which product a ground-state reaction forms. Reproducing and explaining such cavity effects is a live controversy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Theoretical & computational",
+   "lead": "Computational chemistry is being reshaped by machine-learned interatomic potentials and generative models, while still working on better density functionals and affordable high-accuracy methods, and on whether quantum computers will help with electronic structure.",
+   "papers": [
+    {
+     "authors": "Kohn & Sham",
+     "year": 1965,
+     "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+     "venue": "Physical Review",
+     "type": "paper",
+     "why": "Turned density-functional theory into a practical scheme of one-electron equations. Nearly all electronic-structure calculations on molecules and materials still use it, and the hunt for a better exchange-correlation functional continues.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Warshel & Levitt",
+     "year": 1976,
+     "title": "Theoretical studies of enzymic reactions: Dielectric, electrostatic and steric stabilization of the carbonium ion in the reaction of lysozyme",
+     "venue": "Journal of Molecular Biology",
+     "type": "paper",
+     "why": "Treated the reacting atoms with quantum mechanics and the rest of the enzyme with classical mechanics. QM/MM remains the main way to model chemistry in enzymes and solution.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Raghavachari, Trucks, Pople & Head-Gordon",
+     "year": 1989,
+     "title": "A fifth-order perturbation comparison of electron correlation theories",
+     "venue": "Chemical Physics Letters",
+     "type": "paper",
+     "why": "Introduced CCSD(T), still the gold standard for accurate energies of small molecules. Cheaper methods and machine-learned models are judged against it, and making it affordable for large systems is ongoing work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Becke",
+     "year": 1993,
+     "title": "Density-functional thermochemistry. III. The role of exact exchange",
+     "venue": "The Journal of Chemical Physics",
+     "type": "paper",
+     "why": "Showed that mixing exact exchange into DFT greatly improves thermochemistry. Hybrid functionals such as B3LYP became the everyday workhorse of molecular modeling.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Perdew, Burke & Ernzerhof",
+     "year": 1996,
+     "title": "Generalized Gradient Approximation Made Simple",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Gave the PBE functional, built from exact constraints instead of fitting. It is the default for materials and surface calculations and the base for most modern functionals and large training datasets.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Behler & Parrinello",
+     "year": 2007,
+     "title": "Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that neural networks built on atom-centered descriptors can reproduce DFT energies at a fraction of the cost. It began machine-learned potentials, which now drive large-scale reactive and materials simulation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Grimme, Antony, Ehrlich & Krieg",
+     "year": 2010,
+     "title": "A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu",
+     "venue": "The Journal of Chemical Physics",
+     "type": "paper",
+     "why": "Gave a cheap, general fix for DFT's missing van der Waals forces. D3 corrections are now routine for large, weakly bound and condensed-phase systems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Peruzzo et al.",
+     "year": 2014,
+     "title": "A variational eigenvalue solver on a photonic quantum processor",
+     "venue": "Nature Communications",
+     "type": "paper",
+     "why": "Introduced the variational quantum eigensolver for computing molecular energies on quantum hardware. Whether such algorithms can ever beat classical methods for chemistry is an open and heavily studied question.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gomez-Bombarelli et al.",
+     "year": 2018,
+     "title": "Automatic Chemical Design Using a Data-Driven Continuous Representation of Molecules",
+     "venue": "ACS Central Science",
+     "type": "paper",
+     "why": "Used a variational autoencoder to map molecules into a continuous space where properties can be optimized. It started generative molecular design, now a major direction in drug and materials discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Batzner et al.",
+     "year": 2022,
+     "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+     "venue": "Nature Communications",
+     "type": "paper",
+     "why": "Introduced NequIP, which builds rotational symmetry into the network and learns accurate potentials from little data. Equivariant networks are now the leading architecture for learned force fields.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Cohen, Mori-Sanchez & Yang",
+     "year": 2008,
+     "title": "Insights into Current Limitations of Density Functional Theory",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Traced many DFT failures to delocalization and static-correlation errors. It frames what new functionals, including machine-learned ones, have to fix.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bartok, Payne, Kondor & Csanyi",
+     "year": 2010,
+     "title": "Gaussian Approximation Potentials: The Accuracy of Quantum Mechanics, without the Electrons",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Introduced kernel-based machine-learned potentials. The GAP approach and its descriptors remain a main alternative to neural networks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Riplinger & Neese",
+     "year": 2013,
+     "title": "An efficient and near linear scaling pair natural orbital based local coupled cluster method",
+     "venue": "The Journal of Chemical Physics",
+     "type": "paper",
+     "why": "Introduced DLPNO-CCSD(T), bringing near-gold-standard accuracy to molecules with hundreds of atoms. It is widely used for benchmarks and for generating ML training data.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mardirossian & Head-Gordon",
+     "year": 2017,
+     "title": "Thirty years of density functional theory in computational chemistry: an overview and extensive assessment of 200 density functionals",
+     "venue": "Molecular Physics",
+     "type": "paper",
+     "why": "Benchmarked 200 functionals on a large dataset. It is the practical guide to which functionals work and where they fail.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Smith, Isayev & Roitberg",
+     "year": 2017,
+     "title": "ANI-1: an extensible neural network potential with DFT accuracy at force field computational cost",
+     "venue": "Chemical Science",
+     "type": "paper",
+     "why": "Showed that one neural potential trained on many small organic molecules transfers to new ones. It started the push for general-purpose learned potentials for organic chemistry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gilmer, Schoenholz, Riley, Vinyals & Dahl",
+     "year": 2017,
+     "title": "Neural Message Passing for Quantum Chemistry",
+     "venue": "Proceedings of the 34th International Conference on Machine Learning (PMLR 70)",
+     "type": "paper",
+     "why": "Unified graph neural networks for molecules as message-passing schemes and set results on QM9. Most molecular property and potential models today use this framework.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Reiher, Wiebe, Svore, Wecker & Troyer",
+     "year": 2017,
+     "title": "Elucidating reaction mechanisms on quantum computers",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Estimated the quantum resources needed to compute the nitrogenase FeMo cofactor accurately. It made resource estimates for useful quantum chemistry a research area in itself.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Segler, Preuss & Waller",
+     "year": 2018,
+     "title": "Planning chemical syntheses with deep neural networks and symbolic AI",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Combined neural networks with tree search to plan multistep syntheses that chemists rated as plausible. Computer-aided retrosynthesis is now used in industry and is still improving.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kirkpatrick et al.",
+     "year": 2021,
+     "title": "Pushing the frontiers of density functionals by solving the fractional electron problem",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Trained a neural-network functional (DM21) on exact constraints for fractional charge and spin. It showed machine learning can attack DFT's core errors, though how well it generalizes is still debated.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Batatia, Kovacs, Simm, Ortner & Csanyi",
+     "year": 2022,
+     "title": "MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields",
+     "venue": "Advances in Neural Information Processing Systems",
+     "type": "paper",
+     "why": "Introduced MACE, an efficient higher-order equivariant potential. It underlies current foundation models that cover much of the periodic table.",
+     "verified": false,
+     "conf": "low",
+     "note": "NeurIPS 2022 (vol. 35); author list from memory."
+    }
+   ]
+  },
+  {
+   "field": "Materials & polymers",
+   "lead": "Materials and polymer chemistry is focused on energy materials such as perovskites and battery electrodes, two-dimensional materials, precisely controlled polymers, and plastics that can be reprocessed or recycled back to monomer.",
+   "papers": [
+    {
+     "authors": "Wang & Matyjaszewski",
+     "year": 1995,
+     "title": "Controlled/Living Radical Polymerization. Atom Transfer Radical Polymerization in the Presence of Transition-Metal Complexes",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Showed that a metal catalyst can tame radical polymerization so chain length and architecture are controlled. ATRP remains one of the main tools for designed polymers, now including light- and electricity-driven versions.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Padhi, Nanjundaswamy & Goodenough",
+     "year": 1997,
+     "title": "Phospho-olivines as Positive-Electrode Materials for Rechargeable Lithium Batteries",
+     "venue": "Journal of The Electrochemical Society",
+     "type": "paper",
+     "why": "Introduced LiFePO4 as a safe, cheap cathode. It is now a leading chemistry for electric vehicles and grid storage, and cobalt-free cathodes are a main research target.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Novoselov et al.",
+     "year": 2004,
+     "title": "Electric Field Effect in Atomically Thin Carbon Films",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Isolated graphene and measured its electronic properties. It opened the field of two-dimensional materials, which now includes many layered compounds and stacked heterostructures.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cote, Benin, Ockwig, O'Keeffe, Matzger & Yaghi",
+     "year": 2005,
+     "title": "Porous, Crystalline, Covalent Organic Frameworks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Made the first crystalline frameworks linked only by covalent bonds between light elements. COFs are now designed for separations, catalysis, sensing and batteries.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kojima, Teshima, Shirai & Miyasaka",
+     "year": 2009,
+     "title": "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "First used a lead halide perovskite in a solar cell. Perovskite cells now rival silicon in efficiency, and long-term stability and lead toxicity are the main unsolved problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Davis et al.",
+     "year": 2009,
+     "title": "Force-induced activation of covalent bonds in mechanoresponsive polymeric materials",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that stretching a bulk polymer can trigger a specific chemical reaction in embedded mechanophores. Polymer mechanochemistry grew from it, aimed at self-reporting and self-strengthening materials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Montarnal, Capelot, Tournilhac & Leibler",
+     "year": 2011,
+     "title": "Silica-Like Malleable Materials from Permanent Organic Networks",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Introduced vitrimers, crosslinked networks that rearrange their bonds and flow like glass when heated. They point to thermosets that can be reshaped, repaired and recycled.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Naguib et al.",
+     "year": 2011,
+     "title": "Two-Dimensional Nanocrystals Produced by Exfoliation of Ti3AlC2",
+     "venue": "Advanced Materials",
+     "type": "paper",
+     "why": "Made MXenes by etching layered carbides into two-dimensional sheets. MXenes are now one of the largest and most studied 2D families, used in energy storage, shielding and catalysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Uoyama, Goushi, Shizu, Nomura & Adachi",
+     "year": 2012,
+     "title": "Highly efficient organic light-emitting diodes from delayed fluorescence",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that purely organic emitters can harvest triplet excitons through thermally activated delayed fluorescence. TADF emitters are now a main route to efficient OLEDs without rare metals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Coates & Getzler",
+     "year": 2020,
+     "title": "Chemical recycling to monomer for an ideal, circular polymer economy",
+     "venue": "Nature Reviews Materials",
+     "type": "paper",
+     "why": "Sets out the chemistry of polymers that can be broken back to their monomers and rebuilt. It frames one of the field's main current goals: plastics designed for circular use.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Chiefari et al.",
+     "year": 1998,
+     "title": "Living Free-Radical Polymerization by Reversible Addition-Fragmentation Chain Transfer: The RAFT Process",
+     "venue": "Macromolecules",
+     "type": "paper",
+     "why": "Introduced RAFT, a metal-free route to controlled radical polymerization. With ATRP it underlies most precision polymer synthesis today.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cordier, Tournilhac, Soulie-Ziakovic & Leibler",
+     "year": 2008,
+     "title": "Self-healing and thermoreversible rubber from supramolecular assembly",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Made a rubber held together by hydrogen bonds that heals when cut pieces are pressed together. It helped start self-healing and dynamic polymer networks.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Mak, Lee, Hone, Shan & Heinz",
+     "year": 2010,
+     "title": "Atomically Thin MoS2: A New Direct-Gap Semiconductor",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Showed that monolayer MoS2 becomes a direct-gap semiconductor. It moved 2D research beyond graphene toward transition-metal dichalcogenides for optoelectronics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kamaya et al.",
+     "year": 2011,
+     "title": "A lithium superionic conductor",
+     "venue": "Nature Materials",
+     "type": "paper",
+     "why": "Reported a sulfide solid with lithium conductivity matching liquid electrolytes. It made solid-state batteries a realistic target, now pursued by industry.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lee, Teuscher, Murakami, Miyasaka & Snaith",
+     "year": 2012,
+     "title": "Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed perovskites carry charge themselves and reached about 10% efficiency in a solid-state cell. It triggered the perovskite photovoltaic boom.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Goodenough & Park",
+     "year": 2013,
+     "title": "The Li-Ion Rechargeable Battery: A Perspective",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Lays out the chemical limits of Li-ion electrodes and electrolytes. It is still a standard framing of what next-generation batteries must solve.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Jain et al.",
+     "year": 2013,
+     "title": "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation",
+     "venue": "APL Materials",
+     "type": "paper",
+     "why": "Described an open database of computed properties for many thousands of inorganic compounds. It is now core infrastructure for computational screening and machine learning in materials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Protesescu et al.",
+     "year": 2015,
+     "title": "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX3, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut",
+     "venue": "Nano Letters",
+     "type": "paper",
+     "why": "Made bright, tunable perovskite nanocrystals by simple synthesis. Perovskite quantum dots are now a major topic for displays and light sources.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Christensen, Scheuermann, Loeffler & Helms",
+     "year": 2019,
+     "title": "Closed-loop recycling of plastics enabled by dynamic covalent diketoenamine bonds",
+     "venue": "Nature Chemistry",
+     "type": "paper",
+     "why": "Designed plastics that can be broken down in acid to recover monomers and remade into new plastic. It is a leading example of designing polymers for circular recycling.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Szymanski et al.",
+     "year": 2023,
+     "title": "An autonomous laboratory for the accelerated synthesis of novel materials",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reported a robotic lab that planned and made new inorganic materials with AI guidance. Its claims were challenged, which made it a focal point in the debate over autonomous discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Catalysis",
+   "lead": "Catalysis research is focused on electrocatalysis and photocatalysis for fuels and chemicals from renewable power, on single-atom and earth-abundant metal catalysts, on understanding real active sites, and on engineered enzymes.",
+   "papers": [
+    {
+     "authors": "Fujishima & Honda",
+     "year": 1972,
+     "title": "Electrochemical Photolysis of Water at a Semiconductor Electrode",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that a TiO2 electrode under light can split water. Making solar-driven water splitting efficient and cheap is still an open goal for solar fuels.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Honkala et al.",
+     "year": 2005,
+     "title": "Ammonia Synthesis from First-Principles Calculations",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Computed the rate of industrial ammonia synthesis from first principles and matched experiment. It showed that theory can predict real heterogeneous catalysis, which now guides catalyst design.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Surry & Buchwald",
+     "year": 2008,
+     "title": "Biaryl Phosphane Ligands in Palladium-Catalyzed Amination",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Explains how biaryl phosphine ligand design makes C-N cross-coupling general. These ligands are workhorses in pharmaceutical synthesis, and ligand design remains central to homogeneous catalysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Norskov, Bligaard, Rossmeisl & Christensen",
+     "year": 2009,
+     "title": "Towards the computational design of solid catalysts",
+     "venue": "Nature Chemistry",
+     "type": "paper",
+     "why": "Showed how a few descriptors, such as adsorption energies, predict catalytic activity through scaling relations and volcano plots. This framework guides most computational catalyst screening, and breaking the scaling relations is a current goal.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chirik & Wieghardt",
+     "year": 2010,
+     "title": "Radical Ligands Confer Nobility on Base-Metal Catalysts",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Argued that redox-active ligands let iron and cobalt behave like precious metals by storing electrons. This idea drives the current effort to replace palladium, platinum and rhodium with abundant metals.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Qiao et al.",
+     "year": 2011,
+     "title": "Single-atom catalysis of CO oxidation using Pt1/FeOx",
+     "venue": "Nature Chemistry",
+     "type": "paper",
+     "why": "Showed that isolated platinum atoms on an oxide support are active catalysts. Single-atom catalysis is now a major field, with ongoing debate about the true active sites.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Behrens et al.",
+     "year": 2012,
+     "title": "The Active Site of Methanol Synthesis over Cu/ZnO/Al2O3 Industrial Catalysts",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Identified the active site of an industrial methanol catalyst as copper steps decorated with zinc. It is a model for linking real industrial catalysts to atomic-level structure, relevant now to CO2-to-methanol.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Seh et al.",
+     "year": 2017,
+     "title": "Combining theory and experiment in electrocatalysis: Insights into materials design",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reviews how theory and experiment together guide catalysts for hydrogen evolution, oxygen reduction and evolution, and CO2 and N2 reduction. It is the standard map of electrocatalysis for renewable fuels.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Arnold",
+     "year": 2018,
+     "title": "Directed Evolution: Bringing New Chemistry to Life",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Arnold's Nobel lecture on directed evolution, including enzymes that catalyze reactions unknown in nature. Engineered enzymes are now a main frontier in selective catalysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nitopi et al.",
+     "year": 2019,
+     "title": "Progress and Perspectives of Electrochemical CO2 Reduction on Copper in Aqueous Electrolyte",
+     "venue": "Chemical Reviews",
+     "type": "paper",
+     "why": "Reviews why copper is the only metal that turns CO2 into multi-carbon products in useful amounts. Controlling that selectivity is one of the field's central problems.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Norskov et al.",
+     "year": 2004,
+     "title": "Origin of the Overpotential for Oxygen Reduction at a Fuel-Cell Cathode",
+     "venue": "The Journal of Physical Chemistry B",
+     "type": "paper",
+     "why": "Introduced the computational hydrogen electrode, which links computed adsorption energies to electrode potentials. It is the basic method of computational electrocatalysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang et al.",
+     "year": 2009,
+     "title": "A metal-free polymeric photocatalyst for hydrogen production from water under visible light",
+     "venue": "Nature Materials",
+     "type": "paper",
+     "why": "Showed that graphitic carbon nitride, a cheap polymer, produces hydrogen under visible light. It started a large field of organic and polymer photocatalysts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Suntivich, May, Gasteiger, Goodenough & Shao-Horn",
+     "year": 2011,
+     "title": "A Perovskite Oxide Optimized for Oxygen Evolution Catalysis from Molecular Orbital Principles",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Linked oxygen-evolution activity of oxides to the filling of eg orbitals. It is a widely used descriptor for designing water-oxidation catalysts.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kuhl, Cave, Abram & Jaramillo",
+     "year": 2012,
+     "title": "New insights into the electrochemical reduction of carbon dioxide on metallic copper surfaces",
+     "venue": "Energy & Environmental Science",
+     "type": "paper",
+     "why": "Identified and quantified many products of CO2 reduction on copper with careful analysis. It is the experimental baseline for copper CO2 electrocatalysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Bornscheuer et al.",
+     "year": 2012,
+     "title": "Engineering the third wave of biocatalysis",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Describes how protein engineering made enzymes practical industrial catalysts. It frames the current growth of biocatalysis in manufacturing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "McCrory, Jung, Peters & Jaramillo",
+     "year": 2013,
+     "title": "Benchmarking Heterogeneous Electrocatalysts for the Oxygen Evolution Reaction",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Set a common protocol for comparing oxygen-evolution catalysts. It is the reference for fair benchmarking in electrocatalysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang, Li & Zhang",
+     "year": 2018,
+     "title": "Heterogeneous single-atom catalysis",
+     "venue": "Nature Reviews Chemistry",
+     "type": "paper",
+     "why": "Reviews the synthesis, characterization and behavior of single-atom catalysts. It is the standard overview of a fast-growing area.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Chen et al.",
+     "year": 2018,
+     "title": "Beyond fossil fuel-driven nitrogen transformations",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Reviews routes to make and use nitrogen compounds without fossil fuels, from enzymes to electrocatalysts. It set the research agenda for sustainable ammonia.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Andersen et al.",
+     "year": 2019,
+     "title": "A rigorous electrochemical ammonia synthesis protocol with quantitative isotope measurements",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Showed that many reported electrochemical ammonia results were contamination and set a strict testing protocol. It reset standards across the field.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Takata et al.",
+     "year": 2020,
+     "title": "Photocatalytic water splitting with a quantum efficiency of almost unity",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Reached near-unity quantum efficiency for overall water splitting on a modified SrTiO3 photocatalyst. It showed that loss-free charge separation is possible, though only under UV light so far.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "field": "Analytical",
+   "lead": "Analytical chemistry is pushing mass spectrometry toward deeper, faster and single-cell proteomics and metabolomics, imaging molecules in tissue, raising NMR sensitivity, and building cheap point-of-care devices.",
+   "papers": [
+    {
+     "authors": "Fenn, Mann, Meng, Wong & Whitehouse",
+     "year": 1989,
+     "title": "Electrospray Ionization for Mass Spectrometry of Large Biomolecules",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that electrospray gives intact, multiply charged ions of proteins. It underlies today's proteomics, metabolomics and native mass spectrometry of protein complexes.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Nie & Emory",
+     "year": 1997,
+     "title": "Probing Single Molecules and Single Nanoparticles by Surface-Enhanced Raman Scattering",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Detected single molecules by surface-enhanced Raman scattering at hot spots on silver nanoparticles. SERS is now a major sensing method, and controlling hot spots is still an active problem.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Caprioli, Farmer & Gile",
+     "year": 1997,
+     "title": "Molecular Imaging of Biological Samples: Localization of Peptides and Proteins Using MALDI-TOF MS",
+     "venue": "Analytical Chemistry",
+     "type": "paper",
+     "why": "Showed that MALDI mass spectrometry can map where molecules sit in tissue sections. Mass spectrometry imaging is now a fast-growing tool in pathology and spatial omics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Makarov",
+     "year": 2000,
+     "title": "Electrostatic Axially Harmonic Orbital Trapping: A High-Performance Technique of Mass Analysis",
+     "venue": "Analytical Chemistry",
+     "type": "paper",
+     "why": "Introduced the Orbitrap analyzer. Its combination of high resolution and accuracy made it the dominant platform in proteomics and small-molecule analysis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Aebersold & Mann",
+     "year": 2003,
+     "title": "Mass spectrometry-based proteomics",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Defined the workflow and goals of mass-spectrometry proteomics. The field it framed is still working on depth, speed and quantitative accuracy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Ardenkjaer-Larsen et al.",
+     "year": 2003,
+     "title": "Increase in signal-to-noise ratio of > 10,000 times in liquid-state NMR",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced dissolution dynamic nuclear polarization, boosting NMR signals more than ten thousandfold. Hyperpolarized NMR and MRI of metabolism are now in clinical trials.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Syka, Coon, Schroeder, Shabanowitz & Hunt",
+     "year": 2004,
+     "title": "Peptide and protein sequence analysis by electron transfer dissociation mass spectrometry",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Introduced electron transfer dissociation, which fragments peptides while keeping fragile modifications intact. It is central to analyzing post-translational modifications and intact proteins.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Takats, Wiseman, Gologan & Cooks",
+     "year": 2004,
+     "title": "Mass Spectrometry Sampling Under Ambient Conditions with Desorption Electrospray Ionization",
+     "venue": "Science",
+     "type": "paper",
+     "why": "Showed that samples can be analyzed in open air with no preparation. Ambient ionization is now used in forensics, food safety and intraoperative tissue diagnosis.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Whitesides",
+     "year": 2006,
+     "title": "The origins and the future of microfluidics",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Sets out what microfluidics can and cannot do for chemistry and biology. Its agenda still frames lab-on-a-chip and single-cell analysis work.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Martinez, Phillips, Butte & Whitesides",
+     "year": 2007,
+     "title": "Patterned Paper as a Platform for Inexpensive, Low-Volume, Portable Bioassays",
+     "venue": "Angewandte Chemie International Edition",
+     "type": "paper",
+     "why": "Made microfluidic assays on patterned paper. Paper-based diagnostics are now a main approach for cheap testing in low-resource settings.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ],
+   "more": [
+    {
+     "authors": "Kasianowicz, Brandin, Branton & Deamer",
+     "year": 1996,
+     "title": "Characterization of individual polynucleotide molecules using a membrane channel",
+     "venue": "Proceedings of the National Academy of Sciences",
+     "type": "paper",
+     "why": "Showed that single DNA and RNA strands can be detected as they pass through a protein pore. Nanopore sensing led to commercial sequencing and is now being pushed toward protein sequencing.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Kneipp et al.",
+     "year": 1997,
+     "title": "Single Molecule Detection Using Surface-Enhanced Raman Scattering (SERS)",
+     "venue": "Physical Review Letters",
+     "type": "paper",
+     "why": "Independently reported single-molecule SERS in the same year as Nie and Emory. Together they started single-molecule vibrational spectroscopy.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Cox & Mann",
+     "year": 2008,
+     "title": "MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Introduced MaxQuant, software for identifying and quantifying peptides in large datasets. Computational pipelines like it are now as important as the instruments.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Li et al.",
+     "year": 2010,
+     "title": "Shell-isolated nanoparticle-enhanced Raman spectroscopy",
+     "venue": "Nature",
+     "type": "paper",
+     "why": "Coated enhancing gold nanoparticles with thin silica shells so Raman enhancement can be used on any surface. It made SERS practical for studying electrodes and catalysts in operation.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Lesage et al.",
+     "year": 2010,
+     "title": "Surface Enhanced NMR Spectroscopy by Dynamic Nuclear Polarization",
+     "venue": "Journal of the American Chemical Society",
+     "type": "paper",
+     "why": "Used DNP to boost NMR signals from surfaces of materials. DNP-enhanced solid-state NMR is now a main tool for studying catalysts and materials interfaces.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Gillet et al.",
+     "year": 2012,
+     "title": "Targeted Data Extraction of the MS/MS Spectra Generated by Data-independent Acquisition: A New Concept for Consistent and Accurate Proteome Analysis",
+     "venue": "Molecular & Cellular Proteomics",
+     "type": "paper",
+     "why": "Introduced SWATH-MS, fragmenting all ions in wide windows and extracting targets afterward. Data-independent acquisition is now the main direction in quantitative proteomics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Wang et al.",
+     "year": 2016,
+     "title": "Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking",
+     "venue": "Nature Biotechnology",
+     "type": "paper",
+     "why": "Built GNPS, a public platform that groups related molecules by their MS/MS spectra. It is the standard tool for untargeted metabolomics and natural product discovery.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Leney & Heck",
+     "year": 2017,
+     "title": "Native Mass Spectrometry: What is in the Name?",
+     "venue": "Journal of the American Society for Mass Spectrometry",
+     "type": "paper",
+     "why": "Defines native mass spectrometry and what it can say about intact protein complexes. It is the standard introduction to a fast-growing structural biology tool.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Budnik, Levy, Harmange & Slavov",
+     "year": 2018,
+     "title": "SCoPE-MS: mass spectrometry of single mammalian cells quantifies proteome heterogeneity during cell differentiation",
+     "venue": "Genome Biology",
+     "type": "paper",
+     "why": "Showed that proteins in single mammalian cells can be quantified by multiplexed mass spectrometry. Single-cell proteomics is now one of the field's main frontiers.",
+     "verified": true,
+     "conf": "high",
+     "note": ""
+    },
+    {
+     "authors": "Meier et al.",
+     "year": 2020,
+     "title": "diaPASEF: parallel accumulation-serial fragmentation combined with data-independent acquisition",
+     "venue": "Nature Methods",
+     "type": "paper",
+     "why": "Combined trapped ion mobility with data-independent acquisition to raise speed and sensitivity. It is one of the methods driving current high-throughput proteomics.",
+     "verified": false,
+     "conf": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
