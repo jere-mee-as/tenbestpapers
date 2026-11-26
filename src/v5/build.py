@@ -13,7 +13,7 @@ for gi,g in enumerate(P):
                 units.append({'it':iid,'g':key+('  ·  further reading' if k.get('x') else ''),'fk':key,'t':k['f'],'au':parts[0] if parts else '','y':y,'v':parts[-1] if len(parts)>2 else '','m':k.get('m',''),'c':k.get('c',k['f']),'x':1 if k.get('x') else 0})
     tree.append(G)
 core=[u for u in units if not u['x']]
-site={'tree':tree,'units':units,'noun':['paper','papers'],'LINKS':[['By question →','questions.html'],['So you want to understand →','https://jere-mee-as.github.io/understanding/']],'FP':FP,'by':'discipline',
+site={'tree':tree,'units':units,'noun':['paper','papers'],'TABS':[['By discipline','./'],['By question','questions.html']],'LINKS':[['So you want to understand →','https://jere-mee-as.github.io/understanding/']],'FP':FP,'by':'discipline',
  'INTRO':'For every field, the ten papers today’s research runs on. Read them and you’re caught up.'}
 theme=r'''
 :root{--bg:#fdfdfb;--fg:#141414;--fg2:#2a2a2a;--dim:#5f5f5f;--line:#e0dfda;--line2:#ecebe6;--acc:#b31b1b;--hov:#f6f5f0;--sel:#fbf3e9;--hl:#fff3a8;--panel:#f7f6f2;--bar:#fdfdfb;
